@@ -1,0 +1,101 @@
+Source;Target;Combined;Inserts;Deletes;Grammar
+kuolmtuoistõnz;kuolmtuoistõnd;kuolmtuoistõnDEL(z)INS(d);INS(d);DEL(z);ADJ,SG,GEN
+seistuoistõnz;seistuoistõndt;seistuoistõnDEL(z)INS(d)INS(t);INS(d),INS(t);DEL(z);ADJ,SG,PRT
+pȯis;pūošõdõks;pDEL(ȯ)DEL(i)INS(ū)INS(o)INS(š)INS(õ)INS(d)INS(õ)INS(k)s;INS(ū),INS(o),INS(š),INS(õ),INS(d),INS(õ),INS(k);DEL(ȯ),DEL(i);N,PL,INS
+nūoŗim;nūoŗim;nūoŗim;;;ADJ,SG,GEN
+rōntõz;rōntiž;rōntDEL(õ)DEL(z)INS(i)INS(ž);INS(i),INS(ž);DEL(õ),DEL(z);N,PL,IN+ALL
+lešknai;lešknai;lešknai;;;N,SG,NOM
+kalā;kalāks;kalāINS(k)INS(s);INS(k),INS(s);;N,SG,INS
+analōg;analōgõd;analōgINS(õ)INS(d);INS(õ),INS(d);;N,PL,NOM
+äbknaš;äbknašīs;äbknašINS(ī)INS(s);INS(ī),INS(s);;ADJ,PL,IN+ESS
+īdtuoistõnz;īdtuoistõndõs;īdtuoistõnDEL(z)INS(d)INS(õ)INS(s);INS(d),INS(õ),INS(s);DEL(z);ADJ,SG,IN+ESS
+mīez;mīekõks;mīeDEL(z)INS(k)INS(õks);INS(k),INS(õks);DEL(z);N,SG,INS
+ab;abbõ;abINS(b)INS(õ);INS(b),INS(õ);;N,SG,PRT
+allitas;alīzõstassõs;alDEL(l)DEL(i)INS(ī)INS(z)INS(õ)INS(s)taINS(s)INS(s)INS(õ)s;INS(ī),INS(z),INS(õ),INS(s),INS(s),INS(s),INS(õ);DEL(l),DEL(i);N,SG,IN+ESS
+līdõ;līmõt;līDEL(d)INS(m)õINS(t);INS(m),INS(t);DEL(d);V,LGSPEC4
+āmbaz;āmbaz;āmbaz;;;N,SG,NOM
+kȭļimkū;kȭļimkū;kȭļimkū;;;N,SG,NOM
+pǟgiņlug;pǟgiņlug;pǟgiņlug;;;N,SG,NOM
+tūlda;um tulmõst;INS(u)INS(m)INS( )INS(t)INS(u)INS(l)INS(m)INS(õ)INS(s)tDEL(ūl)DEL(da);INS(u),INS(m),INS( ),INS(t),INS(u),INS(l),INS(m),INS(õ),INS(s);DEL(ūl),DEL(da);V,ACT,FIN,DEB,POS,PRS,SG,3
+nūoŗmīez;nūoŗmīeztõ;nūoŗmīezINS(t)INS(õ);INS(t),INS(õ);;N,SG,PRT
+läpš;lapstā;lDEL(ä)DEL(p)DEL(š)INS(a)INS(p)INS(s)INS(t)INS(ā);INS(a),INS(p),INS(s),INS(t),INS(ā);DEL(ä),DEL(p),DEL(š);N,SG,PRT
+kūlõ;äb kūl;INS(ä)INS(b)INS( )kūlDEL(õ);INS(ä),INS(b),INS( );DEL(õ);V,ACT,FIN,IND,NEG,PRS,SG,1
+jellõ;jelāb;jelDEL(l)DEL(õ)INS(ā)INS(b);INS(ā),INS(b);DEL(l),DEL(õ);V,ACT,FIN,IND,POS,PRS,SG,1
+sȭira;sȭiradõn;sȭiraINS(dõ)INS(n);INS(dõ),INS(n);;N,PL,DAT
+tint;tīntidi;tDEL(i)INS(ī)ntINS(i)INS(d)INS(i);INS(ī),INS(i),INS(d),INS(i);DEL(i);N,PL,PRT
+inesīv;inesīv;inesīv;;;N,SG,NOM
+nǟdõ;algõd nǟgõd;INS(a)INS(l)INS(g)INS(õ)INS(d)INS( )nǟINS(g)INS(õ)dDEL(õ);INS(a),INS(l),INS(g),INS(õ),INS(d),INS( ),INS(g),INS(õ);DEL(õ);V,ACT,FIN,LGSPEC1,NEG,PRS,PL,2
+kōdõkstuoistõnz;kōdõkstuoistõndõn;kōdõkstuoistINS(õ)INS(n)INS(d)õnDEL(z);INS(õ),INS(n),INS(d);DEL(z);ADJ,SG,DAT
+ab;abūdõn;abINS(ū)INS(d)INS(õ)INS(n);INS(ū),INS(d),INS(õ),INS(n);;N,PL,DAT
+likkõ;likkõt;likkõINS(t);INS(t);;V,ACT,FIN,IND,POS,PRS,PL,2
+inesīv;inesīvõ;inesīvINS(õ);INS(õ);;N,SG,PRT
+vȱlda;vȯl!;vDEL(ȱ)DEL(l)DEL(d)DEL(a)INS(ȯl)INS(!);INS(ȯl),INS(!);DEL(ȱ),DEL(l),DEL(d),DEL(a);V,ACT,FIN,IMP,PRS,POS,SG,2
+alīz;alīzt;alīzINS(t);INS(t);;N,PL,GEN
+nūoŗmīez;nūoŗmīedkõks;nūoŗmīeDEL(z)INS(d)INS(k)INS(õ)INS(k)INS(s);INS(d),INS(k),INS(õ),INS(k),INS(s);DEL(z);N,PL,INS
+kuolmõz;kuolmõndidi;kuolmõDEL(z)INS(n)INS(d)INS(i)INS(d)INS(i);INS(n),INS(d),INS(i),INS(d),INS(i);DEL(z);ADJ,PL,PRT
+ab;abbõ;abINS(b)INS(õ);INS(b),INS(õ);;N,SG,IN+ALL
+kuolmi;kuolmizõs;kuolmiINS(z)INS(õ)INS(s);INS(z),INS(õ),INS(s);;ADJ,SG,IN+ESS
+vȱlda;ūom;DEL(v)DEL(ȱ)DEL(l)DEL(d)DEL(a)INS(ū)INS(o)INS(m);INS(ū),INS(o),INS(m);DEL(v),DEL(ȱ),DEL(l),DEL(d),DEL(a);V,ACT,FIN,IND,POS,PRS,PL,1
+tas;tassõdõks;taINS(ss)INS(õdõk)s;INS(ss),INS(õdõk);;N,PL,INS
+nǟdõ;neizmõ;nDEL(ǟ)DEL(d)INS(e)INS(i)INS(z)INS(m)õ;INS(e),INS(i),INS(z),INS(m);DEL(ǟ),DEL(d);V,ACT,FIN,IND,POS,PST,PL,1
+alīztas;alīztassõ;alīztasINS(s)INS(õ);INS(s),INS(õ);;N,SG,IN+ALL
+tūontõz;tūontõndõd;tūontõDEL(z)INS(n)INS(d)INS(õ)INS(d);INS(n),INS(d),INS(õ),INS(d);DEL(z);ADJ,PL,GEN
+likkõ;um likkõmõst;INS(u)INS(m)INS( )likkõINS(m)INS(õ)INS(s)INS(t);INS(u),INS(m),INS( ),INS(m),INS(õ),INS(s),INS(t);;V,ACT,FIN,DEB,POS,PRS,SG,1
+ougust;ougustõdõks;ougustINS(õdõ)INS(ks);INS(õdõ),INS(ks);;N,PL,INS
+kūora;kūoran;kūoraINS(n);INS(n);;N,SG,DAT
+seismõztuoistõnz;seismõztuoistõndis;seismõztuoistõnDEL(z)INS(d)INS(i)INS(s);INS(d),INS(i),INS(s);DEL(z);ADJ,PL,IN+ESS
+instrumentāl;instrumentāls;instrumentālINS(s);INS(s);;N,SG,IN+ESS
+pȯiški;pȯiškizõst;pȯiškiINS(z)INS(õ)INS(s)INS(t);INS(z),INS(õ),INS(s),INS(t);;N,SG,IN+ABL
+kȭļimkū;kȭļimkūdõn;kȭļimkūINS(dõ)INS(n);INS(dõ),INS(n);;N,PL,DAT
+jellõ;izt jelāt;INS(i)INS(z)INS(t)INS( )jelDEL(l)DEL(õ)INS(ā)INS(t);INS(i),INS(z),INS(t),INS( ),INS(ā),INS(t);DEL(l),DEL(õ);V,ACT,FIN,IND,NEG,PST,PL,3
+analīz;analīzõst;analīzINS(õ)INS(st);INS(õ),INS(st);;N,SG,IN+ABL
+nūoŗpōŗ;nūoŗpōŗštõ;nūoŗpōŗINS(š)INS(t)INS(õ);INS(š),INS(t),INS(õ);;N,SG,IN+ABL
+tūlda;äb līm tunnõd;DEL(t)DEL(ū)INS(ä)INS(b)INS( )lINS(ī)INS(m)INS( )INS(t)INS(u)INS(n)INS(n)INS(õ)dDEL(a);INS(ä),INS(b),INS( ),INS(ī),INS(m),INS( ),INS(t),INS(u),INS(n),INS(n),INS(õ);DEL(t),DEL(ū),DEL(a);V,ACT,FIN,IND,NEG,FUT,PRF,PL,1
+partitīv;partitīvst;partitīvINS(s)INS(t);INS(s),INS(t);;N,SG,IN+ABL
+april;apriliž;aprilINS(i)INS(ž);INS(i),INS(ž);;N,PL,IN+ALL
+tuoi;tuoizõn;tuoiINS(z)INS(õ)INS(n);INS(z),INS(õ),INS(n);;ADJ,SG,DAT
+sukā;sukīs;sukDEL(ā)INS(ī)INS(s);INS(ī),INS(s);DEL(ā);N,PL,IN+ESS
+tūontõz;tūontõndõs;tūontõDEL(z)INS(n)INS(d)INS(õ)INS(s);INS(n),INS(d),INS(õ),INS(s);DEL(z);ADJ,SG,IN+ESS
+sukā;sukāks;sukāINS(k)INS(s);INS(k),INS(s);;N,SG,INS
+vȱlda;at;DEL(vȱl)DEL(d)aINS(t);INS(t);DEL(vȱl),DEL(d);V,ACT,FIN,IND,POS,PRS,PL,3
+neļļõndpǟva;neļļõndpäuvḑi;neļļõndpDEL(ǟ)DEL(v)DEL(a)INS(ä)INS(u)INS(v)INS(ḑ)INS(i);INS(ä),INS(u),INS(v),INS(ḑ),INS(i);DEL(ǟ),DEL(v),DEL(a);N,PL,PRT
+kuod;kuodkõks;kuodINS(k)INS(õks);INS(k),INS(õks);;N,SG,INS
+ablatīv;ablatīv;ablatīv;;;N,SG,NOM
+tidār;tidār;tidār;;;N,SG,GEN
+kanā;kanās;kanāINS(s);INS(s);;N,SG,IN+ESS
+pānda;paņņid;pDEL(ān)DEL(d)aINS(ņ)INS(ņ)INS(i)INS(d);INS(ņ),INS(ņ),INS(i),INS(d);DEL(ān),DEL(d);V,ACT,FIN,QUOT,POS,PRS,PL,1
+tūlda;tuldõd;tDEL(ū)INS(u)lINS(d)INS(õ)dDEL(a);INS(u),INS(d),INS(õ);DEL(ū),DEL(a);V,PASS,V.PTCP
+ǟma;ǟmad;ǟmaINS(d);INS(d);;N,PL,NOM
+jellõ;jelāks;jelDEL(l)DEL(õ)INS(ā)INS(k)INS(s);INS(ā),INS(k),INS(s);DEL(l),DEL(õ);V,ACT,FIN,COND,POS,PRS,SG,1
+jūnij;jūnijõn;jūnijINS(õ)INS(n);INS(õ),INS(n);;N,SG,DAT
+ab;abstõ;abINS(s)INS(t)INS(õ);INS(s),INS(t),INS(õ);;N,SG,IN+ABL
+septembõr;septembõris;septembõrINS(i)INS(s);INS(i),INS(s);;N,PL,IN+ESS
+nūoŗim;nūoŗimõn;nūoŗimINS(õ)INS(n);INS(õ),INS(n);;ADJ,SG,DAT
+instrumentāl;instrumentāl;instrumentāl;;;N,SG,NOM
+kōdõksmõz;kōdõksmõndist;kōdõksmõDEL(z)INS(n)INS(d)INS(i)INS(s)INS(t);INS(n),INS(d),INS(i),INS(s),INS(t);DEL(z);ADJ,PL,IN+ABL
+ikšlug;ikšluggõ;ikšlugINS(g)INS(õ);INS(g),INS(õ);;N,SG,IN+ALL
+novembõr;novembõrst;novembõrINS(s)INS(t);INS(s),INS(t);;N,SG,IN+ABL
+ežmi;ežmizt;ežmiINS(z)INS(t);INS(z),INS(t);;ADJ,SG,PRT
+kuod;kuodūd;kuoINS(d)INS(ū)d;INS(d),INS(ū);;N,PL,GEN
+kīņtš;kīndtõ;kīDEL(ņ)DEL(t)DEL(š)INS(n)INS(d)INS(t)INS(õ);INS(n),INS(d),INS(t),INS(õ);DEL(ņ),DEL(t),DEL(š);N,SG,PRT
+kuolmkimdõz;kuolmkimdõz;kuolmkimdõz;;;ADJ,SG,NOM
+dattõd;dattõdõn;dattõdINS(õ)INS(n);INS(õ),INS(n);;N,PL,DAT
+brēḑig;brēḑigõdõks;brēḑigINS(õdõ)INS(ks);INS(õdõ),INS(ks);;N,PL,INS
+kaffetas;kaffetassõdõks;kaffetaINS(ss)INS(õdõk)s;INS(ss),INS(õdõk);;N,PL,INS
+tūlda;äb tulks;INS(ä)INS(b)INS( )tDEL(ūl)DEL(da)INS(u)INS(l)INS(k)INS(s);INS(ä),INS(b),INS( ),INS(u),INS(l),INS(k),INS(s);DEL(ūl),DEL(da);V,ACT,FIN,COND,NEG,PRS,SG,3
+novembõr;novembõrõ;novembõrINS(õ);INS(õ);;N,SG,IN+ALL
+vȱlda;vȯļd;vDEL(ȱ)DEL(l)INS(ȯ)INS(ļ)dDEL(a);INS(ȯ),INS(ļ);DEL(ȱ),DEL(l),DEL(a);V,ACT,FIN,IND,POS,PST,SG,2
+kuolmi;kuolmižis;kuolmiINS(ž)INS(i)INS(s);INS(ž),INS(i),INS(s);;ADJ,PL,IN+ESS
+alli;alīztõks;alDEL(l)DEL(i)INS(ī)INS(z)INS(t)INS(õ)INS(k)INS(s);INS(ī),INS(z),INS(t),INS(õ),INS(k),INS(s);DEL(l),DEL(i);ADJ,SG,INS
+vȱlda;alā vȯl!;DEL(vȱl)DEL(d)aINS(l)INS(ā)INS( )INS(v)INS(ȯ)INS(l)INS(!);INS(l),INS(ā),INS( ),INS(v),INS(ȯ),INS(l),INS(!);DEL(vȱl),DEL(d);V,ACT,FIN,IMP,PRS,NEG,SG,2
+dattõd;dattist;datINS(t)INS(i)INS(s)tDEL(õ)DEL(d);INS(t),INS(i),INS(s);DEL(õ),DEL(d);N,PL,IN+ABL
+vīmkū;vīmkūd;vīmkūINS(d);INS(d);;N,PL,NOM
+allitas;alīztõntassõn;alDEL(l)DEL(i)INS(ī)INS(z)INS(t)INS(õ)INS(n)tasINS(s)INS(õ)INS(n);INS(ī),INS(z),INS(t),INS(õ),INS(n),INS(s),INS(õ),INS(n);DEL(l),DEL(i);N,SG,DAT
+tīemizsõnā;tīemizsõnān;tīemizsõnāINS(n);INS(n);;N,SG,DAT
+kaffetas;kaffetassõks;kaffetaINS(s)INS(s)INS(õ)INS(k)s;INS(s),INS(s),INS(õ),INS(k);;N,SG,INS
+mǟdlõ;līt mǟdlõnd;INS(l)INS(ī)INS(t)INS( )mǟdlõINS(n)INS(d);INS(l),INS(ī),INS(t),INS( ),INS(n),INS(d);;V,ACT,FIN,IND,POS,FUT,PRF,PL,2
+kaffe;kaffis;kaffDEL(e)INS(i)INS(s);INS(i),INS(s);DEL(e);N,PL,IN+ESS
+pānda;līb pand;INS(l)INS(ī)INS(b)INS( )pDEL(ā)INS(a)ndDEL(a);INS(l),INS(ī),INS(b),INS( ),INS(a);DEL(ā),DEL(a);V,ACT,FIN,IND,POS,FUT,PRF,SG,3
+pānda;äb līmõ pannõd;INS(ä)INS(b)INS( )INS(l)INS(ī)INS(m)INS(õ)INS( )pDEL(ān)DEL(d)aINS(n)INS(n)INS(õ)INS(d);INS(ä),INS(b),INS( ),INS(l),INS(ī),INS(m),INS(õ),INS( ),INS(n),INS(n),INS(õ),INS(d);DEL(ān),DEL(d);V,ACT,FIN,IND,NEG,FUT,PRF,PL,1,LGSPEC5
+nǟdõ;izt nǟ;INS(i)INS(z)INS(t)INS( )nǟDEL(d)DEL(õ);INS(i),INS(z),INS(t),INS( );DEL(d),DEL(õ);V,ACT,FIN,IND,NEG,PST,SG,2
+lǟdõ;algõ läkkõ;INS(a)lDEL(ǟ)DEL(d)INS(g)INS(õ)INS( )INS(l)INS(ä)INS(k)INS(k)õ;INS(a),INS(g),INS(õ),INS( ),INS(l),INS(ä),INS(k),INS(k);DEL(ǟ),DEL(d);V,ACT,FIN,LGSPEC1,NEG,PRS,SG,2

@@ -1,0 +1,11 @@
+Object,1,2,3,FUT,IND,IPFV,LGSPEC1,LGSPEC2,NFIN,PL,PRS,PST,SBJV,SG,V,V.CVB,V.PTCP
+DEL(e),X,X,X,X,X,-,-,-,-,X,X,-,-,X,X,-,-
+DEL(er),X,X,X,-,X,X,X,X,X,X,X,X,X,X,X,X,X
+DEL(i),X,-,X,-,-,X,-,X,-,X,X,X,X,X,X,-,-
+DEL(r),X,X,X,-,X,X,X,X,X,X,X,X,X,X,X,-,-
+DEL(é),-,X,-,-,-,-,-,-,X,X,-,-,-,-,X,-,-
+DEL(ì),X,-,-,-,X,X,-,-,-,X,-,X,-,-,X,-,-
+INS(a),-,-,X,-,X,-,X,-,-,-,X,-,-,X,X,-,-
+INS(s),-,X,-,-,X,-,X,-,-,-,X,-,-,X,X,-,-
+INS(à),-,-,X,X,X,-,-,-,-,-,-,-,-,X,X,-,-
+INS(é),X,-,-,X,X,-,-,X,X,-,-,X,-,X,X,-,X

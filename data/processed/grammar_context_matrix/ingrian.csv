@@ -1,0 +1,12 @@
+Object,AT+ABL,AT+ALL,AT+ESS,ESS,GEN,IN+ABL,IN+ALL,IN+ESS,N,NOM,PL,SG,TRANS
+DEL(a),-,-,-,-,-,-,-,-,X,-,X,-,X
+DEL(i),-,-,-,X,-,X,-,X,X,X,X,X,-
+DEL(k),-,X,X,-,X,-,-,-,X,-,-,X,-
+DEL(n),X,-,-,-,-,-,X,X,X,-,X,X,-
+DEL(t),-,-,X,-,X,-,-,-,X,-,X,-,X
+DEL(u),-,-,-,-,-,-,-,X,X,-,X,-,-
+DEL(z),X,-,X,X,X,X,-,-,X,-,X,X,-
+DEL(ä),-,X,X,-,-,-,-,X,X,-,X,-,X
+INS(l),-,-,X,-,-,-,-,-,X,-,-,X,-
+INS(n),-,-,-,-,X,-,-,-,X,-,-,X,-
+INS(z),-,-,-,-,-,-,-,X,X,-,-,X,-

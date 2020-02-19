@@ -1,0 +1,1001 @@
+Source;Target;Combined;Inserts;Deletes;Grammar
+intorpidire;intorpidirebbe;intorpidirINS(ebb)e;INS(ebb);;V,COND,3,SG
+triangolare;triangoleranno;triangolDEL(ar)eINS(ranno);INS(ranno);DEL(ar);V,IND,FUT,3,PL
+limare;limammo;limaDEL(re)INS(mmo);INS(mmo);DEL(re);V,IND,PST,1,PL,PFV
+restare;restai;restaDEL(re)INS(i);INS(i);DEL(re);V,IND,PST,1,SG,PFV
+comburere;comburi;comburDEL(ere)INS(i);INS(i);DEL(ere);V,IND,PRS,2,SG
+autoeccitarsi;si autoeccita;INS(si )autoeccitaDEL(rsi);INS(si );DEL(rsi);V,IND,PRS,3,SG
+sciacquare;sciacquante;sciacquaDEL(r)INS(nt)e;INS(nt);DEL(r);V.PTCP,PRS
+ufficiare;uffici;ufficiDEL(are);;DEL(are);V,IND,PRS,2,SG
+rattristire;rattristisca;rattristiDEL(re)INS(s)INS(c)INS(a);INS(s),INS(c),INS(a);DEL(re);V,SBJV,PRS,3,SG
+avvoltolarsi;si avvoltolava;INS(si )avvoltolINS(av)aDEL(rsi);INS(si ),INS(av);DEL(rsi);V,IND,PST,3,SG,IPFV
+gemicare;gemicai;gemicaDEL(re)INS(i);INS(i);DEL(re);V,IND,PST,1,SG,PFV
+nereggiare;nereggeremmo;nereggDEL(i)DEL(a)INS(e)reINS(mmo);INS(e),INS(mmo);DEL(i),DEL(a);V,COND,1,PL
+ninfeggiare;ninfeggiavi;ninfeggiaDEL(re)INS(vi);INS(vi);DEL(re);V,IND,PST,2,SG,IPFV
+ottenere;ottenevate;otteneDEL(r)INS(vat)e;INS(vat);DEL(r);V,IND,PST,2,PL,IPFV
+disabituarsi;ci disabituammo;INS(ci )disabituaDEL(rsi)INS(mmo);INS(ci ),INS(mmo);DEL(rsi);V,IND,PST,1,PL,PFV
+stordirsi;stordentesi;stordDEL(i)DEL(r)INS(e)INS(n)INS(t)INS(e)si;INS(e),INS(n),INS(t),INS(e);DEL(i),DEL(r);V.PTCP,PRS
+ancheggiare;ancheggia;ancheggiaDEL(re);;DEL(re);V,POS,IMP,2,SG
+dolersi;ti dorrai;INS(ti )doDEL(l)DEL(e)rDEL(s)INS(r)INS(a)i;INS(ti ),INS(r),INS(a);DEL(l),DEL(e),DEL(s);V,IND,FUT,2,SG
+intelaiare;intelaino;intelaiDEL(are)INS(no);INS(no);DEL(are);V,SBJV,PRS,3,PL
+infocare;infocato;infocaDEL(re)INS(to);INS(to);DEL(re);V.PTCP,PST
+radiodiffondere;radiodiffondevamo;radiodiffondDEL(er)eINS(vamo);INS(vamo);DEL(er);V,IND,PST,1,PL,IPFV
+abborrare;abborrerete;abborrDEL(a)INS(e)rINS(et)e;INS(e),INS(et);DEL(a);V,IND,FUT,2,PL
+esumare;esumi;esumDEL(are)INS(i);INS(i);DEL(are);V,SBJV,PRS,3,SG
+frenarsi;si frenino;INS(si )frenDEL(ars)iINS(no);INS(si ),INS(no);DEL(ars);V,POS,IMP,3,PL
+canneggiare;canneggiai;canneggiaDEL(re)INS(i);INS(i);DEL(re);V,IND,PST,1,SG,PFV
+colluttarsi;colluttarsi;colluttarsi;;;V,NFIN
+incacchiarsi;vi incacchiavate;INS(vi )incacchiaDEL(rsi)INS(v)INS(a)INS(t)INS(e);INS(vi ),INS(v),INS(a),INS(t),INS(e);DEL(rsi);V,IND,PST,2,PL,IPFV
+confessare;confessai;confessaDEL(re)INS(i);INS(i);DEL(re);V,IND,PST,1,SG,PFV
+settorializzare;settorializziamo;settorializzINS(i)aDEL(re)INS(mo);INS(i),INS(mo);DEL(re);V,IND,PRS,1,PL
+maritare;mariteremo;maritDEL(a)INS(e)reINS(mo);INS(e),INS(mo);DEL(a);V,IND,FUT,1,PL
+annottolare;annottolante;annottolaDEL(r)INS(nt)e;INS(nt);DEL(r);V.PTCP,PRS
+vendicarsi;ci vendichiamo;INS(ci )vendicDEL(ars)INS(h)iINS(amo);INS(ci ),INS(h),INS(amo);DEL(ars);V,SBJV,PRS,1,PL
+pervertire;pervertisti;perverINS(t)INS(i)INS(s)tiDEL(re);INS(t),INS(i),INS(s);DEL(re);V,IND,PST,2,SG,PFV
+scucire;scucirete;scucirINS(et)e;INS(et);;V,IND,FUT,2,PL
+sussumere;sussumiamo;sussumDEL(ere)INS(i)INS(a)INS(m)INS(o);INS(i),INS(a),INS(m),INS(o);DEL(ere);V,POS,IMP,1,PL
+commensurare;commensurerebbero;commensurDEL(a)INS(e)reINS(bbero);INS(e),INS(bbero);DEL(a);V,COND,3,PL
+ricontrarre;ricontraevamo;ricontraDEL(r)DEL(r)eINS(vamo);INS(vamo);DEL(r),DEL(r);V,IND,PST,1,PL,IPFV
+insterilirsi;ti insterilivi;INS(ti )insteriliDEL(rs)INS(v)i;INS(ti ),INS(v);DEL(rs);V,IND,PST,2,SG,IPFV
+antropomorfizzare;antropomorfizzi;antropomorfizzDEL(are)INS(i);INS(i);DEL(are);V,POS,IMP,3,SG
+distruggersi;si distrugga;INS(si )distruggDEL(e)DEL(rsi)INS(a);INS(si ),INS(a);DEL(e),DEL(rsi);V,POS,IMP,3,SG
+riproteggere;riproteggeresti;riproteggereINS(sti);INS(sti);;V,COND,2,SG
+discostare;discostato;discostaDEL(re)INS(to);INS(to);DEL(re);V.PTCP,PST
+penare;peni;penDEL(are)INS(i);INS(i);DEL(are);V,SBJV,PRS,2,SG
+sbrigarsi;mi sbrigherò;INS(mi )sbrigDEL(arsi)INS(h)INS(e)INS(r)INS(ò);INS(mi ),INS(h),INS(e),INS(r),INS(ò);DEL(arsi);V,IND,FUT,1,SG
+destrutturarsi;ci destrutturassimo;INS(ci )destrutturaDEL(r)sINS(s)iINS(mo);INS(ci ),INS(s),INS(mo);DEL(r);V,SBJV,PST,1,PL
+distrarre;distraevo;distraDEL(r)DEL(r)eINS(vo);INS(vo);DEL(r),DEL(r);V,IND,PST,1,SG,IPFV
+rovinarsi;ti rovinavi;INS(ti )rovinaDEL(rs)INS(v)i;INS(ti ),INS(v);DEL(rs);V,IND,PST,2,SG,IPFV
+sganciarsi;vi sganciate;INS(vi )sganciaDEL(rsi)INS(te);INS(vi ),INS(te);DEL(rsi);V,IND,PRS,2,PL
+mellificare;mellificherò;mellificDEL(ar)INS(h)eINS(r)INS(ò);INS(h),INS(r),INS(ò);DEL(ar);V,IND,FUT,1,SG
+dissacrare;dissacro;dissacrDEL(are)INS(o);INS(o);DEL(are);V,IND,PRS,1,SG
+puzzare;puzzavo;puzzaDEL(re)INS(vo);INS(vo);DEL(re);V,IND,PST,1,SG,IPFV
+verbalizzare;verbalizzammo;verbalizzaDEL(re)INS(mmo);INS(mmo);DEL(re);V,IND,PST,1,PL,PFV
+ammennicolare;ammennicolai;ammennicolaDEL(re)INS(i);INS(i);DEL(re);V,IND,PST,1,SG,PFV
+infrancesare;infrancesare;infrancesare;;;V,NFIN
+arzigogolare;arzigogolavamo;arzigogolaDEL(re)INS(vamo);INS(vamo);DEL(re);V,IND,PST,1,PL,IPFV
+indispettirsi;si indispettiscano;INS(si )indispettiDEL(r)sDEL(i)INS(c)INS(a)INS(n)INS(o);INS(si ),INS(c),INS(a),INS(n),INS(o);DEL(r),DEL(i);V,SBJV,PRS,3,PL
+ridorare;ridoriamo;ridorINS(i)aDEL(re)INS(mo);INS(i),INS(mo);DEL(re);V,POS,IMP,1,PL
+vaporizzarsi;vi vaporizzavate;INS(vi )vaporizzaDEL(rsi)INS(v)INS(a)INS(t)INS(e);INS(vi ),INS(v),INS(a),INS(t),INS(e);DEL(rsi);V,IND,PST,2,PL,IPFV
+millantare;millantaste;millantaDEL(r)INS(st)e;INS(st);DEL(r);V,SBJV,PST,2,PL
+agguagliarsi;ti agguagli;INS(ti )agguaglDEL(i)DEL(ars)i;INS(ti );DEL(i),DEL(ars);V,SBJV,PRS,2,SG
+scandagliare;scandaglierò;scandagliDEL(ar)eINS(r)INS(ò);INS(r),INS(ò);DEL(ar);V,IND,FUT,1,SG
+apologizzare;apologizzerà;apologizzDEL(ar)eINS(rà);INS(rà);DEL(ar);V,IND,FUT,3,SG
+ammalarsi;ammalantesi;ammalaDEL(r)INS(n)INS(t)INS(e)si;INS(n),INS(t),INS(e);DEL(r);V.PTCP,PRS
+stallare;stallerai;stallDEL(ar)eINS(r)INS(a)INS(i);INS(r),INS(a),INS(i);DEL(ar);V,IND,FUT,2,SG
+supervalutare;supervalutino;supervalutDEL(are)INS(ino);INS(ino);DEL(are);V,SBJV,PRS,3,PL
+angelicare;angelichi;angelicDEL(are)INS(h)INS(i);INS(h),INS(i);DEL(are);V,SBJV,PRS,2,SG
+condizionare;condizionerete;condizionDEL(a)INS(e)rINS(et)e;INS(e),INS(et);DEL(a);V,IND,FUT,2,PL
+appostare;apposteresti;appostDEL(a)INS(e)reINS(sti);INS(e),INS(sti);DEL(a);V,COND,2,SG
+indebitarsi;si indebiterà;INS(si )indebitDEL(arsi)INS(e)INS(r)INS(à);INS(si ),INS(e),INS(r),INS(à);DEL(arsi);V,IND,FUT,3,SG
+contagiare;contagiavate;contagiaDEL(r)INS(vat)e;INS(vat);DEL(r);V,IND,PST,2,PL,IPFV
+riabbottonare;riabbottonasti;riabbottonaDEL(re)INS(sti);INS(sti);DEL(re);V,IND,PST,2,SG,PFV
+silurare;silureresti;silurDEL(a)INS(e)reINS(sti);INS(e),INS(sti);DEL(a);V,COND,2,SG
+palare;palerebbero;palDEL(a)INS(e)reINS(bbero);INS(e),INS(bbero);DEL(a);V,COND,3,PL
+appesantire;appesantisci;appesantINS(i)INS(s)INS(c)iDEL(re);INS(i),INS(s),INS(c);DEL(re);V,IND,PRS,2,SG
+atterrare;atterrerei;atterrDEL(a)INS(e)reINS(i);INS(e),INS(i);DEL(a);V,COND,1,SG
+acquattare;acquattino;acquattDEL(are)INS(ino);INS(ino);DEL(are);V,SBJV,PRS,3,PL
+invadere;invadevo;invadDEL(er)eINS(vo);INS(vo);DEL(er);V,IND,PST,1,SG,IPFV
+emungere;emungerebbero;emungereINS(bbero);INS(bbero);;V,COND,3,PL
+separarsi;si separassero;INS(si )separaINS(sse)rDEL(si)INS(o);INS(si ),INS(sse),INS(o);DEL(si);V,SBJV,PST,3,PL
+propagarsi;propagantesi;propagaDEL(r)INS(n)INS(t)INS(e)si;INS(n),INS(t),INS(e);DEL(r);V.PTCP,PRS
+sbiellare;sbiellate;sbiellaDEL(r)INS(t)e;INS(t);DEL(r);V,POS,IMP,2,PL
+catturare;catturerà;cattuDEL(r)DEL(a)reINS(rà);INS(rà);DEL(r),DEL(a);V,IND,FUT,3,SG
+riappacificarsi;si riappacificassero;INS(si )riappacificaINS(sse)rDEL(si)INS(o);INS(si ),INS(sse),INS(o);DEL(si);V,SBJV,PST,3,PL
+deacidificare;deacidificherebbero;deacidificDEL(a)INS(he)reINS(bbero);INS(he),INS(bbero);DEL(a);V,COND,3,PL
+scolorire;scoloriscono;scoloriDEL(re)INS(s)INS(c)INS(o)INS(n)INS(o);INS(s),INS(c),INS(o),INS(n),INS(o);DEL(re);V,IND,PRS,3,PL
+canneggiare;canneggiamo;canneggiaDEL(re)INS(mo);INS(mo);DEL(re);V,POS,IMP,1,PL
+incalzare;incalzassi;incalzaDEL(re)INS(ssi);INS(ssi);DEL(re);V,SBJV,PST,2,SG
+pertenere;pertenere;pertenere;;;V,NFIN
+archeggiare;archeggi;archeggiDEL(are);;DEL(are);V,SBJV,PRS,3,SG
+gettarsi;si getterebbero;INS(si )gettDEL(arsi)INS(e)INS(r)INS(e)INS(b)INS(b)INS(e)INS(r)INS(o);INS(si ),INS(e),INS(r),INS(e),INS(b),INS(b),INS(e),INS(r),INS(o);DEL(arsi);V,COND,3,PL
+franceseggiare;franceseggeranno;franceseggDEL(i)DEL(ar)eINS(ranno);INS(ranno);DEL(i),DEL(ar);V,IND,FUT,3,PL
+vegetare;vegetai;vegetaDEL(re)INS(i);INS(i);DEL(re);V,IND,PST,1,SG,PFV
+sottomurare;sottomuraste;sottomuraDEL(r)INS(st)e;INS(st);DEL(r);V,IND,PST,2,PL,PFV
+imbucare;imbucherei;imbucDEL(a)INS(he)reINS(i);INS(he),INS(i);DEL(a);V,COND,1,SG
+sabotare;sabotiate;sabotINS(i)aDEL(r)INS(t)e;INS(i),INS(t);DEL(r);V,SBJV,PRS,2,PL
+edulcorare;edulcorino;edulcorDEL(are)INS(ino);INS(ino);DEL(are);V,SBJV,PRS,3,PL
+smattonare;smattonarono;smattonarDEL(e)INS(ono);INS(ono);DEL(e);V,IND,PST,3,PL,PFV
+amministrare;amministrasse;amministraDEL(r)INS(ss)e;INS(ss);DEL(r);V,SBJV,PST,3,SG
+oggettivizzare;oggettivizzaste;oggettivizzaDEL(r)INS(st)e;INS(st);DEL(r);V,IND,PST,2,PL,PFV
+reperire;reperivano;reperiDEL(re)INS(vano);INS(vano);DEL(re);V,IND,PST,3,PL,IPFV
+saccarificare;saccarificherebbe;saccarificDEL(a)INS(he)rINS(ebb)e;INS(he),INS(ebb);DEL(a);V,COND,3,SG
+gottare;gotti;gottDEL(are)INS(i);INS(i);DEL(are);V,IND,PRS,2,SG
+ristagnare;ristagneranno;ristagnDEL(ar)eINS(ranno);INS(ranno);DEL(ar);V,IND,FUT,3,PL
+frapporsi;si frapporrebbe;INS(si )frapporDEL(si)INS(r)INS(e)INS(b)INS(b)INS(e);INS(si ),INS(r),INS(e),INS(b),INS(b),INS(e);DEL(si);V,COND,3,SG
+incarrozzare;incarrozza;incarrozzaDEL(re);;DEL(re);V,POS,IMP,2,SG
+interrompere;interrompevano;interrompDEL(er)eINS(vano);INS(vano);DEL(er);V,IND,PST,3,PL,IPFV
+autoaffondarsi;ti autoaffonderesti;INS(ti )autoaffondDEL(a)INS(e)rINS(e)sINS(t)i;INS(ti ),INS(e),INS(e),INS(t);DEL(a);V,COND,2,SG
+arare;ara;araDEL(re);;DEL(re);V,POS,IMP,2,SG
+coadiuvare;coadiuvasse;coadiuvaDEL(r)INS(ss)e;INS(ss);DEL(r);V,SBJV,PST,3,SG
+imperlarsi;vi imperlerete;INS(vi )imperlDEL(arsi)INS(e)INS(r)INS(e)INS(t)INS(e);INS(vi ),INS(e),INS(r),INS(e),INS(t),INS(e);DEL(arsi);V,IND,FUT,2,PL
+interessarsi;si interessassero;INS(si )interessaINS(sse)rDEL(si)INS(o);INS(si ),INS(sse),INS(o);DEL(si);V,SBJV,PST,3,PL
+protestarsi;protestato;protestaDEL(rsi)INS(to);INS(to);DEL(rsi);V.PTCP,PST
+assestare;assestate;assestaDEL(r)INS(t)e;INS(t);DEL(r);V,POS,IMP,2,PL
+opzionare;opzioneremo;opzionDEL(a)INS(e)reINS(mo);INS(e),INS(mo);DEL(a);V,IND,FUT,1,PL
+vocalizzare;vocalizzassero;vocalizzaINS(sse)rDEL(e)INS(o);INS(sse),INS(o);DEL(e);V,SBJV,PST,3,PL
+sussistere;sussisteresti;sussistereINS(sti);INS(sti);;V,COND,2,SG
+pignoleggiare;pignoleggiassi;pignoleggiaDEL(re)INS(ssi);INS(ssi);DEL(re);V,SBJV,PST,2,SG
+intellettualizzare;intellettualizzate;intellettualizzaDEL(r)INS(t)e;INS(t);DEL(r);V,POS,IMP,2,PL
+incenerire;incenerirete;incenerirINS(et)e;INS(et);;V,IND,FUT,2,PL
+scolorire;scolorirebbero;scolorireINS(bbero);INS(bbero);;V,COND,3,PL
+ramificarsi;si ramifichino;INS(si )ramificDEL(ars)INS(h)iINS(no);INS(si ),INS(h),INS(no);DEL(ars);V,POS,IMP,3,PL
+sfornaciare;sfornacerà;sfornacDEL(i)DEL(ar)eINS(rà);INS(rà);DEL(i),DEL(ar);V,IND,FUT,3,SG
+iscriversi;iscrivetevi;iscriveDEL(rs)INS(t)INS(e)INS(v)i;INS(t),INS(e),INS(v);DEL(rs);V,POS,IMP,2,PL
+sperticarsi;si sperticheranno;INS(si )sperticINS(h)INS(e)INS(r)aDEL(rsi)INS(n)INS(no);INS(si ),INS(h),INS(e),INS(r),INS(n),INS(no);DEL(rsi);V,IND,FUT,3,PL
+ripiantare;ripiantasti;ripiantaDEL(re)INS(sti);INS(sti);DEL(re);V,IND,PST,2,SG,PFV
+inguaiarsi;ti inguaiassi;INS(ti )inguaiaDEL(r)sINS(s)i;INS(ti ),INS(s);DEL(r);V,SBJV,PST,2,SG
+sborniarsi;si sbornierà;INS(si )sbornDEL(i)DEL(ars)iINS(e)INS(r)INS(à);INS(si ),INS(e),INS(r),INS(à);DEL(i),DEL(ars);V,IND,FUT,3,SG
+preformare;preformato;preformaDEL(re)INS(to);INS(to);DEL(re);V.PTCP,PST
+bocciare;bocciava;bocciINS(av)aDEL(re);INS(av);DEL(re);V,IND,PST,3,SG,IPFV
+appanettare;appanettò;appanettDEL(are)INS(ò);INS(ò);DEL(are);V,IND,PST,3,SG,PFV
+malmettere;malmettesti;malmettDEL(er)eINS(sti);INS(sti);DEL(er);V,IND,PST,2,SG,PFV
+vergare;vergante;vergaDEL(r)INS(nt)e;INS(nt);DEL(r);V.PTCP,PRS
+imbestialire;imbestialente;imbestialDEL(i)DEL(r)INS(e)INS(n)INS(t)e;INS(e),INS(n),INS(t);DEL(i),DEL(r);V.PTCP,PRS
+svillaneggiarsi;si svillaneggeranno;INS(si )svillaneggDEL(i)DEL(a)DEL(r)DEL(s)DEL(i)INS(e)INS(r)INS(a)INS(n)INS(n)INS(o);INS(si ),INS(e),INS(r),INS(a),INS(n),INS(n),INS(o);DEL(i),DEL(a),DEL(r),DEL(s),DEL(i);V,IND,FUT,3,PL
+bloccarsi;ci bloccammo;INS(ci )bloccaDEL(rsi)INS(mmo);INS(ci ),INS(mmo);DEL(rsi);V,IND,PST,1,PL,PFV
+arroventire;arroventiate;arroventiDEL(r)INS(a)INS(t)e;INS(a),INS(t);DEL(r);V,SBJV,PRS,2,PL
+cianciare;cianciassi;cianciaDEL(re)INS(ssi);INS(ssi);DEL(re);V,SBJV,PST,1,SG
+decostruire;decostruente;decostruDEL(i)DEL(r)INS(e)INS(n)INS(t)e;INS(e),INS(n),INS(t);DEL(i),DEL(r);V.PTCP,PRS
+staggire;staggiresti;staggireINS(sti);INS(sti);;V,COND,2,SG
+istradare;istradava;istradINS(av)aDEL(re);INS(av);DEL(re);V,IND,PST,3,SG,IPFV
+gonfiarsi;vi gonfiate;INS(vi )gonfiaDEL(rsi)INS(te);INS(vi ),INS(te);DEL(rsi);V,IND,PRS,2,PL
+riassumere;riassumevi;riassumDEL(er)eINS(vi);INS(vi);DEL(er);V,IND,PST,2,SG,IPFV
+inturgidirsi;inturgidentesi;inturgidDEL(i)DEL(r)INS(e)INS(n)INS(t)INS(e)si;INS(e),INS(n),INS(t),INS(e);DEL(i),DEL(r);V.PTCP,PRS
+compartimentare;compartimenterà;compartimentDEL(ar)eINS(rà);INS(rà);DEL(ar);V,IND,FUT,3,SG
+condolersi;si condolga;INS(si )condolDEL(e)DEL(rsi)INS(g)INS(a);INS(si ),INS(g),INS(a);DEL(e),DEL(rsi);V,SBJV,PRS,3,SG
+maritare;marito;maritDEL(are)INS(o);INS(o);DEL(are);V,IND,PRS,1,SG
+decompartimentare;decompartimentante;decompartimentaDEL(r)INS(nt)e;INS(nt);DEL(r);V.PTCP,PRS
+affiochire;affiochiste;affiochiDEL(r)INS(st)e;INS(st);DEL(r);V,SBJV,PST,2,PL
+sbeccare;sbeccate;sbeccaDEL(r)INS(t)e;INS(t);DEL(r);V,POS,IMP,2,PL
+smantellare;smantellate;smantellaDEL(r)INS(t)e;INS(t);DEL(r);V,POS,IMP,2,PL
+accogliersi;accogliamo;accoglDEL(i)DEL(e)DEL(r)DEL(s)iINS(amo);INS(amo);DEL(i),DEL(e),DEL(r),DEL(s);V,POS,IMP,1,PL
+sfolgorare;sfolgoravate;sfolgoraDEL(r)INS(vat)e;INS(vat);DEL(r);V,IND,PST,2,PL,IPFV
+reimpastare;reimpastino;reimpastDEL(are)INS(ino);INS(ino);DEL(are);V,SBJV,PRS,3,PL
+acquarellare;acquarelliamo;acquarellINS(i)aDEL(re)INS(mo);INS(i),INS(mo);DEL(re);V,SBJV,PRS,1,PL
+arrapare;arraperebbe;arrapDEL(a)INS(e)rINS(ebb)e;INS(e),INS(ebb);DEL(a);V,COND,3,SG
+ricomporsi;si ricomporrebbero;INS(si )ricomporDEL(si)INS(r)INS(e)INS(b)INS(b)INS(e)INS(r)INS(o);INS(si ),INS(r),INS(e),INS(b),INS(b),INS(e),INS(r),INS(o);DEL(si);V,COND,3,PL
+rinfrescare;rinfrescarono;rinfrescarDEL(e)INS(ono);INS(ono);DEL(e);V,IND,PST,3,PL,PFV
+avvedersi;ci avvediamo;INS(ci )avvedDEL(e)DEL(rs)iINS(amo);INS(ci ),INS(amo);DEL(e),DEL(rs);V,IND,PRS,1,PL
+ricevere;riceviate;ricevDEL(er)INS(i)INS(a)INS(t)e;INS(i),INS(a),INS(t);DEL(er);V,SBJV,PRS,2,PL
+approfondire;approfondirebbero;approfondireINS(bbero);INS(bbero);;V,COND,3,PL
+autoinvitarsi;mi autoinvitassi;INS(mi )autoinvitaDEL(r)sINS(s)i;INS(mi ),INS(s);DEL(r);V,SBJV,PST,1,SG
+derequisire;derequisisca;derequisiDEL(re)INS(s)INS(c)INS(a);INS(s),INS(c),INS(a);DEL(re);V,SBJV,PRS,3,SG
+decuplicare;decuplicheremo;decuplicDEL(a)INS(he)reINS(mo);INS(he),INS(mo);DEL(a);V,IND,FUT,1,PL
+riscappare;riscappate;riscappaDEL(r)INS(t)e;INS(t);DEL(r);V,POS,IMP,2,PL
+squartare;squarterei;squartDEL(a)INS(e)reINS(i);INS(e),INS(i);DEL(a);V,COND,1,SG
+modellizzare;modellizzavano;modellizzaDEL(re)INS(vano);INS(vano);DEL(re);V,IND,PST,3,PL,IPFV
+confliggere;confliggano;confliggDEL(ere)INS(a)INS(n)INS(o);INS(a),INS(n),INS(o);DEL(ere);V,POS,IMP,3,PL
+freddare;freddò;freddDEL(are)INS(ò);INS(ò);DEL(are);V,IND,PST,3,SG,PFV
+servire;servire;servire;;;V,NFIN
+banchettare;banchetteremmo;banchettDEL(a)INS(e)reINS(mmo);INS(e),INS(mmo);DEL(a);V,COND,1,PL
+cattolicizzare;cattolicizziate;cattolicizzINS(i)aDEL(r)INS(t)e;INS(i),INS(t);DEL(r);V,SBJV,PRS,2,PL
+tirarsi;mi tiro;INS(mi )tirDEL(arsi)INS(o);INS(mi ),INS(o);DEL(arsi);V,IND,PRS,1,SG
+raggentilire;raggentilisco;raggentiliDEL(re)INS(s)INS(c)INS(o);INS(s),INS(c),INS(o);DEL(re);V,IND,PRS,1,SG
+levitare;levitiamo;levitINS(i)aDEL(re)INS(mo);INS(i),INS(mo);DEL(re);V,IND,PRS,1,PL
+flagellare;flagelli;flagellDEL(are)INS(i);INS(i);DEL(are);V,SBJV,PRS,1,SG
+dereferenziare;dereferenzino;dereferenziDEL(are)INS(no);INS(no);DEL(are);V,POS,IMP,3,PL
+paracadutarsi;vi paracadutate;INS(vi )paracadutaDEL(rsi)INS(te);INS(vi ),INS(te);DEL(rsi);V,IND,PRS,2,PL
+spromettere;spromettiate;sprometINS(t)INS(i)INS(a)tDEL(er)e;INS(t),INS(i),INS(a);DEL(er);V,SBJV,PRS,2,PL
+svagare;svaghiamo;svagINS(h)INS(i)aDEL(re)INS(mo);INS(h),INS(i),INS(mo);DEL(re);V,SBJV,PRS,1,PL
+adire;adirei;adireINS(i);INS(i);;V,COND,1,SG
+riappropriarsi;si riappropri;INS(si )riapproprDEL(i)DEL(ars)i;INS(si );DEL(i),DEL(ars);V,SBJV,PRS,3,SG
+sbarazzarsi;mi sbarazzi;INS(mi )sbarazzDEL(ars)i;INS(mi );DEL(ars);V,SBJV,PRS,1,SG
+appiccicarsi;appiccicarsi;appiccicarsi;;;V,NFIN
+allessare;allesseremo;allessDEL(a)INS(e)reINS(mo);INS(e),INS(mo);DEL(a);V,IND,FUT,1,PL
+zampicare;zampicano;zampicaDEL(re)INS(no);INS(no);DEL(re);V,IND,PRS,3,PL
+rubarsi;ci rubiamo;INS(ci )rubDEL(ars)iINS(amo);INS(ci ),INS(amo);DEL(ars);V,SBJV,PRS,1,PL
+questionare;questionavi;questionaDEL(re)INS(vi);INS(vi);DEL(re);V,IND,PST,2,SG,IPFV
+mozzare;mozzassimo;mozzaDEL(re)INS(ssimo);INS(ssimo);DEL(re);V,SBJV,PST,1,PL
+contradire;contradirei;contradireINS(i);INS(i);;V,COND,1,SG
+capitare;capitassi;capitaDEL(re)INS(ssi);INS(ssi);DEL(re);V,SBJV,PST,1,SG
+meriare;meriavate;meriaDEL(r)INS(vat)e;INS(vat);DEL(r);V,IND,PST,2,PL,IPFV
+asfissiarsi;ci asfissiavamo;INS(ci )asfissiaDEL(rsi)INS(vamo);INS(ci ),INS(vamo);DEL(rsi);V,IND,PST,1,PL,IPFV
+colluttarsi;si colluttarono;INS(si )colluttarDEL(si)INS(ono);INS(si ),INS(ono);DEL(si);V,IND,PST,3,PL,PFV
+fidarsi;ti fidavi;INS(ti )fidaDEL(rs)INS(v)i;INS(ti ),INS(v);DEL(rs);V,IND,PST,2,SG,IPFV
+attaccarsi;si attaccavano;INS(si )attaccaDEL(rsi)INS(vano);INS(si ),INS(vano);DEL(rsi);V,IND,PST,3,PL,IPFV
+immunizzarsi;si immunizzò;INS(si )immunizzDEL(arsi)INS(ò);INS(si ),INS(ò);DEL(arsi);V,IND,PST,3,SG,PFV
+tepefare;tepefacciamo;tepefaDEL(re)INS(c)INS(c)INS(i)INS(a)INS(m)INS(o);INS(c),INS(c),INS(i),INS(a),INS(m),INS(o);DEL(re);V,SBJV,PRS,1,PL
+infamare;infamavano;infamaDEL(re)INS(vano);INS(vano);DEL(re);V,IND,PST,3,PL,IPFV
+impregnarsi;ti impregnavi;INS(ti )impregnaDEL(rs)INS(v)i;INS(ti ),INS(v);DEL(rs);V,IND,PST,2,SG,IPFV
+ridondare;ridondato;ridondaDEL(re)INS(to);INS(to);DEL(re);V.PTCP,PST
+bestemmiare;bestemmierai;bestemmiDEL(ar)eINS(r)INS(a)INS(i);INS(r),INS(a),INS(i);DEL(ar);V,IND,FUT,2,SG
+esercitare;esercitavano;esercitaDEL(re)INS(vano);INS(vano);DEL(re);V,IND,PST,3,PL,IPFV
+allungare;allungavo;allungaDEL(re)INS(vo);INS(vo);DEL(re);V,IND,PST,1,SG,IPFV
+accingere;accingi;accingDEL(ere)INS(i);INS(i);DEL(ere);V,IND,PRS,2,SG
+profittare;profittassimo;profittaDEL(re)INS(ssimo);INS(ssimo);DEL(re);V,SBJV,PST,1,PL
+suggestionarsi;mi suggestionerei;INS(mi )suggestionDEL(ars)INS(e)INS(r)INS(e)i;INS(mi ),INS(e),INS(r),INS(e);DEL(ars);V,COND,1,SG
+sbrigarsi;mi sbrigassi;INS(mi )sbrigaDEL(r)sINS(s)i;INS(mi ),INS(s);DEL(r);V,SBJV,PST,1,SG
+stipendiare;stipendiassi;stipendiaDEL(re)INS(ssi);INS(ssi);DEL(re);V,SBJV,PST,1,SG
+sconsacrare;sconsacrerebbe;sconsacrDEL(a)INS(e)rINS(ebb)e;INS(e),INS(ebb);DEL(a);V,COND,3,SG
+riottenere;riottengono;riottenDEL(ere)INS(g)INS(o)INS(n)INS(o);INS(g),INS(o),INS(n),INS(o);DEL(ere);V,IND,PRS,3,PL
+approfittarsi;approfittiamoci;approfittINS(i)aDEL(rs)INS(m)INS(o)INS(c)i;INS(i),INS(m),INS(o),INS(c);DEL(rs);V,POS,IMP,1,PL
+orripilare;orripilavate;orripilaDEL(r)INS(vat)e;INS(vat);DEL(r);V,IND,PST,2,PL,IPFV
+abbrunare;abbruneremmo;abbrunDEL(a)INS(e)reINS(mmo);INS(e),INS(mmo);DEL(a);V,COND,1,PL
+metaforizzare;metaforizza;metaforizzaDEL(re);;DEL(re);V,POS,IMP,2,SG
+imporcare;imporcherebbe;imporcDEL(a)INS(he)rINS(ebb)e;INS(he),INS(ebb);DEL(a);V,COND,3,SG
+avvincere;avvincerò;avvincerDEL(e)INS(ò);INS(ò);DEL(e);V,IND,FUT,1,SG
+reticolare;reticolassi;reticolaDEL(re)INS(ssi);INS(ssi);DEL(re);V,SBJV,PST,1,SG
+balzare;balzino;balzDEL(are)INS(ino);INS(ino);DEL(are);V,POS,IMP,3,PL
+indurare;induro;indurDEL(are)INS(o);INS(o);DEL(are);V,IND,PRS,1,SG
+sentirsi;si sentano;INS(si )sentDEL(i)DEL(rsi)INS(a)INS(n)INS(o);INS(si ),INS(a),INS(n),INS(o);DEL(i),DEL(rsi);V,SBJV,PRS,3,PL
+ringraziarsi;mi ringraziassi;INS(mi )ringraziaDEL(r)sINS(s)i;INS(mi ),INS(s);DEL(r);V,SBJV,PST,1,SG
+tripartire;tripartite;tripartiDEL(r)INS(t)e;INS(t);DEL(r);V,IND,PRS,2,PL
+strambare;strambereste;strambDEL(a)INS(e)rINS(est)e;INS(e),INS(est);DEL(a);V,COND,2,PL
+involgarirsi;si involgarirebbero;INS(si )involgarirDEL(si)INS(e)INS(b)INS(b)INS(e)INS(r)INS(o);INS(si ),INS(e),INS(b),INS(b),INS(e),INS(r),INS(o);DEL(si);V,COND,3,PL
+degassare;degassassi;degassaDEL(re)INS(ssi);INS(ssi);DEL(re);V,SBJV,PST,2,SG
+appigliare;appigliassi;appigliaDEL(re)INS(ssi);INS(ssi);DEL(re);V,SBJV,PST,1,SG
+rimbecillire;rimbecilliamo;rimbecilliDEL(re)INS(amo);INS(amo);DEL(re);V,POS,IMP,1,PL
+perplimere;perplime;perplimDEL(er)e;;DEL(er);V,IND,PRS,3,SG
+gallicizzare;gallicizzavo;gallicizzaDEL(re)INS(vo);INS(vo);DEL(re);V,IND,PST,1,SG,IPFV
+infagottare;infagotti;infagottDEL(are)INS(i);INS(i);DEL(are);V,SBJV,PRS,2,SG
+palare;palavano;palaDEL(re)INS(vano);INS(vano);DEL(re);V,IND,PST,3,PL,IPFV
+iniziare;iniziasti;iniziaDEL(re)INS(sti);INS(sti);DEL(re);V,IND,PST,2,SG,PFV
+impaperarsi;si impaperano;INS(si )impaperaDEL(rsi)INS(no);INS(si ),INS(no);DEL(rsi);V,IND,PRS,3,PL
+ingannare;inganniamo;ingannINS(i)aDEL(re)INS(mo);INS(i),INS(mo);DEL(re);V,POS,IMP,1,PL
+azzuffare;azzuffi;azzuffDEL(are)INS(i);INS(i);DEL(are);V,POS,IMP,3,SG
+sbottare;sbottaste;sbottaDEL(r)INS(st)e;INS(st);DEL(r);V,IND,PST,2,PL,PFV
+cicatrizzare;cicatrizzerà;cicatrizzDEL(ar)eINS(rà);INS(rà);DEL(ar);V,IND,FUT,3,SG
+locare;locante;locaDEL(r)INS(nt)e;INS(nt);DEL(r);V.PTCP,PRS
+scegliersi;ci sceglieremo;INS(ci )sceglierDEL(si)INS(e)INS(m)INS(o);INS(ci ),INS(e),INS(m),INS(o);DEL(si);V,IND,FUT,1,PL
+assetare;assetassi;assetaDEL(re)INS(ssi);INS(ssi);DEL(re);V,SBJV,PST,2,SG
+arenarsi;mi arenai;INS(mi )arenaDEL(rs)i;INS(mi );DEL(rs);V,IND,PST,1,SG,PFV
+squamare;squami;squamDEL(are)INS(i);INS(i);DEL(are);V,SBJV,PRS,1,SG
+stropicciare;stropicciammo;stropicciaDEL(re)INS(mmo);INS(mmo);DEL(re);V,IND,PST,1,PL,PFV
+fidanzarsi;vi fidanzaste;INS(vi )fidanzaDEL(r)sDEL(i)INS(te);INS(vi ),INS(te);DEL(r),DEL(i);V,SBJV,PST,2,PL
+protendersi;ci protendiamo;INS(ci )protendDEL(e)DEL(rs)iINS(amo);INS(ci ),INS(amo);DEL(e),DEL(rs);V,IND,PRS,1,PL
+smetterla;la smettevano;INS(l)INS(a)INS( )smetteDEL(r)DEL(l)INS(v)aINS(no);INS(l),INS(a),INS( ),INS(v),INS(no);DEL(r),DEL(l);V,IND,PST,3,PL,IPFV
+ubbligare;ubbligassi;ubbligaDEL(re)INS(ssi);INS(ssi);DEL(re);V,SBJV,PST,2,SG
+terrificare;terrifichi;terrificDEL(are)INS(h)INS(i);INS(h),INS(i);DEL(are);V,IND,PRS,2,SG
+incazzarsi;si incazzava;INS(si )incazzINS(av)aDEL(rsi);INS(si ),INS(av);DEL(rsi);V,IND,PST,3,SG,IPFV
+arsicciare;arsicciavamo;arsicciaDEL(re)INS(vamo);INS(vamo);DEL(re);V,IND,PST,1,PL,IPFV
+impomatarsi;mi impomatavo;INS(mi )impomataDEL(rsi)INS(vo);INS(mi ),INS(vo);DEL(rsi);V,IND,PST,1,SG,IPFV
+lodarsi;mi lodassi;INS(mi )lodaDEL(r)sINS(s)i;INS(mi ),INS(s);DEL(r);V,SBJV,PST,1,SG
+involgarire;involgarirete;involgarirINS(et)e;INS(et);;V,IND,FUT,2,PL
+coricare;coricherai;coricINS(h)INS(e)INS(r)aDEL(re)INS(i);INS(h),INS(e),INS(r),INS(i);DEL(re);V,IND,FUT,2,SG
+ribattezzare;ribattezzerei;ribattezzDEL(a)INS(e)reINS(i);INS(e),INS(i);DEL(a);V,COND,1,SG
+ignifugare;ignifughi;ignifugDEL(are)INS(h)INS(i);INS(h),INS(i);DEL(are);V,IND,PRS,2,SG
+divorziare;divorziaste;divorziaDEL(r)INS(st)e;INS(st);DEL(r);V,IND,PST,2,PL,PFV
+riappropriare;riappropriassi;riappropriaDEL(re)INS(ssi);INS(ssi);DEL(re);V,SBJV,PST,1,SG
+accoccovarsi;si accoccovino;INS(si )accoccovDEL(ars)iINS(no);INS(si ),INS(no);DEL(ars);V,POS,IMP,3,PL
+rassicurarsi;vi rassicuraste;INS(vi )rassicuraDEL(r)sDEL(i)INS(te);INS(vi ),INS(te);DEL(r),DEL(i);V,SBJV,PST,2,PL
+riaffermarsi;vi riaffermaste;INS(vi )riaffermaDEL(r)sDEL(i)INS(te);INS(vi ),INS(te);DEL(r),DEL(i);V,SBJV,PST,2,PL
+degnare;degneresti;degnDEL(a)INS(e)reINS(sti);INS(e),INS(sti);DEL(a);V,COND,2,SG
+inamidare;inamidante;inamidaDEL(r)INS(nt)e;INS(nt);DEL(r);V.PTCP,PRS
+mercanteggiare;mercanteggerebbe;mercanteggDEL(i)DEL(a)INS(e)rINS(ebb)e;INS(e),INS(ebb);DEL(i),DEL(a);V,COND,3,SG
+inzotichire;inzotichire;inzotichire;;;V,NFIN
+scaricare;scaricarono;scaricarDEL(e)INS(ono);INS(ono);DEL(e);V,IND,PST,3,PL,PFV
+telematizzare;telematizzerà;telematizzDEL(ar)eINS(rà);INS(rà);DEL(ar);V,IND,FUT,3,SG
+rirompere;rirompono;rirompDEL(ere)INS(ono);INS(ono);DEL(ere);V,IND,PRS,3,PL
+raffazzonare;raffazzonai;raffazzonaDEL(re)INS(i);INS(i);DEL(re);V,IND,PST,1,SG,PFV
+scudisciare;scudisceremo;scudiscDEL(i)DEL(a)INS(e)reINS(mo);INS(e),INS(mo);DEL(i),DEL(a);V,IND,FUT,1,PL
+anfanare;anfanavate;anfanaDEL(r)INS(vat)e;INS(vat);DEL(r);V,IND,PST,2,PL,IPFV
+lavarsi;mi laverei;INS(mi )lavDEL(ars)INS(e)INS(r)INS(e)i;INS(mi ),INS(e),INS(r),INS(e);DEL(ars);V,COND,1,SG
+ignifugare;ignifugassero;ignifugaINS(sse)rDEL(e)INS(o);INS(sse),INS(o);DEL(e);V,SBJV,PST,3,PL
+smacchiare;smacchi;smacchiDEL(are);;DEL(are);V,SBJV,PRS,2,SG
+catechizzare;catechizzerebbe;catechizzDEL(a)INS(e)rINS(ebb)e;INS(e),INS(ebb);DEL(a);V,COND,3,SG
+cospergere;cospergevo;cospergDEL(er)eINS(vo);INS(vo);DEL(er);V,IND,PST,1,SG,IPFV
+predisporsi;vi predisponeste;INS(vi )predispoDEL(rsi)INS(n)INS(e)INS(s)INS(t)INS(e);INS(vi ),INS(n),INS(e),INS(s),INS(t),INS(e);DEL(rsi);V,IND,PST,2,PL,PFV
+copiare;copierei;copiDEL(a)INS(e)reINS(i);INS(e),INS(i);DEL(a);V,COND,1,SG
+delirare;deliri;delirDEL(are)INS(i);INS(i);DEL(are);V,IND,PRS,2,SG
+cantilenare;cantilenante;cantilenaDEL(r)INS(nt)e;INS(nt);DEL(r);V.PTCP,PRS
+bruciacchiarsi;bruciacchiati;bruciacchiaDEL(rs)INS(t)i;INS(t);DEL(rs);V,POS,IMP,2,SG
+ricollegare;ricolleghereste;ricollegDEL(a)INS(he)rINS(est)e;INS(he),INS(est);DEL(a);V,COND,2,PL
+riscotere;riscoterà;riscoterDEL(e)INS(à);INS(à);DEL(e);V,IND,FUT,3,SG
+danzare;danzeresti;danzDEL(a)INS(e)reINS(sti);INS(e),INS(sti);DEL(a);V,COND,2,SG
+chetare;cheteranno;chetDEL(ar)eINS(ranno);INS(ranno);DEL(ar);V,IND,FUT,3,PL
+rateizzare;rateizzaste;rateizzaDEL(r)INS(st)e;INS(st);DEL(r);V,SBJV,PST,2,PL
+vulcanizzare;vulcanizzassero;vulcanizzaINS(sse)rDEL(e)INS(o);INS(sse),INS(o);DEL(e);V,SBJV,PST,3,PL
+spiccicare;spiccichiamo;spiccicINS(h)INS(i)aDEL(re)INS(mo);INS(h),INS(i),INS(mo);DEL(re);V,POS,IMP,1,PL
+sfilacciarsi;ti sfilacceresti;INS(ti )sfilaccDEL(i)DEL(a)INS(e)rINS(e)sINS(t)i;INS(ti ),INS(e),INS(e),INS(t);DEL(i),DEL(a);V,COND,2,SG
+misconoscere;misconoscemmo;misconoscDEL(er)eINS(mmo);INS(mmo);DEL(er);V,IND,PST,1,PL,PFV
+impasticcarsi;ti impasticchi;INS(ti )impasticcDEL(ars)INS(h)i;INS(ti ),INS(h);DEL(ars);V,SBJV,PRS,2,SG
+diesare;diesi;diesDEL(are)INS(i);INS(i);DEL(are);V,SBJV,PRS,2,SG
+fallarsi;si falli;INS(si )fallDEL(ars)i;INS(si );DEL(ars);V,POS,IMP,3,SG
+ingraziosire;ingraziosire;ingraziosire;;;V,NFIN
+inguaiarsi;si inguaiano;INS(si )inguaiaDEL(rsi)INS(no);INS(si ),INS(no);DEL(rsi);V,IND,PRS,3,PL
+confederare;confedera;confederaDEL(re);;DEL(re);V,POS,IMP,2,SG
+matrizzare;matrizzammo;matrizzaDEL(re)INS(mmo);INS(mmo);DEL(re);V,IND,PST,1,PL,PFV
+comprare;compreranno;compDEL(r)DEL(a)reINS(ranno);INS(ranno);DEL(r),DEL(a);V,IND,FUT,3,PL
+affiliare;affiliate;affiliaDEL(r)INS(t)e;INS(t);DEL(r);V,SBJV,PRS,2,PL
+conformare;conformerete;conformDEL(a)INS(e)rINS(et)e;INS(e),INS(et);DEL(a);V,IND,FUT,2,PL
+nevrotizzare;nevrotizzerei;nevrotizzDEL(a)INS(e)reINS(i);INS(e),INS(i);DEL(a);V,COND,1,SG
+meritarsi;ci meriteremo;INS(ci )meritDEL(arsi)INS(e)INS(r)INS(e)INS(m)INS(o);INS(ci ),INS(e),INS(r),INS(e),INS(m),INS(o);DEL(arsi);V,IND,FUT,1,PL
+ispessire;ispessiranno;ispessirDEL(e)INS(a)INS(n)INS(n)INS(o);INS(a),INS(n),INS(n),INS(o);DEL(e);V,IND,FUT,3,PL
+elogiare;elogia;elogiaDEL(re);;DEL(re);V,IND,PRS,3,SG
+vilipendere;vilipendeste;vilipendeDEL(r)INS(st)e;INS(st);DEL(r);V,SBJV,PST,2,PL
+centinare;centinava;centinINS(av)aDEL(re);INS(av);DEL(re);V,IND,PST,3,SG,IPFV
+strangolarsi;ti strangolasti;INS(ti )strangolaDEL(r)sINS(t)i;INS(ti ),INS(t);DEL(r);V,IND,PST,2,SG,PFV
+autocontrarre;autocontraendo;autocontraDEL(r)DEL(r)eINS(n)INS(d)INS(o);INS(n),INS(d),INS(o);DEL(r),DEL(r);V.CVB,PRS
+attanagliare;attanaglieremo;attanagliDEL(a)INS(e)reINS(mo);INS(e),INS(mo);DEL(a);V,IND,FUT,1,PL
+agglutinare;agglutinaste;agglutinaDEL(r)INS(st)e;INS(st);DEL(r);V,IND,PST,2,PL,PFV
+battezzare;battezza;battezzaDEL(re);;DEL(re);V,POS,IMP,2,SG
+riesporre;riesponevate;riespoDEL(r)DEL(r)INS(n)INS(e)INS(v)INS(a)INS(t)e;INS(n),INS(e),INS(v),INS(a),INS(t);DEL(r),DEL(r);V,IND,PST,2,PL,IPFV
+sottrarsi;mi sottraggo;INS(mi )sottraDEL(rsi)INS(g)INS(g)INS(o);INS(mi ),INS(g),INS(g),INS(o);DEL(rsi);V,IND,PRS,1,SG
+suffondere;suffondevo;suffondDEL(er)eINS(vo);INS(vo);DEL(er);V,IND,PST,1,SG,IPFV
+adoprarsi;adoprarsi;adoprarsi;;;V,NFIN
+peragrare;peragravano;peragraDEL(re)INS(vano);INS(vano);DEL(re);V,IND,PST,3,PL,IPFV
+crogiolare;crogiolano;crogiolaDEL(re)INS(no);INS(no);DEL(re);V,IND,PRS,3,PL
+decorticare;decorticasti;decorticaDEL(re)INS(sti);INS(sti);DEL(re);V,IND,PST,2,SG,PFV
+affienare;affienereste;affienDEL(a)INS(e)rINS(est)e;INS(e),INS(est);DEL(a);V,COND,2,PL
+accaprettare;accaprettava;accaprettINS(av)aDEL(re);INS(av);DEL(re);V,IND,PST,3,SG,IPFV
+impegolarsi;vi impegolate;INS(vi )impegolaDEL(rsi)INS(te);INS(vi ),INS(te);DEL(rsi);V,IND,PRS,2,PL
+sottopassare;sottopasserà;sottopassDEL(ar)eINS(rà);INS(rà);DEL(ar);V,IND,FUT,3,SG
+disselciare;disselciavano;disselciaDEL(re)INS(vano);INS(vano);DEL(re);V,IND,PST,3,PL,IPFV
+imparruccare;imparruccassi;imparruccaDEL(re)INS(ssi);INS(ssi);DEL(re);V,SBJV,PST,1,SG
+rincoraggiare;rincoraggerò;rincoraggDEL(i)DEL(ar)eINS(r)INS(ò);INS(r),INS(ò);DEL(i),DEL(ar);V,IND,FUT,1,SG
+sancire;sanciamo;sanciDEL(re)INS(amo);INS(amo);DEL(re);V,IND,PRS,1,PL
+augurarsi;ti auguri;INS(ti )augurDEL(ars)i;INS(ti );DEL(ars);V,IND,PRS,2,SG
+depolimerizzarsi;mi depolimerizzi;INS(mi )depolimerizzDEL(ars)i;INS(mi );DEL(ars);V,SBJV,PRS,1,SG
+proporzionare;proporzionerebbe;proporzionDEL(a)INS(e)rINS(ebb)e;INS(e),INS(ebb);DEL(a);V,COND,3,SG
+ricaricarsi;ti ricaricavi;INS(ti )ricaricaDEL(rs)INS(v)i;INS(ti ),INS(v);DEL(rs);V,IND,PST,2,SG,IPFV
+diagrammare;diagrammiamo;diagrammINS(i)aDEL(re)INS(mo);INS(i),INS(mo);DEL(re);V,POS,IMP,1,PL
+abbruciare;abbruciaste;abbruciaDEL(r)INS(st)e;INS(st);DEL(r);V,IND,PST,2,PL,PFV
+avventarsi;si avventasse;INS(si )avventaDEL(r)sDEL(i)INS(s)INS(e);INS(si ),INS(s),INS(e);DEL(r),DEL(i);V,SBJV,PST,3,SG
+librarsi;si libri;INS(si )librDEL(ars)i;INS(si );DEL(ars);V,SBJV,PRS,3,SG
+ricalcificare;ricalcifichi;ricalcificDEL(are)INS(h)INS(i);INS(h),INS(i);DEL(are);V,SBJV,PRS,3,SG
+imbufalire;imbufalissimo;imbufaliDEL(re)INS(ssimo);INS(ssimo);DEL(re);V,SBJV,PST,1,PL
+definire;definire;definire;;;V,NFIN
+scarrellare;scarrelli;scarrellDEL(are)INS(i);INS(i);DEL(are);V,POS,IMP,3,SG
+detrarre;detrassero;detraINS(sse)rDEL(re)INS(o);INS(sse),INS(o);DEL(re);V,IND,PST,3,PL,PFV
+caramellare;caramellassi;caramellaDEL(re)INS(ssi);INS(ssi);DEL(re);V,SBJV,PST,1,SG
+ritrascrivere;ritrascrissi;ritrascrINS(i)INS(s)INS(s)iDEL(v)DEL(e)DEL(r)DEL(e);INS(i),INS(s),INS(s);DEL(v),DEL(e),DEL(r),DEL(e);V,IND,PST,1,SG,PFV
+sciorinare;sciorinavano;sciorinaDEL(re)INS(vano);INS(vano);DEL(re);V,IND,PST,3,PL,IPFV
+sottostimare;sottostimassi;sottostimaDEL(re)INS(ssi);INS(ssi);DEL(re);V,SBJV,PST,1,SG
+affarsi;si affecero;INS(si )affDEL(arsi)INS(e)INS(c)INS(e)INS(r)INS(o);INS(si ),INS(e),INS(c),INS(e),INS(r),INS(o);DEL(arsi);V,IND,PST,3,PL,PFV
+rimembrarsi;rimembrato;rimembraDEL(rsi)INS(to);INS(to);DEL(rsi);V.PTCP,PST
+cannare;cannino;cannDEL(are)INS(ino);INS(ino);DEL(are);V,SBJV,PRS,3,PL
+ritrasformare;ritrasformaste;ritrasformaDEL(r)INS(st)e;INS(st);DEL(r);V,IND,PST,2,PL,PFV
+aggrumare;aggrumi;aggrumDEL(are)INS(i);INS(i);DEL(are);V,POS,IMP,3,SG
+elettrocoagulare;elettrocoagulai;elettrocoagulaDEL(re)INS(i);INS(i);DEL(re);V,IND,PST,1,SG,PFV
+istillare;istilleresti;istillDEL(a)INS(e)reINS(sti);INS(e),INS(sti);DEL(a);V,COND,2,SG
+confrontare;confronterai;confrontDEL(ar)eINS(r)INS(a)INS(i);INS(r),INS(a),INS(i);DEL(ar);V,IND,FUT,2,SG
+tritare;tritassi;tritaDEL(re)INS(ssi);INS(ssi);DEL(re);V,SBJV,PST,1,SG
+taccare;taccherai;taccINS(h)INS(e)INS(r)aDEL(re)INS(i);INS(h),INS(e),INS(r),INS(i);DEL(re);V,IND,FUT,2,SG
+concettare;concettammo;concettaDEL(re)INS(mmo);INS(mmo);DEL(re);V,IND,PST,1,PL,PFV
+grandinare;grandini;grandinDEL(are)INS(i);INS(i);DEL(are);V,POS,IMP,3,SG
+sgravarsi;ci sgravassimo;INS(ci )sgravaDEL(r)sINS(s)iINS(mo);INS(ci ),INS(s),INS(mo);DEL(r);V,SBJV,PST,1,PL
+ridursi;ci ridurremo;INS(ci )ridurDEL(si)INS(r)INS(e)INS(m)INS(o);INS(ci ),INS(r),INS(e),INS(m),INS(o);DEL(si);V,IND,FUT,1,PL
+sottorappresentare;sottorappresentai;sottorappresentaDEL(re)INS(i);INS(i);DEL(re);V,IND,PST,1,SG,PFV
+affiochire;affiochito;affiochiDEL(re)INS(to);INS(to);DEL(re);V.PTCP,PST
+farsela;ve la farete;INS(v)INS(e)INS( )INS(l)INS(a)INS( )farDEL(s)INS(et)eDEL(l)DEL(a);INS(v),INS(e),INS( ),INS(l),INS(a),INS( ),INS(et);DEL(s),DEL(l),DEL(a);V,IND,FUT,2,PL
+propinare;propinerebbero;propinDEL(a)INS(e)reINS(bbero);INS(e),INS(bbero);DEL(a);V,COND,3,PL
+sfrenare;sfreneranno;sfrenDEL(ar)eINS(ranno);INS(ranno);DEL(ar);V,IND,FUT,3,PL
+psichiatrizzare;psichiatrizzaste;psichiatrizzaDEL(r)INS(st)e;INS(st);DEL(r);V,SBJV,PST,2,PL
+riallacciarsi;ci riallacciavamo;INS(ci )riallacciaDEL(rsi)INS(vamo);INS(ci ),INS(vamo);DEL(rsi);V,IND,PST,1,PL,IPFV
+ravvisare;ravvisavi;ravvisaDEL(re)INS(vi);INS(vi);DEL(re);V,IND,PST,2,SG,IPFV
+vanagloriarsi;vi vanagloriate;INS(vi )vanagloriaDEL(rsi)INS(te);INS(vi ),INS(te);DEL(rsi);V,IND,PRS,2,PL
+addoppiare;addoppiavano;addoppiaDEL(re)INS(vano);INS(vano);DEL(re);V,IND,PST,3,PL,IPFV
+proporzionare;proporzionare;proporzionare;;;V,NFIN
+disilludersi;mi disillusi;INS(mi )disilluDEL(d)DEL(e)DEL(r)si;INS(mi );DEL(d),DEL(e),DEL(r);V,IND,PST,1,SG,PFV
+aitare;aiterò;aitDEL(ar)eINS(r)INS(ò);INS(r),INS(ò);DEL(ar);V,IND,FUT,1,SG
+biadare;biadiamo;biadINS(i)aDEL(re)INS(mo);INS(i),INS(mo);DEL(re);V,IND,PRS,1,PL
+risovvenire;risovvenire;risovvenire;;;V,NFIN
+premeditare;premeditassi;premeditaDEL(re)INS(ssi);INS(ssi);DEL(re);V,SBJV,PST,2,SG
+riallacciare;riallacceranno;riallaccDEL(i)DEL(ar)eINS(ranno);INS(ranno);DEL(i),DEL(ar);V,IND,FUT,3,PL
+confezionare;confezionerete;confezionDEL(a)INS(e)rINS(et)e;INS(e),INS(et);DEL(a);V,IND,FUT,2,PL
+battibeccare;battibeccherei;battibeccDEL(a)INS(he)reINS(i);INS(he),INS(i);DEL(a);V,COND,1,SG
+sciancare;sciancherà;sciancDEL(ar)INS(h)eINS(rà);INS(h),INS(rà);DEL(ar);V,IND,FUT,3,SG
+trasecolare;trasecolassi;trasecolaDEL(re)INS(ssi);INS(ssi);DEL(re);V,SBJV,PST,1,SG
+disfarsi;si disfa;INS(si )disfaDEL(rsi);INS(si );DEL(rsi);V,IND,PRS,3,SG
+riddare;riddassimo;riddaDEL(re)INS(ssimo);INS(ssimo);DEL(re);V,SBJV,PST,1,PL
+congegnare;congegnerai;congegnDEL(ar)eINS(r)INS(a)INS(i);INS(r),INS(a),INS(i);DEL(ar);V,IND,FUT,2,SG
+scherzare;scherzammo;scherzaDEL(re)INS(mmo);INS(mmo);DEL(re);V,IND,PST,1,PL,PFV
+inurbarsi;si inurberebbe;INS(si )inurbDEL(arsi)INS(e)INS(r)INS(e)INS(b)INS(b)INS(e);INS(si ),INS(e),INS(r),INS(e),INS(b),INS(b),INS(e);DEL(arsi);V,COND,3,SG
+crossare;crosserà;crossDEL(ar)eINS(rà);INS(rà);DEL(ar);V,IND,FUT,3,SG
+escutere;escuta;escutDEL(ere)INS(a);INS(a);DEL(ere);V,SBJV,PRS,1,SG
+inginocchiarsi;si inginocchiasse;INS(si )inginocchiaDEL(r)sDEL(i)INS(s)INS(e);INS(si ),INS(s),INS(e);DEL(r),DEL(i);V,SBJV,PST,3,SG
+lamentare;lamentavamo;lamentaDEL(re)INS(vamo);INS(vamo);DEL(re);V,IND,PST,1,PL,IPFV
+racemizzare;racemizzeranno;racemizzDEL(ar)eINS(ranno);INS(ranno);DEL(ar);V,IND,FUT,3,PL
+snellire;snelliranno;snellirDEL(e)INS(a)INS(n)INS(n)INS(o);INS(a),INS(n),INS(n),INS(o);DEL(e);V,IND,FUT,3,PL
+controllare;controlla;controllaDEL(re);;DEL(re);V,IND,PRS,3,SG
+shakerare;shakeri;shakerDEL(are)INS(i);INS(i);DEL(are);V,SBJV,PRS,2,SG
+sbracarsi;ci sbrachiamo;INS(ci )sbracDEL(ars)INS(h)iINS(amo);INS(ci ),INS(h),INS(amo);DEL(ars);V,SBJV,PRS,1,PL
+disrompere;disrompemmo;disrompDEL(er)eINS(mmo);INS(mmo);DEL(er);V,IND,PST,1,PL,PFV
+rivettare;rivetta;rivettaDEL(re);;DEL(re);V,POS,IMP,2,SG
+introdursi;ti introducesti;INS(ti )introduDEL(r)INS(c)INS(e)sINS(t)i;INS(ti ),INS(c),INS(e),INS(t);DEL(r);V,IND,PST,2,SG,PFV
+funghire;funghivate;funghiDEL(r)INS(vat)e;INS(vat);DEL(r);V,IND,PST,2,PL,IPFV
+accottimare;accottimassi;accottimaDEL(re)INS(ssi);INS(ssi);DEL(re);V,SBJV,PST,1,SG
+premescolare;premescolo;premescolDEL(are)INS(o);INS(o);DEL(are);V,IND,PRS,1,SG
+usare;usai;usaDEL(re)INS(i);INS(i);DEL(re);V,IND,PST,1,SG,PFV
+abbellirsi;abbelliamoci;abbelliDEL(rs)INS(a)INS(m)INS(o)INS(c)i;INS(a),INS(m),INS(o),INS(c);DEL(rs);V,POS,IMP,1,PL
+assemprare;assemprerà;assempDEL(r)DEL(a)reINS(rà);INS(rà);DEL(r),DEL(a);V,IND,FUT,3,SG
+rincoraggiare;rincoraggeranno;rincoraggDEL(i)DEL(ar)eINS(ranno);INS(ranno);DEL(i),DEL(ar);V,IND,FUT,3,PL
+riverberare;riverbererò;riverbeDEL(r)DEL(a)reINS(r)INS(ò);INS(r),INS(ò);DEL(r),DEL(a);V,IND,FUT,1,SG
+riscalare;riscalante;riscalaDEL(r)INS(nt)e;INS(nt);DEL(r);V.PTCP,PRS
+aggiaccare;aggiaccasti;aggiaccaDEL(re)INS(sti);INS(sti);DEL(re);V,IND,PST,2,SG,PFV
+fantasticare;fantastichino;fantasticDEL(are)INS(h)INS(i)INS(n)INS(o);INS(h),INS(i),INS(n),INS(o);DEL(are);V,SBJV,PRS,3,PL
+opsonizzare;opsonizzammo;opsonizzaDEL(re)INS(mmo);INS(mmo);DEL(re);V,IND,PST,1,PL,PFV
+riesportare;riesporterebbe;riesportDEL(a)INS(e)rINS(ebb)e;INS(e),INS(ebb);DEL(a);V,COND,3,SG
+accagionare;accagioniamo;accagionINS(i)aDEL(re)INS(mo);INS(i),INS(mo);DEL(re);V,POS,IMP,1,PL
+vangare;vanghereste;vangDEL(a)INS(he)rINS(est)e;INS(he),INS(est);DEL(a);V,COND,2,PL
+ingiungere;ingiunga;ingiungDEL(ere)INS(a);INS(a);DEL(ere);V,SBJV,PRS,2,SG
+estremizzare;estremizzerebbe;estremizzDEL(a)INS(e)rINS(ebb)e;INS(e),INS(ebb);DEL(a);V,COND,3,SG
+attristire;attristimmo;attristiDEL(re)INS(mmo);INS(mmo);DEL(re);V,IND,PST,1,PL,PFV
+ingolfare;ingolfò;ingolfDEL(are)INS(ò);INS(ò);DEL(are);V,IND,PST,3,SG,PFV
+convincersi;si convincano;INS(si )convincDEL(e)DEL(rsi)INS(a)INS(n)INS(o);INS(si ),INS(a),INS(n),INS(o);DEL(e),DEL(rsi);V,POS,IMP,3,PL
+indolenzirsi;mi indolenzirei;INS(mi )indolenzirDEL(s)INS(e)i;INS(mi ),INS(e);DEL(s);V,COND,1,SG
+ricolonizzare;ricolonizzaste;ricolonizzaDEL(r)INS(st)e;INS(st);DEL(r);V,IND,PST,2,PL,PFV
+ellenizzare;ellenizzo;ellenizzDEL(are)INS(o);INS(o);DEL(are);V,IND,PRS,1,SG
+reincontrare;reincontrerete;reincontrDEL(a)INS(e)rINS(et)e;INS(e),INS(et);DEL(a);V,IND,FUT,2,PL
+certificare;certifichi;certificDEL(are)INS(h)INS(i);INS(h),INS(i);DEL(are);V,POS,IMP,3,SG
+reincarnare;reincarno;reincarnDEL(are)INS(o);INS(o);DEL(are);V,IND,PRS,1,SG
+fallire;falliamo;falliDEL(re)INS(amo);INS(amo);DEL(re);V,SBJV,PRS,1,PL
+sloggare;sloggheresti;sloggDEL(a)INS(he)reINS(sti);INS(he),INS(sti);DEL(a);V,COND,2,SG
+incornare;incorna;incornaDEL(re);;DEL(re);V,POS,IMP,2,SG
+desensibilizzare;desensibilizzavo;desensibilizzaDEL(re)INS(vo);INS(vo);DEL(re);V,IND,PST,1,SG,IPFV
+autogestirsi;ci autogestivamo;INS(ci )autogestDEL(i)DEL(rs)iINS(vamo);INS(ci ),INS(vamo);DEL(i),DEL(rs);V,IND,PST,1,PL,IPFV
+malmettere;malmetteremmo;malmettereINS(mmo);INS(mmo);;V,COND,1,PL
+frammezzare;frammezzassimo;frammezzaDEL(re)INS(ssimo);INS(ssimo);DEL(re);V,SBJV,PST,1,PL
+sbiellare;sbiellarono;sbiellarDEL(e)INS(ono);INS(ono);DEL(e);V,IND,PST,3,PL,PFV
+infittire;infittirei;infittireINS(i);INS(i);;V,COND,1,SG
+incardinare;incardinassimo;incardinaDEL(re)INS(ssimo);INS(ssimo);DEL(re);V,SBJV,PST,1,PL
+evocare;evocherai;evocINS(h)INS(e)INS(r)aDEL(re)INS(i);INS(h),INS(e),INS(r),INS(i);DEL(re);V,IND,FUT,2,SG
+temersi;temuto;temDEL(e)DEL(rsi)INS(u)INS(t)INS(o);INS(u),INS(t),INS(o);DEL(e),DEL(rsi);V.PTCP,PST
+rivedere;rivedeva;rivedDEL(er)eINS(v)INS(a);INS(v),INS(a);DEL(er);V,IND,PST,3,SG,IPFV
+disdegnare;disdegnò;disdegnDEL(are)INS(ò);INS(ò);DEL(are);V,IND,PST,3,SG,PFV
+fingere;fingeva;fingDEL(er)eINS(v)INS(a);INS(v),INS(a);DEL(er);V,IND,PST,3,SG,IPFV
+circonscrivere;circonscrisse;circonscriDEL(v)DEL(e)DEL(r)INS(ss)e;INS(ss);DEL(v),DEL(e),DEL(r);V,IND,PST,3,SG,PFV
+confutare;confutavano;confutaDEL(re)INS(vano);INS(vano);DEL(re);V,IND,PST,3,PL,IPFV
+ravvivare;ravvivasse;ravvivaDEL(r)INS(ss)e;INS(ss);DEL(r);V,SBJV,PST,3,SG
+spicciolare;spicciolava;spicciolINS(av)aDEL(re);INS(av);DEL(re);V,IND,PST,3,SG,IPFV
+stridulare;stridulassi;stridulaDEL(re)INS(ssi);INS(ssi);DEL(re);V,SBJV,PST,2,SG
+razionare;razionassero;razionaINS(sse)rDEL(e)INS(o);INS(sse),INS(o);DEL(e);V,SBJV,PST,3,PL
+ridestare;ridestasti;ridestaDEL(re)INS(sti);INS(sti);DEL(re);V,IND,PST,2,SG,PFV
+shakerare;shakererebbero;shakerDEL(a)INS(e)reINS(bbero);INS(e),INS(bbero);DEL(a);V,COND,3,PL
+marnare;marno;marnDEL(are)INS(o);INS(o);DEL(are);V,IND,PRS,1,SG
+sniffare;snifferebbe;sniffDEL(a)INS(e)rINS(ebb)e;INS(e),INS(ebb);DEL(a);V,COND,3,SG
+coinvolgere;coinvolga;coinvolgDEL(ere)INS(a);INS(a);DEL(ere);V,SBJV,PRS,1,SG
+abbronzarsi;abbronzantesi;abbronzaDEL(r)INS(n)INS(t)INS(e)si;INS(n),INS(t),INS(e);DEL(r);V.PTCP,PRS
+gemicare;gemicassi;gemicaDEL(re)INS(ssi);INS(ssi);DEL(re);V,SBJV,PST,1,SG
+soprapprendere;soprappreso;soprappDEL(r)DEL(e)DEL(n)DEL(d)DEL(e)reINS(s)INS(o);INS(s),INS(o);DEL(r),DEL(e),DEL(n),DEL(d),DEL(e);V.PTCP,PST
+toppare;toppate;toppaDEL(r)INS(t)e;INS(t);DEL(r);V,IND,PRS,2,PL
+riproporre;riproporresti;riproporreINS(sti);INS(sti);;V,COND,2,SG
+luccicare;luccicai;luccicaDEL(re)INS(i);INS(i);DEL(re);V,IND,PST,1,SG,PFV
+dimerizzare;dimerizzando;dimerizzaDEL(re)INS(n)INS(d)INS(o);INS(n),INS(d),INS(o);DEL(re);V.CVB,PRS
+boicottare;boicottava;boicottINS(av)aDEL(re);INS(av);DEL(re);V,IND,PST,3,SG,IPFV
+inzaccherarsi;mi inzacchero;INS(mi )inzaccherDEL(arsi)INS(o);INS(mi ),INS(o);DEL(arsi);V,IND,PRS,1,SG
+videocomunicare;videocomunicammo;videocomunicaDEL(re)INS(mmo);INS(mmo);DEL(re);V,IND,PST,1,PL,PFV
+sdoganare;sdoganeresti;sdoganDEL(a)INS(e)reINS(sti);INS(e),INS(sti);DEL(a);V,COND,2,SG
+dimezzare;dimezziamo;dimezzINS(i)aDEL(re)INS(mo);INS(i),INS(mo);DEL(re);V,SBJV,PRS,1,PL
+squilibrare;squilibrate;squilibraDEL(r)INS(t)e;INS(t);DEL(r);V,POS,IMP,2,PL
+allentarsi;allentatevi;allentaDEL(rs)INS(t)INS(e)INS(v)i;INS(t),INS(e),INS(v);DEL(rs);V,POS,IMP,2,PL
+screscere;screscessimo;screscDEL(er)eINS(ssimo);INS(ssimo);DEL(er);V,SBJV,PST,1,PL
+infilzare;infilziamo;infilzINS(i)aDEL(re)INS(mo);INS(i),INS(mo);DEL(re);V,POS,IMP,1,PL
+pregare;prega;pregaDEL(re);;DEL(re);V,POS,IMP,2,SG
+accorcire;accorcisca;accorciDEL(re)INS(s)INS(c)INS(a);INS(s),INS(c),INS(a);DEL(re);V,POS,IMP,3,SG
+scappellarsi;si scappellarono;INS(si )scappellarDEL(si)INS(ono);INS(si ),INS(ono);DEL(si);V,IND,PST,3,PL,PFV
+svolere;svolere;svolere;;;V,NFIN
+ragghiare;ragghiasse;ragghiaDEL(r)INS(ss)e;INS(ss);DEL(r);V,SBJV,PST,3,SG
+effondere;effonderà;effonderDEL(e)INS(à);INS(à);DEL(e);V,IND,FUT,3,SG
+abbancare;abbanchiamo;abbancINS(h)INS(i)aDEL(re)INS(mo);INS(h),INS(i),INS(mo);DEL(re);V,IND,PRS,1,PL
+limitare;limiterebbe;limitDEL(a)INS(e)rINS(ebb)e;INS(e),INS(ebb);DEL(a);V,COND,3,SG
+farneticare;farneticava;farneticINS(av)aDEL(re);INS(av);DEL(re);V,IND,PST,3,SG,IPFV
+sovraintendere;sovraintendente;sovraintendeDEL(r)INS(nt)e;INS(nt);DEL(r);V.PTCP,PRS
+sfare;sfarai;sfarDEL(e)INS(a)INS(i);INS(a),INS(i);DEL(e);V,IND,FUT,2,SG
+stallare;stallerebbe;stallDEL(a)INS(e)rINS(ebb)e;INS(e),INS(ebb);DEL(a);V,COND,3,SG
+ipertrofizzare;ipertrofizzaste;ipertrofizzaDEL(r)INS(st)e;INS(st);DEL(r);V,IND,PST,2,PL,PFV
+esonerarsi;ci esonereremo;INS(ci )esonerDEL(arsi)INS(e)INS(r)INS(e)INS(m)INS(o);INS(ci ),INS(e),INS(r),INS(e),INS(m),INS(o);DEL(arsi);V,IND,FUT,1,PL
+apostrofare;apostroferai;apostrofDEL(ar)eINS(r)INS(a)INS(i);INS(r),INS(a),INS(i);DEL(ar);V,IND,FUT,2,SG
+verdicare;verdicassimo;verdicaDEL(re)INS(ssimo);INS(ssimo);DEL(re);V,SBJV,PST,1,PL
+dezippare;dezippate;dezippaDEL(r)INS(t)e;INS(t);DEL(r);V,IND,PRS,2,PL
+universalizzare;universalizzereste;universalizzDEL(a)INS(e)rINS(est)e;INS(e),INS(est);DEL(a);V,COND,2,PL
+collocarsi;ci collocheremmo;INS(ci )collocDEL(arsi)INS(h)INS(e)INS(r)INS(e)INS(m)INS(m)INS(o);INS(ci ),INS(h),INS(e),INS(r),INS(e),INS(m),INS(m),INS(o);DEL(arsi);V,COND,1,PL
+vantarsi;si vanti;INS(si )vantDEL(ars)i;INS(si );DEL(ars);V,SBJV,PRS,3,SG
+rassumere;rassunto;rassuDEL(m)DEL(ere)INS(n)INS(t)INS(o);INS(n),INS(t),INS(o);DEL(m),DEL(ere);V.PTCP,PST
+sovrapporre;sovrapponevate;sovrappoDEL(r)DEL(r)INS(n)INS(e)INS(v)INS(a)INS(t)e;INS(n),INS(e),INS(v),INS(a),INS(t);DEL(r),DEL(r);V,IND,PST,2,PL,IPFV
+riottimizzare;riottimizzerebbe;riottimizzDEL(a)INS(e)rINS(ebb)e;INS(e),INS(ebb);DEL(a);V,COND,3,SG
+aggiungere;aggiunsero;aggiunDEL(g)INS(s)erDEL(e)INS(o);INS(s),INS(o);DEL(g),DEL(e);V,IND,PST,3,PL,PFV
+pentirsi;ci pentimmo;INS(ci )pentDEL(i)DEL(rs)iINS(mmo);INS(ci ),INS(mmo);DEL(i),DEL(rs);V,IND,PST,1,PL,PFV
+provvedere;provvedrei;provvedDEL(e)reINS(i);INS(i);DEL(e);V,COND,1,SG
+scapicollarsi;ci scapicolleremo;INS(ci )scapicollDEL(arsi)INS(e)INS(r)INS(e)INS(m)INS(o);INS(ci ),INS(e),INS(r),INS(e),INS(m),INS(o);DEL(arsi);V,IND,FUT,1,PL
+impiombare;impiombano;impiombaDEL(re)INS(no);INS(no);DEL(re);V,IND,PRS,3,PL
+sibilare;sibilano;sibilaDEL(re)INS(no);INS(no);DEL(re);V,IND,PRS,3,PL
+prestampare;prestamperesti;prestampDEL(a)INS(e)reINS(sti);INS(e),INS(sti);DEL(a);V,COND,2,SG
+debilitarsi;si debilitò;INS(si )debilitDEL(arsi)INS(ò);INS(si ),INS(ò);DEL(arsi);V,IND,PST,3,SG,PFV
+sbizzarrirsi;ti sbizzarrissi;INS(ti )sbizzarriDEL(r)sINS(s)i;INS(ti ),INS(s);DEL(r);V,SBJV,PST,2,SG
+assestare;assesti;assestDEL(are)INS(i);INS(i);DEL(are);V,IND,PRS,2,SG
+annestare;annestante;annestaDEL(r)INS(nt)e;INS(nt);DEL(r);V.PTCP,PRS
+aureolare;aureolano;aureolaDEL(re)INS(no);INS(no);DEL(re);V,IND,PRS,3,PL
+attossicare;attossicasti;attossicaDEL(re)INS(sti);INS(sti);DEL(re);V,IND,PST,2,SG,PFV
+maltrattare;maltrattiamo;maltrattINS(i)aDEL(re)INS(mo);INS(i),INS(mo);DEL(re);V,POS,IMP,1,PL
+insilare;insilare;insilare;;;V,NFIN
+desonorizzare;desonorizzerete;desonorizzDEL(a)INS(e)rINS(et)e;INS(e),INS(et);DEL(a);V,IND,FUT,2,PL
+incorrere;incorrerà;incorrerDEL(e)INS(à);INS(à);DEL(e);V,IND,FUT,3,SG
+infornaciare;infornacio;infornaciDEL(are)INS(o);INS(o);DEL(are);V,IND,PRS,1,SG
+svecchiare;svecchiasse;svecchiaDEL(r)INS(ss)e;INS(ss);DEL(r);V,SBJV,PST,3,SG
+fascicolare;fascicoliamo;fascicolINS(i)aDEL(re)INS(mo);INS(i),INS(mo);DEL(re);V,POS,IMP,1,PL
+debilitare;debiliterete;debilitDEL(a)INS(e)rINS(et)e;INS(e),INS(et);DEL(a);V,IND,FUT,2,PL
+scorarsi;ci scorammo;INS(ci )scoraDEL(rsi)INS(mmo);INS(ci ),INS(mmo);DEL(rsi);V,IND,PST,1,PL,PFV
+estenuare;estenuaste;estenuaDEL(r)INS(st)e;INS(st);DEL(r);V,IND,PST,2,PL,PFV
+rimangiarsi;si rimangiavano;INS(si )rimangiaDEL(rsi)INS(vano);INS(si ),INS(vano);DEL(rsi);V,IND,PST,3,PL,IPFV
+crossare;crossano;crossaDEL(re)INS(no);INS(no);DEL(re);V,IND,PRS,3,PL
+deidrogenare;deidrogenassi;deidrogenaDEL(re)INS(ssi);INS(ssi);DEL(re);V,SBJV,PST,1,SG
+spupazzare;spupazzino;spupazzDEL(are)INS(ino);INS(ino);DEL(are);V,SBJV,PRS,3,PL
+risoffiare;risoffierà;risoffiDEL(ar)eINS(rà);INS(rà);DEL(ar);V,IND,FUT,3,SG
+sventagliare;sventagliassi;sventagliaDEL(re)INS(ssi);INS(ssi);DEL(re);V,SBJV,PST,2,SG
+marginare;marginavi;marginaDEL(re)INS(vi);INS(vi);DEL(re);V,IND,PST,2,SG,IPFV
+impinguarsi;ti impingui;INS(ti )impinguDEL(ars)i;INS(ti );DEL(ars);V,IND,PRS,2,SG
+fondare;fondavi;fondaDEL(re)INS(vi);INS(vi);DEL(re);V,IND,PST,2,SG,IPFV
+allungarsi;si allungavano;INS(si )allungaDEL(rsi)INS(vano);INS(si ),INS(vano);DEL(rsi);V,IND,PST,3,PL,IPFV
+compattarsi;mi compatti;INS(mi )compattDEL(ars)i;INS(mi );DEL(ars);V,SBJV,PRS,1,SG
+dimezzare;dimezzaste;dimezzaDEL(r)INS(st)e;INS(st);DEL(r);V,SBJV,PST,2,PL
+rassegnarsi;si rassegnarono;INS(si )rassegnarDEL(si)INS(ono);INS(si ),INS(ono);DEL(si);V,IND,PST,3,PL,PFV
+scandalizzarsi;si scandalizzassero;INS(si )scandalizzaINS(sse)rDEL(si)INS(o);INS(si ),INS(sse),INS(o);DEL(si);V,SBJV,PST,3,PL
+beneficare;benefico;beneficDEL(are)INS(o);INS(o);DEL(are);V,IND,PRS,1,SG
+incallire;incalliamo;incalliDEL(re)INS(amo);INS(amo);DEL(re);V,SBJV,PRS,1,PL
+ampliarsi;si ampliò;INS(si )amplDEL(i)DEL(ars)iINS(ò);INS(si ),INS(ò);DEL(i),DEL(ars);V,IND,PST,3,SG,PFV
+adoperare;adopererebbero;adoperDEL(a)INS(e)reINS(bbero);INS(e),INS(bbero);DEL(a);V,COND,3,PL
+riannettere;riannetté;riannettDEL(ere)INS(é);INS(é);DEL(ere);V,IND,PST,3,SG,PFV
+abborracciare;abborracciate;abborracciaDEL(r)INS(t)e;INS(t);DEL(r);V,IND,PRS,2,PL
+appestare;appestavate;appestaDEL(r)INS(vat)e;INS(vat);DEL(r);V,IND,PST,2,PL,IPFV
+latinizzare;latinizzi;latinizzDEL(are)INS(i);INS(i);DEL(are);V,SBJV,PRS,2,SG
+trasparere;trasparrebbe;trasparDEL(e)rINS(ebb)e;INS(ebb);DEL(e);V,COND,3,SG
+cibarsi;ti cibassi;INS(ti )cibaDEL(r)sINS(s)i;INS(ti ),INS(s);DEL(r);V,SBJV,PST,2,SG
+riscattare;riscattino;riscattDEL(are)INS(ino);INS(ino);DEL(are);V,POS,IMP,3,PL
+interdire;interdirò;interdirDEL(e)INS(ò);INS(ò);DEL(e);V,IND,FUT,1,SG
+contendersi;ti contenderesti;INS(ti )contenderINS(e)sINS(t)i;INS(ti ),INS(e),INS(t);;V,COND,2,SG
+camuffarsi;vi camuffiate;INS(vi )camuffDEL(ars)iINS(a)INS(t)INS(e);INS(vi ),INS(a),INS(t),INS(e);DEL(ars);V,SBJV,PRS,2,PL
+specializzarsi;ti specializzi;INS(ti )specializzDEL(ars)i;INS(ti );DEL(ars);V,SBJV,PRS,2,SG
+riutilizzare;riutilizzammo;riutilizzaDEL(re)INS(mmo);INS(mmo);DEL(re);V,IND,PST,1,PL,PFV
+crucciarsi;vi crucciaste;INS(vi )crucciaDEL(r)sDEL(i)INS(te);INS(vi ),INS(te);DEL(r),DEL(i);V,SBJV,PST,2,PL
+acciottolare;acciottolerebbe;acciottolDEL(a)INS(e)rINS(ebb)e;INS(e),INS(ebb);DEL(a);V,COND,3,SG
+forbire;forbiste;forbiDEL(r)INS(st)e;INS(st);DEL(r);V,SBJV,PST,2,PL
+ravvilupparsi;si ravviluppino;INS(si )ravviluppDEL(ars)iINS(no);INS(si ),INS(no);DEL(ars);V,POS,IMP,3,PL
+cadmiare;cadmiare;cadmiare;;;V,NFIN
+rasare;raserebbero;rasDEL(a)INS(e)reINS(bbero);INS(e),INS(bbero);DEL(a);V,COND,3,PL
+alcalinizzare;alcalinizzi;alcalinizzDEL(are)INS(i);INS(i);DEL(are);V,IND,PRS,2,SG
+smobiliare;smobilierei;smobiliDEL(a)INS(e)reINS(i);INS(e),INS(i);DEL(a);V,COND,1,SG
+prevenire;prevenne;prevenDEL(i)DEL(r)INS(n)e;INS(n);DEL(i),DEL(r);V,IND,PST,3,SG,PFV
+comprovare;comprovasse;comprovaDEL(r)INS(ss)e;INS(ss);DEL(r);V,SBJV,PST,3,SG
+rispondere;risponderà;risponderDEL(e)INS(à);INS(à);DEL(e);V,IND,FUT,3,SG
+splafonare;splafoneremo;splafonDEL(a)INS(e)reINS(mo);INS(e),INS(mo);DEL(a);V,IND,FUT,1,PL
+nastrare;nastro;nastrDEL(are)INS(o);INS(o);DEL(are);V,IND,PRS,1,SG
+gemellarsi;mi gemellerei;INS(mi )gemellDEL(ars)INS(e)INS(r)INS(e)i;INS(mi ),INS(e),INS(r),INS(e);DEL(ars);V,COND,1,SG
+tagliuzzare;tagliuzzereste;tagliuzzDEL(a)INS(e)rINS(est)e;INS(e),INS(est);DEL(a);V,COND,2,PL
+decrescere;decrescerai;decrescerDEL(e)INS(a)INS(i);INS(a),INS(i);DEL(e);V,IND,FUT,2,SG
+viziare;viziavate;viziaDEL(r)INS(vat)e;INS(vat);DEL(r);V,IND,PST,2,PL,IPFV
+masticare;masticassero;masticaINS(sse)rDEL(e)INS(o);INS(sse),INS(o);DEL(e);V,SBJV,PST,3,PL
+sbevacchiare;sbevacchierebbero;sbevacchiDEL(a)INS(e)reINS(bbero);INS(e),INS(bbero);DEL(a);V,COND,3,PL
+sciolinare;sciolinava;sciolinINS(av)aDEL(re);INS(av);DEL(re);V,IND,PST,3,SG,IPFV
+lucchettare;lucchettavano;lucchettaDEL(re)INS(vano);INS(vano);DEL(re);V,IND,PST,3,PL,IPFV
+amministrare;amministrava;amministrINS(av)aDEL(re);INS(av);DEL(re);V,IND,PST,3,SG,IPFV
+geminare;geminavi;geminaDEL(re)INS(vi);INS(vi);DEL(re);V,IND,PST,2,SG,IPFV
+disaggregarsi;disaggregatevi;disaggregaDEL(rs)INS(t)INS(e)INS(v)i;INS(t),INS(e),INS(v);DEL(rs);V,POS,IMP,2,PL
+giurarsi;si giurava;INS(si )giurINS(av)aDEL(rsi);INS(si ),INS(av);DEL(rsi);V,IND,PST,3,SG,IPFV
+tediare;tedia;tediaDEL(re);;DEL(re);V,IND,PRS,3,SG
+fingersi;ci fingiamo;INS(ci )fingDEL(e)DEL(rs)iINS(amo);INS(ci ),INS(amo);DEL(e),DEL(rs);V,IND,PRS,1,PL
+controllarsi;ci controllassimo;INS(ci )controllaDEL(r)sINS(s)iINS(mo);INS(ci ),INS(s),INS(mo);DEL(r);V,SBJV,PST,1,PL
+trascinare;trascino;trascinDEL(are)INS(o);INS(o);DEL(are);V,IND,PRS,1,SG
+requisire;requisisci;requisINS(i)INS(s)INS(c)iDEL(re);INS(i),INS(s),INS(c);DEL(re);V,IND,PRS,2,SG
+sbevazzare;sbevazzavano;sbevazzaDEL(re)INS(vano);INS(vano);DEL(re);V,IND,PST,3,PL,IPFV
+interessare;interessa;interessaDEL(re);;DEL(re);V,POS,IMP,2,SG
+depilarsi;depilantesi;depilaDEL(r)INS(n)INS(t)INS(e)si;INS(n),INS(t),INS(e);DEL(r);V.PTCP,PRS
+installarsi;si installerebbero;INS(si )installDEL(arsi)INS(e)INS(r)INS(e)INS(b)INS(b)INS(e)INS(r)INS(o);INS(si ),INS(e),INS(r),INS(e),INS(b),INS(b),INS(e),INS(r),INS(o);DEL(arsi);V,COND,3,PL
+vorare;vorereste;vorDEL(a)INS(e)rINS(est)e;INS(e),INS(est);DEL(a);V,COND,2,PL
+ingarbugliare;ingarbuglieranno;ingarbugliDEL(ar)eINS(ranno);INS(ranno);DEL(ar);V,IND,FUT,3,PL
+risciogliere;riscioglierò;riscioglierDEL(e)INS(ò);INS(ò);DEL(e);V,IND,FUT,1,SG
+accanire;accaniscono;accaniDEL(re)INS(s)INS(c)INS(o)INS(n)INS(o);INS(s),INS(c),INS(o),INS(n),INS(o);DEL(re);V,IND,PRS,3,PL
+abbandonarsi;vi abbandonavate;INS(vi )abbandonaDEL(rsi)INS(v)INS(a)INS(t)INS(e);INS(vi ),INS(v),INS(a),INS(t),INS(e);DEL(rsi);V,IND,PST,2,PL,IPFV
+riprodurre;riproducesse;riproduDEL(r)DEL(r)INS(c)INS(e)INS(s)INS(s)e;INS(c),INS(e),INS(s),INS(s);DEL(r),DEL(r);V,SBJV,PST,3,SG
+spelacchiare;spelacchiereste;spelacchiDEL(a)INS(e)rINS(est)e;INS(e),INS(est);DEL(a);V,COND,2,PL
+fremere;fremettero;fremINS(e)INS(t)INS(t)erDEL(e)INS(o);INS(e),INS(t),INS(t),INS(o);DEL(e);V,IND,PST,3,PL,PFV
+dispegnere;dispegnerai;dispegnerDEL(e)INS(a)INS(i);INS(a),INS(i);DEL(e);V,IND,FUT,2,SG
+sommare;sommavi;sommaDEL(re)INS(vi);INS(vi);DEL(re);V,IND,PST,2,SG,IPFV
+sartiare;sartiate;sartiaDEL(r)INS(t)e;INS(t);DEL(r);V,IND,PRS,2,PL
+spazieggiare;spazieggiavo;spazieggiaDEL(re)INS(vo);INS(vo);DEL(re);V,IND,PST,1,SG,IPFV
+allacciare;allacceremo;allaccDEL(i)DEL(a)INS(e)reINS(mo);INS(e),INS(mo);DEL(i),DEL(a);V,IND,FUT,1,PL
+decontaminare;decontaminava;decontaminINS(av)aDEL(re);INS(av);DEL(re);V,IND,PST,3,SG,IPFV
+narrare;narri;narrDEL(are)INS(i);INS(i);DEL(are);V,SBJV,PRS,2,SG
+ragionare;ragioneremo;ragionDEL(a)INS(e)reINS(mo);INS(e),INS(mo);DEL(a);V,IND,FUT,1,PL
+discapitare;discapitiate;discapitINS(i)aDEL(r)INS(t)e;INS(i),INS(t);DEL(r);V,SBJV,PRS,2,PL
+orientare;orientiamo;orientINS(i)aDEL(re)INS(mo);INS(i),INS(mo);DEL(re);V,POS,IMP,1,PL
+spromettere;sprometteremo;spromettereINS(mo);INS(mo);;V,IND,FUT,1,PL
+stizzire;stizzì;stizzDEL(i)DEL(r)DEL(e)INS(ì);INS(ì);DEL(i),DEL(r),DEL(e);V,IND,PST,3,SG,PFV
+scapezzare;scapezzammo;scapezzaDEL(re)INS(mmo);INS(mmo);DEL(re);V,IND,PST,1,PL,PFV
+convolare;convoliamo;convolINS(i)aDEL(re)INS(mo);INS(i),INS(mo);DEL(re);V,IND,PRS,1,PL
+abilitare;abilitato;abilitaDEL(re)INS(to);INS(to);DEL(re);V.PTCP,PST
+addiacciare;addiaccerai;addiaccINS(e)INS(r)INS(a)iDEL(are);INS(e),INS(r),INS(a);DEL(are);V,IND,FUT,2,SG
+accommiatarsi;si accommiata;INS(si )accommiataDEL(rsi);INS(si );DEL(rsi);V,IND,PRS,3,SG
+ringorgare;ringorgate;ringorgaDEL(r)INS(t)e;INS(t);DEL(r);V,IND,PRS,2,PL
+sgridare;sgriderà;sgridDEL(ar)eINS(rà);INS(rà);DEL(ar);V,IND,FUT,3,SG
+avvogliare;avvoglierò;avvogliDEL(ar)eINS(r)INS(ò);INS(r),INS(ò);DEL(ar);V,IND,FUT,1,SG
+abituare;abituiamo;abituINS(i)aDEL(re)INS(mo);INS(i),INS(mo);DEL(re);V,IND,PRS,1,PL
+stagionare;stagionate;stagionaDEL(r)INS(t)e;INS(t);DEL(r);V,POS,IMP,2,PL
+raccendere;raccendete;raccendeDEL(r)INS(t)e;INS(t);DEL(r);V,IND,PRS,2,PL
+rigiudicare;rigiudicavo;rigiudicaDEL(re)INS(vo);INS(vo);DEL(re);V,IND,PST,1,SG,IPFV
+suffondere;suffondevano;suffondDEL(er)eINS(vano);INS(vano);DEL(er);V,IND,PST,3,PL,IPFV
+riproteggere;riprotegge;riproteggDEL(er)e;;DEL(er);V,IND,PRS,3,SG
+destabilizzarsi;si destabilizzano;INS(si )destabilizzaDEL(rsi)INS(no);INS(si ),INS(no);DEL(rsi);V,IND,PRS,3,PL
+degnare;degna;degnaDEL(re);;DEL(re);V,POS,IMP,2,SG
+sfarinare;sfarinava;sfarinINS(av)aDEL(re);INS(av);DEL(re);V,IND,PST,3,SG,IPFV
+largire;largivi;largINS(i)INS(v)iDEL(re);INS(i),INS(v);DEL(re);V,IND,PST,2,SG,IPFV
+elettrizzare;elettrizza;elettrizzaDEL(re);;DEL(re);V,POS,IMP,2,SG
+defecare;defecaste;defecaDEL(r)INS(st)e;INS(st);DEL(r);V,SBJV,PST,2,PL
+soprassaturare;soprassaturò;soprassaturDEL(are)INS(ò);INS(ò);DEL(are);V,IND,PST,3,SG,PFV
+conglutinare;conglutinassero;conglutinaINS(sse)rDEL(e)INS(o);INS(sse),INS(o);DEL(e);V,SBJV,PST,3,PL
+additivare;additivavamo;additivaDEL(re)INS(vamo);INS(vamo);DEL(re);V,IND,PST,1,PL,IPFV
+rinnamorare;rinnamori;rinnamorDEL(are)INS(i);INS(i);DEL(are);V,POS,IMP,3,SG
+infingardire;infingardivamo;infingardiDEL(re)INS(vamo);INS(vamo);DEL(re);V,IND,PST,1,PL,IPFV
+compiere;compiva;compiDEL(ere)INS(v)INS(a);INS(v),INS(a);DEL(ere);V,IND,PST,3,SG,IPFV
+addormentare;addormentavo;addormentaDEL(re)INS(vo);INS(vo);DEL(re);V,IND,PST,1,SG,IPFV
+decontrarre;decontragga;decontrINS(a)INS(g)INS(g)aDEL(r)DEL(re);INS(a),INS(g),INS(g);DEL(r),DEL(re);V,SBJV,PRS,3,SG
+sottrarre;sottragga;sottrINS(a)INS(g)INS(g)aDEL(r)DEL(re);INS(a),INS(g),INS(g);DEL(r),DEL(re);V,POS,IMP,3,SG
+espettorare;espettorato;espettoraDEL(re)INS(to);INS(to);DEL(re);V.PTCP,PST
+sfrenare;sfrenavi;sfrenaDEL(re)INS(vi);INS(vi);DEL(re);V,IND,PST,2,SG,IPFV
+raffrenarsi;si raffrenerà;INS(si )raffrenDEL(arsi)INS(e)INS(r)INS(à);INS(si ),INS(e),INS(r),INS(à);DEL(arsi);V,IND,FUT,3,SG
+ripararsi;ti ripari;INS(ti )riparDEL(ars)i;INS(ti );DEL(ars);V,SBJV,PRS,2,SG
+inquinare;inquinato;inquinaDEL(re)INS(to);INS(to);DEL(re);V.PTCP,PST
+abbatuffolare;abbatuffolasti;abbatuffolaDEL(re)INS(sti);INS(sti);DEL(re);V,IND,PST,2,SG,PFV
+stasarsi;stasatevi;stasaDEL(rs)INS(t)INS(e)INS(v)i;INS(t),INS(e),INS(v);DEL(rs);V,POS,IMP,2,PL
+concepire;concepisse;concepiDEL(r)INS(ss)e;INS(ss);DEL(r);V,SBJV,PST,3,SG
+intrufolarsi;mi intrufolo;INS(mi )intrufolDEL(arsi)INS(o);INS(mi ),INS(o);DEL(arsi);V,IND,PRS,1,SG
+rafforzarsi;si rafforzi;INS(si )rafforzDEL(ars)i;INS(si );DEL(ars);V,SBJV,PRS,3,SG
+sovraimporre;sovraimpose;sovraimpoDEL(r)DEL(r)INS(s)e;INS(s);DEL(r),DEL(r);V,IND,PST,3,SG,PFV
+attorcigliare;attorciglierai;attorcigliDEL(ar)eINS(r)INS(a)INS(i);INS(r),INS(a),INS(i);DEL(ar);V,IND,FUT,2,SG
+scarrozzare;scarrozzerebbero;scarrozzDEL(a)INS(e)reINS(bbero);INS(e),INS(bbero);DEL(a);V,COND,3,PL
+rispecchiare;rispecchia;rispecchiaDEL(re);;DEL(re);V,POS,IMP,2,SG
+sopraedificare;sopraedificaste;sopraedificaDEL(r)INS(st)e;INS(st);DEL(r);V,IND,PST,2,PL,PFV
+segnoreggiare;segnoreggeremo;segnoreggDEL(i)DEL(a)INS(e)reINS(mo);INS(e),INS(mo);DEL(i),DEL(a);V,IND,FUT,1,PL
+desonorizzare;desonorizzare;desonorizzare;;;V,NFIN
+pianeggiare;pianeggiavamo;pianeggiaDEL(re)INS(vamo);INS(vamo);DEL(re);V,IND,PST,1,PL,IPFV
+succidere;succiderai;succiderDEL(e)INS(a)INS(i);INS(a),INS(i);DEL(e);V,IND,FUT,2,SG
+strambare;stramberà;strambDEL(ar)eINS(rà);INS(rà);DEL(ar);V,IND,FUT,3,SG
+ovviare;ovviammo;ovviaDEL(re)INS(mmo);INS(mmo);DEL(re);V,IND,PST,1,PL,PFV
+innervosirsi;si innervosisca;INS(si )innervosiDEL(r)sDEL(i)INS(c)INS(a);INS(si ),INS(c),INS(a);DEL(r),DEL(i);V,POS,IMP,3,SG
+soppalcare;soppalchino;soppalcDEL(are)INS(h)INS(i)INS(n)INS(o);INS(h),INS(i),INS(n),INS(o);DEL(are);V,POS,IMP,3,PL
+ellenizzare;ellenizzassi;ellenizzaDEL(re)INS(ssi);INS(ssi);DEL(re);V,SBJV,PST,1,SG
+duplicare;duplichi;duplicDEL(are)INS(h)INS(i);INS(h),INS(i);DEL(are);V,SBJV,PRS,3,SG
+smuovere;smoveste;smDEL(u)oveDEL(r)INS(st)e;INS(st);DEL(u),DEL(r);V,SBJV,PST,2,PL
+proscrivere;proscriverei;proscrivereINS(i);INS(i);;V,COND,1,SG
+illeggiadrire;illeggiadristi;illeggiadrINS(i)INS(s)INS(t)iDEL(re);INS(i),INS(s),INS(t);DEL(re);V,IND,PST,2,SG,PFV
+caratare;caratereste;caratDEL(a)INS(e)rINS(est)e;INS(e),INS(est);DEL(a);V,COND,2,PL
+sopirsi;si sopì;INS(si )sopDEL(i)DEL(rsi)INS(ì);INS(si ),INS(ì);DEL(i),DEL(rsi);V,IND,PST,3,SG,PFV
+ingolfare;ingolfassero;ingolfaINS(sse)rDEL(e)INS(o);INS(sse),INS(o);DEL(e);V,SBJV,PST,3,PL
+uggiolare;uggiolano;uggiolaDEL(re)INS(no);INS(no);DEL(re);V,IND,PRS,3,PL
+dilatarsi;si dilatavano;INS(si )dilataDEL(rsi)INS(vano);INS(si ),INS(vano);DEL(rsi);V,IND,PST,3,PL,IPFV
+disabituarsi;disabituarsi;disabituarsi;;;V,NFIN
+stare;stessimo;stDEL(ar)eINS(ssimo);INS(ssimo);DEL(ar);V,SBJV,PST,1,PL
+saldarsi;mi saldassi;INS(mi )saldaDEL(r)sINS(s)i;INS(mi ),INS(s);DEL(r);V,SBJV,PST,1,SG
+filosofare;filosoferò;filosofDEL(ar)eINS(r)INS(ò);INS(r),INS(ò);DEL(ar);V,IND,FUT,1,SG
+surrogare;surroghereste;surrogDEL(a)INS(he)rINS(est)e;INS(he),INS(est);DEL(a);V,COND,2,PL
+ristruggere;ristruggesti;ristruggDEL(er)eINS(sti);INS(sti);DEL(er);V,IND,PST,2,SG,PFV
+dialogare;dialoghi;dialogDEL(are)INS(h)INS(i);INS(h),INS(i);DEL(are);V,SBJV,PRS,1,SG
+superarsi;superarsi;superarsi;;;V,NFIN
+reciprocare;reciprocherebbe;reciprocDEL(a)INS(he)rINS(ebb)e;INS(he),INS(ebb);DEL(a);V,COND,3,SG
+incupire;incupisco;incupiDEL(re)INS(s)INS(c)INS(o);INS(s),INS(c),INS(o);DEL(re);V,IND,PRS,1,SG
+tergiversare;tergiversavo;tergiversaDEL(re)INS(vo);INS(vo);DEL(re);V,IND,PST,1,SG,IPFV
+infondere;infondete;infondeDEL(r)INS(t)e;INS(t);DEL(r);V,IND,PRS,2,PL
+spacciarsi;mi spacci;INS(mi )spaccDEL(i)DEL(ars)i;INS(mi );DEL(i),DEL(ars);V,SBJV,PRS,1,SG
+discantare;discantiate;discantINS(i)aDEL(r)INS(t)e;INS(i),INS(t);DEL(r);V,SBJV,PRS,2,PL
+ostracizzare;ostracizzi;ostracizzDEL(are)INS(i);INS(i);DEL(are);V,SBJV,PRS,1,SG
+pingere;pingesse;pingeDEL(r)INS(ss)e;INS(ss);DEL(r);V,SBJV,PST,3,SG
+dissequestrare;dissequestrare;dissequestrare;;;V,NFIN
+smobiliare;smobiliando;smobiliaDEL(re)INS(n)INS(d)INS(o);INS(n),INS(d),INS(o);DEL(re);V.CVB,PRS
+istaurare;istaurerete;istaurDEL(a)INS(e)rINS(et)e;INS(e),INS(et);DEL(a);V,IND,FUT,2,PL
+suffondere;suffonda;suffondDEL(ere)INS(a);INS(a);DEL(ere);V,POS,IMP,3,SG
+bissare;bissante;bissaDEL(r)INS(nt)e;INS(nt);DEL(r);V.PTCP,PRS
+pettegolare;pettegoleranno;pettegolDEL(ar)eINS(ranno);INS(ranno);DEL(ar);V,IND,FUT,3,PL
+smattonare;smattonerai;smattonDEL(ar)eINS(r)INS(a)INS(i);INS(r),INS(a),INS(i);DEL(ar);V,IND,FUT,2,SG
+omettere;ometteste;ometteDEL(r)INS(st)e;INS(st);DEL(r);V,SBJV,PST,2,PL
+intelare;intelò;intelDEL(are)INS(ò);INS(ò);DEL(are);V,IND,PST,3,SG,PFV
+battibeccare;battibecco;battibeccDEL(are)INS(o);INS(o);DEL(are);V,IND,PRS,1,SG
+scapsulare;scapsuli;scapsulDEL(are)INS(i);INS(i);DEL(are);V,IND,PRS,2,SG
+feltrarsi;vi feltrereste;INS(vi )feltrDEL(arsi)INS(e)INS(r)INS(e)INS(s)INS(t)INS(e);INS(vi ),INS(e),INS(r),INS(e),INS(s),INS(t),INS(e);DEL(arsi);V,COND,2,PL
+subornare;subornavate;subornaDEL(r)INS(vat)e;INS(vat);DEL(r);V,IND,PST,2,PL,IPFV
+incerottare;incerotteresti;incerottDEL(a)INS(e)reINS(sti);INS(e),INS(sti);DEL(a);V,COND,2,SG
+calmierare;calmierate;calmieraDEL(r)INS(t)e;INS(t);DEL(r);V,IND,PRS,2,PL
+increscere;incresceremmo;increscereINS(mmo);INS(mmo);;V,COND,1,PL
+peragrare;peragriamo;peragrINS(i)aDEL(re)INS(mo);INS(i),INS(mo);DEL(re);V,IND,PRS,1,PL
+consolidarsi;si consolidino;INS(si )consolidDEL(ars)iINS(no);INS(si ),INS(no);DEL(ars);V,SBJV,PRS,3,PL
+avvignare;avvignavate;avvignaDEL(r)INS(vat)e;INS(vat);DEL(r);V,IND,PST,2,PL,IPFV
+premurarsi;ci premuriamo;INS(ci )premurDEL(ars)iINS(amo);INS(ci ),INS(amo);DEL(ars);V,SBJV,PRS,1,PL
+irrigidire;irrigidissi;irrigidINS(i)INS(s)INS(s)iDEL(re);INS(i),INS(s),INS(s);DEL(re);V,SBJV,PST,1,SG
+violare;violi;violDEL(are)INS(i);INS(i);DEL(are);V,POS,IMP,3,SG
+rinforzare;rinforzò;rinforzDEL(are)INS(ò);INS(ò);DEL(are);V,IND,PST,3,SG,PFV
+calcificare;calcificherebbe;calcificDEL(a)INS(he)rINS(ebb)e;INS(he),INS(ebb);DEL(a);V,COND,3,SG
+deliberare;deliberassimo;deliberaDEL(re)INS(ssimo);INS(ssimo);DEL(re);V,SBJV,PST,1,PL
+scontorcere;scontorcono;scontorcDEL(ere)INS(ono);INS(ono);DEL(ere);V,IND,PRS,3,PL
+riempiere;riempiuto;riempiDEL(ere)INS(u)INS(t)INS(o);INS(u),INS(t),INS(o);DEL(ere);V.PTCP,PST
+ricomprendere;ricomprendere;ricomprendere;;;V,NFIN
+disporsi;vi disponeste;INS(vi )dispoDEL(rsi)INS(n)INS(e)INS(s)INS(t)INS(e);INS(vi ),INS(n),INS(e),INS(s),INS(t),INS(e);DEL(rsi);V,SBJV,PST,2,PL
+nullificare;nullificheremmo;nullificDEL(a)INS(he)reINS(mmo);INS(he),INS(mmo);DEL(a);V,COND,1,PL
+lesionarsi;si lesionano;INS(si )lesionaDEL(rsi)INS(no);INS(si ),INS(no);DEL(rsi);V,IND,PRS,3,PL
+angariare;angariassi;angariaDEL(re)INS(ssi);INS(ssi);DEL(re);V,SBJV,PST,1,SG
+confricare;confricante;confricaDEL(r)INS(nt)e;INS(nt);DEL(r);V.PTCP,PRS
+esagerare;esageravi;esageraDEL(re)INS(vi);INS(vi);DEL(re);V,IND,PST,2,SG,IPFV
+spannare;spannerei;spannDEL(a)INS(e)reINS(i);INS(e),INS(i);DEL(a);V,COND,1,SG
+scottare;scotterei;scottDEL(a)INS(e)reINS(i);INS(e),INS(i);DEL(a);V,COND,1,SG
+scalfare;scalfi;scalfDEL(are)INS(i);INS(i);DEL(are);V,SBJV,PRS,3,SG
+spalancare;spalanca;spalancaDEL(re);;DEL(re);V,IND,PRS,3,SG
+disacidificare;disacidificassimo;disacidificaDEL(re)INS(ssimo);INS(ssimo);DEL(re);V,SBJV,PST,1,PL
+disascondere;disascondete;disascondeDEL(r)INS(t)e;INS(t);DEL(r);V,IND,PRS,2,PL
+scoppiare;scoppiante;scoppiaDEL(r)INS(nt)e;INS(nt);DEL(r);V.PTCP,PRS
+industriarsi;si industriassero;INS(si )industriaINS(sse)rDEL(si)INS(o);INS(si ),INS(sse),INS(o);DEL(si);V,SBJV,PST,3,PL
+prorogare;prorogo;prorogDEL(are)INS(o);INS(o);DEL(are);V,IND,PRS,1,SG
+sgretolarsi;si sgretoli;INS(si )sgretolDEL(ars)i;INS(si );DEL(ars);V,POS,IMP,3,SG
+sbuffare;sbuffavamo;sbuffaDEL(re)INS(vamo);INS(vamo);DEL(re);V,IND,PST,1,PL,IPFV
+trangugiare;trangugiavamo;trangugiaDEL(re)INS(vamo);INS(vamo);DEL(re);V,IND,PST,1,PL,IPFV
+sapersi;si sapesse;INS(si )sapeDEL(r)sDEL(i)INS(s)INS(e);INS(si ),INS(s),INS(e);DEL(r),DEL(i);V,SBJV,PST,3,SG
+aspettare;aspetterebbe;aspettDEL(a)INS(e)rINS(ebb)e;INS(e),INS(ebb);DEL(a);V,COND,3,SG
+decatizzare;decatizzò;decatizzDEL(are)INS(ò);INS(ò);DEL(are);V,IND,PST,3,SG,PFV
+spopolare;spopolerebbero;spopolDEL(a)INS(e)reINS(bbero);INS(e),INS(bbero);DEL(a);V,COND,3,PL
+seguitare;seguitasse;seguitaDEL(r)INS(ss)e;INS(ss);DEL(r);V,SBJV,PST,3,SG
+addocilire;addocilente;addocilDEL(i)DEL(r)INS(e)INS(n)INS(t)e;INS(e),INS(n),INS(t);DEL(i),DEL(r);V.PTCP,PRS
+ostruirsi;ci ostruiremmo;INS(ci )ostruirDEL(si)INS(e)INS(m)INS(m)INS(o);INS(ci ),INS(e),INS(m),INS(m),INS(o);DEL(si);V,COND,1,PL
+sopraporre;sopraporrà;sopraporrDEL(e)INS(à);INS(à);DEL(e);V,IND,FUT,3,SG
+rarefare;rarefacessimo;rarefaDEL(r)INS(c)eINS(ssimo);INS(c),INS(ssimo);DEL(r);V,SBJV,PST,1,PL
+latitare;latitino;latitDEL(are)INS(ino);INS(ino);DEL(are);V,SBJV,PRS,3,PL
+ingraziare;ingraziasti;ingraziaDEL(re)INS(sti);INS(sti);DEL(re);V,IND,PST,2,SG,PFV
+attovagliare;attovagliano;attovagliaDEL(re)INS(no);INS(no);DEL(re);V,IND,PRS,3,PL
+disintossicare;disintossichino;disintossicDEL(are)INS(h)INS(i)INS(n)INS(o);INS(h),INS(i),INS(n),INS(o);DEL(are);V,SBJV,PRS,3,PL
+scartavetrare;scartavetrasse;scartavetraDEL(r)INS(ss)e;INS(ss);DEL(r);V,SBJV,PST,3,SG
+estinguere;estinguere;estinguere;;;V,NFIN
+tinteggiare;tinteggiare;tinteggiare;;;V,NFIN
+intendere;intendete;intendeDEL(r)INS(t)e;INS(t);DEL(r);V,POS,IMP,2,PL
+omogenizzare;omogenizzavate;omogenizzaDEL(r)INS(vat)e;INS(vat);DEL(r);V,IND,PST,2,PL,IPFV
+specchiarsi;mi specchiassi;INS(mi )specchiaDEL(r)sINS(s)i;INS(mi ),INS(s);DEL(r);V,SBJV,PST,1,SG
+avallare;avalli;avallDEL(are)INS(i);INS(i);DEL(are);V,IND,PRS,2,SG
+arrestarsi;arrestandosi;arrestaDEL(r)INS(n)INS(d)INS(o)si;INS(n),INS(d),INS(o);DEL(r);V.CVB,PRS
+rigelare;rigelante;rigelaDEL(r)INS(nt)e;INS(nt);DEL(r);V.PTCP,PRS
+delirare;delirerete;delirDEL(a)INS(e)rINS(et)e;INS(e),INS(et);DEL(a);V,IND,FUT,2,PL
+dimensionare;dimensioneranno;dimensionDEL(ar)eINS(ranno);INS(ranno);DEL(ar);V,IND,FUT,3,PL
+choccare;chocchino;choccDEL(are)INS(h)INS(i)INS(n)INS(o);INS(h),INS(i),INS(n),INS(o);DEL(are);V,POS,IMP,3,PL
+gingillarsi;vi gingillereste;INS(vi )gingillDEL(arsi)INS(e)INS(r)INS(e)INS(s)INS(t)INS(e);INS(vi ),INS(e),INS(r),INS(e),INS(s),INS(t),INS(e);DEL(arsi);V,COND,2,PL
+trapiantare;trapiantando;trapiantaDEL(re)INS(n)INS(d)INS(o);INS(n),INS(d),INS(o);DEL(re);V.CVB,PRS
+ingualdrappare;ingualdrappi;ingualdrappDEL(are)INS(i);INS(i);DEL(are);V,IND,PRS,2,SG
+sforzare;sforzino;sforzDEL(are)INS(ino);INS(ino);DEL(are);V,POS,IMP,3,PL
+svenare;sveni;svenDEL(are)INS(i);INS(i);DEL(are);V,POS,IMP,3,SG
+caratterizzarsi;ti caratterizzeresti;INS(ti )caratterizzDEL(a)INS(e)rINS(e)sINS(t)i;INS(ti ),INS(e),INS(e),INS(t);DEL(a);V,COND,2,SG
+pavoneggiarsi;ti pavoneggi;INS(ti )pavoneggDEL(i)DEL(ars)i;INS(ti );DEL(i),DEL(ars);V,IND,PRS,2,SG
+frullare;frullerete;frullDEL(a)INS(e)rINS(et)e;INS(e),INS(et);DEL(a);V,IND,FUT,2,PL
+spicciare;spicci;spicciDEL(are);;DEL(are);V,POS,IMP,3,SG
+soprastampare;soprastamperemo;soprastampDEL(a)INS(e)reINS(mo);INS(e),INS(mo);DEL(a);V,IND,FUT,1,PL
+completare;completarono;completarDEL(e)INS(ono);INS(ono);DEL(e);V,IND,PST,3,PL,PFV
+berciare;berciò;berciDEL(are)INS(ò);INS(ò);DEL(are);V,IND,PST,3,SG,PFV
+sbiettare;sbietto;sbiettDEL(are)INS(o);INS(o);DEL(are);V,IND,PRS,1,SG
+votarsi;mi votassi;INS(mi )votaDEL(r)sINS(s)i;INS(mi ),INS(s);DEL(r);V,SBJV,PST,1,SG
+ringiovenire;ringiovenisci;ringiovenINS(i)INS(s)INS(c)iDEL(re);INS(i),INS(s),INS(c);DEL(re);V,IND,PRS,2,SG
+ammutinarsi;mi ammutinerei;INS(mi )ammutinDEL(ars)INS(e)INS(r)INS(e)i;INS(mi ),INS(e),INS(r),INS(e);DEL(ars);V,COND,1,SG
+intingere;intingemmo;intingDEL(er)eINS(mmo);INS(mmo);DEL(er);V,IND,PST,1,PL,PFV
+selciare;selceremo;selcDEL(i)DEL(a)INS(e)reINS(mo);INS(e),INS(mo);DEL(i),DEL(a);V,IND,FUT,1,PL
+transcrivere;transcrivevamo;transcrivDEL(er)eINS(vamo);INS(vamo);DEL(er);V,IND,PST,1,PL,IPFV
+rifondare;rifonderebbero;rifondDEL(a)INS(e)reINS(bbero);INS(e),INS(bbero);DEL(a);V,COND,3,PL
+masticare;masticavi;masticaDEL(re)INS(vi);INS(vi);DEL(re);V,IND,PST,2,SG,IPFV
+bruscare;bruscassi;bruscaDEL(re)INS(ssi);INS(ssi);DEL(re);V,SBJV,PST,2,SG
+intrigarsi;mi intrigai;INS(mi )intrigaDEL(rs)i;INS(mi );DEL(rs);V,IND,PST,1,SG,PFV
+fasciarsi;si fasci;INS(si )fascDEL(i)DEL(ars)i;INS(si );DEL(i),DEL(ars);V,SBJV,PRS,3,SG
+surrogare;surrogaste;surrogaDEL(r)INS(st)e;INS(st);DEL(r);V,IND,PST,2,PL,PFV
+sturare;sturasti;sturaDEL(re)INS(sti);INS(sti);DEL(re);V,IND,PST,2,SG,PFV
+sussurrare;sussurravo;sussurraDEL(re)INS(vo);INS(vo);DEL(re);V,IND,PST,1,SG,IPFV
+accodarsi;vi accodaste;INS(vi )accodaDEL(r)sDEL(i)INS(te);INS(vi ),INS(te);DEL(r),DEL(i);V,IND,PST,2,PL,PFV
+sopraspendere;sopraspendo;sopraspendDEL(ere)INS(o);INS(o);DEL(ere);V,IND,PRS,1,SG
+reassumere;reassumevate;reassumeDEL(r)INS(vat)e;INS(vat);DEL(r);V,IND,PST,2,PL,IPFV
+massacrare;massacrerai;massacDEL(r)DEL(a)reINS(r)INS(a)INS(i);INS(r),INS(a),INS(i);DEL(r),DEL(a);V,IND,FUT,2,SG
+svirgolare;svirgolasse;svirgolaDEL(r)INS(ss)e;INS(ss);DEL(r);V,SBJV,PST,3,SG
+suturare;suturerebbe;suturDEL(a)INS(e)rINS(ebb)e;INS(e),INS(ebb);DEL(a);V,COND,3,SG
+incomodare;incomoderà;incomodDEL(ar)eINS(rà);INS(rà);DEL(ar);V,IND,FUT,3,SG
+estinguersi;estinguendosi;estingueDEL(r)INS(n)INS(d)INS(o)si;INS(n),INS(d),INS(o);DEL(r);V.CVB,PRS
+annuvolare;annuvolate;annuvolaDEL(r)INS(t)e;INS(t);DEL(r);V,POS,IMP,2,PL
+rammemorare;rammemoravano;rammemoraDEL(re)INS(vano);INS(vano);DEL(re);V,IND,PST,3,PL,IPFV
+succidere;succidessi;succidDEL(er)eINS(ssi);INS(ssi);DEL(er);V,SBJV,PST,2,SG
+transricevere;transricevevi;transricevDEL(er)eINS(vi);INS(vi);DEL(er);V,IND,PST,2,SG,IPFV
+responsabilizzarsi;ci responsabilizziamo;INS(ci )responsabilizzDEL(ars)iINS(amo);INS(ci ),INS(amo);DEL(ars);V,IND,PRS,1,PL
+insinuarsi;si insinuassero;INS(si )insinuaINS(sse)rDEL(si)INS(o);INS(si ),INS(sse),INS(o);DEL(si);V,SBJV,PST,3,PL
+olezzare;olezzavano;olezzaDEL(re)INS(vano);INS(vano);DEL(re);V,IND,PST,3,PL,IPFV
+laureare;laureaste;laureaDEL(r)INS(st)e;INS(st);DEL(r);V,IND,PST,2,PL,PFV
+gingillarsi;ci gingilliamo;INS(ci )gingillDEL(ars)iINS(amo);INS(ci ),INS(amo);DEL(ars);V,IND,PRS,1,PL
+sollevare;solleverei;sollevDEL(a)INS(e)reINS(i);INS(e),INS(i);DEL(a);V,COND,1,SG
+asserragliarsi;mi asserraglierò;INS(mi )asserraglDEL(i)DEL(ars)iINS(e)INS(r)INS(ò);INS(mi ),INS(e),INS(r),INS(ò);DEL(i),DEL(ars);V,IND,FUT,1,SG
+ottonare;ottonerebbe;ottonDEL(a)INS(e)rINS(ebb)e;INS(e),INS(ebb);DEL(a);V,COND,3,SG
+infradiciarsi;ci infradiciamo;INS(ci )infradiciaDEL(rsi)INS(mo);INS(ci ),INS(mo);DEL(rsi);V,SBJV,PRS,1,PL
+desquamarsi;si desquameranno;INS(si )desquamINS(e)INS(r)aDEL(rsi)INS(n)INS(no);INS(si ),INS(e),INS(r),INS(n),INS(no);DEL(rsi);V,IND,FUT,3,PL
+svigorirsi;mi svigorisco;INS(mi )svigoriDEL(r)sDEL(i)INS(c)INS(o);INS(mi ),INS(c),INS(o);DEL(r),DEL(i);V,IND,PRS,1,SG
+rispondere;risponderemmo;rispondereINS(mmo);INS(mmo);;V,COND,1,PL
+marnare;marneranno;marnDEL(ar)eINS(ranno);INS(ranno);DEL(ar);V,IND,FUT,3,PL
+ossificare;ossificammo;ossificaDEL(re)INS(mmo);INS(mmo);DEL(re);V,IND,PST,1,PL,PFV
+platinare;platinerete;platinDEL(a)INS(e)rINS(et)e;INS(e),INS(et);DEL(a);V,IND,FUT,2,PL
+attaccare;attaccava;attaccINS(av)aDEL(re);INS(av);DEL(re);V,IND,PST,3,SG,IPFV
+barrire;barriranno;barrirDEL(e)INS(a)INS(n)INS(n)INS(o);INS(a),INS(n),INS(n),INS(o);DEL(e);V,IND,FUT,3,PL
+borbogliare;borbogliando;borbogliaDEL(re)INS(n)INS(d)INS(o);INS(n),INS(d),INS(o);DEL(re);V.CVB,PRS
+affrontarsi;mi affrontavo;INS(mi )affrontaDEL(rsi)INS(vo);INS(mi ),INS(vo);DEL(rsi);V,IND,PST,1,SG,IPFV
+premunire;premuniresti;premunireINS(sti);INS(sti);;V,COND,2,SG
+industrializzare;industrializzi;industrializzDEL(are)INS(i);INS(i);DEL(are);V,SBJV,PRS,2,SG
+riammogliare;riammogliate;riammogliaDEL(r)INS(t)e;INS(t);DEL(r);V,IND,PRS,2,PL
+disarticolare;disarticoleremmo;disarticolDEL(a)INS(e)reINS(mmo);INS(e),INS(mmo);DEL(a);V,COND,1,PL
+istoriare;istoriarono;istoriarDEL(e)INS(ono);INS(ono);DEL(e);V,IND,PST,3,PL,PFV
+trasecolare;trasecolate;trasecolaDEL(r)INS(t)e;INS(t);DEL(r);V,IND,PRS,2,PL
+snocciolare;snoccioliamo;snocciolINS(i)aDEL(re)INS(mo);INS(i),INS(mo);DEL(re);V,POS,IMP,1,PL
+sentirsi;vi sentirete;INS(vi )sentirDEL(si)INS(e)INS(t)INS(e);INS(vi ),INS(e),INS(t),INS(e);DEL(si);V,IND,FUT,2,PL
+federare;federarono;federarDEL(e)INS(ono);INS(ono);DEL(e);V,IND,PST,3,PL,PFV
+unire;unirà;unirDEL(e)INS(à);INS(à);DEL(e);V,IND,FUT,3,SG
+disconvenire;disconverresti;disconveDEL(n)DEL(i)rINS(r)eINS(sti);INS(r),INS(sti);DEL(n),DEL(i);V,COND,2,SG
+spilluzzicare;spilluzzicassero;spilluzzicaINS(sse)rDEL(e)INS(o);INS(sse),INS(o);DEL(e);V,SBJV,PST,3,PL
+rotolarsi;mi rotolassi;INS(mi )rotolaDEL(r)sINS(s)i;INS(mi ),INS(s);DEL(r);V,SBJV,PST,1,SG
+comporre;compongo;compINS(o)INS(n)INS(g)oDEL(r)DEL(re);INS(o),INS(n),INS(g);DEL(r),DEL(re);V,IND,PRS,1,SG
+discolpare;discolpaste;discolpaDEL(r)INS(st)e;INS(st);DEL(r);V,SBJV,PST,2,PL
+confidare;confiderei;confidDEL(a)INS(e)reINS(i);INS(e),INS(i);DEL(a);V,COND,1,SG
+sgraffiare;sgraffieremo;sgraffiDEL(a)INS(e)reINS(mo);INS(e),INS(mo);DEL(a);V,IND,FUT,1,PL
+globalizzare;globalizzeremo;globalizzDEL(a)INS(e)reINS(mo);INS(e),INS(mo);DEL(a);V,IND,FUT,1,PL
+inframmettere;inframmettesse;inframmetteDEL(r)INS(ss)e;INS(ss);DEL(r);V,SBJV,PST,3,SG
+inzuppare;inzuppa;inzuppaDEL(re);;DEL(re);V,IND,PRS,3,SG
+sminuzzare;sminuzza;sminuzzaDEL(re);;DEL(re);V,IND,PRS,3,SG
+spezzarsi;ci spezzavamo;INS(ci )spezzaDEL(rsi)INS(vamo);INS(ci ),INS(vamo);DEL(rsi);V,IND,PST,1,PL,IPFV
+riapparecchiare;riapparecchiato;riapparecchiaDEL(re)INS(to);INS(to);DEL(re);V.PTCP,PST
+riscorrere;riscorre;riscorDEL(re)re;;DEL(re);V,IND,PRS,3,SG
+riattare;riattavo;riattaDEL(re)INS(vo);INS(vo);DEL(re);V,IND,PST,1,SG,IPFV
+incazzare;incazza;incazzaDEL(re);;DEL(re);V,IND,PRS,3,SG
+convertire;convertiamo;convertiDEL(re)INS(amo);INS(amo);DEL(re);V,POS,IMP,1,PL
+rifiorire;rifiorisca;rifioriDEL(re)INS(s)INS(c)INS(a);INS(s),INS(c),INS(a);DEL(re);V,SBJV,PRS,1,SG
+rassodarsi;mi rassodi;INS(mi )rassodDEL(ars)i;INS(mi );DEL(ars);V,SBJV,PRS,1,SG
+subconcedere;subconcedessero;subconcedINS(e)INS(s)INS(s)erDEL(e)INS(o);INS(e),INS(s),INS(s),INS(o);DEL(e);V,SBJV,PST,3,PL
+snobbare;snobbasse;snobbaDEL(r)INS(ss)e;INS(ss);DEL(r);V,SBJV,PST,3,SG
+ossequiare;ossequierà;ossequiDEL(ar)eINS(rà);INS(rà);DEL(ar);V,IND,FUT,3,SG
+pressare;pressassi;pressaDEL(re)INS(ssi);INS(ssi);DEL(re);V,SBJV,PST,1,SG
+incapricciarsi;si incapriccino;INS(si )incapriccDEL(i)DEL(ars)iINS(no);INS(si ),INS(no);DEL(i),DEL(ars);V,SBJV,PRS,3,PL
+racemizzare;racemizzavo;racemizzaDEL(re)INS(vo);INS(vo);DEL(re);V,IND,PST,1,SG,IPFV
+rappresantare;rappresantava;rappresantINS(av)aDEL(re);INS(av);DEL(re);V,IND,PST,3,SG,IPFV
+ragguagliare;ragguagliano;ragguagliaDEL(re)INS(no);INS(no);DEL(re);V,IND,PRS,3,PL
+assuefare;assuefacciamo;assuefaDEL(re)INS(c)INS(c)INS(i)INS(a)INS(m)INS(o);INS(c),INS(c),INS(i),INS(a),INS(m),INS(o);DEL(re);V,SBJV,PRS,1,PL
+spidocchiare;spidocchino;spidocchiDEL(are)INS(no);INS(no);DEL(are);V,POS,IMP,3,PL
+romanticizzare;romanticizzaste;romanticizzaDEL(r)INS(st)e;INS(st);DEL(r);V,IND,PST,2,PL,PFV
+disastrare;disastrereste;disastrDEL(a)INS(e)rINS(est)e;INS(e),INS(est);DEL(a);V,COND,2,PL
+esaltare;esaltando;esaltaDEL(re)INS(n)INS(d)INS(o);INS(n),INS(d),INS(o);DEL(re);V.CVB,PRS
+abbottonare;abbottonerei;abbottonDEL(a)INS(e)reINS(i);INS(e),INS(i);DEL(a);V,COND,1,SG
+pervertirsi;pervertiamoci;pervertiDEL(rs)INS(a)INS(m)INS(o)INS(c)i;INS(a),INS(m),INS(o),INS(c);DEL(rs);V,POS,IMP,1,PL
+acuire;acuisci;acuINS(i)INS(s)INS(c)iDEL(re);INS(i),INS(s),INS(c);DEL(re);V,IND,PRS,2,SG
+telecomandare;telecomandavamo;telecomandaDEL(re)INS(vamo);INS(vamo);DEL(re);V,IND,PST,1,PL,IPFV
+sfiduciarsi;ti sfiduciassi;INS(ti )sfiduciaDEL(r)sINS(s)i;INS(ti ),INS(s);DEL(r);V,SBJV,PST,2,SG
+festeggiare;festeggiassi;festeggiaDEL(re)INS(ssi);INS(ssi);DEL(re);V,SBJV,PST,2,SG
+rimodellare;rimodelleremo;rimodellDEL(a)INS(e)reINS(mo);INS(e),INS(mo);DEL(a);V,IND,FUT,1,PL
+grugnire;grugnireste;grugnirINS(est)e;INS(est);;V,COND,2,PL
+informatizzarsi;ti informatizzasti;INS(ti )informatizzaDEL(r)sINS(t)i;INS(ti ),INS(t);DEL(r);V,IND,PST,2,SG,PFV
+incendiare;incendi;incendiDEL(are);;DEL(are);V,SBJV,PRS,3,SG
+oberare;oberasse;oberaDEL(r)INS(ss)e;INS(ss);DEL(r);V,SBJV,PST,3,SG
+cuocere;cuoci;cuocDEL(ere)INS(i);INS(i);DEL(ere);V,IND,PRS,2,SG
+analizzarsi;mi analizzerei;INS(mi )analizzDEL(ars)INS(e)INS(r)INS(e)i;INS(mi ),INS(e),INS(r),INS(e);DEL(ars);V,COND,1,SG
+sagginare;sagginiamo;sagginINS(i)aDEL(re)INS(mo);INS(i),INS(mo);DEL(re);V,SBJV,PRS,1,PL
+mentovare;mentovassi;mentovaDEL(re)INS(ssi);INS(ssi);DEL(re);V,SBJV,PST,2,SG
+rosicchiare;rosicchierà;rosicchiDEL(ar)eINS(rà);INS(rà);DEL(ar);V,IND,FUT,3,SG
+fruttare;frutti;fruttDEL(are)INS(i);INS(i);DEL(are);V,POS,IMP,3,SG
+imbellettare;imbellettavamo;imbellettaDEL(re)INS(vamo);INS(vamo);DEL(re);V,IND,PST,1,PL,IPFV
+frenare;frenerete;frenDEL(a)INS(e)rINS(et)e;INS(e),INS(et);DEL(a);V,IND,FUT,2,PL
+attivare;attivano;attivaDEL(re)INS(no);INS(no);DEL(re);V,IND,PRS,3,PL
+reimbarcarsi;si reimbarcassero;INS(si )reimbarcaINS(sse)rDEL(si)INS(o);INS(si ),INS(sse),INS(o);DEL(si);V,SBJV,PST,3,PL
+affratellarsi;si affratellavano;INS(si )affratellaDEL(rsi)INS(vano);INS(si ),INS(vano);DEL(rsi);V,IND,PST,3,PL,IPFV
+scalzare;scalziamo;scalzINS(i)aDEL(re)INS(mo);INS(i),INS(mo);DEL(re);V,POS,IMP,1,PL
+esortarsi;vi esortate;INS(vi )esortaDEL(rsi)INS(te);INS(vi ),INS(te);DEL(rsi);V,IND,PRS,2,PL
+favoleggiare;favoleggiato;favoleggiaDEL(re)INS(to);INS(to);DEL(re);V.PTCP,PST
+approssimarsi;approssimiamoci;approssimINS(i)aDEL(rs)INS(m)INS(o)INS(c)i;INS(i),INS(m),INS(o),INS(c);DEL(rs);V,POS,IMP,1,PL
+scartinare;scartinassi;scartinaDEL(re)INS(ssi);INS(ssi);DEL(re);V,SBJV,PST,2,SG
+ammobiliare;ammobilino;ammobiliDEL(are)INS(no);INS(no);DEL(are);V,POS,IMP,3,PL
+visitare;visitiamo;visitINS(i)aDEL(re)INS(mo);INS(i),INS(mo);DEL(re);V,SBJV,PRS,1,PL
+abiettare;abiettavi;abiettaDEL(re)INS(vi);INS(vi);DEL(re);V,IND,PST,2,SG,IPFV
+contaminare;contaminerebbe;contaminDEL(a)INS(e)rINS(ebb)e;INS(e),INS(ebb);DEL(a);V,COND,3,SG
+smagnetizzarsi;ti smagnetizzasti;INS(ti )smagnetizzaDEL(r)sINS(t)i;INS(ti ),INS(t);DEL(r);V,IND,PST,2,SG,PFV
+pennellare;pennelli;pennellDEL(are)INS(i);INS(i);DEL(are);V,SBJV,PRS,2,SG
+buscarsi;ci buscheremo;INS(ci )buscDEL(arsi)INS(h)INS(e)INS(r)INS(e)INS(m)INS(o);INS(ci ),INS(h),INS(e),INS(r),INS(e),INS(m),INS(o);DEL(arsi);V,IND,FUT,1,PL
+riconnettere;riconnetta;riconnettDEL(ere)INS(a);INS(a);DEL(ere);V,SBJV,PRS,2,SG
+coreografare;coreografò;coreografDEL(are)INS(ò);INS(ò);DEL(are);V,IND,PST,3,SG,PFV
+contravvalere;contravvalevano;contravvalDEL(er)eINS(vano);INS(vano);DEL(er);V,IND,PST,3,PL,IPFV
+quadrare;quadri;quadrDEL(are)INS(i);INS(i);DEL(are);V,POS,IMP,3,SG
+neologizzare;neologizzi;neologizzDEL(are)INS(i);INS(i);DEL(are);V,SBJV,PRS,1,SG
+cauzionare;cauzionano;cauzionaDEL(re)INS(no);INS(no);DEL(re);V,IND,PRS,3,PL
+suadere;suado;suadDEL(ere)INS(o);INS(o);DEL(ere);V,IND,PRS,1,SG
+ottemperare;ottempereranno;ottempeDEL(r)DEL(a)reINS(ranno);INS(ranno);DEL(r),DEL(a);V,IND,FUT,3,PL
+fluorizzare;fluorizzeremmo;fluorizzDEL(a)INS(e)reINS(mmo);INS(e),INS(mmo);DEL(a);V,COND,1,PL
+insanguinarsi;si insanguinavano;INS(si )insanguinaDEL(rsi)INS(vano);INS(si ),INS(vano);DEL(rsi);V,IND,PST,3,PL,IPFV
+cappottare;cappotti;cappottDEL(are)INS(i);INS(i);DEL(are);V,POS,IMP,3,SG
+costatare;costatavo;costataDEL(re)INS(vo);INS(vo);DEL(re);V,IND,PST,1,SG,IPFV
+localizzare;localizzarono;localizzarDEL(e)INS(ono);INS(ono);DEL(e);V,IND,PST,3,PL,PFV
+scompattare;scompattammo;scompattaDEL(re)INS(mmo);INS(mmo);DEL(re);V,IND,PST,1,PL,PFV
+spiare;spiante;spiaDEL(r)INS(nt)e;INS(nt);DEL(r);V.PTCP,PRS
+ammobiliare;ammobilierete;ammobiliDEL(a)INS(e)rINS(et)e;INS(e),INS(et);DEL(a);V,IND,FUT,2,PL
+scolparsi;mi scolperei;INS(mi )scolpDEL(ars)INS(e)INS(r)INS(e)i;INS(mi ),INS(e),INS(r),INS(e);DEL(ars);V,COND,1,SG
+massacrare;massacrasti;massacraDEL(re)INS(sti);INS(sti);DEL(re);V,IND,PST,2,SG,PFV
+destrutturarsi;mi destrutturo;INS(mi )destrutturDEL(arsi)INS(o);INS(mi ),INS(o);DEL(arsi);V,IND,PRS,1,SG
+avvalorare;avvalorò;avvalorDEL(are)INS(ò);INS(ò);DEL(are);V,IND,PST,3,SG,PFV
+licenziarsi;si licenziavano;INS(si )licenziaDEL(rsi)INS(vano);INS(si ),INS(vano);DEL(rsi);V,IND,PST,3,PL,IPFV
+perdurare;perdurerete;perdurDEL(a)INS(e)rINS(et)e;INS(e),INS(et);DEL(a);V,IND,FUT,2,PL
+frammischiarsi;ci frammischiamo;INS(ci )frammischiaDEL(rsi)INS(mo);INS(ci ),INS(mo);DEL(rsi);V,IND,PRS,1,PL
+sdilinquirsi;vi sdilinquiste;INS(vi )sdilinquiDEL(r)sDEL(i)INS(te);INS(vi ),INS(te);DEL(r),DEL(i);V,IND,PST,2,PL,PFV
+gocciare;goccerebbe;goccDEL(i)DEL(a)INS(e)rINS(ebb)e;INS(e),INS(ebb);DEL(i),DEL(a);V,COND,3,SG
+rispettare;rispettavate;rispettaDEL(r)INS(vat)e;INS(vat);DEL(r);V,IND,PST,2,PL,IPFV
+modellizzare;modellizzerete;modellizzDEL(a)INS(e)rINS(et)e;INS(e),INS(et);DEL(a);V,IND,FUT,2,PL
+inzotichire;inzotichiscono;inzotichiDEL(re)INS(s)INS(c)INS(o)INS(n)INS(o);INS(s),INS(c),INS(o),INS(n),INS(o);DEL(re);V,IND,PRS,3,PL
+imbrigliare;imbrigliate;imbrigliaDEL(r)INS(t)e;INS(t);DEL(r);V,IND,PRS,2,PL
+abboccare;abboccando;abboccaDEL(re)INS(n)INS(d)INS(o);INS(n),INS(d),INS(o);DEL(re);V.CVB,PRS
+duettare;duettiamo;duettINS(i)aDEL(re)INS(mo);INS(i),INS(mo);DEL(re);V,SBJV,PRS,1,PL
+rizzare;rizziate;rizzINS(i)aDEL(r)INS(t)e;INS(i),INS(t);DEL(r);V,SBJV,PRS,2,PL
+proibire;proibiste;proibiDEL(r)INS(st)e;INS(st);DEL(r);V,SBJV,PST,2,PL
+spogliarsi;spogliati;spogliaDEL(rs)INS(t)i;INS(t);DEL(rs);V,POS,IMP,2,SG
+irrobustirsi;irrobustirsi;irrobustirsi;;;V,NFIN
+smaliziarsi;vi smaliziavate;INS(vi )smaliziaDEL(rsi)INS(v)INS(a)INS(t)INS(e);INS(vi ),INS(v),INS(a),INS(t),INS(e);DEL(rsi);V,IND,PST,2,PL,IPFV
+mendicare;mendichino;mendicDEL(are)INS(h)INS(i)INS(n)INS(o);INS(h),INS(i),INS(n),INS(o);DEL(are);V,POS,IMP,3,PL
+predigerire;predigerirete;predigerirINS(et)e;INS(et);;V,IND,FUT,2,PL
+sganciarsi;ti sganceresti;INS(ti )sgancDEL(i)DEL(a)INS(e)rINS(e)sINS(t)i;INS(ti ),INS(e),INS(e),INS(t);DEL(i),DEL(a);V,COND,2,SG
+convertirsi;si convertano;INS(si )convertDEL(i)DEL(rsi)INS(a)INS(n)INS(o);INS(si ),INS(a),INS(n),INS(o);DEL(i),DEL(rsi);V,SBJV,PRS,3,PL
+ristaurare;ristauriamo;ristaurINS(i)aDEL(re)INS(mo);INS(i),INS(mo);DEL(re);V,POS,IMP,1,PL
+fucilare;fucilavamo;fucilaDEL(re)INS(vamo);INS(vamo);DEL(re);V,IND,PST,1,PL,IPFV
+ricategorizzare;ricategorizzi;ricategorizzDEL(are)INS(i);INS(i);DEL(are);V,SBJV,PRS,3,SG
+satireggiare;satireggerei;satireggDEL(i)DEL(a)INS(e)reINS(i);INS(e),INS(i);DEL(i),DEL(a);V,COND,1,SG
+ricompattarsi;ti ricompatteresti;INS(ti )ricompattDEL(a)INS(e)rINS(e)sINS(t)i;INS(ti ),INS(e),INS(e),INS(t);DEL(a);V,COND,2,SG
+zappare;zappavate;zappaDEL(r)INS(vat)e;INS(vat);DEL(r);V,IND,PST,2,PL,IPFV
+sottocapitalizzare;sottocapitalizza;sottocapitalizzaDEL(re);;DEL(re);V,POS,IMP,2,SG
+imbustare;imbustavano;imbustaDEL(re)INS(vano);INS(vano);DEL(re);V,IND,PST,3,PL,IPFV
+imbussolare;imbussolate;imbussolaDEL(r)INS(t)e;INS(t);DEL(r);V,POS,IMP,2,PL
+intabarrare;intabarriamo;intabarrINS(i)aDEL(re)INS(mo);INS(i),INS(mo);DEL(re);V,SBJV,PRS,1,PL
+baraccare;baraccassi;baraccaDEL(re)INS(ssi);INS(ssi);DEL(re);V,SBJV,PST,1,SG
+tramutare;tramuteranno;tramutDEL(ar)eINS(ranno);INS(ranno);DEL(ar);V,IND,FUT,3,PL
+tramortire;tramortirebbero;tramortireINS(bbero);INS(bbero);;V,COND,3,PL
+agglomerare;agglomera;agglomeraDEL(re);;DEL(re);V,IND,PRS,3,SG
+renderizzare;renderizzava;renderizzINS(av)aDEL(re);INS(av);DEL(re);V,IND,PST,3,SG,IPFV
+dirigere;dirigano;dirigDEL(ere)INS(a)INS(n)INS(o);INS(a),INS(n),INS(o);DEL(ere);V,SBJV,PRS,3,PL
+psicoanalizzare;psicoanalizzerà;psicoanalizzDEL(ar)eINS(rà);INS(rà);DEL(ar);V,IND,FUT,3,SG
+fiancheggiare;fiancheggiano;fiancheggiaDEL(re)INS(no);INS(no);DEL(re);V,IND,PRS,3,PL
+rimettere;rimetteremmo;rimettereINS(mmo);INS(mmo);;V,COND,1,PL
+rastremarsi;mi rastremerò;INS(mi )rastremDEL(arsi)INS(e)INS(r)INS(ò);INS(mi ),INS(e),INS(r),INS(ò);DEL(arsi);V,IND,FUT,1,SG
+piegare;piegaste;piegaDEL(r)INS(st)e;INS(st);DEL(r);V,IND,PST,2,PL,PFV
+contradire;contradisse;contradiDEL(r)INS(ss)e;INS(ss);DEL(r);V,IND,PST,3,SG,PFV
+scompisciarsi;ti scompisciavi;INS(ti )scompisciaDEL(rs)INS(v)i;INS(ti ),INS(v);DEL(rs);V,IND,PST,2,SG,IPFV
+insinuare;insinuasti;insinuaDEL(re)INS(sti);INS(sti);DEL(re);V,IND,PST,2,SG,PFV
+collezionare;collezionasse;collezionaDEL(r)INS(ss)e;INS(ss);DEL(r);V,SBJV,PST,3,SG
+strabere;strabeve;strabeDEL(r)INS(v)e;INS(v);DEL(r);V,IND,PRS,3,SG
+conspargere;conspargeresti;conspargereINS(sti);INS(sti);;V,COND,2,SG
+deludere;deludi;deludDEL(ere)INS(i);INS(i);DEL(ere);V,IND,PRS,2,SG
+raddrizzare;raddrizziate;raddrizzINS(i)aDEL(r)INS(t)e;INS(i),INS(t);DEL(r);V,SBJV,PRS,2,PL
+ingiungere;ingiungerei;ingiungereINS(i);INS(i);;V,COND,1,SG
+biforcarsi;ti biforcasti;INS(ti )biforcaDEL(r)sINS(t)i;INS(ti ),INS(t);DEL(r);V,IND,PST,2,SG,PFV
+travasare;travaso;travasDEL(are)INS(o);INS(o);DEL(are);V,IND,PRS,1,SG
+dilaniarsi;si dilaniano;INS(si )dilaniaDEL(rsi)INS(no);INS(si ),INS(no);DEL(rsi);V,IND,PRS,3,PL
+laicizzare;laicizzando;laicizzaDEL(re)INS(n)INS(d)INS(o);INS(n),INS(d),INS(o);DEL(re);V.CVB,PRS
+estrinsecare;estrinsecherei;estrinsecDEL(a)INS(he)reINS(i);INS(he),INS(i);DEL(a);V,COND,1,SG
+riscalare;riscalassi;riscalaDEL(re)INS(ssi);INS(ssi);DEL(re);V,SBJV,PST,2,SG
+sponsorizzare;sponsorizzavamo;sponsorizzaDEL(re)INS(vamo);INS(vamo);DEL(re);V,IND,PST,1,PL,IPFV
+allontanarsi;mi allontanerò;INS(mi )allontanDEL(arsi)INS(e)INS(r)INS(ò);INS(mi ),INS(e),INS(r),INS(ò);DEL(arsi);V,IND,FUT,1,SG
+ricalcificarsi;ricalcificantesi;ricalcificaDEL(r)INS(n)INS(t)INS(e)si;INS(n),INS(t),INS(e);DEL(r);V.PTCP,PRS
+infrattare;infratteresti;infrattDEL(a)INS(e)reINS(sti);INS(e),INS(sti);DEL(a);V,COND,2,SG
+surriscaldare;surriscalderebbero;surriscaldDEL(a)INS(e)reINS(bbero);INS(e),INS(bbero);DEL(a);V,COND,3,PL
+schiodarsi;ci schiodiamo;INS(ci )schiodDEL(ars)iINS(amo);INS(ci ),INS(amo);DEL(ars);V,IND,PRS,1,PL
+alluminiare;alluminierai;alluminiDEL(ar)eINS(r)INS(a)INS(i);INS(r),INS(a),INS(i);DEL(ar);V,IND,FUT,2,SG
+becchettare;becchettiate;becchettINS(i)aDEL(r)INS(t)e;INS(i),INS(t);DEL(r);V,SBJV,PRS,2,PL
+destare;desterei;destDEL(a)INS(e)reINS(i);INS(e),INS(i);DEL(a);V,COND,1,SG
+disconvenire;disconvenivo;disconveniDEL(re)INS(vo);INS(vo);DEL(re);V,IND,PST,1,SG,IPFV
+addolorarsi;vi addoloriate;INS(vi )addolorDEL(ars)iINS(a)INS(t)INS(e);INS(vi ),INS(a),INS(t),INS(e);DEL(ars);V,SBJV,PRS,2,PL
+invaghirsi;vi invaghirete;INS(vi )invaghirDEL(si)INS(e)INS(t)INS(e);INS(vi ),INS(e),INS(t),INS(e);DEL(si);V,IND,FUT,2,PL
+relativizzare;relativizziamo;relativizzINS(i)aDEL(re)INS(mo);INS(i),INS(mo);DEL(re);V,POS,IMP,1,PL
+affollare;affollassimo;affollaDEL(re)INS(ssimo);INS(ssimo);DEL(re);V,SBJV,PST,1,PL
+affondare;affonderanno;affondDEL(ar)eINS(ranno);INS(ranno);DEL(ar);V,IND,FUT,3,PL
+bisellare;biselliate;bisellINS(i)aDEL(r)INS(t)e;INS(i),INS(t);DEL(r);V,SBJV,PRS,2,PL
+scalmanarsi;si scalmaneranno;INS(si )scalmanINS(e)INS(r)aDEL(rsi)INS(n)INS(no);INS(si ),INS(e),INS(r),INS(n),INS(no);DEL(rsi);V,IND,FUT,3,PL
+straviziare;stravizino;straviziDEL(are)INS(no);INS(no);DEL(are);V,POS,IMP,3,PL
+incoraggiare;incoraggiaste;incoraggiaDEL(r)INS(st)e;INS(st);DEL(r);V,SBJV,PST,2,PL
+scribacchiare;scribacchiato;scribacchiaDEL(re)INS(to);INS(to);DEL(re);V.PTCP,PST
+dissecare;dissecassimo;dissecaDEL(re)INS(ssimo);INS(ssimo);DEL(re);V,SBJV,PST,1,PL
+incagliarsi;si incaglierà;INS(si )incaglDEL(i)DEL(ars)iINS(e)INS(r)INS(à);INS(si ),INS(e),INS(r),INS(à);DEL(i),DEL(ars);V,IND,FUT,3,SG
+scorgere;scorgiamo;scorgDEL(ere)INS(i)INS(a)INS(m)INS(o);INS(i),INS(a),INS(m),INS(o);DEL(ere);V,IND,PRS,1,PL
+reclinarsi;vi reclinaste;INS(vi )reclinaDEL(r)sDEL(i)INS(te);INS(vi ),INS(te);DEL(r),DEL(i);V,SBJV,PST,2,PL
+risollevare;risollevi;risollevDEL(are)INS(i);INS(i);DEL(are);V,POS,IMP,3,SG
+disproporzionare;disproporzioni;disproporzionDEL(are)INS(i);INS(i);DEL(are);V,IND,PRS,2,SG
+pieghettare;pieghettavano;pieghettaDEL(re)INS(vano);INS(vano);DEL(re);V,IND,PST,3,PL,IPFV
+ballare;ballai;ballaDEL(re)INS(i);INS(i);DEL(re);V,IND,PST,1,SG,PFV
+stravaccarsi;mi stravaccavo;INS(mi )stravaccaDEL(rsi)INS(vo);INS(mi ),INS(vo);DEL(rsi);V,IND,PST,1,SG,IPFV
+impugnare;impugnava;impugnINS(av)aDEL(re);INS(av);DEL(re);V,IND,PST,3,SG,IPFV
+eternizzare;eternizzerebbe;eternizzDEL(a)INS(e)rINS(ebb)e;INS(e),INS(ebb);DEL(a);V,COND,3,SG
+tripartire;tripartiremo;tripartireINS(mo);INS(mo);;V,IND,FUT,1,PL
+riesprimere;riespressi;riesprINS(e)INS(s)INS(s)iDEL(m)DEL(ere);INS(e),INS(s),INS(s);DEL(m),DEL(ere);V,IND,PST,1,SG,PFV
+ispanizzare;ispanizzate;ispanizzaDEL(r)INS(t)e;INS(t);DEL(r);V,IND,PRS,2,PL
+tratteggiare;tratteggi;tratteggiDEL(are);;DEL(are);V,SBJV,PRS,3,SG
+fascicolare;fascicolino;fascicolDEL(are)INS(ino);INS(ino);DEL(are);V,SBJV,PRS,3,PL
+sfidarsi;sfidantesi;sfidaDEL(r)INS(n)INS(t)INS(e)si;INS(n),INS(t),INS(e);DEL(r);V.PTCP,PRS
+incolpare;incolperete;incolpDEL(a)INS(e)rINS(et)e;INS(e),INS(et);DEL(a);V,IND,FUT,2,PL
+autolimitarsi;ci autolimitavamo;INS(ci )autolimitaDEL(rsi)INS(vamo);INS(ci ),INS(vamo);DEL(rsi);V,IND,PST,1,PL,IPFV
+accumulare;accumulato;accumulaDEL(re)INS(to);INS(to);DEL(re);V.PTCP,PST
+decantare;decanteranno;decantDEL(ar)eINS(ranno);INS(ranno);DEL(ar);V,IND,FUT,3,PL
+deionizzare;deionizza;deionizzaDEL(re);;DEL(re);V,IND,PRS,3,SG
+solforare;solforiamo;solforINS(i)aDEL(re)INS(mo);INS(i),INS(mo);DEL(re);V,IND,PRS,1,PL
+conciare;conciate;conciaDEL(r)INS(t)e;INS(t);DEL(r);V,IND,PRS,2,PL
+copolimerizzare;copolimerizzate;copolimerizzaDEL(r)INS(t)e;INS(t);DEL(r);V,IND,PRS,2,PL
+incagliarsi;mi incagliassi;INS(mi )incagliaDEL(r)sINS(s)i;INS(mi ),INS(s);DEL(r);V,SBJV,PST,1,SG
+risollevarsi;risollevato;risollevaDEL(rsi)INS(to);INS(to);DEL(rsi);V.PTCP,PST
+affezionarsi;si affezioni;INS(si )affezionDEL(ars)i;INS(si );DEL(ars);V,POS,IMP,3,SG

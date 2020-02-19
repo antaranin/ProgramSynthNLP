@@ -1,0 +1,60 @@
+String;Operation type;Occurrences
+p;INS;1
+r;INS;25
+e;INS;122
+n;INS;154
+t;INS;80
+a ;INS;141
+i;INS;227
+h;INS;271
+a;INS;288
+an ;INS;96
+leis an ;INS;38
+anna;INS;13
+na ;INS;60
+the;INS;9
+m;INS;46
+ó;INS;16
+f;INS;32
+ ;INS;245
+-;INS;21
+c;INS;14
+d';INS;27
+é;INS;29
+ig;INS;19
+í;INS;186
+g;INS;51
+o;INS;75
+s;INS;126
+d;INS;142
+l;INS;41
+ím;INS;19
+leis na ;INS;32
+aí;INS;12
+b;INS;44
+á;INS;32
+ sé;INS;16
+';INS;1
+ú;INS;21
+na h;INS;12
+u;INS;2
+th;INS;1
+b;DEL;1
+r;DEL;2
+i;DEL;42
+í;DEL;9
+igh;DEL;52
+c;DEL;23
+h;DEL;15
+gh;DEL;23
+a;DEL;31
+ig;DEL;23
+d;DEL;6
+g;DEL;20
+ú;DEL;7
+e;DEL;16
+ea;DEL;14
+o;DEL;1
+m;DEL;1
+l;DEL;1
+á;DEL;1
