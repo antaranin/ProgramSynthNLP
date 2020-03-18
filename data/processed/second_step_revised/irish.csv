@@ -1,60 +1,180 @@
 String;Operation type;Occurrences
-p;INS;1
-r;INS;25
-e;INS;122
-n;INS;154
-t;INS;80
-a ;INS;141
-i;INS;227
-h;INS;271
-a;INS;288
-an ;INS;96
-leis an ;INS;38
-anna;INS;13
-na ;INS;60
-the;INS;9
-m;INS;46
-ó;INS;16
-f;INS;32
- ;INS;245
--;INS;21
-c;INS;14
-d';INS;27
-é;INS;29
-ig;INS;19
-í;INS;186
-g;INS;51
-o;INS;75
-s;INS;126
-d;INS;142
-l;INS;41
-ím;INS;19
-leis na ;INS;32
-aí;INS;12
-b;INS;44
-á;INS;32
- sé;INS;16
+ídís;INS;77
+an ;INS;899
+i;INS;1572
+na h;INS;135
+e;INS;481
+eanna;INS;91
+ig;INS;315
+leis an t;INS;12
+eo;INS;50
+d;INS;397
+ mé;INS;62
+h;INS;1971
+ tú;INS;72
+í;INS;955
+a ;INS;1292
+a;INS;1258
+dá d;INS;22
+na ;INS;555
+leis na ;INS;351
+faimid;INS;11
+leis an g;INS;84
+o;INS;134
+c;INS;38
+f;INS;246
+ígí;INS;24
+leis an ;INS;405
+íonn sé;INS;27
+n;INS;266
+ ;INS;302
+s;INS;363
+b;INS;192
+d';INS;283
+ sibh;INS;12
+ithe;INS;110
+eadh sé;INS;14
+aí;INS;137
+dá n;INS;39
+ínn;INS;41
+go d;INS;14
+ítear;INS;58
+an t;INS;36
+leis an n;INS;31
+t;INS;156
+eacha;INS;37
+íonn tú;INS;22
+go g;INS;36
+dá n-;INS;61
+íteá;INS;44
+eoim;INS;19
+tar;INS;17
+anna;INS;99
+dá ;INS;55
+leis an bh;INS;54
+g;INS;42
+í tú;INS;19
+an t-;INS;86
+ú;INS;55
+m;INS;128
+ó;INS;47
+ siad;INS;51
+tá;INS;19
+aim;INS;21
+r;INS;98
+ód;INS;27
+ sé;INS;140
+ím;INS;156
+óid;INS;50
+íod;INS;89
+dá g;INS;45
+taí;INS;16
+a d';INS;42
+faidh tú;INS;13
+leis an m;INS;68
+imis;INS;15
+ta;INS;43
+óf;INS;18
+aimis;INS;22
+eod;INS;17
+ach;INS;21
+í s;INS;43
+ad;INS;59
+go ;INS;57
+í sé;INS;26
+go n-;INS;57
+leis na h;INS;102
+adh;INS;22
+aithe;INS;21
+h sib;INS;26
+nn;INS;15
+é;INS;92
+í mé;INS;12
+the;INS;23
+aidís;INS;33
+go n;INS;29
+íonn s;INS;35
+te;INS;15
+p;INS;8
+dá bh;INS;32
+á;INS;38
+íodh s;INS;39
+ann siad;INS;11
+níos ;INS;24
+teá;INS;15
+go bh;INS;24
+go m;INS;27
+ítí;INS;46
+adh sé;INS;27
+is ;INS;17
+dís;INS;18
+tear;INS;17
+uithe;INS;17
+dá b;INS;11
+acha;INS;23
+leis an b;INS;22
+faidh mé;INS;11
+ainn;INS;22
+u;INS;10
+óidís;INS;16
+th;INS;21
+aimid;INS;13
+íonn;INS;13
+ann;INS;24
+tí;INS;21
+dá m;INS;14
+adh sibh;INS;17
+íomar;INS;23
+óimis;INS;11
+óimid;INS;11
+ófá;INS;23
+óidh sib;INS;13
+l;INS;19
+ea;INS;13
+fadh sé;INS;11
+inn;INS;11
 ';INS;1
-ú;INS;21
-na h;INS;12
-u;INS;2
-th;INS;1
-b;DEL;1
-r;DEL;2
-i;DEL;42
-í;DEL;9
-igh;DEL;52
-c;DEL;23
-h;DEL;15
-gh;DEL;23
-a;DEL;31
-ig;DEL;23
-d;DEL;6
-g;DEL;20
-ú;DEL;7
-e;DEL;16
-ea;DEL;14
-o;DEL;1
-m;DEL;1
-l;DEL;1
-á;DEL;1
+S;INS;5
+ódh sib;INS;11
+nna;INS;31
+idís;INS;13
+eadh;INS;11
+v;INS;2
+P;INS;1
+igh;DEL;550
+c;DEL;256
+g;DEL;180
+ch;DEL;34
+eac;DEL;83
+r;DEL;23
+í;DEL;111
+e;DEL;155
+i;DEL;394
+t;DEL;12
+a;DEL;139
+gh;DEL;254
+dh;DEL;45
+aigh;DEL;74
+aig;DEL;117
+ig;DEL;133
+h;DEL;64
+ea;DEL;106
+ú;DEL;54
+ai;DEL;60
+d;DEL;12
+mh;DEL;3
+f;DEL;3
+á;DEL;9
+s;DEL;6
+l;DEL;15
+o;DEL;33
+m;DEL;10
+n;DEL;19
+ ;DEL;4
+u;DEL;11
+ó;DEL;3
+b;DEL;11
+é;DEL;3
+each;DEL;11
+in;DEL;1
+p;DEL;1

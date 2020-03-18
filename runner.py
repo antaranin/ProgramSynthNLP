@@ -16,9 +16,10 @@ def _run_steps(directory_name: str, filename: str, generate_step_1: bool, genera
     file_data = filename.split("-")
     language = file_data[0]
     operation = file_data[1]
-    if operation == "dev":
-        process_data_file(f"{directory_name}/{filename}", language, generate_step_1,
-                          generate_step_2, generate_step_3, generate_step_4, generate_step_5)
+    if operation == "train" and len(file_data) > 2:
+        if file_data[2] == "high":
+            process_data_file(f"{directory_name}/{filename}", language, generate_step_1,
+                              generate_step_2, generate_step_3, generate_step_4, generate_step_5)
 
 
 def _iterate_directory(directory_name, operation: Callable[[str, str], None]) -> None:
@@ -210,4 +211,10 @@ def compare_base_to_sigmorphon():
 # write_baseline_cost()
 # compare_base_to_sigmorphon()
 # draw_trees()
+# create_grammar_context_matrices()
+
+
+write_steps(True, True, True, True, True)
+write_first_second_step_revision()
+write_context_matrices()
 create_grammar_context_matrices()

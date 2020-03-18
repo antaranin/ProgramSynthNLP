@@ -1,105 +1,495 @@
 String;Operation type;Occurrences
-d;INS;3
-dt;INS;1
-ūošõdõk;INS;1
-iž;INS;2
-ks;INS;2
-õd;INS;1
-īs;INS;2
-dõs;INS;1
-kõks;INS;2
-bõ;INS;2
-īzõs;INS;1
-ssõ;INS;1
-m;INS;1
-t;INS;4
-um tulmõs;INS;1
-tõ;INS;1
-apstā;INS;1
-äb ;INS;3
-āb;INS;1
-dõn;INS;2
-ī;INS;1
-idi;INS;1
-algõd ;INS;1
-gõ;INS;2
-õnd;INS;1
-ūdõn;INS;1
-õ;INS;2
-ȯl!;INS;1
-dkõks;INS;1
-ndidi;INS;1
-zõs;INS;1
-ūom;INS;1
-ssõdõk;INS;2
-eizm;INS;1
-sõ;INS;1
-ndõd;INS;1
-um ;INS;1
-mõst;INS;1
-õdõks;INS;2
-n;INS;2
-dis;INS;1
-s;INS;2
-zõst;INS;1
-izt ;INS;2
-āt;INS;1
-õst;INS;1
-štõ;INS;1
-īm tunnõ;INS;1
-st;INS;2
-zõn;INS;1
-ndõs;INS;1
-äuvḑi;INS;1
-ņņid;INS;1
-u;INS;1
-dõ;INS;1
-āks;INS;1
-õn;INS;3
-stõ;INS;1
-is;INS;2
-ndist;INS;1
-zt;INS;1
-dū;INS;1
-ndtõ;INS;1
-ulks;INS;1
+līt ;INS;6
+nõ;INS;45
+d;INS;174
+ūb;INS;2
+žis;INS;9
+ūor;INS;8
+iž;INS;58
+ndis;INS;28
+õksm;INS;6
+õd;INS;60
+ks;INS;62
+ndõd;INS;53
+dõd;INS;21
+um ;INS;52
+mõst;INS;17
+ņži;INS;11
+dõdõks;INS;11
+äd ;INS;20
+õdõn;INS;29
+ndõs;INS;25
+ēji;INS;12
+ḑi;INS;19
+sti;INS;2
+ndt;INS;23
+lītõ ;INS;6
+nd;INS;67
+ȯ;INS;5
+dõ;INS;29
+apst;INS;4
+õnd;INS;16
+äuvši;INS;7
+īdõks;INS;9
+ndõdõks;INS;27
+didi;INS;10
+õks;INS;54
+ds;INS;11
+ndõn;INS;26
+zõks;INS;9
+iz ;INS;26
+n;INS;108
+st;INS;94
+õ;INS;120
+äuvḑi;INS;7
+õdõks;INS;27
+ndidi;INS;25
+äuvži;INS;8
+ngõd;INS;6
+õst;INS;28
+ztõn;INS;12
+ēži;INS;7
+um tulmõs;INS;5
+īst;INS;17
+kõ;INS;5
+algõd ;INS;18
+gõd;INS;15
+ndõst;INS;25
+kst;INS;24
+õndõd;INS;11
+ldõn;INS;2
+ät līt ;INS;7
+äd tulks;INS;1
+is;INS;46
+rdõn;INS;1
+idi;INS;41
+ndõks;INS;26
+ȯļļi;INS;6
+ņ;INS;2
+ät lītõ ;INS;7
+sõ;INS;53
+õs;INS;27
+ši;INS;21
+ät ;INS;21
+õkst;INS;12
+ekšm;INS;1
+dõn;INS;83
+m;INS;37
+dõs;INS;9
+kõks;INS;29
+ist;INS;45
+īzt;INS;9
+ndõdõn;INS;27
+r;INS;8
+stõ;INS;43
+ztõks;INS;9
+īž;INS;23
+ūošõdõn;INS;1
+ulmõ;INS;4
+apstkõks;INS;2
+i;INS;16
+õn;INS;58
+äb ;INS;87
+t;INS;60
+s;INS;82
+algõ ;INS;21
+g;INS;29
+dõks;INS;59
+ȯlksmõ;INS;2
+ȯlkstõ;INS;4
+apsõks;INS;2
+īmõ tunnõ;INS;2
+īb tun;INS;2
+īztõks;INS;2
+ssõk;INS;3
+ndist;INS;25
+ekšt;INS;3
+līd ;INS;7
+zt;INS;29
+sõst;INS;4
+šõ;INS;15
+līb ;INS;13
+ndsõ;INS;2
+ī vȯn;INS;3
+äuvõ;INS;15
+ndõ;INS;10
+ņḑi;INS;10
+bõn;INS;1
+īdi;INS;12
+izm;INS;1
+ji;INS;6
+āksm;INS;2
+ēši;INS;7
+īd;INS;18
+äb lī ;INS;16
+lā tul!;INS;1
+īs;INS;15
+ndiž;INS;26
+dist;INS;10
+ouvs;INS;1
+lõks;INS;1
+tõn;INS;2
+iz;INS;6
+zõ;INS;26
+ņt;INS;1
+äb lītõ ;INS;7
+nnõd;INS;9
+ä;INS;2
+ ;INS;3
+īt tunnõ;INS;3
+rd;INS;2
+nbõd;INS;1
+ūd;INS;3
+tõ līnõ;INS;3
+ņši;INS;11
+ņšti;INS;12
+izt;INS;6
+lgõ tulgõ;INS;3
+a;INS;11
+gõ;INS;19
+ läkk;INS;3
+ndst;INS;25
+lidi;INS;1
+štõ;INS;8
+ȯļmõ;INS;1
+ī;INS;6
+izt ;INS;22
+ēšti;INS;7
+ijid;INS;9
+ži;INS;22
+nds;INS;26
+āg;INS;12
+īd tun;INS;1
+ēḑi;INS;6
+ți;INS;1
+ȯlmõst;INS;5
+dõst;INS;11
+ntõ;INS;4
+šõn;INS;3
+ņņid;INS;2
+ouvõ;INS;2
+ouvõn;INS;1
+mõ līnõ;INS;2
+īz;INS;12
+zõs;INS;8
+äd;INS;1
+īzõs;INS;2
+diž;INS;11
+u;INS;14
+zõst;INS;7
+ǟ;INS;15
+z;INS;18
+ū;INS;1
+zta;INS;1
+īzm;INS;2
+eiz;INS;2
+iji;INS;9
+āks;INS;2
+ām;INS;11
+dis;INS;10
+ļži;INS;1
+alā ;INS;8
+!;INS;14
+algid ;INS;7
+gid!;INS;6
+ȯlks;INS;4
+āizt;INS;2
+gi;INS;4
+õukõ;INS;2
+īt vȯnnõ;INS;3
+ȯlgid!;INS;1
+dt;INS;10
 ȯļ;INS;1
-žis;INS;1
-īztõks;INS;1
-lā vȯl!;INS;1
-tis;INS;1
-īztõn;INS;1
-sõn;INS;1
-ssõk;INS;1
-līt ;INS;1
-nd;INS;1
-līb ;INS;1
-a;INS;2
-äb līmõ ;INS;1
-nnõd;INS;1
-gõ läkk;INS;1
-z;DEL;11
-ȯi;DEL;1
-õz;DEL;1
-li;DEL;3
-d;DEL;1
-ūlda;DEL;2
-äpš;DEL;1
-õ;DEL;2
-lõ;DEL;3
-i;DEL;1
-ȱlda;DEL;1
-vȱlda;DEL;1
-ǟd;DEL;2
-tū;DEL;1
-a;DEL;4
-ā;DEL;2
-vȱld;DEL;2
-ǟva;DEL;1
-ānd;DEL;2
-ū;DEL;1
-ņtš;DEL;1
-ȱl;DEL;1
+bõ;INS;5
+zõn;INS;8
+mõ;INS;4
+īmõ vȯnnõ;INS;2
+rõn;INS;1
+ižḑ;INS;1
+äb līt ;INS;5
+ld;INS;4
+b;INS;10
+ž;INS;2
+ļḑi;INS;1
+sõk;INS;3
+sidi;INS;4
+līmõ ;INS;7
+nmõ;INS;4
+ņtõ;INS;2
+țõks;INS;2
+dkõks;INS;21
+iz ūo;INS;2
+nt;INS;1
+īzõ;INS;2
+uļļi;INS;6
+ļõ;INS;2
+ngõ;INS;6
+ul!;INS;1
+äb līmõ ;INS;6
+ssõdõk;INS;2
+uļmõ;INS;1
+țõn;INS;2
+ūoš;INS;2
+lstõ;INS;2
+äuvšti;INS;7
+īzõst;INS;3
+ksm;INS;6
+šti;INS;21
+apsõ;INS;2
+ouvidi;INS;1
+sõd;INS;8
+țõ;INS;4
+uļ;INS;2
+sist;INS;4
+ädūd;INS;2
+līm ;INS;6
+si;INS;2
+tõ;INS;4
+äb tul;INS;1
+ņõ;INS;2
+ēm;INS;6
+ūdõks;INS;2
+nkstõ;INS;4
+āb;INS;2
+apsõs;INS;2
+siž;INS;4
+ädstõ;INS;1
+ȯlkst;INS;2
+lõ;INS;6
+eizt;INS;3
+dst;INS;10
+tul;INS;1
+ztkõks;INS;3
+ssi;INS;4
+lgid tulgid!;INS;1
+žist;INS;11
+apsõn;INS;2
+ājid;INS;3
+rõ;INS;3
+iļmi;INS;1
+bõd;INS;3
+lgõd tulgõd;INS;3
+izt ūotõ;INS;2
+lgid vȯlgid!;INS;1
+āt;INS;4
+īdõn;INS;8
+l!;INS;2
+äkk;INS;6
+sõn;INS;3
+šõs;INS;3
+an;INS;1
+ļšti;INS;1
+l;INS;2
+äb ūotõ;INS;1
+ņõn;INS;1
+rkõks;INS;1
+ulks;INS;3
+ŗist;INS;2
+dū;INS;1
+ītõ vȯnnõ;INS;3
+ūotõ;INS;1
+ät tulks;INS;1
+mõt;INS;3
+mõks;INS;1
+žiz;INS;8
+ldõ;INS;2
+ī tun;INS;3
+ȯlkõ;INS;3
+ā!;INS;1
+īb vȯn;INS;2
+ouvõd;INS;1
+n!;INS;2
+itõ;INS;2
+ät ūotõ;INS;1
+nmõst;INS;6
+ākst;INS;6
+žm;INS;1
+īm vȯnnõ;INS;2
+lībõd ;INS;6
+āgid!;INS;2
+īztõn;INS;2
+äd lī ;INS;8
+šõst;INS;3
+ŗi;INS;2
+ŗõ;INS;2
+ūo;INS;1
+sõdõk;INS;2
+liž;INS;1
+ulgõ;INS;3
+äddõn;INS;1
+nmõt;INS;1
+ņņi;INS;3
+äb līm ;INS;7
+nksmõ;INS;2
+ļõn;INS;1
+žt;INS;3
+um;INS;2
+uļtõ;INS;2
+ngid!;INS;2
+ätā;INS;1
+tulks;INS;1
+izt ūo;INS;1
+ouvõks;INS;1
+nāb;INS;2
+sõdõn;INS;4
+ssõ;INS;2
+ndstõ;INS;1
+gid ligīd!;INS;1
+ūošõd;INS;2
+ūošid;INS;1
+lgõd vȯlkõd;INS;3
+ulksmõ;INS;2
+b līn;INS;2
+ūošiz;INS;1
+lõdõn;INS;1
+šõks;INS;3
+āji;INS;3
+lõdõks;INS;1
+nks;INS;4
+ädkõks;INS;1
+š;INS;1
+ļši;INS;1
+ulāb;INS;2
+tis;INS;2
+ītõ tunnõ;INS;3
+tulmõ;INS;1
+gõ läkk;INS;2
+ā;INS;1
+ȯigši;INS;1
+ädūdõks;INS;1
+rtõ;INS;1
+ämmõ;INS;2
+ībõd tunnõ;INS;1
+īd vȯn;INS;1
+t ;INS;1
+izt tul;INS;2
+tā;INS;1
+nõdõ;INS;1
+ȯigõ;INS;2
+aps;INS;2
+touvõs;INS;1
+ŗiž;INS;2
+ulgid!;INS;1
+m līnõ;INS;1
+äb tulks;INS;1
+št;INS;1
+ād;INS;1
+d līn;INS;1
+lgõ vȯlkõ;INS;3
+ouvõs;INS;1
+ȯlmõ;INS;1
+lõd;INS;1
+ldkõks;INS;2
+rsõ;INS;1
+ekš;INS;2
+ȯigšti;INS;1
+ȯigḑi;INS;1
+ädsõ;INS;1
+lsõ;INS;2
+ät tul;INS;1
+iz ūom;INS;1
+ouvis;INS;1
+īm tunnõ;INS;1
+tõks;INS;2
+rdkõks;INS;1
+lõn;INS;3
+iļmži;INS;1
+list;INS;1
+apsõst;INS;2
+un;INS;1
+äd ūo;INS;1
+ȯigži;INS;1
+i!;INS;1
+ībõd vȯnnõ;INS;1
+lkõks;INS;2
+ȯļtõ;INS;2
+tuļ;INS;1
+iļmšti;INS;1
+tīn;INS;1
+gõn;INS;2
+äb ūo;INS;2
+touvs;INS;1
+ulkstõ;INS;2
+polākõ;INS;1
+ŗõn;INS;1
+t līnõ;INS;2
+ädūdõn;INS;1
+nkst;INS;2
+ūdõn;INS;1
+ȯn;INS;1
+rstõ;INS;1
+ȯlmõt;INS;1
+äddõ;INS;1
+ŗis;INS;2
+ouviž;INS;1
+apstõn;INS;1
+ouvõdõks;INS;1
+m ;INS;1
+ndkõks;INS;1
+apstā;INS;1
+rōntõ;INS;1
+ouvõdõn;INS;1
+õ;DEL;121
+kõ;DEL;14
+uoŗ;DEL;8
+z;DEL;664
+a;DEL;104
+nā;DEL;43
+dõ;DEL;66
+ǟdõ;DEL;14
+ȱ;DEL;5
+äpš;DEL;20
+ǟva;DEL;44
+ānd;DEL;74
+īez;DEL;15
+ūlda;DEL;42
+ā;DEL;44
+ļ;DEL;20
+ŗ;DEL;18
+ȱlda;DEL;30
+ǟd;DEL;19
+l;DEL;38
+ņ;DEL;1
+š;DEL;1
+ȯis;DEL;4
+ǟ;DEL;13
 õd;DEL;1
-e;DEL;1
-dõ;DEL;1
+tū;DEL;14
+li;DEL;17
+d;DEL;62
+vȱ;DEL;17
+lõ;DEL;37
+ō;DEL;4
+tūld;DEL;8
+ōvaz;DEL;13
+õz;DEL;7
+ū;DEL;16
+i;DEL;8
+īe;DEL;8
+ōva;DEL;1
+ȱl;DEL;4
+ež;DEL;11
+da;DEL;6
+ä;DEL;15
+u;DEL;1
+k;DEL;4
+lā;DEL;4
+ȭka;DEL;2
+zā;DEL;1
+ī;DEL;10
+vȱlda;DEL;14
+ȯ;DEL;3
+īlma;DEL;3
+vȱld;DEL;7
+n;DEL;2
+r;DEL;8
+ņtš;DEL;11
+ȭ;DEL;2
+āit;DEL;2
+vȱl;DEL;1
+e;DEL;3
+s;DEL;1
+ūl;DEL;4
+ūoga;DEL;6
+ǟma;DEL;2
+ntsa;DEL;1

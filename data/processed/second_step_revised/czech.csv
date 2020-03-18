@@ -1,76 +1,187 @@
 String;Operation type;Occurrences
-‎;INS;9
-ého;INS;35
-l;INS;179
-o;INS;76
- ;INS;226
-b;INS;176
-y;INS;262
-c;INS;72
-h;INS;56
-a;INS;59
-al;INS;18
-li;INS;15
-m;INS;86
-lo;INS;14
-i;INS;85
-é;INS;102
-u;INS;84
-j;INS;90
-e;INS;153
-á;INS;70
-n;INS;22
-ému;INS;20
-ou;INS;18
-ém;INS;17
-d;INS;18
-š;INS;14
-í;INS;69
-mi;INS;32
-em;INS;13
-ů;INS;15
-ly;INS;28
-s;INS;92
-t;INS;27
-ch;INS;20
-v;INS;22
-ům;INS;13
-ř;INS;5
-č;INS;3
-ě;INS;9
-r;INS;1
-ň;INS;1
-ď;INS;1
-ý;DEL;228
-t;DEL;195
-ov;DEL;8
-a;DEL;101
-e;DEL;38
-á;DEL;8
-ovat;DEL;22
-at;DEL;16
-k;DEL;10
-o;DEL;12
-r;DEL;4
-u;DEL;1
-c;DEL;4
-ký;DEL;5
-i;DEL;7
-kt;DEL;2
-p;DEL;2
-d;DEL;1
-v;DEL;2
-ř;DEL;1
-h;DEL;1
-y;DEL;1
+y;INS;695
+byli by ;INS;25
+li;INS;137
+ích;INS;42
+j;INS;78
+í;INS;252
+c;INS;60
+ému;INS;175
+ch;INS;231
+ou;INS;169
+u;INS;364
+lo js;INS;24
+e;INS;781
+bylo bys ;INS;20
+lo;INS;135
+m;INS;388
+ého;INS;256
+á;INS;477
+é;INS;1132
+l bych;INS;23
+al;INS;298
+lo bys;INS;62
+em;INS;103
+ách;INS;61
+budou ;INS;27
+ovi;INS;31
+budeme ;INS;30
+l;INS;331
+la by;INS;51
+ě;INS;114
+ů;INS;95
+án;INS;78
+ští;INS;22
+budeš ;INS;34
+li bychom;INS;31
+cích;INS;30
+i;INS;302
+la bychom;INS;32
+a;INS;214
+v;INS;57
+ř;INS;28
+byli byste ;INS;21
+ho;INS;44
+ech;INS;91
+ém;INS;156
+áni;INS;26
+ují;INS;17
+li by;INS;23
+ly;INS;217
+byla bychom ;INS;32
+uj;INS;50
+ly jsme;INS;21
+l bys;INS;54
+ci;INS;15
+ám;INS;82
+ly bys;INS;21
+mu;INS;37
+budu ;INS;35
+byla bych ;INS;28
+byl bys ;INS;28
+čtí;INS;47
+la jsem;INS;23
+byly bychom ;INS;26
+byly byste ;INS;28
+vši;INS;38
+bylo by ;INS;21
+mi;INS;182
+n;INS;43
+o;INS;131
+la bys;INS;81
+ání;INS;21
+byl by ;INS;34
+ujíc;INS;20
+ům;INS;115
+budete ;INS;54
+byla bys ;INS;27
+uješ;INS;18
+bylo byste ;INS;21
+la jsme;INS;29
+l jsem;INS;46
+byla by ;INS;50
+ujme;INS;16
+byly by ;INS;59
+ly js;INS;27
+byl bych ;INS;31
+ce;INS;58
+lo bych;INS;23
+ující;INS;19
+b;INS;52
+ ;INS;84
+s;INS;50
+r;INS;13
+t;INS;61
+la js;INS;42
+ň;INS;4
+ly by;INS;53
+la bych;INS;15
+li js;INS;39
+li bys;INS;24
+l js;INS;24
+ím;INS;27
+uje;INS;54
+bude ;INS;22
+z;INS;12
+lo jsi;INS;29
+lo by;INS;32
+il;INS;20
+š;INS;39
+lo jsem;INS;28
+il js;INS;14
+li jsme;INS;44
+byl byste ;INS;20
+vše;INS;24
+byla byste ;INS;56
+ujíce;INS;38
+h;INS;26
+‎;INS;35
+ly bychom;INS;36
+byli bychom ;INS;27
+ď;INS;4
+uji;INS;18
+ány;INS;43
+ej;INS;14
+l by;INS;25
+áno;INS;19
+bylo bych ;INS;30
+la jsi;INS;21
+l jsi;INS;27
+ujeme;INS;25
+d;INS;19
+ý;INS;8
+p;INS;2
+g;INS;2
+č;INS;6
+ť;INS;3
+ž;INS;2
+a;DEL;882
+t;DEL;1951
+e;DEL;312
+ý;DEL;2360
+o;DEL;164
+m;DEL;18
+ský;DEL;22
+k;DEL;50
+u;DEL;21
+i;DEL;21
+v;DEL;8
+at;DEL;155
+ovat;DEL;180
+ova;DEL;60
+cký;DEL;47
+r;DEL;17
+tí;DEL;11
+ít;DEL;18
+it;DEL;28
+ka;DEL;57
+ň;DEL;8
+p;DEL;18
+c;DEL;23
+h;DEL;23
+d;DEL;13
+n;DEL;7
+ě;DEL;25
+y;DEL;6
+eň;DEL;11
+z;DEL;14
+jít;DEL;13
+ů;DEL;13
+tova;DEL;30
+ís;DEL;24
+s;DEL;19
+á;DEL;28
+át;DEL;27
+í;DEL;19
+ť;DEL;12
+ek;DEL;11
+é;DEL;17
+st;DEL;6
+ď;DEL;3
+g;DEL;5
+ra;DEL;12
+zo;DEL;7
+j;DEL;5
+š;DEL;2
 č;DEL;1
-s;DEL;5
-ě;DEL;5
-ova;DEL;3
-í;DEL;2
-ís;DEL;2
-ť;DEL;3
-ň;DEL;3
-n;DEL;1
-l;DEL;1
-m;DEL;1
+l;DEL;3

@@ -1,202 +1,513 @@
 String;Operation type;Occurrences
-pre;INS;1
-ent;INS;1
-a ;INS;141
-i;INS;99
-h;INS;176
-a;INS;81
-an ;INS;96
-leis an ;INS;38
-anna;INS;13
-na ;INS;60
-ithe;INS;9
-aram;INS;1
-óf;INS;2
-r;INS;2
-an t-;INS;9
-anach;INS;1
-d';INS;27
- mé;INS;7
-ig;INS;19
-í;INS;88
-go n-;INS;9
-í s;INS;5
-ad;INS;4
-leis an m;INS;10
-óinn;INS;1
-adh;INS;3
-nna;INS;5
-ím;INS;19
-s;INS;8
-leis na ;INS;32
-aí;INS;12
-ód;INS;4
-e;INS;23
-acha;INS;7
-faidh mé;INS;2
-t;INS;9
-go d;INS;9
-e mé;INS;1
-ítear;INS;6
-íod;INS;10
-mis;INS;1
-aithe;INS;4
-idís;INS;4
-leis an b;INS;4
-ann;INS;5
-a mé;INS;2
-ídís;INS;8
-dá m;INS;3
- sé;INS;16
-faí;INS;1
-a d';INS;1
-go ;INS;5
-d;INS;14
-dá ;INS;7
-íteá;INS;5
-go m;INS;3
-aímid;INS;1
-aidís;INS;1
-hfadh sib;INS;1
-feadh sé;INS;1
-dá g;INS;4
-inn;INS;2
-eanna;INS;7
-leis an bh;INS;8
- tú;INS;10
-h sib;INS;4
-dá n-;INS;3
-adh sibh;INS;3
- siad;INS;6
-ítí;INS;3
-go g;INS;2
-e sibh;INS;1
-í sé;INS;4
-í tú;INS;3
-faidís;INS;1
-íonn;INS;3
-na h;INS;12
-nín;INS;2
-íodh s;INS;4
-b;INS;11
-ódh sib;INS;1
-fa;INS;1
-eo;INS;2
-leis an g;INS;7
-imeo;INS;1
-o;INS;2
-óimis;INS;1
-leis na h;INS;8
-faidh;INS;1
-ta;INS;3
-ha sib;INS;1
-aim;INS;2
-go n;INS;4
-a siad;INS;3
-eofá;INS;2
-faidh tú;INS;1
-eodh s;INS;1
-íodh sé;INS;1
-dá bh;INS;2
-óid;INS;3
-leis an n;INS;2
-ea;INS;3
-aí tú;INS;1
-dhea;INS;1
-is;INS;1
-hreac;INS;1
-faidh siad;INS;1
-eacha;INS;3
-uithe;INS;2
-ígí;INS;3
-adh sé;INS;4
-ann tú;INS;2
-e tú;INS;1
-go b;INS;2
-íonn s;INS;2
-imid;INS;1
-far;INS;2
-e s;INS;1
-bh;INS;1
-an t;INS;4
-síonn ;INS;1
-n ;INS;1
-ll;INS;1
-é;INS;1
-fimid;INS;1
-raíte;INS;1
-head;INS;1
-e siad;INS;1
-ífear;INS;1
-fainn;INS;2
-dá b;INS;1
-íomar;INS;3
-dóimi;INS;1
-íonn sé;INS;3
-ínn;INS;1
-the;INS;1
+ídís;INS;77
+an ;INS;899
+i;INS;1133
+na h;INS;135
+e;INS;269
+eanna;INS;91
+ig;INS;315
+leis an t;INS;12
+eo;INS;50
+d;INS;116
+ mé;INS;62
+h;INS;1641
+ tú;INS;72
+í;INS;798
+a ;INS;1292
+a;INS;740
+dá d;INS;22
+na ;INS;555
+leis na ;INS;351
+faimid;INS;11
+leis an g;INS;84
+hiocf;INS;1
+ígí;INS;24
+leis an ;INS;405
+íonn sé;INS;27
+eann sibh;INS;4
+d';INS;283
+ sibh;INS;12
+ithe;INS;110
+eadh sé;INS;14
+aí;INS;137
+dá n;INS;39
+ínn;INS;41
+go d;INS;14
+ítear;INS;58
+an t;INS;36
+seoidh ;INS;3
+b;INS;96
+leis an n;INS;31
+t;INS;70
+eacha;INS;37
+íonn tú;INS;22
+go g;INS;36
+dá n-;INS;61
+íteá;INS;44
+eoim;INS;19
+s;INS;75
+tar;INS;17
+anna;INS;99
+dá ;INS;55
+leis an bh;INS;54
+thag;INS;1
+í tú;INS;19
+an t-;INS;86
+ú;INS;24
+eagfaim;INS;1
+óinn;INS;8
+ siad;INS;51
+tá;INS;19
+aim;INS;21
+mar;INS;3
+ód;INS;27
+ sé;INS;140
+ím;INS;156
+óid;INS;50
+íod;INS;89
+eodh s;INS;8
+dá g;INS;45
+taí;INS;16
+a d';INS;42
+fadh;INS;5
+faidh tú;INS;13
+leis an m;INS;68
+imis;INS;15
+o;INS;9
+ta;INS;43
+ar;INS;4
+óf;INS;18
+aimis;INS;22
+eod;INS;17
+ach;INS;21
+í s;INS;43
+ad;INS;59
+go ;INS;57
+í sé;INS;26
+go n-;INS;57
+a tú;INS;7
+leis na h;INS;102
+adh;INS;22
+aithe;INS;21
+faidh;INS;9
+imid;INS;8
+amar;INS;9
+h sib;INS;26
+nn;INS;15
+hnín;INS;1
+fidh sé;INS;7
+í mé;INS;12
+faidís;INS;8
 hi;INS;1
-dá d;INS;2
-te;INS;3
-go bh;INS;1
-tar;INS;3
-faim;INS;1
-dói;INS;1
-eod;INS;2
-ann sé;INS;1
-nn tú;INS;1
-is ;INS;2
-aídís;INS;1
-th;INS;2
-aethanta;INS;1
+the;INS;23
+aidís;INS;33
+go n;INS;29
+eamar;INS;7
+íonn s;INS;35
+te;INS;15
+iocf;INS;2
+present;INS;3
+dá bh;INS;32
+fá;INS;6
+íodh s;INS;39
+ann siad;INS;11
+e sé;INS;8
+níos ;INS;24
+teá;INS;15
+go bh;INS;24
+go m;INS;27
+nní;INS;2
+eodh sé;INS;3
+nóin;INS;3
+nn s;INS;3
+fí;INS;4
+aím;INS;6
+faí;INS;7
+ítí;INS;46
+adh sé;INS;27
+is ;INS;17
+dís;INS;18
+ann tú;INS;5
+ún;INS;1
+tear;INS;17
+mí;INS;3
+tha;INS;10
+uithe;INS;17
+dá b;INS;11
+acha;INS;23
+leis an b;INS;22
+hrac;INS;4
+faidh mé;INS;11
+ainn;INS;22
+faidh sé;INS;5
+hua;INS;3
+óidís;INS;16
+sídí;INS;2
+th;INS;21
+óidh sibh;INS;2
+saimi;INS;3
+an;INS;4
+f;INS;2
+aimid;INS;13
+ an gc;INS;1
+fimis;INS;6
+íonn;INS;13
+idh sé;INS;1
+a siad;INS;8
+ann;INS;24
+íodh;INS;3
+tí;INS;21
+ríoma;INS;3
+dá m;INS;14
 aíodh sé;INS;1
-ófar;INS;1
-fadh sé;INS;1
-amar;INS;2
-óidh si;INS;1
-fadh;INS;1
-dá n;INS;1
-aíodh sibh;INS;1
-a sibh;INS;1
-faidh s;INS;2
-ainn;INS;1
-aím;INS;1
-hc;INS;1
-tá;INS;1
-eofaí;INS;1
-faimid;INS;1
-fidh tú;INS;2
-teá;INS;1
-feadh sibh;INS;1
-ach;INS;1
-fidh siad;INS;1
-n;INS;1
+e siad;INS;4
+neacha;INS;2
+feadh sibh;INS;3
+fadh sibh;INS;3
+eadh sibh;INS;9
+nn sé;INS;3
+aíodh;INS;2
+nfin;INS;1
+bhfadh si;INS;1
+óidh siad;INS;2
+a sé;INS;9
+sí ;INS;1
+hfid;INS;1
+faidh siad;INS;6
+go b;INS;10
+ra;INS;3
+adh sibh;INS;17
+a sibh;INS;8
+ann sibh;INS;9
+éan gé;INS;1
+íomar;INS;23
+óimis;INS;11
+hann sib;INS;3
+im;INS;10
+e mé;INS;4
+íodh sibh;INS;2
+óimid;INS;11
+fear;INS;5
+dói;INS;8
+faimis;INS;8
+ófá;INS;23
+hfad;INS;2
+onna;INS;4
+fidh tú;INS;7
+g;INS;7
+pre;INS;1
+en;INS;1
+in;INS;4
+íf;INS;3
+ao;INS;6
 ear;INS;1
-ha;INS;1
-bri;DEL;1
-í;DEL;9
-igh;DEL;50
-c;DEL;16
-ch;DEL;4
-gh;DEL;23
-ai;DEL;7
-a;DEL;12
-aig;DEL;9
-i;DEL;30
-dh;DEL;6
-hig;DEL;2
+e tú;INS;4
+eofaí;INS;5
+dío;INS;1
+rítea;INS;6
+fainn;INS;6
+óidh sib;INS;13
+a mé;INS;10
+fimid;INS;3
+aítí;INS;3
+thach;INS;2
+á;INS;5
+c;INS;2
+fad;INS;5
+il;INS;2
+hadh sib;INS;4
+ea;INS;13
+fadh sé;INS;11
+eofá;INS;8
+aíonn sibh;INS;3
+reofa;INS;6
+hreac;INS;4
+inn;INS;11
+eoidh s;INS;7
+n;INS;5
+feadh;INS;5
+ne;INS;1
+eoidh mé;INS;1
+na d;INS;1
+úfaí;INS;1
+idim;INS;1
+ímis;INS;4
+dh s;INS;2
+reach;INS;1
+eofar;INS;5
+faidh sibh;INS;9
+aínn;INS;5
+ d';INS;1
+íocha;INS;1
+feá;INS;7
+finn;INS;4
+aigí;INS;4
+íodh sé;INS;3
+nín;INS;3
+osa;INS;1
+he;INS;1
+Singu;INS;2
+ódh sib;INS;11
+e sibh;INS;6
+m;INS;2
+ bhéi;INS;1
+asf;INS;2
+dh ;INS;1
+iad;INS;1
+eoidh siad;INS;1
+fidh siad;INS;4
+each;INS;2
+Singular;INS;1
+éa;INS;4
+art;INS;2
+eodh;INS;1
+óidh si;INS;7
+aíonn;INS;2
+r;INS;7
+far;INS;7
+seodh ;INS;1
+rfea;INS;1
+ífim;INS;2
+aí sibh;INS;2
+é;INS;6
+bh si;INS;1
+chra;INS;2
+mid;INS;4
+rófa;INS;1
+hc;INS;1
+eoimid;INS;3
+pc;INS;1
+eoimis;INS;2
+had;INS;4
+fa;INS;5
+í siad;INS;2
+nna;INS;31
+fid;INS;2
+áilte;INS;1
+eá;INS;2
+eann siad;INS;7
+eann;INS;3
+idís;INS;13
+sann;INS;1
+ith;INS;1
+anta;INS;1
+is;INS;1
+eoidís;INS;2
+af;INS;4
+igí;INS;6
+nea;INS;1
+fidh sibh;INS;5
+bha si;INS;1
+óidh sé;INS;1
+aímid;INS;2
+ó;INS;3
+ha;INS;4
+raíte;INS;1
+ann sé;INS;4
+achtáil;INS;1
+nnói;INS;1
+aíodh sibh;INS;1
+ófar;INS;2
+ tháinig;INS;1
+eann sé;INS;3
+aídís;INS;4
+hnífin;INS;1
+atastróifea;INS;1
+p;INS;1
+eadh;INS;11
+áf;INS;2
+ite;INS;5
+ímid;INS;1
+artha;INS;1
+resent;INS;1
+fidh mé;INS;4
+ífead;INS;2
+adann si;INS;1
+idí;INS;1
+feadh sé;INS;5
+ódh sé;INS;1
+ s;INS;4
+gadh;INS;1
+aí sé;INS;1
+níon;INS;1
+hfaid;INS;4
+aíonn sé;INS;2
+aíteá;INS;2
+síonn ;INS;2
+rese;INS;1
+de sia;INS;1
+eoidh sé;INS;2
+fead;INS;1
+hfadh sib;INS;1
+hneac;INS;1
+bhann si;INS;1
+ha sib;INS;2
+ocha;INS;3
+a dhlío;INS;1
+hea;INS;2
+sóimi;INS;1
+íonn sibh;INS;1
+fidh;INS;4
+nain;INS;2
+a vallait;INS;1
+fadh s;INS;2
+an vallait;INS;1
+dóimi;INS;1
+atastróife;INS;1
+nn tú;INS;1
+hlac;INS;2
+pach;INS;2
+anach;INS;1
+faimíd;INS;1
+aíonn siad;INS;1
+as;INS;1
+dí;INS;2
+meoi;INS;3
+mis;INS;4
+ódh;INS;1
+gi;INS;1
+óim;INS;1
+fidís;INS;2
+oi;INS;1
+gadh sé;INS;1
+hiocfá;INS;1
+eoidh tú;INS;1
+í sibh;INS;2
+uífimis;INS;1
+na cir;INS;1
+eann tú;INS;2
+ófaí;INS;1
+aímis;INS;1
+aethanta;INS;1
+Singula;INS;1
+nnío;INS;1
+l;INS;1
+s na hea;INS;1
+nífí;INS;1
+faim;INS;3
+óidh;INS;1
+bhadh si;INS;1
+eann s;INS;1
+Singul;INS;1
+aígí;INS;1
+faidh s;INS;1
+áil;INS;1
+han;INS;1
+ífinn;INS;1
+aí tú;INS;1
+ífidh s;INS;1
+athann;INS;2
+o ní tú;INS;1
+dh;INS;1
+eam;INS;1
+thi;INS;1
+eana;INS;1
+thaí;INS;1
+eanta;INS;1
+aíomar;INS;1
+ean;INS;1
+ nei;INS;1
+hfaidh sib;INS;1
+na ti;INS;1
+rfa;INS;1
+gtá;INS;1
+leis n;INS;1
+ ;INS;1
+Plural;INS;1
+hfead;INS;1
+eoinn;INS;1
+igh;DEL;550
+c;DEL;230
+g;DEL;172
+ch;DEL;34
+eac;DEL;83
+r;DEL;9
+í;DEL;108
+e;DEL;138
+i;DEL;338
+t;DEL;5
+a;DEL;103
+gh;DEL;254
+dh;DEL;38
+aigh;DEL;74
+aig;DEL;107
+gai;DEL;1
+ig;DEL;124
+h;DEL;28
 gi;DEL;1
-h;DEL;3
-ú;DEL;7
-ig;DEL;12
-e;DEL;15
-ea;DEL;11
-g;DEL;19
-aigh;DEL;2
-io;DEL;1
-ir;DEL;1
-m;DEL;1
-le;DEL;1
-ia;DEL;1
-eac;DEL;3
+ea;DEL;98
+ú;DEL;52
+ai;DEL;60
+d;DEL;5
+amh;DEL;3
+fásáil;DEL;1
+o;DEL;12
+im;DEL;5
+mh;DEL;2
+ois;DEL;1
+haig;DEL;10
+in;DEL;1
+cei;DEL;1
+adh;DEL;7
+deireadh seachtaine;DEL;1
+l;DEL;3
+oc;DEL;7
+fo;DEL;1
+ríoc;DEL;1
+an;DEL;2
+u;DEL;6
+ó;DEL;2
+oi;DEL;4
+hig;DEL;9
+ainn;DEL;2
+heac;DEL;1
+ir;DEL;9
+úig;DEL;1
+ean;DEL;4
+och;DEL;2
+bea;DEL;1
+bé;DEL;1
+bogha báistí;DEL;1
+ui;DEL;2
+ei;DEL;3
+each;DEL;11
+n;DEL;1
+ta;DEL;1
+bid;DEL;1
+cea;DEL;4
+s;DEL;1
+ach;DEL;2
+acht;DEL;1
+b;DEL;4
+eá;DEL;2
+m;DEL;2
+al;DEL;1
+éi;DEL;1
+eáil;DEL;1
+inn;DEL;1
+io;DEL;3
+ail;DEL;1
+lig;DEL;1
+il;DEL;1
+ capaill;DEL;1
+béic;DEL;1
+ar;DEL;1
+uig;DEL;1
+arc;DEL;1
 á;DEL;1
+gánach;DEL;1
+nig;DEL;1
+íoslódáil;DEL;1
+ill;DEL;1
+tuam;DEL;1
+idh;DEL;1
+eadh;DEL;1
+ ;DEL;1
+ni;DEL;1
+bh;DEL;1
+int;DEL;1
+ead;DEL;1
+iú;DEL;1
+uin;DEL;1
+fiche;DEL;1
+reacht;DEL;1

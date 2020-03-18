@@ -1,65 +1,245 @@
 String;Operation type;Occurrences
-s;INS;275
-i;INS;296
-n;INS;128
-d;INS;203
-e;INS;496
-l;INS;214
-t;INS;346
-k;INS;124
-a;INS;186
-v;INS;60
-o;INS;106
- ;INS;128
-nud;INS;118
-ei ;INS;36
-ks;INS;22
-ei olnud ;INS;13
-tudp;INS;20
-ärgu ;INS;17
-u;INS;81
-sid;INS;21
-gu;INS;20
-ei ole ;INS;17
-nudp;INS;21
-on ;INS;18
-oleksime ;INS;12
-ä;INS;13
-r;INS;21
-g;INS;58
-m;INS;13
-ärgu olgu ;INS;17
-te;INS;21
-p;INS;7
-olgu ;INS;28
-st;INS;14
-tud;INS;25
-id;INS;16
-b;INS;6
-de;INS;12
-j;INS;1
-ö;INS;2
-h;INS;2
-õ;INS;2
-ära ;INS;11
-am;DEL;160
-n;DEL;25
-s;DEL;16
-ma;DEL;209
-d;DEL;10
-e;DEL;44
-m;DEL;75
-g;DEL;14
-p;DEL;6
-i;DEL;12
-a;DEL;41
-l;DEL;3
-ema;DEL;7
-k;DEL;17
-u;DEL;6
-t;DEL;10
-oo;DEL;2
-r;DEL;10
-ima;DEL;2
-dm;DEL;2
-b;DEL;3
+sin;INS;49
+i;INS;453
+sid;INS;110
+olgu ;INS;186
+tud;INS;313
+iks;INS;62
+des;INS;56
+tes;INS;19
+d;INS;615
+desse;INS;61
+ärgu olgu ;INS;173
+nud;INS;1101
+ei ;INS;306
+ste;INS;56
+a;INS;335
+il;INS;46
+m;INS;66
+e;INS;825
+se;INS;72
+is;INS;72
+ana;INS;16
+s;INS;676
+riss;INS;13
+ära ;INS;53
+tesse;INS;36
+ei olnud ;INS;109
+tudp;INS;144
+atet;INS;11
+dele;INS;63
+ti;INS;28
+t;INS;992
+kse;INS;51
+ärgu ;INS;179
+ku;INS;68
+oli ;INS;113
+dud;INS;41
+teni;INS;41
+le;INS;52
+l;INS;295
+oleksid ;INS;55
+n;INS;268
+alt;INS;17
+id;INS;142
+asse;INS;13
+dest;INS;72
+v;INS;315
+tega;INS;28
+r;INS;52
+ile;INS;59
+b;INS;65
+tav;INS;79
+ksite;INS;42
+ärgem ;INS;55
+ke;INS;63
+ini;INS;50
+an;INS;14
+atesse;INS;11
+ite;INS;22
+eni;INS;22
+ksi;INS;43
+uteta;INS;11
+u;INS;267
+p;INS;68
+olevat ;INS;112
+tel;INS;28
+on ;INS;178
+ei olevat ;INS;109
+nudp;INS;214
+test;INS;28
+na;INS;35
+k;INS;135
+ele;INS;19
+iteks;INS;36
+ad;INS;37
+ena;INS;21
+ta;INS;70
+gu;INS;253
+ag;INS;13
+olite ;INS;69
+olin ;INS;63
+ks;INS;225
+oleksime ;INS;61
+g;INS;112
+itega;INS;27
+dnu;INS;49
+site;INS;43
+ksid;INS;113
+ilt;INS;52
+ga;INS;71
+ut;INS;14
+oleme ;INS;62
+ast;INS;16
+olete ;INS;56
+ita;INS;45
+olid ;INS;63
+et;INS;30
+teta;INS;18
+ites;INS;31
+ni;INS;48
+itesse;INS;18
+gi;INS;11
+sel;INS;23
+o;INS;55
+deni;INS;65
+itelt;INS;34
+deta;INS;54
+iteta;INS;28
+as;INS;18
+st;INS;231
+uid;INS;11
+ei ole ;INS;98
+j;INS;14
+elt;INS;22
+telt;INS;47
+ei oleks ;INS;123
+oled ;INS;51
+de;INS;101
+ud;INS;67
+lt;INS;80
+sse;INS;32
+deks;INS;61
+isse;INS;18
+ates;INS;13
+oleksite ;INS;59
+h;INS;31
+ärge ;INS;55
+olen ;INS;47
+aden;INS;13
+oleksin ;INS;54
+te;INS;115
+ule;INS;16
+stel;INS;17
+uteni;INS;18
+si;INS;55
+ani;INS;18
+eid;INS;36
+del;INS;58
+at;INS;38
+dega;INS;61
+stek;INS;17
+iga;INS;50
+atel;INS;11
+tele;INS;36
+delt;INS;68
+ate;INS;11
+utes;INS;12
+ateta;INS;20
+ist;INS;71
+iteni;INS;29
+ed;INS;60
+ina;INS;55
+ge;INS;147
+itest;INS;31
+tena;INS;33
+aid;INS;20
+dena;INS;60
+ ;INS;31
+ä;INS;19
+ega;INS;23
+el;INS;29
+aks;INS;16
+atelt;INS;11
+it;INS;42
+est;INS;25
+etud;INS;17
+utesse;INS;16
+udp;INS;13
+ute;INS;18
+ult;INS;13
+oleks ;INS;61
+eta;INS;32
+ul;INS;11
+adet;INS;12
+atena;INS;17
+stess;INS;13
+utele;INS;12
+al;INS;12
+ug;INS;18
+lit;INS;15
+aga;INS;11
+itel;INS;23
+dudp;INS;16
+ksin;INS;56
+sek;INS;21
+una;INS;11
+inud;INS;11
+nanu;INS;13
+adeg;INS;12
+ale;INS;14
+õ;INS;11
+ss;INS;17
+uni;INS;11
+ö;INS;6
+ata;INS;18
+netu;INS;12
+itena;INS;20
+utelt;INS;12
+usse;INS;12
+atega;INS;18
+uta;INS;11
+ust;INS;12
+ü;INS;2
+ma;DEL;1733
+kam;DEL;67
+am;DEL;1373
+e;DEL;358
+m;DEL;649
+r;DEL;47
+ema;DEL;89
+dam;DEL;21
+s;DEL;144
+a;DEL;316
+tm;DEL;42
+n;DEL;424
+pam;DEL;11
+ne;DEL;35
+l;DEL;35
+g;DEL;50
+ima;DEL;13
+u;DEL;54
+i;DEL;69
+gam;DEL;13
+k;DEL;50
+ä;DEL;1
+si;DEL;21
+gema;DEL;28
+dm;DEL;35
+p;DEL;19
+t;DEL;20
+tam;DEL;45
+em;DEL;19
+d;DEL;38
+lema;DEL;13
+b;DEL;7
+ba;DEL;13
+ub;DEL;11
+ama;DEL;30
+pe;DEL;12
+kima;DEL;24
+ke;DEL;14
+o;DEL;8
+im;DEL;10
+ö;DEL;7
+v;DEL;1
