@@ -1,7 +1,17 @@
 import csv
 from statistics import mean, stdev
-from typing import List, Tuple
+from typing import List, Tuple, Collection
 import editdistance
+
+from precondition_interpreter import Prediction
+
+
+def save_predictions(prediction_file_path: str, predictions: Collection[Prediction]):
+    with open(prediction_file_path, mode="w+") as file:
+        writer = csv.writer(file, delimiter=";")
+        writer.writerow(["Base", "Prediction", "Actual"])
+        for prediction in predictions:
+            writer.writerow([prediction.word, prediction.prediction, prediction.actual])
 
 
 def _read_predictions_and_actual_words(prediction_file: str) -> List[Tuple[str, str, str]]:
@@ -12,6 +22,7 @@ def _read_predictions_and_actual_words(prediction_file: str) -> List[Tuple[str, 
         for row in r:
             res.append((row[0], row[1], row[2]))
     return res
+
 
 def _read_lemma_and_inflection(lemma_inf_file: str, delimiter="\t") -> List[Tuple[str, str]]:
     res = []
@@ -41,14 +52,12 @@ def format_and_save_sigmorphon_predictions(sigmorphon_file: str, data_file: str,
     _save_predictions(predictions, output_file)
 
 
-def _save_predictions(predictions: List[Tuple[str,str,str]], output_file: str):
+def _save_predictions(predictions: List[Tuple[str, str, str]], output_file: str):
     with open(output_file, mode='w+') as file:
         writer = csv.writer(file, delimiter=';', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         writer.writerow(["Word", "Prediction", "Actual"])
         for prediction in predictions:
             writer.writerow(prediction)
-
-
 
 
 def calculate_average_cost(word_cost_file: str) -> float:
@@ -67,6 +76,7 @@ def _save_cost_baseline(words_and_cost: List[Tuple[str, str]], output_file: str)
         writer.writerow(["Word", "Cost"])
         for word_and_cost in words_and_cost:
             writer.writerow(word_and_cost)
+
 
 def get_means_and_stdev_for_language(data_file: str) -> Tuple[float, float]:
     lemma_inflections = _read_lemma_and_inflection(data_file)

@@ -5,7 +5,9 @@ from functools import partial
 from context_matrix import create_and_save_context_matrix, load_context_matrix, \
     rewrite_context_matrix_to_concept_lib_format, \
     create_grammar_context_matrix_for_concept_lib_format
-from main import process_data_file, write_alphabet
+from main import process_data_file, write_alphabet, read_base_and_expected_words
+from precondition_interpreter import run_predictions, Prediction
+from mln_file_generator import read_mln_file
 import pandas as pd
 import operation_revisor as rev
 import baseline
@@ -62,7 +64,6 @@ def write_context_matrices():
         print(f"Finished work on {language}")
 
 
-
 def write_first_second_step_revision():
     directory_name = "data/processed"
     for filename in os.listdir(f"{directory_name}/subword"):
@@ -76,8 +77,6 @@ def write_first_second_step_revision():
         rev.revise_steps(subword_file, first_step_file, second_step_file, revised_first_step_file,
                          revised_second_step_file)
         print(f"Finished work on {language}")
-
-
 
 
 def rewrite_context_matrices():
@@ -103,7 +102,6 @@ def create_grammar_context_matrices():
         output_file = f"{directory_name}/grammar_context_matrix/{filename}"
         create_grammar_context_matrix_for_concept_lib_format(context_matrix_file, output_file)
         print(f"Finished work on {language}")
-
 
 
 def reformat_sigmorphon_predictions():
@@ -184,8 +182,48 @@ def compare_base_to_sigmorphon():
         print(f"Mean: {item[2][1]}, Stdev: {item[2][2]}")
 
 
+def compare_baselines(baseline_1_name: str, baseline_2_name: str):
+    base = _get_average_baseline_cost(baseline_1_name)
+    sig = _get_average_baseline_cost(baseline_2_name)
+    means_stdev = _get_mean_and_standard_devs_for_languages()
+    zipped = zip(base, sig, means_stdev)
+    for item in zipped:
+        print(f"Language: {item[0][0]}")
+        print(f"{baseline_1_name}: {item[0][1]} - {baseline_2_name}: {item[1][1]} ")
+        print(f"Mean: {item[2][1]}, Stdev: {item[2][2]}")
 
 
+def _generate_no_op_baseline(language: str):
+    base_and_expected = read_base_and_expected_words(
+        f"data/processed/first_step_revised/{language}.csv"
+    )
+    predictions = [Prediction(base, base, expected) for base, expected in base_and_expected]
+    prediction_path = f"data/processed/predictions/no_op/{language}.csv"
+    baseline.save_predictions(prediction_path, predictions)
+    baseline.calculate_and_save_cost_baseline(prediction_path,
+                                              f"data/processed/predictions/no_op_cost/{language}.csv")
+
+
+def predict_language(language: str):
+    base_and_expected = read_base_and_expected_words(
+        f"data/processed/first_step_revised/{language}.csv")
+    mln_dir = "data/processed/mln"
+    weighted_preconditions = read_mln_file(
+        f"{mln_dir}/weighted/{language}.mln",
+        f"{mln_dir}/contexts/{language}.csv",
+        f"{mln_dir}/objects/{language}.csv",
+    )
+    predictions = run_predictions(base_and_expected, weighted_preconditions)
+    baseline.save_predictions(f"data/processed/predictions/mln_no_grammar/{language}.csv",
+                              predictions)
+
+
+def calculate_mln_no_grammar_cost_language(language: str):
+    baseline.calculate_and_save_cost_baseline(
+        f"data/processed/predictions/mln_no_grammar/{language}.csv",
+        f"data/processed/predictions/mln_no_grammar_cost/{language}.csv"
+
+    )
 
 # write_steps(True, True, True, True, True)
 # write_alphabets()
@@ -214,7 +252,11 @@ def compare_base_to_sigmorphon():
 # create_grammar_context_matrices()
 
 
-write_steps(True, True, True, True, True)
-write_first_second_step_revision()
-write_context_matrices()
-create_grammar_context_matrices()
+# write_steps(True, True, True, True, True)
+# write_first_second_step_revision()
+# write_context_matrices()
+# create_grammar_context_matrices()
+# predict_language("asturian")
+# _generate_no_op_baseline("asturian")
+# calculate_mln_no_grammar_cost_language("asturian")
+compare_baselines("mln_no_grammar_cost", "no_op_cost")

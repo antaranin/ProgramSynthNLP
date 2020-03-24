@@ -12,7 +12,7 @@ class JsonSerializable(abc.ABC):
         pass
 
     def to_json(self) -> json:
-        return json.dumps(self, default=lambda o: o.__dict__)
+        return json.dumps(self, default=lambda o: JsonSerializable._skip_underscore_dict(o))
 
     @classmethod
     def from_json(cls, json_str: str):
@@ -25,6 +25,11 @@ class JsonSerializable(abc.ABC):
     @abc.abstractmethod
     def __eq__(self, o: object) -> bool:
         pass
+
+    @staticmethod
+    def _skip_underscore_dict(o: object):
+        d = o.__dict__
+        return {k: v for k, v in d.items() if k[:1] != "_"}
 
 
 class Context(JsonSerializable):
@@ -118,6 +123,22 @@ class Operation(JsonSerializable):
         return self._hash
 
 
+class WeightedOperation:
+    weight: float
+    operation: Operation
+
+    def __init__(self, weight: float, operation: Operation) -> None:
+        super().__init__()
+        self.weight = weight
+        self.operation = operation
+
+    def __str__(self) -> str:
+        return f"{self.weight}, {self.operation}"
+
+    def __repr__(self) -> str:
+        return str(self)
+
+
 class WordAndOps(JsonSerializable):
     word: str
     objects_and_positions: Tuple[Tuple[OpObject, int], ...]
@@ -148,6 +169,22 @@ class WordAndOps(JsonSerializable):
         if not isinstance(other, WordAndOps):
             return False
         return self.objects_and_positions == other.objects_and_positions and self.word == other.word
+
+    def apply(self) -> str:
+        ops = sorted(self.objects_and_positions, key=lambda el: (el[1], el[0].operation == "DEL"))
+        added = 0
+        new_word = self.word
+        for op in ops:
+            operation, object = op[0].operation, op[0].operation_object
+            position = op[1] + added
+
+            if operation == "INS":
+                added += len(object)
+                new_word = new_word[:position] + object + new_word[position:]
+            elif new_word[position:position + len(object)] == object:
+                added -= len(object)
+                new_word = new_word[:position] + new_word[position + len(object):]
+        return new_word
 
 
 class WordAndApplicable:

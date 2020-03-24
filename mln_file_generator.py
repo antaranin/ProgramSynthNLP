@@ -1,7 +1,7 @@
 import csv
 import re
 from timeit import default_timer as timer
-from typing import Set
+from typing import Set, Dict, Optional
 
 import pandas as pd
 
@@ -34,6 +34,27 @@ def get_operations(operation_file_path: str) -> Collection[Operation]:
         return [Operation(Context(line[0], line[1]), OpObject(line[2], line[3])) for line in reader]
 
 
+def generate_key_files(
+        context_file_path: str,
+        object_file_path: str,
+        word_file_path: str,
+        combined_words: Collection[WordAndOps],
+        operations: Collection[Operation]
+):
+    contexts = set([op.contexts for op in operations])
+    context_binder = _bind_items(contexts)
+    print("Bound contexts")
+    all_objects = set([op.op_and_object for op in operations] + \
+                      [op[0] for word in combined_words for op in word.objects_and_positions])
+    object_binder = _bind_items(all_objects)
+    print("Bound objects")
+    word_binder = _bind_items(combined_words)
+    print("Bound words")
+    context_binder.to_csv(context_file_path)
+    object_binder.to_csv(object_file_path)
+    word_binder.to_csv(word_file_path)
+
+
 def generate_mln_files(
         precondition_file_path: str,
         evidence_file_path: str,
@@ -43,26 +64,20 @@ def generate_mln_files(
         combined_words: Collection[WordAndOps],
         operations: Collection[Operation]
 ):
-    context_binder = _bind_items([op.contexts for op in operations])
-    print("Bound contexts")
-    all_objects = [op.op_and_object for op in operations] + \
-                  [op[0] for word in combined_words for op in word.objects_and_positions]
-    object_binder = _bind_items(all_objects)
-    print("Bound objects")
-    word_binder = _bind_items(combined_words)
-    print("Bound words")
+    context_binder = KeyBinder.from_csv(context_file_path, Context)
+    object_binder = KeyBinder.from_csv(object_file_path, OpObject)
+    word_binder = KeyBinder.from_csv(word_file_path, WordAndOps)
+    print("Loaded binders")
+
     declarations = _generate_precondition_declarations()
     preconditions = _generate_preconditions(context_binder, object_binder, operations)
     print("Generated preconditions")
 
-    context_binder.to_csv(context_file_path)
-    object_binder.to_csv(object_file_path)
-    word_binder.to_csv(word_file_path)
-
     _save_mln_file(declarations, preconditions, precondition_file_path)
     del declarations, preconditions
+    unique_contexts = set([op.contexts for op in operations])
     evidence = _generate_evidence(context_binder, object_binder, word_binder, combined_words,
-                                  operations)
+                                  unique_contexts)
     print("Generated evidence")
 
     _save_db_file(evidence_file_path, evidence)
@@ -73,34 +88,38 @@ def _generate_evidence(
         object_binder: KeyBinder,
         word_binder: KeyBinder,
         combined_words: Collection[WordAndOps],
-        operations: Collection[Operation]
+        contexts: Collection[Context]
 ) -> Collection[Evidence]:
     evidences = []
     word_count = len(combined_words)
-    op_count = len(operations)
-    gen_count = word_count * op_count
+    context_count = len(contexts)
+    gen_count = word_count * context_count
     perc = gen_count / 100
     i = 0
-    print(f"Generating evidence from {word_count} words and {op_count} operations:")
+    print(f"Generating evidence from {word_count} words and {context_count} contexts:")
     for word in combined_words:
         print(f"Progress: {i / perc}%, total {gen_count}")
         object_evidence = _generate_object_evidence_for_word(object_binder, word_binder, word)
         evidences.extend(object_evidence)
-        start = timer()
-        for operation in operations:
+        for context in contexts:
             i += 1
             context_evidence = _generate_context_evidence_for_word(
                 context_binder,
                 word_binder,
                 word,
-                operation.contexts
+                context
             )
             if context_evidence is not None:
                 evidences.append(context_evidence)
-        end = timer()
-        print(f"Word took {end - start} seconds, there is {len(evidences)} now")
 
-    return evidences
+    print(f"Evidence count generated {len(evidences)}")
+    start = timer()
+    evidence_set = set(evidences)
+    end = timer()
+    print(f"Making evidence set took {end - start} seconds")
+    print(f"Removed repeating evidence, now there is: {len(evidence_set)}")
+
+    return evidence_set
 
 
 def _generate_evidence_for_word_and_operation(
@@ -195,6 +214,48 @@ def _bind_items(items: Collection[JsonSerializable]) -> KeyBinder:
     return binder
 
 
+def read_mln_file(
+        mln_path: str,
+        context_key_path: str,
+        object_key_path: str
+) -> Collection[WeightedOperation]:
+    context_binder = KeyBinder.from_csv(context_key_path, Context)
+    object_binder = KeyBinder.from_csv(object_key_path, OpObject)
+    ops = []
+    with open(mln_path) as file:
+        for line in file:
+            weighted_op = _mln_line_to_weighted_op(line, context_binder, object_binder)
+            if weighted_op is not None:
+                ops.append(weighted_op)
+    return ops
+
+
+def _extract_mln_line_values(line: str) -> Optional[Dict[str, str]]:
+    weight_pattern = r"(?P<weight>-?\d+(\.\d+)?)"
+    context_pattern = fr"{CONTEXT_FUNC}\(w,\s*(?P<context>\w+)\)"
+    object_pattern = fr"{OBJECT_FUNC}\(w,\s*(?P<object>\w+)\)"
+    combined_pattern = fr"{weight_pattern}\s+{context_pattern}\s+=>\s+{object_pattern}"
+    combined_match = re.match(combined_pattern, line)
+    if combined_match is None:
+        return None
+    return combined_match.groupdict()
+
+
+def _mln_line_to_weighted_op(
+        line: str,
+        context_binder: KeyBinder,
+        object_binder: KeyBinder
+) -> Optional[WeightedOperation]:
+    values = _extract_mln_line_values(line)
+    if values is None:
+        return None
+
+    context = context_binder.get_item(values["context"])
+    object = object_binder.get_item(values["object"])
+    weight = float(values["weight"])
+    return WeightedOperation(weight, Operation(context, object))
+
+
 # w = Operation(Context("pp", "y>"), OpObject("INS", "ill"))
 #
 # jsoninsed = json.dumps(w, default=lambda o: o.__dict__)
@@ -215,16 +276,33 @@ def _bind_items(items: Collection[JsonSerializable]) -> KeyBinder:
 #
 # print(Evidence(True, "AC", "Happy", "xx"))
 
-words_and_ops = get_words_and_ops("data/processed/first_step/asturian.csv")[:1000]
 mln_dir = "data/processed/mln"
-operations = get_operations(f"{mln_dir}/operations/asturian.csv")
+# words_and_ops = get_words_and_ops("data/processed/first_step/asturian.csv")
+# operations = get_operations(f"{mln_dir}/operations/asturian.csv")
 
-generate_mln_files(
-    f"{mln_dir}/precondition/asturian.mln",
-    f"{mln_dir}/evidence/asturian2.db",
-    f"{mln_dir}/contexts/asturian.csv",
-    f"{mln_dir}/objects/asturian.csv",
-    f"{mln_dir}/words/asturian.csv",
-    words_and_ops,
-    operations
-)
+# generate_key_files(
+#     f"{mln_dir}/contexts/asturian.csv",
+#     f"{mln_dir}/objects/asturian.csv",
+#     f"{mln_dir}/words/asturian.csv",
+#     words_and_ops,
+#     operations
+# )
+
+# generate_mln_files(
+#     f"{mln_dir}/precondition/asturian.mln",
+#     f"{mln_dir}/evidence/asturian.db",
+#     f"{mln_dir}/contexts/asturian.csv",
+#     f"{mln_dir}/objects/asturian.csv",
+#     f"{mln_dir}/words/asturian.csv",
+#     words_and_ops,
+#     operations[:1000]
+# )
+
+# ops = read_mln_file(
+#     f"{mln_dir}/weighted/asturian.mln",
+#     f"{mln_dir}/contexts/asturian.csv",
+#     f"{mln_dir}/objects/asturian.csv"
+# )
+#
+# for op in ops:
+#     print(op)

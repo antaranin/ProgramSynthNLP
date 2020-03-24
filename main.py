@@ -1,7 +1,7 @@
 import collections
 import csv
 import subprocess
-from typing import List, Tuple
+from typing import List, Tuple, Collection
 
 import more_itertools as mit
 import pandas as pd
@@ -11,6 +11,11 @@ import Bio.pairwise2 as pair
 from data_model import Transformation, Operation, Operations
 
 FREQUENCY_THRESHOLD = 10
+
+
+def read_base_and_expected_words(first_step_file_path: str) -> Collection[Tuple[str, str]]:
+    data = pd.read_csv(first_step_file_path, sep=";")
+    return data[["Source", "Target"]].values.tolist()
 
 
 def read_file_data(file_name: str) -> List[Transformation]:

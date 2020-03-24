@@ -1,3 +1,4 @@
+from __future__ import annotations
 import csv
 from typing import Dict, Tuple, List, TypeVar, Generic, Type
 from uuid import uuid4
@@ -40,7 +41,7 @@ class KeyBinder():
                 writer.writerow([key, item.to_json()])
 
     @classmethod
-    def from_csv(cls, csv_file_path: str, deserialization_type: Type[JsonSerializable]):
+    def from_csv(cls, csv_file_path: str, deserialization_type: Type[JsonSerializable]) -> KeyBinder:
         with open(csv_file_path) as file:
             reader = csv.reader(file, delimiter=";", quotechar="&", quoting=csv.QUOTE_MINIMAL)
             next(reader)
@@ -48,6 +49,7 @@ class KeyBinder():
             binder = KeyBinder()
             binder._reverse_binding = keys_and_items
             binder._binding = {item: key for key, item in keys_and_items.items()}
+        return binder
 
     @staticmethod
     def _gen_key() -> str:
