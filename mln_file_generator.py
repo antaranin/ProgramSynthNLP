@@ -41,7 +41,7 @@ def generate_key_files(
         combined_words: Collection[WordAndOps],
         operations: Collection[Operation]
 ):
-    contexts = set([op.contexts for op in operations])
+    contexts = set([WordContext(op.contexts, op.op_and_object.operation) for op in operations])
     context_binder = _bind_items(contexts)
     print("Bound contexts")
     all_objects = set([op.op_and_object for op in operations] + \
@@ -64,20 +64,25 @@ def generate_mln_files(
         combined_words: Collection[WordAndOps],
         operations: Collection[Operation]
 ):
-    context_binder = KeyBinder.from_csv(context_file_path, Context)
+    context_binder = KeyBinder.from_csv(context_file_path, WordContext)
     object_binder = KeyBinder.from_csv(object_file_path, OpObject)
     word_binder = KeyBinder.from_csv(word_file_path, WordAndOps)
     print("Loaded binders")
 
     declarations = _generate_precondition_declarations()
     preconditions = _generate_preconditions(context_binder, object_binder, operations)
-    print("Generated preconditions")
+    print(f"Generated preconditions, count: {len(preconditions)}")
 
     _save_mln_file(declarations, preconditions, precondition_file_path)
     del declarations, preconditions
-    unique_contexts = set([op.contexts for op in operations])
+    unique_contexts = set(
+        [WordContext(op.contexts, op.op_and_object.operation) for op in operations]
+    )
+    unique_objects = set(
+        [op.op_and_object for op in operations]
+    )
     evidence = _generate_evidence(context_binder, object_binder, word_binder, combined_words,
-                                  unique_contexts)
+                                  unique_objects, unique_contexts)
     print("Generated evidence")
 
     _save_db_file(evidence_file_path, evidence)
@@ -88,7 +93,8 @@ def _generate_evidence(
         object_binder: KeyBinder,
         word_binder: KeyBinder,
         combined_words: Collection[WordAndOps],
-        contexts: Collection[Context]
+        objects: Collection[OpObject],
+        contexts: Collection[WordContext]
 ) -> Collection[Evidence]:
     evidences = []
     word_count = len(combined_words)
@@ -99,8 +105,10 @@ def _generate_evidence(
     print(f"Generating evidence from {word_count} words and {context_count} contexts:")
     for word in combined_words:
         print(f"Progress: {i / perc}%, total {gen_count}")
-        object_evidence = _generate_object_evidence_for_word(object_binder, word_binder, word)
+        object_evidence = _generate_object_evidence_for_word(object_binder, word_binder, word,
+                                                             objects)
         evidences.extend(object_evidence)
+
         for context in contexts:
             i += 1
             context_evidence = _generate_context_evidence_for_word(
@@ -122,24 +130,6 @@ def _generate_evidence(
     return evidence_set
 
 
-def _generate_evidence_for_word_and_operation(
-        context_binder: KeyBinder,
-        object_binder: KeyBinder,
-        word_binder: KeyBinder,
-        word: WordAndOps,
-        operation: Operation,
-        set_to_update: Set[Evidence]
-) -> Collection[Evidence]:
-    context = operation.contexts
-    object = operation.op_and_object
-    _add_if_not_none(set_to_update,
-                     _generate_context_evidence_for_word(context_binder, word_binder, word,
-                                                         context))
-    _add_if_not_none(set_to_update,
-                     _generate_object_evidence_for_word(object_binder, word_binder, word, object))
-    return set_to_update
-
-
 def _add_if_not_none(coll: Set, item):
     if item is not None:
         coll.add(item)
@@ -149,10 +139,11 @@ def _generate_context_evidence_for_word(
         context_binder: KeyBinder,
         word_binder: KeyBinder,
         word: WordAndOps,
-        context: Context
+        context: WordContext
 ) -> Union[Evidence, None]:
-    if (context.left + context.right) not in word.word:
+    if not context.applies(word.word):
         return None
+    print(f"Evidence, word: {word.word}, context: {context}")
     word_key = word_binder.get_key(word)
     context_key = context_binder.get_key(context)
     return Evidence(True, CONTEXT_FUNC, word_key, context_key)
@@ -162,11 +153,13 @@ def _generate_object_evidence_for_word(
         object_binder: KeyBinder,
         word_binder: KeyBinder,
         word: WordAndOps,
+        objects: Collection[OpObject]
 ) -> Collection[Evidence]:
     word_key = word_binder.get_key(word)
+    word_objects = [o[0] for o in word.objects_and_positions]
     return [
-        Evidence(True, OBJECT_FUNC, word_key, object_binder.get_key(o[0]))
-        for o in word.objects_and_positions
+        Evidence(True, OBJECT_FUNC, word_key, object_binder.get_key(o))
+        for o in objects if o in word_objects
     ]
 
 
@@ -177,7 +170,8 @@ def _generate_preconditions(
 ) -> Collection[Precondition]:
     preconditions = []
     for op in operations:
-        context_func = Func(CONTEXT_FUNC, "w", context_binder.get_key(op.contexts))
+        context = WordContext(op.contexts, op.op_and_object.operation)
+        context_func = Func(CONTEXT_FUNC, "w", context_binder.get_key(context))
         object_func = Func(OBJECT_FUNC, "w", object_binder.get_key(op.op_and_object))
         preconditions.append(ImpPrecondition(context_func, object_func))
     return preconditions
@@ -219,7 +213,7 @@ def read_mln_file(
         context_key_path: str,
         object_key_path: str
 ) -> Collection[WeightedOperation]:
-    context_binder = KeyBinder.from_csv(context_key_path, Context)
+    context_binder = KeyBinder.from_csv(context_key_path, WordContext)
     object_binder = KeyBinder.from_csv(object_key_path, OpObject)
     ops = []
     with open(mln_path) as file:
@@ -253,7 +247,7 @@ def _mln_line_to_weighted_op(
     context = context_binder.get_item(values["context"])
     object = object_binder.get_item(values["object"])
     weight = float(values["weight"])
-    return WeightedOperation(weight, Operation(context, object))
+    return WeightedOperation(weight, Operation(context.context, object))
 
 
 # w = Operation(Context("pp", "y>"), OpObject("INS", "ill"))
@@ -277,8 +271,8 @@ def _mln_line_to_weighted_op(
 # print(Evidence(True, "AC", "Happy", "xx"))
 
 mln_dir = "data/processed/mln"
-# words_and_ops = get_words_and_ops("data/processed/first_step/asturian.csv")
-# operations = get_operations(f"{mln_dir}/operations/asturian.csv")
+words_and_ops = get_words_and_ops("data/processed/first_step/asturian.csv")
+operations = get_operations(f"{mln_dir}/operations/asturian.csv")
 
 # generate_key_files(
 #     f"{mln_dir}/contexts/asturian.csv",
@@ -287,16 +281,16 @@ mln_dir = "data/processed/mln"
 #     words_and_ops,
 #     operations
 # )
-
-# generate_mln_files(
-#     f"{mln_dir}/precondition/asturian.mln",
-#     f"{mln_dir}/evidence/asturian.db",
-#     f"{mln_dir}/contexts/asturian.csv",
-#     f"{mln_dir}/objects/asturian.csv",
-#     f"{mln_dir}/words/asturian.csv",
-#     words_and_ops,
-#     operations[:1000]
-# )
+#
+generate_mln_files(
+    f"{mln_dir}/precondition/asturian.mln",
+    f"{mln_dir}/evidence/asturian.db",
+    f"{mln_dir}/contexts/asturian.csv",
+    f"{mln_dir}/objects/asturian.csv",
+    f"{mln_dir}/words/asturian.csv",
+    words_and_ops,
+    operations[:1000]
+)
 
 # ops = read_mln_file(
 #     f"{mln_dir}/weighted/asturian.mln",

@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 import json
 from typing import Collection, Tuple, Union
 import abc
@@ -264,3 +266,55 @@ class ImpPrecondition(Precondition):
 
     def __repr__(self):
         return str(self)
+
+
+class WordContext(JsonSerializable):
+    context: Context
+    operation: str
+    _hash: int
+
+    def __init__(self, context: Union[Context, dict], operation: str) -> None:
+        super().__init__()
+
+        self.context = context if isinstance(context, Context) else Context(**context)
+        self.operation = operation
+        self._hash = hash((self.context, self.operation))
+
+    def __hash__(self) -> int:
+        return self._hash
+
+    def __eq__(self, o: object) -> bool:
+        if not isinstance(o, WordContext):
+            return False
+        return self.operation == o.operation and self.context == o.context
+
+    def __str__(self) -> str:
+        return f"({self.context}, {self.operation})"
+
+    def __repr__(self) -> str:
+        return str(self)
+
+    def applies(self, word: str) -> bool:
+        left = self.context.left
+        right = self.context.right
+        if self.operation == 'INS':
+            return (left + right) in word
+        left_start = word.find(left)
+        if left_start == -1:
+            return False
+        right_start = word.find(right, left_start + len(left))
+        print(f"Right start: {right_start}")
+        return right_start != -1
+
+    def is_same_as(self, other: WordContext) -> bool:
+        if self is other:
+            return True
+
+        if self.operation != other.operation:
+            return False
+
+        are_left_same = self.context.left.endswith(other.context.left) \
+                        or other.context.left.endswith(self.context.left)
+        are_right_same = self.context.right.startswith(other.context.right) \
+                         or other.context.right.startswith(self.context.right)
+        return are_left_same and are_right_same

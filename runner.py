@@ -1,5 +1,5 @@
 import os
-from typing import Callable, List, Tuple
+from typing import Callable, List, Tuple, Dict
 
 from functools import partial
 from context_matrix import create_and_save_context_matrix, load_context_matrix, \
@@ -137,9 +137,9 @@ def write_baseline_cost():
     _write_baseline_cost("base", "base_cost")
 
 
-def _get_mean_and_standard_devs_for_languages() -> List[Tuple[str, float, float]]:
+def _get_mean_and_standard_devs_for_languages() -> Dict[str, Tuple[float, float]]:
     directory_name = "data/latin_alphabet"
-    res = []
+    res = {}
     for filename in os.listdir(f"{directory_name}"):
         sp = filename.split(r"-")
         language = sp[0]
@@ -148,49 +148,48 @@ def _get_mean_and_standard_devs_for_languages() -> List[Tuple[str, float, float]
             continue
         data_file = f"{directory_name}/{filename}"
         mean, stdev = baseline.get_means_and_stdev_for_language(data_file)
-        res.append((language, mean, stdev))
+        res[language] = (mean, stdev)
     return res
 
 
-def _get_average_baseline_cost(cost_dir: str) -> List[Tuple[str, float]]:
+def _get_average_baseline_cost(cost_dir: str) -> Dict[str, float]:
     directory_name = f"data/processed/predictions/{cost_dir}"
-    language_cost = []
+    language_cost = {}
     for filename in os.listdir(f"{directory_name}"):
         language = filename.split(r".")[0]
         cost_file = f"{directory_name}/{filename}"
         cost = baseline.calculate_average_cost(cost_file)
-        language_cost.append((language, cost))
+        language_cost[language] = cost
     return language_cost
 
+#
+# def get_average_baseline_cost():
+#     _get_average_baseline_cost("base_cost")
+#
+#
+# def get_average_sigmorphon_cost():
+#     _get_average_baseline_cost("sigmorphon_cost")
 
-def get_average_baseline_cost():
-    _get_average_baseline_cost("base_cost")
 
-
-def get_average_sigmorphon_cost():
-    _get_average_baseline_cost("sigmorphon_cost")
-
-
-def compare_base_to_sigmorphon():
-    base = _get_average_baseline_cost("base_cost")
-    sig = _get_average_baseline_cost("sigmorphon_cost")
-    means_stdev = _get_mean_and_standard_devs_for_languages()
-    zipped = zip(base, sig, means_stdev)
-    for item in zipped:
-        print(f"Language: {item[0][0]}")
-        print(f"Base: {item[0][1]} - Sig: {item[1][1]} ")
-        print(f"Mean: {item[2][1]}, Stdev: {item[2][2]}")
+# def compare_base_to_sigmorphon():
+#     base = _get_average_baseline_cost("base_cost")
+#     sig = _get_average_baseline_cost("sigmorphon_cost")
+#     means_stdev = _get_mean_and_standard_devs_for_languages()
+#     zipped = zip(base, sig, means_stdev)
+#     for item in zipped:
+#         print(f"Language: {item[0][0]}")
+#         print(f"Base: {item[0][1]} - Sig: {item[1][1]} ")
+#         print(f"Mean: {item[2][1]}, Stdev: {item[2][2]}")
 
 
 def compare_baselines(baseline_1_name: str, baseline_2_name: str):
-    base = _get_average_baseline_cost(baseline_1_name)
-    sig = _get_average_baseline_cost(baseline_2_name)
+    base_1 = _get_average_baseline_cost(baseline_1_name)
+    base_2 = _get_average_baseline_cost(baseline_2_name)
     means_stdev = _get_mean_and_standard_devs_for_languages()
-    zipped = zip(base, sig, means_stdev)
-    for item in zipped:
-        print(f"Language: {item[0][0]}")
-        print(f"{baseline_1_name}: {item[0][1]} - {baseline_2_name}: {item[1][1]} ")
-        print(f"Mean: {item[2][1]}, Stdev: {item[2][2]}")
+    for language in base_1:
+        print(f"Language: {language}")
+        print(f"{baseline_1_name}: {base_1[language]} - {baseline_2_name}: {base_2[language]} ")
+        print(f"Mean: {means_stdev[language][0]}, Stdev: {means_stdev[language][1]}")
 
 
 def _generate_no_op_baseline(language: str):
@@ -225,6 +224,7 @@ def calculate_mln_no_grammar_cost_language(language: str):
 
     )
 
+
 # write_steps(True, True, True, True, True)
 # write_alphabets()
 # write_first_second_step_revision()
@@ -256,7 +256,7 @@ def calculate_mln_no_grammar_cost_language(language: str):
 # write_first_second_step_revision()
 # write_context_matrices()
 # create_grammar_context_matrices()
-# predict_language("asturian")
+predict_language("asturian")
 # _generate_no_op_baseline("asturian")
-# calculate_mln_no_grammar_cost_language("asturian")
+calculate_mln_no_grammar_cost_language("asturian")
 compare_baselines("mln_no_grammar_cost", "no_op_cost")

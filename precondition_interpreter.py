@@ -3,7 +3,7 @@ from __future__ import annotations
 from collections import defaultdict
 from typing import Collection, Tuple, DefaultDict, List, Union
 
-from mln_model import WeightedOperation, Context, WordAndOps, OpObject
+from mln_model import WeightedOperation, Context, WordAndOps, OpObject, WordContext
 
 
 class Prediction:
@@ -17,51 +17,6 @@ class Prediction:
         self.prediction = prediction
         self.actual = actual
 
-
-class WordContext:
-    context: Context
-    operation: str
-    _hash: int
-
-    def __init__(self, context: Context, operation: str) -> None:
-        super().__init__()
-        self.context = context
-        self.operation = operation
-        self._hash = hash((context, operation))
-
-    def __hash__(self) -> int:
-        return self._hash
-
-    def __str__(self) -> str:
-        return f"({self.context}, {self.operation})"
-
-    def __repr__(self) -> str:
-        return str(self)
-
-    def applies(self, word: str) -> bool:
-        left = self.context.left
-        right = self.context.right
-        if self.operation == 'INS':
-            return (left + right) in word
-        left_start = word.find(left)
-        if left_start == -1:
-            return False
-        right_start = word.find(right, left_start + len(left))
-        print(f"Right start: {right_start}")
-        return right_start != -1
-
-    def is_same_as(self, other: WordContext) -> bool:
-        if self is other:
-            return True
-
-        if self.operation != other.operation:
-            return False
-
-        are_left_same = self.context.left.endswith(other.context.left) \
-                        or other.context.left.endswith(self.context.left)
-        are_right_same = self.context.right.startswith(other.context.right) \
-                         or other.context.right.startswith(self.context.right)
-        return are_left_same and are_right_same
 
 
 class Interpreter:
