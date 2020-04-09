@@ -273,7 +273,8 @@ def _mln_line_to_weighted_op(
 mln_dir = "data/processed/mln"
 words_and_ops = get_words_and_ops("data/processed/first_step/asturian.csv")
 operations = get_operations(f"{mln_dir}/operations/asturian.csv")
-
+print(f'Words and ops {len(words_and_ops)}')
+print(f'Ops {len(operations)}')
 # generate_key_files(
 #     f"{mln_dir}/contexts/asturian.csv",
 #     f"{mln_dir}/objects/asturian.csv",
@@ -282,15 +283,15 @@ operations = get_operations(f"{mln_dir}/operations/asturian.csv")
 #     operations
 # )
 #
-generate_mln_files(
-    f"{mln_dir}/precondition/asturian.mln",
-    f"{mln_dir}/evidence/asturian.db",
-    f"{mln_dir}/contexts/asturian.csv",
-    f"{mln_dir}/objects/asturian.csv",
-    f"{mln_dir}/words/asturian.csv",
-    words_and_ops,
-    operations[:1000]
-)
+# generate_mln_files(
+#     f"{mln_dir}/precondition/asturian.mln",
+#     f"{mln_dir}/evidence/asturian.db",
+#     f"{mln_dir}/contexts/asturian.csv",
+#     f"{mln_dir}/objects/asturian.csv",
+#     f"{mln_dir}/words/asturian.csv",
+#     words_and_ops,
+#     operations[:1000]
+# )
 
 # ops = read_mln_file(
 #     f"{mln_dir}/weighted/asturian.mln",
