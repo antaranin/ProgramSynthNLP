@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from sample import sample_example
+from RobustFill.sample import sample_example
 
 
 class TestSample(TestCase):

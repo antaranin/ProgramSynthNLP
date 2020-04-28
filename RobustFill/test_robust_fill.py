@@ -4,7 +4,7 @@ from torch.nn.utils.rnn import pack_sequence, pad_packed_sequence
 import torch
 import torch.nn as nn
 
-from robust_fill import AttentionLSTM, LSTMAdapter, LuongAttention, pad
+from RobustFill.robust_fill import AttentionLSTM, LSTMAdapter, LuongAttention, pad
 
 
 class TestNN(TestCase):

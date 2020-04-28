@@ -1,7 +1,7 @@
 from unittest import TestCase
 
-from sample import sample_program, sample_string
-from tokens import build_token_tables
+from RobustFill.sample import sample_program, sample_string
+from RobustFill.tokens import build_token_tables
 
 
 class TestTokens(TestCase):

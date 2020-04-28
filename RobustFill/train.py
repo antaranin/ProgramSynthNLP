@@ -6,10 +6,10 @@ import torch
 import torch.nn.functional as F
 import torch.optim as optim
 
-from robust_fill import RobustFill
-from sample import sample_example
-from tokens import build_token_tables, tokenize_string
-import operators as op
+from RobustFill.robust_fill import RobustFill
+from RobustFill.sample import sample_example
+from RobustFill.tokens import build_token_tables, tokenize_string
+import RobustFill.operators as op
 
 
 def max_program_length(expected_programs):

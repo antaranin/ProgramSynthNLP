@@ -2,7 +2,7 @@ from collections import namedtuple
 import logging
 import random
 
-import operators as op
+import RobustFill.operators as op
 
 
 LOGGER = logging.getLogger(__name__)

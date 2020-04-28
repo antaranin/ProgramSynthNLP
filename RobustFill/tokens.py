@@ -1,6 +1,6 @@
 from collections import namedtuple
 
-import operators as op
+import RobustFill.operators as op
 
 
 # Special token for end-of-sequence
