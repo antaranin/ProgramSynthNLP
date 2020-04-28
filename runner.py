@@ -8,9 +8,9 @@ from context_matrix import create_and_save_context_matrix, load_context_matrix, 
 from main import process_data_file, write_alphabet, read_base_and_expected_words
 from precondition_interpreter import run_predictions, Prediction
 from mln_file_generator import read_mln_file
-import pandas as pd
 import operation_revisor as rev
 import baseline
+import frequency_table_gen as freq
 
 
 def _run_steps(directory_name: str, filename: str, generate_step_1: bool, generate_step_2: bool,
@@ -162,6 +162,7 @@ def _get_average_baseline_cost(cost_dir: str) -> Dict[str, float]:
         language_cost[language] = cost
     return language_cost
 
+
 #
 # def get_average_baseline_cost():
 #     _get_average_baseline_cost("base_cost")
@@ -225,6 +226,44 @@ def calculate_mln_no_grammar_cost_language(language: str):
     )
 
 
+def write_context_morph_data() -> None:
+    _iter_lang_dir("data/processed/first_step", _write_context_morph_data)
+
+
+def write_frequency_tables():
+    _iter_lang_dir(f"data/processed/context_morph_data", _write_frequency_tables)
+
+
+def _iter_lang_dir(dir_path: str, op: Callable[[str], None]) -> None:
+    for filename in os.listdir(dir_path):
+        language, _ = filename.split('.')
+        print(f"Started work on {language}")
+        op(language)
+        print(f"Finished work on {language}")
+
+
+def _write_frequency_tables(language: str):
+    data_path = f"data/processed/context_morph_data/{language}.csv"
+    freq.generate_context_op_table(
+        data_path,
+        f"data/processed/context_matrix/{language}.csv"
+    )
+    freq.generate_morph_op_table(
+        data_path,
+        f"data/processed/morph_matrix/{language}.csv"
+    )
+    freq.generate_morph_context_op_table(
+        data_path,
+        f"data/processed/morph_context_matrix/{language}.csv"
+    )
+
+
+def _write_context_morph_data(language: str):
+    freq.generate_basic_data_csv(
+        f"data/processed/first_step/{language}.csv",
+        f"data/processed/context_morph_data/{language}.csv"
+    )
+
 # write_steps(True, True, True, True, True)
 # write_alphabets()
 # write_first_second_step_revision()
@@ -256,7 +295,13 @@ def calculate_mln_no_grammar_cost_language(language: str):
 # write_first_second_step_revision()
 # write_context_matrices()
 # create_grammar_context_matrices()
-predict_language("asturian")
+# predict_language("asturian")
 # _generate_no_op_baseline("asturian")
-calculate_mln_no_grammar_cost_language("asturian")
-compare_baselines("mln_no_grammar_cost", "no_op_cost")
+# calculate_mln_no_grammar_cost_language("asturian")
+# compare_baselines("mln_no_grammar_cost", "no_op_cost")
+print("About to generate context morph data")
+input("Press ENTER to start")
+write_context_morph_data()
+print(f"About to generate frequency tables")
+input("Press ENTER to start")
+write_frequency_tables()

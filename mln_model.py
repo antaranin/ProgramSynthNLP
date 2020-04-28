@@ -268,6 +268,26 @@ class ImpPrecondition(Precondition):
         return str(self)
 
 
+class OpMorph:
+    morph_feature: str
+    operation: OpObject
+    count: int
+
+    def __init__(self, morph_feature: str, operation: OpObject, count: int = 0) -> None:
+        super().__init__()
+        self.morph_feature = morph_feature
+        self.operation = operation
+        self.count = count
+
+    def __str__(self) -> str:
+        return f"(MF: {self.morph_feature}, OP: {self.operation}, count: {self.count})"
+
+    def __repr__(self) -> str:
+        return str(self)
+
+
+
+
 class WordContext(JsonSerializable):
     context: Context
     operation: str

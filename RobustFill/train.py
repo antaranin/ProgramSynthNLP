@@ -6,10 +6,10 @@ import torch
 import torch.nn.functional as F
 import torch.optim as optim
 
-from robust_fill import RobustFill
-from sample import sample_example
-from tokens import build_token_tables, tokenize_string
-import operators as op
+from RobustFill.robust_fill import RobustFill
+from RobustFill.sample import sample_example
+from RobustFill.tokens import build_token_tables, tokenize_string
+import RobustFill.operators as op
 
 
 def max_program_length(expected_programs):
@@ -35,13 +35,13 @@ def train(
         padding_index = -1
         reshaped_actual_programs = (
             actual_programs.transpose(1, 0)
-            .contiguous()
-            .view(-1, program_size)
+                .contiguous()
+                .view(-1, program_size)
         )
         padded_expected_programs = torch.LongTensor([
-                program[i] if i < len(program) else padding_index
-                for program in expected_programs
-                for i in range(max_length)
+            program[i] if i < len(program) else padding_index
+            for program in expected_programs
+            for i in range(max_length)
         ])
         loss = F.cross_entropy(
             reshaped_actual_programs,
@@ -68,7 +68,7 @@ def train(
                 print('Actual programs:')
                 print(
                     F.softmax(actual_programs, dim=2)
-                    .transpose(1, 0)[:print_batch_limit, :, :]
+                        .transpose(1, 0)[:print_batch_limit, :, :]
                 )
 
             if checkpoint_filename is not None:
@@ -95,7 +95,7 @@ def generate_data(program_batch, num_examples, string_size):
     for program in program_batch:
         examples = []
         for _ in range(num_examples):
-            input_sequence = [random.randint(0, string_size-1)]
+            input_sequence = [random.randint(0, string_size - 1)]
 
             if program == [0]:
                 output_sequence = input_sequence

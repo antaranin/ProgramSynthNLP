@@ -1,10 +1,12 @@
 Source;Target;Combined;Inserts;Deletes;Grammar
+blabladx;blberderex;blDEL(a)bDEL(l)DEL(a)INS(e)INS(r)dINS(e)INS(re)x;INS(e),INS(r),INS(e),INS(re);DEL(a),DEL(l),DEL(a);P,SG,X
 xubilar;xubilaba;xubilINS(ab)aDEL(r);INS(ab);DEL(r);V,IND,PST,3,SG,IPFV
+xubilar;xubilaer;xubilINS(e);INS(e);;V,IND,PST,3,SG,IPFV
 xelar;xelaríamos;xelarINS(íamos);INS(íamos);;V,1,PL,COND,LGSPEC2
+abolir;aboli;aboliDEL(r);;DEL(r);V,2,SG,IMP
 significar;signifiquen;signifiDEL(car)INS(quen);INS(quen);DEL(car);V,IND,PRS,3,PL
 sellar;selláramos;sellDEL(a)INS(á)rINS(amos);INS(á),INS(amos);DEL(a);V,1,PL,SBJV,PST,IPFV,LGSPEC2
 evitar;evitaríamos;evitarINS(íamos);INS(íamos);;V,1,PL,COND,LGSPEC2
-abolir;aboli;aboliDEL(r);;DEL(r);V,2,SG,IMP
 desaverar;desaverastis;desaveraDEL(r)INS(stis);INS(stis);DEL(r);V,IND,PST,2,PL,PFV,LGSPEC1
 eliminar;eliminare;eliminarINS(e);INS(e);;V,3,SG,IND,PST,PRF,LGSPEC1
 preñar;preñaré;preñarINS(é);INS(é);;V,1,SG,IND,FUT

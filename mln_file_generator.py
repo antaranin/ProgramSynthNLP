@@ -270,11 +270,11 @@ def _mln_line_to_weighted_op(
 #
 # print(Evidence(True, "AC", "Happy", "xx"))
 
-mln_dir = "data/processed/mln"
-words_and_ops = get_words_and_ops("data/processed/first_step/asturian.csv")
-operations = get_operations(f"{mln_dir}/operations/asturian.csv")
-print(f'Words and ops {len(words_and_ops)}')
-print(f'Ops {len(operations)}')
+# mln_dir = "data/processed/mln"
+# words_and_ops = get_words_and_ops("data/processed/first_step/asturian.csv")
+# operations = get_operations(f"{mln_dir}/operations/asturian.csv")
+# print(f'Words and ops {len(words_and_ops)}')
+# print(f'Ops {len(operations)}')
 # generate_key_files(
 #     f"{mln_dir}/contexts/asturian.csv",
 #     f"{mln_dir}/objects/asturian.csv",

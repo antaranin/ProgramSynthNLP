@@ -4,7 +4,6 @@ from functools import reduce
 from string import ascii_letters, digits, whitespace
 import re
 
-
 # Inclusive-inclusive interval
 POSITION = [-100, 100]
 # 0 is intentionally missing
@@ -14,6 +13,7 @@ INDEX = [-5, -4, -3, -2, -1, 1, 2, 3, 4, 5]
 DELIMITER = '&,.?!@()[]%{}/:;$#' + whitespace
 # Should this be same as Type.CHAR?
 CHARACTER = ''.join([ascii_letters, digits, DELIMITER])
+
 
 # TODO: Evaluate feasibility of usage with our data
 class DSL(ABC):
@@ -49,7 +49,7 @@ class Concat(Program):
 
     def to_string(self, indent, tab):
         sub_exps = [
-            e.to_string(indent=indent+tab, tab=tab)
+            e.to_string(indent=indent + tab, tab=tab)
             for e in self.expressions
         ]
         return op_to_string('Concat', sub_exps, indent, recursive=True)
@@ -145,7 +145,7 @@ class SubStr(Substring):
         if p2 == -1:
             return value[p1:]
 
-        return value[p1:p2+1]
+        return value[p1:p2 + 1]
 
     def to_string(self, indent, tab):
         return op_to_string('SubStr', [self.pos1, self.pos2], indent)
@@ -156,6 +156,7 @@ class SubStr(Substring):
             op_token_table[self.pos1],
             op_token_table[self.pos2],
         ]
+
 
 # TODO: morphological feature + positional data (lemma string)
 class GetSpan(Substring):

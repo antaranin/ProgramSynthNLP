@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-import operators as op
+import RobustFill.operators as op
 
 
 class TestEvaluate(TestCase):
