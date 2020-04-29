@@ -4,7 +4,9 @@ import random
 
 import RobustFill.operators as op
 
+
 LOGGER = logging.getLogger(__name__)
+
 
 Example = namedtuple(
     'Example',
@@ -51,7 +53,6 @@ def sample_example(
                 num_exception += 1
 
             if len(sampled_strings) == num_strings:
-                # print(f"Example {Example(program, sampled_strings, num_discarded)}")
                 return Example(program, sampled_strings, num_discarded)
 
             # We have to throw programs away because some of them always
@@ -67,7 +68,6 @@ def sample_example(
                 LOGGER.debug(program)
                 num_discarded += 1
                 break
-
 
 # TODO: Change from random sampling
 def sample_program(max_expressions):
