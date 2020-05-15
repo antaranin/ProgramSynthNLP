@@ -138,7 +138,7 @@ class WeightedOperation:
         return f"{self.weight}, {self.operation}"
 
     def __repr__(self) -> str:
-        return str(self)
+        return f"({str(self)})"
 
 
 class WordAndOps(JsonSerializable):
@@ -286,8 +286,6 @@ class OpMorph:
         return str(self)
 
 
-
-
 class WordContext(JsonSerializable):
     context: Context
     operation: str
@@ -323,7 +321,6 @@ class WordContext(JsonSerializable):
         if left_start == -1:
             return False
         right_start = word.find(right, left_start + len(left))
-        print(f"Right start: {right_start}")
         return right_start != -1
 
     def is_same_as(self, other: WordContext) -> bool:

@@ -1,0 +1,110 @@
+1 , un
+2 , deux
+3 , trois
+4 , quatre
+5 , cinq
+6 , six
+7 , sept
+8 , huit
+9 , neuf
+10 , dix
+11 , onze
+12 , douze
+13 , treize
+14 , quatorze
+15 , quinze
+16 , seize
+17 , dix-sept
+18 , dix-huit
+19 , dix-neuf
+20 , vingt
+30 , trente
+40 , quarante
+50 , cinquante
+60 , soixante
+70 , soixante-dix
+80 , quatre-vingts
+90 , quatre-vingt-dix
+100 , cent
+1000 , mille
+10000 , dix mille
+1000000 , un million
+9003800 , neuf millions trois mille huit cents
+850750 , huit cent cinquante mille sept cent cinquante
+38708 , trente-huit mille sept cent huit
+2000009 , deux millions neuf
+706095 , sept cent six mille quatre-vingt-quinze
+60800 , soixante mille huit cents
+3040000 , trois millions quarante mille
+8005190 , huit millions cinq mille cent quatre-vingt-dix
+1600099 , un million six cent mille quatre-vingt-dix-neuf
+8669 , huit mille six cent soixante-neuf
+1015012 , un million quinze mille douze
+7800650 , sept millions huit cent mille six cent cinquante
+6550002 , six millions cinq cent cinquante mille deux
+9000100 , neuf millions cent
+3090226 , trois millions quatre-vingt-dix mille deux cent vingt-six
+50005705 , cinquante millions cinq mille sept cent cinq
+3000100 , trois millions cent
+8000 , huit mille
+70436 , soixante-dix mille quatre cent trente-six
+70252 , soixante-dix mille deux cent cinquante-deux
+6710160 , six millions sept cent dix mille cent soixante
+30850 , trente mille huit cent cinquante
+800239 , huit cent mille deux cent trente-neuf
+83663 , quatre-vingt-trois mille six cent soixante-trois
+20110 , vingt mille cent dix
+31867 , trente-et-un mille huit cent soixante-sept
+309408 , trois cent neuf mille quatre cent huit
+11784 , onze mille sept cent quatre-vingt-quatre
+4306010 , quatre millions trois cent six mille dix
+70014540 , soixante-dix millions quatorze mille cinq cent quarante
+227020 , deux cent vingt-sept mille vingt
+154094 , cent cinquante-quatre mille quatre-vingt-quatorze
+110026 , cent dix mille vingt-six
+500000 , cinq cent mille
+71481 , soixante-et-onze mille quatre cent quatre-vingt-un
+4050667 , quatre millions cinquante mille six cent soixante-sept
+7710 , sept mille sept cent dix
+349835 , trois cent quarante-neuf mille huit cent trente-cinq
+18468 , dix-huit mille quatre cent soixante-huit
+70075 , soixante-dix mille soixante-quinze
+190006 , cent quatre-vingt-dix mille six
+400000 , quatre cent mille
+300000 , trois cent mille
+90040230 , quatre-vingt-dix millions quarante mille deux cent trente
+803861 , huit cent trois mille huit cent soixante-et-un
+500 , cinq cents
+4014300 , quatre millions quatorze mille trois cents
+909590 , neuf cent neuf mille cinq cent quatre-vingt-dix
+22754 , vingt-deux mille sept cent cinquante-quatre
+250421 , deux cent cinquante mille quatre cent vingt-et-un
+508709 , cinq cent huit mille sept cent neuf
+2000988 , deux millions neuf cent quatre-vingt-huit
+1600 , mille six cents
+19005000 , dix-neuf millions cinq mille
+4471 , quatre mille quatre cent soixante-et-onze
+20400988 , vingt millions quatre cent mille neuf cent quatre-vingt-huit
+1007582 , un million sept mille cinq cent quatre-vingt-deux
+90990688 , quatre-vingt-dix millions neuf cent quatre-vingt-dix mille six cent quatre-vingt-huit
+8000321 , huit millions trois cent vingt-et-un
+30000039 , trente millions trente-neuf
+2100200 , deux millions cent mille deux cents
+9900354 , neuf millions neuf cent mille trois cent cinquante-quatre
+40000 , quarante mille
+509972 , cinq cent neuf mille neuf cent soixante-douze
+8076 , huit mille soixante-seize
+60010407 , soixante millions dix mille quatre cent sept
+7050595 , sept millions cinquante mille cinq cent quatre-vingt-quinze
+111630 , cent onze mille six cent trente
+12005188 , douze millions cinq mille cent quatre-vingt-huit
+80071688 , quatre-vingt millions soixante-et-onze mille six cent quatre-vingt-huit
+44986 , quarante-quatre mille neuf cent quatre-vingt-six
+74468 , soixante-quatorze mille quatre cent soixante-huit
+70067 , soixante-dix mille soixante-sept
+401098 , quatre cent un mille quatre-vingt-dix-huit
+3000510 , trois millions cinq cent dix
+7000000 , sept millions
+3000 , trois mille
+4007030 , quatre millions sept mille trente
+60959 , soixante mille neuf cent cinquante-neuf

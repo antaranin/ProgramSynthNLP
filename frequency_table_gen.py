@@ -170,10 +170,12 @@ def generate_morph_context_op_table(
     data = data[["ContextMorph", "OpObject"]]
 
     data = _create_support_matrix(data, "ContextMorph", "OpObject")
-    data = _trim_rows_below_threshold(data, support_threshold)
-    data = _create_descriptive_confirmed_confidence_matrix(data)
-    data = _threshold_matrix(data, confidence_threshold)
-    _save_csv_to_pandas(data, output_path, keep_index=True)
+    # print(data)
+    # print(data.index)
+    # data = _trim_rows_below_threshold(data, support_threshold)
+    # data = _create_descriptive_confirmed_confidence_matrix(data)
+    # data = _threshold_matrix(data, confidence_threshold)
+    # _save_csv_to_pandas(data, output_path, keep_index=True)
 
 
 def _split_column(
@@ -195,8 +197,16 @@ def _split_column(
     return merged_data
 
 
-def _create_support_matrix(data: pd.DataFrame, column1: str, column2: str) -> pd.DataFrame:
-    return data.groupby([column1, column2]).size().unstack(fill_value=0)
+def _create_support_matrix(data: pd.DataFrame, column1: str, column2: str,
+                           support_threshold: int = -1) -> pd.DataFrame:
+    size_series: pd.Series = data.groupby([column1, column2]).size()
+    if support_threshold == -1:
+        return size_series.unstack(fill_value=0)
+
+    sums = size_series.groupby(level=[0]).sum()
+    over_1_index = sums[sums > support_threshold].index
+    size_series = size_series.loc[over_1_index]
+    # return size_series.unstack(fill_value=0)
 
 
 def _create_descriptive_confirmed_confidence_matrix(support_matrix: pd.DataFrame) -> pd.DataFrame:

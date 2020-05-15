@@ -1,4 +1,5 @@
 import csv
+import os
 from statistics import mean, stdev
 from typing import List, Tuple, Collection
 import editdistance
@@ -71,6 +72,9 @@ def calculate_average_cost(word_cost_file: str) -> float:
 
 
 def _save_cost_baseline(words_and_cost: List[Tuple[str, str]], output_file: str):
+    dir = os.path.dirname(output_file)
+    if not os.path.exists(dir):
+        os.mkdir(dir)
     with open(output_file, mode='w+') as file:
         writer = csv.writer(file, delimiter=';', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         writer.writerow(["Word", "Cost"])

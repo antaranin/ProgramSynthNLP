@@ -1,4 +1,5 @@
 from __future__ import annotations
+import numpy as np
 
 from collections import defaultdict
 from typing import Collection, Tuple, DefaultDict, List, Union
@@ -18,16 +19,18 @@ class Prediction:
         self.actual = actual
 
 
-
 class Interpreter:
     contexts: Collection[WordContext]
     operations: DefaultDict[WordContext, Collection[WeightedOperation]]
+    probabilistic: bool
 
-    def __init__(self, operations: Collection[WeightedOperation]) -> None:
+    def __init__(self, operations: Collection[WeightedOperation], is_probabilistic: bool) -> None:
         super().__init__()
+        self.probabilistic = is_probabilistic
         contexts = set()
         dict_operations = defaultdict(list)
         for operation in operations:
+            assert not is_probabilistic or (0 <= operation.weight)
             context = operation.operation.contexts
             word_context = WordContext(context, operation.operation.op_and_object.operation)
             dict_operations[word_context].append(operation)
@@ -53,10 +56,35 @@ class Interpreter:
             [op for context in combined for op in self.operations[context]]
             for combined in combined_contexts
         ]
-        return [max(ops, key=lambda op: op.weight) for ops in applicable_operation_groups]
+        return [self._choose_applicable_operation(ops) for ops in applicable_operation_groups]
 
-    def _create_word_and_ops(self, word: str, applicable_operations: Collection[WeightedOperation]
-                             ) -> WordAndOps:
+    def _choose_applicable_operation(
+            self,
+            operations: Collection[WeightedOperation]
+    ) -> WeightedOperation:
+        if self.probabilistic:
+            return self._choose_operation_probabilistically(operations)
+        else:
+            return max(operations, key=lambda op: op.weight)
+
+    @staticmethod
+    def _choose_operation_probabilistically(
+            operations: Collection[WeightedOperation]
+    ) -> WeightedOperation:
+        weights = [op.weight for op in operations]
+        probabilistic_weights = Interpreter._adjust_weights_to_probabilistic(weights)
+        return np.random.choice(operations, 1, p=probabilistic_weights)[0]
+
+    @staticmethod
+    def _adjust_weights_to_probabilistic(weights: Collection[float]) -> Collection[float]:
+        total_weight = sum(weights)
+        probabilistic_weights = [w / total_weight for w in weights]
+        return probabilistic_weights
+
+    @staticmethod
+    def _create_word_and_ops(
+            word: str, applicable_operations: Collection[WeightedOperation]
+    ) -> WordAndOps:
         ops = [
             Interpreter._weighted_op_to_op_and_position(word, op) for op in applicable_operations
         ]
@@ -112,9 +140,10 @@ class Interpreter:
 
 def run_predictions(
         base_and_expected_words: Collection[Tuple[str, str]],
-        predicates: Collection[WeightedOperation]
+        predicates: Collection[WeightedOperation],
+        are_weights_probabilistic: bool
 ) -> Collection[Prediction]:
-    interpreter = Interpreter(predicates)
+    interpreter = Interpreter(predicates, are_weights_probabilistic)
     print("Initialized interpreter")
     predictions = []
     total_count = len(base_and_expected_words)

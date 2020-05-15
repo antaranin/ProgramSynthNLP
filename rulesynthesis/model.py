@@ -1,10 +1,11 @@
-#model
+# model
 
 
 import torch
 import torch.nn as nn
 import torch.optim as optim
-from rulesynthesis.util import tabu_update, get_episode_generator, num_episodes_val, UnfinishedError, REPLError, build_padded_var
+from rulesynthesis.util import tabu_update, get_episode_generator, num_episodes_val, \
+    UnfinishedError, REPLError, build_padded_var
 
 from rulesynthesis.batched_synth_net import BatchedRuleSynthEncoderRNN, BatchedDoubleAttnDecoderRNN
 from rulesynthesis.metanet_attn import describe_model
@@ -13,11 +14,13 @@ import time
 import copy
 
 from rulesynthesis.number_word_interpret_grammar import IncompleteError
+
 """
 tabu_update
 get_episode_generator
 
 """
+
 
 class Model:
     def cudaize(use_cuda):
@@ -29,11 +32,11 @@ class Model:
         self.samples_val = val
         self.tabu_episodes = set([])
         for sample in self.samples_val:
-            self.tabu_episodes = tabu_update(self.tabu_episodes,sample['identifier'])
-
+            self.tabu_episodes = tabu_update(self.tabu_episodes, sample['identifier'])
 
     def generate_val_episodes(self):
-        generate_episode_train, generate_episode_test, _, _, _ = get_episode_generator(self.episode_type)
+        generate_episode_train, generate_episode_test, _, _, _ = get_episode_generator(
+            self.episode_type)
         self.tabu_episodes = set([])
         self.samples_val = []
         for i in range(num_episodes_val):
@@ -44,10 +47,11 @@ class Model:
     @classmethod
     def new(cls, args):
 
-        model = cls(args.use_cuda, args.episode_type, args.emb_size, args.nlayers, args.dropout_p, args.adam_learning_rate, args.positional)
+        model = cls(args.use_cuda, args.episode_type, args.emb_size, args.nlayers, args.dropout_p,
+                    args.adam_learning_rate, args.positional)
 
-        #deal with these
-        
+        # deal with these
+
         if args.use_saved_val:
             model.load_val_episodes(args.saved_val_path)
         else:
@@ -59,14 +63,14 @@ class Model:
         return model
 
     def __init__(self, use_cuda,
-                         episode_type,
-                         emb_size,
-                         nlayers,
-                         dropout_p,
-                         adam_learning_rate,
-                         positional,
-                         use_prog_lang_for_input=False):
-            
+                 episode_type,
+                 emb_size,
+                 nlayers,
+                 dropout_p,
+                 adam_learning_rate,
+                 positional,
+                 use_prog_lang_for_input=False):
+
         self.USE_CUDA = use_cuda
         self.episode_type = episode_type
         self.emb_size = emb_size
@@ -75,7 +79,8 @@ class Model:
         self.adam_learning_rate = adam_learning_rate
         self.positional = positional
 
-        generate_episode_train, generate_episode_test, self.input_lang, self.output_lang, self.prog_lang = get_episode_generator(episode_type)
+        generate_episode_train, generate_episode_test, self.input_lang, self.output_lang, self.prog_lang = get_episode_generator(
+            episode_type)
 
         if use_prog_lang_for_input:
             self.input_size = self.prog_lang.n_symbols
@@ -84,26 +89,25 @@ class Model:
         self.output_size = self.output_lang.n_symbols
         self.prog_size = self.prog_lang.n_symbols
 
-        self.encoder = BatchedRuleSynthEncoderRNN(emb_size, 
-                self.input_size, 
-                self.output_size, 
-                self.prog_size, 
-                nlayers, 
-                dropout_p,
-                tie_encoders=False,
-                rule_positions=positional) 
-        self.decoder = BatchedDoubleAttnDecoderRNN(emb_size, 
-                self.prog_size, nlayers, dropout_p, 
-                fancy_attn=False)
+        self.encoder = BatchedRuleSynthEncoderRNN(emb_size,
+                                                  self.input_size,
+                                                  self.output_size,
+                                                  self.prog_size,
+                                                  nlayers,
+                                                  dropout_p,
+                                                  tie_encoders=False,
+                                                  rule_positions=positional)
+        self.decoder = BatchedDoubleAttnDecoderRNN(emb_size,
+                                                   self.prog_size, nlayers, dropout_p,
+                                                   fancy_attn=False)
 
-        if self.USE_CUDA:
-            self.encoder = self.encoder.cuda()
-            self.decoder = self.decoder.cuda()
-
+        # if self.USE_CUDA:
+        #     self.encoder = self.encoder.cuda()
+        #     self.decoder = self.decoder.cuda()
 
         print('  Set learning rate to ' + str(adam_learning_rate))
-        self.encoder_optimizer = optim.Adam(self.encoder.parameters(),lr=adam_learning_rate)
-        self.decoder_optimizer = optim.Adam(self.decoder.parameters(),lr=adam_learning_rate)
+        self.encoder_optimizer = optim.Adam(self.encoder.parameters(), lr=adam_learning_rate)
+        self.decoder_optimizer = optim.Adam(self.decoder.parameters(), lr=adam_learning_rate)
         print("")
         print("Architecture options...")
         print(" Using Synthesis network")
@@ -111,24 +115,35 @@ class Model:
         describe_model(self.encoder)
         describe_model(self.decoder)
 
-
-
         self.pretrain_episode = 0
         self.rl_episode = 0
 
     def _load_data_from_checkpoint(self, checkpoint):
 
-        #if 'episode' in checkpoint: print(' Loading epoch ' + str(checkpoint['episode']) + ' of ' + str(checkpoint['num_episodes']))
+        # if 'episode' in checkpoint: print(' Loading epoch ' + str(checkpoint['episode']) + ' of ' + str(checkpoint['num_episodes']))
         self.samples_val = checkpoint['episodes_validation']
+
+        for val in self.samples_val:
+            print(f"Sample: ")
+            print(f"Keys: {[key for key in val]}")
+            print(f"Idenitifier: {val['identifier']}")
+            print(f"Grammar: {val['grammar']}")
+            print(f"Sample end")
 
         self.tabu_episodes = set([])
         for sample in self.samples_val:
-            self.tabu_episodes = tabu_update(self.tabu_episodes,sample['identifier'])
+            self.tabu_episodes = tabu_update(self.tabu_episodes, sample['identifier'])
 
-        #self.disable_memory = checkpoint['disable_memory']
-        self.max_length_eval = checkpoint['max_length_eval'] #do something about this
+        print(f"Tabu episodes: {self.tabu_episodes}")
+
+        # self.disable_memory = checkpoint['disable_memory']
+        self.max_length_eval = checkpoint['max_length_eval']  # do something about this
         self.pretrain_episode = checkpoint['pretrain_episode']
         self.rl_episode = checkpoint['rl_episode']
+
+        print(f"Max length eval: {self.max_length_eval}")
+        print(f"Pretrain episode: {self.pretrain_episode}")
+        print(f"RL episode: {self.rl_episode}")
 
         self.num_pretrain_episodes = checkpoint['num_pretrain_episodes']
         self.num_rl_episodes = checkpoint['num_rl_episodes']
@@ -136,12 +151,12 @@ class Model:
         self.encoder.load_state_dict(checkpoint['encoder_state_dict'])
         self.decoder.load_state_dict(checkpoint['decoder_state_dict'])
 
-        #refresh optimizers
-        self.encoder_optimizer = optim.Adam(self.encoder.parameters(),lr=self.adam_learning_rate)
-        self.decoder_optimizer = optim.Adam(self.decoder.parameters(),lr=self.adam_learning_rate)
+        # refresh optimizers
+        self.encoder_optimizer = optim.Adam(self.encoder.parameters(), lr=self.adam_learning_rate)
+        self.decoder_optimizer = optim.Adam(self.decoder.parameters(), lr=self.adam_learning_rate)
 
     @classmethod
-    def load(cls, path, use_cuda=True):
+    def load(cls, path, use_cuda=False):
 
         print('Loading model: ' + path)
         checkpoint = torch.load(path)
@@ -150,41 +165,50 @@ class Model:
         emb_size = checkpoint['emb_size']
         nlayers = checkpoint['nlayers']
         dropout_p = checkpoint['dropout']
-        adam_learning_rate = checkpoint['adam_learning_rate'] 
+        adam_learning_rate = checkpoint['adam_learning_rate']
         if 'positional' in checkpoint.keys():
             positional = checkpoint['positional']
-        else: positional = False
+        else:
+            positional = False
 
-        #if i want to overwrite, here's my chance
-        model = cls(use_cuda, episode_type, emb_size, nlayers, dropout_p, adam_learning_rate, positional)
+        print(f"Episode type: {episode_type}")
+        print(f"Embedding size: {emb_size}")
+        print(f"Layer count: {nlayers}")
+        print(f"Dropout {dropout_p}")
+        print(f"Learning rate: {adam_learning_rate}")
+        print(f"Positional: {positional}")
+
+        # if i want to overwrite, here's my chance
+        model = cls(use_cuda, episode_type, emb_size, nlayers, dropout_p, adam_learning_rate,
+                    positional)
 
         model._load_data_from_checkpoint(checkpoint)
 
         return model
 
-    def save(self, path):        
+    def save(self, path):
         state = {'encoder_state_dict': self.encoder.state_dict(),
-            'decoder_state_dict': self.decoder.state_dict(),
-            'input_lang': self.input_lang,
-            'output_lang': self.output_lang,
-            'prog_lang': self.prog_lang,
-            'episodes_validation': self.samples_val,
-            'episode_type': self.episode_type,
-            'emb_size':self.emb_size,
-            'dropout':self.dropout_p,
-            'nlayers':self.nlayers,
-            'pretrain_episode': self.pretrain_episode,
-            'rl_episode':self.rl_episode,
-            'adam_learning_rate': self.adam_learning_rate,
-            #'disable_memory':self.disable_memory,
-            #'disable_recon_loss':self.disable_recon_loss,
-            #'use_attention':self.use_attention,
-            'max_length_eval':self.max_length_eval,
-            'num_pretrain_episodes':self.num_pretrain_episodes,
-            'num_rl_episodes': self.num_rl_episodes,
-            #'args': self.args,
-            'positional': self.encoder.rule_positions
-            }
+                 'decoder_state_dict': self.decoder.state_dict(),
+                 'input_lang': self.input_lang,
+                 'output_lang': self.output_lang,
+                 'prog_lang': self.prog_lang,
+                 'episodes_validation': self.samples_val,
+                 'episode_type': self.episode_type,
+                 'emb_size': self.emb_size,
+                 'dropout': self.dropout_p,
+                 'nlayers': self.nlayers,
+                 'pretrain_episode': self.pretrain_episode,
+                 'rl_episode': self.rl_episode,
+                 'adam_learning_rate': self.adam_learning_rate,
+                 # 'disable_memory':self.disable_memory,
+                 # 'disable_recon_loss':self.disable_recon_loss,
+                 # 'use_attention':self.use_attention,
+                 'max_length_eval': self.max_length_eval,
+                 'num_pretrain_episodes': self.num_pretrain_episodes,
+                 'num_rl_episodes': self.num_rl_episodes,
+                 # 'args': self.args,
+                 'positional': self.encoder.rule_positions
+                 }
 
         print('Saving model as: ' + path)
         torch.save(state, path)
@@ -198,58 +222,66 @@ class Model:
         self.decoder.train()
 
     def re_pad_batch(self, samples, eval_mode=False):
-        
 
-        x_lens = [ max(sample['xs_lengths']) for sample in samples if sample['xs_lengths']]
-        if x_lens: max_x_len = max( x_lens )
+        x_lens = [max(sample['xs_lengths']) for sample in samples if sample['xs_lengths']]
+        if x_lens: max_x_len = max(x_lens)
 
-        y_lens = [max(sample['ys_lengths']) for sample in samples if sample['ys_lengths'] ]
-        if y_lens: max_y_len = max(y_lens )
-        r_lens = [max(sample['rs_lengths']) for sample in samples if sample['rs'] ]
-        if r_lens: max_r_len = max( r_lens )
+        y_lens = [max(sample['ys_lengths']) for sample in samples if sample['ys_lengths']]
+        if y_lens: max_y_len = max(y_lens)
+        r_lens = [max(sample['rs_lengths']) for sample in samples if sample['rs']]
+        if r_lens: max_r_len = max(r_lens)
         if not eval_mode:
-            #don't compute these if you are evaluating, because you don't have the info to do it and will get error
-            max_g_len = max( max(sample['g_length']) for sample in samples )
-            #max_g_sos_len = max( max(sample['g_sos_length']) for sample in samples )
+            # don't compute these if you are evaluating, because you don't have the info to do it and will get error
+            max_g_len = max(max(sample['g_length']) for sample in samples)
+            # max_g_sos_len = max( max(sample['g_sos_length']) for sample in samples )
 
         new_samples = []
         for sample in samples:
 
-            if x_lens: sample['xs_padded'],_ = build_padded_var(sample['xs'], self.input_lang, max_length=max_x_len)
-            if y_lens: sample['ys_padded'],_ = build_padded_var(sample['ys'], self.output_lang, max_length=max_y_len)
-            if r_lens: sample['rs_padded'],_ = build_padded_var(sample['rs'], self.prog_lang, max_length=max_r_len)
+            if x_lens: sample['xs_padded'], _ = build_padded_var(sample['xs'], self.input_lang,
+                                                                 max_length=max_x_len)
+            if y_lens: sample['ys_padded'], _ = build_padded_var(sample['ys'], self.output_lang,
+                                                                 max_length=max_y_len)
+            if r_lens: sample['rs_padded'], _ = build_padded_var(sample['rs'], self.prog_lang,
+                                                                 max_length=max_r_len)
             if not eval_mode:
-                sample['g_padded'],_ = build_padded_var([sample['grammar']], self.prog_lang, max_length=max_g_len)
-                #sample['g_sos_padded'], _ = build_padded_var([sample['grammar']], prog_lang, add_eos=False,add_sos=True, max_length=max_g_sos_len)
+                sample['g_padded'], _ = build_padded_var([sample['grammar']], self.prog_lang,
+                                                         max_length=max_g_len)
+                # sample['g_sos_padded'], _ = build_padded_var([sample['grammar']], prog_lang, add_eos=False,add_sos=True, max_length=max_g_sos_len)
 
             new_samples.append(sample)
-            #do i need to do gs?
+            # do i need to do gs?
         return new_samples
 
     def sample_to_statelist(self):
         raise NotImplementedError
+
     def state_rule_to_sample(self):
         raise NotImplementedError
+
     def tokenize_target_rule(self):
         raise NotImplementedError
+
     def detokenize_action(self):
         raise NotImplementedError
+
     def REPL(self):
         raise NotImplementedError
+
     def GroundTruthModel(self):
         raise NotImplementedError
 
 
 class MiniscanRBBaseline(Model):
-    #robustfill baseline
+    # robustfill baseline
 
     def sample_to_statelist(self, sample):
-        #assume current sample API for now, can modify if needed
+        # assume current sample API for now, can modify if needed
 
         full_g = sample['grammar']
         full_rule_list = [str(r).split(' ') for r in full_g.rules]
 
-        examples = {Example(cur, tgt) for cur, tgt in zip(sample['xs'], sample['ys']) }
+        examples = {Example(cur, tgt) for cur, tgt in zip(sample['xs'], sample['ys'])}
         initial_state = State.new(examples)
 
         states = [initial_state]
@@ -261,48 +293,48 @@ class MiniscanRBBaseline(Model):
             rules = state.rules
         else:
             rules = state.rules + action
-        #print(rules)
-        #try:
+        # print(rules)
+        # try:
         g = parse_rules(rules, input_symbols=self.input_lang.symbols)
 
         new_examples = []
         for ex in state.examples:
-            #new_ex = Example(g.apply(' '.join(ex.current)).split(' '), ex.target )
-            #print('cur', tuple(g.apply(' '.join(ex.current)).split(' ')))
-            #print('tgt', ex.target)
+            # new_ex = Example(g.apply(' '.join(ex.current)).split(' '), ex.target )
+            # print('cur', tuple(g.apply(' '.join(ex.current)).split(' ')))
+            # print('tgt', ex.target)
             if tuple(g.apply(' '.join(ex.current), max_recursion_count=300).split()) != ex.target:
-                new_examples.append(ex) #i think this is right
-            #else: print('something got hit!')
+                new_examples.append(ex)  # i think this is right
+            # else: print('something got hit!')
 
         new_state = State(new_examples, rules)
         return new_state
 
     def state_rule_to_sample(self, state, rule):
-        #rule is the target rule, past_rules are the support rules
+        # rule is the target rule, past_rules are the support rules
         sample = {}
-        #print("PAST RULES INSIDE", past_rules)
-        #sample['grammar'] = #todo
+        # print("PAST RULES INSIDE", past_rules)
+        # sample['grammar'] = #todo
 
         tokenized_rules = self.tokenize_target_rule(rule)
-        #sample['grammar'] = sample['identifier'] = tokenized_rules
+        # sample['grammar'] = sample['identifier'] = tokenized_rules
         sample['grammar'] = tokenized_rules
         sample['identifier'] = "N/A"
         sample['g_padded'], sample['g_length'] = build_padded_var([tokenized_rules], self.prog_lang)
 
-        sample['g_sos_padded'],sample['g_sos_length'] = build_padded_var(
-                                                            [tokenized_rules], 
-                                                            self.prog_lang, 
-                                                            add_eos=False,
-                                                            add_sos=True) # (nq x max_length)
+        sample['g_sos_padded'], sample['g_sos_length'] = build_padded_var(
+            [tokenized_rules],
+            self.prog_lang,
+            add_eos=False,
+            add_sos=True)  # (nq x max_length)
 
-        r_support = [ self.tokenize_target_rule([past_r]) for past_r in state.rules] #past_rules ]
+        r_support = [self.tokenize_target_rule([past_r]) for past_r in state.rules]  # past_rules ]
         sample['rs'] = r_support
         if r_support:
-            #this is the line:
-            #print(r_support)
-            sample['rs_padded'],sample['rs_lengths'] = build_padded_var(r_support, self.prog_lang)
+            # this is the line:
+            # print(r_support)
+            sample['rs_padded'], sample['rs_lengths'] = build_padded_var(r_support, self.prog_lang)
         else:
-            sample['rs_padded'], sample['rs_lengths'] = [],[]
+            sample['rs_padded'], sample['rs_lengths'] = [], []
 
         x_support = []
         y_support = []
@@ -310,19 +342,21 @@ class MiniscanRBBaseline(Model):
             x_support.append(list(ex.current))
             y_support.append(list(ex.target))
 
-        sample['xs'] = x_support # support 
+        sample['xs'] = x_support  # support
         sample['ys'] = y_support
-        sample['xs_padded'],sample['xs_lengths'] = build_padded_var(x_support,self.input_lang) # (ns x max_length)
-        sample['ys_padded'],sample['ys_lengths'] = build_padded_var(y_support,self.output_lang) # (ns x max_length)
+        sample['xs_padded'], sample['xs_lengths'] = build_padded_var(x_support,
+                                                                     self.input_lang)  # (ns x max_length)
+        sample['ys_padded'], sample['ys_lengths'] = build_padded_var(y_support,
+                                                                     self.output_lang)  # (ns x max_length)
 
         return sample
 
-    def tokenize_target_rule(self, rule): #ONLY FOR MINISCAN
+    def tokenize_target_rule(self, rule):  # ONLY FOR MINISCAN
         tokenized_rules = []
         rl = len(rule)
         for i, r in enumerate(rule):
             tokenized_rules.extend(r)
-            if i+1 != rl: tokenized_rules.append('\n')
+            if i + 1 != rl: tokenized_rules.append('\n')
         return tokenized_rules
 
     def detokenize_action(self, action):
@@ -349,78 +383,81 @@ class MiniscanRBBaseline(Model):
 
         new_examples = []
         for ex in state.examples:
-            #try:
-            new_ex = Example(g.apply(' '.join(ex.current)).split(), ex.target )
+            # try:
+            new_ex = Example(g.apply(' '.join(ex.current)).split(), ex.target)
             # except:
             #     new_ex = '' #or somehting
-            new_examples.append(new_ex) #i think this is right
+            new_examples.append(new_ex)  # i think this is right
 
         new_state = State(new_examples, rules)
         return new_state
 
 
-
 class WordToNumber(MiniscanRBBaseline):
-    #use seenRules and unseenRules
+    # use seenRules and unseenRules
 
     def sample_to_statelist(self, sample):
-        #assume current sample API for now, can modify if needed
-        #full_g = sample['grammar']
-        
+        # assume current sample API for now, can modify if needed
+        # full_g = sample['grammar']
+
         if 'seenRules' in sample:
             full_rule_list = [str(r).split(' ') for r in sample['seenRules']]
 
-            full_rule_list = [[token for token in rule if not token == '(invalid)'] for rule in full_rule_list]
-        else: full_rule_list = []
+            full_rule_list = [[token for token in rule if not token == '(invalid)'] for rule in
+                              full_rule_list]
+        else:
+            full_rule_list = []
 
-        examples = {Example(cur, tgt) for cur, tgt in zip(sample['xs'], sample['ys']) }
-        initial_state = State(examples, [str(r).split(' ') for r in sample['unseenRules']] )
+        examples = {Example(cur, tgt) for cur, tgt in zip(sample['xs'], sample['ys'])}
+        initial_state = State(examples, [str(r).split(' ') for r in sample['unseenRules']])
 
         states = [initial_state]
         executed_actions = [full_rule_list]
         return states, executed_actions
 
     def state_rule_to_sample(self, state, rule):
-        #rule is the target rule, past_rules are the support rules
+        # rule is the target rule, past_rules are the support rules
         sample = {}
-        #print("PAST RULES INSIDE", past_rules)
-        #sample['grammar'] = #todo
+        # print("PAST RULES INSIDE", past_rules)
+        # sample['grammar'] = #todo
 
         tokenized_rules = self.tokenize_target_rule(rule)
-        #sample['grammar'] = sample['identifier'] = tokenized_rules
+        # sample['grammar'] = sample['identifier'] = tokenized_rules
         sample['grammar'] = tokenized_rules
         sample['identifier'] = "N/A"
         sample['g_padded'], sample['g_length'] = build_padded_var([tokenized_rules], self.prog_lang)
 
-        sample['g_sos_padded'],sample['g_sos_length'] = build_padded_var(
-                                                            [tokenized_rules], 
-                                                            self.prog_lang, 
-                                                            add_eos=False,
-                                                            add_sos=True) # (nq x max_length)
+        sample['g_sos_padded'], sample['g_sos_length'] = build_padded_var(
+            [tokenized_rules],
+            self.prog_lang,
+            add_eos=False,
+            add_sos=True)  # (nq x max_length)
 
-        #r_support = [ self.tokenize_target_rule([past_r]) for past_r in state.rules] #past_rules ]
+        # r_support = [ self.tokenize_target_rule([past_r]) for past_r in state.rules] #past_rules ]
         r_support = None
-        #if r_support: assert False #Need to think about htis
+        # if r_support: assert False #Need to think about htis
 
         sample['rs'] = r_support
         if r_support:
-            #this is the line:
-            #print(r_support)
-            sample['rs_padded'],sample['rs_lengths'] = build_padded_var(r_support, self.prog_lang)
+            # this is the line:
+            # print(r_support)
+            sample['rs_padded'], sample['rs_lengths'] = build_padded_var(r_support, self.prog_lang)
         else:
-            sample['rs_padded'], sample['rs_lengths'] = [],[]
+            sample['rs_padded'], sample['rs_lengths'] = [], []
 
         x_support = []
         y_support = []
         for ex in state.examples:
             x_support.append(list(ex.current))
 
-            y_support.append(self._digitize(ex.target)) #TODO
+            y_support.append(self._digitize(ex.target))  # TODO
 
-        sample['xs'] = x_support # support 
+        sample['xs'] = x_support  # support
         sample['ys'] = y_support
-        sample['xs_padded'],sample['xs_lengths'] = build_padded_var(x_support,self.input_lang) # (ns x max_length)
-        sample['ys_padded'],sample['ys_lengths'] = build_padded_var(y_support,self.output_lang) # (ns x max_length)
+        sample['xs_padded'], sample['xs_lengths'] = build_padded_var(x_support,
+                                                                     self.input_lang)  # (ns x max_length)
+        sample['ys_padded'], sample['ys_lengths'] = build_padded_var(y_support,
+                                                                     self.output_lang)  # (ns x max_length)
 
         return sample
 
@@ -439,18 +476,18 @@ class WordToNumber(MiniscanRBBaseline):
         assert input_symbols
         Rules = []
         for rule in rules:
-            #split into two on arrow
+            # split into two on arrow
             if '->' in rule:
                 idx = rule.index('->')
             else:
                 raise ParseError
             lhs = rule[:idx]
-            rhs = rule[idx+1:]
+            rhs = rule[idx + 1:]
 
             lhs = ' '.join(lhs)
             rhs = ' '.join(rhs)
             try:
-                Rules.append(NumberRule(lhs,rhs))
+                Rules.append(NumberRule(lhs, rhs))
             except IncompleteError:
                 raise ParseError
 
@@ -461,32 +498,32 @@ class WordToNumber(MiniscanRBBaseline):
             rules = state.rules
         else:
             rules = state.rules + action
-        #print(rules)
-        #try:
+        # print(rules)
+        # try:
         g = self._parse_rules(rules, input_symbols=self.input_lang.symbols)
-        #import pdb; pdb.set_trace()
+        # import pdb; pdb.set_trace()
 
         new_examples = []
         try:
             for ex in state.examples:
-                #new_ex = Example(g.apply(' '.join(ex.current)).split(' '), ex.target )
-                #print('cur', tuple(g.apply(' '.join(ex.current)).split(' ')))
-                #print('tgt', ex.target)
+                # new_ex = Example(g.apply(' '.join(ex.current)).split(' '), ex.target )
+                # print('cur', tuple(g.apply(' '.join(ex.current)).split(' ')))
+                # print('tgt', ex.target)
                 if g.apply(' '.join(ex.current)) != ex.target[0]:
-                    new_examples.append(ex) #i think this is right
-                #else: print('something got hit!')
+                    new_examples.append(ex)  # i think this is right
+                # else: print('something got hit!')
         except IncompleteError:
             raise REPLError
         new_state = State(new_examples, rules)
         return new_state
 
-    def tokenize_target_rule(self, rule): #ONLY FOR MINISCAN
+    def tokenize_target_rule(self, rule):  # ONLY FOR MINISCAN
         tokenized_rules = []
         rl = len(rule)
         for i, r in enumerate(rule):
-            #TODO digitize tokens in r
+            # TODO digitize tokens in r
             tokenized_rules.extend(r)
-            if i+1 != rl: tokenized_rules.append('\n')
+            if i + 1 != rl: tokenized_rules.append('\n')
         return tokenized_rules
 
     def GroundTruthModel(self, state, action):
@@ -500,18 +537,18 @@ class WordToNumber(MiniscanRBBaseline):
         new_examples = []
         for ex in state.examples:
             try:
-                new_ex = Example([g.apply(' '.join(ex.current))], ex.target ) #this is nasty 
+                new_ex = Example([g.apply(' '.join(ex.current))], ex.target)  # this is nasty
             except IncompleteError:
                 raise REPLError
             # except:
             #     new_ex = '' #or somehting
-            new_examples.append(new_ex) #i think this is right
+            new_examples.append(new_ex)  # i think this is right
 
         new_state = State(new_examples, rules)
         return new_state
 
-        #should be the same:
-        #def detokenize_action(self, action):
+        # should be the same:
+        # def detokenize_action(self, action):
         rules = []
         rule = []
         for token in action:
@@ -524,4 +561,3 @@ class WordToNumber(MiniscanRBBaseline):
         if rule != []:
             rules.append(rule)
         return rules
-

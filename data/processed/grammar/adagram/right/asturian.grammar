@@ -1,0 +1,673 @@
+==========Word==========
+False	1	Word -> Left RightSide
+==========Right==========
+False	1	Right -> Chars
+==========Char==========
+False	0.168718	Char -> 'a'
+False	0.138807	Char -> '<'
+False	0.130729	Char -> 'r'
+False	0.0710815	Char -> 'e'
+False	0.0572596	Char -> 'i'
+False	0.0448373	Char -> 'l'
+False	0.0432397	Char -> 'c'
+False	0.0387882	Char -> 'n'
+False	0.0386048	Char -> 'o'
+False	0.0364789	Char -> 's'
+False	0.0364483	Char -> 't'
+False	0.027333	Char -> 'm'
+False	0.0266741	Char -> 'u'
+False	0.0246448	Char -> 'p'
+False	0.0241611	Char -> 'd'
+False	0.0171777	Char -> 'f'
+False	0.0159411	Char -> 'g'
+False	0.0131349	Char -> 'b'
+False	0.0118984	Char -> 'x'
+False	0.00789956	Char -> 'v'
+False	0.00719302	Char -> 'y'
+False	0.00702537	Char -> 'ñ'
+False	0.00429318	Char -> 'h'
+False	0.00420956	Char -> 'z'
+False	0.00144169	Char -> '>'
+False	0.000969203	Char -> 'q'
+False	0.000339882	Char -> 'ü'
+False	0.000323942	Char -> 'ḥ'
+False	0.000185237	Char -> 'é'
+False	6.91697e-05	Char -> 'í'
+False	5.62409e-05	Char -> 'ó'
+False	2.85937e-05	Char -> 'ú'
+False	1.66867e-06	Char -> 'á'
+==========Chars==========
+False	0.85975	Chars -> Char Chars
+False	0.14025	Chars -> Char
+==========RightOp==========
+True	0.125148	RightOp -> DEL(r) > (RightOp -> Op Right, Op -> 'DEL(r)', Right -> Chars, Chars -> Char, Char -> '>')
+True	0.0735233	RightOp -> INS(a) > (RightOp -> Op Right, Op -> 'INS(a)', Right -> Chars, Chars -> Char, Char -> '>')
+True	0.0732319	RightOp -> INS(e) > (RightOp -> Op Right, Op -> 'INS(e)', Right -> Chars, Chars -> Char, Char -> '>')
+True	0.0725483	RightOp -> INS(bais) > (RightOp -> Op Right, Op -> 'INS(bais)', Right -> Chars, Chars -> Char, Char -> '>')
+True	0.048542	RightOp -> INS(os) > (RightOp -> Op Right, Op -> 'INS(os)', Right -> Chars, Chars -> Char, Char -> '>')
+True	0.0485201	RightOp -> INS(o) > (RightOp -> Op Right, Op -> 'INS(o)', Right -> Chars, Chars -> Char, Char -> '>')
+True	0.0480215	RightOp -> INS(mos) > (RightOp -> Op Right, Op -> 'INS(mos)', Right -> Chars, Chars -> Char, Char -> '>')
+True	0.0255245	RightOp -> DEL(ar) > (RightOp -> Op Right, Op -> 'DEL(ar)', Right -> Chars, Chars -> Char, Char -> '>')
+True	0.0251207	RightOp -> INS(as) > (RightOp -> Op Right, Op -> 'INS(as)', Right -> Chars, Chars -> Char, Char -> '>')
+True	0.02498	RightOp -> INS(emos) > (RightOp -> Op Right, Op -> 'INS(emos)', Right -> Chars, Chars -> Char, Char -> '>')
+True	0.0249451	RightOp -> DEL(a) r > (RightOp -> Op Right, Op -> 'DEL(a)', Right -> Chars, Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	0.0249241	RightOp -> INS(amos) > (RightOp -> Op Right, Op -> 'INS(amos)', Right -> Chars, Chars -> Char, Char -> '>')
+True	0.0247422	RightOp -> INS(éis) > (RightOp -> Op Right, Op -> 'INS(éis)', Right -> Chars, Chars -> Char, Char -> '>')
+True	0.0247059	RightOp -> INS(á) > (RightOp -> Op Right, Op -> 'INS(á)', Right -> Chars, Chars -> Char, Char -> '>')
+True	0.0246073	RightOp -> INS(ais) > (RightOp -> Op Right, Op -> 'INS(ais)', Right -> Chars, Chars -> Char, Char -> '>')
+True	0.0244981	RightOp -> INS(íamos) > (RightOp -> Op Right, Op -> 'INS(íamos)', Right -> Chars, Chars -> Char, Char -> '>')
+True	0.0244186	RightOp -> DEL(ir) > (RightOp -> Op Right, Op -> 'DEL(ir)', Right -> Chars, Chars -> Char, Char -> '>')
+True	0.0243721	RightOp -> DEL(ra) r > (RightOp -> Op Right, Op -> 'DEL(ra)', Right -> Chars, Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	0.0243113	RightOp -> INS(áu) > (RightOp -> Op Right, Op -> 'INS(áu)', Right -> Chars, Chars -> Char, Char -> '>')
+True	0.0242654	RightOp -> INS(áis) > (RightOp -> Op Right, Op -> 'INS(áis)', Right -> Chars, Chars -> Char, Char -> '>')
+True	0.0241236	RightOp -> INS(é) > (RightOp -> Op Right, Op -> 'INS(é)', Right -> Chars, Chars -> Char, Char -> '>')
+True	0.0237775	RightOp -> INS(cemos) > (RightOp -> Op Right, Op -> 'INS(cemos)', Right -> Chars, Chars -> Char, Char -> '>')
+True	0.0233799	RightOp -> INS(stis) > (RightOp -> Op Right, Op -> 'INS(stis)', Right -> Chars, Chars -> Char, Char -> '>')
+True	0.0233788	RightOp -> INS(íeis) > (RightOp -> Op Right, Op -> 'INS(íeis)', Right -> Chars, Chars -> Char, Char -> '>')
+True	0.0223447	RightOp -> INS(ó) > (RightOp -> Op Right, Op -> 'INS(ó)', Right -> Chars, Chars -> Char, Char -> '>')
+True	0.0220029	RightOp -> INS(i) e r > (RightOp -> Op Right, Op -> 'INS(i)', Right -> Chars, Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	0.0184839	RightOp -> INS(ist) i r > (RightOp -> Op Right, Op -> 'INS(ist)', Right -> Chars, Chars -> Char Chars, Char -> 'i', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	0.00144038	RightOp -> INS(á) r > (RightOp -> Op Right, Op -> 'INS(á)', Right -> Chars, Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	0.000995857	RightOp -> INS(es) > (RightOp -> Op Right, Op -> 'INS(es)', Right -> Chars, Chars -> Char, Char -> '>')
+True	0.000810413	RightOp -> INS(ad) a r > (RightOp -> Op Right, Op -> 'INS(ad)', Right -> Chars, Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	0.000724167	RightOp -> INS(mose) m o s a r > (RightOp -> Op Right, Op -> 'INS(mose)', Right -> Chars, Chars -> Char Chars, Char -> 'm', Chars -> Char Chars, Char -> 'o', Chars -> Char Chars, Char -> 's', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	0.00046378	RightOp -> INS(ab) a r > (RightOp -> Op Right, Op -> 'INS(ab)', Right -> Chars, Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	0.000460508	RightOp -> INS(en) > (RightOp -> Op Right, Op -> 'INS(en)', Right -> Chars, Chars -> Char, Char -> '>')
+True	0.000456208	RightOp -> DEL(car) > (RightOp -> Op Right, Op -> 'DEL(car)', Right -> Chars, Chars -> Char, Char -> '>')
+True	0.000452859	RightOp -> INS(beis) > (RightOp -> Op Right, Op -> 'INS(beis)', Right -> Chars, Chars -> Char, Char -> '>')
+True	0.000450286	RightOp -> INS(an) > (RightOp -> Op Right, Op -> 'INS(an)', Right -> Chars, Chars -> Char, Char -> '>')
+True	0.00044869	RightOp -> INS(íemos) > (RightOp -> Op Right, Op -> 'INS(íemos)', Right -> Chars, Chars -> Char, Char -> '>')
+True	0.000447952	RightOp -> INS(ái) > (RightOp -> Op Right, Op -> 'INS(ái)', Right -> Chars, Chars -> Char, Char -> '>')
+True	0.000445466	RightOp -> INS(ás) > (RightOp -> Op Right, Op -> 'INS(ás)', Right -> Chars, Chars -> Char, Char -> '>')
+True	0.000276269	RightOp -> INS(án) > (RightOp -> Op Right, Op -> 'INS(án)', Right -> Chars, Chars -> Char, Char -> '>')
+True	0.000274759	RightOp -> INS(ndo) > (RightOp -> Op Right, Op -> 'INS(ndo)', Right -> Chars, Chars -> Char, Char -> '>')
+True	0.000272469	RightOp -> INS(estis) > (RightOp -> Op Right, Op -> 'INS(estis)', Right -> Chars, Chars -> Char, Char -> '>')
+True	0.000272313	RightOp -> INS(eis) > (RightOp -> Op Right, Op -> 'INS(eis)', Right -> Chars, Chars -> Char, Char -> '>')
+True	0.000270486	RightOp -> INS(sti) > (RightOp -> Op Right, Op -> 'INS(sti)', Right -> Chars, Chars -> Char, Char -> '>')
+True	0.000269807	RightOp -> INS(ía) > (RightOp -> Op Right, Op -> 'INS(ía)', Right -> Chars, Chars -> Char, Char -> '>')
+True	0.000267423	RightOp -> INS(bes) > (RightOp -> Op Right, Op -> 'INS(bes)', Right -> Chars, Chars -> Char, Char -> '>')
+True	0.00026618	RightOp -> INS(s) > (RightOp -> Op Right, Op -> 'INS(s)', Right -> Chars, Chars -> Char, Char -> '>')
+True	0.000104176	RightOp -> DEL(o) y e r > (RightOp -> Op Right, Op -> 'DEL(o)', Right -> Chars, Chars -> Char Chars, Char -> 'y', Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	9.92484e-05	RightOp -> DEL(ye) r > (RightOp -> Op Right, Op -> 'DEL(ye)', Right -> Chars, Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	9.88492e-05	RightOp -> INS(n) > (RightOp -> Op Right, Op -> 'INS(n)', Right -> Chars, Chars -> Char, Char -> '>')
+True	9.87157e-05	RightOp -> INS(ben) > (RightOp -> Op Right, Op -> 'INS(ben)', Right -> Chars, Chars -> Char, Char -> '>')
+True	9.74353e-05	RightOp -> INS(íen) > (RightOp -> Op Right, Op -> 'INS(íen)', Right -> Chars, Chars -> Char, Char -> '>')
+True	9.71836e-05	RightOp -> INS(ábemos) > (RightOp -> Op Right, Op -> 'INS(ábemos)', Right -> Chars, Chars -> Char, Char -> '>')
+True	9.70486e-05	RightOp -> DEL(er) > (RightOp -> Op Right, Op -> 'DEL(er)', Right -> Chars, Chars -> Char, Char -> '>')
+True	9.69146e-05	RightOp -> INS(íes) > (RightOp -> Op Right, Op -> 'INS(íes)', Right -> Chars, Chars -> Char, Char -> '>')
+True	9.67752e-05	RightOp -> INS(quen) > (RightOp -> Op Right, Op -> 'INS(quen)', Right -> Chars, Chars -> Char, Char -> '>')
+True	9.66417e-05	RightOp -> INS(on) > (RightOp -> Op Right, Op -> 'INS(on)', Right -> Chars, Chars -> Char, Char -> '>')
+True	9.56942e-05	RightOp -> INS(i) e n z a r > (RightOp -> Op Right, Op -> 'INS(i)', Right -> Chars, Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'n', Chars -> Char Chars, Char -> 'z', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	9.54325e-05	RightOp -> INS(osem) o s a r > (RightOp -> Op Right, Op -> 'INS(osem)', Right -> Chars, Chars -> Char Chars, Char -> 'o', Chars -> Char Chars, Char -> 's', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	9.53024e-05	RightOp -> INS(ix) e r e r > (RightOp -> Op Right, Op -> 'INS(ix)', Right -> Chars, Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	9.5174e-05	RightOp -> DEL(o) r d a r > (RightOp -> Op Right, Op -> 'DEL(o)', Right -> Chars, Chars -> Char Chars, Char -> 'r', Chars -> Char Chars, Char -> 'd', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	9.49488e-05	RightOp -> INS(ne) n a r > (RightOp -> Op Right, Op -> 'INS(ne)', Right -> Chars, Chars -> Char Chars, Char -> 'n', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	9.47554e-05	RightOp -> INS(áb) a r > (RightOp -> Op Right, Op -> 'INS(áb)', Right -> Chars, Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	9.46268e-05	RightOp -> INS(yí) e r > (RightOp -> Op Right, Op -> 'INS(yí)', Right -> Chars, Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	9.44568e-05	RightOp -> INS(íais) > (RightOp -> Op Right, Op -> 'INS(íais)', Right -> Chars, Chars -> Char, Char -> '>')
+True	9.43293e-05	RightOp -> DEL(zar) > (RightOp -> Op Right, Op -> 'DEL(zar)', Right -> Chars, Chars -> Char, Char -> '>')
+True	9.40286e-05	RightOp -> INS(í) > (RightOp -> Op Right, Op -> 'INS(í)', Right -> Chars, Chars -> Char, Char -> '>')
+True	9.36704e-05	RightOp -> INS(ue) > (RightOp -> Op Right, Op -> 'INS(ue)', Right -> Chars, Chars -> Char, Char -> '>')
+True	9.34686e-05	RightOp -> INS(esti) > (RightOp -> Op Right, Op -> 'INS(esti)', Right -> Chars, Chars -> Char, Char -> '>')
+True	9.32672e-05	RightOp -> INS(da) > (RightOp -> Op Right, Op -> 'INS(da)', Right -> Chars, Chars -> Char, Char -> '>')
+True	9.30602e-05	RightOp -> INS(u) d e r > (RightOp -> Op Right, Op -> 'INS(u)', Right -> Chars, Chars -> Char Chars, Char -> 'd', Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	9.28583e-05	RightOp -> INS(u) a r > (RightOp -> Op Right, Op -> 'INS(u)', Right -> Chars, Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	9.26583e-05	RightOp -> INS(í) i r > (RightOp -> Op Right, Op -> 'INS(í)', Right -> Chars, Chars -> Char Chars, Char -> 'i', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	9.24587e-05	RightOp -> DEL(er) e r > (RightOp -> Op Right, Op -> 'DEL(er)', Right -> Chars, Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	9.22595e-05	RightOp -> INS(x) e r > (RightOp -> Op Right, Op -> 'INS(x)', Right -> Chars, Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	9.20601e-05	RightOp -> INS(uvié) r > (RightOp -> Op Right, Op -> 'INS(uvié)', Right -> Chars, Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	9.18618e-05	RightOp -> INS(fue) r > (RightOp -> Op Right, Op -> 'INS(fue)', Right -> Chars, Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	9.16638e-05	RightOp -> INS(i) e n d a r > (RightOp -> Op Right, Op -> 'INS(i)', Right -> Chars, Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'n', Chars -> Char Chars, Char -> 'd', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	9.14663e-05	RightOp -> INS(enc) e n z a r > (RightOp -> Op Right, Op -> 'INS(enc)', Right -> Chars, Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'n', Chars -> Char Chars, Char -> 'z', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	9.12691e-05	RightOp -> INS(cen) > (RightOp -> Op Right, Op -> 'INS(cen)', Right -> Chars, Chars -> Char, Char -> '>')
+True	9.10725e-05	RightOp -> INS(ío) > (RightOp -> Op Right, Op -> 'INS(ío)', Right -> Chars, Chars -> Char, Char -> '>')
+True	9.08763e-05	RightOp -> INS(sái) s a r > (RightOp -> Op Right, Op -> 'INS(sái)', Right -> Chars, Chars -> Char Chars, Char -> 's', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	9.06806e-05	RightOp -> INS(aí) a e r > (RightOp -> Op Right, Op -> 'INS(aí)', Right -> Chars, Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	9.04852e-05	RightOp -> INS(iest) i r > (RightOp -> Op Right, Op -> 'INS(iest)', Right -> Chars, Chars -> Char Chars, Char -> 'i', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	9.02903e-05	RightOp -> INS(á) i r > (RightOp -> Op Right, Op -> 'INS(á)', Right -> Chars, Chars -> Char Chars, Char -> 'i', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	9.00957e-05	RightOp -> INS(é) r > (RightOp -> Op Right, Op -> 'INS(é)', Right -> Chars, Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	8.99017e-05	RightOp -> DEL(ri) r > (RightOp -> Op Right, Op -> 'DEL(ri)', Right -> Chars, Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	8.94319e-05	RightOp -> INS(da) d a r > (RightOp -> Op Right, Op -> 'INS(da)', Right -> Chars, Chars -> Char Chars, Char -> 'd', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	8.91566e-05	RightOp -> DEL(der) > (RightOp -> Op Right, Op -> 'DEL(der)', Right -> Chars, Chars -> Char, Char -> '>')
+True	8.88821e-05	RightOp -> DEL(oder) > (RightOp -> Op Right, Op -> 'DEL(oder)', Right -> Chars, Chars -> Char, Char -> '>')
+True	8.86085e-05	RightOp -> INS(icimos) > (RightOp -> Op Right, Op -> 'INS(icimos)', Right -> Chars, Chars -> Char, Char -> '>')
+True	8.78596e-05	RightOp -> DEL(e) r > (RightOp -> Op Right, Op -> 'DEL(e)', Right -> Chars, Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	8.7386e-05	RightOp -> INS(d) r > (RightOp -> Op Right, Op -> 'INS(d)', Right -> Chars, Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	8.6915e-05	RightOp -> INS(uvie) r > (RightOp -> Op Right, Op -> 'INS(uvie)', Right -> Chars, Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	8.64465e-05	RightOp -> INS(i) e s l l a r > (RightOp -> Op Right, Op -> 'INS(i)', Right -> Chars, Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 's', Chars -> Char Chars, Char -> 'l', Chars -> Char Chars, Char -> 'l', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	8.59805e-05	RightOp -> INS(ces) > (RightOp -> Op Right, Op -> 'INS(ces)', Right -> Chars, Chars -> Char, Char -> '>')
+True	8.55171e-05	RightOp -> DEL(oyer) > (RightOp -> Op Right, Op -> 'DEL(oyer)', Right -> Chars, Chars -> Char, Char -> '>')
+True	8.50561e-05	RightOp -> DEL(oner) > (RightOp -> Op Right, Op -> 'DEL(oner)', Right -> Chars, Chars -> Char, Char -> '>')
+True	8.45976e-05	RightOp -> INS(í) e r > (RightOp -> Op Right, Op -> 'INS(í)', Right -> Chars, Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	8.41416e-05	RightOp -> INS(iá) i a r > (RightOp -> Op Right, Op -> 'INS(iá)', Right -> Chars, Chars -> Char Chars, Char -> 'i', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	8.36881e-05	RightOp -> INS(ue) y e r > (RightOp -> Op Right, Op -> 'INS(ue)', Right -> Chars, Chars -> Char Chars, Char -> 'y', Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	8.3237e-05	RightOp -> INS(i) e s t a r > (RightOp -> Op Right, Op -> 'INS(i)', Right -> Chars, Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 's', Chars -> Char Chars, Char -> 't', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	8.27883e-05	RightOp -> DEL(ar) a r > (RightOp -> Op Right, Op -> 'DEL(ar)', Right -> Chars, Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	8.23421e-05	RightOp -> DEL(s) e r > (RightOp -> Op Right, Op -> 'DEL(s)', Right -> Chars, Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	8.18982e-05	RightOp -> INS(uvimos) > (RightOp -> Op Right, Op -> 'INS(uvimos)', Right -> Chars, Chars -> Char, Char -> '>')
+True	8.14568e-05	RightOp -> DEL(rzar) > (RightOp -> Op Right, Op -> 'DEL(rzar)', Right -> Chars, Chars -> Char, Char -> '>')
+True	8.10177e-05	RightOp -> INS(qué) > (RightOp -> Op Right, Op -> 'INS(qué)', Right -> Chars, Chars -> Char, Char -> '>')
+True	8.0581e-05	RightOp -> DEL(yer) > (RightOp -> Op Right, Op -> 'DEL(yer)', Right -> Chars, Chars -> Char, Char -> '>')
+True	8.01466e-05	RightOp -> INS(ue) y a r > (RightOp -> Op Right, Op -> 'INS(ue)', Right -> Chars, Chars -> Char Chars, Char -> 'y', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	7.97146e-05	RightOp -> INS(e) r > (RightOp -> Op Right, Op -> 'INS(e)', Right -> Chars, Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	7.92849e-05	RightOp -> DEL(di) r > (RightOp -> Op Right, Op -> 'DEL(di)', Right -> Chars, Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	7.88576e-05	RightOp -> INS(ix) e r > (RightOp -> Op Right, Op -> 'INS(ix)', Right -> Chars, Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	7.84325e-05	RightOp -> INS(uestu) > (RightOp -> Op Right, Op -> 'INS(uestu)', Right -> Chars, Chars -> Char, Char -> '>')
+True	7.80097e-05	RightOp -> DEL(o) d e r > (RightOp -> Op Right, Op -> 'DEL(o)', Right -> Chars, Chars -> Char Chars, Char -> 'd', Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	7.75892e-05	RightOp -> INS(fó) r > (RightOp -> Op Right, Op -> 'INS(fó)', Right -> Chars, Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	7.7171e-05	RightOp -> INS(uvi) e r > (RightOp -> Op Right, Op -> 'INS(uvi)', Right -> Chars, Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	7.6755e-05	RightOp -> INS(íe) i r > (RightOp -> Op Right, Op -> 'INS(íe)', Right -> Chars, Chars -> Char Chars, Char -> 'i', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	7.63413e-05	RightOp -> INS(gáis) > (RightOp -> Op Right, Op -> 'INS(gáis)', Right -> Chars, Chars -> Char, Char -> '>')
+True	7.59298e-05	RightOp -> INS(uen) > (RightOp -> Op Right, Op -> 'INS(uen)', Right -> Chars, Chars -> Char, Char -> '>')
+True	7.55205e-05	RightOp -> DEL(é) s > (RightOp -> Op Right, Op -> 'DEL(é)', Right -> Chars, Chars -> Char Chars, Char -> 's', Chars -> Char, Char -> '>')
+True	7.51134e-05	RightOp -> INS(ue) r z a r > (RightOp -> Op Right, Op -> 'INS(ue)', Right -> Chars, Chars -> Char Chars, Char -> 'r', Chars -> Char Chars, Char -> 'z', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	7.31226e-05	RightOp -> INS(ía) i r > (RightOp -> Op Right, Op -> 'INS(ía)', Right -> Chars, Chars -> Char Chars, Char -> 'i', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	7.15704e-05	RightOp -> INS(y) e r > (RightOp -> Op Right, Op -> 'INS(y)', Right -> Chars, Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	7.00511e-05	RightOp -> INS(sesti) s a r > (RightOp -> Op Right, Op -> 'INS(sesti)', Right -> Chars, Chars -> Char Chars, Char -> 's', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	6.85641e-05	RightOp -> INS(uéis) > (RightOp -> Op Right, Op -> 'INS(uéis)', Right -> Chars, Chars -> Char, Char -> '>')
+True	6.71086e-05	RightOp -> INS(i) > (RightOp -> Op Right, Op -> 'INS(i)', Right -> Chars, Chars -> Char, Char -> '>')
+True	6.5684e-05	RightOp -> INS(chu) > (RightOp -> Op Right, Op -> 'INS(chu)', Right -> Chars, Chars -> Char, Char -> '>')
+True	6.42897e-05	RightOp -> DEL(u) > (RightOp -> Op Right, Op -> 'DEL(u)', Right -> Chars, Chars -> Char, Char -> '>')
+True	6.2925e-05	RightOp -> INS(gas) > (RightOp -> Op Right, Op -> 'INS(gas)', Right -> Chars, Chars -> Char, Char -> '>')
+True	6.15892e-05	RightOp -> DEL(ae) r > (RightOp -> Op Right, Op -> 'DEL(ae)', Right -> Chars, Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	6.02818e-05	RightOp -> DEL(ó) n > (RightOp -> Op Right, Op -> 'DEL(ó)', Right -> Chars, Chars -> Char Chars, Char -> 'n', Chars -> Char, Char -> '>')
+True	5.90021e-05	RightOp -> INS(drí) e r > (RightOp -> Op Right, Op -> 'INS(drí)', Right -> Chars, Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	5.77497e-05	RightOp -> INS(íos) > (RightOp -> Op Right, Op -> 'INS(íos)', Right -> Chars, Chars -> Char, Char -> '>')
+True	5.65238e-05	RightOp -> INS(is) > (RightOp -> Op Right, Op -> 'INS(is)', Right -> Chars, Chars -> Char, Char -> '>')
+True	5.53239e-05	RightOp -> INS(ié) r > (RightOp -> Op Right, Op -> 'INS(ié)', Right -> Chars, Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	5.41495e-05	RightOp -> DEL(rca) r > (RightOp -> Op Right, Op -> 'DEL(rca)', Right -> Chars, Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	5.3e-05	RightOp -> INS(i) e r r a r > (RightOp -> Op Right, Op -> 'INS(i)', Right -> Chars, Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char Chars, Char -> 'r', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	5.18749e-05	RightOp -> DEL(o) n e r > (RightOp -> Op Right, Op -> 'DEL(o)', Right -> Chars, Chars -> Char Chars, Char -> 'n', Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	5.07737e-05	RightOp -> INS(ues) o s a r > (RightOp -> Op Right, Op -> 'INS(ues)', Right -> Chars, Chars -> Char Chars, Char -> 'o', Chars -> Char Chars, Char -> 's', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+False	5.0176e-05	RightOp -> Op Right
+True	4.96959e-05	RightOp -> INS(uemos) > (RightOp -> Op Right, Op -> 'INS(uemos)', Right -> Chars, Chars -> Char, Char -> '>')
+True	4.8641e-05	RightOp -> INS(zo) > (RightOp -> Op Right, Op -> 'INS(zo)', Right -> Chars, Chars -> Char, Char -> '>')
+True	4.76084e-05	RightOp -> DEL(coyer) > (RightOp -> Op Right, Op -> 'DEL(coyer)', Right -> Chars, Chars -> Char, Char -> '>')
+True	4.65978e-05	RightOp -> INS(icié) r > (RightOp -> Op Right, Op -> 'INS(icié)', Right -> Chars, Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	4.56086e-05	RightOp -> INS(e) d x > (RightOp -> Op Right, Op -> 'INS(e)', Right -> Chars, Chars -> Char Chars, Char -> 'd', Chars -> Char Chars, Char -> 'x', Chars -> Char, Char -> '>')
+True	4.46404e-05	RightOp -> INS(íu) > (RightOp -> Op Right, Op -> 'INS(íu)', Right -> Chars, Chars -> Char, Char -> '>')
+True	4.36928e-05	RightOp -> DEL(acer) > (RightOp -> Op Right, Op -> 'DEL(acer)', Right -> Chars, Chars -> Char, Char -> '>')
+True	4.27653e-05	RightOp -> INS(cestis) > (RightOp -> Op Right, Op -> 'INS(cestis)', Right -> Chars, Chars -> Char, Char -> '>')
+True	4.18575e-05	RightOp -> INS(ue) r d a r > (RightOp -> Op Right, Op -> 'INS(ue)', Right -> Chars, Chars -> Char Chars, Char -> 'r', Chars -> Char Chars, Char -> 'd', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	4.0969e-05	RightOp -> INS(se) s a r > (RightOp -> Op Right, Op -> 'INS(se)', Right -> Chars, Chars -> Char Chars, Char -> 's', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	4.00993e-05	RightOp -> DEL(a) c e r > (RightOp -> Op Right, Op -> 'DEL(a)', Right -> Chars, Chars -> Char Chars, Char -> 'c', Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	3.92481e-05	RightOp -> INS(ques) > (RightOp -> Op Right, Op -> 'INS(ques)', Right -> Chars, Chars -> Char, Char -> '>')
+True	3.84149e-05	RightOp -> INS(fuestis) > (RightOp -> Op Right, Op -> 'INS(fuestis)', Right -> Chars, Chars -> Char, Char -> '>')
+True	3.75994e-05	RightOp -> INS(gan) > (RightOp -> Op Right, Op -> 'INS(gan)', Right -> Chars, Chars -> Char, Char -> '>')
+True	3.68013e-05	RightOp -> INS(quéis) > (RightOp -> Op Right, Op -> 'INS(quéis)', Right -> Chars, Chars -> Char, Char -> '>')
+True	3.60201e-05	RightOp -> INS(i) e r e d a r > (RightOp -> Op Right, Op -> 'INS(i)', Right -> Chars, Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'd', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	3.52554e-05	RightOp -> INS(ixi) e r e r > (RightOp -> Op Right, Op -> 'INS(ixi)', Right -> Chars, Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	3.4507e-05	RightOp -> DEL(cer) > (RightOp -> Op Right, Op -> 'DEL(cer)', Right -> Chars, Chars -> Char, Char -> '>')
+True	3.37745e-05	RightOp -> INS(z) > (RightOp -> Op Right, Op -> 'INS(z)', Right -> Chars, Chars -> Char, Char -> '>')
+True	3.30576e-05	RightOp -> INS(xo) > (RightOp -> Op Right, Op -> 'INS(xo)', Right -> Chars, Chars -> Char, Char -> '>')
+True	3.23558e-05	RightOp -> INS(unxisti) > (RightOp -> Op Right, Op -> 'INS(unxisti)', Right -> Chars, Chars -> Char, Char -> '>')
+True	3.1669e-05	RightOp -> INS(es) e s a r > (RightOp -> Op Right, Op -> 'INS(es)', Right -> Chars, Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 's', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	3.09967e-05	RightOp -> INS(nque) n c a r > (RightOp -> Op Right, Op -> 'INS(nque)', Right -> Chars, Chars -> Char Chars, Char -> 'n', Chars -> Char Chars, Char -> 'c', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	3.03387e-05	RightOp -> DEL(ace) r > (RightOp -> Op Right, Op -> 'DEL(ace)', Right -> Chars, Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	2.96947e-05	RightOp -> DEL(lar) > (RightOp -> Op Right, Op -> 'DEL(lar)', Right -> Chars, Chars -> Char, Char -> '>')
+True	2.90643e-05	RightOp -> INS(d) r e r > (RightOp -> Op Right, Op -> 'INS(d)', Right -> Chars, Chars -> Char Chars, Char -> 'r', Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	2.84474e-05	RightOp -> DEL(o) ñ a r > (RightOp -> Op Right, Op -> 'DEL(o)', Right -> Chars, Chars -> Char Chars, Char -> 'ñ', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	2.78435e-05	RightOp -> DEL(en) e r > (RightOp -> Op Right, Op -> 'DEL(en)', Right -> Chars, Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	2.72524e-05	RightOp -> INS(ici) e r > (RightOp -> Op Right, Op -> 'INS(ici)', Right -> Chars, Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	2.66739e-05	RightOp -> INS(iest) i a r > (RightOp -> Op Right, Op -> 'INS(iest)', Right -> Chars, Chars -> Char Chars, Char -> 'i', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	2.61077e-05	RightOp -> DEL(ce) r > (RightOp -> Op Right, Op -> 'DEL(ce)', Right -> Chars, Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	2.55535e-05	RightOp -> DEL(á) n > (RightOp -> Op Right, Op -> 'DEL(á)', Right -> Chars, Chars -> Char Chars, Char -> 'n', Chars -> Char, Char -> '>')
+True	2.5011e-05	RightOp -> INS(i) e n t a r > (RightOp -> Op Right, Op -> 'INS(i)', Right -> Chars, Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'n', Chars -> Char Chars, Char -> 't', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	2.44801e-05	RightOp -> INS(ue) n d e r > (RightOp -> Op Right, Op -> 'INS(ue)', Right -> Chars, Chars -> Char Chars, Char -> 'n', Chars -> Char Chars, Char -> 'd', Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	2.39604e-05	RightOp -> INS(questi) > (RightOp -> Op Right, Op -> 'INS(questi)', Right -> Chars, Chars -> Char, Char -> '>')
+True	2.34518e-05	RightOp -> DEL(ir) i r > (RightOp -> Op Right, Op -> 'DEL(ir)', Right -> Chars, Chars -> Char Chars, Char -> 'i', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	2.2954e-05	RightOp -> INS(vaya) > (RightOp -> Op Right, Op -> 'INS(vaya)', Right -> Chars, Chars -> Char, Char -> '>')
+True	2.24667e-05	RightOp -> INS(bá) b a r > (RightOp -> Op Right, Op -> 'INS(bá)', Right -> Chars, Chars -> Char Chars, Char -> 'b', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	2.19898e-05	RightOp -> INS(uestis) > (RightOp -> Op Right, Op -> 'INS(uestis)', Right -> Chars, Chars -> Char, Char -> '>')
+True	2.1523e-05	RightOp -> INS(gamos) > (RightOp -> Op Right, Op -> 'INS(gamos)', Right -> Chars, Chars -> Char, Char -> '>')
+True	2.10661e-05	RightOp -> DEL(aer) > (RightOp -> Op Right, Op -> 'DEL(aer)', Right -> Chars, Chars -> Char, Char -> '>')
+True	2.06189e-05	RightOp -> INS(cíamos) > (RightOp -> Op Right, Op -> 'INS(cíamos)', Right -> Chars, Chars -> Char, Char -> '>')
+True	2.01812e-05	RightOp -> INS(u) n e r > (RightOp -> Op Right, Op -> 'INS(u)', Right -> Chars, Chars -> Char Chars, Char -> 'n', Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	1.97528e-05	RightOp -> INS(fost) i r > (RightOp -> Op Right, Op -> 'INS(fost)', Right -> Chars, Chars -> Char Chars, Char -> 'i', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	1.93335e-05	RightOp -> INS(semo) s a r > (RightOp -> Op Right, Op -> 'INS(semo)', Right -> Chars, Chars -> Char Chars, Char -> 's', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	1.89231e-05	RightOp -> INS(que) > (RightOp -> Op Right, Op -> 'INS(que)', Right -> Chars, Chars -> Char, Char -> '>')
+True	1.85214e-05	RightOp -> INS(ues) > (RightOp -> Op Right, Op -> 'INS(ues)', Right -> Chars, Chars -> Char, Char -> '>')
+True	1.81282e-05	RightOp -> INS(ú) > (RightOp -> Op Right, Op -> 'INS(ú)', Right -> Chars, Chars -> Char, Char -> '>')
+True	1.77434e-05	RightOp -> INS(yendo) > (RightOp -> Op Right, Op -> 'INS(yendo)', Right -> Chars, Chars -> Char, Char -> '>')
+True	1.73668e-05	RightOp -> DEL(ac) e r > (RightOp -> Op Right, Op -> 'DEL(ac)', Right -> Chars, Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	1.69981e-05	RightOp -> INS(i) r > (RightOp -> Op Right, Op -> 'INS(i)', Right -> Chars, Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	1.66373e-05	RightOp -> INS(ce) > (RightOp -> Op Right, Op -> 'INS(ce)', Right -> Chars, Chars -> Char, Char -> '>')
+True	1.62841e-05	RightOp -> INS(ué) > (RightOp -> Op Right, Op -> 'INS(ué)', Right -> Chars, Chars -> Char, Char -> '>')
+True	1.59384e-05	RightOp -> INS(ya) > (RightOp -> Op Right, Op -> 'INS(ya)', Right -> Chars, Chars -> Char, Char -> '>')
+True	1.56001e-05	RightOp -> DEL(cir) > (RightOp -> Op Right, Op -> 'DEL(cir)', Right -> Chars, Chars -> Char, Char -> '>')
+True	1.52689e-05	RightOp -> INS(en) e n a r > (RightOp -> Op Right, Op -> 'INS(en)', Right -> Chars, Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'n', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	1.49448e-05	RightOp -> INS(ís) > (RightOp -> Op Right, Op -> 'INS(ís)', Right -> Chars, Chars -> Char, Char -> '>')
+True	1.46275e-05	RightOp -> DEL(ene) r > (RightOp -> Op Right, Op -> 'DEL(ene)', Right -> Chars, Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	1.4317e-05	RightOp -> DEL(dir) > (RightOp -> Op Right, Op -> 'DEL(dir)', Right -> Chars, Chars -> Char, Char -> '>')
+True	1.40131e-05	RightOp -> INS(i) c e r > (RightOp -> Op Right, Op -> 'INS(i)', Right -> Chars, Chars -> Char Chars, Char -> 'c', Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	1.37156e-05	RightOp -> INS(xí) > (RightOp -> Op Right, Op -> 'INS(xí)', Right -> Chars, Chars -> Char, Char -> '>')
+True	1.34245e-05	RightOp -> INS(endo) > (RightOp -> Op Right, Op -> 'INS(endo)', Right -> Chars, Chars -> Char, Char -> '>')
+True	1.31395e-05	RightOp -> INS(questis) > (RightOp -> Op Right, Op -> 'INS(questis)', Right -> Chars, Chars -> Char, Char -> '>')
+True	1.28606e-05	RightOp -> INS(uvotevo) > (RightOp -> Op Right, Op -> 'INS(uvotevo)', Right -> Chars, Chars -> Char, Char -> '>')
+True	1.25876e-05	RightOp -> INS(fu) e r > (RightOp -> Op Right, Op -> 'INS(fu)', Right -> Chars, Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	1.23204e-05	RightOp -> INS(ixé) r e r > (RightOp -> Op Right, Op -> 'INS(ixé)', Right -> Chars, Chars -> Char Chars, Char -> 'r', Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	1.20588e-05	RightOp -> INS(ist) i s t i r > (RightOp -> Op Right, Op -> 'INS(ist)', Right -> Chars, Chars -> Char Chars, Char -> 'i', Chars -> Char Chars, Char -> 's', Chars -> Char Chars, Char -> 't', Chars -> Char Chars, Char -> 'i', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	1.18029e-05	RightOp -> INS(xisti) > (RightOp -> Op Right, Op -> 'INS(xisti)', Right -> Chars, Chars -> Char, Char -> '>')
+True	1.15523e-05	RightOp -> INS(níe) n i r > (RightOp -> Op Right, Op -> 'INS(níe)', Right -> Chars, Chars -> Char Chars, Char -> 'n', Chars -> Char Chars, Char -> 'i', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	1.13071e-05	RightOp -> INS(fo) r > (RightOp -> Op Right, Op -> 'INS(fo)', Right -> Chars, Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	1.10671e-05	RightOp -> DEL(a) e r > (RightOp -> Op Right, Op -> 'DEL(a)', Right -> Chars, Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	1.08321e-05	RightOp -> INS(ximos) > (RightOp -> Op Right, Op -> 'INS(ximos)', Right -> Chars, Chars -> Char, Char -> '>')
+True	1.06022e-05	RightOp -> INS(quemos) > (RightOp -> Op Right, Op -> 'INS(quemos)', Right -> Chars, Chars -> Char, Char -> '>')
+True	1.03771e-05	RightOp -> INS(equ) e c a r > (RightOp -> Op Right, Op -> 'INS(equ)', Right -> Chars, Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'c', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	1.01568e-05	RightOp -> INS(éi) > (RightOp -> Op Right, Op -> 'INS(éi)', Right -> Chars, Chars -> Char, Char -> '>')
+True	9.94123e-06	RightOp -> INS(ueyas) > (RightOp -> Op Right, Op -> 'INS(ueyas)', Right -> Chars, Chars -> Char, Char -> '>')
+True	9.7302e-06	RightOp -> INS(ese) s > (RightOp -> Op Right, Op -> 'INS(ese)', Right -> Chars, Chars -> Char Chars, Char -> 's', Chars -> Char, Char -> '>')
+True	9.52365e-06	RightOp -> INS(ve) > (RightOp -> Op Right, Op -> 'INS(ve)', Right -> Chars, Chars -> Char, Char -> '>')
+True	9.32148e-06	RightOp -> INS(ayí) a e r > (RightOp -> Op Right, Op -> 'INS(ayí)', Right -> Chars, Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	9.12361e-06	RightOp -> INS(ida) > (RightOp -> Op Right, Op -> 'INS(ida)', Right -> Chars, Chars -> Char, Char -> '>')
+True	8.92993e-06	RightOp -> INS(udiem) o d e r > (RightOp -> Op Right, Op -> 'INS(udiem)', Right -> Chars, Chars -> Char Chars, Char -> 'o', Chars -> Char Chars, Char -> 'd', Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	8.74037e-06	RightOp -> INS(uvier) e n e r > (RightOp -> Op Right, Op -> 'INS(uvier)', Right -> Chars, Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'n', Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	8.55483e-06	RightOp -> INS(záis) > (RightOp -> Op Right, Op -> 'INS(záis)', Right -> Chars, Chars -> Char, Char -> '>')
+True	8.37323e-06	RightOp -> INS(uvier) a r > (RightOp -> Op Right, Op -> 'INS(uvier)', Right -> Chars, Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	8.19548e-06	RightOp -> INS(istis) > (RightOp -> Op Right, Op -> 'INS(istis)', Right -> Chars, Chars -> Char, Char -> '>')
+True	8.02151e-06	RightOp -> INS(iciestis) > (RightOp -> Op Right, Op -> 'INS(iciestis)', Right -> Chars, Chars -> Char, Char -> '>')
+True	7.85123e-06	RightOp -> INS(xé) r > (RightOp -> Op Right, Op -> 'INS(xé)', Right -> Chars, Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	7.68457e-06	RightOp -> INS(ixé) r > (RightOp -> Op Right, Op -> 'INS(ixé)', Right -> Chars, Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	7.52144e-06	RightOp -> INS(ixi) > (RightOp -> Op Right, Op -> 'INS(ixi)', Right -> Chars, Chars -> Char, Char -> '>')
+True	7.36177e-06	RightOp -> DEL(ner) > (RightOp -> Op Right, Op -> 'DEL(ner)', Right -> Chars, Chars -> Char, Char -> '>')
+True	7.2055e-06	RightOp -> DEL(y) e r > (RightOp -> Op Right, Op -> 'DEL(y)', Right -> Chars, Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	7.05254e-06	RightOp -> INS(ue) r > (RightOp -> Op Right, Op -> 'INS(ue)', Right -> Chars, Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	6.90283e-06	RightOp -> INS(e) s > (RightOp -> Op Right, Op -> 'INS(e)', Right -> Chars, Chars -> Char Chars, Char -> 's', Chars -> Char, Char -> '>')
+True	6.7563e-06	RightOp -> INS(udiérem) o d e r > (RightOp -> Op Right, Op -> 'INS(udiérem)', Right -> Chars, Chars -> Char Chars, Char -> 'o', Chars -> Char Chars, Char -> 'd', Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	6.61288e-06	RightOp -> INS(uvi) e n e r > (RightOp -> Op Right, Op -> 'INS(uvi)', Right -> Chars, Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'n', Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	6.4725e-06	RightOp -> INS(cesti) > (RightOp -> Op Right, Op -> 'INS(cesti)', Right -> Chars, Chars -> Char, Char -> '>')
+True	6.3351e-06	RightOp -> INS(vayamos) > (RightOp -> Op Right, Op -> 'INS(vayamos)', Right -> Chars, Chars -> Char, Char -> '>')
+True	6.20062e-06	RightOp -> INS(unxéram) o n e r > (RightOp -> Op Right, Op -> 'INS(unxéram)', Right -> Chars, Chars -> Char Chars, Char -> 'o', Chars -> Char Chars, Char -> 'n', Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	6.069e-06	RightOp -> INS(uesti) > (RightOp -> Op Right, Op -> 'INS(uesti)', Right -> Chars, Chars -> Char, Char -> '>')
+True	5.94016e-06	RightOp -> INS(sábemo) s a r > (RightOp -> Op Right, Op -> 'INS(sábemo)', Right -> Chars, Chars -> Char Chars, Char -> 's', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	5.81407e-06	RightOp -> INS(icest) i z a r > (RightOp -> Op Right, Op -> 'INS(icest)', Right -> Chars, Chars -> Char Chars, Char -> 'i', Chars -> Char Chars, Char -> 'z', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	5.69065e-06	RightOp -> INS(unxérem) o n e r > (RightOp -> Op Right, Op -> 'INS(unxérem)', Right -> Chars, Chars -> Char Chars, Char -> 'o', Chars -> Char Chars, Char -> 'n', Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	5.56985e-06	RightOp -> INS(aí) a y e r > (RightOp -> Op Right, Op -> 'INS(aí)', Right -> Chars, Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'y', Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	5.45161e-06	RightOp -> INS(iquest) i c a r > (RightOp -> Op Right, Op -> 'INS(iquest)', Right -> Chars, Chars -> Char Chars, Char -> 'i', Chars -> Char Chars, Char -> 'c', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	5.33588e-06	RightOp -> INS(cíais) > (RightOp -> Op Right, Op -> 'INS(cíais)', Right -> Chars, Chars -> Char, Char -> '>')
+True	5.22262e-06	RightOp -> INS(quas) > (RightOp -> Op Right, Op -> 'INS(quas)', Right -> Chars, Chars -> Char, Char -> '>')
+True	5.11175e-06	RightOp -> INS(ga) > (RightOp -> Op Right, Op -> 'INS(ga)', Right -> Chars, Chars -> Char, Char -> '>')
+True	5.00324e-06	RightOp -> INS(r) d x > (RightOp -> Op Right, Op -> 'INS(r)', Right -> Chars, Chars -> Char Chars, Char -> 'd', Chars -> Char Chars, Char -> 'x', Chars -> Char, Char -> '>')
+True	4.89703e-06	RightOp -> INS(za) > (RightOp -> Op Right, Op -> 'INS(za)', Right -> Chars, Chars -> Char, Char -> '>')
+True	4.79308e-06	RightOp -> INS(somo) s e r > (RightOp -> Op Right, Op -> 'INS(somo)', Right -> Chars, Chars -> Char Chars, Char -> 's', Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	4.69133e-06	RightOp -> INS(unxem) o n e r > (RightOp -> Op Right, Op -> 'INS(unxem)', Right -> Chars, Chars -> Char Chars, Char -> 'o', Chars -> Char Chars, Char -> 'n', Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	4.59174e-06	RightOp -> INS(xemos) > (RightOp -> Op Right, Op -> 'INS(xemos)', Right -> Chars, Chars -> Char, Char -> '>')
+True	4.49427e-06	RightOp -> INS(ió) > (RightOp -> Op Right, Op -> 'INS(ió)', Right -> Chars, Chars -> Char, Char -> '>')
+True	4.39887e-06	RightOp -> INS(cé) > (RightOp -> Op Right, Op -> 'INS(cé)', Right -> Chars, Chars -> Char, Char -> '>')
+True	4.30549e-06	RightOp -> DEL(áu) > (RightOp -> Op Right, Op -> 'DEL(áu)', Right -> Chars, Chars -> Char, Char -> '>')
+True	4.21409e-06	RightOp -> INS(séi) s a r > (RightOp -> Op Right, Op -> 'INS(séi)', Right -> Chars, Chars -> Char Chars, Char -> 's', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	4.12464e-06	RightOp -> INS(ueyan) > (RightOp -> Op Right, Op -> 'INS(ueyan)', Right -> Chars, Chars -> Char, Char -> '>')
+True	4.03708e-06	RightOp -> DEL(gar) > (RightOp -> Op Right, Op -> 'DEL(gar)', Right -> Chars, Chars -> Char, Char -> '>')
+True	3.95138e-06	RightOp -> DEL(o) r z a r > (RightOp -> Op Right, Op -> 'DEL(o)', Right -> Chars, Chars -> Char Chars, Char -> 'r', Chars -> Char Chars, Char -> 'z', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	3.8675e-06	RightOp -> INS(quan) > (RightOp -> Op Right, Op -> 'INS(quan)', Right -> Chars, Chars -> Char, Char -> '>')
+True	3.7854e-06	RightOp -> INS(iximos) > (RightOp -> Op Right, Op -> 'INS(iximos)', Right -> Chars, Chars -> Char, Char -> '>')
+True	3.70505e-06	RightOp -> DEL(o) n d e r > (RightOp -> Op Right, Op -> 'DEL(o)', Right -> Chars, Chars -> Char Chars, Char -> 'n', Chars -> Char Chars, Char -> 'd', Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	3.6264e-06	RightOp -> DEL(esgatuñ) a r > (RightOp -> Op Right, Op -> 'DEL(esgatuñ)', Right -> Chars, Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	3.54941e-06	RightOp -> INS(cas) > (RightOp -> Op Right, Op -> 'INS(cas)', Right -> Chars, Chars -> Char, Char -> '>')
+True	3.47407e-06	RightOp -> INS(cí) e r > (RightOp -> Op Right, Op -> 'INS(cí)', Right -> Chars, Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	3.40032e-06	RightOp -> DEL(a) b l a d x > (RightOp -> Op Right, Op -> 'DEL(a)', Right -> Chars, Chars -> Char Chars, Char -> 'b', Chars -> Char Chars, Char -> 'l', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'd', Chars -> Char Chars, Char -> 'x', Chars -> Char, Char -> '>')
+True	3.32814e-06	RightOp -> INS(ue) ñ a r > (RightOp -> Op Right, Op -> 'INS(ue)', Right -> Chars, Chars -> Char Chars, Char -> 'ñ', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	3.25749e-06	RightOp -> INS(q) u > (RightOp -> Op Right, Op -> 'INS(q)', Right -> Chars, Chars -> Char Chars, Char -> 'u', Chars -> Char, Char -> '>')
+True	3.18834e-06	RightOp -> INS(uelen) > (RightOp -> Op Right, Op -> 'INS(uelen)', Right -> Chars, Chars -> Char, Char -> '>')
+True	3.12066e-06	RightOp -> INS(anqu) a n c a r > (RightOp -> Op Right, Op -> 'INS(anqu)', Right -> Chars, Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'n', Chars -> Char Chars, Char -> 'c', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	3.05441e-06	RightOp -> INS(ba) b a r > (RightOp -> Op Right, Op -> 'INS(ba)', Right -> Chars, Chars -> Char Chars, Char -> 'b', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	2.98958e-06	RightOp -> INS(sti) s c o y e r > (RightOp -> Op Right, Op -> 'INS(sti)', Right -> Chars, Chars -> Char Chars, Char -> 's', Chars -> Char Chars, Char -> 'c', Chars -> Char Chars, Char -> 'o', Chars -> Char Chars, Char -> 'y', Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	2.92611e-06	RightOp -> DEL(re) c o y e r > (RightOp -> Op Right, Op -> 'DEL(re)', Right -> Chars, Chars -> Char Chars, Char -> 'c', Chars -> Char Chars, Char -> 'o', Chars -> Char Chars, Char -> 'y', Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	2.864e-06	RightOp -> INS(re) x > (RightOp -> Op Right, Op -> 'INS(re)', Right -> Chars, Chars -> Char Chars, Char -> 'x', Chars -> Char, Char -> '>')
+True	2.8032e-06	RightOp -> DEL(am) a s u ñ a r > (RightOp -> Op Right, Op -> 'DEL(am)', Right -> Chars, Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 's', Chars -> Char Chars, Char -> 'u', Chars -> Char Chars, Char -> 'ñ', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	2.7437e-06	RightOp -> INS(uese) s a r > (RightOp -> Op Right, Op -> 'INS(uese)', Right -> Chars, Chars -> Char Chars, Char -> 's', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	2.68545e-06	RightOp -> DEL(uñar) > (RightOp -> Op Right, Op -> 'DEL(uñar)', Right -> Chars, Chars -> Char, Char -> '>')
+True	2.62845e-06	RightOp -> DEL(c) u > (RightOp -> Op Right, Op -> 'DEL(c)', Right -> Chars, Chars -> Char Chars, Char -> 'u', Chars -> Char, Char -> '>')
+True	2.57265e-06	RightOp -> DEL(olar) > (RightOp -> Op Right, Op -> 'DEL(olar)', Right -> Chars, Chars -> Char, Char -> '>')
+True	2.51804e-06	RightOp -> INS(uedapuea) > (RightOp -> Op Right, Op -> 'INS(uedapuea)', Right -> Chars, Chars -> Char, Char -> '>')
+True	2.46459e-06	RightOp -> DEL(o) y a r > (RightOp -> Op Right, Op -> 'DEL(o)', Right -> Chars, Chars -> Char Chars, Char -> 'y', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	2.41227e-06	RightOp -> INS(iú) > (RightOp -> Op Right, Op -> 'INS(iú)', Right -> Chars, Chars -> Char, Char -> '>')
+True	2.36106e-06	RightOp -> INS(céis) > (RightOp -> Op Right, Op -> 'INS(céis)', Right -> Chars, Chars -> Char, Char -> '>')
+True	2.31094e-06	RightOp -> INS(can) > (RightOp -> Op Right, Op -> 'INS(can)', Right -> Chars, Chars -> Char, Char -> '>')
+True	2.26188e-06	RightOp -> INS(vayas) > (RightOp -> Op Right, Op -> 'INS(vayas)', Right -> Chars, Chars -> Char, Char -> '>')
+True	2.21387e-06	RightOp -> INS(o) n > (RightOp -> Op Right, Op -> 'INS(o)', Right -> Chars, Chars -> Char Chars, Char -> 'n', Chars -> Char, Char -> '>')
+True	2.16687e-06	RightOp -> INS(aig) a e r > (RightOp -> Op Right, Op -> 'INS(aig)', Right -> Chars, Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	2.12087e-06	RightOp -> INS(sque) s c a r > (RightOp -> Op Right, Op -> 'INS(sque)', Right -> Chars, Chars -> Char Chars, Char -> 's', Chars -> Char Chars, Char -> 'c', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	2.07585e-06	RightOp -> DEL(sar) > (RightOp -> Op Right, Op -> 'DEL(sar)', Right -> Chars, Chars -> Char, Char -> '>')
+True	2.03179e-06	RightOp -> DEL(l) a d x > (RightOp -> Op Right, Op -> 'DEL(l)', Right -> Chars, Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'd', Chars -> Char Chars, Char -> 'x', Chars -> Char, Char -> '>')
+True	1.98866e-06	RightOp -> INS(udistis) > (RightOp -> Op Right, Op -> 'INS(udistis)', Right -> Chars, Chars -> Char, Char -> '>')
+True	1.94644e-06	RightOp -> INS(vas) > (RightOp -> Op Right, Op -> 'INS(vas)', Right -> Chars, Chars -> Char, Char -> '>')
+True	1.90512e-06	RightOp -> DEL(rer) > (RightOp -> Op Right, Op -> 'DEL(rer)', Right -> Chars, Chars -> Char, Char -> '>')
+True	1.86468e-06	RightOp -> INS(yamos) > (RightOp -> Op Right, Op -> 'INS(yamos)', Right -> Chars, Chars -> Char, Char -> '>')
+True	1.8251e-06	RightOp -> DEL(masuñar) > (RightOp -> Op Right, Op -> 'DEL(masuñar)', Right -> Chars, Chars -> Char, Char -> '>')
+True	1.78636e-06	RightOp -> INS(ueya) > (RightOp -> Op Right, Op -> 'INS(ueya)', Right -> Chars, Chars -> Char, Char -> '>')
+True	1.74843e-06	RightOp -> DEL(c) e r > (RightOp -> Op Right, Op -> 'DEL(c)', Right -> Chars, Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	1.71132e-06	RightOp -> INS(a) n > (RightOp -> Op Right, Op -> 'INS(a)', Right -> Chars, Chars -> Char Chars, Char -> 'n', Chars -> Char, Char -> '>')
+True	1.67499e-06	RightOp -> INS(uestes) > (RightOp -> Op Right, Op -> 'INS(uestes)', Right -> Chars, Chars -> Char, Char -> '>')
+True	1.63943e-06	RightOp -> INS(zas) > (RightOp -> Op Right, Op -> 'INS(zas)', Right -> Chars, Chars -> Char, Char -> '>')
+True	1.60463e-06	RightOp -> INS(uedopue) o d e r > (RightOp -> Op Right, Op -> 'INS(uedopue)', Right -> Chars, Chars -> Char Chars, Char -> 'o', Chars -> Char Chars, Char -> 'd', Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	1.57057e-06	RightOp -> INS(uest) o n e r > (RightOp -> Op Right, Op -> 'INS(uest)', Right -> Chars, Chars -> Char Chars, Char -> 'o', Chars -> Char Chars, Char -> 'n', Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	1.53723e-06	RightOp -> INS(zamos) > (RightOp -> Op Right, Op -> 'INS(zamos)', Right -> Chars, Chars -> Char, Char -> '>')
+True	1.5046e-06	RightOp -> INS(e) a r > (RightOp -> Op Right, Op -> 'INS(e)', Right -> Chars, Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	1.47266e-06	RightOp -> INS(uey) o y e r > (RightOp -> Op Right, Op -> 'INS(uey)', Right -> Chars, Chars -> Char Chars, Char -> 'o', Chars -> Char Chars, Char -> 'y', Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	1.4414e-06	RightOp -> DEL(d) i r > (RightOp -> Op Right, Op -> 'DEL(d)', Right -> Chars, Chars -> Char Chars, Char -> 'i', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	1.4108e-06	RightOp -> INS(yíamos) > (RightOp -> Op Right, Op -> 'INS(yíamos)', Right -> Chars, Chars -> Char, Char -> '>')
+True	1.38085e-06	RightOp -> INS(ba) > (RightOp -> Op Right, Op -> 'INS(ba)', Right -> Chars, Chars -> Char, Char -> '>')
+True	1.35154e-06	RightOp -> INS(fuéremo) s e r > (RightOp -> Op Right, Op -> 'INS(fuéremo)', Right -> Chars, Chars -> Char Chars, Char -> 's', Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	1.32285e-06	RightOp -> INS(ienc) e n z a r > (RightOp -> Op Right, Op -> 'INS(ienc)', Right -> Chars, Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'n', Chars -> Char Chars, Char -> 'z', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	1.29477e-06	RightOp -> INS(igáis) > (RightOp -> Op Right, Op -> 'INS(igáis)', Right -> Chars, Chars -> Char, Char -> '>')
+True	1.26728e-06	RightOp -> INS(ao) > (RightOp -> Op Right, Op -> 'INS(ao)', Right -> Chars, Chars -> Char, Char -> '>')
+True	1.24038e-06	RightOp -> INS(uerz) o r z a r > (RightOp -> Op Right, Op -> 'INS(uerz)', Right -> Chars, Chars -> Char Chars, Char -> 'o', Chars -> Char Chars, Char -> 'r', Chars -> Char Chars, Char -> 'z', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	1.21405e-06	RightOp -> INS(uele) > (RightOp -> Op Right, Op -> 'INS(uele)', Right -> Chars, Chars -> Char, Char -> '>')
+True	1.18828e-06	RightOp -> INS(agafaig) a c e r > (RightOp -> Op Right, Op -> 'INS(agafaig)', Right -> Chars, Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'c', Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	1.16305e-06	RightOp -> INS(udiéram) o d e r > (RightOp -> Op Right, Op -> 'INS(udiéram)', Right -> Chars, Chars -> Char Chars, Char -> 'o', Chars -> Char Chars, Char -> 'd', Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	1.13836e-06	RightOp -> DEL(erer) > (RightOp -> Op Right, Op -> 'DEL(erer)', Right -> Chars, Chars -> Char, Char -> '>')
+True	1.1142e-06	RightOp -> DEL(rza) r > (RightOp -> Op Right, Op -> 'DEL(rza)', Right -> Chars, Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	1.09055e-06	RightOp -> INS(i) e n e r > (RightOp -> Op Right, Op -> 'INS(i)', Right -> Chars, Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'n', Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	1.0674e-06	RightOp -> INS(uel) o l a r > (RightOp -> Op Right, Op -> 'INS(uel)', Right -> Chars, Chars -> Char Chars, Char -> 'o', Chars -> Char Chars, Char -> 'l', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	1.04474e-06	RightOp -> INS(yas) > (RightOp -> Op Right, Op -> 'INS(yas)', Right -> Chars, Chars -> Char, Char -> '>')
+True	1.02256e-06	RightOp -> DEL(ener) > (RightOp -> Op Right, Op -> 'DEL(ener)', Right -> Chars, Chars -> Char, Char -> '>')
+True	1.00085e-06	RightOp -> DEL(sgatuñar) > (RightOp -> Op Right, Op -> 'DEL(sgatuñar)', Right -> Chars, Chars -> Char, Char -> '>')
+True	9.79608e-07	RightOp -> INS(uedas) > (RightOp -> Op Right, Op -> 'INS(uedas)', Right -> Chars, Chars -> Char, Char -> '>')
+True	9.58813e-07	RightOp -> DEL(o) s a r > (RightOp -> Op Right, Op -> 'DEL(o)', Right -> Chars, Chars -> Char Chars, Char -> 's', Chars -> Char Chars, Char -> 'a', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	9.3846e-07	RightOp -> INS(íbamos) > (RightOp -> Op Right, Op -> 'INS(íbamos)', Right -> Chars, Chars -> Char, Char -> '>')
+True	9.18538e-07	RightOp -> INS(vais) > (RightOp -> Op Right, Op -> 'INS(vais)', Right -> Chars, Chars -> Char, Char -> '>')
+True	8.9904e-07	RightOp -> DEL(e) r e r > (RightOp -> Op Right, Op -> 'DEL(e)', Right -> Chars, Chars -> Char Chars, Char -> 'r', Chars -> Char Chars, Char -> 'e', Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	8.79955e-07	RightOp -> INS(uvistis) > (RightOp -> Op Right, Op -> 'INS(uvistis)', Right -> Chars, Chars -> Char, Char -> '>')
+True	8.61275e-07	RightOp -> INS(icistis) > (RightOp -> Op Right, Op -> 'INS(icistis)', Right -> Chars, Chars -> Char, Char -> '>')
+True	8.42992e-07	RightOp -> DEL(orza) r > (RightOp -> Op Right, Op -> 'DEL(orza)', Right -> Chars, Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	8.25097e-07	RightOp -> INS(fuimos) > (RightOp -> Op Right, Op -> 'INS(fuimos)', Right -> Chars, Chars -> Char, Char -> '>')
+True	8.07582e-07	RightOp -> DEL(a) d x > (RightOp -> Op Right, Op -> 'DEL(a)', Right -> Chars, Chars -> Char Chars, Char -> 'd', Chars -> Char Chars, Char -> 'x', Chars -> Char, Char -> '>')
+True	7.90439e-07	RightOp -> INS(udiestis) > (RightOp -> Op Right, Op -> 'INS(udiestis)', Right -> Chars, Chars -> Char, Char -> '>')
+True	7.7366e-07	RightOp -> INS(fué) r > (RightOp -> Op Right, Op -> 'INS(fué)', Right -> Chars, Chars -> Char Chars, Char -> 'r', Chars -> Char, Char -> '>')
+True	7.57237e-07	RightOp -> INS(uviemos) > (RightOp -> Op Right, Op -> 'INS(uviemos)', Right -> Chars, Chars -> Char, Char -> '>')
+True	7.41162e-07	RightOp -> INS(unxestis) > (RightOp -> Op Right, Op -> 'INS(unxestis)', Right -> Chars, Chars -> Char, Char -> '>')
+True	7.25429e-07	RightOp -> INS(ueyi) > (RightOp -> Op Right, Op -> 'INS(ueyi)', Right -> Chars, Chars -> Char, Char -> '>')
+True	7.1003e-07	RightOp -> INS(e) x > (RightOp -> Op Right, Op -> 'INS(e)', Right -> Chars, Chars -> Char Chars, Char -> 'x', Chars -> Char, Char -> '>')
+True	6.94957e-07	RightOp -> INS(iciemos) > (RightOp -> Op Right, Op -> 'INS(iciemos)', Right -> Chars, Chars -> Char, Char -> '>')
+True	6.80205e-07	RightOp -> INS(izofixo) > (RightOp -> Op Right, Op -> 'INS(izofixo)', Right -> Chars, Chars -> Char, Char -> '>')
+True	6.65765e-07	RightOp -> INS(igamos) > (RightOp -> Op Right, Op -> 'INS(igamos)', Right -> Chars, Chars -> Char, Char -> '>')
+True	6.51633e-07	RightOp -> INS(eáis) > (RightOp -> Op Right, Op -> 'INS(eáis)', Right -> Chars, Chars -> Char, Char -> '>')
+True	6.378e-07	RightOp -> INS(cho) > (RightOp -> Op Right, Op -> 'INS(cho)', Right -> Chars, Chars -> Char, Char -> '>')
+True	6.24261e-07	RightOp -> INS(yéis) > (RightOp -> Op Right, Op -> 'INS(yéis)', Right -> Chars, Chars -> Char, Char -> '>')
+True	6.11009e-07	RightOp -> DEL(a) r (RightOp -> Op Right, Op -> 'DEL(a)', Right -> Chars, Chars -> Char, Char -> 'r')
+==========RightSide==========
+False	1	RightSide -> RightOp
+False	5.00677e-09	RightSide -> RightOp Chars
+==========Left==========
+False	1	Left -> Chars
+==========Op==========
+False	0.0537797	Op -> 'INS(ue)'
+False	0.0317421	Op -> 'INS(aí)'
+False	0.0301781	Op -> 'INS(osem)'
+False	0.0277146	Op -> 'INS(icimos)'
+False	0.0277146	Op -> 'INS(enc)'
+False	0.0265352	Op -> 'DEL(rzar)'
+False	0.0265352	Op -> 'INS(uvimos)'
+False	0.0256296	Op -> 'INS(ixi)'
+False	0.0255184	Op -> 'INS(uestu)'
+False	0.0250025	Op -> 'INS(gáis)'
+False	0.0241359	Op -> 'INS(zo)'
+False	0.0238368	Op -> 'INS(e)'
+False	0.0231734	Op -> 'INS(fuestis)'
+False	0.0227106	Op -> 'INS(ues)'
+False	0.021784	Op -> 'DEL(o)'
+False	0.0213535	Op -> 'INS(xo)'
+False	0.0211254	Op -> 'INS(unxisti)'
+False	0.0206756	Op -> 'DEL(lar)'
+False	0.0187541	Op -> 'INS(vaya)'
+False	0.0181558	Op -> 'INS(d)'
+False	0.0180188	Op -> 'INS(es)'
+False	0.0175623	Op -> 'INS(cíamos)'
+False	0.0166206	Op -> 'INS(ú)'
+False	0.0164377	Op -> 'INS(yendo)'
+False	0.0160178	Op -> 'INS(fó)'
+False	0.0158996	Op -> 'INS(ya)'
+False	0.0156944	Op -> 'INS(ixé)'
+False	0.0155495	Op -> 'INS(fost)'
+False	0.0143773	Op -> 'INS(xí)'
+False	0.013795	Op -> 'INS(uvotevo)'
+False	0.0112713	Op -> 'INS(ve)'
+False	0.010677	Op -> 'INS(gamos)'
+False	0.00995381	Op -> 'DEL(coyer)'
+False	0.0098762	Op -> 'INS(níe)'
+False	0.00909315	Op -> 'INS(záis)'
+False	0.00856811	Op -> 'INS(istis)'
+False	0.00843274	Op -> 'INS(equ)'
+False	0.00836577	Op -> 'INS(ayí)'
+False	0.00823324	Op -> 'INS(iciestis)'
+False	0.00800582	Op -> 'INS(nque)'
+False	0.00725697	Op -> 'INS(i)'
+False	0.00720931	Op -> 'DEL(ye)'
+False	0.00678269	Op -> 'INS(vayamos)'
+False	0.00675507	Op -> 'DEL(aer)'
+False	0.00658919	Op -> 'INS(uvier)'
+False	0.00594723	Op -> 'INS(udiem)'
+False	0.00520539	Op -> 'INS(cíais)'
+False	0.00516192	Op -> 'INS(chu)'
+False	0.00410557	Op -> 'INS(xemos)'
+False	0.00407052	Op -> 'INS(ió)'
+False	0.00404277	Op -> 'INS(uvi)'
+False	0.00401846	Op -> 'DEL(áu)'
+False	0.00396015	Op -> 'INS(ist)'
+False	0.00378347	Op -> 'INS(udiérem)'
+False	0.00375095	Op -> 'DEL(gar)'
+False	0.0036234	Op -> 'INS(unxéram)'
+False	0.00354572	Op -> 'INS(ga)'
+False	0.00291254	Op -> 'INS(unxérem)'
+False	0.00291254	Op -> 'INS(r)'
+False	0.00281161	Op -> 'INS(ueyan)'
+False	0.00270197	Op -> 'INS(iximos)'
+False	0.00265454	Op -> 'INS(iquest)'
+False	0.00241083	Op -> 'DEL(a)'
+False	0.00229206	Op -> 'INS(q)'
+False	0.00223141	Op -> 'INS(somo)'
+False	0.00216673	Op -> 'INS(ba)'
+False	0.00211466	Op -> 'DEL(uñar)'
+False	0.00204928	Op -> 'DEL(esgatuñ)'
+False	0.00197694	Op -> 'INS(re)'
+False	0.00192753	Op -> 'DEL(c)'
+False	0.00181489	Op -> 'INS(unxem)'
+False	0.00175851	Op -> 'INS(iú)'
+False	0.001614	Op -> 'INS(vayas)'
+False	0.00146132	Op -> 'DEL(sar)'
+False	0.00141585	Op -> 'INS(udistis)'
+False	0.00127631	Op -> 'INS(uvié)'
+False	0.00124789	Op -> 'INS(vas)'
+False	0.00121546	Op -> 'INS(u)'
+False	0.00112541	Op -> 'INS(uelen)'
+False	0.0011104	Op -> 'INS(yamos)'
+False	0.00106186	Op -> 'DEL(masuñar)'
+False	0.00104688	Op -> 'INS(sti)'
+False	0.0010111	Op -> 'INS(xé)'
+False	0.00100216	Op -> 'INS(anqu)'
+False	0.000975839	Op -> 'INS(uese)'
+False	0.000933655	Op -> 'INS(uestes)'
+False	0.00092955	Op -> 'INS(ida)'
+False	0.000874146	Op -> 'INS(zas)'
+False	0.000836866	Op -> 'INS(cas)'
+False	0.000826042	Op -> 'INS(iá)'
+False	0.000818916	Op -> 'INS(ueya)'
+False	0.000815379	Op -> 'DEL(re)'
+False	0.000789586	Op -> 'INS(a)'
+False	0.000774713	Op -> 'INS(í)'
+False	0.000771676	Op -> 'INS(iest)'
+False	0.000768226	Op -> 'INS(á)'
+False	0.000757927	Op -> 'INS(yíamos)'
+False	0.000745117	Op -> 'INS(zamos)'
+False	0.000727034	Op -> 'INS(en)'
+False	0.00072546	Op -> 'INS(ía)'
+False	0.000708236	Op -> 'DEL(ace)'
+False	0.000702309	Op -> 'INS(igáis)'
+False	0.000638434	Op -> 'INS(aig)'
+False	0.0005889	Op -> 'INS(ao)'
+False	0.000586561	Op -> 'DEL(en)'
+False	0.000586561	Op -> 'DEL(ó)'
+False	0.000581921	Op -> 'DEL(am)'
+False	0.000577331	Op -> 'DEL(l)'
+False	0.000559465	Op -> 'DEL(olar)'
+False	0.000540284	Op -> 'INS(uele)'
+False	0.000535146	Op -> 'INS(ix)'
+False	0.000527217	Op -> 'INS(o)'
+False	0.000522056	Op -> 'INS(da)'
+False	0.000518108	Op -> 'DEL(oyer)'
+False	0.000510377	Op -> 'INS(sque)'
+False	0.000502459	Op -> 'DEL(e)'
+False	0.000501984	Op -> 'DEL(ir)'
+False	0.000501777	Op -> 'DEL(er)'
+False	0.000500956	Op -> 'DEL(rer)'
+False	0.000500746	Op -> 'INS(é)'
+False	0.000500683	Op -> 'DEL(ar)'
+False	0.000489999	Op -> 'INS(uedapuea)'
+False	0.000456085	Op -> 'DEL(ener)'
+False	0.000456085	Op -> 'INS(yas)'
+False	0.000431664	Op -> 'INS(uedas)'
+False	0.000388124	Op -> 'INS(sábemo)'
+False	0.000388124	Op -> 'INS(drí)'
+False	0.000383419	Op -> 'DEL(d)'
+False	0.000369992	Op -> 'INS(íbamos)'
+False	0.000369992	Op -> 'INS(vais)'
+False	0.000352638	Op -> 'INS(gan)'
+False	0.000346026	Op -> 'DEL(rza)'
+False	0.000343283	Op -> 'DEL(á)'
+False	0.000343283	Op -> 'DEL(ae)'
+False	0.00033971	Op -> 'INS(ximos)'
+False	0.000337958	Op -> 'INS(uvistis)'
+False	0.000330356	Op -> 'INS(sesti)'
+False	0.000325536	Op -> 'INS(ís)'
+False	0.000322429	Op -> 'INS(icistis)'
+False	0.00031431	Op -> 'INS(fuimos)'
+False	0.000302287	Op -> 'INS(can)'
+False	0.000293372	Op -> 'INS(fuéremo)'
+False	0.000288469	Op -> 'INS(uvie)'
+False	0.000287944	Op -> 'INS(uestis)'
+False	0.000286391	Op -> 'DEL(erer)'
+False	0.0002829	Op -> 'INS(uedopue)'
+False	0.0002829	Op -> 'INS(udiestis)'
+False	0.000278672	Op -> 'INS(cesti)'
+False	0.000275577	Op -> 'INS(uemos)'
+False	0.000274722	Op -> 'INS(uey)'
+False	0.000273052	Op -> 'INS(uviemos)'
+False	0.000268283	Op -> 'INS(íamos)'
+False	0.000265796	Op -> 'INS(semo)'
+False	0.000265094	Op -> 'INS(unxestis)'
+False	0.000264747	Op -> 'INS(quéis)'
+False	0.000263723	Op -> 'DEL(ce)'
+False	0.000261111	Op -> 'DEL(acer)'
+False	0.000259261	Op -> 'INS(cestis)'
+False	0.000256376	Op -> 'INS(ío)'
+False	0.000255022	Op -> 'INS(íe)'
+False	0.000254496	Op -> 'DEL(yer)'
+False	0.00025398	Op -> 'INS(ueyi)'
+False	0.000252726	Op -> 'DEL(orza)'
+False	0.000252482	Op -> 'INS(xisti)'
+False	0.000248433	Op -> 'DEL(ac)'
+False	0.000244471	Op -> 'INS(icest)'
+False	0.0002438	Op -> 'INS(iciemos)'
+False	0.000243314	Op -> 'INS(questis)'
+False	0.000242231	Op -> 'INS(za)'
+False	0.000241645	Op -> 'INS(ienc)'
+False	0.000241361	Op -> 'INS(is)'
+False	0.00024122	Op -> 'INS(izofixo)'
+False	0.000240808	Op -> 'DEL(cir)'
+False	0.00024054	Op -> 'INS(ese)'
+False	0.000240148	Op -> 'INS(icié)'
+False	0.000239398	Op -> 'INS(séi)'
+False	0.00023904	Op -> 'INS(quemos)'
+False	0.000238808	Op -> 'INS(z)'
+False	0.00023858	Op -> 'INS(fué)'
+False	0.000238357	Op -> 'INS(igamos)'
+False	0.000238031	Op -> 'INS(agafaig)'
+False	0.000238031	Op -> 'DEL(oner)'
+False	0.000237409	Op -> 'INS(eáis)'
+False	0.000237409	Op -> 'INS(udiéram)'
+False	0.000236921	Op -> 'INS(bá)'
+False	0.000236921	Op -> 'INS(yí)'
+False	0.000236733	Op -> 'INS(fo)'
+False	0.00023602	Op -> 'INS(ué)'
+False	0.000235687	Op -> 'DEL(ner)'
+False	0.000235526	Op -> 'DEL(sgatuñar)'
+False	0.000235292	Op -> 'INS(íos)'
+False	0.000234498	Op -> 'INS(mose)'
+False	0.000234044	Op -> 'INS(uel)'
+False	0.000233684	Op -> 'INS(que)'
+False	0.00023335	Op -> 'INS(questi)'
+False	0.000233192	Op -> 'INS(ié)'
+False	0.00023309	Op -> 'INS(x)'
+False	0.000232754	Op -> 'INS(uen)'
+False	0.000232754	Op -> 'INS(íu)'
+False	0.000232708	Op -> 'INS(fue)'
+False	0.000232447	Op -> 'INS(cé)'
+False	0.000232447	Op -> 'DEL(zar)'
+False	0.000232405	Op -> 'INS(se)'
+False	0.000232364	Op -> 'INS(ces)'
+False	0.000232271	Op -> 'INS(uesti)'
+False	0.000232245	Op -> 'INS(quan)'
+False	0.000232093	Op -> 'INS(y)'
+False	0.000231984	Op -> 'INS(uerz)'
+False	0.000231748	Op -> 'INS(cí)'
+False	0.000231685	Op -> 'INS(ques)'
+False	0.000231685	Op -> 'INS(éi)'
+False	0.000231594	Op -> 'INS(quen)'
+False	0.000231564	Op -> 'DEL(y)'
+False	0.000231423	Op -> 'INS(gas)'
+False	0.000231396	Op -> 'INS(céis)'
+False	0.000231369	Op -> 'DEL(é)'
+False	0.000231292	Op -> 'DEL(der)'
+False	0.000231218	Op -> 'INS(qué)'
+False	0.000231148	Op -> 'INS(cemos)'
+False	0.000231038	Op -> 'INS(uéis)'
+False	0.000231038	Op -> 'DEL(ri)'
+False	0.000231017	Op -> 'DEL(oder)'
+False	0.000230997	Op -> 'INS(ici)'
+False	0.000230862	Op -> 'DEL(dir)'
+False	0.000230862	Op -> 'DEL(ene)'
+False	0.00023085	Op -> 'INS(stis)'
+False	0.000230815	Op -> 'INS(án)'
+False	0.000230805	Op -> 'INS(estis)'
+False	0.000230793	Op -> 'INS(ueyas)'
+False	0.000230793	Op -> 'INS(cho)'
+False	0.000230793	Op -> 'DEL(s)'
+False	0.000230759	Op -> 'INS(endo)'
+False	0.000230759	Op -> 'INS(esti)'
+False	0.000230743	Op -> 'INS(ábemos)'
+False	0.000230697	Op -> 'INS(ne)'
+False	0.000230667	Op -> 'INS(sái)'
+False	0.000230666	Op -> 'INS(íen)'
+False	0.000230649	Op -> 'DEL(r)'
+False	0.000230638	Op -> 'DEL(rca)'
+False	0.000230624	Op -> 'INS(íemos)'
+False	0.000230611	Op -> 'DEL(u)'
+False	0.000230597	Op -> 'DEL(di)'
+False	0.000230571	Op -> 'INS(yéis)'
+False	0.000230559	Op -> 'DEL(cer)'
+False	0.000230559	Op -> 'INS(ce)'
+False	0.000230546	Op -> 'INS(cen)'
+False	0.000230522	Op -> 'INS(íeis)'
+False	0.000230522	Op -> 'INS(ad)'
+False	0.000230511	Op -> 'INS(áis)'
+False	0.000230499	Op -> 'INS(ben)'
+False	0.000230488	Op -> 'INS(os)'
+False	0.000230488	Op -> 'INS(amos)'
+False	0.000230488	Op -> 'INS(fu)'
+False	0.000230488	Op -> 'INS(mos)'
+False	0.000230488	Op -> 'DEL(car)'
+False	0.000230488	Op -> 'INS(áb)'
+False	0.000230477	Op -> 'INS(bes)'
+False	0.000230477	Op -> 'INS(s)'
+False	0.000230463	Op -> 'INS(íais)'
+False	0.000230456	Op -> 'INS(uest)'
+False	0.000230445	Op -> 'DEL(ra)'
+False	0.000230416	Op -> 'INS(as)'
+False	0.000230416	Op -> 'INS(n)'
+False	0.000230416	Op -> 'INS(ndo)'
+False	0.000230406	Op -> 'INS(ais)'
+False	0.000230406	Op -> 'INS(quas)'
+False	0.000230406	Op -> 'INS(áu)'
+False	0.000230406	Op -> 'INS(an)'
+False	0.000230397	Op -> 'INS(emos)'
+False	0.000230397	Op -> 'INS(ái)'
+False	0.000230397	Op -> 'INS(ab)'
+False	0.000230388	Op -> 'INS(beis)'
+False	0.000230388	Op -> 'INS(ás)'
+False	0.000230379	Op -> 'INS(éis)'
+False	0.000230379	Op -> 'INS(ó)'
+False	0.00023037	Op -> 'INS(on)'
+False	0.00023037	Op -> 'INS(bais)'
+False	0.00023037	Op -> 'INS(íes)'
+False	0.00023037	Op -> 'INS(eis)'

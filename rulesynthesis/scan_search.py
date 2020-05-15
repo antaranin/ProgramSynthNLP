@@ -14,7 +14,7 @@ import dill
 from scipy import stats as scistats
 
 from rulesynthesis.model import MiniscanRBBaseline, WordToNumber
-from rulesynthesis.util import get_episode_generator, timeSince, tabu_update, cuda_a_dict, get_supervised_batchsize
+from rulesynthesis.util import get_episode_generator, timeSince, tabu_update, cuda_a_dict, generate_batchsize_of_samples
 from rulesynthesis.train import gen_samples, train_batched_step, eval_ll
 from rulesynthesis.test import batched_test_with_sampling
 from rulesynthesis.generate_episode import exact_perm_doubled_rules
@@ -51,9 +51,11 @@ def run_search(model, args):
         model.samples_val = []
         for i in range(args.n_test):
             sample = generate_episode_test(model.tabu_episodes)
-            if args.hack_gt_g: sample['grammar'] = Grammar( exact_perm_doubled_rules() , model.input_lang.symbols)
+            if args.hack_gt_g:
+                sample['grammar'] = Grammar( exact_perm_doubled_rules() , model.input_lang.symbols)
             model.samples_val.append(sample)
-            if not args.duplicate_test: model.tabu_episodes = tabu_update(model.tabu_episodes, sample['identifier'])
+            if not args.duplicate_test:
+                model.tabu_episodes = tabu_update(model.tabu_episodes, sample['identifier'])
 
         model.input_lang = input_lang
         model.output_lang = output_lang
@@ -112,6 +114,7 @@ if __name__=='__main__':
     parser.add_argument('--max_length_eval', type=int, default=15, 
         help='maximum generated sequence length when evaluating the network')
     parser.add_argument('--max_num_rules', type=int, default=12, help='maximum generated num rules')
+    parser.add_argument('--episode_type', type=str, default='auto')
     parser.add_argument('--fn_out_model', type=str, default='', help='filename for saving the model')
     parser.add_argument('--dir_model', type=str, default='out_models', help='directory for saving model files')
     parser.add_argument('--gpu', type=int, default=0, help='set which GPU we want to use')

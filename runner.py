@@ -1,4 +1,5 @@
 import os
+from enum import Enum
 from typing import Callable, List, Tuple, Dict
 
 from functools import partial
@@ -11,6 +12,13 @@ from mln_file_generator import read_mln_file
 import operation_revisor as rev
 import baseline
 import frequency_table_gen as freq
+import adagram_grammar_extractor as adagram
+
+
+class PredType(Enum):
+    AdaGramLeft = 1
+    AdaGramRight = 2
+    AdaGramBoth = 3
 
 
 def _run_steps(directory_name: str, filename: str, generate_step_1: bool, generate_step_2: bool,
@@ -204,25 +212,63 @@ def _generate_no_op_baseline(language: str):
                                               f"data/processed/predictions/no_op_cost/{language}.csv")
 
 
-def predict_language(language: str):
+# def predict_language(language: str):
+#     base_and_expected = read_base_and_expected_words(
+#         f"data/processed/first_step_revised/{language}.csv")
+#     mln_dir = "data/processed/mln"
+#     weighted_preconditions = read_mln_file(
+#         f"{mln_dir}/weighted/{language}.mln",
+#         f"{mln_dir}/contexts/{language}.csv",
+#         f"{mln_dir}/objects/{language}.csv",
+#     )
+#     predictions = run_predictions(base_and_expected, weighted_preconditions)
+#     baseline.save_predictions(f"data/processed/predictions/mln_no_grammar/{language}.csv",
+#                               predictions)
+
+
+def predict_language(language: str, pred_type: PredType):
     base_and_expected = read_base_and_expected_words(
         f"data/processed/first_step_revised/{language}.csv")
-    mln_dir = "data/processed/mln"
-    weighted_preconditions = read_mln_file(
-        f"{mln_dir}/weighted/{language}.mln",
-        f"{mln_dir}/contexts/{language}.csv",
-        f"{mln_dir}/objects/{language}.csv",
-    )
-    predictions = run_predictions(base_and_expected, weighted_preconditions)
-    baseline.save_predictions(f"data/processed/predictions/mln_no_grammar/{language}.csv",
+    grammar_dir = "data/processed/grammar"
+    if pred_type == PredType.AdaGramRight:
+        pred_type_path_change = "adagram/right"
+        grammar_file = f"{grammar_dir}/{pred_type_path_change}/{language}.grammar"
+        weighted_ops = adagram.process_grammar_file(grammar_file)
+        is_probabilistic = True
+    elif pred_type == PredType.AdaGramLeft:
+        pred_type_path_change = "adagram/left"
+        grammar_file = f"{grammar_dir}/{pred_type_path_change}/{language}.grammar"
+        weighted_ops = adagram.process_grammar_file(grammar_file)
+        is_probabilistic = True
+    elif pred_type == PredType.AdaGramBoth:
+        pred_type_path_change = "adagram/both"
+        grammar_file = f"{grammar_dir}/{pred_type_path_change}/{language}.grammar"
+        weighted_ops = adagram.process_grammar_file(grammar_file)
+        is_probabilistic = True
+    else:
+        raise NotImplementedError
+
+    predictions = run_predictions(base_and_expected, weighted_ops, is_probabilistic)
+    baseline.save_predictions(f"data/processed/predictions/{pred_type_path_change}/{language}.csv",
                               predictions)
 
 
-def calculate_mln_no_grammar_cost_language(language: str):
-    baseline.calculate_and_save_cost_baseline(
-        f"data/processed/predictions/mln_no_grammar/{language}.csv",
-        f"data/processed/predictions/mln_no_grammar_cost/{language}.csv"
+# def calculate_mln_no_grammar_cost_language(language: str):
+#     baseline.calculate_and_save_cost_baseline(
+#         f"data/processed/predictions/mln_no_grammar/{language}.csv",
+#         f"data/processed/predictions/mln_no_grammar_cost/{language}.csv"
+#     )
 
+def calculate_grammar_cost_for_language(language: str, pred_type: PredType):
+    pred_files = {
+        PredType.AdaGramLeft: "adagram/left",
+        PredType.AdaGramBoth: "adagram/both",
+        PredType.AdaGramRight: "adagram/right",
+    }
+    pred_file = pred_files[pred_type]
+    baseline.calculate_and_save_cost_baseline(
+        f"data/processed/predictions/{pred_file}/{language}.csv",
+        f"data/processed/predictions/{pred_file}_cost/{language}.csv"
     )
 
 
@@ -244,14 +290,14 @@ def _iter_lang_dir(dir_path: str, op: Callable[[str], None]) -> None:
 
 def _write_frequency_tables(language: str):
     data_path = f"data/processed/context_morph_data/{language}.csv"
-    freq.generate_context_op_table(
-        data_path,
-        f"data/processed/context_matrix/{language}.csv"
-    )
-    freq.generate_morph_op_table(
-        data_path,
-        f"data/processed/morph_matrix/{language}.csv"
-    )
+    # freq.generate_context_op_table(
+    #     data_path,
+    #     f"data/processed/context_matrix/{language}.csv"
+    # )
+    # freq.generate_morph_op_table(
+    #     data_path,
+    #     f"data/processed/morph_matrix/{language}.csv"
+    # )
     freq.generate_morph_context_op_table(
         data_path,
         f"data/processed/morph_context_matrix/{language}.csv"
@@ -263,6 +309,7 @@ def _write_context_morph_data(language: str):
         f"data/processed/first_step/{language}.csv",
         f"data/processed/context_morph_data/{language}.csv"
     )
+
 
 # write_steps(True, True, True, True, True)
 # write_alphabets()
@@ -299,9 +346,17 @@ def _write_context_morph_data(language: str):
 # _generate_no_op_baseline("asturian")
 # calculate_mln_no_grammar_cost_language("asturian")
 # compare_baselines("mln_no_grammar_cost", "no_op_cost")
-print("About to generate context morph data")
-input("Press ENTER to start")
-write_context_morph_data()
-print(f"About to generate frequency tables")
-input("Press ENTER to start")
-write_frequency_tables()
+# print("About to generate context morph data")
+# input("Press ENTER to start")
+# write_context_morph_data()
+# print(f"About to generate frequency tables")
+# input("Press ENTER to start")
+# write_frequency_tables()
+# _write_frequency_tables("latin")
+
+# write_alphabets()
+
+if __name__ == '__main__':
+    # predict_language("asturian", PredType.AdaGramBoth)
+    # calculate_grammar_cost_for_language("asturian", PredType.AdaGramBoth)
+    compare_baselines("adagram/both_cost", "no_op_cost")

@@ -3,6 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np
 import math
+
 from rulesynthesis.masked_cross_entropy import sequence_mask
 
 

@@ -22,7 +22,7 @@ def is_var(s):
 	return bool(pattern)
 
 def is_emptyvar(s):
-	# detect if string is an empty variable name, such as 'x12' (x followed by optional number)
+	# detect if string is an empty variable name, such as 'y12' (y followed by optional number)
 	# ignore the interpretation symbols	
 	s = int_strip(s)
 	pattern = fullmatch('y[0-9]*',s)
