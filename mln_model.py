@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+from enum import Enum
 from typing import Collection, Tuple, Union
 import abc
 
@@ -128,14 +129,17 @@ class Operation(JsonSerializable):
 class WeightedOperation:
     weight: float
     operation: Operation
+    morph_features: Tuple[str, ...]
 
-    def __init__(self, weight: float, operation: Operation) -> None:
+    def __init__(self, weight: float, operation: Operation,
+                 morph_features: Tuple[str, ...] = ()) -> None:
         super().__init__()
         self.weight = weight
         self.operation = operation
+        self.morph_features = morph_features
 
     def __str__(self) -> str:
-        return f"{self.weight}, {self.operation}"
+        return f"{self.weight}, {self.operation}, {self.morph_features}"
 
     def __repr__(self) -> str:
         return f"({str(self)})"
@@ -286,6 +290,42 @@ class OpMorph:
         return str(self)
 
 
+class Strictness(Enum):
+    Ignore = 0
+    AtLeastOne = 1
+    MajorityLeftInRight = 2
+    MajorityRightInLeft = 3
+    AllLeftInRight = 4
+    AllRightInLeft = 5
+    All = 6
+
+    def compare(self, left: Collection, right: Collection) -> bool:
+        if self == Strictness.Ignore:
+            return True
+        if self == Strictness.AtLeastOne:
+            return any(item in right for item in left)
+        if self == Strictness.MajorityLeftInRight:
+            return Strictness._majority_left_in_right(left, right)
+        if self == Strictness.MajorityRightInLeft:
+            return Strictness._majority_left_in_right(right, left)
+        if self == Strictness.AllLeftInRight:
+            return Strictness._all_left_in_right(left, right)
+        if self == Strictness.AllRightInLeft:
+            return Strictness._all_left_in_right(right, left)
+        if self == Strictness.All:
+            return set(left) == set(right)
+
+        raise NotImplementedError
+
+    @staticmethod
+    def _majority_left_in_right(left: Collection, right: Collection) -> bool:
+        return sum(1 for item in left if item in right) > (len(left) / 2)
+
+    @staticmethod
+    def _all_left_in_right(left: Collection, right: Collection) -> bool:
+        return all(item in right for item in left)
+
+
 class WordContext(JsonSerializable):
     context: Context
     operation: str
@@ -312,7 +352,13 @@ class WordContext(JsonSerializable):
     def __repr__(self) -> str:
         return str(self)
 
-    def applies(self, word: str) -> bool:
+    def applies(
+            self,
+            word: str,
+    ) -> bool:
+        return self._context_applies(word)
+
+    def _context_applies(self, word: str) -> bool:
         left = self.context.left
         right = self.context.right
         if self.operation == 'INS':

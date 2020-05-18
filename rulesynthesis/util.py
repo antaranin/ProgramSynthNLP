@@ -14,6 +14,7 @@ from rulesynthesis.interpret_grammar import Grammar, Rule
 from torch.multiprocessing import Queue, Process
 
 
+
 class UnfinishedError(Exception):
     pass
 
@@ -135,10 +136,14 @@ class Lang:
             mylist.append(EOS_token)
         try:
             indices = [self.symbol2index[s] for s in mylist]
-        except KeyError:
+        except KeyError as ke:
+            print(f"Key Error -> {ke}")
+            print(f"List => {mylist}")
+            print(f"Symbol 2 index => {self.symbol2index}")
+            raise TOKENError
             # raise TOKENError
-            import pdb;
-            pdb.set_trace()
+            # import pdb;
+            # pdb.set_trace()
             # assert 0, 'need trace'
         output = torch.LongTensor(indices)
         return output
@@ -378,7 +383,14 @@ def get_episode_generator(episode_type, model_in_lang=None, model_out_lang=None,
                          '[u2]']  # TODO
     prog_lang = Lang(prog_symbols_list)
 
-    if episode_type == 'rules_gen':
+    if episode_type == "NLP":
+        alphabet_path = "../data/processed/alphabet/asturian.csv"
+        data_path = "../data/processed/context_morph_data/asturian.csv"
+        grammar_path = "../data/processed/grammar/adagram/both/asturian.csv"
+        from rulesynthesis.nlp import NLPLanguage
+        lang = NLPLanguage(alphabet_path, data_path, grammar_path)
+        return lang.get_episode_generator()
+    elif episode_type == 'rules_gen':
 
         input_lang = Lang(
             input_symbols_list_default + ['mup', 'dox', 'kleek'])  # default has 9 symbols

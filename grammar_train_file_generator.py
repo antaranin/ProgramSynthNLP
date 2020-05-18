@@ -36,10 +36,14 @@ def generate_grammar_train_file(data_file_path: str, output_file_path: str,
     _save_train_file(output_file_path, contexts, split_type_flag)
 
 
+def _escape_spaces(string: str) -> str:
+    return str(string).replace(" ", "_")
+
+
 def _row_to_operation(row) -> MorphOp:
     return MorphOp(
-        Context(row.Left, row.Right),
-        OpObject(row.Operation, row.Object),
+        Context(_escape_spaces(row.Left), _escape_spaces(row.Right)),
+        OpObject(_escape_spaces(row.Operation), _escape_spaces(row.Object)),
         row.Grammar.split(",")
     )
 
@@ -103,18 +107,19 @@ def _format_op_object(op_ob: OpObject, split_type_flag: SplitType) -> str:
 
 def _format_morph_features(morph_features: Collection[str], split_type_flag: SplitType) -> str:
     joiner = " " if SplitType.GrammarSymbols in split_type_flag else ","
-    return joiner.join(morph_features)
+    joined_features = joiner.join(morph_features)
+    return "[ {0} ]".format(joined_features)
 
 
 if __name__ == '__main__':
     split_type = SplitType(
-        SplitType.ContextLetters
+        SplitType.ContextLetters | SplitType.IncludeGrammar
     )
     output_dir = f"data/processed/grammar/train_data/{split_type}"
     if not os.path.exists(output_dir):
         os.mkdir(output_dir)
     generate_grammar_train_file(
         "data/processed/context_morph_data/asturian.csv",
-        f"{output_dir}/train.dat",
+        f"{output_dir}/asturian.dat",
         split_type
     )

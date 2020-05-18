@@ -1,0 +1,129 @@
+% non-terminals
+
+Word -> Start BothTop
+BothTop -> BothOp End
+BothOp -> Left RightMOp
+RightMOp -> MOp Right
+MOp -> WrappedMorphs Op
+WrappedMorphs -> LeftBracket RightWrappedMorphs
+RightWrappedMorphs -> Morphs RightBracket
+Start -> StartChar Chars
+Start -> StartChar
+End -> EndChar
+End -> Chars EndChar
+Left -> Chars
+Right -> Chars
+Chars -> Char Chars
+Chars -> Char
+
+% adapted non-terminals
+
+@ BothOp 2000 100 0
+
+% terminals
+
+StartChar -> "^"
+EndChar -> "$"
+
+Op -> "INS(hiin)"
+Op -> "INS(n)"
+Op -> "INS(löist)"
+Op -> "INS(ksist)"
+Op -> "DEL(t)"
+Op -> "INS(est)"
+Op -> "DEL(maz)"
+Op -> "INS(l)"
+Op -> "INS(zilt)"
+Op -> "DEL(i)"
+Op -> "INS(ksen)"
+Op -> "INS(ttee)"
+Op -> "INS(eez)"
+Op -> "INS(al)"
+Op -> "INS(ille)"
+Op -> "INS(löilt)"
+Op -> "DEL(u)"
+Op -> "INS(ta)"
+Op -> "DEL(pa)"
+Op -> "INS(en)"
+Op -> "DEL(se)"
+Op -> "DEL(k)"
+Op -> "INS(keen)"
+Op -> "INS(ksiil)"
+Op -> "INS(jj)"
+Op -> "INS(et)"
+Op -> "INS(ilt)"
+Op -> "INS(loihe)"
+Op -> "INS(meez)"
+Op -> "INS(see)"
+Op -> "INS(ks)"
+Op -> "INS(iziil)"
+Op -> "INS(löil)"
+Op -> "INS(oiks)"
+Op -> "INS(iz)"
+Op -> "INS(äl)"
+Op -> "DEL(z)"
+Op -> "INS(iks)"
+Op -> "INS(lle)"
+Op -> "DEL(a)"
+Op -> "INS(eks)"
+Op -> "DEL(n)"
+Op -> "INS(iil)"
+Op -> "INS(vist)"
+Op -> "INS(helt)"
+Op -> "INS(löin)"
+Op -> "INS(vii)"
+Op -> "INS(tmii)"
+Op -> "INS(es)"
+Op -> "DEL(zi)"
+Op -> "INS(z)"
+Op -> "DEL(ä)"
+Op -> "INS(iin)"
+Op -> "INS(pahaal)"
+Op -> "INS(iiz)"
+
+Char -> "<"
+Char -> ">"
+Char -> "z"
+Char -> "i"
+Char -> "n"
+Char -> "k"
+Char -> "a"
+Char -> "r"
+Char -> "l"
+Char -> "j"
+Char -> "v"
+Char -> "s"
+Char -> "ü"
+Char -> "ö"
+Char -> "t"
+Char -> "u"
+Char -> "p"
+Char -> "h"
+Char -> "ä"
+Char -> "e"
+Char -> "o"
+Char -> "m"
+
+LeftBracket -> "["
+RightBracket -> "]"
+Morphs -> "N,SG,ESS"
+Morphs -> "N,SG,IN+ABL"
+Morphs -> "N,PL,IN+ALL"
+Morphs -> "N,PL,AT+ESS"
+Morphs -> "N,PL,IN+ABL"
+Morphs -> "N,PL,AT+ALL"
+Morphs -> "N,PL,ESS"
+Morphs -> "N,PL,NOM"
+Morphs -> "N,SG,PRT"
+Morphs -> "N,PL,GEN"
+Morphs -> "N,SG,IN+ALL"
+Morphs -> "N,PL,IN+ESS"
+Morphs -> "N,SG,AT+ESS"
+Morphs -> "N,SG,IN+ESS"
+Morphs -> "N,PL,AT+ABL"
+Morphs -> "N,PL,TRANS"
+Morphs -> "N,SG,AT+ALL"
+Morphs -> "N,SG,TRANS"
+Morphs -> "ADJ,PL,PRT"
+Morphs -> "N,SG,AT+ABL"
+Morphs -> "N,SG,GEN"

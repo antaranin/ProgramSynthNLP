@@ -187,28 +187,29 @@ class Model:
         return model
 
     def save(self, path):
-        state = {'encoder_state_dict': self.encoder.state_dict(),
-                 'decoder_state_dict': self.decoder.state_dict(),
-                 'input_lang': self.input_lang,
-                 'output_lang': self.output_lang,
-                 'prog_lang': self.prog_lang,
-                 'episodes_validation': self.samples_val,
-                 'episode_type': self.episode_type,
-                 'emb_size': self.emb_size,
-                 'dropout': self.dropout_p,
-                 'nlayers': self.nlayers,
-                 'pretrain_episode': self.pretrain_episode,
-                 'rl_episode': self.rl_episode,
-                 'adam_learning_rate': self.adam_learning_rate,
-                 # 'disable_memory':self.disable_memory,
-                 # 'disable_recon_loss':self.disable_recon_loss,
-                 # 'use_attention':self.use_attention,
-                 'max_length_eval': self.max_length_eval,
-                 'num_pretrain_episodes': self.num_pretrain_episodes,
-                 'num_rl_episodes': self.num_rl_episodes,
-                 # 'args': self.args,
-                 'positional': self.encoder.rule_positions
-                 }
+        state = {
+            'encoder_state_dict': self.encoder.state_dict(),
+            'decoder_state_dict': self.decoder.state_dict(),
+            'input_lang': self.input_lang,
+            'output_lang': self.output_lang,
+            'prog_lang': self.prog_lang,
+            'episodes_validation': self.samples_val,
+            'episode_type': self.episode_type,
+            'emb_size': self.emb_size,
+            'dropout': self.dropout_p,
+            'nlayers': self.nlayers,
+            'pretrain_episode': self.pretrain_episode,
+            'rl_episode': self.rl_episode,
+            'adam_learning_rate': self.adam_learning_rate,
+            # 'disable_memory':self.disable_memory,
+            # 'disable_recon_loss':self.disable_recon_loss,
+            # 'use_attention':self.use_attention,
+            'max_length_eval': self.max_length_eval,
+            'num_pretrain_episodes': self.num_pretrain_episodes,
+            'num_rl_episodes': self.num_rl_episodes,
+            # 'args': self.args,
+            'positional': self.encoder.rule_positions
+        }
 
         print('Saving model as: ' + path)
         torch.save(state, path)
@@ -224,12 +225,15 @@ class Model:
     def re_pad_batch(self, samples, eval_mode=False):
 
         x_lens = [max(sample['xs_lengths']) for sample in samples if sample['xs_lengths']]
-        if x_lens: max_x_len = max(x_lens)
+        if x_lens:
+            max_x_len = max(x_lens)
 
         y_lens = [max(sample['ys_lengths']) for sample in samples if sample['ys_lengths']]
-        if y_lens: max_y_len = max(y_lens)
+        if y_lens:
+            max_y_len = max(y_lens)
         r_lens = [max(sample['rs_lengths']) for sample in samples if sample['rs']]
-        if r_lens: max_r_len = max(r_lens)
+        if r_lens:
+            max_r_len = max(r_lens)
         if not eval_mode:
             # don't compute these if you are evaluating, because you don't have the info to do it and will get error
             max_g_len = max(max(sample['g_length']) for sample in samples)
@@ -238,12 +242,15 @@ class Model:
         new_samples = []
         for sample in samples:
 
-            if x_lens: sample['xs_padded'], _ = build_padded_var(sample['xs'], self.input_lang,
-                                                                 max_length=max_x_len)
-            if y_lens: sample['ys_padded'], _ = build_padded_var(sample['ys'], self.output_lang,
-                                                                 max_length=max_y_len)
-            if r_lens: sample['rs_padded'], _ = build_padded_var(sample['rs'], self.prog_lang,
-                                                                 max_length=max_r_len)
+            if x_lens:
+                sample['xs_padded'], _ = build_padded_var(sample['xs'], self.input_lang,
+                                                          max_length=max_x_len)
+            if y_lens:
+                sample['ys_padded'], _ = build_padded_var(sample['ys'], self.output_lang,
+                                                          max_length=max_y_len)
+            if r_lens:
+                sample['rs_padded'], _ = build_padded_var(sample['rs'], self.prog_lang,
+                                                          max_length=max_r_len)
             if not eval_mode:
                 sample['g_padded'], _ = build_padded_var([sample['grammar']], self.prog_lang,
                                                          max_length=max_g_len)
@@ -356,7 +363,8 @@ class MiniscanRBBaseline(Model):
         rl = len(rule)
         for i, r in enumerate(rule):
             tokenized_rules.extend(r)
-            if i + 1 != rl: tokenized_rules.append('\n')
+            if i + 1 != rl:
+                tokenized_rules.append('\n')
         return tokenized_rules
 
     def detokenize_action(self, action):
@@ -523,7 +531,8 @@ class WordToNumber(MiniscanRBBaseline):
         for i, r in enumerate(rule):
             # TODO digitize tokens in r
             tokenized_rules.extend(r)
-            if i + 1 != rl: tokenized_rules.append('\n')
+            if i + 1 != rl:
+                tokenized_rules.append('\n')
         return tokenized_rules
 
     def GroundTruthModel(self, state, action):

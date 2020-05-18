@@ -5,6 +5,7 @@ import os
 import time
 
 from rulesynthesis.model import MiniscanRBBaseline, WordToNumber
+from rulesynthesis.nlp import NLPModel, NLPLanguage
 from rulesynthesis.util import get_episode_generator, timeSince, generate_batchsize_of_samples, GenData
 # from agent import
 from rulesynthesis.train import gen_samples, train_batched_step, eval_ll, batchtime
@@ -42,11 +43,14 @@ if __name__ == '__main__':
     path = os.path.join(args.dir_model, args.fn_out_model)
 
     # Make model
+    print(f"Args type => {args.type}")
     if os.path.isfile(path):
         if args.type == 'miniscanRBbase':
             model = MiniscanRBBaseline.load(path)
         elif args.type == 'WordToNumber':
             model = WordToNumber.load(path)
+        elif args.type =="NLP":
+            model = NLPModel.load(path)
         else:
             assert False, "not implemented yet"
     else:
@@ -55,6 +59,8 @@ if __name__ == '__main__':
             model = MiniscanRBBaseline.new(args)
         elif args.type == 'WordToNumber':
             model = WordToNumber.new(args)
+        elif args.type == "NLP":
+            model = NLPModel.new(args)
         else:
             assert False, "not implemented yet"
 
@@ -123,3 +129,11 @@ if __name__ == '__main__':
                 model.save(path)
             if episode % 10000 == 0 or episode == model.num_pretrain_episodes:
                 model.save(path + '_' + str(model.pretrain_episode))
+
+
+def get_nlp_episode_gen():
+    alphabet_path = "../data/processed/alphabet/asturian.csv"
+    data_path = "../data/processed/context_morph_data/asturian.csv"
+    grammar_path = "../data/processed/grammar/adagram/both/asturian.csv"
+    lang = NLPLanguage(alphabet_path, data_path, grammar_path)
+    return lang.get_episode_generator()

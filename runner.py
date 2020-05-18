@@ -1,21 +1,27 @@
 import os
 from enum import Enum
-from typing import Callable, List, Tuple, Dict
+from typing import Callable, List, Tuple, Dict, Collection
 
 from functools import partial
 from context_matrix import create_and_save_context_matrix, load_context_matrix, \
     rewrite_context_matrix_to_concept_lib_format, \
     create_grammar_context_matrix_for_concept_lib_format
-from main import process_data_file, write_alphabet, read_base_and_expected_words
+from grammar_train_file_generator import SplitType
+from main import process_data_file, write_alphabet, read_base_expected_words_and_morph_features
 from precondition_interpreter import run_predictions, Prediction
-from mln_file_generator import read_mln_file
+from mln_file_generator import read_mln_file, Strictness
 import operation_revisor as rev
 import baseline
 import frequency_table_gen as freq
-import adagram_grammar_extractor as adagram
+import adagram_grammar_extractor as gram_extractor
+import PyAdaGram.launch_train as adagram
+import grammar_train_file_generator as gram_train
+import grammar_file_generator as gram_gen
+import csv
 
 
 class PredType(Enum):
+    NoOperation = 0
     AdaGramLeft = 1
     AdaGramRight = 2
     AdaGramBoth = 3
@@ -190,6 +196,30 @@ def _get_average_baseline_cost(cost_dir: str) -> Dict[str, float]:
 #         print(f"Base: {item[0][1]} - Sig: {item[1][1]} ")
 #         print(f"Mean: {item[2][1]}, Stdev: {item[2][2]}")
 
+def calculate_average_prediction_costs(pred_type: PredType):
+    base_dir = "data/processed/predictions"
+    cost_file_name_dict = {
+        PredType.AdaGramBoth: "adagram/both",
+        PredType.AdaGramRight: "adagram/right",
+        PredType.AdaGramLeft: "adagram/left",
+        PredType.NoOperation: "no_op"
+    }
+    output_file_name_dict = {
+        PredType.AdaGramBoth: "adagram_both",
+        PredType.AdaGramRight: "adagram_right",
+        PredType.AdaGramLeft: "adagram_left",
+        PredType.NoOperation: "no_op"
+    }
+    output_file_path = f"{base_dir}/average_costs/{output_file_name_dict[pred_type]}.csv"
+    languages_to_costs = _get_average_baseline_cost(f"{cost_file_name_dict[pred_type]}_cost")
+    mean_and_stdev = _get_mean_and_standard_devs_for_languages()
+    with open(output_file_path, mode="w+") as file:
+        writer = csv.writer(file, delimiter=";")
+        writer.writerow(["Language", "Average cost", "Mean", "Stddev"])
+        for language in languages_to_costs:
+            mean, stddev = mean_and_stdev[language]
+            writer.writerow([language, languages_to_costs[language], mean, stddev])
+
 
 def compare_baselines(baseline_1_name: str, baseline_2_name: str):
     base_1 = _get_average_baseline_cost(baseline_1_name)
@@ -199,17 +229,6 @@ def compare_baselines(baseline_1_name: str, baseline_2_name: str):
         print(f"Language: {language}")
         print(f"{baseline_1_name}: {base_1[language]} - {baseline_2_name}: {base_2[language]} ")
         print(f"Mean: {means_stdev[language][0]}, Stdev: {means_stdev[language][1]}")
-
-
-def _generate_no_op_baseline(language: str):
-    base_and_expected = read_base_and_expected_words(
-        f"data/processed/first_step_revised/{language}.csv"
-    )
-    predictions = [Prediction(base, base, expected) for base, expected in base_and_expected]
-    prediction_path = f"data/processed/predictions/no_op/{language}.csv"
-    baseline.save_predictions(prediction_path, predictions)
-    baseline.calculate_and_save_cost_baseline(prediction_path,
-                                              f"data/processed/predictions/no_op_cost/{language}.csv")
 
 
 # def predict_language(language: str):
@@ -226,29 +245,38 @@ def _generate_no_op_baseline(language: str):
 #                               predictions)
 
 
-def predict_language(language: str, pred_type: PredType):
-    base_and_expected = read_base_and_expected_words(
-        f"data/processed/first_step_revised/{language}.csv")
+def predict_language(
+        language: str,
+        pred_type: PredType,
+        morph_feature_comparison_strictness: Strictness
+):
+    base_expected_and_morphs = read_base_expected_words_and_morph_features(
+        f"data/latin_alphabet/{language}-test")
     grammar_dir = "data/processed/grammar"
     if pred_type == PredType.AdaGramRight:
         pred_type_path_change = "adagram/right"
         grammar_file = f"{grammar_dir}/{pred_type_path_change}/{language}.grammar"
-        weighted_ops = adagram.process_grammar_file(grammar_file)
+        weighted_ops = gram_extractor.process_grammar_file(grammar_file)
         is_probabilistic = True
     elif pred_type == PredType.AdaGramLeft:
         pred_type_path_change = "adagram/left"
         grammar_file = f"{grammar_dir}/{pred_type_path_change}/{language}.grammar"
-        weighted_ops = adagram.process_grammar_file(grammar_file)
+        weighted_ops = gram_extractor.process_grammar_file(grammar_file)
         is_probabilistic = True
     elif pred_type == PredType.AdaGramBoth:
         pred_type_path_change = "adagram/both"
         grammar_file = f"{grammar_dir}/{pred_type_path_change}/{language}.grammar"
-        weighted_ops = adagram.process_grammar_file(grammar_file)
+        weighted_ops = gram_extractor.process_grammar_file(grammar_file)
         is_probabilistic = True
+    elif pred_type == PredType.NoOperation:
+        weighted_ops = ()
+        is_probabilistic = False
+        pred_type_path_change = "no_op"
     else:
         raise NotImplementedError
 
-    predictions = run_predictions(base_and_expected, weighted_ops, is_probabilistic)
+    predictions = run_predictions(base_expected_and_morphs, weighted_ops, is_probabilistic,
+                                  morph_feature_comparison_strictness)
     baseline.save_predictions(f"data/processed/predictions/{pred_type_path_change}/{language}.csv",
                               predictions)
 
@@ -264,6 +292,7 @@ def calculate_grammar_cost_for_language(language: str, pred_type: PredType):
         PredType.AdaGramLeft: "adagram/left",
         PredType.AdaGramBoth: "adagram/both",
         PredType.AdaGramRight: "adagram/right",
+        PredType.NoOperation: "no_op"
     }
     pred_file = pred_files[pred_type]
     baseline.calculate_and_save_cost_baseline(
@@ -311,6 +340,76 @@ def _write_context_morph_data(language: str):
     )
 
 
+def run_adagram(language: str, split_type: SplitType, pred_type: PredType):
+    pred_type_dict = {
+        PredType.AdaGramBoth: "both",
+        PredType.AdaGramRight: "right",
+        PredType.AdaGramLeft: "left"
+    }
+    assert pred_type in pred_type_dict
+    pred_type_name = pred_type_dict[pred_type]
+    train_file_name = f"{language}.dat"
+    input_file = f"data/processed/grammar/train_data/{split_type}/{train_file_name}"
+    output_dir = f"data/processed/grammar/adagram/{pred_type_name}"
+    grammar_file = f"data/processed/grammar/{pred_type_name}/{language}.unigram"
+    number_of_entries = str(sum(1 for line in open(input_file)))
+    args = [
+        "--input_file", input_file,
+        "--output_directory", output_dir,
+        "--grammar_file", grammar_file,
+        "--number_of_documents", number_of_entries,
+        "--batch_size", "10"
+    ]
+    adagram.main(args)
+    output_grammar_path = f"data/processed/grammar/adagram/{pred_type_name}/{language}.grammar"
+    _save_best_adagram_grammar(f"{output_dir}/{train_file_name}", output_grammar_path)
+
+
+def _save_best_adagram_grammar(input_dir: str, output_file_path: str):
+    all_subdirs = [f"{input_dir}/{d}" for d in os.listdir(input_dir) if
+                   os.path.isdir(f"{input_dir}/{d}")]
+    latest_subdir = max(all_subdirs, key=os.path.getmtime)
+    all_results = [f for f in os.listdir(latest_subdir) if f.startswith("adagram")]
+    best_result = max(all_results, key=lambda res: int(res.split("-")[1]))
+    print(f"Best: {best_result}")
+    os.replace(f"{latest_subdir}/{best_result}", output_file_path)
+
+
+def generate_grammar_file_for_adagram(language: str, split_type: SplitType,
+                                      train_type: gram_gen.TrainingType):
+    out_names = {
+        gram_gen.TrainingType.Left: "left",
+        gram_gen.TrainingType.Right: "right",
+        gram_gen.TrainingType.Both: "both"
+    }
+
+    output_dir = f"data/processed/grammar/{out_names[train_type]}"
+    if not os.path.exists(output_dir):
+        os.mkdir(output_dir)
+    gram_gen.generate_grammar_file(
+        f"data/processed/alphabet/{language}.csv",
+        f"data/processed/context_morph_data/{language}.csv",
+        f"{output_dir}/{language}.unigram",
+        split_type,
+        train_type
+    )
+
+
+def generate_grammar_train_file_for_adagram(language: str, split_type: SplitType):
+    output_dir = f"data/processed/grammar/train_data/{split_type}"
+    if not os.path.exists(output_dir):
+        os.mkdir(output_dir)
+    gram_train.generate_grammar_train_file(
+        f"data/processed/context_morph_data/{language}.csv",
+        f"{output_dir}/{language}.dat",
+        split_type
+    )
+
+
+def get_all_languages_from_dir(directory: str) -> Collection[str]:
+    return [file.split(".")[0] for file in os.listdir(directory)]
+
+
 # write_steps(True, True, True, True, True)
 # write_alphabets()
 # write_first_second_step_revision()
@@ -356,7 +455,39 @@ def _write_context_morph_data(language: str):
 
 # write_alphabets()
 
+def make_adagrammar_for_languages():
+    dir = "data/processed/first_step"
+    languages = get_all_languages_from_dir(dir)
+    calculated_dir = "data/processed/predictions/adagram/both_cost"
+    calculated_languages = get_all_languages_from_dir(calculated_dir)
+    languages = [lang for lang in languages if lang not in calculated_languages]
+    split_type = SplitType.IncludeGrammar | SplitType.ContextLetters
+    train_type = gram_gen.TrainingType.Both
+    pred_type = PredType.AdaGramBoth
+    strictness = Strictness.All
+    for language in languages:
+        try:
+            print(f"Starting work on: {language}")
+            generate_grammar_file_for_adagram(
+                language,
+                split_type,
+                train_type
+            )
+            generate_grammar_train_file_for_adagram(language, split_type)
+            run_adagram(language, split_type, PredType.AdaGramBoth)
+            predict_language(language, pred_type, strictness)
+            calculate_grammar_cost_for_language(language, pred_type)
+            predict_language(language, PredType.NoOperation, strictness)
+            calculate_grammar_cost_for_language(language, PredType.NoOperation)
+            print(f"Finished work on {language}")
+        except:
+            print(f"Language failes: {language}")
+    calculate_average_prediction_costs(pred_type)
+
 if __name__ == '__main__':
-    # predict_language("asturian", PredType.AdaGramBoth)
-    # calculate_grammar_cost_for_language("asturian", PredType.AdaGramBoth)
-    compare_baselines("adagram/both_cost", "no_op_cost")
+    gram_path = "data/processed/grammar/adagram/both/asturian.grammar"
+    out_path = "data/processed/grammar/adagram/both/asturian.csv"
+    gram_extractor.save_grammar_file(gram_path, out_path)
+
+
+

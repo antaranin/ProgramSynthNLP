@@ -4,7 +4,7 @@ import numpy as np
 from collections import defaultdict
 from typing import Collection, Tuple, DefaultDict, List, Union
 
-from mln_model import WeightedOperation, Context, WordAndOps, OpObject, WordContext
+from mln_model import WeightedOperation, Context, WordAndOps, OpObject, WordContext, Strictness
 
 
 class Prediction:
@@ -39,24 +39,58 @@ class Interpreter:
         self.operations = dict_operations
         self.contexts = contexts
 
-    def find_word_operations(self, word: str) -> WordAndOps:
+    def find_word_operations(
+            self,
+            word: str,
+            morphological_features: Tuple[str, ...],
+            morphological_feature_comparison_strictness: Strictness
+    ) -> WordAndOps:
         surrounded_word = f"<{word}>"
         contexts = self._find_contexts_for_word(surrounded_word)
-        applicable_operations = self._find_applicable_operations(contexts)
+        applicable_operations = self._find_applicable_operations(
+            contexts,
+            morphological_features,
+            morphological_feature_comparison_strictness
+        )
         return self._create_word_and_ops(word, applicable_operations)
 
     def _find_contexts_for_word(self, word: str) -> Collection[WordContext]:
         return [context for context in self.contexts if context.applies(word)]
 
-    def _find_applicable_operations(self, contexts: Collection[WordContext]
-                                    ) -> Collection[WeightedOperation]:
+    def _find_applicable_operations(
+            self,
+            contexts: Collection[WordContext],
+            morph_features: Tuple[str, ...],
+            morph_feature_comparison_strictness: Strictness
+    ) -> Collection[WeightedOperation]:
         combined_contexts = Interpreter._combine_same_contexts(contexts)
 
         applicable_operation_groups = [
             [op for context in combined for op in self.operations[context]]
             for combined in combined_contexts
         ]
-        return [self._choose_applicable_operation(ops) for ops in applicable_operation_groups]
+
+        morph_viable_groups = []
+        for group in applicable_operation_groups:
+            filtered_group = Interpreter._filter_morphologically_viable_operations(
+                group,
+                morph_features,
+                morph_feature_comparison_strictness
+            )
+            if len(filtered_group) > 0:
+                morph_viable_groups.append(filtered_group)
+
+        return [self._choose_applicable_operation(ops) for ops in morph_viable_groups]
+
+    @staticmethod
+    def _filter_morphologically_viable_operations(
+            operations: Collection[WeightedOperation],
+            morph_features: Tuple[str, ...],
+            morph_feature_comparison_strictness: Strictness
+    ) -> Collection[WeightedOperation]:
+        compare = lambda op: \
+            morph_feature_comparison_strictness.compare(morph_features, op.morph_features)
+        return [operation for operation in operations if compare(operation)]
 
     def _choose_applicable_operation(
             self,
@@ -139,21 +173,30 @@ class Interpreter:
 
 
 def run_predictions(
-        base_and_expected_words: Collection[Tuple[str, str]],
+        base_expected_words_and_morph_features: Collection[Tuple[str, str, Tuple[str, ...]]],
         predicates: Collection[WeightedOperation],
-        are_weights_probabilistic: bool
+        are_weights_probabilistic: bool,
+        morphological_comparison_strictness: Strictness = Strictness.Ignore
 ) -> Collection[Prediction]:
     interpreter = Interpreter(predicates, are_weights_probabilistic)
     print("Initialized interpreter")
     predictions = []
-    total_count = len(base_and_expected_words)
+    total_count = len(base_expected_words_and_morph_features)
     perc = total_count / 100
     count = 0
-    for base, expected in base_and_expected_words:
+    for base, expected, morph_features in base_expected_words_and_morph_features:
         if count % perc == 0:
             print(f"Done {count} words, perc: {count / perc}")
-        word_and_ops = interpreter.find_word_operations(base)
+        word_and_ops = interpreter.find_word_operations(
+            base,
+            morph_features,
+            morphological_comparison_strictness
+        )
         predicted = word_and_ops.apply()
         predictions.append(Prediction(base, predicted, expected))
         count += 1
     return predictions
+
+
+if __name__ == "__main__":
+    pass

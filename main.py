@@ -13,9 +13,25 @@ from data_model import Transformation, Operation, Operations
 FREQUENCY_THRESHOLD = 10
 
 
-def read_base_and_expected_words(first_step_file_path: str) -> Collection[Tuple[str, str]]:
-    data = pd.read_csv(first_step_file_path, sep=";")
-    return data[["Source", "Target"]].values.tolist()
+# def read_base_expected_words_and_morph_features(
+#         first_step_file_path: str
+# ) -> Collection[Tuple[str, str, Tuple[str, ...]]]:
+#     data = pd.read_csv(first_step_file_path, sep=";")
+#     data["Grammar"] = data["Grammar"].str.split(",")
+#     data_tuples = data[["Source", "Target", "Grammar"]].values.tolist()
+#
+#     return tuple((source, target, tuple(grammar)) for source, target, grammar in data_tuples)
+
+
+def read_base_expected_words_and_morph_features(
+        base_data_file_path: str
+) -> Collection[Tuple[str, str, Tuple[str, ...]]]:
+    data = pd.read_csv(base_data_file_path, sep="\t")
+    data.columns = ["Source", "Target", "Grammar"]
+    data["Grammar"] = data["Grammar"].str.split(";")
+    data_tuples = data[["Source", "Target", "Grammar"]].values.tolist()
+
+    return tuple((source, target, tuple(grammar)) for source, target, grammar in data_tuples)
 
 
 def read_file_data(file_name: str) -> List[Transformation]:

@@ -1,0 +1,3 @@
+[submodule "PyAdaGram"]
+	path = PyAdaGram
+	url = https://github.com/kzhai/PyAdaGram.git

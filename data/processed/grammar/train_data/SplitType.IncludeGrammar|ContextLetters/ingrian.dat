@@ -1,0 +1,82 @@
+^ < v a r i [ N,SG,GEN ] DEL(z) > $
+^ < v a r i z [ N,SG,GEN ] INS(ksen) > $
+^ < v e l l i [ N,PL,AT+ESS ] INS(löil) > $
+^ < j ä r v i [ N,PL,IN+ABL ] INS(löist) > $
+^ < i k k u n [ N,PL,TRANS ] DEL(a) > $
+^ < i k k u n a [ N,PL,TRANS ] INS(oiks) > $
+^ < k a s [ N,PL,ESS ] DEL(se) n > $
+^ < k a s s e [ N,PL,ESS ] INS(tmii) n > $
+^ < j o k [ N,SG,ESS ] DEL(i) > $
+^ < j o k i [ N,SG,ESS ] INS(keen) > $
+^ < v a r i [ N,PL,IN+ABL ] DEL(z) > $
+^ < v a r i z [ N,PL,IN+ABL ] INS(ksist) > $
+^ < o l u [ N,PL,AT+ESS ] DEL(t) > $
+^ < o l u t [ N,PL,AT+ESS ] INS(iziil) > $
+^ < p ö k k ö i h e i n ä [ N,SG,AT+ESS ] INS(äl) > $
+^ < v e l l [ N,SG,IN+ESS ] DEL(i) > $
+^ < v e l l i [ N,SG,IN+ESS ] INS(eez) > $
+^ < s ü ä [ N,SG,IN+ESS ] DEL(n) > $
+^ < s ü ä n [ N,SG,IN+ESS ] INS(meez) > $
+^ < k e v ä [ N,PL,TRANS ] DEL(t) > $
+^ < k e v ä t [ N,PL,TRANS ] INS(iks) > $
+^ < n a i [ N,PL,AT+ABL ] DEL(n) > $
+^ < n a i n [ N,PL,AT+ABL ] INS(zilt) > $
+^ < l a m [ N,SG,AT+ESS ] DEL(maz) > $
+^ < l a m m a z [ N,SG,AT+ESS ] INS(pahaal) > $
+^ < j ä ä [ N,SG,AT+ALL ] INS(lle) > $
+^ < v a r i [ N,PL,AT+ESS ] DEL(z) > $
+^ < v a r i z [ N,PL,AT+ESS ] INS(ksiil) > $
+^ < k u u [ N,SG,IN+ESS ] INS(z) > $
+^ < m e e [ N,PL,ESS ] DEL(z) > $
+^ < m e e z [ N,PL,ESS ] INS(hiin) > $
+^ < n a i [ N,SG,IN+ALL ] DEL(n) > $
+^ < n a i n [ N,SG,IN+ALL ] INS(see) > $
+^ < o l u t [ N,SG,PRT ] INS(ta) > $
+^ < p ä ä [ N,SG,TRANS ] INS(ks) > $
+^ < k e v ä [ N,PL,GEN ] DEL(t) > $
+^ < k e v ä t [ N,PL,GEN ] INS(iin) > $
+^ < s i l m [ N,PL,IN+ESS ] DEL(ä) > $
+^ < s i l m ä [ N,PL,IN+ESS ] INS(iiz) > $
+^ < s ä k k i [ N,PL,GEN ] INS(löin) > $
+^ < j ä r v i [ N,PL,GEN ] INS(löin) > $
+^ < h ü v [ ADJ,PL,PRT ] INS(vii) ä > $
+^ < k ä z i [ N,PL,AT+ALL ] INS(lle) > $
+^ < j o k i [ N,PL,IN+ALL ] INS(loihe) > $
+^ < j u u s s o [ N,PL,AT+ABL ] INS(ilt) > $
+^ < j a l [ N,SG,AT+ESS ] DEL(k) a > $
+^ < j a l k a [ N,SG,AT+ESS ] INS(al) > $
+^ < v e [ N,SG,IN+ABL ] DEL(zi) > $
+^ < v e z i [ N,SG,IN+ABL ] INS(est) > $
+^ < j a l [ N,SG,AT+ALL ] DEL(k) a > $
+^ < j a l k a [ N,SG,AT+ALL ] INS(lle) > $
+^ < a i [ N,SG,GEN ] DEL(k) a > $
+^ < a i k [ N,SG,GEN ] INS(jj) a > $
+^ < a i k a [ N,SG,GEN ] INS(n) > $
+^ < p ä i v [ N,PL,IN+ESS ] DEL(ä) > $
+^ < p ä i v ä [ N,PL,IN+ESS ] INS(iz) > $
+^ < k ä [ N,SG,IN+ALL ] DEL(zi) > $
+^ < k ä z i [ N,SG,IN+ALL ] INS(ttee) > $
+^ < t ä h [ N,SG,IN+ABL ] INS(es) t i > $
+^ < t ä h t [ N,SG,IN+ABL ] DEL(i) > $
+^ < j ä r v [ N,SG,ESS ] DEL(i) > $
+^ < j ä r v i [ N,SG,ESS ] INS(en) > $
+^ < k a l a [ N,SG,AT+ALL ] INS(lle) > $
+^ < l u [ N,PL,IN+ESS ] DEL(pa) > $
+^ < l u p a [ N,PL,IN+ESS ] INS(vist) > $
+^ < i z ä [ N,SG,GEN ] INS(n) > $
+^ < p ä i v [ N,PL,AT+ALL ] DEL(ä) > $
+^ < p ä i v ä [ N,PL,AT+ALL ] INS(ille) > $
+^ < k u u [ N,SG,AT+ESS ] INS(l) > $
+^ < m e e [ N,SG,AT+ABL ] DEL(z) > $
+^ < m e e z [ N,SG,AT+ABL ] INS(helt) > $
+^ < p ö k k ö i h e i n [ N,PL,AT+ESS ] DEL(ä) > $
+^ < p ö k k ö i h e i n ä [ N,PL,AT+ESS ] INS(iil) > $
+^ < v e [ N,SG,TRANS ] DEL(zi) > $
+^ < v e z i [ N,SG,TRANS ] INS(eks) > $
+^ < s ä k k i [ N,PL,AT+ABL ] INS(löilt) > $
+^ < k [ N,PL,IN+ESS ] DEL(u) u > $
+^ < k u u [ N,PL,IN+ESS ] INS(iz) > $
+^ < l a p s [ N,PL,NOM ] DEL(i) > $
+^ < l a p s i [ N,PL,NOM ] INS(et) > $
+^ < p ä i v [ N,PL,TRANS ] DEL(ä) > $
+^ < p ä i v ä [ N,PL,TRANS ] INS(iks) > $

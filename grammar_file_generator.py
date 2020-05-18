@@ -7,6 +7,7 @@ import pandas as pd
 
 from grammar_train_file_generator import SplitType
 from mln_model import OpObject
+import data_readers as util
 
 
 class TrainingType(Enum):
@@ -21,6 +22,9 @@ LEFT_OP = "LeftOp"
 
 RIGHT_SIDE = "RightSide"
 RIGHT_OP = "RightOp"
+RIGHT_MORPH_OP = "RightMOp"
+MORPH_AND_OP = "MOp"
+LEFT_MORPH_OP = "LeftMOp"
 
 BOTH_TOP = "BothTop"
 BOTH_OP = "BothOp"
@@ -42,47 +46,36 @@ STRING_START = "<"
 START_CHAR_VAL = "^"
 # positioned at the end of a string, but not actually ever a part of a context
 END_CHAR_VAL = "$"
+LEFT_BRACKET_VAL = "["
+RIGHT_BRACKET_VAL = "]"
 IMP = "->"
 TERM_HEADER = "% terminals\n"
 ADAPTED_HEADER = "% adapted non-terminals\n"
 NON_TERM_HEADER = "% non-terminals\n"
 EMPTY = "\n"
 
+WRAPPED_MORPHS = "WrappedMorphs"
+RIGHT_WRAPPED_MORPHS = "RightWrappedMorphs"
 MORPH_GROUP = "Morphs"
 MORPH = "Morph"
+LEFT_BRACKET = "LeftBracket"
+RIGHT_BRACKET = "RightBracket"
 
 
 def generate_grammar_file(alphabet_file_path: str, data_file_path: str, output_path: str,
                           split_type: SplitType, training_type: TrainingType):
-    alphabet = _load_alphabet(alphabet_file_path)
-    data = _load_data(data_file_path)
+    alphabet = util.load_alphabet(alphabet_file_path)
+    data = util.load_data_frame(data_file_path)
     op_objects = data[["Operation", "Object"]].apply(_row_to_op_object, axis=1).tolist()
     unique_combined_morph_features = data["Grammar"].unique().tolist()
     morph_features = [combined.split(",") for combined in unique_combined_morph_features]
     grammar = _generate_grammar(alphabet, set(op_objects), morph_features, split_type,
                                 training_type)
-    _save_grammar_to_file(output_path, grammar)
-
-
-def _save_grammar_to_file(file_path: str, grammar: Collection[str]):
-    with open(file_path, mode="w+") as file:
-        file.writelines(grammar)
-    print(f"Wrote to file {file_path}")
-
-
-def _load_data(data_file_path: str) -> pd.DataFrame:
-    return pd.read_csv(data_file_path, sep=";")
+    util.save_lines_to_file(output_path, grammar)
 
 
 def _row_to_op_object(row) -> OpObject:
     return OpObject(row["Operation"], row["Object"])
-
-
-def _load_alphabet(alphabet_file_path: str) -> Collection[str]:
-    with open(alphabet_file_path, mode='r') as file:
-        reader = csv.reader(file, delimiter=";")
-        next(reader)
-        return [line[1] for line in reader if line[1] != '' and line[1] != ' ']
 
 
 def _generate_grammar(
@@ -119,7 +112,7 @@ def _generate_non_terminals(split_type: SplitType, training_type: TrainingType) 
         TrainingType.Right: _generate_right_train_non_terminals,
         TrainingType.Both: _generate_both_train_non_terminals
     }
-    rules = rule_gen[training_type]()
+    rules = rule_gen[training_type](split_type)
 
     rules.append(_generate_rule(START, START_CHAR, CHARS))
     rules.append(_generate_rule(START, START_CHAR))
@@ -130,24 +123,32 @@ def _generate_non_terminals(split_type: SplitType, training_type: TrainingType) 
     rules.append(_generate_rule(CHARS, CHAR, CHARS))
     rules.append(_generate_rule(CHARS, CHAR))
 
-    if SplitType.IncludeGrammar in split_type and SplitType.GrammarSymbols in split_type:
-        rules.append(_generate_rule(MORPH_GROUP, MORPH, MORPH_GROUP))
-        rules.append(_generate_rule(MORPH_GROUP, MORPH))
-
     return rules
 
 
-def _generate_both_train_non_terminals() -> List[str]:
+def _generate_both_train_non_terminals(split_type: SplitType) -> List[str]:
     rules = [
-        _generate_rule(ROOT, START, BOTH_TOP),
-        _generate_rule(BOTH_TOP, BOTH_OP, END),
-        _generate_rule(BOTH_OP, LEFT, RIGHT_OP),
-        _generate_rule(RIGHT_OP, OP, RIGHT)
+        (ROOT, START, BOTH_TOP),
+        (BOTH_TOP, BOTH_OP, END)
     ]
-    return rules
+    if SplitType.IncludeGrammar in split_type:
+        rules.append((BOTH_OP, LEFT, RIGHT_MORPH_OP))
+        rules.append((RIGHT_MORPH_OP, MORPH_AND_OP, RIGHT))
+        rules.append((MORPH_AND_OP, WRAPPED_MORPHS, OP))
+        rules.append((WRAPPED_MORPHS, LEFT_BRACKET, RIGHT_WRAPPED_MORPHS))
+        rules.append((RIGHT_WRAPPED_MORPHS, MORPH_GROUP, RIGHT_BRACKET))
+        if SplitType.GrammarSymbols in split_type:
+            rules.append((MORPH_GROUP, MORPH, MORPH_GROUP))
+            rules.append((MORPH_GROUP, MORPH))
+    else:
+        rules.append((BOTH_OP, LEFT, RIGHT_OP))
+        rules.append((RIGHT_OP, OP, RIGHT))
+    return [_generate_rule(*rule) for rule in rules]
 
 
-def _generate_right_train_non_terminals() -> List[str]:
+def _generate_right_train_non_terminals(split_type: SplitType) -> List[str]:
+    if SplitType.IncludeGrammar in split_type:
+        raise NotImplementedError
     rules = [
         _generate_rule(ROOT, LEFT_SIDE, RIGHT_SIDE),
         _generate_rule(LEFT_SIDE, START, LEFT),
@@ -157,7 +158,9 @@ def _generate_right_train_non_terminals() -> List[str]:
     return rules
 
 
-def _generate_left_train_non_terminals() -> List[str]:
+def _generate_left_train_non_terminals(split_type: SplitType) -> List[str]:
+    if SplitType.IncludeGrammar in split_type:
+        raise NotImplementedError
     rules = [
         _generate_rule(ROOT, LEFT_SIDE, RIGHT_SIDE),
         _generate_rule(RIGHT_SIDE, RIGHT, END),
@@ -211,11 +214,18 @@ def _generate_morph_feature_terminals(
         morph_features: Collection[Collection[str]],
         split_type: SplitType
 ) -> Collection[str]:
+    bracket_terminals = [
+        _generate_terminal_rule(LEFT_BRACKET, LEFT_BRACKET_VAL),
+        _generate_terminal_rule(RIGHT_BRACKET, RIGHT_BRACKET_VAL)
+    ]
     if SplitType.GrammarSymbols in split_type:
+        terminal_to_use = MORPH
         formatted_features = set(feature for features in morph_features for feature in features)
     else:
+        terminal_to_use = MORPH_GROUP
         formatted_features = set(",".join(features) for features in morph_features)
-    return [_generate_terminal_rule(MORPH, feature) for feature in formatted_features]
+    return bracket_terminals + \
+           [_generate_terminal_rule(terminal_to_use, feature) for feature in formatted_features]
 
 
 def _generate_terminal_ops(ops_and_objects: Collection[OpObject]) -> Collection[str]:
@@ -223,11 +233,11 @@ def _generate_terminal_ops(ops_and_objects: Collection[OpObject]) -> Collection[
 
 
 if __name__ == '__main__':
-    train_type = TrainingType.Right
+    train_type = TrainingType.Both
     out_names = {TrainingType.Left: "left", TrainingType.Right: "right", TrainingType.Both: "both"}
 
     type_of_split = SplitType(
-        SplitType.ContextLetters
+        SplitType.ContextLetters | SplitType.IncludeGrammar
     )
     output_dir = f"data/processed/grammar/{out_names[train_type]}"
     if not os.path.exists(output_dir):
@@ -235,7 +245,7 @@ if __name__ == '__main__':
     generate_grammar_file(
         "data/processed/alphabet/asturian.csv",
         "data/processed/context_morph_data/asturian.csv",
-        f"{output_dir}/asturian_{out_names[train_type]}.unigram",
+        f"{output_dir}/asturian.unigram",
         type_of_split,
         train_type
     )

@@ -271,3 +271,6 @@ Temporary Items
 .apdisk
 .idea/vcs.xml
 *.db
+/.idea/*
+/data/processed/grammar/adagram/*/*.dat/
+/virtualenv/
