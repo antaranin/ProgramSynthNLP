@@ -214,7 +214,7 @@ def calculate_average_prediction_costs(pred_type: PredType):
     languages_to_costs = _get_average_baseline_cost(f"{cost_file_name_dict[pred_type]}_cost")
     mean_and_stdev = _get_mean_and_standard_devs_for_languages()
     with open(output_file_path, mode="w+") as file:
-        writer = csv.writer(file, delimiter=";")
+        writer = csv.writer(file, delimiter=",")
         writer.writerow(["Language", "Average cost", "Mean", "Stddev"])
         for language in languages_to_costs:
             mean, stddev = mean_and_stdev[language]
@@ -349,7 +349,8 @@ def run_adagram(language: str, split_type: SplitType, pred_type: PredType):
     assert pred_type in pred_type_dict
     pred_type_name = pred_type_dict[pred_type]
     train_file_name = f"{language}.dat"
-    input_file = f"data/processed/grammar/train_data/{split_type}/{train_file_name}"
+    split_type_str = str(split_type).replace("|", "_").replace(".", "_")
+    input_file = f"data/processed/grammar/train_data/{split_type_str}/{train_file_name}"
     output_dir = f"data/processed/grammar/adagram/{pred_type_name}"
     grammar_file = f"data/processed/grammar/{pred_type_name}/{language}.unigram"
     number_of_entries = str(sum(1 for line in open(input_file)))
@@ -396,7 +397,8 @@ def generate_grammar_file_for_adagram(language: str, split_type: SplitType,
 
 
 def generate_grammar_train_file_for_adagram(language: str, split_type: SplitType):
-    output_dir = f"data/processed/grammar/train_data/{split_type}"
+    split_type_str = str(split_type).replace("|", "_").replace(".", "_")
+    output_dir = f"data/processed/grammar/train_data/{split_type_str}"
     if not os.path.exists(output_dir):
         os.mkdir(output_dir)
     gram_train.generate_grammar_train_file(
@@ -474,20 +476,23 @@ def make_adagrammar_for_languages():
                 train_type
             )
             generate_grammar_train_file_for_adagram(language, split_type)
-            run_adagram(language, split_type, PredType.AdaGramBoth)
-            predict_language(language, pred_type, strictness)
-            calculate_grammar_cost_for_language(language, pred_type)
-            predict_language(language, PredType.NoOperation, strictness)
-            calculate_grammar_cost_for_language(language, PredType.NoOperation)
+            # run_adagram(language, split_type, PredType.AdaGramBoth)
+            # predict_language(language, pred_type, strictness)
+            # calculate_grammar_cost_for_language(language, pred_type)
+            # predict_language(language, PredType.NoOperation, strictness)
+            # calculate_grammar_cost_for_language(language, PredType.NoOperation)
             print(f"Finished work on {language}")
         except:
             print(f"Language failes: {language}")
     calculate_average_prediction_costs(pred_type)
 
 if __name__ == '__main__':
-    gram_path = "data/processed/grammar/adagram/both/asturian.grammar"
-    out_path = "data/processed/grammar/adagram/both/asturian.csv"
-    gram_extractor.save_grammar_file(gram_path, out_path)
+    # gram_path = "data/processed/grammar/adagram/both/asturian.grammar"
+    # out_path = "data/processed/grammar/adagram/both/asturian.csv"
+    # gram_extractor.save_grammar_file(gram_path, out_path)
+    make_adagrammar_for_languages()
+    # calculate_average_prediction_costs(PredType.AdaGramBoth)
+    # calculate_average_prediction_costs(PredType.NoOperation)
 
 
 
