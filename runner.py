@@ -476,23 +476,25 @@ def make_adagrammar_for_languages():
                 train_type
             )
             generate_grammar_train_file_for_adagram(language, split_type)
-            # run_adagram(language, split_type, PredType.AdaGramBoth)
-            # predict_language(language, pred_type, strictness)
-            # calculate_grammar_cost_for_language(language, pred_type)
-            # predict_language(language, PredType.NoOperation, strictness)
-            # calculate_grammar_cost_for_language(language, PredType.NoOperation)
+            run_adagram(language, split_type, PredType.AdaGramBoth)
+            predict_language(language, pred_type, strictness)
+            calculate_grammar_cost_for_language(language, pred_type)
+            predict_language(language, PredType.NoOperation, strictness)
+            calculate_grammar_cost_for_language(language, PredType.NoOperation)
             print(f"Finished work on {language}")
-        except:
-            print(f"Language failes: {language}")
+        except Exception as e:
+            import traceback
+            FAIL = '\033[91m'
+            ENDC = '\033[0m'
+            print(f"{FAIL}Language fail: {language}{ENDC}")
+            print(f"{FAIL}{traceback.format_exc()}{ENDC}")
+            print(e)
     calculate_average_prediction_costs(pred_type)
 
+
 if __name__ == '__main__':
-    # gram_path = "data/processed/grammar/adagram/both/asturian.grammar"
-    # out_path = "data/processed/grammar/adagram/both/asturian.csv"
-    # gram_extractor.save_grammar_file(gram_path, out_path)
-    make_adagrammar_for_languages()
-    # calculate_average_prediction_costs(PredType.AdaGramBoth)
-    # calculate_average_prediction_costs(PredType.NoOperation)
-
-
-
+    # write_context_morph_data()
+    # write_frequency_tables()
+    # make_adagrammar_for_languages()
+    calculate_average_prediction_costs(PredType.AdaGramBoth)
+    calculate_average_prediction_costs(PredType.NoOperation)

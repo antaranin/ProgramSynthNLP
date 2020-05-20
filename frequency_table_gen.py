@@ -291,11 +291,11 @@ def _generate_basic_data_row(
     object = operation[4:-1]
     left, right = _get_left_right_of_op(combined, counter)
     return pd.Series({
-        "Source": source,
-        "Left": left,
-        "Right": right,
+        "Source": source.lower(),
+        "Left": left.lower(),
+        "Right": right.lower(),
         "Operation": op,
-        "Object": object,
+        "Object": object.lower(),
         "Grammar": grammar
     })
 
@@ -342,8 +342,8 @@ def _get_all_left_subcontexts(context: str) -> List[str]:
 def _get_all_right_subcontexts(context: str) -> List[str]:
     return [context[:i] for i in range(len(context) + 1)]
 
-# generate_basic_data_csv("data/processed/first_step/asturian.csv",
-#                         "data/processed/context_morph_data/asturian.csv")
+# generate_basic_data_csv("data/processed/first_step/hungarian.csv",
+#                         "data/processed/context_morph_data/hungarian.csv")
 
 # generate_morph_op_table("data/processed/context_morph_data/asturian.csv",
 #                         "data/processed/morph_matrix/asturian.csv")

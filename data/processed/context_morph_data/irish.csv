@@ -28,9 +28,9 @@ ceardaíocht;<c;eardaíocht>;INS;h;N,NOM,SG,DEF
 bádóir;<bádóir;>;INS;í;N,DAT,PL,DEF
 pocadán;<pocadá;n>;INS;i;N,DAT,PL
 fótagrafaíocht;<fótagrafaíocht;>;INS;a;N,GEN,SG,DEF
-Guineach;<G;uineach>;INS;h;N,GEN,SG,DEF
-Guineach;<Guin;h>;DEL;eac;N,GEN,SG,DEF
-Guineach;<Guineac;h>;INS;ig;N,GEN,SG,DEF
+guineach;<g;uineach>;INS;h;N,GEN,SG,DEF
+guineach;<guin;h>;DEL;eac;N,GEN,SG,DEF
+guineach;<guineac;h>;INS;ig;N,GEN,SG,DEF
 eagar;<eaga;r>;INS;i;N,GEN,SG,DEF
 tar;<t;ar>;INS;hiocf;V,AUTO,COND
 tar;<ta;>;DEL;r;V,AUTO,COND
@@ -56,7 +56,7 @@ grúdaigh;<grúdaigh;>;INS;ígí;V,2,PL,IMP
 snas;<s;nas>;INS;h;N,VOC,SG
 teorannaigh;<teoranna;>;DEL;igh;V,AUTO,SBJV,PRS
 teorannaigh;<teorannaigh;>;INS;ítear;V,AUTO,SBJV,PRS
-Fionlainnis;<Fionlainnis;>;INS;e;N,GEN,SG,DEF
+fionlainnis;<fionlainnis;>;INS;e;N,GEN,SG,DEF
 siollach;<siolla;h>;DEL;c;N,GEN,SG,DEF
 siollach;<siollac;h>;INS;ig;N,GEN,SG,DEF
 treisigh;<treisi;h>;DEL;g;V,2,PL,FUT,IND
@@ -104,7 +104,7 @@ malartaigh;<malartaigh;>;INS;íteá;V,2:SG,SBJV,PST
 roghnaigh;<roghna;>;DEL;igh;V,3,PL,IMP
 roghnaigh;<roghnaigh;>;INS;ídís;V,3,PL,IMP
 treisiú;<t;reisiú>;INS;h;N,VOC,SG
-Namabach;<Namabach;>;INS;a;N,VOC,PL
+namabach;<namabach;>;INS;a;N,VOC,PL
 tar;<;tar>;INS;thag;V,AUTO,PST,HAB,IND
 tar;<ta;>;DEL;r;V,AUTO,PST,HAB,IND
 tar;<tar;>;INS;í;V,AUTO,PST,HAB,IND
@@ -222,7 +222,7 @@ cainteoir;<cainteoir;>;INS;í;N,GEN,PL
 col;<col;>;INS;anna;N,NOM,PL,DEF
 cimigh;<cimi;>;DEL;gh;V,3,PL,SBJV,PRS
 cimigh;<cimigh;>;INS;ad;V,3,PL,SBJV,PRS
-Marxachas;<Marxacha;s>;INS;i;N,GEN,SG
+marxachas;<marxacha;s>;INS;i;N,GEN,SG
 heitreatrófach;<heitreatrófa;h>;DEL;c;N,GEN,SG,DEF
 heitreatrófach;<heitreatrófac;h>;INS;ig;N,GEN,SG,DEF
 díthiomsaigh;<díthiomsa;>;DEL;igh;V,AUTO,PRS,IND
@@ -247,8 +247,8 @@ gearr-radharc;<gearr-radha;rc>;INS;i;N,GEN,SG,DEF
 uisceshaothrú;<uisceshaothr;>;DEL;ú;N,GEN,SG,DEF
 uisceshaothrú;<uisceshaothrú;>;INS;aithe;N,GEN,SG,DEF
 halmadóir;<halmadóir;>;INS;í;N,DAT,PL,DEF
-Anglacánach;<Anglacána;h>;DEL;c;N,GEN,SG,DEF
-Anglacánach;<Anglacánac;h>;INS;ig;N,GEN,SG,DEF
+anglacánach;<anglacána;h>;DEL;c;N,GEN,SG,DEF
+anglacánach;<anglacánac;h>;INS;ig;N,GEN,SG,DEF
 paidir;<paid;r>;DEL;i;N,DAT,PL,DEF
 paidir;<paidir;>;INS;eacha;N,DAT,PL,DEF
 dí-adhlaic;<d;í-adhlaic>;INS;h;V,REL,FUT,IND
@@ -341,8 +341,8 @@ dathaigh;<dathai;>;DEL;gh;V,3,PL,SBJV,PRS
 dathaigh;<dathaigh;>;INS;ad;V,3,PL,SBJV,PRS
 ceil;<c;eil>;INS;h;V,1,SG,PST,IND
 leastar;<leasta;r>;INS;i;N,DAT,PL
-Protastúnachas;<P;rotastúnachas>;INS;h;N,GEN,SG,DEF
-Protastúnachas;<Protastúnacha;s>;INS;i;N,GEN,SG,DEF
+protastúnachas;<p;rotastúnachas>;INS;h;N,GEN,SG,DEF
+protastúnachas;<protastúnacha;s>;INS;i;N,GEN,SG,DEF
 breathnaigh;<breathn;h>;DEL;aig;V,3,SG,FUT,IND
 breathnaigh;<breathnaig;h>;INS;óid;V,3,SG,FUT,IND
 failp;<f;ailp>;INS;h;N,VOC,SG
@@ -370,10 +370,10 @@ droim;<dro;m>;DEL;i;N,NOM,PL,DEF
 droim;<droim;>;INS;anna;N,NOM,PL,DEF
 aclaigh;<acla;h>;DEL;ig;V,3,SG,PST,HAB,IND
 aclaigh;<aclaig;h>;INS;íod;V,3,SG,PST,HAB,IND
-Gall;<G;all>;INS;h;N,GEN,SG,DEF
-Gall;<Ga;ll>;INS;i;N,GEN,SG,DEF
-Aithneach;<Aithn;h>;DEL;eac;N,GEN,SG,DEF
-Aithneach;<Aithneac;h>;INS;ig;N,GEN,SG,DEF
+gall;<g;all>;INS;h;N,GEN,SG,DEF
+gall;<ga;ll>;INS;i;N,GEN,SG,DEF
+aithneach;<aithn;h>;DEL;eac;N,GEN,SG,DEF
+aithneach;<aithneac;h>;INS;ig;N,GEN,SG,DEF
 fan;<fan;>;INS;taí;V,AUTO,SBJV,PST
 corraigh;<corra;>;DEL;igh;V,3,SG,SBJV,PRS
 forbhreathnú;<f;orbhreathnú>;INS;h;N,VOC,SG
@@ -412,7 +412,7 @@ beachadóir;<beachadóir;>;INS;a;N,GEN,SG,DEF
 suigh;<s;uigh>;INS;h;V,2,SG,PST,HAB,IND
 suigh;<sui;>;DEL;gh;V,2,SG,PST,HAB,IND
 suigh;<suigh;>;INS;teá;V,2,SG,PST,HAB,IND
-Eabhrach;<Eabhrach;>;INS;a;ADJ,GEN,PL,STRONG
+eabhrach;<eabhrach;>;INS;a;ADJ,GEN,PL,STRONG
 ailm;<ailm;>;INS;í;N,DAT,PL,DEF
 bainistíocht;<b;ainistíocht>;INS;h;N,VOC,SG
 fabhtcheartaigh;<fabhtchearta;>;DEL;igh;V,3,SG,SBJV,PRS
@@ -493,7 +493,7 @@ damhán;<damhá;n>;INS;i;N,NOM,PL
 leáigh;<leá;>;DEL;igh;V,1,PL,PST,IND
 leáigh;<leáigh;>;INS;mar;V,1,PL,PST,IND
 athfhill;<athfhill;>;INS;eamar;V,1,PL,PST,IND
-Comaoin;<C;omaoin>;INS;h;N,NOM,SG,DEF
+comaoin;<c;omaoin>;INS;h;N,NOM,SG,DEF
 déadchíor;<déadchíor;>;INS;a;N,DAT,PL
 sailchuach;<sailchua;ch>;INS;i;N,GEN,SG,DEF
 sailchuach;<sailchuach;>;INS;e;N,GEN,SG,DEF
@@ -513,8 +513,8 @@ bailitheoir;<bailitheoir;>;INS;í;N,GEN,PL
 daonlathach;<d;aonlathach>;INS;h;ADJ,DAT,SG,FEM
 greannach;<greannach;>;INS;a;ADJ,GEN,PL,STRONG
 vióla;<vióla;>;INS;í;N,VOC,PL
-Ard-Aifreann;<Ard-Aifr;nn>;DEL;ea;N,NOM,PL
-Ard-Aifreann;<Ard-Aifrea;nn>;INS;i;N,NOM,PL
+ard-aifreann;<ard-aifr;nn>;DEL;ea;N,NOM,PL
+ard-aifreann;<ard-aifrea;nn>;INS;i;N,NOM,PL
 faobhraigh;<faobhra;>;DEL;igh;V,1,SG,PRS,IND
 faobhraigh;<faobhraigh;>;INS;ím;V,1,SG,PRS,IND
 fotheidealú;<f;otheidealú>;INS;h;N,VOC,SG
@@ -741,7 +741,7 @@ tar;<ta;>;DEL;r;V,3,SG,FUT,IND
 sean;<sean;>;INS;a;N,NOM,PL,DEF
 créam;<c;réam>;INS;h;V,REL,FUT,IND
 créam;<créam;>;INS;faidh;V,REL,FUT,IND
-Críostaí;<C;ríostaí>;INS;h;N,GEN,SG,DEF
+críostaí;<c;ríostaí>;INS;h;N,GEN,SG,DEF
 nádúr;<nádú;r>;INS;i;N,VOC,SG
 dordghuth;<dordghuth;>;INS;a;N,GEN,SG
 bróig;<bró;g>;DEL;i;N,DAT,PL
@@ -772,8 +772,8 @@ bruachaire;<bruachaire;>;INS;í;N,DAT,PL
 campáil;<campáil;>;INS;tí;V,AUTO,SBJV,PST
 talmhaigh;<talmha;>;DEL;igh;V,2:SG,SBJV,PST
 talmhaigh;<talmhaigh;>;INS;íteá;V,2:SG,SBJV,PST
-Cirgeasach;<Cirgeasa;h>;DEL;c;N,NOM,PL
-Cirgeasach;<Cirgeasac;h>;INS;ig;N,NOM,PL
+cirgeasach;<cirgeasa;h>;DEL;c;N,NOM,PL
+cirgeasach;<cirgeasac;h>;INS;ig;N,NOM,PL
 aifir;<aif;r>;DEL;i;V,1,PL,PST,IND
 aifir;<aifi;r>;INS;ríoma;V,1,PL,PST,IND
 treisigh;<t;reisigh>;INS;h;V,1,PL,COND
@@ -790,7 +790,7 @@ atheagraigh;<atheagra;>;DEL;igh;V,AUTO,IMP
 atheagraigh;<atheagraigh;>;INS;ítear;V,AUTO,IMP
 nua-aoiseacht;<nua-aoiseacht;>;INS;a;N,GEN,SG,DEF
 docht;<docht;>;INS;adh;V,AUTO,PST,IND
-Eorpach;<Eorpach;>;INS;a;N,VOC,PL
+eorpach;<eorpach;>;INS;a;N,VOC,PL
 ansmachtaigh;<ansmachta;>;DEL;igh;V,1,SG,IMP
 ansmachtaigh;<ansmachtaigh;>;INS;ím;V,1,SG,IMP
 feiminí;<feimin;>;DEL;í;N,NOM,PL
@@ -798,9 +798,9 @@ feiminí;<feiminí;>;INS;ithe;N,NOM,PL
 pireaból;<p;ireaból>;INS;h;N,VOC,PL
 pireaból;<pireaból;>;INS;a;N,VOC,PL
 piobar;<pioba;r>;INS;i;N,DAT,PL
-Portaingéalach;<P;ortaingéalach>;INS;h;N,VOC,SG
-Portaingéalach;<Portaingéala;h>;DEL;c;N,VOC,SG
-Portaingéalach;<Portaingéalac;h>;INS;ig;N,VOC,SG
+portaingéalach;<p;ortaingéalach>;INS;h;N,VOC,SG
+portaingéalach;<portaingéala;h>;DEL;c;N,VOC,SG
+portaingéalach;<portaingéalac;h>;INS;ig;N,VOC,SG
 básaigh;<bása;>;DEL;igh;V,AUTO,SBJV,PST
 básaigh;<básaigh;>;INS;ítí;V,AUTO,SBJV,PST
 nód;<nó;d>;INS;i;N,GEN,SG
@@ -978,7 +978,7 @@ uraigh;<uraigh;>;INS;óidís;V,3,PL,COND
 fo-bhailteach;<fo-bhailt;h>;DEL;eac;N,NOM,PL
 fo-bhailteach;<fo-bhailteac;h>;INS;ig;N,NOM,PL
 tochail;<t;ochail>;INS;h;V,1,SG,PST,IND
-Gael;<Gae;l>;INS;i;N,DAT,PL
+gael;<gae;l>;INS;i;N,DAT,PL
 promh;<p;romh>;INS;h;V,2,PL,PST,IND
 troitheánaigh;<troitheána;>;DEL;igh;V,3,PL,IMP
 troitheánaigh;<troitheánaigh;>;INS;ídís;V,3,PL,IMP
@@ -992,7 +992,7 @@ análaigh;<anála;>;DEL;igh;V,1,SG,IMP
 análaigh;<análaigh;>;INS;ím;V,1,SG,IMP
 dorn;<do;rn>;INS;i;N,NOM,PL,DEF
 dorn;<dorn;>;INS;e;N,NOM,PL,DEF
-X-chrómasóm;<X-chrómasó;m>;INS;i;N,VOC,SG
+x-chrómasóm;<x-chrómasó;m>;INS;i;N,VOC,SG
 línitheoir;<línitheoir;>;INS;í;N,VOC,PL
 spéis;<spéis;>;INS;e;N,GEN,SG
 athlaoch;<athlaoch;>;INS;ra;N,DAT,PL,DEF
@@ -1011,8 +1011,8 @@ miondíoltóir;<miondíoltóir;>;INS;a;N,GEN,SG,DEF
 antrapasúnacht;<antrapasúnacht;>;INS;a;N,GEN,SG
 urlaic;<urla;c>;DEL;i;V,2,PL,PST,HAB,IND
 éignigh;<éign;>;DEL;igh;V,3,SG,SBJV,PRS
-Franc;<F;ranc>;INS;h;N,VOC,SG
-Franc;<Fra;nc>;INS;i;N,VOC,SG
+franc;<f;ranc>;INS;h;N,VOC,SG
+franc;<fra;nc>;INS;i;N,VOC,SG
 gnú;<g;nú>;INS;h;N,VOC,SG
 malaicít;<malaicít;>;INS;e;N,GEN,SG,DEF
 naomhainmnigh;<naomhainmn;h>;DEL;ig;V,3,SG,COND
@@ -1026,8 +1026,8 @@ campáil;<campá;l>;DEL;i;V,2,PL,PRS,IND
 stróic;<stróic;>;INS;imis;V,1,PL,PST,HAB,IND
 aerchaidéal;<aerchaidé;l>;DEL;a;N,GEN,SG,DEF
 aerchaidéal;<aerchaidéa;l>;INS;i;N,GEN,SG,DEF
-Namabach;<Namaba;h>;DEL;c;N,GEN,SG,DEF
-Namabach;<Namabac;h>;INS;ig;N,GEN,SG,DEF
+namabach;<namaba;h>;DEL;c;N,GEN,SG,DEF
+namabach;<namabac;h>;INS;ig;N,GEN,SG,DEF
 lachín;<lachín;>;INS;í;N,NOM,PL
 afrasc;<afra;sc>;INS;i;N,VOC,SG
 slánaigh;<s;lánaigh>;INS;h;V,2,PL,PST,HAB,IND
@@ -1065,9 +1065,9 @@ bunaigh;<bun;h>;DEL;aig;V,3,SG,FUT,IND
 bunaigh;<bunaig;h>;INS;óid;V,3,SG,FUT,IND
 íosfhreang;<íosfhreang;>;INS;tá;V,2,SG,PST,HAB,IND
 frithghníomhaíocht;<f;rithghníomhaíocht>;INS;h;N,VOC,SG
-Críostaí;<C;ríostaí>;INS;h;N,VOC,PL
-Críostaí;<Críosta;>;DEL;í;N,VOC,PL
-Críostaí;<Críostaí;>;INS;ithe;N,VOC,PL
+críostaí;<c;ríostaí>;INS;h;N,VOC,PL
+críostaí;<críosta;>;DEL;í;N,VOC,PL
+críostaí;<críostaí;>;INS;ithe;N,VOC,PL
 dreap;<dreap;>;INS;aidís;V,3,PL,IMP
 néaróg abduchtach;<néaró;g abduchtach>;INS;i;N,GEN,SG,DEF
 néaróg abduchtach;<néaróg; abduchtach>;INS;e;N,GEN,SG,DEF
@@ -1131,7 +1131,7 @@ cros-toirchigh;<cros-toirchig;h>;INS;d;V,1,SG,FUT,IND
 ionadaigh;<iona;daigh>;INS;dói;V,2,SG,FUT,IND
 ionadaigh;<ionad;h>;DEL;aig;V,2,SG,FUT,IND
 coirtéis;<coirtéis;>;INS;í;N,DAT,PL,DEF
-Bíobla;<Bíobla;>;INS;í;N,GEN,PL
+bíobla;<bíobla;>;INS;í;N,GEN,PL
 íosfhreang;<íosfhreang;>;INS;faimis;V,1,PL,COND
 imdhíon;<imdhíon;>;INS;fadh;V,REL,COND
 arg;<arg;>;INS;tar;V,AUTO,PRS,IND
@@ -1176,8 +1176,8 @@ coigistigh;<coigistigh;>;INS;ídís;V,3,PL,PST,HAB,IND
 comhchuingigh;<c;omhchuingigh>;INS;h;V,REL,PST,IND
 gariníon;<gariníon;>;INS;acha;N,NOM,PL,DEF
 aonstádas;<aonstáda;s>;INS;i;N,VOC,SG
-Gabúnach;<Gabúna;h>;DEL;c;N,GEN,SG
-Gabúnach;<Gabúnac;h>;INS;ig;N,GEN,SG
+gabúnach;<gabúna;h>;DEL;c;N,GEN,SG
+gabúnach;<gabúnac;h>;INS;ig;N,GEN,SG
 bolaigh;<bola;>;DEL;igh;V,2:SG,SBJV,PST
 bolaigh;<bolaigh;>;INS;íteá;V,2:SG,SBJV,PST
 sáraigh;<s;áraigh>;INS;h;V,AUTO,COND
@@ -1192,10 +1192,10 @@ stobhach;<stobha;h>;DEL;c;N,NOM,PL
 stobhach;<stobhac;h>;INS;ig;N,NOM,PL
 statúid;<statúid;>;INS;e;N,GEN,SG
 teastaigh;<teasta;>;DEL;igh;V,2:SG,SBJV,PRS
-Haváíoch;<Haváí;h>;DEL;oc;N,DAT,PL
-Haváíoch;<Haváíoc;h>;INS;g;N,DAT,PL
-Airgintíneach;<Airgintín;h>;DEL;eac;N,VOC,SG
-Airgintíneach;<Airgintíneac;h>;INS;ig;N,VOC,SG
+haváíoch;<haváí;h>;DEL;oc;N,DAT,PL
+haváíoch;<haváíoc;h>;INS;g;N,DAT,PL
+airgintíneach;<airgintín;h>;DEL;eac;N,VOC,SG
+airgintíneach;<airgintíneac;h>;INS;ig;N,VOC,SG
 straille;<straill;>;DEL;e;N,NOM,PL,DEF
 straille;<straille;>;INS;í;N,NOM,PL,DEF
 fostríoc;<;stríoc>;DEL;fo;N,NOM,SG,DEF
@@ -1205,7 +1205,7 @@ fostríoc;<fost;>;DEL;ríoc;N,NOM,SG,DEF
 séis;<séis;>;INS;eanna;N,NOM,PL,DEF
 ula;<ul;a>;INS;ach;N,VOC,PL
 milsigh;<mils;>;DEL;igh;V,3,SG,SBJV,PRS
-Béarlóireacht;<Béarlóireacht;>;INS;a;N,GEN,SG
+béarlóireacht;<béarlóireacht;>;INS;a;N,GEN,SG
 panda;<panda;>;INS;í;N,DAT,PL,DEF
 beathaigh;<beathai;h>;DEL;g;V,2,PL,PRS,IND
 beathaigh;<beathaig;h>;INS;b;V,2,PL,PRS,IND
@@ -1236,8 +1236,8 @@ anduine;<andu;ine>;INS;ao;N,GEN,PL
 carst;<c;arst>;INS;h;N,GEN,SG,DEF
 bruith;<bruit;>;DEL;h;V,AUTO,SBJV,PRS
 bruith;<bruith;>;INS;ear;V,AUTO,SBJV,PRS
-Ungárach;<Ungára;h>;DEL;c;N,VOC,SG
-Ungárach;<Ungárac;h>;INS;ig;N,VOC,SG
+ungárach;<ungára;h>;DEL;c;N,VOC,SG
+ungárach;<ungárac;h>;INS;ig;N,VOC,SG
 hómaighnéasacht;<h;maighnéasacht>;DEL;ó;N,DAT,SG,DEF
 hómaighnéasacht;<hó;maighnéasacht>;INS;o;N,DAT,SG,DEF
 línigh;<lín;igh>;INS;ím;V,1,PL,SBJV,PRS
@@ -1251,8 +1251,8 @@ cúigear;<c;úigear>;INS;h;N,GEN,SG,DEF
 cúigear;<cúig;r>;DEL;ea;N,GEN,SG,DEF
 cúigear;<cúigea;r>;INS;i;N,GEN,SG,DEF
 aermharascal;<aermharascal;>;INS;a;N,VOC,PL
-Beinidicteach;<Beinidict;h>;DEL;eac;N,GEN,SG
-Beinidicteach;<Beinidicteac;h>;INS;ig;N,GEN,SG
+beinidicteach;<beinidict;h>;DEL;eac;N,GEN,SG
+beinidicteach;<beinidicteac;h>;INS;ig;N,GEN,SG
 fótamapa;<fótamapa;>;INS;í;N,GEN,PL
 aer-ghrianghrafadóireacht;<aer-ghrianghrafadóireacht;>;INS;a;N,GEN,SG
 bréagmhorfacht;<b;réagmhorfacht>;INS;h;N,VOC,SG
@@ -1389,9 +1389,9 @@ creath;<creat;>;DEL;h;V,2:SG,SBJV,PST
 creath;<creath;>;INS;á;V,2:SG,SBJV,PST
 leáigh;<leá;>;DEL;igh;V,AUTO,COND
 leáigh;<leáigh;>;INS;faí;V,AUTO,COND
-Bavárach;<B;avárach>;INS;h;N,GEN,SG,DEF
-Bavárach;<Bavára;h>;DEL;c;N,GEN,SG,DEF
-Bavárach;<Bavárac;h>;INS;ig;N,GEN,SG,DEF
+bavárach;<b;avárach>;INS;h;N,GEN,SG,DEF
+bavárach;<bavára;h>;DEL;c;N,GEN,SG,DEF
+bavárach;<bavárac;h>;INS;ig;N,GEN,SG,DEF
 nuálaíocht;<nuálaíocht;>;INS;aí;N,DAT,PL
 othras;<othra;s>;INS;i;N,GEN,SG
 musc-chaor;<musc-chaor;>;INS;a;N,DAT,PL
@@ -1403,11 +1403,11 @@ measc;<measc;>;INS;aidís;V,3,PL,IMP
 cruitireacht;<c;ruitireacht>;INS;h;N,NOM,SG,DEF
 siúlbhealach;<siúlbheala;>;DEL;ch;N,NOM,PL,DEF
 siúlbhealach;<siúlbhealach;>;INS;í;N,NOM,PL,DEF
-Aoine;<Aoin;e>;INS;t;N,VOC,PL
+aoine;<aoin;e>;INS;t;N,VOC,PL
 pláinéad;<pláiné;d>;DEL;a;N,DAT,PL,DEF
 pláinéad;<pláinéa;d>;INS;i;N,DAT,PL,DEF
-Nua-Shéalannach;<Nua-Shéalanna;h>;DEL;c;N,NOM,PL,DEF
-Nua-Shéalannach;<Nua-Shéalannac;h>;INS;ig;N,NOM,PL,DEF
+nua-shéalannach;<nua-shéalanna;h>;DEL;c;N,NOM,PL,DEF
+nua-shéalannach;<nua-shéalannac;h>;INS;ig;N,NOM,PL,DEF
 muinchille;<muinchill;>;DEL;e;N,DAT,PL
 muinchille;<muinchille;>;INS;í;N,DAT,PL
 agh;<agh;>;INS;a;N,DAT,PL,DEF
@@ -1456,8 +1456,8 @@ daonlathach;<daonlathac;h>;INS;ig;ADJ,VOC+GEN,SG,MASV
 álainn;<ál;>;DEL;ainn;ADJ,GEN,SG,FEM
 álainn;<álainn;>;INS;e;ADJ,GEN,SG,FEM
 banaltracht;<b;analtracht>;INS;h;N,NOM,SG,DEF
-Mahamadach;<Mahamada;h>;DEL;c;N,NOM,PL,DEF
-Mahamadach;<Mahamadac;h>;INS;ig;N,NOM,PL,DEF
+mahamadach;<mahamada;h>;DEL;c;N,NOM,PL,DEF
+mahamadach;<mahamadac;h>;INS;ig;N,NOM,PL,DEF
 spúnóig;<spúnóig;>;INS;e;N,GEN,SG
 óstach;<ósta;h>;DEL;c;N,DAT,PL
 óstach;<óstac;h>;INS;ig;N,DAT,PL
@@ -1556,9 +1556,9 @@ cairéalaigh;<cairéalaig;h>;INS;ód;V,3,SG,COND
 bruinneall;<b;ruinneall>;INS;h;N,NOM,SG,DEF
 riospráid;<riospráid;>;INS;e;N,GEN,SG
 plánáil;<p;lánáil>;INS;h;V,3,SG,PST,IND
-Tansánach;<T;ansánach>;INS;h;N,VOC,SG
-Tansánach;<Tansána;h>;DEL;c;N,VOC,SG
-Tansánach;<Tansánac;h>;INS;ig;N,VOC,SG
+tansánach;<t;ansánach>;INS;h;N,VOC,SG
+tansánach;<tansána;h>;DEL;c;N,VOC,SG
+tansánach;<tansánac;h>;INS;ig;N,VOC,SG
 guigh;<gui;>;DEL;gh;V,V.PTCP,PST
 guigh;<guigh;>;INS;te;V,V.PTCP,PST
 oibrigh;<oib;righ>;INS;reofa;V,AUTO,FUT,IND
@@ -1572,8 +1572,8 @@ fofhostaigh;<fofhosta;h>;DEL;ig;V,3,SG,PST,HAB,IND
 fofhostaigh;<fofhostaig;h>;INS;íod;V,3,SG,PST,HAB,IND
 ualach;<uala;h>;DEL;c;N,VOC,SG
 ualach;<ualac;h>;INS;ig;N,VOC,SG
-Indinéiseach;<Indinéis;h>;DEL;eac;N,GEN,SG,DEF
-Indinéiseach;<Indinéiseac;h>;INS;ig;N,GEN,SG,DEF
+indinéiseach;<indinéis;h>;DEL;eac;N,GEN,SG,DEF
+indinéiseach;<indinéiseac;h>;INS;ig;N,GEN,SG,DEF
 broclas;<b;roclas>;INS;h;N,VOC,PL
 broclas;<brocla;s>;INS;i;N,VOC,PL
 broclas;<broclas;>;INS;í;N,VOC,PL
@@ -1618,21 +1618,21 @@ bos;<bos;>;INS;a;N,DAT,PL,DEF
 athlas;<athlas;>;INS;aim;V,1,SG,PRS,IND
 eagraigh;<eagra;>;DEL;igh;V,2:SG,SBJV,PRS
 trasraitheoir;<trasraitheoir;>;INS;í;N,NOM,PL
-Moslamach;<Moslama;h>;DEL;c;N,NOM,PL,DEF
-Moslamach;<Moslamac;h>;INS;ig;N,NOM,PL,DEF
+moslamach;<moslama;h>;DEL;c;N,NOM,PL,DEF
+moslamach;<moslamac;h>;INS;ig;N,NOM,PL,DEF
 ulscréachóg;<ulscréachóg;>;INS;a;N,VOC,PL
 neamhdhuine;<neamhdh;ine>;DEL;u;N,NOM,PL,DEF
 neamhdhuine;<neamhdhu;ine>;INS;ao;N,NOM,PL,DEF
-Corsacach;<Corsaca;h>;DEL;c;N,DAT,PL,DEF
-Corsacach;<Corsacac;h>;INS;ig;N,DAT,PL,DEF
+corsacach;<corsaca;h>;DEL;c;N,DAT,PL,DEF
+corsacach;<corsacac;h>;INS;ig;N,DAT,PL,DEF
 béic;<béic;>;INS;inn;N,GEN,SG,DEF
 zombaí;<zomba;>;DEL;í;N,VOC,PL
 zombaí;<zombaí;>;INS;ithe;N,VOC,PL
 boireann;<b;oireann>;INS;h;N,NOM,SG,DEF
 caill;<c;aill>;INS;h;V,REL,COND
 caill;<caill;>;INS;feadh;V,REL,COND
-Boilséiveach;<Boilséiv;h>;DEL;eac;N,GEN,SG
-Boilséiveach;<Boilséiveac;h>;INS;ig;N,GEN,SG
+boilséiveach;<boilséiv;h>;DEL;eac;N,GEN,SG
+boilséiveach;<boilséiveac;h>;INS;ig;N,GEN,SG
 ionga;<i;nga>;DEL;o;N,VOC,PL
 ionga;<iong;>;DEL;a;N,VOC,PL
 ionga;<ionga;>;INS;ne;N,VOC,PL
@@ -1752,8 +1752,8 @@ eisil;<eisil;>;INS;ímis;V,1,PL,SBJV,PST
 meáigh;<m;eáigh>;INS;h;V,2,PL,PST,HAB,IND
 meáigh;<meái;h>;DEL;g;V,2,PL,PST,HAB,IND
 meáigh;<meáig;h>;INS;b;V,2,PL,PST,HAB,IND
-Biosántach;<Biosánta;h>;DEL;c;N,DAT,PL,DEF
-Biosántach;<Biosántac;h>;INS;ig;N,DAT,PL,DEF
+biosántach;<biosánta;h>;DEL;c;N,DAT,PL,DEF
+biosántach;<biosántac;h>;INS;ig;N,DAT,PL,DEF
 il-leannántacht;<il-leannántacht;>;INS;a;N,GEN,SG
 cráin;<crá;n>;DEL;i;N,GEN,PL
 cráin;<cráin;>;INS;acha;N,GEN,PL
@@ -1803,8 +1803,8 @@ gearrthóir;<gearrthóir;>;INS;í;N,VOC,PL
 dínasc;<dínasc;>;INS;aimis;V,1,PL,SBJV,PST
 cimigh;<cim;>;DEL;igh;V,AUTO,FUT,IND
 cimigh;<cimigh;>;INS;eofar;V,AUTO,FUT,IND
-Seoirseach;<Seoirs;h>;DEL;eac;N,NOM,PL,DEF
-Seoirseach;<Seoirseac;h>;INS;ig;N,NOM,PL,DEF
+seoirseach;<seoirs;h>;DEL;eac;N,NOM,PL,DEF
+seoirseach;<seoirseac;h>;INS;ig;N,NOM,PL,DEF
 aitreabúid;<aitreabúid;>;INS;í;N,NOM,PL
 áthán;<áthán;>;INS;a;N,VOC,PL
 míbhreithiúnas;<m;íbhreithiúnas>;INS;h;N,VOC,SG
@@ -1849,7 +1849,7 @@ bréagnaigh;<b;réagnaigh>;INS;h;V,3,PL,PST,IND
 mórintinn;<m;órintinn>;INS;h;N,VOC,SG
 marcár;<marcá;r>;INS;i;N,NOM,PL,DEF
 trua;<tru;a>;INS;ann;N,DAT,PL
-Giúdach;<Giúdach;>;INS;a;ADJ,VOC,PL
+giúdach;<giúdach;>;INS;a;ADJ,VOC,PL
 ceart;<c;rt>;DEL;ea;ADJ,SPRL
 ceart;<cea;rt>;INS;i;ADJ,SPRL
 ceart;<ceart;>;INS;e;ADJ,SPRL
@@ -1872,8 +1872,8 @@ tapadh;<tapa;dh>;INS;i;N,GEN,SG,DEF
 eadóirseacht;<eadóirseacht;>;INS;a;N,GEN,SG
 iseabar;<iseaba;r>;INS;i;N,DAT,PL,DEF
 docht;<docht;>;INS;faimid;V,1,PL,FUT,IND
-Suasalannach;<Suasalanna;h>;DEL;c;N,NOM,PL
-Suasalannach;<Suasalannac;h>;INS;ig;N,NOM,PL
+suasalannach;<suasalanna;h>;DEL;c;N,NOM,PL
+suasalannach;<suasalannac;h>;INS;ig;N,NOM,PL
 lus;<lus;>;INS;a;N,GEN,SG
 rollóg;<rollóg;>;INS;a;N,DAT,PL,DEF
 aill;<aill;>;INS;te;N,DAT,PL,DEF
@@ -1913,8 +1913,8 @@ uathachas;<uathacha;s>;INS;i;N,GEN,SG
 adhartán;<adhartá;n>;INS;i;N,NOM,PL,DEF
 urghair;<urghair;>;INS;tí;V,AUTO,SBJV,PST
 féinspéisí;<f;éinspéisí>;INS;h;N,VOC,SG
-Corantach;<Coranta;h>;DEL;c;N,NOM,PL
-Corantach;<Corantac;h>;INS;ig;N,NOM,PL
+corantach;<coranta;h>;DEL;c;N,NOM,PL
+corantach;<corantac;h>;INS;ig;N,NOM,PL
 ardtalamh;<ardta;lamh>;INS;i;N,DAT,PL,DEF
 ardtalamh;<ardtal;>;DEL;amh;N,DAT,PL,DEF
 ardtalamh;<ardtalamh;>;INS;te;N,DAT,PL,DEF
@@ -1963,8 +1963,8 @@ goltraí;<goltra;>;DEL;í;N,NOM,PL
 goltraí;<goltraí;>;INS;ithe;N,NOM,PL
 banambasadóir;<banambasadóir;>;INS;í;N,GEN,PL
 meirdreach;<meirdreach;>;INS;a;N,NOM,PL,DEF
-Híleantóir;<Híleantó;r>;DEL;i;N,GEN,SG,DEF
-Híleantóir;<Híleantóir;>;INS;a;N,GEN,SG,DEF
+híleantóir;<híleantó;r>;DEL;i;N,GEN,SG,DEF
+híleantóir;<híleantóir;>;INS;a;N,GEN,SG,DEF
 oibiachtúlaigh;<oibiachtúla;>;DEL;igh;V,3,PL,SBJV,PST
 oibiachtúlaigh;<oibiachtúlaigh;>;INS;ídís;V,3,PL,SBJV,PST
 diostróife;<diostróife;>;INS;anna;N,GEN,PL
@@ -1972,8 +1972,8 @@ buail;<buail;>;INS;inn;V,1,SG,SBJV,PST
 albha;<albh;a>;INS;ann;N,NOM,PL
 púdráil;<púdrá;l>;DEL;i;V,2,PL,IMP
 púdráil;<púdráil;>;INS;aigí;V,2,PL,IMP
-Valdach;<Valda;h>;DEL;c;N,NOM,PL,DEF
-Valdach;<Valdac;h>;INS;ig;N,NOM,PL,DEF
+valdach;<valda;h>;DEL;c;N,NOM,PL,DEF
+valdach;<valdac;h>;INS;ig;N,NOM,PL,DEF
 dobhrán;<d;obhrán>;INS;h;N,VOC,PL
 dobhrán;<dobhrán;>;INS;a;N,VOC,PL
 bogach;<b;ogach>;INS;h;N,VOC,SG
@@ -2008,7 +2008,7 @@ pailé-zóeolaíocht;<pailé-zóeolaíocht;>;INS;a;N,GEN,SG,DEF
 análaigh;<anál;h>;DEL;aig;V,2,PL,FUT,IND
 peiristíl;<peiristíl;>;INS;í;N,DAT,PL
 clúmh;<clú;mh>;INS;i;N,GEN,SG
-Victeoiriach;<Victeoiriach;>;INS;a;N,VOC,PL
+victeoiriach;<victeoiriach;>;INS;a;N,VOC,PL
 creath;<c;reath>;INS;h;V,3,SG,COND
 neasach;<neasa;h>;DEL;c;N,NOM,PL
 neasach;<neasac;h>;INS;ig;N,NOM,PL
@@ -2101,7 +2101,7 @@ tóg;<tóg;>;INS;adh;V,REL,PST,HAB,IND
 leideoireacht;<leideoireacht;>;INS;a;N,GEN,SG,DEF
 fachtóirigh;<f;achtóirigh>;INS;h;V,REL,PST,IND
 spiorad;<spiora;d>;INS;i;N,NOM,PL,DEF
-loch;<;loch>;INS;Singu;N,NOM,SG,DEF
+loch;<;loch>;INS;singu;N,NOM,SG,DEF
 loch;<l;>;DEL;och;N,NOM,SG,DEF
 loch;<loch;>;INS;ar;N,NOM,SG,DEF
 scoilteog;<scoilteo;g>;INS;i;N,GEN,SG,DEF
@@ -2112,14 +2112,14 @@ dí-bhéimnigh;<dí-bhéimnigh;>;INS;íteá;V,2,SG,PST,HAB,IND
 coinneal;<coinn;l>;DEL;ea;N,GEN,SG
 coinneal;<coinneal;>;INS;e;N,GEN,SG
 séiléir;<s;éiléir>;INS;h;N,VOC,SG
-Bantúch;<Bantú;h>;DEL;c;N,NOM,PL,DEF
-Bantúch;<Bantúc;h>;INS;ig;N,NOM,PL,DEF
+bantúch;<bantú;h>;DEL;c;N,NOM,PL,DEF
+bantúch;<bantúc;h>;INS;ig;N,NOM,PL,DEF
 cláirseach;<cláirseach;>;INS;a;N,DAT,PL,DEF
 básaigh;<básai;h>;DEL;g;V,V.PTCP,PST
 básaigh;<básaig;h>;INS;t;V,V.PTCP,PST
 básaigh;<básaigh;>;INS;e;V,V.PTCP,PST
-Seoinín;<Seo;nín>;DEL;i;N,NOM,PL
-Seoinín;<Seoinín;>;INS;í;N,NOM,PL
+seoinín;<seo;nín>;DEL;i;N,NOM,PL
+seoinín;<seoinín;>;INS;í;N,NOM,PL
 láreasna;<láreasn;a>;INS;ach;N,GEN,PL
 póraigh;<p;óraigh>;INS;h;V,2,PL,COND
 póraigh;<pór;h>;DEL;aig;V,2,PL,COND
@@ -2183,8 +2183,8 @@ fadhbairne;<fadhbairne;>;INS;í;N,NOM,PL,DEF
 mairg;<mairg;>;INS;í;N,DAT,PL
 pailnigh;<pailni;h>;DEL;g;V,2,PL,PRS,IND
 pailnigh;<pailnig;h>;INS;b;V,2,PL,PRS,IND
-Iúgslavach;<Iúgslava;h>;DEL;c;N,DAT,PL,DEF
-Iúgslavach;<Iúgslavac;h>;INS;ig;N,DAT,PL,DEF
+iúgslavach;<iúgslava;h>;DEL;c;N,DAT,PL,DEF
+iúgslavach;<iúgslavac;h>;INS;ig;N,DAT,PL,DEF
 bráithriúil;<bráithriú;l>;DEL;i;ADJ,VOC,PL
 bráithriúil;<bráithriúil;>;INS;a;ADJ,VOC,PL
 amhrán;<amhrá;n>;INS;i;N,GEN,SG
@@ -2203,7 +2203,7 @@ teirmeachúpla;<teirmeachúpla;>;INS;í;N,GEN,PL
 cíocrasán;<cíocrasá;n>;INS;i;N,NOM,PL
 iomair;<iom;r>;DEL;ai;V,2,PL,PRS,IND
 xiolán;<xiolá;n>;INS;i;N,GEN,SG,DEF
-minc Eorpach;<m;inc Eorpach>;INS;h;N,NOM,SG,DEF
+minc eorpach;<m;inc eorpach>;INS;h;N,NOM,SG,DEF
 tosach;<tosa;h>;DEL;c;N,GEN,SG,DEF
 tosach;<tosac;h>;INS;ig;N,GEN,SG,DEF
 meáigh;<meá;h>;DEL;ig;V,3,SG,IMP
@@ -2236,8 +2236,8 @@ deachtaigh;<deacht;h>;DEL;aig;V,3,SG,FUT,IND
 deachtaigh;<deachtaig;h>;INS;óid;V,3,SG,FUT,IND
 each;<each;>;INS;a;N,VOC,PL
 homafón;<homafó;n>;INS;i;N,DAT,PL,DEF
-Bíobla;<B;íobla>;INS;h;N,VOC,PL
-Bíobla;<Bíobla;>;INS;í;N,VOC,PL
+bíobla;<b;íobla>;INS;h;N,VOC,PL
+bíobla;<bíobla;>;INS;í;N,VOC,PL
 timcheall;<timch;ll>;DEL;ea;N,GEN,SG,DEF
 timcheall;<timchea;ll>;INS;i;N,GEN,SG,DEF
 íosghrádú;<íosghrád;>;DEL;ú;N,GEN,SG,DEF
@@ -2265,8 +2265,8 @@ oibrigh;<oibrig;h>;INS;íod;V,AUTO,PST,IND
 liopardchat;<liopardcha;t>;INS;i;N,GEN,SG,DEF
 buachaill báire;<b;uachaill báire>;INS;h;N,VOC,PL
 buachaill báire;<buachaill; báire>;INS;í;N,VOC,PL
-Beidiúnach;<Beidiúna;h>;DEL;c;N,NOM,PL
-Beidiúnach;<Beidiúnac;h>;INS;ig;N,NOM,PL
+beidiúnach;<beidiúna;h>;DEL;c;N,NOM,PL
+beidiúnach;<beidiúnac;h>;INS;ig;N,NOM,PL
 caoineadas;<c;aoineadas>;INS;h;N,VOC,SG
 caoineadas;<caoineada;s>;INS;i;N,VOC,SG
 malaicít;<malaicít;>;INS;í;N,DAT,PL,DEF
@@ -2318,8 +2318,8 @@ marú;<marú;>;INS;uithe;N,NOM,PL
 naomhaigh;<naomhai;>;DEL;gh;V,3,PL,PRS,IND
 naomhaigh;<naomhaigh;>;INS;ad;V,3,PL,PRS,IND
 leamh;<leamh;>;INS;aimis;V,1,PL,PST,HAB,IND
-Ard-Aighne;<Ard-Aighn;>;DEL;e;N,VOC,PL
-Ard-Aighne;<Ard-Aighne;>;INS;í;N,VOC,PL
+ard-aighne;<ard-aighn;>;DEL;e;N,VOC,PL
+ard-aighne;<ard-aighne;>;INS;í;N,VOC,PL
 bratach;<bratach;>;INS;a;N,NOM,PL
 seas;<seas;>;INS;aim;V,1,SG,IMP
 limistéar;<limisté;r>;DEL;a;N,DAT,PL,DEF
@@ -2359,7 +2359,7 @@ oifigeach feidhmiúcháin;<oifig;h feidhmiúcháin>;DEL;eac;N,NOM,PL
 oifigeach feidhmiúcháin;<oifigeach f;eidhmiúcháin>;INS;h;N,NOM,PL
 ainbhfíréan;<ainbhfíré;n>;DEL;a;N,NOM,PL,DEF
 ainbhfíréan;<ainbhfíréa;n>;INS;i;N,NOM,PL,DEF
-bogha báistí;<bogha báistí;>;INS;Singular;N,NOM,SG
+bogha báistí;<bogha báistí;>;INS;singular;N,NOM,SG
 nimhigh;<nimhi;h>;DEL;g;V,2,PL,SBJV,PRS
 nimhigh;<nimhig;h>;INS;b;V,2,PL,SBJV,PRS
 íostarraingt;<íostarraingt;>;INS;í;N,DAT,PL
@@ -2370,8 +2370,8 @@ tocsain;<tocsain;>;INS;í;N,GEN,PL
 treáigh;<treái;>;DEL;gh;V,AUTO,SBJV,PST
 treáigh;<treáigh;>;INS;tí;V,AUTO,SBJV,PST
 tae;<t;ae>;INS;h;N,VOC,SG
-Albanach;<Albana;h>;DEL;c;N,DAT,PL,DEF
-Albanach;<Albanac;h>;INS;ig;N,DAT,PL,DEF
+albanach;<albana;h>;DEL;c;N,DAT,PL,DEF
+albanach;<albanac;h>;INS;ig;N,DAT,PL,DEF
 gníomhaigh;<gníomha;h>;DEL;ig;V,3,SG,SBJV,PST
 gníomhaigh;<gníomhaig;h>;INS;íod;V,3,SG,SBJV,PST
 ciclipéid;<ciclipéid;>;INS;í;N,NOM,PL
@@ -2392,7 +2392,7 @@ mórchuid;<mórchui;d>;INS;o;N,NOM,PL
 mórchuid;<mórchuid;>;INS;anna;N,NOM,PL
 marmaraigh;<marmar;h>;DEL;aig;V,2,SG,FUT,IND
 marmaraigh;<marmaraig;h>;INS;óid;V,2,SG,FUT,IND
-Comaoin;<Comaoin;>;INS;eacha;N,DAT,PL
+comaoin;<comaoin;>;INS;eacha;N,DAT,PL
 aerspás;<aerspá;s>;INS;i;N,GEN,SG
 náisiúnaigh;<náisiún;h>;DEL;aig;V,REL,COND
 náisiúnaigh;<náisiúnaig;h>;INS;ód;V,REL,COND
@@ -2470,8 +2470,8 @@ comhdhuille;<comhdhuill;>;DEL;e;N,DAT,PL,DEF
 comhdhuille;<comhdhuille;>;INS;í;N,DAT,PL,DEF
 báb;<báb;>;INS;a;N,DAT,PL
 colnaidheacht;<c;olnaidheacht>;INS;h;N,NOM,SG,DEF
-Polannach;<Polanna;h>;DEL;c;N,NOM,PL
-Polannach;<Polannac;h>;INS;ig;N,NOM,PL
+polannach;<polanna;h>;DEL;c;N,NOM,PL
+polannach;<polannac;h>;INS;ig;N,NOM,PL
 atheagraigh;<atheagra;h>;DEL;ig;V,REL,PST,HAB,IND
 atheagraigh;<atheagraig;h>;INS;íod;V,REL,PST,HAB,IND
 ardeaglais;<ardeaglais;>;INS;e;N,GEN,SG
@@ -2514,9 +2514,9 @@ maighnéadas;<m;aighnéadas>;INS;h;N,VOC,SG
 maighnéadas;<maighnéada;s>;INS;i;N,VOC,SG
 luigh;<lu;h>;DEL;ig;V,AUTO,PST,IND
 luigh;<luig;h>;INS;íod;V,AUTO,PST,IND
-Siriach;<S;iriach>;INS;h;N,VOC,SG
-Siriach;<Siria;h>;DEL;c;N,VOC,SG
-Siriach;<Siriac;h>;INS;ig;N,VOC,SG
+siriach;<s;iriach>;INS;h;N,VOC,SG
+siriach;<siria;h>;DEL;c;N,VOC,SG
+siriach;<siriac;h>;INS;ig;N,VOC,SG
 scagdhealaigh;<scagdheala;>;DEL;igh;V,3,SG,SBJV,PRS
 aeroiriúnaigh;<aeroiriún;>;DEL;aigh;V,3,PL,COND
 aeroiriúnaigh;<aeroiriúnaigh;>;INS;óidís;V,3,PL,COND
@@ -2628,8 +2628,8 @@ tuama;<tuama;>;INS;í;N,VOC,PL
 timpiste;<timpist;>;DEL;e;N,DAT,PL
 timpiste;<timpiste;>;INS;í;N,DAT,PL
 anas;<ana;s>;INS;i;N,NOM,PL
-Casacstánach;<Casacstána;h>;DEL;c;N,NOM,PL
-Casacstánach;<Casacstánac;h>;INS;ig;N,NOM,PL
+casacstánach;<casacstána;h>;DEL;c;N,NOM,PL
+casacstánach;<casacstánac;h>;INS;ig;N,NOM,PL
 oinceolaí;<oinceola;>;DEL;í;N,NOM,PL,DEF
 oinceolaí;<oinceolaí;>;INS;ithe;N,NOM,PL,DEF
 faobhraigh;<f;aobhraigh>;INS;h;V,3,SG,COND
@@ -2684,8 +2684,8 @@ meánaicme;<meánaicme;>;INS;í;N,NOM,PL,DEF
 cairdín;<cairdín;>;INS;í;N,GEN,PL
 leatrom;<leatro;m>;INS;i;N,VOC,SG
 banghiolla;<b;anghiolla>;INS;h;N,VOC,SG
-Gall;<G;all>;INS;h;N,VOC,SG
-Gall;<Ga;ll>;INS;i;N,VOC,SG
+gall;<g;all>;INS;h;N,VOC,SG
+gall;<ga;ll>;INS;i;N,VOC,SG
 buachaill aimsire;<buachaill; aimsire>;INS;í;N,GEN,PL
 brústocaireacht;<brústocaireacht;>;INS;a;N,GEN,SG,DEF
 sicín;<sicín;>;INS;í;N,NOM,PL
@@ -2727,13 +2727,13 @@ freastail;<freasta;l>;DEL;i;V,2,PL,SBJV,PRS
 bibe;<b;ibe>;INS;h;N,VOC,PL
 bibe;<bib;>;DEL;e;N,VOC,PL
 bibe;<bibe;>;INS;í;N,VOC,PL
-Beilíseach;<Beilís;h>;DEL;eac;N,GEN,SG
-Beilíseach;<Beilíseac;h>;INS;ig;N,GEN,SG
+beilíseach;<beilís;h>;DEL;eac;N,GEN,SG
+beilíseach;<beilíseac;h>;INS;ig;N,GEN,SG
 réabhlóid;<réabhlóid;>;INS;í;N,NOM,PL
 blas;<b;las>;INS;h;N,VOC,SG
 blas;<bla;s>;INS;i;N,VOC,SG
-Aigéineach;<Aigéin;h>;DEL;eac;N,NOM,PL
-Aigéineach;<Aigéineac;h>;INS;ig;N,NOM,PL
+aigéineach;<aigéin;h>;DEL;eac;N,NOM,PL
+aigéineach;<aigéineac;h>;INS;ig;N,NOM,PL
 siúil;<s;iúil>;INS;h;V,3,SG,COND
 siúil;<siú;l>;DEL;i;V,3,SG,COND
 gaisciúil;<gaisciú;l>;DEL;i;ADJ,CMPR
@@ -2758,14 +2758,14 @@ buanriail;<buanria;l>;DEL;i;N,DAT,PL,DEF
 buanriail;<buanriail;>;INS;acha;N,DAT,PL,DEF
 uaslódáil;<uaslódá;l>;DEL;i;V,1,PL,COND
 uaslódáil;<uaslódáil;>;INS;faimis;V,1,PL,COND
-Lichtinstéanach;<Lichtinstéanach;>;INS;a;N,VOC,PL
+lichtinstéanach;<lichtinstéanach;>;INS;a;N,VOC,PL
 xaintín;<xaint;ín>;INS;in;N,DAT,PL,DEF
 xaintín;<xaintí;>;DEL;n;N,DAT,PL,DEF
 bricfeasta;<bricfeasta;>;INS;í;N,DAT,PL,DEF
 fuaimchlár;<fuaimchlá;r>;INS;i;N,GEN,SG
 céimnigh;<céimn;>;DEL;igh;V,2,SG,PRS,IND
-Úcránach;<Úcrána;h>;DEL;c;N,NOM,PL,DEF
-Úcránach;<Úcránac;h>;INS;ig;N,NOM,PL,DEF
+úcránach;<úcrána;h>;DEL;c;N,NOM,PL,DEF
+úcránach;<úcránac;h>;INS;ig;N,NOM,PL,DEF
 frithchaitheamh;<f;rithchaitheamh>;INS;h;N,VOC,SG
 frithchaitheamh;<frithchaith;mh>;DEL;ea;N,VOC,SG
 frithchaitheamh;<frithchaithea;mh>;INS;i;N,VOC,SG
@@ -2865,8 +2865,8 @@ spágáil;<spágá;l>;DEL;i;V,1,SG,PRS,IND
 spágáil;<spágáil;>;INS;aim;V,1,SG,PRS,IND
 almacantar;<almacanta;r>;INS;i;N,VOC,SG
 iothlainn;<iothlainn;>;INS;eacha;N,VOC,PL
-Maorach;<M;aorach>;INS;h;N,VOC,PL
-Maorach;<Maorach;>;INS;a;N,VOC,PL
+maorach;<m;aorach>;INS;h;N,VOC,PL
+maorach;<maorach;>;INS;a;N,VOC,PL
 sliabh;<s;liabh>;INS;h;N,VOC,SG
 críoch;<c;ríoch>;INS;h;N,VOC,SG
 zóspóragán;<zóspóragá;n>;INS;i;N,GEN,SG,DEF
@@ -2905,9 +2905,9 @@ pardún;<p;ardún>;INS;h;N,GEN,SG,DEF
 pardún;<pardú;n>;INS;i;N,GEN,SG,DEF
 teibíocht;<teibíocht;>;INS;aí;N,NOM,PL
 coinnleoir;<coinnleoir;>;INS;í;N,DAT,PL,DEF
-minc Mheiriceánach;<minc; Mheiriceánach>;INS;eanna;N,NOM,PL,DEF
-minc Mheiriceánach;<minc M;eiriceánach>;DEL;h;N,NOM,PL,DEF
-minc Mheiriceánach;<minc Mheiriceánach;>;INS;a;N,NOM,PL,DEF
+minc mheiriceánach;<minc; mheiriceánach>;INS;eanna;N,NOM,PL,DEF
+minc mheiriceánach;<minc m;eiriceánach>;DEL;h;N,NOM,PL,DEF
+minc mheiriceánach;<minc mheiriceánach;>;INS;a;N,NOM,PL,DEF
 aibidh;<ai;h>;DEL;bid;ADJ,GEN,SG,FEM
 aibidh;<aibid;h>;INS;pc;ADJ,GEN,SG,FEM
 aibidh;<aibidh;>;INS;e;ADJ,GEN,SG,FEM
@@ -2942,7 +2942,7 @@ tiompán;<tiompá;n>;INS;i;N,NOM,PL,DEF
 bataiméadar;<b;ataiméadar>;INS;h;N,VOC,PL
 bataiméadar;<bataiméadar;>;INS;a;N,VOC,PL
 frithchaith;<f;rithchaith>;INS;h;V,2,SG,PST,IND
-Bráman;<Bráma;n>;INS;i;N,NOM,PL
+bráman;<bráma;n>;INS;i;N,NOM,PL
 póirse;<p;óirse>;INS;h;N,VOC,SG
 bagún;<bagú;n>;INS;i;N,GEN,SG
 bráthair;<brá;thair>;INS;i;N,GEN,PL
@@ -2951,17 +2951,17 @@ bráthair;<bráthair;>;INS;e;N,GEN,PL
 úll;<ú;ll>;INS;i;N,GEN,SG,DEF
 acastóir;<acastó;r>;DEL;i;N,GEN,SG
 acastóir;<acastóir;>;INS;a;N,GEN,SG
-Mongólach;<Mongóla;h>;DEL;c;N,NOM,PL,DEF
-Mongólach;<Mongólac;h>;INS;ig;N,NOM,PL,DEF
+mongólach;<mongóla;h>;DEL;c;N,NOM,PL,DEF
+mongólach;<mongólac;h>;INS;ig;N,NOM,PL,DEF
 cros-toirchigh;<c;ros-toirchigh>;INS;h;V,1,PL,COND
 cros-toirchigh;<cros-toirch;igh>;INS;eoim;V,1,PL,COND
 cros-toirchigh;<cros-toirchi;>;DEL;gh;V,1,PL,COND
 cros-toirchigh;<cros-toirchigh;>;INS;s;V,1,PL,COND
-Siriach;<Siria;h>;DEL;c;N,DAT,PL,DEF
-Siriach;<Siriac;h>;INS;ig;N,DAT,PL,DEF
+siriach;<siria;h>;DEL;c;N,DAT,PL,DEF
+siriach;<siriac;h>;INS;ig;N,DAT,PL,DEF
 cúis;<cúis;>;INS;eanna;N,NOM,PL,DEF
-Úcránach;<Úcrána;h>;DEL;c;N,NOM,PL
-Úcránach;<Úcránac;h>;INS;ig;N,NOM,PL
+úcránach;<úcrána;h>;DEL;c;N,NOM,PL
+úcránach;<úcránac;h>;INS;ig;N,NOM,PL
 dí-adhlaic;<d;í-adhlaic>;INS;h;V,3,PL,COND
 dí-adhlaic;<dí-adhla;c>;DEL;i;V,3,PL,COND
 dí-adhlaic;<dí-adhlaic;>;INS;faidís;V,3,PL,COND
@@ -3003,11 +3003,11 @@ brúigh;<b;rúigh>;INS;h;V,1,SG,COND
 brúigh;<brú;igh>;INS;fa;V,1,SG,COND
 brúigh;<brúi;>;DEL;gh;V,1,SG,COND
 brúigh;<brúigh;>;INS;nn;V,1,SG,COND
-grús Ceanadach dúliath;<grú;s Ceanadach dúliath>;INS;i;N,DAT,PL,DEF
-grús Ceanadach dúliath;<grús C;eanadach dúliath>;INS;h;N,DAT,PL,DEF
-grús Ceanadach dúliath;<grús Ceanadach; dúliath>;INS;a;N,DAT,PL,DEF
-grús Ceanadach dúliath;<grús Ceanadach d;úliath>;INS;h;N,DAT,PL,DEF
-grús Ceanadach dúliath;<grús Ceanadach dúliath;>;INS;a;N,DAT,PL,DEF
+grús ceanadach dúliath;<grú;s ceanadach dúliath>;INS;i;N,DAT,PL,DEF
+grús ceanadach dúliath;<grús c;eanadach dúliath>;INS;h;N,DAT,PL,DEF
+grús ceanadach dúliath;<grús ceanadach; dúliath>;INS;a;N,DAT,PL,DEF
+grús ceanadach dúliath;<grús ceanadach d;úliath>;INS;h;N,DAT,PL,DEF
+grús ceanadach dúliath;<grús ceanadach dúliath;>;INS;a;N,DAT,PL,DEF
 críochnaigh;<críochn;aigh>;INS;óf;V,AUTO,FUT,IND
 críochnaigh;<críochna;>;DEL;igh;V,AUTO,FUT,IND
 críochnaigh;<críochnaigh;>;INS;r;V,AUTO,FUT,IND
@@ -3027,7 +3027,7 @@ bunatacht;<bunatacht;>;INS;a;N,GEN,SG,DEF
 cló;<c;ló>;INS;h;N,VOC,PL
 cló;<cló;>;INS;nna;N,VOC,PL
 eala;<eala;>;INS;í;N,GEN,PL
-Rúiseach;<Rúiseach;>;INS;a;N,VOC,PL
+rúiseach;<rúiseach;>;INS;a;N,VOC,PL
 aiste;<aist;>;DEL;e;N,DAT,PL,DEF
 aiste;<aiste;>;INS;í;N,DAT,PL,DEF
 bunaigh;<buna;>;DEL;igh;V,1,SG,SBJV,PRS
@@ -3045,8 +3045,8 @@ análaigh;<análai;>;DEL;gh;V,1,PL,SBJV,PRS
 análaigh;<análaigh;>;INS;d;V,1,PL,SBJV,PRS
 abairt;<abairt;>;INS;í;N,DAT,PL,DEF
 teicnidhath;<t;eicnidhath>;INS;h;N,VOC,SG
-Caitliceach;<Caitli;ch>;DEL;cea;ADJ,GEN,SG,FEM
-Caitliceach;<Caitliceac;h>;INS;ig;ADJ,GEN,SG,FEM
+caitliceach;<caitli;ch>;DEL;cea;ADJ,GEN,SG,FEM
+caitliceach;<caitliceac;h>;INS;ig;ADJ,GEN,SG,FEM
 feimineachas;<feimineacha;s>;INS;i;N,GEN,SG
 fótaifhriotán;<f;ótaifhriotán>;INS;h;N,GEN,SG,DEF
 fótaifhriotán;<fóta;fhriotán>;DEL;i;N,GEN,SG,DEF
@@ -3117,8 +3117,8 @@ oifigeach promhaidh;<oifig;h promhaidh>;DEL;eac;N,VOC,SG
 oifigeach promhaidh;<oifigeach p;romhaidh>;INS;h;N,VOC,SG
 teib;<t;eib>;INS;h;V,3,PL,PST,HAB,IND
 teib;<teib;>;INS;idís;V,3,PL,PST,HAB,IND
-Haváíoch;<Haváí;h>;DEL;oc;N,VOC,SG
-Haváíoch;<Haváíoc;h>;INS;g;N,VOC,SG
+haváíoch;<haváí;h>;DEL;oc;N,VOC,SG
+haváíoch;<haváíoc;h>;INS;g;N,VOC,SG
 réaltnéal;<réaltnéal;>;INS;ta;N,DAT,PL,DEF
 bainirseach;<bainirs;>;DEL;each;N,GEN,SG
 bainirseach;<bainirseach;>;INS;í;N,GEN,SG
@@ -3164,7 +3164,7 @@ grúdaigh;<grúda;>;DEL;igh;V,2:SG,SBJV,PST
 grúdaigh;<grúdaigh;>;INS;íteá;V,2:SG,SBJV,PST
 teach pobail;<t;each pobail>;INS;ith;N,DAT,PL
 teach pobail;<te; pobail>;DEL;ach;N,DAT,PL
-Gall;<Ga;ll>;INS;i;N,NOM,PL
+gall;<ga;ll>;INS;i;N,NOM,PL
 tiach;<t;iach>;INS;é;N,GEN,SG
 tiach;<ti;ch>;DEL;a;N,GEN,SG
 tiach;<tiach;>;INS;e;N,GEN,SG
@@ -3182,8 +3182,8 @@ plánáil;<pláná;l>;DEL;i;V,2:SG,SBJV,PRS
 fabhalscéalaí;<fabhalscéala;>;DEL;í;N,DAT,PL
 fabhalscéalaí;<fabhalscéalaí;>;INS;ithe;N,DAT,PL
 éanlann;<éanlann;>;INS;a;N,VOC,PL
-X-ghathú;<X-ghath;>;DEL;ú;N,DAT,PL
-X-ghathú;<X-ghathú;>;INS;uithe;N,DAT,PL
+x-ghathú;<x-ghath;>;DEL;ú;N,DAT,PL
+x-ghathú;<x-ghathú;>;INS;uithe;N,DAT,PL
 uiscigh;<uisc;igh>;INS;ím;V,1,PL,PRS,IND
 uiscigh;<uisci;>;DEL;gh;V,1,PL,PRS,IND
 uiscigh;<uiscigh;>;INS;d;V,1,PL,PRS,IND
@@ -3331,7 +3331,7 @@ treisigh;<treis;igh>;INS;ím;V,1,PL,PRS,IND
 treisigh;<treisi;>;DEL;gh;V,1,PL,PRS,IND
 treisigh;<treisigh;>;INS;d;V,1,PL,PRS,IND
 uaslódáil;<uaslódá;l>;DEL;i;V,3,SG,COND
-Abrán;<Abrá;n>;INS;i;N,VOC,SG
+abrán;<abrá;n>;INS;i;N,VOC,SG
 ultraimicreascóp;<ultraimicreascóp;>;INS;a;N,VOC,PL
 déshuilfíd;<déshuilfíd;>;INS;í;N,DAT,PL
 malartaigh;<m;alartaigh>;INS;h;V,1,SG,PST,HAB,IND
@@ -3446,9 +3446,9 @@ bréagnú;<bréagn;>;DEL;ú;N,VOC,PL
 bréagnú;<bréagnú;>;INS;uithe;N,VOC,PL
 ardaingeal;<ardaing;l>;DEL;ea;N,GEN,SG
 ardaingeal;<ardaingea;l>;INS;i;N,GEN,SG
-Seacaibíteach;<S;eacaibíteach>;INS;h;N,VOC,SG
-Seacaibíteach;<Seacaibít;h>;DEL;eac;N,VOC,SG
-Seacaibíteach;<Seacaibíteac;h>;INS;ig;N,VOC,SG
+seacaibíteach;<s;eacaibíteach>;INS;h;N,VOC,SG
+seacaibíteach;<seacaibít;h>;DEL;eac;N,VOC,SG
+seacaibíteach;<seacaibíteac;h>;INS;ig;N,VOC,SG
 hipistíl;<hipistíl;>;INS;e;N,GEN,SG,DEF
 bogach;<b;ogach>;INS;h;N,GEN,SG,DEF
 bogach;<boga;h>;DEL;c;N,GEN,SG,DEF
@@ -3489,8 +3489,8 @@ ard-reachtaire;<ard-reachtaire;>;INS;í;N,NOM,PL
 folíon;<f;olíon>;INS;h;V,2,SG,PST,IND
 naíscoil;<naíscoil;>;INS;eanna;N,DAT,PL
 urraitheoir;<urraitheoir;>;INS;í;N,DAT,PL,DEF
-Seineagálach;<Seineagála;h>;DEL;c;N,NOM,PL
-Seineagálach;<Seineagálac;h>;INS;ig;N,NOM,PL
+seineagálach;<seineagála;h>;DEL;c;N,NOM,PL
+seineagálach;<seineagálac;h>;INS;ig;N,NOM,PL
 déchéileachas;<d;échéileachas>;INS;h;N,VOC,SG
 déchéileachas;<déchéileacha;s>;INS;i;N,VOC,SG
 bréagchuil;<bréagchuil;>;INS;eanna;N,NOM,PL,DEF
@@ -3510,9 +3510,9 @@ leataobh;<leataobh;>;INS;anna;N,NOM,PL
 micriméadar;<m;icriméadar>;INS;h;N,VOC,SG
 micriméadar;<micriméada;r>;INS;i;N,VOC,SG
 ard-aireacht;<ard-aireacht;>;INS;aí;N,DAT,PL
-Patagónach;<P;atagónach>;INS;h;N,VOC,SG
-Patagónach;<Patagóna;h>;DEL;c;N,VOC,SG
-Patagónach;<Patagónac;h>;INS;ig;N,VOC,SG
+patagónach;<p;atagónach>;INS;h;N,VOC,SG
+patagónach;<patagóna;h>;DEL;c;N,VOC,SG
+patagónach;<patagónac;h>;INS;ig;N,VOC,SG
 bitheirm;<bitheirm;>;INS;eacha;N,DAT,PL,DEF
 xilealós;<xilealó;s>;INS;i;N,GEN,SG
 codail;<c;odail>;INS;h;V,2,SG,COND
@@ -3620,8 +3620,8 @@ pléigh;<pléigh;>;INS;tí;V,AUTO,SBJV,PST
 éagnaigh;<éagnai;h>;DEL;g;V,2,PL,PRS,IND
 éagnaigh;<éagnaig;h>;INS;b;V,2,PL,PRS,IND
 síocháin;<s;íocháin>;INS;h;N,VOC,SG
-Burúnach;<Burúna;h>;DEL;c;N,NOM,PL,DEF
-Burúnach;<Burúnac;h>;INS;ig;N,NOM,PL,DEF
+burúnach;<burúna;h>;DEL;c;N,NOM,PL,DEF
+burúnach;<burúnac;h>;INS;ig;N,NOM,PL,DEF
 dordfhocal;<dordfhoca;l>;INS;i;N,GEN,SG
 naofacht;<naofacht;>;INS;a;N,GEN,SG,DEF
 aicmigh;<aicmi;h>;DEL;g;V,2,PL,FUT,IND
@@ -3673,8 +3673,8 @@ moncaí;<monca;>;DEL;í;N,NOM,PL,DEF
 moncaí;<moncaí;>;INS;ithe;N,NOM,PL,DEF
 aiciseach;<aicis;>;DEL;each;ADJ,CMPR
 aiciseach;<aiciseach;>;INS;í;ADJ,CMPR
-Aifreannach;<Aifreanna;h>;DEL;c;N,DAT,PL
-Aifreannach;<Aifreannac;h>;INS;ig;N,DAT,PL
+aifreannach;<aifreanna;h>;DEL;c;N,DAT,PL
+aifreannach;<aifreannac;h>;INS;ig;N,DAT,PL
 fuathaigh;<fuathai;h>;DEL;g;V,2,PL,PRS,IND
 fuathaigh;<fuathaig;h>;INS;b;V,2,PL,PRS,IND
 mianach;<m;ianach>;INS;h;N,VOC,PL
@@ -3686,8 +3686,8 @@ tiomáin;<t;iomáin>;INS;h;V,REL,FUT,IND
 tiomáin;<tiomá;n>;DEL;i;V,REL,FUT,IND
 tiomáin;<tiomáin;>;INS;faidh;V,REL,FUT,IND
 caolsráid;<caolsráid;>;INS;eanna;N,NOM,PL,DEF
-Iarácach;<Iaráca;h>;DEL;c;N,GEN,SG
-Iarácach;<Iarácac;h>;INS;ig;N,GEN,SG
+iarácach;<iaráca;h>;DEL;c;N,GEN,SG
+iarácach;<iarácac;h>;INS;ig;N,GEN,SG
 promh;<p;romh>;INS;h;V,1,SG,PST,IND
 ceanúil;<c;eanúil>;INS;h;ADJ,VOC+GEN,SG,MASV
 ton;<to;n>;INS;i;N,DAT,PL,DEF
@@ -3702,11 +3702,11 @@ toiligh;<toil;>;DEL;igh;V,2:SG,SBJV,PST
 toiligh;<toiligh;>;INS;íteá;V,2:SG,SBJV,PST
 atíolaic;<atíola;c>;DEL;i;V,1,PL,IMP
 atíolaic;<atíolaic;>;INS;aimis;V,1,PL,IMP
-grús Ceanadach dúliath;<grú;s Ceanadach dúliath>;INS;i;N,DAT,PL
-grús Ceanadach dúliath;<grús C;eanadach dúliath>;INS;h;N,DAT,PL
-grús Ceanadach dúliath;<grús Ceanadach; dúliath>;INS;a;N,DAT,PL
-grús Ceanadach dúliath;<grús Ceanadach d;úliath>;INS;h;N,DAT,PL
-grús Ceanadach dúliath;<grús Ceanadach dúliath;>;INS;a;N,DAT,PL
+grús ceanadach dúliath;<grú;s ceanadach dúliath>;INS;i;N,DAT,PL
+grús ceanadach dúliath;<grús c;eanadach dúliath>;INS;h;N,DAT,PL
+grús ceanadach dúliath;<grús ceanadach; dúliath>;INS;a;N,DAT,PL
+grús ceanadach dúliath;<grús ceanadach d;úliath>;INS;h;N,DAT,PL
+grús ceanadach dúliath;<grús ceanadach dúliath;>;INS;a;N,DAT,PL
 príomhscannán;<p;ríomhscannán>;INS;h;N,VOC,SG
 príomhscannán;<príomhscanná;n>;INS;i;N,VOC,SG
 athneartaigh;<athnearta;>;DEL;igh;V,1,SG,PST,HAB,IND
@@ -3726,13 +3726,13 @@ féad;<féad;>;INS;achtáil;V,V.MSDR
 vacsaíniú;<vacsaíni;>;DEL;ú;N,GEN,SG
 vacsaíniú;<vacsaíniú;>;INS;the;N,GEN,SG
 leidchárta;<leidchárta;>;INS;í;N,VOC,PL
-Úcránach;<Úcrána;h>;DEL;c;N,GEN,SG
-Úcránach;<Úcránac;h>;INS;ig;N,GEN,SG
+úcránach;<úcrána;h>;DEL;c;N,GEN,SG
+úcránach;<úcránac;h>;INS;ig;N,GEN,SG
 donaigh;<d;onaigh>;INS;h;V,2,SG,COND
 donaigh;<don;>;DEL;aigh;V,2,SG,COND
 donaigh;<donaigh;>;INS;ófá;V,2,SG,COND
 péidearastacht;<péidearastacht;>;INS;a;N,GEN,SG,DEF
-Eastóinis;<Eastóinis;>;INS;e;N,GEN,SG
+eastóinis;<eastóinis;>;INS;e;N,GEN,SG
 fochlár;<fochlá;r>;INS;i;N,GEN,SG
 geoidligh;<geoidl;igh>;INS;eoim;V,1,PL,FUT,IND
 geoidligh;<geoidli;>;DEL;gh;V,1,PL,FUT,IND
@@ -3791,8 +3791,8 @@ bréagdheimhneacht;<bréagdheimhneacht;>;INS;aí;N,VOC,PL
 acramhéadar;<acramhéada;r>;INS;i;N,DAT,PL,DEF
 aosánach;<aosána;h>;DEL;c;N,GEN,SG,DEF
 aosánach;<aosánac;h>;INS;ig;N,GEN,SG,DEF
-minc Eorpach;<minc; Eorpach>;INS;eanna;N,DAT,PL,DEF
-minc Eorpach;<minc Eorpach;>;INS;a;N,DAT,PL,DEF
+minc eorpach;<minc; eorpach>;INS;eanna;N,DAT,PL,DEF
+minc eorpach;<minc eorpach;>;INS;a;N,DAT,PL,DEF
 seampú;<seampú;>;INS;nna;N,NOM,PL,DEF
 agallamh;<agalla;mh>;INS;i;N,VOC,SG
 bailigh;<bail;igh>;INS;eo;V,2,SG,FUT,IND
@@ -3811,8 +3811,8 @@ lonnaigh;<lonn;>;DEL;aigh;V,1,SG,COND
 iomair;<iom;r>;DEL;ai;V,2,PL,PST,HAB,IND
 atarraing;<atarraing;>;INS;íodh;V,REL,PST,HAB,IND
 acrastaic;<acrastaic;>;INS;e;N,GEN,SG,DEF
-Eilvéiseach;<Eilvéis;h>;DEL;eac;N,GEN,SG
-Eilvéiseach;<Eilvéiseac;h>;INS;ig;N,GEN,SG
+eilvéiseach;<eilvéis;h>;DEL;eac;N,GEN,SG
+eilvéiseach;<eilvéiseac;h>;INS;ig;N,GEN,SG
 cnap;<cna;p>;INS;i;N,GEN,SG
 sáithigh;<sáit;h>;DEL;hig;V,2,PL,IMP
 sáithigh;<sáithigh;>;INS;ígí;V,2,PL,IMP
@@ -3848,9 +3848,9 @@ tarchuradóir;<tarchuradóir;>;INS;a;N,GEN,SG
 roinnt;<r;nnt>;DEL;oi;N,NOM,PL
 roinnt;<roi;nnt>;INS;a;N,NOM,PL
 roinnt;<roinnt;>;INS;a;N,NOM,PL
-Basútach;<B;asútach>;INS;h;N,VOC,SG
-Basútach;<Basúta;h>;DEL;c;N,VOC,SG
-Basútach;<Basútac;h>;INS;ig;N,VOC,SG
+basútach;<b;asútach>;INS;h;N,VOC,SG
+basútach;<basúta;h>;DEL;c;N,VOC,SG
+basútach;<basútac;h>;INS;ig;N,VOC,SG
 eachtraigh;<eachtra;>;DEL;igh;V,AUTO,SBJV,PST
 eachtraigh;<eachtraigh;>;INS;ítí;V,AUTO,SBJV,PST
 dínasc;<d;ínasc>;INS;h;V,3,PL,PST,IND
@@ -3888,8 +3888,8 @@ cumar;<cuma;r>;INS;i;N,GEN,SG
 longfort;<longfo;rt>;INS;i;N,NOM,PL
 cum;<c;um>;INS;h;V,1,SG,COND
 cum;<cum;>;INS;fainn;V,1,SG,COND
-Ungárach;<Ungára;h>;DEL;c;N,DAT,PL
-Ungárach;<Ungárac;h>;INS;ig;N,DAT,PL
+ungárach;<ungára;h>;DEL;c;N,DAT,PL
+ungárach;<ungárac;h>;INS;ig;N,DAT,PL
 cúramach;<cúrama;>;DEL;ch;ADJ,CMPR
 cúramach;<cúramach;>;INS;í;ADJ,CMPR
 coinfheascar;<c;oinfheascar>;INS;h;N,GEN,SG,DEF
@@ -4019,8 +4019,8 @@ greannaigh;<greannaig;h>;INS;íod;V,3,SG,IMP
 iasacht;<iasacht;>;INS;a;N,GEN,SG
 seinnteoir;<seinnteoir;>;INS;í;N,DAT,PL
 fíodóir;<fíodóir;>;INS;í;N,DAT,PL,DEF
-Bealarúiseach;<Bealarúis;h>;DEL;eac;N,DAT,PL,DEF
-Bealarúiseach;<Bealarúiseac;h>;INS;ig;N,DAT,PL,DEF
+bealarúiseach;<bealarúis;h>;DEL;eac;N,DAT,PL,DEF
+bealarúiseach;<bealarúiseac;h>;INS;ig;N,DAT,PL,DEF
 uaigneach;<uaign;>;DEL;each;ADJ,GEN,SG,FEM
 uaigneach;<uaigneach;>;INS;í;ADJ,GEN,SG,FEM
 lean;<lean;>;INS;aigí;V,2,PL,IMP
@@ -4081,8 +4081,8 @@ eipirigineas;<eipiriginea;s>;INS;i;N,VOC,SG
 striapach;<striapa;>;DEL;ch;N,GEN,SG,DEF
 striapach;<striapach;>;INS;í;N,GEN,SG,DEF
 maoidh;<maoidh;>;INS;inn;V,1,SG,SBJV,PST
-V-mhuineál;<V-mhuin;l>;DEL;eá;N,NOM,PL
-V-mhuineál;<V-mhuineá;l>;INS;í;N,NOM,PL
+v-mhuineál;<v-mhuin;l>;DEL;eá;N,NOM,PL
+v-mhuineál;<v-mhuineá;l>;INS;í;N,NOM,PL
 agnóisí;<agnóis;>;DEL;í;N,VOC,PL
 agnóisí;<agnóisí;>;INS;ithe;N,VOC,PL
 freagair;<f;reagair>;INS;h;V,3,PL,COND
@@ -4108,8 +4108,8 @@ litrigh;<litr;>;DEL;igh;V,AUTO,FUT,IND
 miotaigh;<miota;h>;DEL;ig;V,AUTO,PST,IND
 miotaigh;<miotaig;h>;INS;íod;V,AUTO,PST,IND
 gliúphota;<g;liúphota>;INS;h;N,GEN,SG,DEF
-Briotanach;<Briotana;h>;DEL;c;N,NOM,PL,DEF
-Briotanach;<Briotanac;h>;INS;ig;N,NOM,PL,DEF
+briotanach;<briotana;h>;DEL;c;N,NOM,PL,DEF
+briotanach;<briotanac;h>;INS;ig;N,NOM,PL,DEF
 rianaigh;<ria;naigh>;INS;nóin;V,1,SG,COND
 rianaigh;<rian;>;DEL;aigh;V,1,SG,COND
 beacán;<beacá;n>;INS;i;N,DAT,PL,DEF
@@ -4173,8 +4173,8 @@ féach;<féach;>;INS;faí;V,AUTO,COND
 péidiatraic;<péidiatraic;>;INS;e;N,GEN,SG
 clólíne;<c;lólíne>;INS;h;N,VOC,SG
 saint;<saint;>;INS;e;N,GEN,SG
-Iosraeilíteach;<Iosraeilít;h>;DEL;eac;N,DAT,PL,DEF
-Iosraeilíteach;<Iosraeilíteac;h>;INS;ig;N,DAT,PL,DEF
+iosraeilíteach;<iosraeilít;h>;DEL;eac;N,DAT,PL,DEF
+iosraeilíteach;<iosraeilíteac;h>;INS;ig;N,DAT,PL,DEF
 pataigin;<pataigin;>;INS;í;N,NOM,PL,DEF
 áitreabhthóir;<áitreabhthóir;>;INS;í;N,GEN,PL
 suigh;<sui;>;DEL;gh;V,3,PL,SBJV,PRS
@@ -4221,7 +4221,7 @@ pigmí;<pigmí;>;INS;ithe;N,NOM,PL,DEF
 liopard;<liopa;rd>;INS;i;N,GEN,SG,DEF
 ailm;<ailm;>;INS;e;N,GEN,SG
 géar;<géar;>;INS;a;ADJ,NOM,PL
-Céadaoin;<Céadaoin;>;INS;eacha;N,NOM,PL,DEF
+céadaoin;<céadaoin;>;INS;eacha;N,NOM,PL,DEF
 scolaí;<scola;>;DEL;í;N,DAT,PL,DEF
 scolaí;<scolaí;>;INS;ithe;N,DAT,PL,DEF
 greamú;<gream;>;DEL;ú;N,GEN,SG
@@ -4261,9 +4261,9 @@ deighil;<d;eighil>;INS;h;V,3,SG,PST,HAB,IND
 deighil;<deigh;l>;DEL;i;V,3,SG,PST,HAB,IND
 hipifiseas;<hipifis;s>;DEL;ea;N,VOC,SG
 hipifiseas;<hipifisea;s>;INS;i;N,VOC,SG
-Tasmánach;<T;asmánach>;INS;h;N,VOC,SG
-Tasmánach;<Tasmána;h>;DEL;c;N,VOC,SG
-Tasmánach;<Tasmánac;h>;INS;ig;N,VOC,SG
+tasmánach;<t;asmánach>;INS;h;N,VOC,SG
+tasmánach;<tasmána;h>;DEL;c;N,VOC,SG
+tasmánach;<tasmánac;h>;INS;ig;N,VOC,SG
 sílim;<s;ílim>;INS;h;V,3,PL,COND
 sílim;<síl;im>;INS;f;V,3,PL,COND
 sílim;<síli;>;DEL;m;V,3,PL,COND
@@ -4316,8 +4316,8 @@ mórshiúl;<mórshiúl;>;INS;ta;N,DAT,PL,DEF
 clóchuradóir;<clóchuradóir;>;INS;í;N,GEN,PL
 bréagléiriú;<bréagléiri;>;DEL;ú;N,NOM,PL,DEF
 bréagléiriú;<bréagléiriú;>;INS;the;N,NOM,PL,DEF
-Aintillíoch;<Aintillí;h>;DEL;oc;N,DAT,PL,DEF
-Aintillíoch;<Aintillíoc;h>;INS;g;N,DAT,PL,DEF
+aintillíoch;<aintillí;h>;DEL;oc;N,DAT,PL,DEF
+aintillíoch;<aintillíoc;h>;INS;g;N,DAT,PL,DEF
 leathchliathán;<leathchliathá;n>;INS;i;N,NOM,PL
 teicnealárnachas;<teicnealárnacha;s>;INS;i;N,GEN,SG,DEF
 dánlann;<dánlann;>;INS;a;N,NOM,PL,DEF
@@ -4361,8 +4361,8 @@ dí-adhlacadh;<dí-adhlaca;>;DEL;dh;N,GEN,PL
 dí-adhlacadh;<dí-adhlacadh;>;INS;í;N,GEN,PL
 murnán;<m;urnán>;INS;h;N,GEN,SG,DEF
 murnán;<murná;n>;INS;i;N,GEN,SG,DEF
-Oilimpeach;<Oilimp;h>;DEL;eac;N,DAT,SG
-Oilimpeach;<Oilimpeac;h>;INS;ig;N,DAT,SG
+oilimpeach;<oilimp;h>;DEL;eac;N,DAT,SG
+oilimpeach;<oilimpeac;h>;INS;ig;N,DAT,SG
 scrúdaigh;<scrúd;aigh>;INS;óf;V,AUTO,COND
 scrúdaigh;<scrúda;>;DEL;igh;V,AUTO,COND
 scrúdaigh;<scrúdaigh;>;INS;í;V,AUTO,COND
@@ -4501,7 +4501,7 @@ foraoisigh;<foraoisigh;>;INS;ínn;V,1,SG,PST,HAB,IND
 eileacht;<eileacht;>;INS;a;N,GEN,SG,DEF
 éascaigh;<éasca;>;DEL;igh;V,2:SG,SBJV,PST
 éascaigh;<éascaigh;>;INS;íteá;V,2:SG,SBJV,PST
-Gaeltacht;<G;aeltacht>;INS;h;N,NOM,SG,DEF
+gaeltacht;<g;aeltacht>;INS;h;N,NOM,SG,DEF
 tóg;<t;óg>;INS;h;V,3,PL,PST,IND
 áirigh;<ái;righ>;INS;reofa;V,AUTO,FUT,IND
 áirigh;<áir;>;DEL;igh;V,AUTO,FUT,IND
@@ -4511,8 +4511,8 @@ urchoill;<urchoill;>;INS;idís;V,3,PL,SBJV,PST
 línigh;<lín;igh>;INS;ím;V,1,PL,SBJV,PST
 línigh;<líni;>;DEL;gh;V,1,PL,SBJV,PST
 línigh;<línigh;>;INS;s;V,1,PL,SBJV,PST
-Hiteach;<Hit;h>;DEL;eac;N,GEN,SG
-Hiteach;<Hiteac;h>;INS;ig;N,GEN,SG
+hiteach;<hit;h>;DEL;eac;N,GEN,SG
+hiteach;<hiteac;h>;INS;ig;N,GEN,SG
 ollmhargadh;<ollmharga;dh>;INS;i;N,GEN,SG,DEF
 seobhaineachas;<seobhaineacha;s>;INS;i;N,GEN,SG
 barántaigh;<baránta;igh>;INS;ím;V,1,PL,SBJV,PRS
@@ -4549,9 +4549,9 @@ deacair;<d;eacair>;INS;h;N,VOC,PL
 deacair;<deac;r>;DEL;ai;N,VOC,PL
 deacair;<deacair;>;INS;a;N,VOC,PL
 bantaboc;<bantabo;c>;INS;i;N,NOM,PL
-Bórach;<B;órach>;INS;h;N,GEN,SG,DEF
-Bórach;<Bóra;h>;DEL;c;N,GEN,SG,DEF
-Bórach;<Bórac;h>;INS;ig;N,GEN,SG,DEF
+bórach;<b;órach>;INS;h;N,GEN,SG,DEF
+bórach;<bóra;h>;DEL;c;N,GEN,SG,DEF
+bórach;<bórac;h>;INS;ig;N,GEN,SG,DEF
 spór;<spór;>;INS;a;N,VOC,PL
 coimeádán;<coimeádá;n>;INS;i;N,NOM,PL,DEF
 straoiseog;<straoiseog;>;INS;a;N,DAT,PL
@@ -4565,7 +4565,7 @@ cruinnigh;<cruinn;>;DEL;igh;V,1,SG,IMP
 cruinnigh;<cruinnigh;>;INS;ím;V,1,SG,IMP
 ultach;<ulta;h>;DEL;c;N,GEN,SG,DEF
 ultach;<ultac;h>;INS;ig;N,GEN,SG,DEF
-Vandal;<Vanda;l>;INS;i;N,DAT,PL
+vandal;<vanda;l>;INS;i;N,DAT,PL
 failp;<f;ailp>;INS;h;N,VOC,PL
 failp;<failp;>;INS;eanna;N,VOC,PL
 fan;<f;an>;INS;h;V,AUTO,PST,HAB,IND
@@ -4576,8 +4576,8 @@ breoigh;<breoigh;>;INS;ad;V,3,PL,SBJV,PRS
 tar;<t;ar>;INS;h;V,REL,PST,HAB,IND
 tar;<ta;>;DEL;r;V,REL,PST,HAB,IND
 tar;<tar;>;INS;gadh;V,REL,PST,HAB,IND
-Albánach;<Albána;h>;DEL;c;N,VOC,SG
-Albánach;<Albánac;h>;INS;ig;N,VOC,SG
+albánach;<albána;h>;DEL;c;N,VOC,SG
+albánach;<albánac;h>;INS;ig;N,VOC,SG
 críochnaigh;<c;ríochnaigh>;INS;h;V,3,SG,COND
 críochnaigh;<críochn;h>;DEL;aig;V,3,SG,COND
 críochnaigh;<críochnaig;h>;INS;ód;V,3,SG,COND
@@ -4629,9 +4629,9 @@ amaitéarach;<amaitéarac;h>;INS;ig;N,VOC,SG
 bronntanas;<bronntana;s>;INS;i;N,NOM,PL
 sáraigh;<sárai;h>;DEL;g;V,2,PL,SBJV,PRS
 sáraigh;<sáraig;h>;INS;b;V,2,PL,SBJV,PRS
-Amasóin;<Amasóin;>;INS;í;N,VOC,PL
-Suasach;<Suasa;h>;DEL;c;N,NOM,PL,DEF
-Suasach;<Suasac;h>;INS;ig;N,NOM,PL,DEF
+amasóin;<amasóin;>;INS;í;N,VOC,PL
+suasach;<suasa;h>;DEL;c;N,NOM,PL,DEF
+suasach;<suasac;h>;INS;ig;N,NOM,PL,DEF
 suanbhruith;<s;uanbhruith>;INS;h;V,3,PL,PST,HAB,IND
 suanbhruith;<suanbhruith;>;INS;idís;V,3,PL,PST,HAB,IND
 toirchigh;<toirchi;>;DEL;gh;V,V.MSDR
@@ -4699,14 +4699,14 @@ seachród;<seachró;d>;INS;i;N,VOC,SG
 inghean;<inghean;>;INS;acha;N,VOC,PL
 friotaigh;<friota;h>;DEL;ig;V,3,SG,IMP
 friotaigh;<friotaig;h>;INS;íod;V,3,SG,IMP
-Beirmiúdach;<Beirmiúda;h>;DEL;c;N,NOM,PL
-Beirmiúdach;<Beirmiúdac;h>;INS;ig;N,NOM,PL
+beirmiúdach;<beirmiúda;h>;DEL;c;N,NOM,PL
+beirmiúdach;<beirmiúdac;h>;INS;ig;N,NOM,PL
 clabhchorda;<clabhchorda;>;INS;í;N,GEN,PL
 siotaran;<siotara;n>;INS;i;N,GEN,SG,DEF
 callagrafaíocht;<c;allagrafaíocht>;INS;h;N,NOM,SG,DEF
-Guánach;<G;uánach>;INS;h;N,GEN,SG,DEF
-Guánach;<Guána;h>;DEL;c;N,GEN,SG,DEF
-Guánach;<Guánac;h>;INS;ig;N,GEN,SG,DEF
+guánach;<g;uánach>;INS;h;N,GEN,SG,DEF
+guánach;<guána;h>;DEL;c;N,GEN,SG,DEF
+guánach;<guánac;h>;INS;ig;N,GEN,SG,DEF
 druma;<druma;>;INS;í;N,GEN,PL
 barántaigh;<b;arántaigh>;INS;h;V,1,PL,PST,HAB,IND
 barántaigh;<baránta;igh>;INS;ím;V,1,PL,PST,HAB,IND
@@ -4772,14 +4772,14 @@ grúpáil;<g;rúpáil>;INS;h;N,VOC,SG
 dúbail;<dúb;l>;DEL;ai;V,3,SG,PRS,IND
 bileoigín;<b;ileoigín>;INS;h;N,VOC,SG
 ócáid;<ócáid;>;INS;e;N,GEN,SG,DEF
-Iodálach;<Iodála;>;DEL;ch;ADJ,SPRL
-Iodálach;<Iodálach;>;INS;í;ADJ,SPRL
+iodálach;<iodála;>;DEL;ch;ADJ,SPRL
+iodálach;<iodálach;>;INS;í;ADJ,SPRL
 fabhal;<fa;bhal>;INS;i;N,NOM,PL,DEF
 fabhal;<fabh;l>;DEL;a;N,NOM,PL,DEF
 fabhal;<fabhal;>;INS;e;N,NOM,PL,DEF
 eolas;<eola;s>;INS;i;N,GEN,SG
-Críostaí;<Críosta;>;DEL;í;N,GEN,PL
-Críostaí;<Críostaí;>;INS;ithe;N,GEN,PL
+críostaí;<críosta;>;DEL;í;N,GEN,PL
+críostaí;<críostaí;>;INS;ithe;N,GEN,PL
 córam;<c;óram>;INS;h;N,VOC,SG
 córam;<córa;m>;INS;i;N,VOC,SG
 séid;<s;éid>;INS;h;V,REL,PRS,IND
@@ -4856,8 +4856,8 @@ oifigeach barántais;<oif;igeach barántais>;INS;ig;N,NOM,PL
 oifigeach barántais;<oifig;h barántais>;DEL;eac;N,NOM,PL
 oifigeach barántais;<oifigeach b;arántais>;INS;h;N,NOM,PL
 feartlaoi;<feartlaoi;>;INS;the;N,NOM,PL,DEF
-Filipíneach;<Filipín;h>;DEL;eac;N,NOM,PL
-Filipíneach;<Filipíneac;h>;INS;ig;N,NOM,PL
+filipíneach;<filipín;h>;DEL;eac;N,NOM,PL
+filipíneach;<filipíneac;h>;INS;ig;N,NOM,PL
 liach;<liach;>;INS;a;N,NOM,PL,DEF
 veidheal;<veidh;l>;DEL;ea;N,GEN,PL
 veidheal;<veidheal;>;INS;í;N,GEN,PL
@@ -4945,8 +4945,8 @@ análú;<análú;>;INS;aithe;N,GEN,SG
 coimeádán;<c;oimeádán>;INS;h;N,VOC,PL
 coimeádán;<coimeádán;>;INS;a;N,VOC,PL
 creid;<c;reid>;INS;h;V,2,PL,COND
-Aifreannach;<Aifreanna;h>;DEL;c;N,DAT,PL,DEF
-Aifreannach;<Aifreannac;h>;INS;ig;N,DAT,PL,DEF
+aifreannach;<aifreanna;h>;DEL;c;N,DAT,PL,DEF
+aifreannach;<aifreannac;h>;INS;ig;N,DAT,PL,DEF
 tochais;<tocha;s>;DEL;i;V,1,SG,PRS,IND
 tochais;<tochais;>;INS;aim;V,1,SG,PRS,IND
 gealtlann;<g;ealtlann>;INS;h;N,NOM,SG,DEF
@@ -5159,8 +5159,8 @@ maígh;<m;aígh>;INS;h;V,3,SG,COND
 maígh;<maí;h>;DEL;g;V,3,SG,COND
 maígh;<maíg;h>;INS;fead;V,3,SG,COND
 ansmachtaigh;<ansmacht;h>;DEL;aig;V,2,PL,FUT,IND
-Gaelaigh;<Gaelai;>;DEL;gh;V,3,PL,SBJV,PRS
-Gaelaigh;<Gaelaigh;>;INS;ad;V,3,PL,SBJV,PRS
+gaelaigh;<gaelai;>;DEL;gh;V,3,PL,SBJV,PRS
+gaelaigh;<gaelaigh;>;INS;ad;V,3,PL,SBJV,PRS
 grianghrafadóireacht;<g;rianghrafadóireacht>;INS;h;N,NOM,SG,DEF
 potaireacht;<potaireacht;>;INS;a;N,GEN,SG,DEF
 náiriú;<náiri;>;DEL;ú;N,GEN,SG,DEF
@@ -5170,11 +5170,11 @@ aom;<aom;>;INS;aimis;V,1,PL,IMP
 foirm;<foirm;>;INS;eacha;N,NOM,PL,DEF
 facsáil;<facsáil;>;INS;tear;V,AUTO,PRS,IND
 bithstróm;<bithstró;m>;INS;i;N,NOM,PL
-Súdánach;<Súdána;h>;DEL;c;N,DAT,PL,DEF
-Súdánach;<Súdánac;h>;INS;ig;N,DAT,PL,DEF
+súdánach;<súdána;h>;DEL;c;N,DAT,PL,DEF
+súdánach;<súdánac;h>;INS;ig;N,DAT,PL,DEF
 dlisteanacht;<dlisteanacht;>;INS;a;N,GEN,SG,DEF
-Rómhánach;<Rómhána;h>;DEL;c;N,DAT,PL
-Rómhánach;<Rómhánac;h>;INS;ig;N,DAT,PL
+rómhánach;<rómhána;h>;DEL;c;N,DAT,PL
+rómhánach;<rómhánac;h>;INS;ig;N,DAT,PL
 cairéalaigh;<c;airéalaigh>;INS;h;V,REL,FUT,IND
 cairéalaigh;<cairéal;h>;DEL;aig;V,REL,FUT,IND
 cairéalaigh;<cairéalaig;h>;INS;óid;V,REL,FUT,IND
@@ -5257,8 +5257,8 @@ maitheas;<maitheas;>;INS;aí;N,DAT,PL
 smaoinigh;<smaoin;>;DEL;igh;V,1,PL,PST,IND
 smaoinigh;<smaoinigh;>;INS;íomar;V,1,PL,PST,IND
 beirín;<beirín;>;INS;í;N,DAT,PL
-Fionlannach;<Fionlanna;h>;DEL;c;N,DAT,PL
-Fionlannach;<Fionlannac;h>;INS;ig;N,DAT,PL
+fionlannach;<fionlanna;h>;DEL;c;N,DAT,PL
+fionlannach;<fionlannac;h>;INS;ig;N,DAT,PL
 reilig;<reilig;>;INS;e;N,GEN,SG,DEF
 scréachóg ghormghlas;<scréachó;g ghormghlas>;INS;i;N,GEN,SG,DEF
 scréachóg ghormghlas;<scréachóg; ghormghlas>;INS;e;N,GEN,SG,DEF
@@ -5266,7 +5266,7 @@ scréachóg ghormghlas;<scréachóg g;ormghlas>;DEL;h;N,GEN,SG,DEF
 scréachóg ghormghlas;<scréachóg ghormghla;s>;INS;i;N,GEN,SG,DEF
 scréachóg ghormghlas;<scréachóg ghormghlas;>;INS;e;N,GEN,SG,DEF
 bithóm;<bithó;m>;INS;i;N,GEN,SG
-Danar;<Dana;r>;INS;i;N,DAT,PL,DEF
+danar;<dana;r>;INS;i;N,DAT,PL,DEF
 samhlaigh;<samhl;>;DEL;aigh;V,1,PL,FUT,IND
 samhlaigh;<samhlaigh;>;INS;óimid;V,1,PL,FUT,IND
 mórmhisneach;<m;órmhisneach>;INS;h;N,VOC,SG
@@ -5285,9 +5285,9 @@ ordú;<ord;>;DEL;ú;N,GEN,SG
 ordú;<ordú;>;INS;aithe;N,GEN,SG
 luathaigh;<luatha;h>;DEL;ig;V,3,SG,PST,HAB,IND
 luathaigh;<luathaig;h>;INS;íod;V,3,SG,PST,HAB,IND
-Seoirseach;<S;eoirseach>;INS;h;N,VOC,SG
-Seoirseach;<Seoirs;h>;DEL;eac;N,VOC,SG
-Seoirseach;<Seoirseac;h>;INS;ig;N,VOC,SG
+seoirseach;<s;eoirseach>;INS;h;N,VOC,SG
+seoirseach;<seoirs;h>;DEL;eac;N,VOC,SG
+seoirseach;<seoirseac;h>;INS;ig;N,VOC,SG
 lámhcheardaíocht;<lámhcheardaíocht;>;INS;a;N,GEN,SG
 atíolaic;<atíola;c>;DEL;i;V,2,PL,IMP
 atíolaic;<atíolaic;>;INS;aigí;V,2,PL,IMP
@@ -5305,8 +5305,8 @@ paragraf;<paragra;f>;INS;i;N,VOC,SG
 bloc;<blo;c>;INS;i;N,NOM,PL
 salaigh;<salai;>;DEL;gh;V,3,PL,SBJV,PRS
 salaigh;<salaigh;>;INS;ad;V,3,PL,SBJV,PRS
-Scotach;<Scota;h>;DEL;c;N,VOC,SG
-Scotach;<Scotac;h>;INS;ig;N,VOC,SG
+scotach;<scota;h>;DEL;c;N,VOC,SG
+scotach;<scotac;h>;INS;ig;N,VOC,SG
 aiciseach;<aiciseach;>;INS;a;ADJ,VOC,PL
 maígh;<m;aígh>;INS;h;V,1,SG,PST,IND
 aonchraolachán;<aonchraolachá;n>;INS;i;N,GEN,SG,DEF
@@ -5320,8 +5320,8 @@ buachaill siopa;<b;uachaill siopa>;INS;h;N,VOC,SG
 buachaill siopa;<buachaill s;iopa>;INS;h;N,VOC,SG
 creathán;<c;reathán>;INS;h;N,GEN,SG,DEF
 creathán;<creathá;n>;INS;i;N,GEN,SG,DEF
-Colasaech;<C;olasaech>;INS;h;N,VOC,PL
-Colasaech;<Colasaech;>;INS;a;N,VOC,PL
+colasaech;<c;olasaech>;INS;h;N,VOC,PL
+colasaech;<colasaech;>;INS;a;N,VOC,PL
 abhaill;<abh;l>;DEL;ail;N,GEN,SG
 abhaill;<abhaill;>;INS;a;N,GEN,SG
 sáraigh;<sára;igh>;INS;ím;V,1,PL,PRS,IND
@@ -5331,7 +5331,7 @@ banthiomnóir;<banthiomnó;r>;DEL;i;N,GEN,SG
 banthiomnóir;<banthiomnóir;>;INS;a;N,GEN,SG
 éalaitheach;<éalaith;h>;DEL;eac;N,GEN,SG
 éalaitheach;<éalaitheac;h>;INS;ig;N,GEN,SG
-Iordánach;<Iordánach;>;INS;a;N,VOC,PL
+iordánach;<iordánach;>;INS;a;N,VOC,PL
 sráid;<sráid;>;INS;eanna;N,GEN,PL
 aifir;<aif;r>;DEL;i;V,3,SG,SBJV,PST
 nigh;<ni;>;DEL;gh;V,3,PL,SBJV,PST
@@ -5492,8 +5492,8 @@ gaiscíocht;<gaiscíocht;>;INS;a;N,GEN,SG
 bolcánaíocht;<b;olcánaíocht>;INS;h;N,NOM,SG,DEF
 díthiomsaigh;<díthiomsa;>;DEL;igh;V,AUTO,SBJV,PRS
 díthiomsaigh;<díthiomsaigh;>;INS;ítear;V,AUTO,SBJV,PRS
-Sualannach;<Sualanna;h>;DEL;c;N,GEN,SG
-Sualannach;<Sualannac;h>;INS;ig;N,GEN,SG
+sualannach;<sualanna;h>;DEL;c;N,GEN,SG
+sualannach;<sualannac;h>;INS;ig;N,GEN,SG
 reitine;<reitin;>;DEL;e;N,VOC,PL
 reitine;<reitine;>;INS;í;N,VOC,PL
 miontuairisc;<m;iontuairisc>;INS;h;N,VOC,PL
@@ -5511,8 +5511,8 @@ caidreamhach;<caidreamhac;h>;INS;ig;N,DAT,PL
 cith;<c;th>;DEL;i;N,GEN,SG,DEF
 cith;<ci;th>;INS;hea;N,GEN,SG,DEF
 cith;<cith;>;INS;a;N,GEN,SG,DEF
-Seirbiach;<Seirbia;h>;DEL;c;N,NOM,PL
-Seirbiach;<Seirbiac;h>;INS;ig;N,NOM,PL
+seirbiach;<seirbia;h>;DEL;c;N,NOM,PL
+seirbiach;<seirbiac;h>;INS;ig;N,NOM,PL
 aiceannaigh;<aiceanna;>;DEL;igh;V,AUTO,PST,HAB,IND
 aiceannaigh;<aiceannaigh;>;INS;ítí;V,AUTO,PST,HAB,IND
 cuibhrigh;<c;uibhrigh>;INS;h;V,1,PL,COND
@@ -5579,8 +5579,8 @@ díthiomsaigh;<d;íthiomsaigh>;INS;h;V,1,PL,COND
 díthiomsaigh;<díthiom;saigh>;INS;sóimi;V,1,PL,COND
 díthiomsaigh;<díthioms;>;DEL;aigh;V,1,PL,COND
 mionfhilltín;<mionfhilltín;>;INS;í;N,NOM,PL
-Brasaíleach;<B;rasaíleach>;INS;h;N,VOC,PL
-Brasaíleach;<Brasaíleach;>;INS;a;N,VOC,PL
+brasaíleach;<b;rasaíleach>;INS;h;N,VOC,PL
+brasaíleach;<brasaíleach;>;INS;a;N,VOC,PL
 reilig;<reilig;>;INS;í;N,VOC,PL
 pailnigh;<p;ailnigh>;INS;h;V,3,PL,COND
 pailnigh;<pailn;igh>;INS;eo;V,3,PL,COND
@@ -5617,8 +5617,8 @@ néarghás;<néarghá;s>;INS;i;N,NOM,PL
 éigeas;<éigeas;>;INS;e;N,DAT,PL
 aerlínéar;<aerlíné;r>;DEL;a;N,DAT,PL
 aerlínéar;<aerlínéa;r>;INS;i;N,DAT,PL
-Learphollach;<Learpholla;h>;DEL;c;N,GEN,SG,DEF
-Learphollach;<Learphollac;h>;INS;ig;N,GEN,SG,DEF
+learphollach;<learpholla;h>;DEL;c;N,GEN,SG,DEF
+learphollach;<learphollac;h>;INS;ig;N,GEN,SG,DEF
 mí-oiriúnacht;<m;í-oiriúnacht>;INS;h;N,VOC,SG
 geac;<g;eac>;INS;h;N,GEN,SG,DEF
 scolaí;<scola;>;DEL;í;N,NOM,PL
@@ -5626,7 +5626,7 @@ scolaí;<scolaí;>;INS;ithe;N,NOM,PL
 barántas;<baránta;s>;INS;i;N,GEN,SG
 draíodóir;<d;raíodóir>;INS;h;N,VOC,SG
 foghlaim;<f;oghlaim>;INS;h;V,1,SG,PST,IND
-Uachtarán;<Uachtará;n>;INS;i;N,NOM,PL
+uachtarán;<uachtará;n>;INS;i;N,NOM,PL
 buaigh;<buai;>;DEL;gh;V,AUTO,SBJV,PST
 buaigh;<buaigh;>;INS;tí;V,AUTO,SBJV,PST
 dordghuth;<d;ordghuth>;INS;h;N,VOC,PL
@@ -5779,8 +5779,8 @@ nimhitheoir;<nimhitheoir;>;INS;í;N,GEN,PL
 ainrialtacht;<ainrialtacht;>;INS;a;N,GEN,SG
 foshuíomh;<foshuíomh;>;INS;anna;N,DAT,PL
 mion-mhórphianó;<mion-mhórphianó;>;INS;nna;N,NOM,PL,DEF
-Pratastúnach;<Pratastúna;>;DEL;ch;ADJ,GEN,SG,FEM
-Pratastúnach;<Pratastúnach;>;INS;í;ADJ,GEN,SG,FEM
+pratastúnach;<pratastúna;>;DEL;ch;ADJ,GEN,SG,FEM
+pratastúnach;<pratastúnach;>;INS;í;ADJ,GEN,SG,FEM
 habal;<haba;l>;INS;i;N,DAT,PL
 fág;<f;ág>;INS;h;V,1,SG,PST,HAB,IND
 fág;<fág;>;INS;ainn;V,1,SG,PST,HAB,IND
@@ -5922,10 +5922,10 @@ gnú;<gnú;>;INS;nna;N,GEN,PL
 barántaigh;<baránta;>;DEL;igh;V,2:SG,SBJV,PRS
 dí-bhéimnigh;<dí-bhéimn;>;DEL;igh;V,AUTO,IMP
 dí-bhéimnigh;<dí-bhéimnigh;>;INS;ítear;V,AUTO,IMP
-Bavárach;<Bavára;h>;DEL;c;N,NOM,PL,DEF
-Bavárach;<Bavárac;h>;INS;ig;N,NOM,PL,DEF
-Cirgeasach;<Cirgeasa;h>;DEL;c;N,GEN,SG
-Cirgeasach;<Cirgeasac;h>;INS;ig;N,GEN,SG
+bavárach;<bavára;h>;DEL;c;N,NOM,PL,DEF
+bavárach;<bavárac;h>;INS;ig;N,NOM,PL,DEF
+cirgeasach;<cirgeasa;h>;DEL;c;N,GEN,SG
+cirgeasach;<cirgeasac;h>;INS;ig;N,GEN,SG
 bainistíocht;<b;ainistíocht>;INS;h;N,NOM,SG,DEF
 eipeagraf;<eipeagraf;>;INS;anna;N,GEN,PL
 cúpla;<c;úpla>;INS;h;N,GEN,SG,DEF
@@ -5955,7 +5955,7 @@ macra-fótagrafaíocht;<m;acra-fótagrafaíocht>;INS;h;N,VOC,SG
 butha;<buth;a>;INS;ann;N,GEN,PL
 íostarraingt;<íostarraingt;>;INS;í;N,NOM,PL
 oifig;<oifig;>;INS;í;N,NOM,PL,DEF
-Gaelaigh;<Gaela;>;DEL;igh;V,2:SG,SBJV,PRS
+gaelaigh;<gaela;>;DEL;igh;V,2:SG,SBJV,PRS
 foscríobh;<f;oscríobh>;INS;h;V,REL,PST,IND
 donnaigh;<donn;h>;DEL;aig;V,2,PL,FUT,IND
 teicnic;<teicnic;>;INS;í;N,NOM,PL
@@ -5982,8 +5982,8 @@ reachtaigh;<reachtaigh;>;INS;ídís;V,3,PL,IMP
 vallait;<vallait;>;INS;e;N,NOM,SG,DEF
 neosóm;<neosó;m>;INS;i;N,VOC,SG
 catóid;<catóid;>;INS;í;N,NOM,PL
-Eoráiseach;<Eoráis;h>;DEL;eac;N,DAT,PL,DEF
-Eoráiseach;<Eoráiseac;h>;INS;ig;N,DAT,PL,DEF
+eoráiseach;<eoráis;h>;DEL;eac;N,DAT,PL,DEF
+eoráiseach;<eoráiseac;h>;INS;ig;N,DAT,PL,DEF
 céadfaigh;<céadfa;>;DEL;igh;V,2:SG,SBJV,PST
 céadfaigh;<céadfaigh;>;INS;íteá;V,2:SG,SBJV,PST
 talmhaigh;<talm;h>;DEL;haig;V,1,PL,FUT,IND
@@ -5992,7 +5992,7 @@ meánchrios;<m;eánchrios>;INS;h;N,VOC,PL
 meánchrios;<meánchrios;>;INS;anna;N,VOC,PL
 idirleath;<idirleath;>;INS;ann;V,REL,PRS,IND
 mart;<ma;rt>;INS;i;N,NOM,PL
-loch;<;loch>;INS;Singu;N,NOM,SG
+loch;<;loch>;INS;singu;N,NOM,SG
 loch;<l;>;DEL;och;N,NOM,SG
 loch;<loch;>;INS;ar;N,NOM,SG
 nóta;<nóta;>;INS;í;N,DAT,PL
@@ -6034,9 +6034,9 @@ catastróf;<catastróf;>;INS;atastróife;N,NOM,SG
 clois;<c;lois>;INS;hua;V,3,SG,PST,IND
 clois;<cl;s>;DEL;oi;V,3,SG,PST,IND
 clois;<clois;>;INS;é;V,3,SG,PST,IND
-Slóvacach;<S;lóvacach>;INS;h;N,VOC,SG
-Slóvacach;<Slóvaca;h>;DEL;c;N,VOC,SG
-Slóvacach;<Slóvacac;h>;INS;ig;N,VOC,SG
+slóvacach;<s;lóvacach>;INS;h;N,VOC,SG
+slóvacach;<slóvaca;h>;DEL;c;N,VOC,SG
+slóvacach;<slóvacac;h>;INS;ig;N,VOC,SG
 ligh;<l;>;DEL;igh;V,1,SG,IMP
 ligh;<ligh;>;INS;ím;V,1,SG,IMP
 athshonadóir;<athshonadóir;>;INS;í;N,NOM,PL,DEF
@@ -6098,9 +6098,9 @@ mair;<m;air>;INS;h;V,3,SG,PST,IND
 scíth;<scíth;>;INS;eanna;N,DAT,PL
 creim;<creim;>;INS;tear;V,AUTO,SBJV,PRS
 oirtheoireacht;<oirtheoireacht;>;INS;a;N,GEN,SG,DEF
-Bantúch;<B;antúch>;INS;h;N,GEN,SG,DEF
-Bantúch;<Bantú;h>;DEL;c;N,GEN,SG,DEF
-Bantúch;<Bantúc;h>;INS;ig;N,GEN,SG,DEF
+bantúch;<b;antúch>;INS;h;N,GEN,SG,DEF
+bantúch;<bantú;h>;DEL;c;N,GEN,SG,DEF
+bantúch;<bantúc;h>;INS;ig;N,GEN,SG,DEF
 samhail;<sam;hail>;INS;hlac;N,DAT,PL
 samhail;<samha;>;DEL;il;N,DAT,PL
 tíor;<tíor;>;INS;aimid;V,1,PL,PRS,IND
@@ -6143,7 +6143,7 @@ séid;<séid;>;INS;eadh;V,AUTO,PST,IND
 ionfhabhtaigh;<ionfhabhta;igh>;INS;ím;V,1,PL,PST,HAB,IND
 ionfhabhtaigh;<ionfhabhtai;>;DEL;gh;V,1,PL,PST,HAB,IND
 ionfhabhtaigh;<ionfhabhtaigh;>;INS;s;V,1,PL,PST,HAB,IND
-Scot;<Sco;t>;INS;i;N,GEN,SG,DEF
+scot;<sco;t>;INS;i;N,GEN,SG,DEF
 gónaiméadracht;<gónaiméadracht;>;INS;a;N,GEN,SG
 atáthaigh;<atátha;>;DEL;igh;V,2,PL,IMP
 atáthaigh;<atáthaigh;>;INS;ígí;V,2,PL,IMP
@@ -6210,8 +6210,8 @@ ceadaigh;<c;eadaigh>;INS;h;V,REL,FUT,IND
 ceadaigh;<cea;daigh>;INS;dói;V,REL,FUT,IND
 ceadaigh;<cead;h>;DEL;aig;V,REL,FUT,IND
 claonmhéadar;<claonmhéada;r>;INS;i;N,NOM,PL,DEF
-Macabaech;<Macabae;h>;DEL;c;N,NOM,PL
-Macabaech;<Macabaec;h>;INS;ig;N,NOM,PL
+macabaech;<macabae;h>;DEL;c;N,NOM,PL
+macabaech;<macabaec;h>;INS;ig;N,NOM,PL
 córam;<c;óram>;INS;h;N,VOC,PL
 córam;<córam;>;INS;a;N,VOC,PL
 fostacht;<f;ostacht>;INS;h;N,VOC,SG
@@ -6248,8 +6248,8 @@ dlúthaigh;<dlúthaigh;>;INS;ítear;V,AUTO,PRS,IND
 fánach;<fána;>;DEL;ch;ADJ,SPRL
 fánach;<fánach;>;INS;í;ADJ,SPRL
 réadaigh;<réada;>;DEL;igh;V,3,SG,SBJV,PRS
-Gaelaigh;<Gaela;>;DEL;igh;V,3,PL,FUT,IND
-Gaelaigh;<Gaelaigh;>;INS;d;V,3,PL,FUT,IND
+gaelaigh;<gaela;>;DEL;igh;V,3,PL,FUT,IND
+gaelaigh;<gaelaigh;>;INS;d;V,3,PL,FUT,IND
 can;<c;an>;INS;h;V,1,PL,PST,IND
 can;<can;>;INS;amar;V,1,PL,PST,IND
 cónaigh;<cóna;>;DEL;igh;V,3,SG,SBJV,PRS
@@ -6316,9 +6316,9 @@ leasaigh;<leas;>;DEL;aigh;V,1,SG,COND
 leasaigh;<leasaigh;>;INS;óinn;V,1,SG,COND
 folíon;<folío;n>;INS;nain;V,1,SG,SBJV,PST
 lao;<lao;>;INS;nna;N,VOC,PL
-Beidiúnach;<B;eidiúnach>;INS;h;N,VOC,SG
-Beidiúnach;<Beidiúna;h>;DEL;c;N,VOC,SG
-Beidiúnach;<Beidiúnac;h>;INS;ig;N,VOC,SG
+beidiúnach;<b;eidiúnach>;INS;h;N,VOC,SG
+beidiúnach;<beidiúna;h>;DEL;c;N,VOC,SG
+beidiúnach;<beidiúnac;h>;INS;ig;N,VOC,SG
 dein;<dein;>;INS;tear;V,AUTO,SBJV,PRS
 aicmigh;<aicm;>;DEL;igh;V,2,SG,PST,HAB,IND
 aicmigh;<aicmigh;>;INS;íteá;V,2,SG,PST,HAB,IND
@@ -6365,8 +6365,8 @@ beirigh;<beiri;>;DEL;gh;V,1,PL,FUT,IND
 beirigh;<beirigh;>;INS;d;V,1,PL,FUT,IND
 pionósaigh;<pionósai;h>;DEL;g;V,2,PL,PRS,IND
 pionósaigh;<pionósaig;h>;INS;b;V,2,PL,PRS,IND
-Bulgárach;<Bulgára;h>;DEL;c;N,NOM,PL
-Bulgárach;<Bulgárac;h>;INS;ig;N,NOM,PL
+bulgárach;<bulgára;h>;DEL;c;N,NOM,PL
+bulgárach;<bulgárac;h>;INS;ig;N,NOM,PL
 suim;<suim;>;INS;eanna;N,GEN,PL
 mórbhealach;<mórbheala;h>;DEL;c;N,GEN,SG
 mórbhealach;<mórbhealac;h>;INS;ig;N,GEN,SG
@@ -6386,7 +6386,7 @@ asna;<asn;a>;INS;ach;N,NOM,PL
 cailín;<cailín;>;INS;í;N,DAT,PL
 caiséad;<caisé;d>;DEL;a;N,GEN,SG
 caiséad;<caiséa;d>;INS;i;N,GEN,SG
-Béarlóir;<Béarlóir;>;INS;í;N,DAT,PL,DEF
+béarlóir;<béarlóir;>;INS;í;N,DAT,PL,DEF
 plánchlár;<plánchlá;r>;INS;i;N,DAT,PL,DEF
 atúirnéir;<atúirnéir;>;INS;í;N,GEN,PL
 comhdhlúthaigh;<c;omhdhlúthaigh>;INS;h;V,3,SG,PST,IND
@@ -6403,11 +6403,11 @@ iolraigh;<iolraigh;>;INS;íteá;V,2:SG,SBJV,PST
 lobh;<lobh;>;INS;ainn;V,1,SG,PST,HAB,IND
 oibiachtúlaigh;<oibiachtúl;h>;DEL;aig;V,3,SG,FUT,IND
 oibiachtúlaigh;<oibiachtúlaig;h>;INS;óid;V,3,SG,FUT,IND
-Siombábach;<Siombába;h>;DEL;c;N,GEN,SG,DEF
-Siombábach;<Siombábac;h>;INS;ig;N,GEN,SG,DEF
+siombábach;<siombába;h>;DEL;c;N,GEN,SG,DEF
+siombábach;<siombábac;h>;INS;ig;N,GEN,SG,DEF
 bunuimhir;<b;unuimhir>;INS;h;N,VOC,SG
-Ceanadach;<Ceanada;h>;DEL;c;N,GEN,SG
-Ceanadach;<Ceanadac;h>;INS;ig;N,GEN,SG
+ceanadach;<ceanada;h>;DEL;c;N,GEN,SG
+ceanadach;<ceanadac;h>;INS;ig;N,GEN,SG
 ardeaspag;<ardeaspa;g>;INS;i;N,GEN,SG
 tuiseal;<tuis;l>;DEL;ea;N,NOM,PL,DEF
 tuiseal;<tuisea;l>;INS;i;N,NOM,PL,DEF
@@ -6428,8 +6428,8 @@ bailíochtaigh;<bailíochtai;>;DEL;gh;V,1,PL,IMP
 bailíochtaigh;<bailíochtaigh;>;INS;s;V,1,PL,IMP
 cruithneacht;<c;ruithneacht>;INS;h;N,VOC,SG
 impireacht;<impireacht;>;INS;aí;N,DAT,PL
-Astrálach;<Astrála;h>;DEL;c;N,DAT,PL
-Astrálach;<Astrálac;h>;INS;ig;N,DAT,PL
+astrálach;<astrála;h>;DEL;c;N,DAT,PL
+astrálach;<astrálac;h>;INS;ig;N,DAT,PL
 óglach;<ógla;h>;DEL;c;N,GEN,SG
 óglach;<óglac;h>;INS;ig;N,GEN,SG
 dí-adharc;<d;í-adharc>;INS;h;V,1,PL,PST,HAB,IND
@@ -6450,8 +6450,8 @@ beithíoch;<beithí;h>;DEL;oc;N,GEN,SG
 beithíoch;<beithíoc;h>;INS;g;N,GEN,SG
 tóg;<t;óg>;INS;h;V,REL,PST,IND
 baneitleoir;<baneitleoir;>;INS;í;N,GEN,PL
-Uigingeach;<Uigin;geach>;INS;gi;N,GEN,SG
-Uigingeach;<Uiging;h>;DEL;eac;N,GEN,SG
+uigingeach;<uigin;geach>;INS;gi;N,GEN,SG
+uigingeach;<uiging;h>;DEL;eac;N,GEN,SG
 baist;<baist;>;INS;imid;V,1,PL,SBJV,PRS
 maraigh;<m;araigh>;INS;h;V,REL,PST,HAB,IND
 maraigh;<mara;h>;DEL;ig;V,REL,PST,HAB,IND
@@ -6470,8 +6470,8 @@ cluich;<cluich;>;INS;imid;V,1,PL,PRS,IND
 naomhaigh;<naomha;h>;DEL;ig;V,3,SG,IMP
 naomhaigh;<naomhaig;h>;INS;íod;V,3,SG,IMP
 fótaláis;<fótaláis;>;INS;í;N,DAT,PL
-Gael;<G;ael>;INS;h;N,VOC,SG
-Gael;<Gae;l>;INS;i;N,VOC,SG
+gael;<g;ael>;INS;h;N,VOC,SG
+gael;<gae;l>;INS;i;N,VOC,SG
 cuirtín;<cuirtín;>;INS;í;N,DAT,PL,DEF
 canáil;<c;anáil>;INS;h;N,VOC,SG
 dátaigh;<d;átaigh>;INS;h;V,1,PL,COND
@@ -6591,7 +6591,7 @@ fótailéarscáil;<fótailéarscáil;>;INS;eanna;N,GEN,PL
 fadhb;<fadhb;>;INS;anna;N,DAT,PL
 fofhostaigh;<fofhosta;h>;DEL;ig;V,3,SG,SBJV,PST
 fofhostaigh;<fofhostaig;h>;INS;íod;V,3,SG,SBJV,PST
-Amasóin;<Amasóin;>;INS;e;N,GEN,SG
+amasóin;<amasóin;>;INS;e;N,GEN,SG
 eachtarshuigh;<eachtarshui;h>;DEL;g;V,2,PL,PST,HAB,IND
 eachtarshuigh;<eachtarshuig;h>;INS;b;V,2,PL,PST,HAB,IND
 físcheamara;<f;íscheamara>;INS;h;N,VOC,SG
@@ -6622,10 +6622,10 @@ púdaraigh;<púdar;>;DEL;aigh;V,V.MSDR
 púdaraigh;<púdaraigh;>;INS;ú;V,V.MSDR
 aigéad;<aigé;d>;DEL;a;N,VOC,SG
 aigéad;<aigéa;d>;INS;i;N,VOC,SG
-grús Cúbach;<grú;s Cúbach>;INS;i;N,GEN,SG
-grús Cúbach;<grús C;úbach>;INS;h;N,GEN,SG
-grús Cúbach;<grús Cúba;h>;DEL;c;N,GEN,SG
-grús Cúbach;<grús Cúbac;h>;INS;ig;N,GEN,SG
+grús cúbach;<grú;s cúbach>;INS;i;N,GEN,SG
+grús cúbach;<grús c;úbach>;INS;h;N,GEN,SG
+grús cúbach;<grús cúba;h>;DEL;c;N,GEN,SG
+grús cúbach;<grús cúbac;h>;INS;ig;N,GEN,SG
 duán;<d;uán>;INS;h;N,VOC,PL
 duán;<duán;>;INS;a;N,VOC,PL
 ollúnacht;<ollúnacht;>;INS;aí;N,GEN,PL
@@ -6641,8 +6641,8 @@ aonachas;<aonacha;s>;INS;i;N,GEN,SG
 siorc rua;<s;iorc rua>;INS;h;N,VOC,SG
 glór;<g;lór>;INS;h;N,VOC,SG
 glór;<gló;r>;INS;i;N,VOC,SG
-Marxach;<Marxa;h>;DEL;c;N,NOM,PL
-Marxach;<Marxac;h>;INS;ig;N,NOM,PL
+marxach;<marxa;h>;DEL;c;N,NOM,PL
+marxach;<marxac;h>;INS;ig;N,NOM,PL
 fo-shirriam;<fo-shirriam;>;INS;aí;N,NOM,PL
 adharcáil;<adharcá;l>;DEL;i;V,REL,PRS,IND
 adharcáil;<adharcáil;>;INS;ann;V,REL,PRS,IND
@@ -6816,9 +6816,9 @@ tobac;<t;obac>;INS;h;N,VOC,SG
 sonas;<sona;s>;INS;i;N,GEN,SG,DEF
 strufal;<strufa;l>;INS;i;N,GEN,SG
 conraigh;<c;onraigh>;INS;h;V,REL,PST,IND
-Gaelaigh;<G;aelaigh>;INS;h;V,REL,PRS,IND
-Gaelaigh;<Gaela;>;DEL;igh;V,REL,PRS,IND
-Gaelaigh;<Gaelaigh;>;INS;íonn;V,REL,PRS,IND
+gaelaigh;<g;aelaigh>;INS;h;V,REL,PRS,IND
+gaelaigh;<gaela;>;DEL;igh;V,REL,PRS,IND
+gaelaigh;<gaelaigh;>;INS;íonn;V,REL,PRS,IND
 gásfháinne;<g;ásfháinne>;INS;h;N,GEN,SG,DEF
 baibín;<baibín;>;INS;í;N,GEN,PL
 bruachbhaile;<bruachbhail;e>;INS;t;N,NOM,PL,DEF
@@ -7047,8 +7047,8 @@ aifir;<aif;r>;DEL;i;V,1,PL,PST,HAB,IND
 aifir;<aifir;>;INS;ímis;V,1,PL,PST,HAB,IND
 buailtíneach;<buailtín;h>;DEL;eac;N,DAT,PL
 buailtíneach;<buailtíneac;h>;INS;ig;N,DAT,PL
-Marxach;<Marxa;h>;DEL;c;N,DAT,PL,DEF
-Marxach;<Marxac;h>;INS;ig;N,DAT,PL,DEF
+marxach;<marxa;h>;DEL;c;N,DAT,PL,DEF
+marxach;<marxac;h>;INS;ig;N,DAT,PL,DEF
 dáir;<d;áir>;INS;h;N,VOC,SG
 fachtóirigh;<f;achtóirigh>;INS;h;V,2,PL,PST,HAB,IND
 fachtóirigh;<fachtóiri;h>;DEL;g;V,2,PL,PST,HAB,IND
@@ -7058,13 +7058,13 @@ creid;<creid;>;INS;eadh;V,REL,PST,HAB,IND
 suirbhé;<suirbhé;>;INS;anna;N,NOM,PL,DEF
 púdaraigh;<púdar;h>;DEL;aig;V,2,SG,FUT,IND
 púdaraigh;<púdaraig;h>;INS;óid;V,2,SG,FUT,IND
-Teasalónach;<T;easalónach>;INS;h;N,VOC,PL
-Teasalónach;<Teasalónach;>;INS;a;N,VOC,PL
+teasalónach;<t;easalónach>;INS;h;N,VOC,PL
+teasalónach;<teasalónach;>;INS;a;N,VOC,PL
 eagnaigh;<eagna;igh>;INS;ím;V,1,PL,SBJV,PRS
 eagnaigh;<eagnai;>;DEL;gh;V,1,PL,SBJV,PRS
 eagnaigh;<eagnaigh;>;INS;d;V,1,PL,SBJV,PRS
-Namabach;<Namaba;h>;DEL;c;N,NOM,PL,DEF
-Namabach;<Namabac;h>;INS;ig;N,NOM,PL,DEF
+namabach;<namaba;h>;DEL;c;N,NOM,PL,DEF
+namabach;<namabac;h>;INS;ig;N,NOM,PL,DEF
 heitreatrófach;<heitreatrófa;h>;DEL;c;N,DAT,PL,DEF
 heitreatrófach;<heitreatrófac;h>;INS;ig;N,DAT,PL,DEF
 príomh-amhábhar;<príomh-amhábha;r>;INS;i;N,GEN,SG
@@ -7110,8 +7110,8 @@ atarraing;<atarraing;>;INS;eofar;V,AUTO,FUT,IND
 sútra;<sútra;>;INS;í;N,DAT,PL,DEF
 lármhá;<lármhá;>;INS;nna;N,NOM,PL,DEF
 cainníocht;<c;ainníocht>;INS;h;N,VOC,SG
-Corantach;<Coranta;h>;DEL;c;N,DAT,PL,DEF
-Corantach;<Corantac;h>;INS;ig;N,DAT,PL,DEF
+corantach;<coranta;h>;DEL;c;N,DAT,PL,DEF
+corantach;<corantac;h>;INS;ig;N,DAT,PL,DEF
 friotaigh;<friota;igh>;INS;ím;V,1,PL,SBJV,PRS
 friotaigh;<friotai;>;DEL;gh;V,1,PL,SBJV,PRS
 friotaigh;<friotaigh;>;INS;d;V,1,PL,SBJV,PRS
@@ -7280,13 +7280,13 @@ línitheoir;<línitheo;r>;DEL;i;N,GEN,SG
 línitheoir;<línitheoir;>;INS;a;N,GEN,SG
 fisiceoir;<fisiceoir;>;INS;í;N,NOM,PL
 céadfaigh;<c;éadfaigh>;INS;h;V,2,SG,PST,IND
-Hondúrach;<Hondúra;h>;DEL;c;N,VOC,SG
-Hondúrach;<Hondúrac;h>;INS;ig;N,VOC,SG
+hondúrach;<hondúra;h>;DEL;c;N,VOC,SG
+hondúrach;<hondúrac;h>;INS;ig;N,VOC,SG
 suanbhruith;<suanbhruith;>;INS;im;V,1,SG,PRS,IND
 crogall;<croga;ll>;INS;i;N,NOM,PL,DEF
 aigéaneolaí;<aigéaneola;>;DEL;í;N,DAT,PL,DEF
 aigéaneolaí;<aigéaneolaí;>;INS;ithe;N,DAT,PL,DEF
-Céadaoin;<C;éadaoin>;INS;h;N,VOC,SG
+céadaoin;<c;éadaoin>;INS;h;N,VOC,SG
 col;<col;>;INS;anna;N,DAT,PL
 caith;<c;aith>;INS;h;V,3,SG,COND
 agaistéir;<agaisté;r>;DEL;i;N,GEN,SG
@@ -7295,7 +7295,7 @@ agaistéir;<agaistéir;>;INS;a;N,GEN,SG
 potaireacht;<potaireacht;>;INS;a;N,GEN,SG
 cearc;<ce;>;DEL;arc;N,GEN,SG,DEF
 trasnasc;<trasna;sc>;INS;i;N,GEN,SG,DEF
-X-chrómasóm;<X-chrómasó;m>;INS;i;N,GEN,SG,DEF
+x-chrómasóm;<x-chrómasó;m>;INS;i;N,GEN,SG,DEF
 babhla;<babhla;>;INS;í;N,GEN,PL
 aerbhac;<aerbha;c>;INS;i;N,GEN,SG
 tráthchlár;<t;ráthchlár>;INS;h;N,VOC,PL
@@ -7307,7 +7307,7 @@ limistéar;<limistéa;r>;INS;i;N,NOM,PL,DEF
 iomair;<iom;r>;DEL;ai;V,1,SG,SBJV,PST
 iomair;<iomair;>;INS;aínn;V,1,SG,SBJV,PST
 closaonad;<closaona;d>;INS;i;N,NOM,PL,DEF
-Brúnghluaisne;<B;rúnghluaisne>;INS;h;N,VOC,SG
+brúnghluaisne;<b;rúnghluaisne>;INS;h;N,VOC,SG
 réadaigh;<réada;>;DEL;igh;V,1,PL,PST,IND
 réadaigh;<réadaigh;>;INS;íomar;V,1,PL,PST,IND
 heitridhéadach;<heitridhéada;h>;DEL;c;N,VOC,SG
@@ -7345,8 +7345,8 @@ ceangail;<ceang;l>;DEL;ai;V,3,PL,IMP
 ceangail;<ceangail;>;INS;aídís;V,3,PL,IMP
 lón;<lón;>;INS;ta;N,NOM,PL,DEF
 foghailbhrabúis;<foghailbhrabú;s>;DEL;i;N,NOM,SG,DEF
-Filipíneach;<Filipín;h>;DEL;eac;N,DAT,PL,DEF
-Filipíneach;<Filipíneac;h>;INS;ig;N,DAT,PL,DEF
+filipíneach;<filipín;h>;DEL;eac;N,DAT,PL,DEF
+filipíneach;<filipíneac;h>;INS;ig;N,DAT,PL,DEF
 ollchathair;<ollchath;r>;DEL;ai;N,GEN,SG,DEF
 ollchathair;<ollchathair;>;INS;ach;N,GEN,SG,DEF
 consairtín;<consairtín;>;INS;í;N,NOM,PL
@@ -7449,7 +7449,7 @@ breithlá;<breithl;>;DEL;á;N,DAT,PL,DEF
 breithlá;<breithlá;>;INS;aethanta;N,DAT,PL,DEF
 sléibhín;<sléibhín;>;INS;í;N,GEN,PL
 orgánach;<;rgánach>;DEL;o;ADJ,CMPR
-orgánach;<o;rgánach>;INS;Singula;ADJ,CMPR
+orgánach;<o;rgánach>;INS;singula;ADJ,CMPR
 orgánach;<or;>;DEL;gánach;ADJ,CMPR
 saorstát;<saorstá;t>;INS;i;N,NOM,PL
 eiriceach;<eiri;ch>;DEL;cea;N,GEN,SG,DEF
@@ -7459,8 +7459,8 @@ ansmachtaigh;<ansmachtaigh;>;INS;ídís;V,3,PL,PST,HAB,IND
 goiligh;<goil;igh>;INS;ím;V,1,PL,IMP
 goiligh;<goili;>;DEL;gh;V,1,PL,IMP
 goiligh;<goiligh;>;INS;s;V,1,PL,IMP
-Afganastánach;<Afganastána;h>;DEL;c;N,NOM,PL,DEF
-Afganastánach;<Afganastánac;h>;INS;ig;N,NOM,PL,DEF
+afganastánach;<afganastána;h>;DEL;c;N,NOM,PL,DEF
+afganastánach;<afganastánac;h>;INS;ig;N,NOM,PL,DEF
 trasfhoirmigh;<t;rasfhoirmigh>;INS;h;V,2,PL,PST,HAB,IND
 trasfhoirmigh;<trasfhoirmi;h>;DEL;g;V,2,PL,PST,HAB,IND
 trasfhoirmigh;<trasfhoirmig;h>;INS;b;V,2,PL,PST,HAB,IND
@@ -7545,8 +7545,8 @@ calraiméadracht;<calraiméadracht;>;INS;a;N,GEN,SG,DEF
 luigh;<lu;>;DEL;igh;V,3,PL,IMP
 luigh;<luigh;>;INS;ídís;V,3,PL,IMP
 coirm;<coirm;>;INS;eacha;N,DAT,PL
-Balcánach;<Balcána;h>;DEL;c;N,NOM,PL,DEF
-Balcánach;<Balcánac;h>;INS;ig;N,NOM,PL,DEF
+balcánach;<balcána;h>;DEL;c;N,NOM,PL,DEF
+balcánach;<balcánac;h>;INS;ig;N,NOM,PL,DEF
 fo-rud;<fo-rud;>;INS;aí;N,DAT,PL
 fuar;<f;uar>;INS;h;ADJ,DAT,SG,FEM
 oide;<oid;>;DEL;e;N,DAT,PL,DEF
@@ -7591,9 +7591,9 @@ gníomhas;<gníomha;s>;INS;i;N,NOM,PL,DEF
 oir;<oir;>;INS;the;V,V.PTCP,PST
 banchléireach;<banchléir;h>;DEL;eac;N,NOM,PL,DEF
 banchléireach;<banchléireac;h>;INS;ig;N,NOM,PL,DEF
-Meiriceánach;<M;eiriceánach>;INS;h;N,VOC,SG
-Meiriceánach;<Meiriceána;h>;DEL;c;N,VOC,SG
-Meiriceánach;<Meiriceánac;h>;INS;ig;N,VOC,SG
+meiriceánach;<m;eiriceánach>;INS;h;N,VOC,SG
+meiriceánach;<meiriceána;h>;DEL;c;N,VOC,SG
+meiriceánach;<meiriceánac;h>;INS;ig;N,VOC,SG
 cáilíocht;<c;áilíocht>;INS;h;N,VOC,SG
 pol;<p;ol>;INS;h;N,GEN,SG,DEF
 pol;<po;l>;INS;i;N,GEN,SG,DEF
@@ -7729,10 +7729,10 @@ mórdháil;<mórdháil;>;INS;aí;N,DAT,PL
 gnaíúil;<gnaíú;l>;DEL;i;ADJ,DAT,PL
 gnaíúil;<gnaíúil;>;INS;a;ADJ,DAT,PL
 bronn;<bronn;>;INS;aidís;V,3,PL,IMP
-Botsuánach;<Botsuána;h>;DEL;c;N,DAT,PL
-Botsuánach;<Botsuánac;h>;INS;ig;N,DAT,PL
-Ceanadach;<Ceanada;h>;DEL;c;N,DAT,PL
-Ceanadach;<Ceanadac;h>;INS;ig;N,DAT,PL
+botsuánach;<botsuána;h>;DEL;c;N,DAT,PL
+botsuánach;<botsuánac;h>;INS;ig;N,DAT,PL
+ceanadach;<ceanada;h>;DEL;c;N,DAT,PL
+ceanadach;<ceanadac;h>;INS;ig;N,DAT,PL
 cantaireacht;<cantaireacht;>;INS;a;N,GEN,SG
 máistir;<m;áistir>;INS;h;N,GEN,SG,DEF
 cóirigh;<cóir;>;DEL;igh;V,2:SG,SBJV,PRS
@@ -7834,10 +7834,10 @@ conraigh;<conra;>;DEL;igh;V,AUTO,PRS,IND
 conraigh;<conraigh;>;INS;ítear;V,AUTO,PRS,IND
 abach;<aba;h>;DEL;c;N,GEN,SG
 abach;<abac;h>;INS;ig;N,GEN,SG
-grús Ceanadach móinfhéir;<grú;s Ceanadach móinfhéir>;INS;i;N,DAT,PL
-grús Ceanadach móinfhéir;<grús C;eanadach móinfhéir>;INS;h;N,DAT,PL
-grús Ceanadach móinfhéir;<grús Ceanadach; móinfhéir>;INS;a;N,DAT,PL
-grús Ceanadach móinfhéir;<grús Ceanadach m;óinfhéir>;INS;h;N,DAT,PL
+grús ceanadach móinfhéir;<grú;s ceanadach móinfhéir>;INS;i;N,DAT,PL
+grús ceanadach móinfhéir;<grús c;eanadach móinfhéir>;INS;h;N,DAT,PL
+grús ceanadach móinfhéir;<grús ceanadach; móinfhéir>;INS;a;N,DAT,PL
+grús ceanadach móinfhéir;<grús ceanadach m;óinfhéir>;INS;h;N,DAT,PL
 dímhiailinigh;<d;ímhiailinigh>;INS;h;V,3,SG,PST,HAB,IND
 dímhiailinigh;<dímhiailin;h>;DEL;ig;V,3,SG,PST,HAB,IND
 dímhiailinigh;<dímhiailinig;h>;INS;íod;V,3,SG,PST,HAB,IND
@@ -7868,9 +7868,9 @@ cloigeann;<cloigea;nn>;INS;i;N,GEN,SG,DEF
 fuaimfhoclaíocht;<f;uaimfhoclaíocht>;INS;h;N,NOM,SG,DEF
 uamhan;<uamh;n>;DEL;a;N,DAT,PL,DEF
 uamhan;<uamhan;>;INS;a;N,DAT,PL,DEF
-Macadónach;<M;acadónach>;INS;h;N,VOC,SG
-Macadónach;<Macadóna;h>;DEL;c;N,VOC,SG
-Macadónach;<Macadónac;h>;INS;ig;N,VOC,SG
+macadónach;<m;acadónach>;INS;h;N,VOC,SG
+macadónach;<macadóna;h>;DEL;c;N,VOC,SG
+macadónach;<macadónac;h>;INS;ig;N,VOC,SG
 reachtaigh;<reachtai;h>;DEL;g;V,V.PTCP,PST
 reachtaigh;<reachtaig;h>;INS;t;V,V.PTCP,PST
 reachtaigh;<reachtaigh;>;INS;e;V,V.PTCP,PST
@@ -7903,7 +7903,7 @@ cladh;<cla;dh>;INS;i;N,GEN,SG
 bolta;<b;olta>;INS;h;N,VOC,PL
 bolta;<bolta;>;INS;í;N,VOC,PL
 tuama;<;a>;DEL;tuam;N,NOM,SG
-tuama;<tuam;a>;INS;Singul;N,NOM,SG
+tuama;<tuam;a>;INS;singul;N,NOM,SG
 tuama;<tuama;>;INS;r;N,NOM,SG
 teastaigh;<t;eastaigh>;INS;h;V,3,PL,COND
 teastaigh;<teast;>;DEL;aigh;V,3,PL,COND
@@ -7918,8 +7918,8 @@ dé-mhonarcacht;<dé-mhonarcacht;>;INS;aí;N,DAT,PL,DEF
 teilg;<t;eilg>;INS;h;V,3,SG,PST,HAB,IND
 príomhtháirge;<príomhtháirg;>;DEL;e;N,NOM,PL
 príomhtháirge;<príomhtháirge;>;INS;í;N,NOM,PL
-Angla-Shacsanach;<Angla-Shacsana;h>;DEL;c;N,NOM,PL
-Angla-Shacsanach;<Angla-Shacsanac;h>;INS;ig;N,NOM,PL
+angla-shacsanach;<angla-shacsana;h>;DEL;c;N,NOM,PL
+angla-shacsanach;<angla-shacsanac;h>;INS;ig;N,NOM,PL
 banabhraiseach;<banabhraiseach;>;INS;a;N,NOM,PL
 nuálaí;<nuála;>;DEL;í;N,VOC,PL
 nuálaí;<nuálaí;>;INS;ithe;N,VOC,PL
@@ -7935,7 +7935,7 @@ closchonsól;<closchonsó;l>;INS;i;N,GEN,SG
 deoir;<d;eoir>;INS;h;N,VOC,SG
 diúscartach;<diúscarta;h>;DEL;c;N,NOM,PL
 diúscartach;<diúscartac;h>;INS;ig;N,NOM,PL
-Satharn;<Satha;rn>;INS;i;N,DAT,PL
+satharn;<satha;rn>;INS;i;N,DAT,PL
 aisbhreathnaigh;<aisbhreathn;>;DEL;aigh;V,V.MSDR
 aisbhreathnaigh;<aisbhreathnaigh;>;INS;ú;V,V.MSDR
 peacach;<peaca;h>;DEL;c;N,DAT,PL
@@ -7955,8 +7955,8 @@ reachtaigh;<reachtaig;h>;INS;b;V,2,PL,PST,HAB,IND
 neodraigh;<neodrai;>;DEL;gh;V,3,PL,SBJV,PRS
 neodraigh;<neodraigh;>;INS;ad;V,3,PL,SBJV,PRS
 braille;<b;raille>;INS;h;N,VOC,SG
-Seacaibíteach;<Seacaibít;h>;DEL;eac;N,DAT,PL,DEF
-Seacaibíteach;<Seacaibíteac;h>;INS;ig;N,DAT,PL,DEF
+seacaibíteach;<seacaibít;h>;DEL;eac;N,DAT,PL,DEF
+seacaibíteach;<seacaibíteac;h>;INS;ig;N,DAT,PL,DEF
 iseabar;<iseaba;r>;INS;i;N,VOC,SG
 dunnart;<dunna;rt>;INS;i;N,GEN,SG
 teorannaigh;<teorannai;h>;DEL;g;V,2,PL,SBJV,PST
@@ -8069,13 +8069,13 @@ aibidh;<aibidh;>;INS;e;ADJ,NOM,PL
 gnách;<gnách;>;INS;a;ADJ,GEN,PL,STRONG
 mórbhonn;<m;órbhonn>;INS;h;N,GEN,SG,DEF
 mórbhonn;<mórbho;nn>;INS;i;N,GEN,SG,DEF
-Macabaech;<Macabae;h>;DEL;c;N,GEN,SG
-Macabaech;<Macabaec;h>;INS;ig;N,GEN,SG
+macabaech;<macabae;h>;DEL;c;N,GEN,SG
+macabaech;<macabaec;h>;INS;ig;N,GEN,SG
 dligh;<dl;>;DEL;igh;V,1,SG,SBJV,PRS
 fíniúin;<fíniú;n>;DEL;i;N,DAT,PL
 fíniúin;<fíniúin;>;INS;acha;N,DAT,PL
-Valdach;<Valda;h>;DEL;c;N,VOC,SG
-Valdach;<Valdac;h>;INS;ig;N,VOC,SG
+valdach;<valda;h>;DEL;c;N,VOC,SG
+valdach;<valdac;h>;INS;ig;N,VOC,SG
 crosphóraigh;<crosphóra;>;DEL;igh;V,3,SG,SBJV,PRS
 ceangail;<ceang;l>;DEL;ai;V,2,PL,IMP
 ceangail;<ceangail;>;INS;aígí;V,2,PL,IMP
@@ -8097,7 +8097,7 @@ cisealchlár;<c;isealchlár>;INS;h;N,GEN,SG,DEF
 cisealchlár;<cisealchlá;r>;INS;i;N,GEN,SG,DEF
 siúchra;<siúchra;>;INS;í;N,NOM,PL
 cath;<cath;>;INS;anna;N,NOM,PL
-Brídín;<B;rídín>;INS;h;N,GEN,SG,DEF
+brídín;<b;rídín>;INS;h;N,GEN,SG,DEF
 luch;<luch;>;INS;a;N,DAT,PL,DEF
 neamh-intreáiteacht;<neamh-intreáiteacht;>;INS;a;N,GEN,SG,DEF
 urraigh;<urr;>;DEL;aigh;V,3,PL,COND
@@ -8126,8 +8126,8 @@ ráille tuáillí;<ráille t;uáillí>;INS;h;N,VOC,SG
 urú;<ur;>;DEL;ú;N,DAT,PL
 urú;<urú;>;INS;uithe;N,DAT,PL
 imdhíon;<imdhíon;>;INS;aimis;V,1,PL,IMP
-Meiriceánach;<Meiriceána;h>;DEL;c;N,NOM,PL,DEF
-Meiriceánach;<Meiriceánac;h>;INS;ig;N,NOM,PL,DEF
+meiriceánach;<meiriceána;h>;DEL;c;N,NOM,PL,DEF
+meiriceánach;<meiriceánac;h>;INS;ig;N,NOM,PL,DEF
 cuimhneachán;<c;uimhneachán>;INS;h;N,GEN,SG,DEF
 cuimhneachán;<cuimhneachá;n>;INS;i;N,GEN,SG,DEF
 oistéacailcin;<oistéacailcin;>;INS;e;N,GEN,SG
@@ -8135,15 +8135,15 @@ teirmealuadar;<teirmealuada;r>;INS;i;N,GEN,SG
 fabhtcheartaigh;<f;abhtcheartaigh>;INS;h;V,3,PL,PST,HAB,IND
 fabhtcheartaigh;<fabhtchearta;>;DEL;igh;V,3,PL,PST,HAB,IND
 fabhtcheartaigh;<fabhtcheartaigh;>;INS;ídís;V,3,PL,PST,HAB,IND
-Ard-Rúnaí;<Ard-Rúna;>;DEL;í;N,NOM,PL
-Ard-Rúnaí;<Ard-Rúnaí;>;INS;ithe;N,NOM,PL
+ard-rúnaí;<ard-rúna;>;DEL;í;N,NOM,PL
+ard-rúnaí;<ard-rúnaí;>;INS;ithe;N,NOM,PL
 bainistigh;<bainist;igh>;INS;ím;V,1,PL,IMP
 bainistigh;<bainisti;>;DEL;gh;V,1,PL,IMP
 bainistigh;<bainistigh;>;INS;s;V,1,PL,IMP
 glanrosc;<glanro;sc>;INS;i;N,NOM,PL,DEF
-minc Eorpach;<minc; Eorpach>;INS;e;N,GEN,SG,DEF
-minc Eorpach;<minc Eorpa;>;DEL;ch;N,GEN,SG,DEF
-minc Eorpach;<minc Eorpach;>;INS;í;N,GEN,SG,DEF
+minc eorpach;<minc; eorpach>;INS;e;N,GEN,SG,DEF
+minc eorpach;<minc eorpa;>;DEL;ch;N,GEN,SG,DEF
+minc eorpach;<minc eorpach;>;INS;í;N,GEN,SG,DEF
 creideamh;<creid;mh>;DEL;ea;N,NOM,PL
 creideamh;<creidea;mh>;INS;i;N,NOM,PL
 iarr;<iarr;>;INS;ainn;V,1,SG,PST,HAB,IND
@@ -8267,8 +8267,8 @@ leasaigh;<leasa;>;DEL;igh;V,2,PL,IMP
 leasaigh;<leasaigh;>;INS;ígí;V,2,PL,IMP
 treisigh;<t;reisigh>;INS;h;V,2,SG,PST,IND
 iomlán;<iomlá;n>;INS;i;N,VOC,SG
-Veinéiseach;<Veinéis;h>;DEL;eac;N,DAT,PL,DEF
-Veinéiseach;<Veinéiseac;h>;INS;ig;N,DAT,PL,DEF
+veinéiseach;<veinéis;h>;DEL;eac;N,DAT,PL,DEF
+veinéiseach;<veinéiseac;h>;INS;ig;N,DAT,PL,DEF
 dlisteanaí;<dlisteana;>;DEL;í;N,NOM,PL,DEF
 dlisteanaí;<dlisteanaí;>;INS;ithe;N,NOM,PL,DEF
 breabhsaire;<breabhsair;>;DEL;e;N,NOM,PL,DEF
@@ -8291,8 +8291,8 @@ bailé;<bailé;>;INS;anna;N,DAT,PL
 nimhigh;<nimhi;h>;DEL;g;V,2,PL,COND
 nimhigh;<nimhig;h>;INS;b;V,2,PL,COND
 jab;<jab;>;INS;anna;N,NOM,PL
-Indiach;<India;h>;DEL;c;N,GEN,SG,DEF
-Indiach;<Indiac;h>;INS;ig;N,GEN,SG,DEF
+indiach;<india;h>;DEL;c;N,GEN,SG,DEF
+indiach;<indiac;h>;INS;ig;N,GEN,SG,DEF
 tuismigh;<tuismi;h>;DEL;g;V,2,PL,SBJV,PRS
 tuismigh;<tuismig;h>;INS;b;V,2,PL,SBJV,PRS
 gloinigh;<g;loinigh>;INS;h;V,1,PL,PST,IND
@@ -8357,9 +8357,9 @@ cló-eagraigh;<cló-eagraig;h>;INS;b;V,2,PL,SBJV,PRS
 gloinigh;<gloini;h>;DEL;g;V,2,PL,FUT,IND
 gloinigh;<gloinig;h>;INS;b;V,2,PL,FUT,IND
 loitiméir;<loitiméir;>;INS;í;N,GEN,PL
-Teasalónach;<T;easalónach>;INS;h;N,VOC,SG
-Teasalónach;<Teasalóna;h>;DEL;c;N,VOC,SG
-Teasalónach;<Teasalónac;h>;INS;ig;N,VOC,SG
+teasalónach;<t;easalónach>;INS;h;N,VOC,SG
+teasalónach;<teasalóna;h>;DEL;c;N,VOC,SG
+teasalónach;<teasalónac;h>;INS;ig;N,VOC,SG
 éadar;<éada;r>;INS;i;N,GEN,SG,DEF
 aibíd;<aibíd;>;INS;e;N,GEN,SG
 brabach;<b;rabach>;INS;h;N,GEN,SG,DEF
@@ -8411,8 +8411,8 @@ figh;<figh;>;INS;ífinn;V,1,SG,COND
 aspal;<aspa;l>;INS;i;N,NOM,PL,DEF
 marbhlann;<m;arbhlann>;INS;h;N,VOC,PL
 marbhlann;<marbhlann;>;INS;a;N,VOC,PL
-Veinéiseach;<Veinéis;h>;DEL;eac;N,VOC,SG
-Veinéiseach;<Veinéiseac;h>;INS;ig;N,VOC,SG
+veinéiseach;<veinéis;h>;DEL;eac;N,VOC,SG
+veinéiseach;<veinéiseac;h>;INS;ig;N,VOC,SG
 taistil;<t;aistil>;INS;h;V,3,PL,COND
 taistil;<taist;l>;DEL;i;V,3,PL,COND
 taistil;<taisti;l>;INS;ea;V,3,PL,COND
@@ -8482,8 +8482,8 @@ cóirigh;<cóirig;h>;INS;íod;V,AUTO,PST,IND
 fuaimchlár;<fuaimchlá;r>;INS;i;N,NOM,PL
 pléigh;<p;léigh>;INS;h;V,2,PL,PST,IND
 ionsá;<ionsá;>;INS;nna;N,NOM,PL,DEF
-Boihéamach;<B;oihéamach>;INS;h;N,VOC,PL
-Boihéamach;<Boihéamach;>;INS;a;N,VOC,PL
+boihéamach;<b;oihéamach>;INS;h;N,VOC,PL
+boihéamach;<boihéamach;>;INS;a;N,VOC,PL
 trua;<t;rua>;INS;h;N,VOC,PL
 trua;<tru;a>;INS;ann;N,VOC,PL
 tiuf-teaf;<tiuf-teaf;>;INS;anna;N,NOM,PL
@@ -8532,8 +8532,8 @@ cág;<cág;>;INS;a;N,NOM,PL,DEF
 púdaraigh;<púdara;>;DEL;igh;V,1,SG,SBJV,PST
 púdaraigh;<púdaraigh;>;INS;ínn;V,1,SG,SBJV,PST
 micreafótagrafaíocht;<micreafótagrafaíocht;>;INS;a;N,GEN,SG
-Ultach;<Ulta;h>;DEL;c;N,DAT,PL
-Ultach;<Ultac;h>;INS;ig;N,DAT,PL
+ultach;<ulta;h>;DEL;c;N,DAT,PL
+ultach;<ultac;h>;INS;ig;N,DAT,PL
 scamhóg;<scamhóg;>;INS;a;N,NOM,PL,DEF
 friotaigh;<friota;>;DEL;igh;V,AUTO,SBJV,PST
 friotaigh;<friotaigh;>;INS;ítí;V,AUTO,SBJV,PST
@@ -8554,7 +8554,7 @@ ceardchumannaí;<ceardchumannaí;>;INS;ithe;N,GEN,PL
 rialtas;<rialta;s>;INS;i;N,NOM,PL
 máithrigh;<máith;righ>;INS;rítea;V,AUTO,IMP
 máithrigh;<máithr;>;DEL;igh;V,AUTO,IMP
-Abcáiseach;<Abcáiseach;>;INS;a;N,VOC,PL
+abcáiseach;<abcáiseach;>;INS;a;N,VOC,PL
 beachtaigh;<b;eachtaigh>;INS;h;V,2,SG,COND
 beachtaigh;<beacht;>;DEL;aigh;V,2,SG,COND
 beachtaigh;<beachtaigh;>;INS;ófá;V,2,SG,COND
@@ -8566,12 +8566,12 @@ jabaire;<jabair;>;DEL;e;N,NOM,PL
 jabaire;<jabaire;>;INS;í;N,NOM,PL
 atarraing;<atarraing;>;INS;íomar;V,1,PL,PST,IND
 peata;<p;eata>;INS;h;N,VOC,SG
-Gael;<Gae;l>;INS;i;N,GEN,SG
+gael;<gae;l>;INS;i;N,GEN,SG
 sliogán mara;<sliogá;n mara>;INS;i;N,DAT,PL,DEF
 sliogán mara;<sliogán m;ara>;INS;h;N,DAT,PL,DEF
 clairnéid;<clairnéid;>;INS;í;N,GEN,PL
-Boilséiveach;<B;oilséiveach>;INS;h;N,VOC,PL
-Boilséiveach;<Boilséiveach;>;INS;a;N,VOC,PL
+boilséiveach;<b;oilséiveach>;INS;h;N,VOC,PL
+boilséiveach;<boilséiveach;>;INS;a;N,VOC,PL
 fáilte;<f;áilte>;INS;h;N,VOC,PL
 fáilte;<fáilt;>;DEL;e;N,VOC,PL
 fáilte;<fáilte;>;INS;í;N,VOC,PL
@@ -8586,8 +8586,8 @@ seans;<seans;>;INS;anna;N,DAT,PL,DEF
 iarnaigh;<iarna;>;DEL;igh;V,AUTO,SBJV,PRS
 iarnaigh;<iarnaigh;>;INS;ítear;V,AUTO,SBJV,PRS
 jabionad;<jabiona;d>;INS;i;N,NOM,PL,DEF
-Gaelaigh;<Gaela;h>;DEL;ig;V,AUTO,PST,IND
-Gaelaigh;<Gaelaig;h>;INS;íod;V,AUTO,PST,IND
+gaelaigh;<gaela;h>;DEL;ig;V,AUTO,PST,IND
+gaelaigh;<gaelaig;h>;INS;íod;V,AUTO,PST,IND
 fead;<fe;d>;DEL;a;N,GEN,SG
 fead;<fea;d>;INS;i;N,GEN,SG
 fead;<fead;>;INS;e;N,GEN,SG
@@ -8619,8 +8619,8 @@ freagair;<freag;r>;DEL;ai;V,3,PL,FUT,IND
 náisiúntacht;<náisiúntacht;>;INS;aí;N,DAT,PL,DEF
 fo-ghrúpa;<f;o-ghrúpa>;INS;h;N,VOC,PL
 fo-ghrúpa;<fo-ghrúpa;>;INS;í;N,VOC,PL
-Burmach;<Burma;h>;DEL;c;N,GEN,SG
-Burmach;<Burmac;h>;INS;ig;N,GEN,SG
+burmach;<burma;h>;DEL;c;N,GEN,SG
+burmach;<burmac;h>;INS;ig;N,GEN,SG
 neodrónréalta;<neodrónréalta;>;INS;í;N,VOC,PL
 neamhréireacht;<neamhréireacht;>;INS;a;N,GEN,SG
 dí-eaglaisigh;<dí-eaglais;>;DEL;igh;V,AUTO,FUT,IND
@@ -8714,8 +8714,8 @@ fótachóipeálaí;<fótachóipeálaí;>;INS;ithe;N,DAT,PL
 dúisigh;<d;úisigh>;INS;h;V,REL,PST,HAB,IND
 dúisigh;<dúis;h>;DEL;ig;V,REL,PST,HAB,IND
 dúisigh;<dúisig;h>;INS;íod;V,REL,PST,HAB,IND
-Maorach;<Maora;h>;DEL;c;N,NOM,PL,DEF
-Maorach;<Maorac;h>;INS;ig;N,NOM,PL,DEF
+maorach;<maora;h>;DEL;c;N,NOM,PL,DEF
+maorach;<maorac;h>;INS;ig;N,NOM,PL,DEF
 oighrigh;<oighr;h>;DEL;ig;V,3,SG,COND
 oighrigh;<oighrig;h>;INS;eod;V,3,SG,COND
 mórchroí;<m;órchroí>;INS;h;N,GEN,SG,DEF
@@ -8759,7 +8759,7 @@ fótagrábháil;<fótagrábhá;l>;DEL;i;N,GEN,SG
 fótagrábháil;<fótagrábháil;>;INS;a;N,GEN,SG
 cam;<ca;m>;INS;i;ADJ,CMPR
 cam;<cam;>;INS;e;ADJ,CMPR
-X-gha;<X-gh;a>;INS;athann;N,DAT,PL,DEF
+x-gha;<x-gh;a>;INS;athann;N,DAT,PL,DEF
 impleacht;<impleacht;>;INS;a;N,GEN,SG
 matrarc;<matrarc;>;INS;aí;N,DAT,PL,DEF
 scornach;<scornach;>;INS;a;N,NOM,PL,DEF
@@ -8825,15 +8825,15 @@ vaimpír;<vaimpír;>;INS;í;N,DAT,PL,DEF
 fead;<fead;>;INS;anna;N,DAT,PL,DEF
 vasáilleach;<vasáill;h>;DEL;eac;N,DAT,PL,DEF
 vasáilleach;<vasáilleac;h>;INS;ig;N,DAT,PL,DEF
-Nigéarach;<Nigéara;h>;DEL;c;N,NOM,PL,DEF
-Nigéarach;<Nigéarac;h>;INS;ig;N,NOM,PL,DEF
+nigéarach;<nigéara;h>;DEL;c;N,NOM,PL,DEF
+nigéarach;<nigéarac;h>;INS;ig;N,NOM,PL,DEF
 oscail;<osc;l>;DEL;ai;V,3,PL,IMP
 oscail;<oscail;>;INS;aídís;V,3,PL,IMP
 marbhán;<m;arbhán>;INS;h;N,VOC,SG
 marbhán;<marbhá;n>;INS;i;N,VOC,SG
 fíon dearg;<fíon; dearg>;INS;ta;N,NOM,PL,DEF
 fíon dearg;<fíon dearg;>;INS;a;N,NOM,PL,DEF
-Iodálach;<Iodálach;>;INS;a;ADJ,VOC,PL
+iodálach;<iodálach;>;INS;a;ADJ,VOC,PL
 tuairisc;<tuairisc;>;INS;í;N,DAT,PL
 fótaisheolaí;<fótaisheola;>;DEL;í;N,NOM,PL,DEF
 fótaisheolaí;<fótaisheolaí;>;INS;ithe;N,NOM,PL,DEF
@@ -8890,8 +8890,8 @@ rangaigh;<rangaigh;>;INS;d;V,1,PL,SBJV,PRS
 leac;<leac;>;INS;a;N,DAT,PL,DEF
 badánach;<badána;>;DEL;ch;ADJ,SPRL
 badánach;<badánach;>;INS;í;ADJ,SPRL
-Burgúnach;<Burgúna;h>;DEL;c;N,DAT,PL
-Burgúnach;<Burgúnac;h>;INS;ig;N,DAT,PL
+burgúnach;<burgúna;h>;DEL;c;N,DAT,PL
+burgúnach;<burgúnac;h>;INS;ig;N,DAT,PL
 tuile;<t;uile>;INS;h;N,VOC,PL
 tuile;<tuil;e>;INS;t;N,VOC,PL
 ionadán;<ionadá;n>;INS;i;N,DAT,PL
@@ -8905,9 +8905,9 @@ cíos;<cíos;>;INS;a;N,GEN,SG
 cimigh;<c;imigh>;INS;h;V,1,SG,PST,IND
 scagdhealaigh;<scagdheala;>;DEL;igh;V,3,PL,SBJV,PST
 scagdhealaigh;<scagdhealaigh;>;INS;ídís;V,3,PL,SBJV,PST
-Moslamach;<M;oslamach>;INS;h;N,VOC,SG
-Moslamach;<Moslama;h>;DEL;c;N,VOC,SG
-Moslamach;<Moslamac;h>;INS;ig;N,VOC,SG
+moslamach;<m;oslamach>;INS;h;N,VOC,SG
+moslamach;<moslama;h>;DEL;c;N,VOC,SG
+moslamach;<moslamac;h>;INS;ig;N,VOC,SG
 buannacht;<b;uannacht>;INS;h;N,VOC,SG
 tuiseal;<tuis;l>;DEL;ea;N,GEN,SG,DEF
 tuiseal;<tuisea;l>;INS;i;N,GEN,SG,DEF
@@ -9095,8 +9095,8 @@ iontas;<ionta;s>;INS;i;N,DAT,PL,DEF
 aisbhreathnaigh;<aisbhreathna;>;DEL;igh;V,AUTO,PST,HAB,IND
 aisbhreathnaigh;<aisbhreathnaigh;>;INS;ítí;V,AUTO,PST,HAB,IND
 leictreacardagram;<leictreacardagra;m>;INS;i;N,VOC,SG
-Ioslamaí;<Ioslama;>;DEL;í;N,VOC,PL
-Ioslamaí;<Ioslamaí;>;INS;ithe;N,VOC,PL
+ioslamaí;<ioslama;>;DEL;í;N,VOC,PL
+ioslamaí;<ioslamaí;>;INS;ithe;N,VOC,PL
 ionadluach;<ionadluach;>;INS;anna;N,DAT,PL,DEF
 oistéaclast;<oistéaclast;>;INS;aí;N,GEN,PL
 fuathaigh;<f;uathaigh>;INS;h;V,1,PL,PST,HAB,IND
@@ -9217,8 +9217,8 @@ diúltaigh;<diúltaig;h>;INS;óid;V,3,SG,FUT,IND
 abhac dubh;<abha;c dubh>;INS;i;N,DAT,PL,DEF
 abhac dubh;<abhac d;ubh>;INS;h;N,DAT,PL,DEF
 abhac dubh;<abhac dubh;>;INS;a;N,DAT,PL,DEF
-Polannach;<P;olannach>;INS;h;N,VOC,PL
-Polannach;<Polannach;>;INS;a;N,VOC,PL
+polannach;<p;olannach>;INS;h;N,VOC,PL
+polannach;<polannach;>;INS;a;N,VOC,PL
 idirlínín;<idirlínín;>;INS;í;N,GEN,PL
 uimhrigh;<uimhr;igh>;INS;aím;V,1,PL,SBJV,PRS
 uimhrigh;<uimhri;>;DEL;gh;V,1,PL,SBJV,PRS
@@ -9305,8 +9305,8 @@ feis;<feis;>;INS;e;N,GEN,SG,DEF
 clann;<cla;nn>;INS;i;N,GEN,SG
 clann;<clann;>;INS;e;N,GEN,SG
 failligh;<f;ailligh>;INS;h;V,2,PL,PST,IND
-Beilíseach;<Beilís;h>;DEL;eac;N,NOM,PL,DEF
-Beilíseach;<Beilíseac;h>;INS;ig;N,NOM,PL,DEF
+beilíseach;<beilís;h>;DEL;eac;N,NOM,PL,DEF
+beilíseach;<beilíseac;h>;INS;ig;N,NOM,PL,DEF
 béalfharaing;<b;éalfharaing>;INS;h;N,VOC,SG
 teicnidhath;<teicnidhath;>;INS;a;N,GEN,SG
 féinchúis;<féinchúis;>;INS;e;N,GEN,SG
@@ -9477,14 +9477,14 @@ dí-bhéimnigh;<d;í-bhéimnigh>;INS;h;V,1,PL,PST,HAB,IND
 dí-bhéimnigh;<dí-bhéimn;igh>;INS;ím;V,1,PL,PST,HAB,IND
 dí-bhéimnigh;<dí-bhéimni;>;DEL;gh;V,1,PL,PST,HAB,IND
 dí-bhéimnigh;<dí-bhéimnigh;>;INS;s;V,1,PL,PST,HAB,IND
-Manchanach;<Manchana;h>;DEL;c;N,DAT,PL
-Manchanach;<Manchanac;h>;INS;ig;N,DAT,PL
+manchanach;<manchana;h>;DEL;c;N,DAT,PL
+manchanach;<manchanac;h>;INS;ig;N,DAT,PL
 imeallach;<imealla;h>;DEL;c;N,NOM,PL
 imeallach;<imeallac;h>;INS;ig;N,NOM,PL
 donnaigh;<donna;h>;DEL;ig;V,3,SG,SBJV,PST
 donnaigh;<donnaig;h>;INS;íod;V,3,SG,SBJV,PST
 aelus;<aelus;>;INS;a;N,GEN,SG,DEF
-Malaeis;<Malaeis;>;INS;e;N,GEN,SG
+malaeis;<malaeis;>;INS;e;N,GEN,SG
 sílim;<s;ílim>;INS;h;V,REL,PST,HAB,IND
 sílim;<síl;>;DEL;im;V,REL,PST,HAB,IND
 sílim;<sílim;>;INS;eadh;V,REL,PST,HAB,IND
@@ -9495,9 +9495,9 @@ dí-adharc;<dí-adharc;>;INS;tha;V,V.PTCP,PST
 abairt;<abairt;>;INS;e;N,GEN,SG
 sochapatach;<sochapata;h>;DEL;c;N,GEN,SG,DEF
 sochapatach;<sochapatac;h>;INS;ig;N,GEN,SG,DEF
-Bílearúiseach;<B;ílearúiseach>;INS;h;N,GEN,SG,DEF
-Bílearúiseach;<Bílearúis;h>;DEL;eac;N,GEN,SG,DEF
-Bílearúiseach;<Bílearúiseac;h>;INS;ig;N,GEN,SG,DEF
+bílearúiseach;<b;ílearúiseach>;INS;h;N,GEN,SG,DEF
+bílearúiseach;<bílearúis;h>;DEL;eac;N,GEN,SG,DEF
+bílearúiseach;<bílearúiseac;h>;INS;ig;N,GEN,SG,DEF
 marcach;<m;arcach>;INS;h;N,VOC,SG
 marcach;<marca;h>;DEL;c;N,VOC,SG
 marcach;<marcac;h>;INS;ig;N,VOC,SG
@@ -9539,7 +9539,7 @@ comh-airde;<comh-aird;>;DEL;e;N,GEN,PL
 comh-airde;<comh-airde;>;INS;í;N,GEN,PL
 athneartaigh;<athneart;>;DEL;aigh;V,1,PL,COND
 athneartaigh;<athneartaigh;>;INS;óimis;V,1,PL,COND
-Franc;<Fra;nc>;INS;i;N,NOM,PL,DEF
+franc;<fra;nc>;INS;i;N,NOM,PL,DEF
 móimint;<móimint;>;INS;í;N,DAT,PL,DEF
 tópás;<t;ópás>;INS;h;N,VOC,SG
 tópás;<tópá;s>;INS;i;N,VOC,SG
@@ -9659,8 +9659,8 @@ ceardchumannach;<ceardchumannac;h>;INS;ig;N,NOM,PL,DEF
 tiúin;<t;iúin>;INS;h;V,1,PL,COND
 tiúin;<tiú;n>;DEL;i;V,1,PL,COND
 tiúin;<tiúin;>;INS;faimis;V,1,PL,COND
-Sibéarach;<Sibéara;h>;DEL;c;N,NOM,PL,DEF
-Sibéarach;<Sibéarac;h>;INS;ig;N,NOM,PL,DEF
+sibéarach;<sibéara;h>;DEL;c;N,NOM,PL,DEF
+sibéarach;<sibéarac;h>;INS;ig;N,NOM,PL,DEF
 ail;<ail;>;INS;eacha;N,VOC,PL
 breisiú;<b;reisiú>;INS;h;N,GEN,SG,DEF
 breisiú;<breisi;>;DEL;ú;N,GEN,SG,DEF
@@ -9698,8 +9698,8 @@ adharcáil;<adharcá;l>;DEL;i;V,1,SG,IMP
 adharcáil;<adharcáil;>;INS;aim;V,1,SG,IMP
 fophéinteáil;<fophéinteá;l>;DEL;i;N,GEN,SG,DEF
 fophéinteáil;<fophéinteáil;>;INS;a;N,GEN,SG,DEF
-Connachtach;<Connachta;h>;DEL;c;N,NOM,PL
-Connachtach;<Connachtac;h>;INS;ig;N,NOM,PL
+connachtach;<connachta;h>;DEL;c;N,NOM,PL
+connachtach;<connachtac;h>;INS;ig;N,NOM,PL
 spraoi;<spra;oi>;INS;í;N,DAT,PL,DEF
 spraoi;<sprao;>;DEL;i;N,DAT,PL,DEF
 spraoi;<spraoi;>;INS;nna;N,DAT,PL,DEF
@@ -9750,7 +9750,7 @@ siúlbhealach;<siúlbhealac;h>;INS;ig;N,GEN,SG,DEF
 folíon;<folíon;>;INS;aimis;V,1,PL,SBJV,PST
 comhaontaigh;<comhaontai;>;DEL;gh;V,3,PL,PRS,IND
 comhaontaigh;<comhaontaigh;>;INS;ad;V,3,PL,PRS,IND
-Y-chrómasóm;<Y-chrómasó;m>;INS;i;N,GEN,SG
+y-chrómasóm;<y-chrómasó;m>;INS;i;N,GEN,SG
 mana;<m;ana>;INS;h;N,GEN,SG,DEF
 bréagmhalaicít;<bréagmhalaicít;>;INS;a;N,DAT,PL
 mórmheanma;<mórmheanma;>;INS;n;N,GEN,SG
@@ -10027,8 +10027,8 @@ iontaisigh;<iontaisigh;>;INS;ítear;V,AUTO,SBJV,PRS
 fásáil;<f;ásáil>;INS;h;N,GEN,SG
 fásáil;<fásá;l>;DEL;i;N,GEN,SG
 fásáil;<fásáil;>;INS;ainn;N,GEN,SG
-Ard-Aighne;<Ard-Aighn;>;DEL;e;N,GEN,PL
-Ard-Aighne;<Ard-Aighne;>;INS;í;N,GEN,PL
+ard-aighne;<ard-aighn;>;DEL;e;N,GEN,PL
+ard-aighne;<ard-aighne;>;INS;í;N,GEN,PL
 bailé;<b;ailé>;INS;h;N,VOC,PL
 bailé;<bailé;>;INS;anna;N,VOC,PL
 folt;<fo;lt>;INS;i;N,NOM,PL
@@ -10094,7 +10094,7 @@ capabára;<c;apabára>;INS;h;N,GEN,SG,DEF
 reoigh;<reoi;>;DEL;gh;V,AUTO,SBJV,PST
 reoigh;<reoigh;>;INS;tí;V,AUTO,SBJV,PST
 fiche;<;>;DEL;fiche;N,NOM,PL,DEF
-fiche;<fiche;>;INS;Plural;N,NOM,PL,DEF
+fiche;<fiche;>;INS;plural;N,NOM,PL,DEF
 plódaithe;<p;lódaithe>;INS;h;ADJ,VOC+GEN,SG,MASV
 réadaigh;<réada;>;DEL;igh;V,3,PL,PST,HAB,IND
 réadaigh;<réadaigh;>;INS;ídís;V,3,PL,PST,HAB,IND
@@ -10104,7 +10104,7 @@ oibiachtúlaigh;<oibiachtúlaigh;>;INS;ítí;V,AUTO,SBJV,PST
 bith-dhíghrádaigh;<bith-dhíghráda;>;DEL;igh;V,3,SG,SBJV,PRS
 clóbhuail;<c;lóbhuail>;INS;h;V,1,PL,PST,HAB,IND
 clóbhuail;<clóbhuail;>;INS;imis;V,1,PL,PST,HAB,IND
-Donnóg;<Donnóg;>;INS;a;N,NOM,PL
+donnóg;<donnóg;>;INS;a;N,NOM,PL
 luaigh;<lua;>;DEL;igh;V,REL,PRS,IND
 luaigh;<luaigh;>;INS;nn;V,REL,PRS,IND
 vatuair;<vatuair;>;INS;e;N,GEN,SG,DEF
@@ -10155,7 +10155,7 @@ conraigh;<c;onraigh>;INS;h;V,2,SG,COND
 conraigh;<conr;>;DEL;aigh;V,2,SG,COND
 conraigh;<conraigh;>;INS;ófá;V,2,SG,COND
 ath-chomhcheangal;<ath-chomhcheanga;l>;INS;i;N,NOM,PL
-Iodáilis;<Iodáilis;>;INS;e;N,GEN,SG,DEF
+iodáilis;<iodáilis;>;INS;e;N,GEN,SG,DEF
 muiceoil;<m;uiceoil>;INS;h;N,NOM,SG,DEF
 hipeacoindreach;<hipeacoindr;h>;DEL;eac;N,GEN,SG
 hipeacoindreach;<hipeacoindreac;h>;INS;ig;N,GEN,SG
@@ -10233,8 +10233,8 @@ péidiatraí;<péidiatraí;>;INS;ithe;N,DAT,PL
 dí-adharc;<d;í-adharc>;INS;h;V,3,PL,PST,HAB,IND
 dí-adharc;<dí-adharc;>;INS;aidís;V,3,PL,PST,HAB,IND
 failp;<failp;>;INS;eanna;N,DAT,PL
-Afracánach;<Afracána;h>;DEL;c;N,GEN,SG
-Afracánach;<Afracánac;h>;INS;ig;N,GEN,SG
+afracánach;<afracána;h>;DEL;c;N,GEN,SG
+afracánach;<afracánac;h>;INS;ig;N,GEN,SG
 bliain;<blia;n>;DEL;i;N,NOM,PL
 bliain;<bliain;>;INS;ta;N,NOM,PL
 labhair;<labh;r>;DEL;ai;V,3,SG,PRS,IND
@@ -10258,7 +10258,7 @@ rianaigh;<rianai;h>;DEL;g;V,2,PL,SBJV,PRS
 rianaigh;<rianaig;h>;INS;b;V,2,PL,SBJV,PRS
 buainteoir;<b;uainteoir>;INS;h;N,VOC,PL
 buainteoir;<buainteoir;>;INS;í;N,VOC,PL
-Galltacht;<Galltacht;>;INS;aí;N,NOM,PL,DEF
+galltacht;<galltacht;>;INS;aí;N,NOM,PL,DEF
 clóbh;<c;óbh>;DEL;l;N,DAT,PL
 clóbh;<cló;bh>;INS;i;N,DAT,PL
 innealtóireacht;<innealtóireacht;>;INS;a;N,GEN,SG
@@ -10357,7 +10357,7 @@ nimhigh;<nimh;h>;DEL;ig;V,3,SG,SBJV,PST
 nimhigh;<nimhig;h>;INS;íod;V,3,SG,SBJV,PST
 crómasóm;<c;rómasóm>;INS;h;N,GEN,SG,DEF
 crómasóm;<crómasó;m>;INS;i;N,GEN,SG,DEF
-Seoinín;<Seo;nín>;DEL;i;N,GEN,SG,DEF
+seoinín;<seo;nín>;DEL;i;N,GEN,SG,DEF
 cóirigh;<cóir;>;DEL;igh;V,2,PL,IMP
 cóirigh;<cóirigh;>;INS;ígí;V,2,PL,IMP
 cláirseach;<cláirs;>;DEL;each;N,GEN,SG,DEF
@@ -10366,7 +10366,7 @@ cláirseach;<cláirseach;>;INS;í;N,GEN,SG,DEF
 dí-eaglaisigh;<dí-eaglaisi;h>;DEL;g;V,V.PTCP,PST
 dí-eaglaisigh;<dí-eaglaisig;h>;INS;t;V,V.PTCP,PST
 dí-eaglaisigh;<dí-eaglaisigh;>;INS;e;V,V.PTCP,PST
-Críostaí;<C;ríostaí>;INS;h;N,VOC,SG
+críostaí;<c;ríostaí>;INS;h;N,VOC,SG
 critic;<critic;>;INS;e;N,GEN,SG
 crógacht;<crógacht;>;INS;a;N,GEN,SG,DEF
 dóiteán;<dóiteá;n>;INS;i;N,GEN,SG,DEF
@@ -10377,8 +10377,8 @@ triantán;<triantá;n>;INS;i;N,VOC,PL
 bogadh;<b;ogadh>;INS;h;N,GEN,SG,DEF
 bogadh;<bog;adh>;INS;th;N,GEN,SG,DEF
 bogadh;<boga;>;DEL;dh;N,GEN,SG,DEF
-Heirseagaivéineach;<Heirseagaivéin;h>;DEL;eac;N,GEN,SG
-Heirseagaivéineach;<Heirseagaivéineac;h>;INS;ig;N,GEN,SG
+heirseagaivéineach;<heirseagaivéin;h>;DEL;eac;N,GEN,SG
+heirseagaivéineach;<heirseagaivéineac;h>;INS;ig;N,GEN,SG
 teilgeoir;<teilgeoir;>;INS;í;N,DAT,PL,DEF
 coinín;<c;oinín>;INS;h;N,VOC,PL
 coinín;<coinín;>;INS;í;N,VOC,PL
@@ -10412,8 +10412,8 @@ fuathaigh;<fuath;h>;DEL;aig;V,2,SG,FUT,IND
 fuathaigh;<fuathaig;h>;INS;óid;V,2,SG,FUT,IND
 stát;<stá;t>;INS;i;N,GEN,SG,DEF
 síceapaite;<s;íceapaite>;INS;h;N,VOC,SG
-Moldóvach;<M;oldóvach>;INS;h;N,VOC,PL
-Moldóvach;<Moldóvach;>;INS;a;N,VOC,PL
+moldóvach;<m;oldóvach>;INS;h;N,VOC,PL
+moldóvach;<moldóvach;>;INS;a;N,VOC,PL
 pailnigh;<pailn;>;DEL;igh;V,2,PL,IMP
 pailnigh;<pailnigh;>;INS;ígí;V,2,PL,IMP
 neasghaol;<neasghaol;>;INS;ta;N,DAT,PL
@@ -10441,17 +10441,17 @@ máine;<máine;>;INS;í;N,VOC,PL
 aló;<aló;>;INS;nna;N,DAT,PL,DEF
 focalbhá;<f;ocalbhá>;INS;h;N,GEN,SG,DEF
 treoir;<t;reoir>;INS;h;N,VOC,SG
-Iodálach;<Iodála;>;DEL;ch;ADJ,GEN,SG,FEM
-Iodálach;<Iodálach;>;INS;í;ADJ,GEN,SG,FEM
+iodálach;<iodála;>;DEL;ch;ADJ,GEN,SG,FEM
+iodálach;<iodálach;>;INS;í;ADJ,GEN,SG,FEM
 cnáimhseáil;<c;náimhseáil>;INS;h;N,VOC,SG
 ionadluach;<ionadluach;>;INS;anna;N,NOM,PL
 gearraimsir;<g;earraimsir>;INS;h;N,VOC,SG
-Suasach;<Suasa;h>;DEL;c;N,DAT,PL,DEF
-Suasach;<Suasac;h>;INS;ig;N,DAT,PL,DEF
+suasach;<suasa;h>;DEL;c;N,DAT,PL,DEF
+suasach;<suasac;h>;INS;ig;N,DAT,PL,DEF
 brocais;<brocais;>;INS;e;N,GEN,SG,DEF
 collaíocht;<c;ollaíocht>;INS;h;N,VOC,SG
-Liobánach;<Liobána;h>;DEL;c;N,DAT,PL,DEF
-Liobánach;<Liobánac;h>;INS;ig;N,DAT,PL,DEF
+liobánach;<liobána;h>;DEL;c;N,DAT,PL,DEF
+liobánach;<liobánac;h>;INS;ig;N,DAT,PL,DEF
 conspóideach;<conspóid;>;DEL;each;ADJ,CMPR
 conspóideach;<conspóideach;>;INS;í;ADJ,CMPR
 gráinneog;<gráinneo;g>;INS;i;N,GEN,SG
@@ -10478,8 +10478,8 @@ deic;<deic;>;INS;a;N,NOM,PL,DEF
 gúnadóireacht;<g;únadóireacht>;INS;h;N,NOM,SG,DEF
 closchaiséad;<c;loschaiséad>;INS;h;N,VOC,PL
 closchaiséad;<closchaiséad;>;INS;a;N,VOC,PL
-Liútarach;<Liútara;h>;DEL;c;N,NOM,PL
-Liútarach;<Liútarac;h>;INS;ig;N,NOM,PL
+liútarach;<liútara;h>;DEL;c;N,NOM,PL
+liútarach;<liútarac;h>;INS;ig;N,NOM,PL
 idirtheanga;<idirtheang;a>;INS;ach;N,DAT,PL,DEF
 rímháistreacht;<rímháistreacht;>;INS;a;N,GEN,SG
 athbhreithnigh;<athbhreithn;igh>;INS;eoim;V,1,PL,COND
@@ -10498,17 +10498,17 @@ cruinnigh;<c;ruinnigh>;INS;h;V,3,PL,COND
 cruinnigh;<cruinn;igh>;INS;eo;V,3,PL,COND
 cruinnigh;<cruinni;>;DEL;gh;V,3,PL,COND
 cruinnigh;<cruinnigh;>;INS;dís;V,3,PL,COND
-Seineagálach;<S;eineagálach>;INS;h;N,VOC,PL
-Seineagálach;<Seineagálach;>;INS;a;N,VOC,PL
+seineagálach;<s;eineagálach>;INS;h;N,VOC,PL
+seineagálach;<seineagálach;>;INS;a;N,VOC,PL
 uiscigh;<uisc;h>;DEL;ig;V,3,SG,PST,HAB,IND
 uiscigh;<uiscig;h>;INS;íod;V,3,SG,PST,HAB,IND
 fo-ordaigh;<f;o-ordaigh>;INS;h;V,2,SG,PST,HAB,IND
 fo-ordaigh;<fo-orda;>;DEL;igh;V,2,SG,PST,HAB,IND
 fo-ordaigh;<fo-ordaigh;>;INS;íteá;V,2,SG,PST,HAB,IND
-Leosótach;<Leosóta;h>;DEL;c;N,NOM,PL,DEF
-Leosótach;<Leosótac;h>;INS;ig;N,NOM,PL,DEF
-Balcánach;<Balcána;h>;DEL;c;N,DAT,PL
-Balcánach;<Balcánac;h>;INS;ig;N,DAT,PL
+leosótach;<leosóta;h>;DEL;c;N,NOM,PL,DEF
+leosótach;<leosótac;h>;INS;ig;N,NOM,PL,DEF
+balcánach;<balcána;h>;DEL;c;N,DAT,PL
+balcánach;<balcánac;h>;INS;ig;N,DAT,PL
 fíonghort;<f;íonghort>;INS;h;N,VOC,PL
 fíonghort;<fíonghort;>;INS;a;N,VOC,PL
 banóstach;<b;anóstach>;INS;h;N,VOC,SG

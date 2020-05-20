@@ -106,8 +106,8 @@
 ^ < m j ó l k a [ V,SBJV,PRS,1,SG ] INS(i) > $
 ^ < m i ð [ N,INDF,ACC,SG ] DEL(i) > $
 ^ < m i ð i [ N,INDF,ACC,SG ] INS(a) > $
-^ < Í r [ N,INDF,GEN,PL ] DEL(i) > $
-^ < Í r i [ N,INDF,GEN,PL ] INS(a) > $
+^ < í r [ N,INDF,GEN,PL ] DEL(i) > $
+^ < í r i [ N,INDF,GEN,PL ] INS(a) > $
 ^ < f i m l e i k [ N,INDF,DAT,SG ] DEL(ar) > $
 ^ < f i m l e i k a r [ N,INDF,DAT,SG ] INS(um) > $
 ^ < h a l d [ N,DEF,NOM,SG ] INS(ið) > $
@@ -406,8 +406,8 @@
 ^ < e g n [ V,IMP,2,PL ] DEL(a) > $
 ^ < e g n a [ V,IMP,2,PL ] INS(ið) > $
 ^ < k j ö r s k r á [ N,INDF,DAT,PL ] INS(m) > $
-^ < A u s t u r r í k i s m a [ N,INDF,ACC,SG ] DEL(ður) > $
-^ < A u s t u r r í k i s m a ð u r [ N,INDF,ACC,SG ] INS(nn) > $
+^ < a u s t u r r í k i s m a [ N,INDF,ACC,SG ] DEL(ður) > $
+^ < a u s t u r r í k i s m a ð u r [ N,INDF,ACC,SG ] INS(nn) > $
 ^ < m u n a ð a r l e y s i n g i [ N,DEF,NOM,SG ] INS(nn) > $
 ^ < f æ l [ V,IND,PRS,1,SG ] DEL(a) > $
 ^ < f æ l a [ V,IND,PRS,1,SG ] INS(i) > $
@@ -823,8 +823,8 @@
 ^ < t í [ N,INDF,DAT,PL ] DEL(a) > $
 ^ < t í a [ N,INDF,DAT,PL ] INS(um) > $
 ^ < n e t j u s k ý [ N,INDF,GEN,PL ] INS(ja) > $
-^ < N j á [ N,INDF,DAT,SG ] DEL(l) l > $
-^ < N j á l l [ N,INDF,DAT,SG ] INS(i) > $
+^ < n j á [ N,INDF,DAT,SG ] DEL(l) l > $
+^ < n j á l l [ N,INDF,DAT,SG ] INS(i) > $
 ^ < h i p p i [ N,DEF,NOM,SG ] INS(nn) > $
 ^ < s a f n [ N,INDF,DAT,SG ] INS(i) > $
 ^ < l a n d [ N,DEF,GEN,SG ] DEL(i) > $
@@ -860,10 +860,10 @@
 ^ < t [ N,DEF,NOM,PL ] DEL(a) l > $
 ^ < t a [ N,DEF,NOM,PL ] INS(ö) l > $
 ^ < t a l [ N,DEF,NOM,PL ] INS(in) > $
-^ < S v í [ N,DEF,GEN,SG ] DEL(i) > $
-^ < S v í i [ N,DEF,GEN,SG ] INS(ans) > $
+^ < s v í [ N,DEF,GEN,SG ] DEL(i) > $
+^ < s v í i [ N,DEF,GEN,SG ] INS(ans) > $
 ^ < l y k t a [ V,IND,PRS,3,SG ] INS(r) > $
-^ < R a g g [ N,DEF,GEN,PL ] INS(ann) a > $
+^ < r a g g [ N,DEF,GEN,PL ] INS(ann) a > $
 ^ < b e y g i n g [ N,DEF,GEN,SG ] INS(arinnar) > $
 ^ < t ó n k v í s l [ N,DEF,NOM,SG ] INS(in) > $
 ^ < s a n d k a s s [ N,INDF,GEN,PL ] DEL(i) > $
@@ -874,8 +874,8 @@
 ^ < f í l s b e i n [ N,DEF,GEN,PL ] INS(anna) > $
 ^ < f r a m l e n g [ V,IND,PRS,1,SG ] DEL(ja) > $
 ^ < f r a m l e n g j a [ V,IND,PRS,1,SG ] INS(i) > $
-^ < S p á n v e r j [ N,INDF,NOM,PL ] DEL(i) > $
-^ < S p á n v e r j i [ N,INDF,NOM,PL ] INS(ar) > $
+^ < s p á n v e r j [ N,INDF,NOM,PL ] DEL(i) > $
+^ < s p á n v e r j i [ N,INDF,NOM,PL ] INS(ar) > $
 ^ < b e ð [ N,DEF,GEN,PL ] INS(anna) > $
 ^ < s n ú n i n g [ N,INDF,NOM,PL ] DEL(u) r > $
 ^ < s n ú n i n g u [ N,INDF,NOM,PL ] INS(a) r > $
@@ -1293,8 +1293,8 @@
 ^ < t e n n i s s p a ð i [ N,DEF,GEN,PL ] INS(anna) > $
 ^ < a t v i n n u m [ N,DEF,GEN,PL ] INS(annann) a ð u r > $
 ^ < a t v i n n u m a [ N,DEF,GEN,PL ] DEL(ður) > $
-^ < F i [ N,DEF,ACC,SG ] INS(nna) n n i > $
-^ < F i n n [ N,DEF,ACC,SG ] DEL(i) > $
+^ < f i [ N,DEF,ACC,SG ] INS(nna) n n i > $
+^ < f i n n [ N,DEF,ACC,SG ] DEL(i) > $
 ^ < k v í ð [ N,DEF,GEN,SG ] DEL(i) > $
 ^ < k v í ð i [ N,DEF,GEN,SG ] INS(ans) > $
 ^ < s k ö p [ N,INDF,DAT,SG ] INS(um) > $
@@ -1357,10 +1357,10 @@
 ^ < l ó a [ N,DEF,DAT,SG ] INS(unni) > $
 ^ < g l ó ð [ N,DEF,GEN,SG ] INS(arinnar) > $
 ^ < g e s [ N,DEF,NOM,PL ] INS(in) > $
-^ < [ N,INDF,DAT,PL ] DEL(E) n g l e n d i n g u r > $
-^ < E [ N,INDF,DAT,PL ] INS(e) n g l e n d i n g u r > $
-^ < E n g l e n d i n g u [ N,INDF,DAT,PL ] DEL(r) > $
-^ < E n g l e n d i n g u r [ N,INDF,DAT,PL ] INS(m) > $
+^ < [ N,INDF,DAT,PL ] DEL(e) n g l e n d i n g u r > $
+^ < e [ N,INDF,DAT,PL ] INS(e) n g l e n d i n g u r > $
+^ < e n g l e n d i n g u [ N,INDF,DAT,PL ] DEL(r) > $
+^ < e n g l e n d i n g u r [ N,INDF,DAT,PL ] INS(m) > $
 ^ < f ö ð u r b r [ N,INDF,NOM,PL ] DEL(óði) r > $
 ^ < f ö ð u r b r ó ð i [ N,INDF,NOM,PL ] INS(æðu) r > $
 ^ < p i r r [ V,SBJV,PRS,3,PL ] DEL(a) > $
@@ -1777,8 +1777,8 @@
 ^ < f r o s t [ N,DEF,DAT,SG ] INS(inu) > $
 ^ < h o l l e n s k [ N,INDF,DAT,SG ] DEL(a) > $
 ^ < h o l l e n s k a [ N,INDF,DAT,SG ] INS(u) > $
-^ < Í r [ N,DEF,GEN,PL ] DEL(i) > $
-^ < Í r i [ N,DEF,GEN,PL ] INS(anna) > $
+^ < í r [ N,DEF,GEN,PL ] DEL(i) > $
+^ < í r i [ N,DEF,GEN,PL ] INS(anna) > $
 ^ < r a s s k i n n [ N,DEF,DAT,SG ] INS(inni) > $
 ^ < f r i ð l ý s [ V,IND,PST,2,PL ] DEL(a) > $
 ^ < f r i ð l ý s a [ V,IND,PST,2,PL ] INS(tuð) > $
@@ -2249,8 +2249,8 @@
 ^ < s n æ r i [ N,DEF,ACC,PL ] INS(n) > $
 ^ < f æ l [ V,IND,PST,1,SG ] DEL(a) > $
 ^ < f æ l a [ V,IND,PST,1,SG ] INS(di) > $
-^ < S v í [ N,INDF,GEN,SG ] DEL(i) > $
-^ < S v í i [ N,INDF,GEN,SG ] INS(a) > $
+^ < s v í [ N,INDF,GEN,SG ] DEL(i) > $
+^ < s v í i [ N,INDF,GEN,SG ] INS(a) > $
 ^ < d e p o n e n s s [ N,INDF,GEN,SG ] DEL(ö) g n > $
 ^ < d e p o n e n s s ö [ N,INDF,GEN,SG ] INS(a) g n > $
 ^ < d e p o n e n s s ö g n [ N,INDF,GEN,SG ] INS(ar) > $
@@ -2478,8 +2478,8 @@
 ^ < m u s t a r ð u r [ N,DEF,NOM,SG ] INS(inn) > $
 ^ < p a n t a [ V,IND,PST,1,SG ] INS(ði) > $
 ^ < r i s t [ N,INDF,GEN,PL ] INS(a) > $
-^ < S p a n j ó l [ N,INDF,ACC,PL ] DEL(i) > $
-^ < S p a n j ó l i [ N,INDF,ACC,PL ] INS(a) > $
+^ < s p a n j ó l [ N,INDF,ACC,PL ] DEL(i) > $
+^ < s p a n j ó l i [ N,INDF,ACC,PL ] INS(a) > $
 ^ < e r k i b i s k u p [ N,DEF,ACC,PL ] INS(ana) > $
 ^ < m a n n t a l [ N,INDF,DAT,SG ] INS(i) > $
 ^ < f l ó [ N,DEF,GEN,SG ] INS(arinnar) > $
@@ -2611,8 +2611,8 @@
 ^ < n e t [ N,DEF,ACC,SG ] INS(ið) > $
 ^ < t u g u [ N,DEF,DAT,PL ] DEL(r) > $
 ^ < t u g u r [ N,DEF,DAT,PL ] INS(num) > $
-^ < G o t [ N,DEF,ACC,SG ] DEL(i) > $
-^ < G o t i [ N,DEF,ACC,SG ] INS(ann) > $
+^ < g o t [ N,DEF,ACC,SG ] DEL(i) > $
+^ < g o t i [ N,DEF,ACC,SG ] INS(ann) > $
 ^ < a l l s h e r j a r þ i n g [ N,INDF,GEN,PL ] INS(a) > $
 ^ < m ú l [ N,INDF,DAT,SG ] DEL(i) > $
 ^ < m ú l i [ N,INDF,DAT,SG ] INS(a) > $
@@ -2695,10 +2695,10 @@
 ^ < s j ó n v [ N,INDF,NOM,PL ] DEL(a) r p > $
 ^ < s j ó n v a [ N,INDF,NOM,PL ] INS(ö) r p > $
 ^ < d a n s [ N,INDF,DAT,SG ] INS(i) > $
-^ < R [ N,DEF,DAT,SG ] DEL(a) g g a > $
-^ < R a [ N,DEF,DAT,SG ] INS(ö) g g a > $
-^ < R a g g [ N,DEF,DAT,SG ] DEL(a) > $
-^ < R a g g a [ N,DEF,DAT,SG ] INS(unni) > $
+^ < r [ N,DEF,DAT,SG ] DEL(a) g g a > $
+^ < r a [ N,DEF,DAT,SG ] INS(ö) g g a > $
+^ < r a g g [ N,DEF,DAT,SG ] DEL(a) > $
+^ < r a g g a [ N,DEF,DAT,SG ] INS(unni) > $
 ^ < h u g t [ N,INDF,NOM,PL ] DEL(a) k > $
 ^ < h u g t a [ N,INDF,NOM,PL ] INS(ö) k > $
 ^ < d ó m a r [ N,DEF,GEN,SG ] DEL(i) > $
@@ -2769,9 +2769,9 @@
 ^ < l e p p [ N,DEF,DAT,SG ] INS(n) u r > $
 ^ < l e p p u [ N,DEF,DAT,SG ] DEL(r) > $
 ^ < l e p p u r [ N,DEF,DAT,SG ] INS(m) > $
-^ < [ N,DEF,NOM,SG ] DEL(E) n g l e n d i n g u r > $
-^ < E [ N,DEF,NOM,SG ] INS(e) n g l e n d i n g u r > $
-^ < E n g l e n d i n g u r [ N,DEF,NOM,SG ] INS(inn) > $
+^ < [ N,DEF,NOM,SG ] DEL(e) n g l e n d i n g u r > $
+^ < e [ N,DEF,NOM,SG ] INS(e) n g l e n d i n g u r > $
+^ < e n g l e n d i n g u r [ N,DEF,NOM,SG ] INS(inn) > $
 ^ < t a g g [ V,IMP,2,PL ] DEL(a) > $
 ^ < t a g g a [ V,IMP,2,PL ] INS(ið) > $
 ^ < r í b ó n ú k l e a s [ N,DEF,DAT,SG ] DEL(i) > $
@@ -3051,8 +3051,8 @@
 ^ < s ö g n [ N,DEF,GEN,PL ] INS(anna) > $
 ^ < s t r [ V,SBJV,PST,1,SG ] DEL(júka) > $
 ^ < s t r j ú k a [ V,SBJV,PST,1,SG ] INS(yki) > $
-^ < S p á n v e r j [ N,INDF,GEN,SG ] DEL(i) > $
-^ < S p á n v e r j i [ N,INDF,GEN,SG ] INS(a) > $
+^ < s p á n v e r j [ N,INDF,GEN,SG ] DEL(i) > $
+^ < s p á n v e r j i [ N,INDF,GEN,SG ] INS(a) > $
 ^ < g a g g a [ V,IND,PST,1,SG ] INS(ði) > $
 ^ < g e i m f e r ð [ N,DEF,ACC,SG ] INS(ina) > $
 ^ < p a r t [ N,DEF,DAT,SG ] INS(in) u r > $
@@ -3930,8 +3930,8 @@
 ^ < v í ð i r [ N,DEF,GEN,SG ] INS(sins) > $
 ^ < á n a m a ð k [ N,INDF,NOM,PL ] DEL(u) r > $
 ^ < á n a m a ð k u [ N,INDF,NOM,PL ] INS(a) r > $
-^ < P O S I X - s t a ð [ N,INDF,ACC,PL ] DEL(al) l > $
-^ < P O S I X - s t a ð a l l [ N,INDF,ACC,PL ] INS(a) > $
+^ < p o s i x - s t a ð [ N,INDF,ACC,PL ] DEL(al) l > $
+^ < p o s i x - s t a ð a l l [ N,INDF,ACC,PL ] INS(a) > $
 ^ < h ú s f r ú [ N,DEF,DAT,SG ] INS(nni) > $
 ^ < a t b u r ð [ N,INDF,DAT,SG ] DEL(ur) > $
 ^ < a t b u r ð u r [ N,INDF,DAT,SG ] INS(i) > $
@@ -4256,8 +4256,8 @@
 ^ < h e r s h ö f ð i n g i [ N,DEF,NOM,PL ] INS(r) > $
 ^ < v e f s í ð [ N,INDF,ACC,PL ] DEL(a) > $
 ^ < v e f s í ð a [ N,INDF,ACC,PL ] INS(ur) > $
-^ < G S M - s í [ N,INDF,DAT,PL ] INS(mu) m i > $
-^ < G S M - s í m [ N,INDF,DAT,PL ] DEL(i) > $
+^ < g s m - s í [ N,INDF,DAT,PL ] INS(mu) m i > $
+^ < g s m - s í m [ N,INDF,DAT,PL ] DEL(i) > $
 ^ < s l á t r [ V,IND,PRS,1,PL ] DEL(a) > $
 ^ < s l á t r a [ V,IND,PRS,1,PL ] INS(um) > $
 ^ < p r e n t [ V,SBJV,PRS,3,SG ] DEL(a) > $
@@ -4362,8 +4362,8 @@
 ^ < j a f n t e f l i [ N,INDF,GEN,PL ] INS(a) > $
 ^ < r i g n i n g [ N,INDF,GEN,SG ] INS(ar) > $
 ^ < t r u f l a [ V.CVB ] INS(ð) > $
-^ < F r a k k [ N,INDF,GEN,PL ] DEL(i) > $
-^ < F r a k k i [ N,INDF,GEN,PL ] INS(a) > $
+^ < f r a k k [ N,INDF,GEN,PL ] DEL(i) > $
+^ < f r a k k i [ N,INDF,GEN,PL ] INS(a) > $
 ^ < n æ ð i [ N,INDF,GEN,SG ] INS(s) > $
 ^ < s a m e i n [ V,SBJV,PST,2,PL ] DEL(a) > $
 ^ < s a m e i n a [ V,SBJV,PST,2,PL ] INS(uðuð) > $
@@ -4556,8 +4556,8 @@
 ^ < u n d i r o k [ V,SBJV,PRS,2,SG ] DEL(a) > $
 ^ < u n d i r o k a [ V,SBJV,PRS,2,SG ] INS(ir) > $
 ^ < v í [ N,DEF,NOM,PL ] INS(ni) n > $
-^ < S v í [ N,INDF,DAT,PL ] DEL(i) > $
-^ < S v í i [ N,INDF,DAT,PL ] INS(um) > $
+^ < s v í [ N,INDF,DAT,PL ] DEL(i) > $
+^ < s v í i [ N,INDF,DAT,PL ] INS(um) > $
 ^ < k v e n m [ N,DEF,NOM,PL ] DEL(aðu) r > $
 ^ < k v e n m a ð u [ N,DEF,NOM,PL ] INS(ennirni) r > $
 ^ < h á h y r n i n g [ N,INDF,ACC,SG ] DEL(ur) > $
@@ -5124,7 +5124,7 @@
 ^ < d a ð l a [ N,INDF,ACC,PL ] INS(ur) > $
 ^ < f o r s æ l [ N,DEF,ACC,SG ] INS(un) a > $
 ^ < k r ó k ó d í l s t á r [ N,DEF,NOM,SG ] INS(ið) > $
-^ < V e n n - m y n d [ N,INDF,DAT,PL ] INS(um) > $
+^ < v e n n - m y n d [ N,INDF,DAT,PL ] INS(um) > $
 ^ < f r æ [ V,SBJV,PST,3,PL ] DEL(ða) > $
 ^ < f r æ ð a [ V,SBJV,PST,3,PL ] INS(ddu) > $
 ^ < r á ð g á t [ N,INDF,DAT,SG ] DEL(a) > $
@@ -5381,8 +5381,8 @@
 ^ < h á v a ð a m [ N,DEF,ACC,PL ] INS(ennin) a ð u r > $
 ^ < h á v a ð a m a [ N,DEF,ACC,PL ] DEL(ður) > $
 ^ < h e i m s k a u t a n ó t t [ N,DEF,NOM,SG ] INS(in) > $
-^ < S e r b [ N,DEF,DAT,PL ] DEL(i) > $
-^ < S e r b i [ N,DEF,DAT,PL ] INS(unum) > $
+^ < s e r b [ N,DEF,DAT,PL ] DEL(i) > $
+^ < s e r b i [ N,DEF,DAT,PL ] INS(unum) > $
 ^ < n e f [ N,INDF,DAT,PL ] INS(jum) > $
 ^ < þ i n g m [ N,INDF,NOM,PL ] DEL(aður) > $
 ^ < þ i n g m a ð u r [ N,INDF,NOM,PL ] INS(enn) > $
@@ -5460,8 +5460,8 @@
 ^ < h l é b a [ N,INDF,DAT,PL ] INS(ö) r ð i > $
 ^ < h l é b a r ð [ N,INDF,DAT,PL ] DEL(i) > $
 ^ < h l é b a r ð i [ N,INDF,DAT,PL ] INS(um) > $
-^ < P O S I X - s t a ð [ N,DEF,NOM,PL ] DEL(al) l > $
-^ < P O S I X - s t a ð a l l [ N,DEF,NOM,PL ] INS(arnir) > $
+^ < p o s i x - s t a ð [ N,DEF,NOM,PL ] DEL(al) l > $
+^ < p o s i x - s t a ð a l l [ N,DEF,NOM,PL ] INS(arnir) > $
 ^ < f i s k [ N,DEF,DAT,SG ] INS(in) u r > $
 ^ < f i s k u [ N,DEF,DAT,SG ] DEL(r) > $
 ^ < f i s k u r [ N,DEF,DAT,SG ] INS(m) > $
@@ -6172,8 +6172,8 @@
 ^ < b r o t t v í s [ N,DEF,NOM,PL ] DEL(u) n > $
 ^ < b r o t t v í s u [ N,DEF,NOM,PL ] INS(a) n > $
 ^ < b r o t t v í s u n [ N,DEF,NOM,PL ] INS(irnar) > $
-^ < S e r b [ N,DEF,GEN,PL ] DEL(i) > $
-^ < S e r b i [ N,DEF,GEN,PL ] INS(anna) > $
+^ < s e r b [ N,DEF,GEN,PL ] DEL(i) > $
+^ < s e r b i [ N,DEF,GEN,PL ] INS(anna) > $
 ^ < b r a s s [ N,INDF,DAT,SG ] INS(i) > $
 ^ < l e y n i [ N,DEF,ACC,PL ] INS(n) > $
 ^ < m y n d [ V,IND,PST,2,PL ] DEL(a) > $
@@ -6399,8 +6399,8 @@
 ^ < a n g [ N,DEF,ACC,PL ] DEL(i) > $
 ^ < a n g i [ N,DEF,ACC,PL ] INS(ana) > $
 ^ < k a l [ N,DEF,GEN,SG ] INS(sins) > $
-^ < P O S I X - s t a ð a [ N,INDF,GEN,SG ] DEL(l) l > $
-^ < P O S I X - s t a ð a l l [ N,INDF,GEN,SG ] INS(s) > $
+^ < p o s i x - s t a ð a [ N,INDF,GEN,SG ] DEL(l) l > $
+^ < p o s i x - s t a ð a l l [ N,INDF,GEN,SG ] INS(s) > $
 ^ < b l ó ð f r u m n a m y n d u n [ N,DEF,ACC,SG ] INS(ina) > $
 ^ < f u l l t r ú [ N,DEF,DAT,PL ] DEL(i) > $
 ^ < f u l l t r ú i [ N,DEF,DAT,PL ] INS(unum) > $
@@ -6632,7 +6632,7 @@
 ^ < p á s [ N,DEF,GEN,SG ] INS(unn) a > $
 ^ < p á s a [ N,DEF,GEN,SG ] INS(r) > $
 ^ < s t ý r [ V,IMP,2,SG ] DEL(a) > $
-^ < V i r g i n í u r æ l l [ N,DEF,NOM,SG ] INS(inn) > $
+^ < v i r g i n í u r æ l l [ N,DEF,NOM,SG ] INS(inn) > $
 ^ < s v i p t [ V,IMP,2,SG ] DEL(a) > $
 ^ < h u g [ N,INDF,GEN,SG ] DEL(u) r > $
 ^ < h u g u [ N,INDF,GEN,SG ] INS(a) r > $
@@ -6782,8 +6782,8 @@
 ^ < l e s t r a r b [ N,DEF,ACC,PL ] DEL(ó) k > $
 ^ < l e s t r a r b ó [ N,DEF,ACC,PL ] INS(æ) k > $
 ^ < l e s t r a r b ó k [ N,DEF,ACC,PL ] INS(urnar) > $
-^ < T é k k [ N,DEF,ACC,PL ] DEL(i) > $
-^ < T é k k i [ N,DEF,ACC,PL ] INS(ana) > $
+^ < t é k k [ N,DEF,ACC,PL ] DEL(i) > $
+^ < t é k k i [ N,DEF,ACC,PL ] INS(ana) > $
 ^ < s k o ð [ N,DEF,GEN,PL ] DEL(u) n > $
 ^ < s k o ð u [ N,DEF,GEN,PL ] INS(anan) n > $
 ^ < s k o ð u n [ N,DEF,GEN,PL ] INS(a) > $
@@ -6922,8 +6922,8 @@
 ^ < s a u m a v é l [ N,DEF,GEN,PL ] INS(anna) > $
 ^ < e i g n a r h a l d s f é l [ N,INDF,ACC,PL ] DEL(a) g > $
 ^ < e i g n a r h a l d s f é l a [ N,INDF,ACC,PL ] INS(ö) g > $
-^ < K o r n b r e t [ N,DEF,GEN,PL ] DEL(i) > $
-^ < K o r n b r e t i [ N,DEF,GEN,PL ] INS(anna) > $
+^ < k o r n b r e t [ N,DEF,GEN,PL ] DEL(i) > $
+^ < k o r n b r e t i [ N,DEF,GEN,PL ] INS(anna) > $
 ^ < h á l f l e i k [ N,INDF,GEN,PL ] DEL(ur) > $
 ^ < h á l f l e i k u r [ N,INDF,GEN,PL ] INS(ja) > $
 ^ < m o r g u n f r ú [ N,DEF,ACC,SG ] INS(na) > $
@@ -6975,8 +6975,8 @@
 ^ < ó m a k a [ V,SBJV,PRS,3,PL ] INS(i) > $
 ^ < t e f l [ V,SBJV,PRS,2,SG ] DEL(a) > $
 ^ < t e f l a [ V,SBJV,PRS,2,SG ] INS(ir) > $
-^ < F r a k k [ N,INDF,ACC,PL ] DEL(i) > $
-^ < F r a k k i [ N,INDF,ACC,PL ] INS(a) > $
+^ < f r a k k [ N,INDF,ACC,PL ] DEL(i) > $
+^ < f r a k k i [ N,INDF,ACC,PL ] INS(a) > $
 ^ < g a m a n [ N,DEF,ACC,SG ] INS(ið) > $
 ^ < v í n a n d [ N,DEF,DAT,SG ] DEL(i) > $
 ^ < v í n a n d i [ N,DEF,DAT,SG ] INS(anum) > $
@@ -7200,10 +7200,10 @@
 ^ < e l d f j a l l [ N,INDF,DAT,SG ] INS(i) > $
 ^ < s n e k k j [ N,DEF,DAT,SG ] DEL(a) > $
 ^ < s n e k k j a [ N,DEF,DAT,SG ] INS(unni) > $
-^ < F r [ N,DEF,DAT,PL ] DEL(a) k k i > $
-^ < F r a [ N,DEF,DAT,PL ] INS(ö) k k i > $
-^ < F r a k k [ N,DEF,DAT,PL ] DEL(i) > $
-^ < F r a k k i [ N,DEF,DAT,PL ] INS(unum) > $
+^ < f r [ N,DEF,DAT,PL ] DEL(a) k k i > $
+^ < f r a [ N,DEF,DAT,PL ] INS(ö) k k i > $
+^ < f r a k k [ N,DEF,DAT,PL ] DEL(i) > $
+^ < f r a k k i [ N,DEF,DAT,PL ] INS(unum) > $
 ^ < b l ú s s a [ N,DEF,NOM,SG ] INS(n) > $
 ^ < m e ð a l t [ N,DEF,DAT,PL ] DEL(a) l > $
 ^ < m e ð a l t a [ N,DEF,DAT,PL ] INS(ö) l > $
@@ -7311,8 +7311,8 @@
 ^ < g u b b a [ V,SBJV,PRS,3,PL ] INS(i) > $
 ^ < f a t [ N,DEF,NOM,SG ] INS(ið) > $
 ^ < s p j ó t k a s t [ N,DEF,ACC,SG ] INS(ið) > $
-^ < Þ j ó ð v e r j [ N,INDF,GEN,SG ] DEL(i) > $
-^ < Þ j ó ð v e r j i [ N,INDF,GEN,SG ] INS(a) > $
+^ < þ j ó ð v e r j [ N,INDF,GEN,SG ] DEL(i) > $
+^ < þ j ó ð v e r j i [ N,INDF,GEN,SG ] INS(a) > $
 ^ < s k e g g [ N,DEF,GEN,PL ] INS(janna) > $
 ^ < h e f l [ V,SBJV,PST,2,PL ] DEL(a) > $
 ^ < h e f l a [ V,SBJV,PST,2,PL ] INS(uðuð) > $
@@ -7515,8 +7515,8 @@
 ^ < g e i t [ N,DEF,ACC,PL ] INS(urnar) > $
 ^ < s y s t k i n [ N,INDF,GEN,SG ] INS(a) > $
 ^ < k i ð [ N,DEF,GEN,SG ] INS(sins) > $
-^ < K o r n b r e t [ N,INDF,DAT,SG ] DEL(i) > $
-^ < K o r n b r e t i [ N,INDF,DAT,SG ] INS(a) > $
+^ < k o r n b r e t [ N,INDF,DAT,SG ] DEL(i) > $
+^ < k o r n b r e t i [ N,INDF,DAT,SG ] INS(a) > $
 ^ < h l a u p [ N,INDF,GEN,PL ] INS(a) > $
 ^ < f l í s [ N,INDF,ACC,PL ] INS(ar) > $
 ^ < s t ý [ V,IND,PST,2,SG ] INS(rði) r a > $
@@ -7682,8 +7682,8 @@
 ^ < s v ö f n [ N,DEF,ACC,PL ] INS(ana) > $
 ^ < v a t n s l i t [ N,INDF,GEN,SG ] DEL(u) r > $
 ^ < v a t n s l i t u [ N,INDF,GEN,SG ] INS(a) r > $
-^ < Í r [ N,DEF,DAT,PL ] DEL(i) > $
-^ < Í r i [ N,DEF,DAT,PL ] INS(unum) > $
+^ < í r [ N,DEF,DAT,PL ] DEL(i) > $
+^ < í r i [ N,DEF,DAT,PL ] INS(unum) > $
 ^ < g e i m f e r ð [ N,INDF,ACC,PL ] INS(ir) > $
 ^ < m i n n i s g r i p [ N,DEF,GEN,SG ] DEL(ur) > $
 ^ < m i n n i s g r i p u r [ N,DEF,GEN,SG ] INS(sins) > $
@@ -7972,8 +7972,8 @@
 ^ < v e f s t ó l l [ N,INDF,GEN,SG ] INS(s) > $
 ^ < j ö t u n u x [ N,INDF,ACC,PL ] DEL(i) > $
 ^ < j ö t u n u x i [ N,INDF,ACC,PL ] INS(a) > $
-^ < Í r [ N,DEF,GEN,SG ] DEL(i) > $
-^ < Í r i [ N,DEF,GEN,SG ] INS(ans) > $
+^ < í r [ N,DEF,GEN,SG ] DEL(i) > $
+^ < í r i [ N,DEF,GEN,SG ] INS(ans) > $
 ^ < t o g [ V,SBJV,PRS,2,PL ] DEL(a) > $
 ^ < t o g a [ V,SBJV,PRS,2,PL ] INS(ið) > $
 ^ < s k e r [ N,DEF,DAT,PL ] INS(junum) > $
@@ -8242,9 +8242,9 @@
 ^ < s m á n [ N,DEF,GEN,PL ] INS(anna) > $
 ^ < g r á ð u b o g [ N,INDF,DAT,SG ] DEL(i) > $
 ^ < g r á ð u b o g i [ N,INDF,DAT,SG ] INS(a) > $
-^ < S o v é t r í k [ N,DEF,DAT,SG ] DEL(i) n > $
-^ < S o v é t r í k i [ N,DEF,DAT,SG ] INS(ju) n > $
-^ < S o v é t r í k i n [ N,DEF,DAT,SG ] INS(um) > $
+^ < s o v é t r í k [ N,DEF,DAT,SG ] DEL(i) n > $
+^ < s o v é t r í k i [ N,DEF,DAT,SG ] INS(ju) n > $
+^ < s o v é t r í k i n [ N,DEF,DAT,SG ] INS(um) > $
 ^ < á v í s [ N,INDF,GEN,PL ] DEL(u) n > $
 ^ < á v í s u [ N,INDF,GEN,PL ] INS(a) n > $
 ^ < á v í s u n [ N,INDF,GEN,PL ] INS(a) > $
@@ -8311,7 +8311,7 @@
 ^ < h r æ æ t a [ N,INDF,GEN,SG ] INS(u) > $
 ^ < s k e n k [ V,SBJV,PRS,3,SG ] DEL(ja) > $
 ^ < s k e n k j a [ V,SBJV,PRS,3,SG ] INS(i) > $
-^ < L i l j a [ N,DEF,NOM,SG ] INS(n) > $
+^ < l i l j a [ N,DEF,NOM,SG ] INS(n) > $
 ^ < b r e i d d a r g r á ð [ N,INDF,DAT,SG ] DEL(a) > $
 ^ < b r e i d d a r g r á ð a [ N,INDF,DAT,SG ] INS(u) > $
 ^ < [ N,INDF,NOM,SG ] DEL(stýr) i k e r f i > $
@@ -8450,8 +8450,8 @@
 ^ < e k k j a [ N,DEF,DAT,SG ] INS(unni) > $
 ^ < n i ð u r s t [ N,INDF,ACC,PL ] DEL(aða) > $
 ^ < n i ð u r s t a ð a [ N,INDF,ACC,PL ] INS(öður) > $
-^ < S p a n j ó l [ N,INDF,ACC,SG ] DEL(i) > $
-^ < S p a n j ó l i [ N,INDF,ACC,SG ] INS(a) > $
+^ < s p a n j ó l [ N,INDF,ACC,SG ] DEL(i) > $
+^ < s p a n j ó l i [ N,INDF,ACC,SG ] INS(a) > $
 ^ < l æ k n i [ N,INDF,DAT,SG ] DEL(r) > $
 ^ < l ú s [ N,INDF,GEN,SG ] INS(ar) > $
 ^ < h v i r f i l v i n d [ N,INDF,ACC,PL ] DEL(ur) > $
@@ -8785,8 +8785,8 @@
 ^ < m i g a [ N,INDF,GEN,SG ] INS(u) > $
 ^ < k r a k k a s k ö m [ N,DEF,DAT,PL ] INS(munu) m > $
 ^ < m á t t [ N,INDF,ACC,SG ] DEL(ur) > $
-^ < F r a k k [ N,INDF,NOM,PL ] DEL(i) > $
-^ < F r a k k i [ N,INDF,NOM,PL ] INS(ar) > $
+^ < f r a k k [ N,INDF,NOM,PL ] DEL(i) > $
+^ < f r a k k i [ N,INDF,NOM,PL ] INS(ar) > $
 ^ < v o f [ N,INDF,DAT,PL ] DEL(a) > $
 ^ < v o f a [ N,INDF,DAT,PL ] INS(um) > $
 ^ < g r ú b b [ N,INDF,ACC,SG ] DEL(a) > $
@@ -9235,8 +9235,8 @@
 ^ < v a r n a r m [ N,INDF,GEN,PL ] INS(ann) a ð u r > $
 ^ < v a r n a r m a [ N,INDF,GEN,PL ] DEL(ður) > $
 ^ < k e r t i [ N,DEF,ACC,PL ] INS(n) > $
-^ < S v í [ N,DEF,NOM,PL ] INS(arn) i > $
-^ < S v í i [ N,DEF,NOM,PL ] INS(r) > $
+^ < s v í [ N,DEF,NOM,PL ] INS(arn) i > $
+^ < s v í i [ N,DEF,NOM,PL ] INS(r) > $
 ^ < k y s s a [ V.PTCP,PRS ] INS(ndi) > $
 ^ < p l æ g j [ V,SBJV,PRS,1,PL ] DEL(a) > $
 ^ < p l æ g j a [ V,SBJV,PRS,1,PL ] INS(um) > $
@@ -10244,8 +10244,8 @@
 ^ < k æ l i s k á p [ N,INDF,ACC,SG ] DEL(ur) > $
 ^ < s í t r ó n [ N,INDF,DAT,SG ] DEL(a) > $
 ^ < s í t r ó n a [ N,INDF,DAT,SG ] INS(u) > $
-^ < E i s t [ N,DEF,ACC,PL ] DEL(i) > $
-^ < E i s t i [ N,DEF,ACC,PL ] INS(ana) > $
+^ < e i s t [ N,DEF,ACC,PL ] DEL(i) > $
+^ < e i s t i [ N,DEF,ACC,PL ] INS(ana) > $
 ^ < h v [ V,SBJV,PST,3,PL ] DEL(ína) > $
 ^ < h v í n a [ V,SBJV,PST,3,PL ] INS(inu) > $
 ^ < d æ s [ V,IND,PST,1,SG ] DEL(a) > $
@@ -10444,7 +10444,7 @@
 ^ < f ö g g [ N,DEF,GEN,SG ] DEL(ur) > $
 ^ < f ö g g u r [ N,DEF,GEN,SG ] INS(anna) > $
 ^ < p y n d a [ V,IND,PST,2,SG ] INS(ðir) > $
-^ < S e r b i [ N,DEF,NOM,SG ] INS(nn) > $
+^ < s e r b i [ N,DEF,NOM,SG ] INS(nn) > $
 ^ < b o ð o r ð [ N,DEF,GEN,SG ] INS(sins) > $
 ^ < k r [ N,DEF,DAT,PL ] DEL(a) k k i > $
 ^ < k r a [ N,DEF,DAT,PL ] INS(ö) k k i > $
@@ -10647,8 +10647,8 @@
 ^ < l a n g h l i ð [ N,INDF,GEN,SG ] INS(ar) > $
 ^ < b l ó m s t r [ V,SBJV,PRS,2,PL ] DEL(a) > $
 ^ < b l ó m s t r a [ V,SBJV,PRS,2,PL ] INS(ið) > $
-^ < S k o t [ N,DEF,NOM,PL ] INS(arn) i > $
-^ < S k o t i [ N,DEF,NOM,PL ] INS(r) > $
+^ < s k o t [ N,DEF,NOM,PL ] INS(arn) i > $
+^ < s k o t i [ N,DEF,NOM,PL ] INS(r) > $
 ^ < v í d d [ N,DEF,DAT,PL ] INS(unum) > $
 ^ < s j ó [ N,INDF,NOM,PL ] INS(i) r > $
 ^ < a n d e i n d [ N,DEF,NOM,SG ] INS(in) > $
@@ -10675,8 +10675,8 @@
 ^ < s v e i g u r [ N,DEF,GEN,SG ] INS(sins) > $
 ^ < d r o p i [ N,DEF,NOM,SG ] INS(nn) > $
 ^ < h ú ð [ N,INDF,NOM,PL ] INS(ir) > $
-^ < L i l j [ N,INDF,NOM,PL ] DEL(a) > $
-^ < L i l j a [ N,INDF,NOM,PL ] INS(ur) > $
+^ < l i l j [ N,INDF,NOM,PL ] DEL(a) > $
+^ < l i l j a [ N,INDF,NOM,PL ] INS(ur) > $
 ^ < s í m a n ú m e r [ N,DEF,NOM,SG ] INS(ið) > $
 ^ < v í g [ V,SBJV,PST,2,PL ] DEL(ja) > $
 ^ < v í g j a [ V,SBJV,PST,2,PL ] INS(ðuð) > $
@@ -10717,8 +10717,8 @@
 ^ < k r a b b i [ N,INDF,NOM,PL ] INS(ar) > $
 ^ < v i ð [ N,DEF,NOM,PL ] DEL(u) r > $
 ^ < v i ð u [ N,DEF,NOM,PL ] INS(irni) r > $
-^ < A þ e n i n g [ N,INDF,GEN,SG ] DEL(ur) > $
-^ < A þ e n i n g u r [ N,INDF,GEN,SG ] INS(s) > $
+^ < a þ e n i n g [ N,INDF,GEN,SG ] DEL(ur) > $
+^ < a þ e n i n g u r [ N,INDF,GEN,SG ] INS(s) > $
 ^ < ú t h a l d [ N,DEF,NOM,SG ] INS(ið) > $
 ^ < ö l d u n g a r á ð s m a [ N,INDF,DAT,SG ] DEL(ður) > $
 ^ < ö l d u n g a r á ð s m a ð u r [ N,INDF,DAT,SG ] INS(nni) > $
@@ -10949,7 +10949,7 @@
 ^ < v í n b e r j a l ö g [ N,INDF,ACC,SG ] DEL(ur) > $
 ^ < æ ð a r d ú [ N,INDF,GEN,SG ] DEL(n) n > $
 ^ < æ ð a r d ú n n [ N,INDF,GEN,SG ] INS(s) > $
-^ < V e n n m y n d [ N,INDF,DAT,PL ] INS(um) > $
+^ < v e n n m y n d [ N,INDF,DAT,PL ] INS(um) > $
 ^ < þ j ó [ N,INDF,GEN,SG ] DEL(n) n > $
 ^ < þ j ó n n [ N,INDF,GEN,SG ] INS(s) > $
 ^ < s l e ð [ N,INDF,DAT,SG ] DEL(i) > $
@@ -11074,8 +11074,8 @@
 ^ < l e i k a r i [ N,DEF,GEN,PL ] INS(anna) > $
 ^ < h a n d k n a t t l e i k s þ j á l f a r [ N,DEF,GEN,PL ] DEL(i) > $
 ^ < h a n d k n a t t l e i k s þ j á l f a r i [ N,DEF,GEN,PL ] INS(anna) > $
-^ < P O S I X - s t a ð a [ N,DEF,GEN,SG ] DEL(l) l > $
-^ < P O S I X - s t a ð a l l [ N,DEF,GEN,SG ] INS(sins) > $
+^ < p o s i x - s t a ð a [ N,DEF,GEN,SG ] DEL(l) l > $
+^ < p o s i x - s t a ð a l l [ N,DEF,GEN,SG ] INS(sins) > $
 ^ < l [ N,DEF,NOM,PL ] DEL(a) k k > $
 ^ < l a [ N,DEF,NOM,PL ] INS(ö) k k > $
 ^ < l a k k [ N,DEF,NOM,PL ] INS(in) > $
@@ -11111,8 +11111,8 @@
 ^ < m á g u r [ N,INDF,DAT,PL ] INS(m) > $
 ^ < b í l s t j ó r [ N,DEF,ACC,PL ] DEL(i) > $
 ^ < b í l s t j ó r i [ N,DEF,ACC,PL ] INS(ana) > $
-^ < S p a n j ó l [ N,DEF,GEN,SG ] DEL(i) > $
-^ < S p a n j ó l i [ N,DEF,GEN,SG ] INS(ans) > $
+^ < s p a n j ó l [ N,DEF,GEN,SG ] DEL(i) > $
+^ < s p a n j ó l i [ N,DEF,GEN,SG ] INS(ans) > $
 ^ < s t r [ V,IND,PST,3,SG ] DEL(júk) a > $
 ^ < s t r j ú k a [ V,IND,PST,3,SG ] INS(uk) > $
 ^ < s t j ú p m ó ð [ N,INDF,ACC,SG ] DEL(i) r > $
@@ -11176,8 +11176,8 @@
 ^ < t í s k a [ N,DEF,DAT,PL ] INS(unum) > $
 ^ < v í k i n g u [ N,DEF,DAT,PL ] DEL(r) > $
 ^ < v í k i n g u r [ N,DEF,DAT,PL ] INS(num) > $
-^ < A þ e n i n g [ N,DEF,ACC,SG ] DEL(ur) > $
-^ < A þ e n i n g u r [ N,DEF,ACC,SG ] INS(inn) > $
+^ < a þ e n i n g [ N,DEF,ACC,SG ] DEL(ur) > $
+^ < a þ e n i n g u r [ N,DEF,ACC,SG ] INS(inn) > $
 ^ < l [ N,DEF,DAT,PL ] DEL(a) x > $
 ^ < l a [ N,DEF,DAT,PL ] INS(ö) x > $
 ^ < l a x [ N,DEF,DAT,PL ] INS(unum) > $
@@ -11318,8 +11318,8 @@
 ^ < b l ó ð a p p e l s í [ N,DEF,ACC,SG ] INS(nu) n a > $
 ^ < r i f r i l d [ N,INDF,GEN,PL ] DEL(i) > $
 ^ < r i f r i l d i [ N,INDF,GEN,PL ] INS(a) > $
-^ < Í s l e n d i n g u [ N,DEF,DAT,PL ] DEL(r) > $
-^ < Í s l e n d i n g u r [ N,DEF,DAT,PL ] INS(num) > $
+^ < í s l e n d i n g u [ N,DEF,DAT,PL ] DEL(r) > $
+^ < í s l e n d i n g u r [ N,DEF,DAT,PL ] INS(num) > $
 ^ < s v e k k j [ V,IND,PRS,1,PL ] DEL(a) > $
 ^ < s v e k k j a [ V,IND,PRS,1,PL ] INS(um) > $
 ^ < h r i f s a [ V,IND,PST,3,SG ] INS(ði) > $
@@ -11453,8 +11453,8 @@
 ^ < f [ N,DEF,GEN,PL ] DEL(ö) n n > $
 ^ < f ö [ N,DEF,GEN,PL ] INS(anna) n n > $
 ^ < f ö n n [ N,DEF,GEN,PL ] INS(a) > $
-^ < Í s l e n d i n g [ N,DEF,GEN,SG ] DEL(ur) > $
-^ < Í s l e n d i n g u r [ N,DEF,GEN,SG ] INS(sins) > $
+^ < í s l e n d i n g [ N,DEF,GEN,SG ] DEL(ur) > $
+^ < í s l e n d i n g u r [ N,DEF,GEN,SG ] INS(sins) > $
 ^ < ö x u [ N,DEF,GEN,SG ] DEL(l) l > $
 ^ < ö x u l l [ N,DEF,GEN,SG ] INS(sins) > $
 ^ < s k ó s m i ð [ N,INDF,ACC,PL ] DEL(ur) > $
@@ -11554,8 +11554,8 @@
 ^ < r i t g e r ð [ N,DEF,NOM,SG ] INS(in) > $
 ^ < h ú f [ N,INDF,ACC,PL ] DEL(a) > $
 ^ < h ú f a [ N,INDF,ACC,PL ] INS(ur) > $
-^ < V i r g i n í u r æ [ N,DEF,DAT,SG ] DEL(l) l > $
-^ < V i r g i n í u r æ l l [ N,DEF,DAT,SG ] INS(num) > $
+^ < v i r g i n í u r æ [ N,DEF,DAT,SG ] DEL(l) l > $
+^ < v i r g i n í u r æ l l [ N,DEF,DAT,SG ] INS(num) > $
 ^ < f r i ð l ý s [ V,IND,PST,2,SG ] DEL(a) > $
 ^ < f r i ð l ý s a [ V,IND,PST,2,SG ] INS(tir) > $
 ^ < a n d m æ l [ V,SBJV,PRS,3,PL ] DEL(a) > $
@@ -11655,8 +11655,8 @@
 ^ < m æ t [ V,IMP,2,SG ] DEL(a) > $
 ^ < ú r s k u r ð [ V,SBJV,PST,1,PL ] DEL(a) > $
 ^ < ú r s k u r ð a [ V,SBJV,PST,1,PL ] INS(uðum) > $
-^ < B e l g [ N,DEF,GEN,PL ] DEL(i) > $
-^ < B e l g i [ N,DEF,GEN,PL ] INS(anna) > $
+^ < b e l g [ N,DEF,GEN,PL ] DEL(i) > $
+^ < b e l g i [ N,DEF,GEN,PL ] INS(anna) > $
 ^ < m ó l ý b d e n [ N,DEF,GEN,SG ] INS(sins) > $
 ^ < r o ð n [ V,IND,PRS,2,PL ] DEL(a) > $
 ^ < r o ð n a [ V,IND,PRS,2,PL ] INS(ið) > $
@@ -11840,8 +11840,8 @@
 ^ < b a s s [ N,DEF,GEN,SG ] DEL(i) > $
 ^ < k a l k s t e i n [ N,DEF,NOM,PL ] INS(ar) n > $
 ^ < k a l k s t e i n n [ N,DEF,NOM,PL ] INS(ir) > $
-^ < S p á n v e r j [ N,DEF,NOM,PL ] INS(arn) i > $
-^ < S p á n v e r j i [ N,DEF,NOM,PL ] INS(r) > $
+^ < s p á n v e r j [ N,DEF,NOM,PL ] INS(arn) i > $
+^ < s p á n v e r j i [ N,DEF,NOM,PL ] INS(r) > $
 ^ < h i m n [ N,INDF,DAT,SG ] DEL(a) > $
 ^ < h i m n a [ N,INDF,DAT,SG ] INS(u) > $
 ^ < n a g [ V,SBJV,PRS,2,PL ] DEL(a) > $
@@ -11886,8 +11886,8 @@
 ^ < b l e k [ N,DEF,NOM,SG ] INS(ið) > $
 ^ < g l æ r u v æ n g [ N,INDF,NOM,PL ] DEL(u) r > $
 ^ < g l æ r u v æ n g u [ N,INDF,NOM,PL ] INS(i) r > $
-^ < P é t t [ N,DEF,GEN,PL ] DEL(i) > $
-^ < P é t t i [ N,DEF,GEN,PL ] INS(anna) > $
+^ < p é t t [ N,DEF,GEN,PL ] DEL(i) > $
+^ < p é t t i [ N,DEF,GEN,PL ] INS(anna) > $
 ^ < g e i s l a d i s k [ N,DEF,NOM,PL ] DEL(u) r > $
 ^ < g e i s l a d i s k u [ N,DEF,NOM,PL ] INS(arni) r > $
 ^ < r ý n [ V,SBJV,PST,3,PL ] DEL(a) > $
@@ -11918,10 +11918,10 @@
 ^ < f l e y g [ V,IND,PST,2,PL ] DEL(ja) > $
 ^ < f l e y g j a [ V,IND,PST,2,PL ] INS(ðuð) > $
 ^ < e i n g y ð i s t r ú [ N,DEF,GEN,PL ] INS(nna) > $
-^ < [ N,DEF,NOM,PL ] DEL(E) n g l e n d i n g u r > $
-^ < E [ N,DEF,NOM,PL ] INS(e) n g l e n d i n g u r > $
-^ < E n g l e n d i n g [ N,DEF,NOM,PL ] DEL(u) r > $
-^ < E n g l e n d i n g u [ N,DEF,NOM,PL ] INS(arni) r > $
+^ < [ N,DEF,NOM,PL ] DEL(e) n g l e n d i n g u r > $
+^ < e [ N,DEF,NOM,PL ] INS(e) n g l e n d i n g u r > $
+^ < e n g l e n d i n g [ N,DEF,NOM,PL ] DEL(u) r > $
+^ < e n g l e n d i n g u [ N,DEF,NOM,PL ] INS(arni) r > $
 ^ < h e r m a n n a s k á l [ N,DEF,ACC,PL ] DEL(i) > $
 ^ < h e r m a n n a s k á l i [ N,DEF,ACC,PL ] INS(ana) > $
 ^ < m a l [ V,IMP,2,PL ] DEL(a) > $
@@ -11984,8 +11984,8 @@
 ^ < h r e y f i l l [ N,DEF,DAT,PL ] INS(unum) > $
 ^ < ó n á ð a [ V,SBJV,PST,2,SG ] INS(ðir) > $
 ^ < þ o k u s k ý [ N,DEF,DAT,PL ] INS(junum) > $
-^ < V e n n m y n d [ N,DEF,GEN,SG ] INS(arinnar) > $
-^ < S o v é t r í k i [ N,INDF,ACC,SG ] DEL(n) > $
+^ < v e n n m y n d [ N,DEF,GEN,SG ] INS(arinnar) > $
+^ < s o v é t r í k i [ N,INDF,ACC,SG ] DEL(n) > $
 ^ < e f n a f r æ ð i [ N,DEF,NOM,SG ] INS(n) > $
 ^ < t r j ó [ N,DEF,ACC,SG ] INS(nu) n a > $
 ^ < h j a r t a [ N,DEF,ACC,SG ] INS(ð) > $
@@ -12199,10 +12199,10 @@
 ^ < g l æ r [ N,DEF,ACC,PL ] INS(urn) a > $
 ^ < g l æ r a [ N,DEF,ACC,PL ] INS(r) > $
 ^ < e r f ð a f r æ ð i [ N,DEF,NOM,SG ] INS(n) > $
-^ < R [ N,INDF,DAT,SG ] DEL(a) g g a > $
-^ < R a [ N,INDF,DAT,SG ] INS(ö) g g a > $
-^ < R a g g [ N,INDF,DAT,SG ] DEL(a) > $
-^ < R a g g a [ N,INDF,DAT,SG ] INS(u) > $
+^ < r [ N,INDF,DAT,SG ] DEL(a) g g a > $
+^ < r a [ N,INDF,DAT,SG ] INS(ö) g g a > $
+^ < r a g g [ N,INDF,DAT,SG ] DEL(a) > $
+^ < r a g g a [ N,INDF,DAT,SG ] INS(u) > $
 ^ < s t o r m u [ N,INDF,DAT,PL ] DEL(r) > $
 ^ < s t o r m u r [ N,INDF,DAT,PL ] INS(m) > $
 ^ < h ú ð [ N,DEF,GEN,PL ] INS(anna) > $
@@ -12543,8 +12543,8 @@
 ^ < v é l a [ V,IND,PST,3,SG ] INS(ði) > $
 ^ < t r ö n u b e r [ N,DEF,DAT,SG ] INS(inu) > $
 ^ < l j ó ð s k á l d [ N,DEF,ACC,PL ] INS(in) > $
-^ < K o r n b r e t [ N,DEF,ACC,SG ] DEL(i) > $
-^ < K o r n b r e t i [ N,DEF,ACC,SG ] INS(ann) > $
+^ < k o r n b r e t [ N,DEF,ACC,SG ] DEL(i) > $
+^ < k o r n b r e t i [ N,DEF,ACC,SG ] INS(ann) > $
 ^ < g æ s [ V,SBJV,PST,3,PL ] DEL(a) > $
 ^ < g æ s a [ V,SBJV,PST,3,PL ] INS(uðu) > $
 ^ < n a u ð s y n [ N,INDF,GEN,PL ] INS(ja) > $
@@ -12563,8 +12563,8 @@
 ^ < g r í s k a [ N,DEF,NOM,SG ] INS(n) > $
 ^ < f e s [ N,DEF,NOM,SG ] INS(ið) > $
 ^ < o r ð s i f j a f r æ ð i [ N,DEF,NOM,SG ] INS(n) > $
-^ < B r e t [ N,DEF,ACC,PL ] DEL(i) > $
-^ < B r e t i [ N,DEF,ACC,PL ] INS(ana) > $
+^ < b r e t [ N,DEF,ACC,PL ] DEL(i) > $
+^ < b r e t i [ N,DEF,ACC,PL ] INS(ana) > $
 ^ < b l e k b y t t [ N,INDF,ACC,SG ] DEL(a) > $
 ^ < b l e k b y t t a [ N,INDF,ACC,SG ] INS(u) > $
 ^ < k o l [ N,INDF,DAT,SG ] DEL(i) > $
@@ -12980,8 +12980,8 @@
 ^ < b ó k a s [ N,DEF,DAT,PL ] DEL(a) f n > $
 ^ < b ó k a s a [ N,DEF,DAT,PL ] INS(ö) f n > $
 ^ < b ó k a s a f n [ N,DEF,DAT,PL ] INS(unum) > $
-^ < B e l g [ N,INDF,DAT,SG ] DEL(i) > $
-^ < B e l g i [ N,INDF,DAT,SG ] INS(a) > $
+^ < b e l g [ N,INDF,DAT,SG ] DEL(i) > $
+^ < b e l g i [ N,INDF,DAT,SG ] INS(a) > $
 ^ < v a r n a r m a [ N,INDF,ACC,SG ] DEL(ður) > $
 ^ < v a r n a r m a ð u r [ N,INDF,ACC,SG ] INS(nn) > $
 ^ < s t r o m p u r [ N,DEF,NOM,SG ] INS(inn) > $
@@ -13683,8 +13683,8 @@
 ^ < s n í p u r [ N,DEF,GEN,SG ] INS(sins) > $
 ^ < s p æ [ N,DEF,DAT,PL ] DEL(l) l > $
 ^ < s p æ l l [ N,DEF,DAT,PL ] INS(unum) > $
-^ < P O S I X - s t a ð a [ N,DEF,ACC,SG ] DEL(l) l > $
-^ < P O S I X - s t a ð a l l [ N,DEF,ACC,SG ] INS(inn) > $
+^ < p o s i x - s t a ð a [ N,DEF,ACC,SG ] DEL(l) l > $
+^ < p o s i x - s t a ð a l l [ N,DEF,ACC,SG ] INS(inn) > $
 ^ < m e y j [ N,DEF,NOM,PL ] INS(urn) a > $
 ^ < m e y j a [ N,DEF,NOM,PL ] INS(r) > $
 ^ < f æ l [ V,IND,PST,3,PL ] DEL(a) > $
@@ -14295,8 +14295,8 @@
 ^ < k ó l i b r í f u g l [ N,INDF,GEN,SG ] INS(s) > $
 ^ < f r a k k [ N,INDF,ACC,SG ] DEL(i) > $
 ^ < f r a k k i [ N,INDF,ACC,SG ] INS(a) > $
-^ < S k o t [ N,INDF,DAT,SG ] DEL(i) > $
-^ < S k o t i [ N,INDF,DAT,SG ] INS(a) > $
+^ < s k o t [ N,INDF,DAT,SG ] DEL(i) > $
+^ < s k o t i [ N,INDF,DAT,SG ] INS(a) > $
 ^ < f r u m u v e g g [ N,INDF,ACC,PL ] DEL(ur) > $
 ^ < f r u m u v e g g u r [ N,INDF,ACC,PL ] INS(i) > $
 ^ < f j ö l m i ð l a s [ N,INDF,GEN,SG ] DEL(aga) > $

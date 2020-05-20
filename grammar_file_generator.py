@@ -232,20 +232,54 @@ def _generate_terminal_ops(ops_and_objects: Collection[OpObject]) -> Collection[
     return [_generate_terminal_rule(OP, str(oo)) for oo in ops_and_objects]
 
 
-if __name__ == '__main__':
-    train_type = TrainingType.Both
-    out_names = {TrainingType.Left: "left", TrainingType.Right: "right", TrainingType.Both: "both"}
+def assert_grammar_and_train_match(grammar_file_path: str, train_file_path: str):
+    terminals = _get_terminals_from_grammar(grammar_file_path)
+    _assert_train_file_composed_of_terminals(train_file_path, terminals)
 
-    type_of_split = SplitType(
-        SplitType.ContextLetters | SplitType.IncludeGrammar
-    )
-    output_dir = f"data/processed/grammar/{out_names[train_type]}"
-    if not os.path.exists(output_dir):
-        os.mkdir(output_dir)
-    generate_grammar_file(
-        "data/processed/alphabet/asturian.csv",
-        "data/processed/context_morph_data/asturian.csv",
-        f"{output_dir}/asturian.unigram",
-        type_of_split,
-        train_type
-    )
+
+def _get_terminals_from_grammar(grammar_file_path: str) -> Collection[str]:
+    import regex as re
+    all_terminals = []
+    with open(grammar_file_path, mode="r") as file:
+        for line in file:
+            terminals = re.findall('".+"', line)
+            all_terminals.extend(t.strip('"') for t in terminals)
+    assert len(set(all_terminals)) == len(all_terminals)
+    return all_terminals
+
+
+def _assert_train_file_composed_of_terminals(train_file_path: str, terminals: Collection[str]):
+    with open(train_file_path, mode="r") as file:
+        for line in file:
+            chars = line.strip().split(" ")
+            for char in chars:
+                if char not in terminals:
+                    print(f"Character: {char} from line {line} not in terminals")
+                    print(f"Terminals:")
+                    for i in range(len(terminals) // 10):
+                        print(terminals[i * 10: (i + 1) * 10])
+                    raise Exception
+#Breaker
+#['^', '<', 'E', 'U', '-', 'c', 's', 'a', 't', 'l', 'a', 'k', 'o', 'z', 'á', 's', '[', 'N,DAT,PL', ']', 'INS(oknak)', '>', '$']
+
+if __name__ == '__main__':
+    # train_type = TrainingType.Both
+    # out_names = {TrainingType.Left: "left", TrainingType.Right: "right", TrainingType.Both: "both"}
+    #
+    # type_of_split = SplitType(
+    #     SplitType.ContextLetters | SplitType.IncludeGrammar
+    # )
+    # output_dir = f"data/processed/grammar/{out_names[train_type]}"
+    # if not os.path.exists(output_dir):
+    #     os.mkdir(output_dir)
+    # generate_grammar_file(
+    #     "data/processed/alphabet/asturian.csv",
+    #     "data/processed/context_morph_data/asturian.csv",
+    #     f"{output_dir}/asturian.unigram",
+    #     type_of_split,
+    #     train_type
+    # )
+
+    gram_path = "data/processed/grammar/both/hungarian.unigram"
+    train_path = "data/processed/grammar/train_data/SplitType_IncludeGrammar_ContextLetters/hungarian.dat"
+    assert_grammar_and_train_match(gram_path, train_path)

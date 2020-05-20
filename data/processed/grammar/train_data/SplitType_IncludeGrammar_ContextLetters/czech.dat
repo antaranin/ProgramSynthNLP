@@ -1,5 +1,5 @@
-^ < N o r k [ N,VOC,PL ] DEL(a) > $
-^ < N o r k a [ N,VOC,PL ] INS(y) > $
+^ < n o r k [ N,VOC,PL ] DEL(a) > $
+^ < n o r k a [ N,VOC,PL ] INS(y) > $
 ^ < m a s t u r b o v a [ V,COND,PST,3,PL,MASC,ANIM ] DEL(t) > $
 ^ < m a s t u r b o v a t [ V,COND,PST,3,PL,MASC,ANIM ] INS(li) > $
 ^ < p l o t i c [ N,ESS,PL ] DEL(e) > $
@@ -13,8 +13,8 @@
 ^ < č a s n ý [ ADJ,ESS,PL ] INS(ch) > $
 ^ < b l e d [ ADJ,ACC,FEM,SG ] DEL(ý) > $
 ^ < b l e d ý [ ADJ,ACC,FEM,SG ] INS(ou) > $
-^ < N o r k [ N,ACC,SG ] DEL(a) > $
-^ < N o r k a [ N,ACC,SG ] INS(u) > $
+^ < n o r k [ N,ACC,SG ] DEL(a) > $
+^ < n o r k a [ N,ACC,SG ] INS(u) > $
 ^ < s t ě h o v a t [ V,IND,PST,2,SG,FORM,NEUT ] INS(e) > $
 ^ < d i a g n o s t i k o v a [ V,COND,PST,2,SG,NEUT ] DEL(t) > $
 ^ < d i a g n o s t i k o v a t [ V,COND,PST,2,SG,NEUT ] INS(lo) > $
@@ -331,8 +331,8 @@
 ^ < b e z e j m e n n ý [ ADJ,VOC,FEM,SG ] INS(á) > $
 ^ < b o j o v a t [ V,COND,PRS,2,SG,FORM,FEM ] INS(e) > $
 ^ < t a x í k [ N,DAT,SG ] INS(u) > $
-^ < A l b á n k [ N,VOC,SG ] DEL(a) > $
-^ < A l b á n k a [ N,VOC,SG ] INS(o) > $
+^ < a l b á n k [ N,VOC,SG ] DEL(a) > $
+^ < a l b á n k a [ N,VOC,SG ] INS(o) > $
 ^ < d r u ž n ý [ ADJ,INS,MASC,SG ] INS(m) > $
 ^ < h e k t i [ ADJ,VOC,ANIM,MASC,PL ] DEL(cký) > $
 ^ < h e k t i c k ý [ ADJ,VOC,ANIM,MASC,PL ] INS(čtí) > $
@@ -690,8 +690,8 @@
 ^ < t a j g a [ N,INS,PL ] INS(mi) > $
 ^ < m e m o r o v [ V.PTCP,ACT,PRF,NEUT,PL ] INS(al) a t > $
 ^ < m e m o r o v a [ V.PTCP,ACT,PRF,NEUT,PL ] DEL(t) > $
-^ < Ž i d o v k [ N,VOC,PL ] DEL(a) > $
-^ < Ž i d o v k a [ N,VOC,PL ] INS(y) > $
+^ < ž i d o v k [ N,VOC,PL ] DEL(a) > $
+^ < ž i d o v k a [ N,VOC,PL ] INS(y) > $
 ^ < s p e c i f i c k [ ADJ,ESS,FEM,SG ] DEL(ý) > $
 ^ < s p e c i f i c k ý [ ADJ,ESS,FEM,SG ] INS(é) > $
 ^ < k r o u [ V,IND,PRS,2,SG ] DEL(ti) t > $
@@ -749,14 +749,14 @@
 ^ < e l e m e n t á r n í [ ADJ,GEN,NEUT,SG ] INS(ho) > $
 ^ < e t n o l o g i [ ADJ,NOM,ANIM,MASC,PL ] DEL(cký) > $
 ^ < e t n o l o g i c k ý [ ADJ,NOM,ANIM,MASC,PL ] INS(čtí) > $
-^ < U r u g u a y [ N,VOC,PL ] DEL(e) c > $
-^ < U r u g u a y e c [ N,VOC,PL ] INS(i) > $
+^ < u r u g u a y [ N,VOC,PL ] DEL(e) c > $
+^ < u r u g u a y e c [ N,VOC,PL ] INS(i) > $
 ^ < a d h e z [ N,DAT,SG ] DEL(e) > $
 ^ < a d h e z e [ N,DAT,SG ] INS(i) > $
 ^ < o t r o c k ý [ ADJ,ESS,PL ] INS(ch) > $
 ^ < r a n ě n [ ADJ,DAT,MASC,SG ] DEL(ý) > $
 ^ < r a n ě n ý [ ADJ,DAT,MASC,SG ] INS(ému) > $
-^ < R a k u š a n [ N,ESS,PL ] INS(ech) > $
+^ < r a k u š a n [ N,ESS,PL ] INS(ech) > $
 ^ < h l í d a [ V,COND,PRS,1,PL,MASC ] DEL(t) > $
 ^ < i n t e g r o v a [ V,COND,PST,3,PL,MASC,INAN ] DEL(t) > $
 ^ < i n t e g r o v a t [ V,COND,PST,3,PL,MASC,INAN ] INS(ly) > $
@@ -767,7 +767,7 @@
 ^ < z a m y k a t [ V.PTCP,ACT,PRF,MASC,SG ] INS(l) > $
 ^ < v á p e n [ N,INS,SG ] DEL(e) c > $
 ^ < v á p e n e c [ N,INS,SG ] INS(em) > $
-^ < K e ň a n [ N,DAT,PL ] INS(ům) > $
+^ < k e ň a n [ N,DAT,PL ] INS(ům) > $
 ^ < t ř í s k a [ V,COND,PST,3,PL,MASC,ANIM ] DEL(t) > $
 ^ < t ř í s k a t [ V,COND,PST,3,PL,MASC,ANIM ] INS(li) > $
 ^ < ú d a j [ N,ACC,PL ] INS(e) > $
@@ -802,7 +802,7 @@
 ^ < s l o v a n s k ý [ ADJ,VOC,ANIM,MASC,PL ] INS(ští) > $
 ^ < k u l t u r [ N,VOC,PL ] DEL(a) > $
 ^ < k u l t u r a [ N,VOC,PL ] INS(y) > $
-^ < R u m u n [ N,ACC,PL ] INS(y) > $
+^ < r u m u n [ N,ACC,PL ] INS(y) > $
 ^ < z á s a d i t [ ADJ,GEN,FEM,SG ] DEL(ý) > $
 ^ < z á s a d i t ý [ ADJ,GEN,FEM,SG ] INS(é) > $
 ^ < s m ě š n ý [ ADJ,INS,MASC,SG ] INS(m) > $
@@ -879,8 +879,8 @@
 ^ < d i p l o m a t i c k ý [ ADJ,INS,MASC,SG ] INS(m) > $
 ^ < m i l o v [ V,COND,PST,2,PL,NEUT ] INS(al) a t > $
 ^ < m i l o v a [ V,COND,PST,2,PL,NEUT ] DEL(t) > $
-^ < S l o v e n k [ N,GEN,SG ] DEL(a) > $
-^ < S l o v e n k a [ N,GEN,SG ] INS(y) > $
+^ < s l o v e n k [ N,GEN,SG ] DEL(a) > $
+^ < s l o v e n k a [ N,GEN,SG ] INS(y) > $
 ^ < b y r o k r a t i c k [ ADJ,VOC,FEM,PL ] DEL(ý) > $
 ^ < b y r o k r a t i c k ý [ ADJ,VOC,FEM,PL ] INS(é) > $
 ^ < s p r c h o v [ ADJ,NOM,NEUT,SG ] DEL(ý) > $
@@ -926,7 +926,7 @@
 ^ < l e t e c k ý [ ADJ,INS,PL ] INS(mi) > $
 ^ < z k o u š k [ N,GEN,SG ] DEL(a) > $
 ^ < z k o u š k a [ N,GEN,SG ] INS(y) > $
-^ < S l o v á k [ N,VOC,SG ] INS(u) > $
+^ < s l o v á k [ N,VOC,SG ] INS(u) > $
 ^ < p o l i b [ N,ESS,SG ] DEL(e) k > $
 ^ < p o l i b e k [ N,ESS,SG ] INS(u) > $
 ^ < c h r o n i c k [ ADJ,VOC,NEUT,SG ] DEL(ý) > $
@@ -987,7 +987,7 @@
 ^ < p a s o v a [ V,COND,PRS,1,PL,MASC,ANIM ] DEL(t) > $
 ^ < f i n s k [ ADJ,VOC,MASC,PL ] DEL(ý) > $
 ^ < f i n s k ý [ ADJ,VOC,MASC,PL ] INS(é) > $
-^ < R a k u š a n [ N,INS,SG ] INS(em) > $
+^ < r a k u š a n [ N,INS,SG ] INS(em) > $
 ^ < m ě n [ N,DAT,PL ] DEL(a) > $
 ^ < m ě n a [ N,DAT,PL ] INS(ám) > $
 ^ < i n s t a l o v a [ V,IND,PST,1,SG,NEUT ] DEL(t) > $
@@ -1085,8 +1085,8 @@
 ^ < k l o k t a t [ V,COND,PST,1,PL,MASC ] INS(li) > $
 ^ < p ů s o b i [ V,IND,PST,3,SG,MASC ] DEL(t) > $
 ^ < p ů s o b i t [ V,IND,PST,3,SG,MASC ] INS(l) > $
-^ < Ž i d o v k [ N,VOC,SG ] DEL(a) > $
-^ < Ž i d o v k a [ N,VOC,SG ] INS(o) > $
+^ < ž i d o v k [ N,VOC,SG ] DEL(a) > $
+^ < ž i d o v k a [ N,VOC,SG ] INS(o) > $
 ^ < t o p i n k a [ N,INS,PL ] INS(mi) > $
 ^ < t ř í l e t [ ADJ,DAT,NEUT,SG ] DEL(ý) > $
 ^ < t ř í l e t ý [ ADJ,DAT,NEUT,SG ] INS(ému) > $
@@ -1484,9 +1484,9 @@
 ^ < j a z y k [ N,DAT,SG ] INS(u) > $
 ^ < n e z n á m [ ADJ,ACC,NEUT,SG ] DEL(ý) > $
 ^ < n e z n á m ý [ ADJ,ACC,NEUT,SG ] INS(é) > $
-^ < D v o ř á k [ ADJ,ESS,FEM,SG ] DEL(ů) v > $
-^ < D v o ř á k ů [ ADJ,ESS,FEM,SG ] INS(o) v > $
-^ < D v o ř á k ů v [ ADJ,ESS,FEM,SG ] INS(ě) > $
+^ < d v o ř á k [ ADJ,ESS,FEM,SG ] DEL(ů) v > $
+^ < d v o ř á k ů [ ADJ,ESS,FEM,SG ] INS(o) v > $
+^ < d v o ř á k ů v [ ADJ,ESS,FEM,SG ] INS(ě) > $
 ^ < r o z k o š n ý [ ADJ,INS,MASC,SG ] INS(m) > $
 ^ < p a s o v [ V,COND,PST,2,SG,FORM,FEM ] INS(al) a t > $
 ^ < p a s o v a [ V,COND,PST,2,SG,FORM,FEM ] DEL(t) > $
@@ -1806,9 +1806,9 @@
 ^ < p e r n ý [ ADJ,ACC,NEUT,PL ] INS(á) > $
 ^ < n e j k r u š n ě j š í [ ADJ,GEN,NEUT,SG ] INS(ho) > $
 ^ < p o p i s n ý [ ADJ,ESS,PL ] INS(ch) > $
-^ < D v o ř á k [ ADJ,NOM,ANIM,MASC,PL ] DEL(ů) v > $
-^ < D v o ř á k ů [ ADJ,NOM,ANIM,MASC,PL ] INS(o) v > $
-^ < D v o ř á k ů v [ ADJ,NOM,ANIM,MASC,PL ] INS(i) > $
+^ < d v o ř á k [ ADJ,NOM,ANIM,MASC,PL ] DEL(ů) v > $
+^ < d v o ř á k ů [ ADJ,NOM,ANIM,MASC,PL ] INS(o) v > $
+^ < d v o ř á k ů v [ ADJ,NOM,ANIM,MASC,PL ] INS(i) > $
 ^ < n a z ý v a [ V,IND,PST,1,SG,NEUT ] DEL(t) > $
 ^ < k o m o r [ N,NOM,PL ] DEL(a) > $
 ^ < k o m o r a [ N,NOM,PL ] INS(y) > $
@@ -1915,7 +1915,7 @@
 ^ < g r a t u l o v a [ V,IND,PRS,2,PL ] INS(uje) t > $
 ^ < g r a t u l o v a t [ V,IND,PRS,2,PL ] INS(e) > $
 ^ < l i š i t [ V,IND,PST,2,PL,MASC ] INS(e) > $
-^ < S r b [ N,ACC,PL ] INS(y) > $
+^ < s r b [ N,ACC,PL ] INS(y) > $
 ^ < f l a š k a [ N,INS,PL ] INS(mi) > $
 ^ < [ V,NFIN ] DEL(poch) o d o v a t > $
 ^ < p o c h o [ V,NFIN ] DEL(d) o v a t > $
@@ -1997,7 +1997,7 @@
 ^ < z a č [ V,IND,PST,3,SG,NEUT ] DEL(ít) > $
 ^ < z a č í t [ V,IND,PST,3,SG,NEUT ] INS(al) > $
 ^ < p a t [ N,VOC,PL ] INS(y) > $
-^ < A m e r i č a n [ N,GEN,SG ] INS(a) > $
+^ < a m e r i č a n [ N,GEN,SG ] INS(a) > $
 ^ < p a l p o v a [ V,COND,PST,1,PL,MASC ] DEL(t) > $
 ^ < p a l p o v a t [ V,COND,PST,1,PL,MASC ] INS(li) > $
 ^ < a k t i v [ V.CVB,PRS,PL ] DEL(ovat) > $
@@ -2507,8 +2507,8 @@
 ^ < v ě t š i n a [ N,ESS,SG ] INS(ě) > $
 ^ < l i s t o v a [ V,COND,PST,2,PL,MASC ] DEL(t) > $
 ^ < l i s t o v a t [ V,COND,PST,2,PL,MASC ] INS(li) > $
-^ < A l ž í ř a n k [ N,ESS,PL ] DEL(a) > $
-^ < A l ž í ř a n k a [ N,ESS,PL ] INS(ách) > $
+^ < a l ž í ř a n k [ N,ESS,PL ] DEL(a) > $
+^ < a l ž í ř a n k a [ N,ESS,PL ] INS(ách) > $
 ^ < s v ě t o z n á m [ ADJ,VOC,MASC,PL ] DEL(ý) > $
 ^ < s v ě t o z n á m ý [ ADJ,VOC,MASC,PL ] INS(é) > $
 ^ < p ř í č i n [ N,GEN,PL ] DEL(a) > $
@@ -2617,7 +2617,7 @@
 ^ < s y m b o l i c k ý [ ADJ,NOM,NEUT,SG ] INS(é) > $
 ^ < z v a d l [ ADJ,GEN,MASC,SG ] DEL(ý) > $
 ^ < z v a d l ý [ ADJ,GEN,MASC,SG ] INS(ého) > $
-^ < Č e c h [ N,INS,SG ] INS(em) > $
+^ < č e c h [ N,INS,SG ] INS(em) > $
 ^ < š t ě d r [ ADJ,ACC,NEUT,SG ] DEL(ý) > $
 ^ < š t ě d r ý [ ADJ,ACC,NEUT,SG ] INS(é) > $
 ^ < n a p s a [ V,IND,PST,1,PL,MASC ] DEL(t) > $
@@ -2945,7 +2945,7 @@
 ^ < č e r s t v ý [ ADJ,VOC,ANIM,MASC,PL ] INS(í) > $
 ^ < n e v i d o m [ ADJ,ACC,ANIM,MASC,SG ] DEL(ý) > $
 ^ < n e v i d o m ý [ ADJ,ACC,ANIM,MASC,SG ] INS(ého) > $
-^ < V i k i n g [ N,DAT,PL ] INS(ům) > $
+^ < v i k i n g [ N,DAT,PL ] INS(ům) > $
 ^ < t e s t [ V,IMP,2,PL ] DEL(ova) t > $
 ^ < t e s t o v a [ V,IMP,2,PL ] INS(uj) t > $
 ^ < t e s t o v a t [ V,IMP,2,PL ] INS(e) > $
@@ -3055,8 +3055,8 @@
 ^ < k u k m á k [ N,VOC,ANIM,SG ] INS(u) > $
 ^ < o t r a v o v a [ V.CVB,PST,MASC,SG ] DEL(t) > $
 ^ < o t r a v o v a t [ V.CVB,PST,MASC,SG ] INS(v) > $
-^ < R u m u n k [ N,ESS,PL ] DEL(a) > $
-^ < R u m u n k a [ N,ESS,PL ] INS(ách) > $
+^ < r u m u n k [ N,ESS,PL ] DEL(a) > $
+^ < r u m u n k a [ N,ESS,PL ] INS(ách) > $
 ^ < d o n [ N,ACC,PL ] INS(y) > $
 ^ < z á k a z n i c k [ ADJ,VOC,MASC,PL ] DEL(ý) > $
 ^ < z á k a z n i c k ý [ ADJ,VOC,MASC,PL ] INS(é) > $
@@ -3493,7 +3493,7 @@
 ^ < d a b o v a [ V,COND,PRS,3,SG,NEUT ] DEL(t) > $
 ^ < t e n i s [ N,DAT,SG ] INS(u) > $
 ^ < b r o u k [ N,ACC,SG ] INS(a) > $
-^ < D á n [ N,DAT,SG ] INS(ovi) > $
+^ < d á n [ N,DAT,SG ] INS(ovi) > $
 ^ < a r i s t o t e l s k ý [ ADJ,INS,PL ] INS(mi) > $
 ^ < n a k u p o v [ V.PTCP,PASS,NEUT,SG ] DEL(at) > $
 ^ < n a k u p o v a t [ V.PTCP,PASS,NEUT,SG ] INS(áno) > $
@@ -3550,7 +3550,7 @@
 ^ < k o p í r o v a [ V,COND,PST,3,PL,FEM ] DEL(t) > $
 ^ < k o p í r o v a t [ V,COND,PST,3,PL,FEM ] INS(ly) > $
 ^ < t r y c h t ý ř [ N,GEN,SG ] INS(e) > $
-^ < B e l g i č a n [ N,VOC,PL ] INS(é) > $
+^ < b e l g i č a n [ N,VOC,PL ] INS(é) > $
 ^ < o h l a s [ N,ACC,PL ] INS(y) > $
 ^ < o v l á d a [ V.PTCP,ACT,PRF,ANIM,MASC,PL ] DEL(t) > $
 ^ < o v l á d a t [ V.PTCP,ACT,PRF,ANIM,MASC,PL ] INS(li) > $
@@ -4064,8 +4064,8 @@
 ^ < t r p ě l i v ý [ ADJ,DAT,NEUT,SG ] INS(ému) > $
 ^ < l e d n i č k a [ N,INS,PL ] INS(mi) > $
 ^ < p l y n [ N,GEN,SG ] INS(u) > $
-^ < A m a z o n [ N,ESS,SG ] DEL(ka) > $
-^ < A m a z o n k a [ N,ESS,SG ] INS(ce) > $
+^ < a m a z o n [ N,ESS,SG ] DEL(ka) > $
+^ < a m a z o n k a [ N,ESS,SG ] INS(ce) > $
 ^ < o b d i v o v a t [ V,COND,PRS,2,PL,FEM ] INS(e) > $
 ^ < o b v y k l ý [ ADJ,INS,MASC,SG ] INS(m) > $
 ^ < p o s l o u c h a [ V.PTCP ] DEL(t) > $
@@ -4302,7 +4302,7 @@
 ^ < n u t k a v [ ADJ,ACC,FEM,PL ] DEL(ý) > $
 ^ < n u t k a v ý [ ADJ,ACC,FEM,PL ] INS(é) > $
 ^ < k l o u z a [ V,COND,PRS,1,PL,MASC,INAN ] DEL(t) > $
-^ < B r i t [ N,ESS,SG ] INS(ovi) > $
+^ < b r i t [ N,ESS,SG ] INS(ovi) > $
 ^ < a s t m a t i c k [ ADJ,VOC,FEM,PL ] DEL(ý) > $
 ^ < a s t m a t i c k ý [ ADJ,VOC,FEM,PL ] INS(é) > $
 ^ < z t u h l [ ADJ,VOC,NEUT,PL ] DEL(ý) > $
@@ -4516,8 +4516,8 @@
 ^ < b l o g o v a t [ V.CVB,PRS,FEM,SG ] INS(ujíc) > $
 ^ < p ř e v a ž o v a [ V,COND,PST,1,PL,FEM ] DEL(t) > $
 ^ < p ř e v a ž o v a t [ V,COND,PST,1,PL,FEM ] INS(ly) > $
-^ < Š v é d k [ N,NOM,PL ] DEL(a) > $
-^ < Š v é d k a [ N,NOM,PL ] INS(y) > $
+^ < š v é d k [ N,NOM,PL ] DEL(a) > $
+^ < š v é d k a [ N,NOM,PL ] INS(y) > $
 ^ < z a n e d b a t e l n [ ADJ,ACC,ANIM,MASC,SG ] DEL(ý) > $
 ^ < z a n e d b a t e l n ý [ ADJ,ACC,ANIM,MASC,SG ] INS(ého) > $
 ^ < z á p a d o e v r o p s k [ ADJ,NOM,NEUT,PL ] DEL(ý) > $
@@ -4746,8 +4746,8 @@
 ^ < ú t e s [ N,DAT,SG ] INS(u) > $
 ^ < l o p a t [ N,DAT,SG ] DEL(a) > $
 ^ < l o p a t a [ N,DAT,SG ] INS(ě) > $
-^ < G r u z í n k [ N,ACC,PL ] DEL(a) > $
-^ < G r u z í n k a [ N,ACC,PL ] INS(y) > $
+^ < g r u z í n k [ N,ACC,PL ] DEL(a) > $
+^ < g r u z í n k a [ N,ACC,PL ] INS(y) > $
 ^ < s y m e t r i c k [ ADJ,DAT,FEM,SG ] DEL(ý) > $
 ^ < s y m e t r i c k ý [ ADJ,DAT,FEM,SG ] INS(é) > $
 ^ < m a l [ V,IMP,2,PL ] DEL(ova) t > $
@@ -4954,9 +4954,9 @@
 ^ < n a l e p o v a t [ V,COND,PRS,2,SG,FORM,FEM ] INS(e) > $
 ^ < p ř i t a h o v a [ V.PTCP,ACT,PRF,MASC,SG ] DEL(t) > $
 ^ < p ř i t a h o v a t [ V.PTCP,ACT,PRF,MASC,SG ] INS(l) > $
-^ < D v o ř á k [ ADJ,DAT,NEUT,SG ] DEL(ů) v > $
-^ < D v o ř á k ů [ ADJ,DAT,NEUT,SG ] INS(o) v > $
-^ < D v o ř á k ů v [ ADJ,DAT,NEUT,SG ] INS(ě) > $
+^ < d v o ř á k [ ADJ,DAT,NEUT,SG ] DEL(ů) v > $
+^ < d v o ř á k ů [ ADJ,DAT,NEUT,SG ] INS(o) v > $
+^ < d v o ř á k ů v [ ADJ,DAT,NEUT,SG ] INS(ě) > $
 ^ < p ř i t a h o v a [ V.PTCP,ACT,PRF,ANIM,MASC,PL ] DEL(t) > $
 ^ < p ř i t a h o v a t [ V.PTCP,ACT,PRF,ANIM,MASC,PL ] INS(li) > $
 ^ < b r y s k n í [ ADJ,INS,MASC,SG ] INS(m) > $
@@ -5066,7 +5066,7 @@
 ^ < c h v á s t a t [ V,COND,PRS,2,PL,MASC ] INS(e) > $
 ^ < k r b [ N,GEN,SG ] INS(u) > $
 ^ < k o p í [ N,DAT,PL ] INS(m) > $
-^ < V a t i k á n [ N,VOC,PL ] INS(y) > $
+^ < v a t i k á n [ N,VOC,PL ] INS(y) > $
 ^ < i d i o m a t i c k [ ADJ,ACC,NEUT,SG ] DEL(ý) > $
 ^ < i d i o m a t i c k ý [ ADJ,ACC,NEUT,SG ] INS(é) > $
 ^ < ú č a s t n í [ N,NOM,PL ] DEL(k) > $
@@ -5411,7 +5411,7 @@
 ^ < m o d i f i k o v [ V,IND,PST,3,SG,FEM ] INS(al) a t > $
 ^ < m o d i f i k o v a [ V,IND,PST,3,SG,FEM ] DEL(t) > $
 ^ < h l í d a č [ N,INS,PL ] INS(i) > $
-^ < S l o v á k [ N,DAT,SG ] INS(ovi) > $
+^ < s l o v á k [ N,DAT,SG ] INS(ovi) > $
 ^ < k o n t r a s [ V.CVB,PRS,FEM,SG ] DEL(tova) t > $
 ^ < k o n t r a s t o v a t [ V.CVB,PRS,FEM,SG ] INS(ujíc) > $
 ^ < z m r z l i n a [ N,INS,PL ] INS(mi) > $
@@ -5672,7 +5672,7 @@
 ^ < s a m e t o v ý [ ADJ,VOC,MASC,PL ] INS(é) > $
 ^ < d ě r o v a č k [ N,DAT,PL ] DEL(a) > $
 ^ < d ě r o v a č k a [ N,DAT,PL ] INS(ám) > $
-^ < F r a n c o u z [ N,VOC,SG ] INS(i) > $
+^ < f r a n c o u z [ N,VOC,SG ] INS(i) > $
 ^ < z d r a v ý [ ADJ,GEN,PL ] INS(ch) > $
 ^ < n e s p e c i f i c k [ ADJ,DAT,NEUT,SG ] DEL(ý) > $
 ^ < n e s p e c i f i c k ý [ ADJ,DAT,NEUT,SG ] INS(ému) > $
@@ -5691,7 +5691,7 @@
 ^ < n e v ý h o d n ý [ ADJ,NOM,ANIM,MASC,PL ] INS(í) > $
 ^ < ž o n g l o v a [ V.CVB,PST,MASC,SG ] DEL(t) > $
 ^ < ž o n g l o v a t [ V.CVB,PST,MASC,SG ] INS(v) > $
-^ < P o l á k [ N,DAT,PL ] INS(ům) > $
+^ < p o l á k [ N,DAT,PL ] INS(ům) > $
 ^ < i m p r o v i [ V,COND,PRS,3,PL,NEUT ] DEL(z) o v a t > $
 ^ < i m p r o v i z [ V,COND,PRS,3,PL,NEUT ] INS(y) o v a t > $
 ^ < i m p r o v i z o v a [ V,COND,PRS,3,PL,NEUT ] DEL(t) > $
@@ -5702,8 +5702,8 @@
 ^ < k a s t r o v a [ V,COND,PRS,1,PL,NEUT ] DEL(t) > $
 ^ < s o u h l á s [ N,ESS,SG ] DEL(ka) > $
 ^ < s o u h l á s k a [ N,ESS,SG ] INS(ce) > $
-^ < R u m u n k [ N,ACC,PL ] DEL(a) > $
-^ < R u m u n k a [ N,ACC,PL ] INS(y) > $
+^ < r u m u n k [ N,ACC,PL ] DEL(a) > $
+^ < r u m u n k a [ N,ACC,PL ] INS(y) > $
 ^ < p r o u d [ N,VOC,PL ] INS(y) > $
 ^ < d e s t i l [ V,IND,PRS,3,SG ] DEL(ovat) > $
 ^ < d e s t i l o v a t [ V,IND,PRS,3,SG ] INS(uje) > $
@@ -5947,7 +5947,7 @@
 ^ < r y b [ N,ACC,SG ] DEL(a) > $
 ^ < r y b a [ N,ACC,SG ] INS(u) > $
 ^ < f o t o g r a f [ N,VOC,PL ] INS(ové) > $
-^ < F i n [ N,ESS,SG ] INS(ovi) > $
+^ < f i n [ N,ESS,SG ] INS(ovi) > $
 ^ < š v e s t k [ N,INS,SG ] DEL(a) > $
 ^ < š v e s t k a [ N,INS,SG ] INS(ou) > $
 ^ < d ů v ě r y h o d n [ ADJ,VOC,MASC,PL ] DEL(ý) > $
@@ -6048,8 +6048,8 @@
 ^ < s á g a [ N,VOC,SG ] INS(o) > $
 ^ < k o m u n i k o v a t [ V,COND,PRS,2,PL,NEUT ] INS(e) > $
 ^ < k o h o u t [ N,VOC,ANIM,PL ] INS(i) > $
-^ < U r u g u a y [ N,DAT,PL ] DEL(e) c > $
-^ < U r u g u a y e c [ N,DAT,PL ] INS(ům) > $
+^ < u r u g u a y [ N,DAT,PL ] DEL(e) c > $
+^ < u r u g u a y e c [ N,DAT,PL ] INS(ům) > $
 ^ < m e l a n c h o l i c k ý [ ADJ,DAT,PL ] INS(m) > $
 ^ < ú t ě k [ N,DAT,SG ] INS(u) > $
 ^ < d e l f í n [ N,DAT,PL ] INS(ům) > $
@@ -7098,7 +7098,7 @@
 ^ < n u t n [ ADJ,NOM,MASC,PL ] DEL(ý) > $
 ^ < n u t n ý [ ADJ,NOM,MASC,PL ] INS(é) > $
 ^ < b á d a t [ V,COND,PRS,2,SG,FORM,FEM ] INS(e) > $
-^ < B u l h a r [ N,ESS,PL ] INS(ech) > $
+^ < b u l h a r [ N,ESS,PL ] INS(ech) > $
 ^ < p a d a [ V.PTCP,ACT,PRF,MASC,SG ] DEL(t) > $
 ^ < p a d a t [ V.PTCP,ACT,PRF,MASC,SG ] INS(l) > $
 ^ < n u [ V,IND,PRS,1,PL ] DEL(ti) t > $
@@ -7284,7 +7284,7 @@
 ^ < s t í n o v ý [ ADJ,ESS,FEM,SG ] INS(é) > $
 ^ < g r i l o v a t [ V,COND,PRS,2,PL,MASC ] INS(e) > $
 ^ < r o z l i š o v a [ V,COND,PRS,2,SG,MASC ] DEL(t) > $
-^ < R u m u n [ N,INS,PL ] INS(y) > $
+^ < r u m u n [ N,INS,PL ] INS(y) > $
 ^ < p ě t [ N,GEN,PL ] INS(e) k a > $
 ^ < p ě t k [ N,GEN,PL ] DEL(a) > $
 ^ < l í n [ ADJ,ACC,NEUT,SG ] DEL(ý) > $
@@ -7642,7 +7642,7 @@
 ^ < p o s t e l [ N,INS,SG ] INS(í) > $
 ^ < b e z m a s [ ADJ,ACC,FEM,PL ] DEL(ý) > $
 ^ < b e z m a s ý [ ADJ,ACC,FEM,PL ] INS(é) > $
-^ < E s k y m á k [ N,ACC,SG ] INS(a) > $
+^ < e s k y m á k [ N,ACC,SG ] INS(a) > $
 ^ < r y s k [ N,GEN,SG ] DEL(a) > $
 ^ < r y s k a [ N,GEN,SG ] INS(y) > $
 ^ < t o p i č [ N,VOC,PL ] INS(i) > $
@@ -7701,8 +7701,8 @@
 ^ < h l i n ě n ý [ ADJ,DAT,NEUT,SG ] INS(ému) > $
 ^ < u l c e r ó z n í [ ADJ,DAT,PL ] INS(m) > $
 ^ < d ě d [ N,ACC,PL ] INS(y) > $
-^ < T u r k m e n [ N,ESS,SG ] DEL(ka) > $
-^ < T u r k m e n k a [ N,ESS,SG ] INS(ce) > $
+^ < t u r k m e n [ N,ESS,SG ] DEL(ka) > $
+^ < t u r k m e n k a [ N,ESS,SG ] INS(ce) > $
 ^ < i d e a l i s t i c k [ ADJ,NOM,NEUT,SG ] DEL(ý) > $
 ^ < i d e a l i s t i c k ý [ ADJ,NOM,NEUT,SG ] INS(é) > $
 ^ < m ě c h [ N,VOC,PL ] INS(y) > $
@@ -8382,7 +8382,7 @@
 ^ < n e z á v i s l [ ADJ,GEN,MASC,SG ] DEL(ý) > $
 ^ < n e z á v i s l ý [ ADJ,GEN,MASC,SG ] INS(ého) > $
 ^ < s m y s l n ý [ ADJ,INS,MASC,SG ] INS(m) > $
-^ < T i b e ť a n [ N,INS,SG ] INS(em) > $
+^ < t i b e ť a n [ N,INS,SG ] INS(em) > $
 ^ < d a b o v a [ V,COND,PST,1,SG,MASC ] DEL(t) > $
 ^ < d a b o v a t [ V,COND,PST,1,SG,MASC ] INS(l) > $
 ^ < b y s t r ý [ ADJ,ESS,NEUT,SG ] INS(m) > $
@@ -8451,7 +8451,7 @@
 ^ < p ř i r o z e n ý [ ADJ,VOC,FEM,SG ] INS(á) > $
 ^ < b a l í k [ N,DAT,SG ] INS(u) > $
 ^ < d o k u m e n t o v a [ V,COND,PRS,3,SG,FEM ] DEL(t) > $
-^ < T i b e ť a n [ N,ESS,SG ] INS(ovi) > $
+^ < t i b e ť a n [ N,ESS,SG ] INS(ovi) > $
 ^ < c h o v a [ V,COND,PRS,2,SG,FEM ] DEL(t) > $
 ^ < p o c h l e b [ V.PTCP ] DEL(ovat) > $
 ^ < p o c h l e b o v a t [ V.PTCP ] INS(ující) > $
@@ -8526,8 +8526,8 @@
 ^ < n a m y š l e n o s t [ N,ACC,PL ] INS(i) > $
 ^ < g e o d e t i c k [ ADJ,ACC,NEUT,PL ] DEL(ý) > $
 ^ < g e o d e t i c k ý [ ADJ,ACC,NEUT,PL ] INS(á) > $
-^ < Č e [ N,VOC,PL ] DEL(ch) > $
-^ < Č e c h [ N,VOC,PL ] INS(ši) > $
+^ < č e [ N,VOC,PL ] DEL(ch) > $
+^ < č e c h [ N,VOC,PL ] INS(ši) > $
 ^ < r a k o u s k [ ADJ,VOC,NEUT,SG ] DEL(ý) > $
 ^ < r a k o u s k ý [ ADJ,VOC,NEUT,SG ] INS(é) > $
 ^ < f a s c i n o v a [ V,IND,PST,3,SG,NEUT ] DEL(t) > $
@@ -8587,7 +8587,7 @@
 ^ < m a s t n ý [ ADJ,VOC,NEUT,SG ] INS(é) > $
 ^ < č e s k o s l o v e n s k [ ADJ,ESS,FEM,SG ] DEL(ý) > $
 ^ < č e s k o s l o v e n s k ý [ ADJ,ESS,FEM,SG ] INS(é) > $
-^ < Š v é d [ N,VOC,PL ] INS(ové) > $
+^ < š v é d [ N,VOC,PL ] INS(ové) > $
 ^ < a r i t m e t i k a [ N,INS,PL ] INS(mi) > $
 ^ < h r a č k [ N,ESS,PL ] DEL(a) > $
 ^ < h r a č k a [ N,ESS,PL ] INS(ách) > $
@@ -9019,8 +9019,8 @@
 ^ < f a r m a [ N,GEN,SG ] INS(y) > $
 ^ < f o t o g r a f [ N,ACC,PL ] INS(y) > $
 ^ < k o ř e n á č [ N,NOM,PL ] INS(e) > $
-^ < A r g e n t i n [ N,INS,SG ] DEL(e) c > $
-^ < A r g e n t i n e c [ N,INS,SG ] INS(em) > $
+^ < a r g e n t i n [ N,INS,SG ] DEL(e) c > $
+^ < a r g e n t i n e c [ N,INS,SG ] INS(em) > $
 ^ < s t á v k [ N,ESS,PL ] DEL(a) > $
 ^ < s t á v k a [ N,ESS,PL ] INS(ách) > $
 ^ < k a s [ N,ESS,SG ] DEL(a) > $
@@ -9851,8 +9851,8 @@
 ^ < s y n a p t i c k ý [ ADJ,NOM,NEUT,SG ] INS(é) > $
 ^ < s l o v e s [ N,VOC,PL ] DEL(o) > $
 ^ < s l o v e s o [ N,VOC,PL ] INS(a) > $
-^ < U k r a j i n [ N,DAT,PL ] DEL(e) c > $
-^ < U k r a j i n e c [ N,DAT,PL ] INS(ům) > $
+^ < u k r a j i n [ N,DAT,PL ] DEL(e) c > $
+^ < u k r a j i n e c [ N,DAT,PL ] INS(ům) > $
 ^ < i n f i k o v a [ V,IND,PST,3,SG,MASC ] DEL(t) > $
 ^ < i n f i k o v a t [ V,IND,PST,3,SG,MASC ] INS(l) > $
 ^ < l a d [ N,INS,SG ] DEL(o) > $
@@ -10044,7 +10044,7 @@
 ^ < v r u t [ N,ESS,PL ] INS(ech) > $
 ^ < k a n t o v s k [ ADJ,DAT,NEUT,SG ] DEL(ý) > $
 ^ < k a n t o v s k ý [ ADJ,DAT,NEUT,SG ] INS(ému) > $
-^ < V i k i n g [ N,GEN,PL ] INS(ů) > $
+^ < v i k i n g [ N,GEN,PL ] INS(ů) > $
 ^ < n e č i t e l n [ ADJ,NOM,FEM,SG ] DEL(ý) > $
 ^ < n e č i t e l n ý [ ADJ,NOM,FEM,SG ] INS(á) > $
 ^ < p i l [ N,GEN,PL ] INS(e) k a > $
@@ -10081,7 +10081,7 @@
 ^ < e x p o r t o v a [ V,IND,PST,1,SG,MASC ] DEL(t) > $
 ^ < o k u p o v [ V.PTCP,ACT,PRF,FEM,SG ] INS(al) a t > $
 ^ < o k u p o v a [ V.PTCP,ACT,PRF,FEM,SG ] DEL(t) > $
-^ < R a k u š a n [ N,ACC,PL ] INS(y) > $
+^ < r a k u š a n [ N,ACC,PL ] INS(y) > $
 ^ < j í z d n [ N,ESS,PL ] DEL(é) > $
 ^ < j í z d n é [ N,ESS,PL ] INS(ých) > $
 ^ < m a j o r [ N,ACC,PL ] INS(y) > $
@@ -10148,8 +10148,8 @@
 ^ < s p e k u l a c e [ N,ESS,PL ] INS(ích) > $
 ^ < d r a m a t i z o v a [ V.CVB,PST,MASC,SG ] DEL(t) > $
 ^ < d r a m a t i z o v a t [ V.CVB,PST,MASC,SG ] INS(v) > $
-^ < K u b á n [ N,GEN,PL ] DEL(e) c > $
-^ < K u b á n e c [ N,GEN,PL ] INS(ů) > $
+^ < k u b á n [ N,GEN,PL ] DEL(e) c > $
+^ < k u b á n e c [ N,GEN,PL ] INS(ů) > $
 ^ < p r i m á r n í [ ADJ,DAT,PL ] INS(m) > $
 ^ < a n g l i c k [ ADJ,NOM,NEUT,PL ] DEL(ý) > $
 ^ < a n g l i c k ý [ ADJ,NOM,NEUT,PL ] INS(á) > $
@@ -10185,7 +10185,7 @@
 ^ < m e c h a n i c k ý [ ADJ,DAT,MASC,SG ] INS(ému) > $
 ^ < u č i t e l [ N,INS,SG ] INS(em) > $
 ^ < s t a b i l i z o v a [ V,IND,PST,1,SG,MASC ] DEL(t) > $
-^ < E s k y m á k [ N,VOC,SG ] INS(u) > $
+^ < e s k y m á k [ N,VOC,SG ] INS(u) > $
 ^ < k a n t o v s k [ ADJ,VOC,MASC,PL ] DEL(ý) > $
 ^ < k a n t o v s k ý [ ADJ,VOC,MASC,PL ] INS(é) > $
 ^ < č o l [ N,INS,SG ] DEL(e) k > $
@@ -10547,7 +10547,7 @@
 ^ < č e s k [ ADJ,ACC,FEM,SG ] DEL(ý) > $
 ^ < č e s k ý [ ADJ,ACC,FEM,SG ] INS(ou) > $
 ^ < s e k a [ V,COND,PRS,1,PL,MASC,ANIM ] DEL(t) > $
-^ < S l e z a n [ N,INS,SG ] INS(em) > $
+^ < s l e z a n [ N,INS,SG ] INS(em) > $
 ^ < k u f r [ N,INS,PL ] INS(y) > $
 ^ < m á v a [ V,IND,PST,2,SG,FEM ] DEL(t) > $
 ^ < d i s k v a l i f i k o v a [ V,COND,PRS,3,PL,FEM ] DEL(t) > $
@@ -10626,7 +10626,7 @@
 ^ < m o t i v o v [ V,COND,PST,3,PL,NEUT ] INS(al) a t > $
 ^ < m o t i v o v a [ V,COND,PST,3,PL,NEUT ] DEL(t) > $
 ^ < k o t r m e l e c [ N,ESS,SG ] INS(i) > $
-^ < I t a l [ N,ESS,SG ] INS(ovi) > $
+^ < i t a l [ N,ESS,SG ] INS(ovi) > $
 ^ < c h y t l a v [ ADJ,VOC,MASC,PL ] DEL(ý) > $
 ^ < c h y t l a v ý [ ADJ,VOC,MASC,PL ] INS(é) > $
 ^ < m a l o v [ V,COND,PST,3,SG,FEM ] INS(al) a t > $
@@ -11091,8 +11091,8 @@
 ^ < n a h ý [ ADJ,NOM,ANIM,MASC,PL ] INS(zí) > $
 ^ < o p t i m a l i z [ V,IND,PST,2,SG ] DEL(ovat) > $
 ^ < o p t i m a l i z o v a t [ V,IND,PST,2,SG ] INS(uješ) > $
-^ < U r u g u a y [ N,VOC,SG ] INS(č) e c > $
-^ < U r u g u a y e [ N,VOC,SG ] DEL(c) > $
+^ < u r u g u a y [ N,VOC,SG ] INS(č) e c > $
+^ < u r u g u a y e [ N,VOC,SG ] DEL(c) > $
 ^ < p a l e t o v [ ADJ,DAT,MASC,SG ] DEL(ý) > $
 ^ < p a l e t o v ý [ ADJ,DAT,MASC,SG ] INS(ému) > $
 ^ < i m p l e m e n t o v a [ V,IND,PST,1,SG,MASC ] DEL(t) > $
@@ -11183,8 +11183,8 @@
 ^ < c h y b o v ý [ ADJ,GEN,FEM,SG ] INS(é) > $
 ^ < j í z d [ N,DAT,SG ] DEL(a) > $
 ^ < j í z d a [ N,DAT,SG ] INS(ě) > $
-^ < A r m é n [ N,DAT,SG ] DEL(e) c > $
-^ < A r m é n e c [ N,DAT,SG ] INS(i) > $
+^ < a r m é n [ N,DAT,SG ] DEL(e) c > $
+^ < a r m é n e c [ N,DAT,SG ] INS(i) > $
 ^ < p ř í v ě t i v [ ADJ,GEN,NEUT,SG ] DEL(ý) > $
 ^ < p ř í v ě t i v ý [ ADJ,GEN,NEUT,SG ] INS(ého) > $
 ^ < n e d o č k a v o s t [ N,VOC,SG ] INS(i) > $
@@ -11234,8 +11234,8 @@
 ^ < n e n a s y t n [ ADJ,ACC,FEM,SG ] DEL(ý) > $
 ^ < n e n a s y t n ý [ ADJ,ACC,FEM,SG ] INS(ou) > $
 ^ < m i l o v a t [ V,COND,PRS,2,SG,FORM,FEM ] INS(e) > $
-^ < N o r [ N,ESS,SG ] DEL(ka) > $
-^ < N o r k a [ N,ESS,SG ] INS(ce) > $
+^ < n o r [ N,ESS,SG ] DEL(ka) > $
+^ < n o r k a [ N,ESS,SG ] INS(ce) > $
 ^ < i n t e r a g o v a [ V,IND,PST,1,SG,MASC ] DEL(t) > $
 ^ < c h y t l a v [ ADJ,ESS,MASC,SG ] DEL(ý) > $
 ^ < c h y t l a v ý [ ADJ,ESS,MASC,SG ] INS(ém) > $
@@ -11301,7 +11301,7 @@
 ^ < a c i d i t a [ N,INS,SG ] INS(ou) > $
 ^ < p o l o č a s [ N,ESS,SG ] INS(u) > $
 ^ < k o s t e l [ N,INS,PL ] INS(y) > $
-^ < L o t y š [ N,INS,PL ] INS(i) > $
+^ < l o t y š [ N,INS,PL ] INS(i) > $
 ^ < e s t o n [ ADJ,VOC,ANIM,MASC,PL ] DEL(ský) > $
 ^ < e s t o n s k ý [ ADJ,VOC,ANIM,MASC,PL ] INS(ští) > $
 ^ < a k t u a l i z o v a [ V,IND,PST,3,PL,MASC,ANIM ] DEL(t) > $
@@ -11323,7 +11323,7 @@
 ^ < h e z k ý [ ADJ,NOM,FEM,PL ] INS(é) > $
 ^ < l y r [ N,GEN,SG ] DEL(a) > $
 ^ < l y r a [ N,GEN,SG ] INS(y) > $
-^ < M a r ť a n [ N,ACC,PL ] INS(y) > $
+^ < m a r ť a n [ N,ACC,PL ] INS(y) > $
 ^ < n e s m ě l [ ADJ,DAT,FEM,SG ] DEL(ý) > $
 ^ < n e s m ě l ý [ ADJ,DAT,FEM,SG ] INS(é) > $
 ^ < t r a v n a t [ ADJ,ACC,MASC,PL ] DEL(ý) > $
@@ -11353,8 +11353,8 @@
 ^ < s a m o z ř e j m ý [ ADJ,NOM,NEUT,SG ] INS(é) > $
 ^ < b u d o v [ V,COND,PST,3,SG,FEM ] INS(al) a t > $
 ^ < b u d o v a [ V,COND,PST,3,SG,FEM ] DEL(t) > $
-^ < P o l á [ N,ESS,PL ] DEL(k) > $
-^ < P o l á k [ N,ESS,PL ] INS(cích) > $
+^ < p o l á [ N,ESS,PL ] DEL(k) > $
+^ < p o l á k [ N,ESS,PL ] INS(cích) > $
 ^ < l e t o v a [ V,COND,PRS,3,SG,FEM ] DEL(t) > $
 ^ < š i z u ň k [ N,GEN,ANIM,SG ] INS(a) > $
 ^ < a f o r i z m u s [ N,DAT,SG ] INS(u) > $
@@ -11364,7 +11364,7 @@
 ^ < u r e t r á l n í [ ADJ,ESS,NEUT,SG ] INS(m) > $
 ^ < d b [ V,IND,PST,2,SG,FORM,MASC ] DEL(á) t > $
 ^ < d b á t [ V,IND,PST,2,SG,FORM,MASC ] INS(e) > $
-^ < A l ž í ř a n [ N,ESS,PL ] INS(ech) > $
+^ < a l ž í ř a n [ N,ESS,PL ] INS(ech) > $
 ^ < n a k a ž l i v o s t [ N,INS,PL ] INS(mi) > $
 ^ < m a s k o v a t [ V,COND,PRS,2,SG,FORM,MASC ] INS(e) > $
 ^ < v ě š á k [ N,ESS,SG ] INS(u) > $
@@ -11569,8 +11569,8 @@
 ^ < z á d u m č i v [ ADJ,VOC,NEUT,PL ] DEL(ý) > $
 ^ < z á d u m č i v ý [ ADJ,VOC,NEUT,PL ] INS(á) > $
 ^ < k a j a k [ N,INS,PL ] INS(y) > $
-^ < A l ž í ř a n [ N,GEN,PL ] INS(e) k a > $
-^ < A l ž í ř a n k [ N,GEN,PL ] DEL(a) > $
+^ < a l ž í ř a n [ N,GEN,PL ] INS(e) k a > $
+^ < a l ž í ř a n k [ N,GEN,PL ] DEL(a) > $
 ^ < v a l a š s k [ ADJ,GEN,FEM,SG ] DEL(ý) > $
 ^ < v a l a š s k ý [ ADJ,GEN,FEM,SG ] INS(é) > $
 ^ < h i s t o l o g i c k [ ADJ,GEN,FEM,SG ] DEL(ý) > $
@@ -11590,7 +11590,7 @@
 ^ < h o r a [ N,INS,SG ] INS(ou) > $
 ^ < e n c y k l o p e d i c k [ ADJ,NOM,FEM,SG ] DEL(ý) > $
 ^ < e n c y k l o p e d i c k ý [ ADJ,NOM,FEM,SG ] INS(á) > $
-^ < Š v é d [ N,DAT,SG ] INS(ovi) > $
+^ < š v é d [ N,DAT,SG ] INS(ovi) > $
 ^ < z p ě t n [ ADJ,ACC,ANIM,MASC,SG ] DEL(ý) > $
 ^ < z p ě t n ý [ ADJ,ACC,ANIM,MASC,SG ] INS(ého) > $
 ^ < p a l e s t i n s k ý [ ADJ,DAT,PL ] INS(m) > $
@@ -11823,7 +11823,7 @@
 ^ < v y s t a v [ V,IND,PRS,1,PL ] DEL(ovat) > $
 ^ < v y s t a v o v a t [ V,IND,PRS,1,PL ] INS(ujeme) > $
 ^ < p r o t i v n ý [ ADJ,INS,PL ] INS(mi) > $
-^ < B r i t [ N,DAT,SG ] INS(ovi) > $
+^ < b r i t [ N,DAT,SG ] INS(ovi) > $
 ^ < ž i v o č i š n [ ADJ,ACC,FEM,PL ] DEL(ý) > $
 ^ < ž i v o č i š n ý [ ADJ,ACC,FEM,PL ] INS(é) > $
 ^ < h a s t r m a n [ N,ACC,PL ] INS(y) > $
@@ -12187,9 +12187,9 @@
 ^ < s l o ž i t ý [ ADJ,VOC,FEM,PL ] INS(é) > $
 ^ < f a l z i f i k [ V,IND,PRS,3,SG ] DEL(ovat) > $
 ^ < f a l z i f i k o v a t [ V,IND,PRS,3,SG ] INS(uje) > $
-^ < D v o ř á k [ ADJ,VOC,MASC,PL ] DEL(ů) v > $
-^ < D v o ř á k ů [ ADJ,VOC,MASC,PL ] INS(o) v > $
-^ < D v o ř á k ů v [ ADJ,VOC,MASC,PL ] INS(y) > $
+^ < d v o ř á k [ ADJ,VOC,MASC,PL ] DEL(ů) v > $
+^ < d v o ř á k ů [ ADJ,VOC,MASC,PL ] INS(o) v > $
+^ < d v o ř á k ů v [ ADJ,VOC,MASC,PL ] INS(y) > $
 ^ < k r o k o m ě r [ N,NOM,PL ] INS(y) > $
 ^ < š e r m o v a [ V,IND,PST,2,SG,FEM ] DEL(t) > $
 ^ < š e r m o v a t [ V,IND,PST,2,SG,FEM ] INS(l) > $
@@ -12637,7 +12637,7 @@
 ^ < s e s t á v a t [ V.PTCP,ACT,PRF,MASC,SG ] INS(l) > $
 ^ < h y s t e r i c k [ ADJ,NOM,NEUT,PL ] DEL(ý) > $
 ^ < h y s t e r i c k ý [ ADJ,NOM,NEUT,PL ] INS(á) > $
-^ < T i b e ť a n [ N,INS,PL ] INS(y) > $
+^ < t i b e ť a n [ N,INS,PL ] INS(y) > $
 ^ < p o d n i k a [ V.CVB,PST,FEM,SG ] DEL(t) > $
 ^ < p o d n i k a t [ V.CVB,PST,FEM,SG ] INS(vši) > $
 ^ < z á k a z n i c k [ ADJ,ACC,FEM,PL ] DEL(ý) > $
@@ -12670,8 +12670,8 @@
 ^ < z á h a d a [ N,ESS,PL ] INS(ách) > $
 ^ < a t o m i c k [ ADJ,VOC,MASC,PL ] DEL(ý) > $
 ^ < a t o m i c k ý [ ADJ,VOC,MASC,PL ] INS(é) > $
-^ < A l ž í ř a n [ N,ESS,SG ] DEL(ka) > $
-^ < A l ž í ř a n k a [ N,ESS,SG ] INS(ce) > $
+^ < a l ž í ř a n [ N,ESS,SG ] DEL(ka) > $
+^ < a l ž í ř a n k a [ N,ESS,SG ] INS(ce) > $
 ^ < s r a n d [ N,VOC,PL ] DEL(a) > $
 ^ < s r a n d a [ N,VOC,PL ] INS(y) > $
 ^ < n y l o n [ N,DAT,PL ] INS(u) > $
@@ -12760,7 +12760,7 @@
 ^ < r o z p o r u p l n ý [ ADJ,VOC,NEUT,SG ] INS(é) > $
 ^ < d o b r o d r u ž n [ ADJ,ACC,NEUT,SG ] DEL(ý) > $
 ^ < d o b r o d r u ž n ý [ ADJ,ACC,NEUT,SG ] INS(é) > $
-^ < P e r š a n [ N,DAT,PL ] INS(ům) > $
+^ < p e r š a n [ N,DAT,PL ] INS(ům) > $
 ^ < n e v ě r n [ ADJ,VOC,FEM,SG ] DEL(ý) > $
 ^ < n e v ě r n ý [ ADJ,VOC,FEM,SG ] INS(á) > $
 ^ < d e l e g o v a [ V,IND,PST,3,SG,MASC ] DEL(t) > $
@@ -12809,8 +12809,8 @@
 ^ < m e n š i n [ N,ESS,SG ] DEL(a) > $
 ^ < m e n š i n a [ N,ESS,SG ] INS(ě) > $
 ^ < n u d i [ V,IND,PST,1,SG,FEM ] DEL(t) > $
-^ < T u r k m e n [ N,DAT,SG ] DEL(ka) > $
-^ < T u r k m e n k a [ N,DAT,SG ] INS(ce) > $
+^ < t u r k m e n [ N,DAT,SG ] DEL(ka) > $
+^ < t u r k m e n k a [ N,DAT,SG ] INS(ce) > $
 ^ < k u l t i v o v a [ V,COND,PST,2,SG,FORM,MASC ] DEL(t) > $
 ^ < k u l t i v o v a t [ V,COND,PST,2,SG,FORM,MASC ] INS(l) > $
 ^ < l o v i [ V,IND,PST,3,SG,NEUT ] DEL(t) > $
@@ -13432,8 +13432,8 @@
 ^ < t r p ě l i v ý [ ADJ,DAT,PL ] INS(m) > $
 ^ < s n a c h [ N,VOC,PL ] DEL(a) > $
 ^ < s n a c h a [ N,VOC,PL ] INS(y) > $
-^ < U r u g u a y [ N,GEN,PL ] DEL(e) c > $
-^ < U r u g u a y e c [ N,GEN,PL ] INS(ů) > $
+^ < u r u g u a y [ N,GEN,PL ] DEL(e) c > $
+^ < u r u g u a y e c [ N,GEN,PL ] INS(ů) > $
 ^ < g a l v a n i c k [ ADJ,VOC,NEUT,PL ] DEL(ý) > $
 ^ < g a l v a n i c k ý [ ADJ,VOC,NEUT,PL ] INS(á) > $
 ^ < z b r o j [ N,GEN,PL ] INS(í) > $
@@ -13519,7 +13519,7 @@
 ^ < l e v i t o v a t [ V,IND,PST,3,SG,MASC ] INS(l) > $
 ^ < f á z o v [ ADJ,GEN,MASC,SG ] DEL(ý) > $
 ^ < f á z o v ý [ ADJ,GEN,MASC,SG ] INS(ého) > $
-^ < F i n [ N,ACC,PL ] INS(y) > $
+^ < f i n [ N,ACC,PL ] INS(y) > $
 ^ < a m é b i á z [ N,ACC,SG ] DEL(a) > $
 ^ < a m é b i á z a [ N,ACC,SG ] INS(u) > $
 ^ < s v ě t o z n á m [ ADJ,GEN,FEM,SG ] DEL(ý) > $
@@ -13675,7 +13675,7 @@
 ^ < m l í k o [ N,ESS,SG ] INS(ce) > $
 ^ < s v ě d [ N,ACC,SG ] DEL(e) k > $
 ^ < s v ě d e k [ N,ACC,SG ] INS(a) > $
-^ < B r i t [ N,ACC,PL ] INS(y) > $
+^ < b r i t [ N,ACC,PL ] INS(y) > $
 ^ < a k t o v k a [ N,INS,PL ] INS(mi) > $
 ^ < z l o d ě j [ N,INS,SG ] INS(em) > $
 ^ < n ě k o l i k a n á s o b n [ ADJ,VOC,ANIM,MASC,PL ] DEL(ý) > $
@@ -13781,9 +13781,9 @@
 ^ < d v [ N,NOM,PL ] DEL(ů) r > $
 ^ < d v ů [ N,NOM,PL ] INS(o) r > $
 ^ < d v ů r [ N,NOM,PL ] INS(y) > $
-^ < D v o ř á k [ ADJ,ACC,MASC,PL ] DEL(ů) v > $
-^ < D v o ř á k ů [ ADJ,ACC,MASC,PL ] INS(o) v > $
-^ < D v o ř á k ů v [ ADJ,ACC,MASC,PL ] INS(y) > $
+^ < d v o ř á k [ ADJ,ACC,MASC,PL ] DEL(ů) v > $
+^ < d v o ř á k ů [ ADJ,ACC,MASC,PL ] INS(o) v > $
+^ < d v o ř á k ů v [ ADJ,ACC,MASC,PL ] INS(y) > $
 ^ < s r p n o v [ ADJ,NOM,ANIM,MASC,PL ] DEL(ý) > $
 ^ < s r p n o v ý [ ADJ,NOM,ANIM,MASC,PL ] INS(í) > $
 ^ < f o t o g r a f i c k [ ADJ,VOC,NEUT,PL ] DEL(ý) > $
@@ -13853,7 +13853,7 @@
 ^ < g r a m o f o n [ N,VOC,PL ] INS(y) > $
 ^ < p r o g r a m o v a t e l n [ ADJ,DAT,MASC,SG ] DEL(ý) > $
 ^ < p r o g r a m o v a t e l n ý [ ADJ,DAT,MASC,SG ] INS(ému) > $
-^ < D á n [ N,DAT,PL ] INS(ům) > $
+^ < d á n [ N,DAT,PL ] INS(ům) > $
 ^ < o s u d [ N,DAT,SG ] INS(u) > $
 ^ < v y h r a z e n [ ADJ,ESS,FEM,SG ] DEL(ý) > $
 ^ < v y h r a z e n ý [ ADJ,ESS,FEM,SG ] INS(é) > $
@@ -14463,7 +14463,7 @@
 ^ < u d ě l a [ V,IND,PST,2,PL,MASC ] DEL(t) > $
 ^ < u d ě l a t [ V,IND,PST,2,PL,MASC ] INS(li) > $
 ^ < p o z o r o v a [ V,IND,PST,2,SG,NEUT ] DEL(t) > $
-^ < R a k [ N,VOC,SG ] INS(u) > $
+^ < r a k [ N,VOC,SG ] INS(u) > $
 ^ < t v á r n [ ADJ,ACC,FEM,PL ] DEL(ý) > $
 ^ < t v á r n ý [ ADJ,ACC,FEM,PL ] INS(é) > $
 ^ < p o k r a č o v [ V.PTCP,ACT,PRF,FEM,SG ] INS(al) a t > $
@@ -14570,8 +14570,8 @@
 ^ < f a r a o n [ N,INS,SG ] INS(em) > $
 ^ < p r o g r a m o v a t e l n [ ADJ,VOC,NEUT,SG ] DEL(ý) > $
 ^ < p r o g r a m o v a t e l n ý [ ADJ,VOC,NEUT,SG ] INS(é) > $
-^ < S l o v i n k [ N,GEN,SG ] DEL(a) > $
-^ < S l o v i n k a [ N,GEN,SG ] INS(y) > $
+^ < s l o v i n k [ N,GEN,SG ] DEL(a) > $
+^ < s l o v i n k a [ N,GEN,SG ] INS(y) > $
 ^ < k o p í r o v a [ V,IND,PST,1,PL,NEUT ] DEL(t) > $
 ^ < v s t ř í c n [ ADJ,GEN,MASC,SG ] DEL(ý) > $
 ^ < v s t ř í c n ý [ ADJ,GEN,MASC,SG ] INS(ého) > $
@@ -14580,8 +14580,8 @@
 ^ < s t ě h o v a t [ V,IND,PRS,2,SG,FORM ] INS(e) > $
 ^ < e x i s t o v [ V.CVB ] DEL(at) > $
 ^ < e x i s t o v a t [ V.CVB ] INS(ání) > $
-^ < A f r i č a n k [ N,ESS,PL ] DEL(a) > $
-^ < A f r i č a n k a [ N,ESS,PL ] INS(ách) > $
+^ < a f r i č a n k [ N,ESS,PL ] DEL(a) > $
+^ < a f r i č a n k a [ N,ESS,PL ] INS(ách) > $
 ^ < p s [ V,IND,PST,2,PL,MASC ] DEL(á) t > $
 ^ < p s á t [ V,IND,PST,2,PL,MASC ] INS(e) > $
 ^ < o p o v r h o v a [ V,IND,PST,2,SG,NEUT ] DEL(t) > $
@@ -14616,8 +14616,8 @@
 ^ < f l a š k a [ N,NOM,PL ] INS(y) > $
 ^ < o d s t r a ň o v a [ V.PTCP,ACT,PRF,NEUT,SG ] DEL(t) > $
 ^ < o d s t r a ň o v a t [ V.PTCP,ACT,PRF,NEUT,SG ] INS(lo) > $
-^ < A l ž í ř a n k [ N,INS,SG ] DEL(a) > $
-^ < A l ž í ř a n k a [ N,INS,SG ] INS(ou) > $
+^ < a l ž í ř a n k [ N,INS,SG ] DEL(a) > $
+^ < a l ž í ř a n k a [ N,INS,SG ] INS(ou) > $
 ^ < o t r a v o v a [ V,COND,PRS,3,PL,FEM ] DEL(t) > $
 ^ < s p a l o v [ V,COND,PST,3,SG,FEM ] INS(al) a t > $
 ^ < s p a l o v a [ V,COND,PST,3,SG,FEM ] DEL(t) > $

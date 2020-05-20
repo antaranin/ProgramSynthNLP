@@ -390,7 +390,7 @@
 ^ < [ 1,COND,POS,PST,SG,V ] INS(bi) h i l - w e þ a n d i n > $
 ^ < h i l - w e þ a n d i [ 1,COND,POS,PST,SG,V ] DEL(n) > $
 ^ < h i l - w e þ a n d i n [ 1,COND,POS,PST,SG,V ] INS(ma) > $
-^ < Î þ t a r [ DEF,LGSPEC1,N,PL,VOC ] INS(ên) > $
+^ < î þ t a r [ DEF,LGSPEC1,N,PL,VOC ] INS(ên) > $
 ^ < z i n d a n î [ DEF,LGSPEC1,N,SG ] INS(a) > $
 ^ < j i y a [ 2,3,IND,POS,PRF,PRS,SG,V ] DEL(n) > $
 ^ < j i y a n [ 2,3,IND,POS,PRF,PRS,SG,V ] INS(ye) > $
@@ -786,7 +786,7 @@
 ^ < r a - m e d a n d i [ 3,COND,POS,PST,SG,V ] DEL(n) > $
 ^ < r a - m e d a n d i n [ 3,COND,POS,PST,SG,V ] INS(a) > $
 ^ < z î p i k [ DEF,LGSPEC1,N,PL,VOC ] INS(ên) > $
-^ < Î s a [ INDF,LGSPEC1,N,SG,ACC ] INS(ekî) > $
+^ < î s a [ INDF,LGSPEC1,N,SG,ACC ] INS(ekî) > $
 ^ < m a s a j v [ DEF,N,PL,ACC,LGSPEC2 ] INS(an) a n > $
 ^ < m o z e l a [ DEF,LGSPEC1,N,PL,VOC ] INS(nê) n > $
 ^ < a s i n g e r [ DEF,LGSPEC1,N,SG ] INS(a) > $
@@ -864,7 +864,7 @@
 ^ < e r k a n [ INDF,LGSPEC1,N,SG,ACC ] INS(ekî) > $
 ^ < b e h î n a m e [ DEF,LGSPEC1,N,PL,VOC ] INS(ên) > $
 ^ < d e x s [ INDF,LGSPEC1,N,SG,ACC ] INS(eke) > $
-^ < Î r a n [ INDF,LGSPEC1,N,SG,ACC ] INS(eke) > $
+^ < î r a n [ INDF,LGSPEC1,N,SG,ACC ] INS(eke) > $
 ^ < [ 2,COND,NEG,PRF,PST,SG,V ] INS(ne) h e j i y a n > $
 ^ < h e j i y a [ 2,COND,NEG,PRF,PST,SG,V ] DEL(n) > $
 ^ < h e j i y a n [ 2,COND,NEG,PRF,PST,SG,V ] INS(ibayî) > $
@@ -1343,7 +1343,7 @@
 ^ < t e s e l e [ DEF,LGSPEC1,N,PL,VOC ] INS(ên) > $
 ^ < t e w e r [ INDF,LGSPEC1,N,PL ] INS(ein) e > $
 ^ < d o l m î þ [ INDF,LGSPEC1,N,PL ] INS(ine) > $
-^ < ê þ a _ A l z h e i m e r î [ INDF,N,NOM,PL ] INS(in) > $
+^ < ê þ a _ a l z h e i m e r î [ INDF,N,NOM,PL ] INS(in) > $
 ^ < b ê r o k [ DEF,N,PL,VOC ] INS(no) > $
 ^ < d î b e k [ INDF,LGSPEC1,N,SG,ACC ] INS(eke) > $
 ^ < o t o p s î [ DEF,LGSPEC1,N,SG ] INS(a) > $
@@ -1620,7 +1620,7 @@
 ^ < h i j d [ INDF,N,NOM,PL ] INS(in) > $
 ^ < x ê l e k [ DEF,N,SG,LGSPEC2 ] INS(î) > $
 ^ < k u n d i r [ INDF,LGSPEC1,N,SG,ACC ] INS(ekî) > $
-^ < Ç e t o [ DEF,N,PL,ACC,LGSPEC2 ] INS(an) > $
+^ < ç e t o [ DEF,N,PL,ACC,LGSPEC2 ] INS(an) > $
 ^ < e r z [ INDF,LGSPEC1,N,PL ] INS(ine) > $
 ^ < r e h m [ DEF,N,PL,ACC,LGSPEC2 ] INS(an) > $
 ^ < k i l î t [ INDF,N,NOM,SG ] INS(ek) > $
@@ -2462,7 +2462,7 @@
 ^ < k e l e m k o t [ DEF,N,PL,ACC,LGSPEC2 ] INS(an) > $
 ^ < b i l b i z [ INDF,LGSPEC1,N,SG,ACC ] INS(eke) > $
 ^ < d e m a n ç e [ DEF,N,PL,VOC ] INS(no) > $
-^ < Ç e t [ DEF,N,PL,VOC ] INS(on) o > $
+^ < ç e t [ DEF,N,PL,VOC ] INS(on) o > $
 ^ < r a k e t i n x a n e [ DEF,N,SG,VOC,ACC,LGSPEC2 ] INS(ê) > $
 ^ < q û m [ INDF,LGSPEC1,N,SG,ACC ] INS(ekî) > $
 ^ < x e t [ DEF,LGSPEC1,N,PL,VOC ] INS(ên) > $
@@ -3605,7 +3605,7 @@
 ^ < h u b i r [ DEF,LGSPEC1,N,SG,VOC,ACC,LGSPEC2 ] INS(ê) > $
 ^ < s e r m e d î [ DEF,N,SG,LGSPEC2 ] INS(î) > $
 ^ < h e y b e t [ DEF,N,SG,LGSPEC2 ] INS(î) > $
-^ < Ç a r ç i r a [ INDF,LGSPEC1,N,PL ] INS(ine) > $
+^ < ç a r ç i r a [ INDF,LGSPEC1,N,PL ] INS(ine) > $
 ^ < l a z i m î [ DEF,N,SG,VOC,ACC,LGSPEC2 ] INS(ê) > $
 ^ < [ 1,COND,POS,PRF,PST,SG,V ] INS(bi) d e s t v e - î n a n > $
 ^ < d e s t v e - î n a [ 1,COND,POS,PRF,PST,SG,V ] DEL(n) > $
@@ -3938,7 +3938,7 @@
 ^ < ç a r e n û s [ INDF,LGSPEC1,N,PL ] INS(ine) > $
 ^ < a n a t î [ DEF,LGSPEC1,N,SG ] INS(a) > $
 ^ < g î s n ê _ z ê r [ DEF,N,PL,VOC ] INS(no) > $
-^ < Ç e t o [ DEF,LGSPEC1,N,SG ] INS(ê) > $
+^ < ç e t o [ DEF,LGSPEC1,N,SG ] INS(ê) > $
 ^ < [ 1,2,3,IMP,PL,POS,PRS,SBJV,V ] INS(bi) d e r - x i s t i n > $
 ^ < d e r - x [ 1,2,3,IMP,PL,POS,PRS,SBJV,V ] DEL(ist) i n > $
 ^ < w e f a t [ INDF,LGSPEC1,N,SG,ACC ] INS(eke) > $
@@ -4344,7 +4344,7 @@
 ^ < d e v e r a _ ç i y a y ê _ b i l i n d [ INDF,N,NOM,SG ] INS(ek) > $
 ^ < r û x a [ 1,2,3,IND,PL,POS,PRF,PRS,V ] INS(i) n > $
 ^ < r û x a n [ 1,2,3,IND,PL,POS,PRF,PRS,V ] INS(e) > $
-^ < Î s k e n d e r û n [ DEF,N,SG,VOC,ACC,LGSPEC2 ] INS(ê) > $
+^ < î s k e n d e r û n [ DEF,N,SG,VOC,ACC,LGSPEC2 ] INS(ê) > $
 ^ < [ 1,IND,NEG,PRS,SG,V,IPFV ] INS(na) g u h a r î n > $
 ^ < g u h a r [ 1,IND,NEG,PRS,SG,V,IPFV ] DEL(în) > $
 ^ < g u h a r î n [ 1,IND,NEG,PRS,SG,V,IPFV ] INS(m) > $
@@ -4791,7 +4791,7 @@
 ^ < l î m [ DEF,N,PL,ACC,LGSPEC2 ] INS(an) a n > $
 ^ < þ e w q [ INDF,N,NOM,SG ] INS(ek) > $
 ^ < d e r z [ INDF,N,NOM,PL ] INS(in) > $
-^ < Î m a d [ INDF,N,NOM,SG ] INS(ek) > $
+^ < î m a d [ INDF,N,NOM,SG ] INS(ek) > $
 ^ < s e l f - d e t e r m î n a s y o n [ INDF,LGSPEC1,N,PL ] INS(ine) > $
 ^ < e l b a n [ INDF,LGSPEC1,N,PL ] INS(ine) > $
 ^ < a s t a r [ INDF,LGSPEC1,N,SG,ACC ] INS(ekî) > $
@@ -5457,7 +5457,7 @@
 ^ < b o n b o [ DEF,LGSPEC1,N,PL,VOC ] INS(nê) n > $
 ^ < k o ç b e r [ INDF,N,NOM,SG ] INS(ek) > $
 ^ < ç ê l e k [ INDF,LGSPEC1,N,SG,ACC ] INS(eke) > $
-^ < Î s m a î l [ DEF,N,SG,VOC ] INS(o) > $
+^ < î s m a î l [ DEF,N,SG,VOC ] INS(o) > $
 ^ < g u l b i j ê r k [ INDF,N,PL,ACC ] INS(inan) > $
 ^ < d e x l [ DEF,N,PL,ACC,LGSPEC2 ] INS(an) > $
 ^ < e m e k [ DEF,N,PL,ACC,LGSPEC2 ] INS(an) > $
@@ -5895,7 +5895,7 @@
 ^ < [ 3,IMP,POS,PRS,SBJV,SG,V ] INS(bi) m a m o s t a t î / e t î a t î / e t î k i r i n > $
 ^ < m a m o s t a t î / e t î a t î / e t î k [ 3,IMP,POS,PRS,SBJV,SG,V ] DEL(irin) > $
 ^ < m a m o s t a t î / e t î a t î / e t î k i r i n [ 3,IMP,POS,PRS,SBJV,SG,V ] INS(e) > $
-^ < Î n g i l î s t a n [ INDF,LGSPEC1,N,SG,ACC ] INS(eke) > $
+^ < î n g i l î s t a n [ INDF,LGSPEC1,N,SG,ACC ] INS(eke) > $
 ^ < a n g a j e [ INDF,N,NOM,PL ] INS(in) > $
 ^ < j i _ t e v a h i y a _ w a n _ r e _ s t û k u r k _ t ê _ g o t i n [ INDF,N,NOM,SG ] INS(ek) > $
 ^ < t e r e z i y a _ a v ê [ DEF,N,PL,ACC,LGSPEC2 ] INS(an) > $
@@ -6183,7 +6183,7 @@
 ^ < k e l e q e n d [ DEF,LGSPEC1,N,SG,VOC,ACC,LGSPEC2 ] INS(ê) > $
 ^ < d i l r e q [ DEF,LGSPEC1,N,SG,VOC,ACC,LGSPEC2 ] INS(ê) > $
 ^ < h o r m o n [ DEF,N,SG,VOC,ACC,LGSPEC2 ] INS(ê) > $
-^ < Î r [ DEF,N,PL,ACC,LGSPEC2 ] INS(an) a n > $
+^ < î r [ DEF,N,PL,ACC,LGSPEC2 ] INS(an) a n > $
 ^ < t a t î [ INDF,N,PL,ACC ] INS(inan) > $
 ^ < k a w [ INDF,LGSPEC1,N,SG,ACC ] INS(ekî) > $
 ^ < r e þ a h î [ INDF,N,NOM,PL ] INS(in) > $
@@ -6616,7 +6616,7 @@
 ^ < r o h i l a t [ DEF,N,SG,LGSPEC2 ] INS(î) > $
 ^ < e ç î [ INDF,N,PL,ACC ] INS(inan) > $
 ^ < l e g l e g [ INDF,N,PL,ACC ] INS(inan) > $
-^ < Î t a l y a [ INDF,N,NOM,PL ] INS(in) > $
+^ < î t a l y a [ INDF,N,NOM,PL ] INS(in) > $
 ^ < p î ç î [ DEF,N,PL,VOC ] INS(no) > $
 ^ < d e s t h e q [ INDF,LGSPEC1,N,PL ] INS(ine) > $
 ^ < t r a i s h o [ DEF,LGSPEC1,N,PL,VOC ] INS(nê) n > $
@@ -7798,7 +7798,7 @@
 ^ < [ 2,3,COND,POS,PRF,PST,SG,V ] INS(bi) x i s t i n > $
 ^ < x i s t i [ 2,3,COND,POS,PRF,PST,SG,V ] DEL(n) > $
 ^ < x i s t i n [ 2,3,COND,POS,PRF,PST,SG,V ] INS(bûya) > $
-^ < Î z l e n d a [ INDF,N,NOM,PL ] INS(in) > $
+^ < î z l e n d a [ INDF,N,NOM,PL ] INS(in) > $
 ^ < r a z a n g [ DEF,N,PL,ACC,LGSPEC2 ] INS(an) > $
 ^ < p o r t r e [ DEF,N,SG,VOC ] INS(o) > $
 ^ < k a f e [ DEF,N,SG,VOC ] INS(o) > $
@@ -9905,7 +9905,7 @@
 ^ < k e l _ û _ k û t [ INDF,LGSPEC1,N,PL ] INS(ine) > $
 ^ < g i h a n e k [ DEF,LGSPEC1,N,SG ] INS(a) > $
 ^ < n e s c a f é [ DEF,N,PL,VOC ] INS(no) > $
-^ < Î n g i l î s t a [ DEF,LGSPEC1,N,PL,VOC ] INS(nê) n > $
+^ < î n g i l î s t a [ DEF,LGSPEC1,N,PL,VOC ] INS(nê) n > $
 ^ < x e p a r [ INDF,N,NOM,SG ] INS(ek) > $
 ^ < w a n î [ INDF,LGSPEC1,N,PL ] INS(ine) > $
 ^ < a l a n e [ DEF,N,SG,VOC,ACC,LGSPEC2 ] INS(ê) > $
@@ -9950,7 +9950,7 @@
 ^ < þ u x u l a n d [ 2,IND,POS,PST,SG,V,PROG ] DEL(in) > $
 ^ < þ u x u l a n d i n [ 2,IND,POS,PST,SG,V,PROG ] INS(î) > $
 ^ < t i x û b [ INDF,LGSPEC1,N,PL ] INS(ine) > $
-^ < ê þ a _ A l z h e i m e r î [ INDF,N,NOM,SG ] INS(ek) > $
+^ < ê þ a _ a l z h e i m e r î [ INDF,N,NOM,SG ] INS(ek) > $
 ^ < p ê þ g i r k [ DEF,N,SG,VOC,ACC,LGSPEC2 ] INS(ê) > $
 ^ < f l a þ [ INDF,N,PL,ACC ] INS(inan) > $
 ^ < h e n g a m [ INDF,N,NOM,PL ] INS(in) > $
@@ -10312,7 +10312,7 @@
 ^ < g a v i k [ INDF,LGSPEC1,N,SG,ACC ] INS(eke) > $
 ^ < ç e w l î k [ INDF,N,PL,ACC ] INS(inan) > $
 ^ < a d e m î z a d [ DEF,N,PL,ACC,LGSPEC2 ] INS(an) > $
-^ < Û s i v [ INDF,N,PL,ACC ] INS(inan) > $
+^ < û s i v [ INDF,N,PL,ACC ] INS(inan) > $
 ^ < p ê n c b e r a n e [ DEF,LGSPEC1,N,SG ] INS(a) > $
 ^ < e t û d [ INDF,LGSPEC1,N,SG,ACC ] INS(eke) > $
 ^ < p i n d [ DEF,N,PL,ACC,LGSPEC2 ] INS(an) > $

@@ -158,7 +158,7 @@
 ^ < c í m k e [ N,FRML,PL ] INS(ékként) > $
 ^ < e l j á r á s [ N,TRANS,SG ] INS(ért) > $
 ^ < d ü h ö n g [ V.PTCP,FUT ] INS(endő) > $
-^ < E U - c s a t l a k o z á s [ N,INST,SG ] INS(sal) > $
+^ < e u - c s a t l a k o z á s [ N,INST,SG ] INS(sal) > $
 ^ < s z a b á l y o s [ N,AT+ABL,SG ] INS(tól) > $
 ^ < b e l v á r o s [ N,AT+ALL,SG ] INS(hoz) > $
 ^ < e m é s z t [ V.PTCP,PRS ] INS(ő) > $
@@ -617,7 +617,7 @@
 ^ < a l v á s [ N,TRANS,SG ] INS(sá) > $
 ^ < f i l t e r [ N,INST,SG ] INS(év) e > $
 ^ < f i l t e r e [ N,INST,SG ] INS(l) > $
-^ < C D - l e j á t s z ó [ N,ON+ABL,PL ] INS(król) > $
+^ < c d - l e j á t s z ó [ N,ON+ABL,PL ] INS(król) > $
 ^ < é l ő l é n y [ N,ON+ESS,SG ] INS(en) > $
 ^ < v á l y ú [ N,TRANS,PL ] INS(kért) > $
 ^ < c s o n t r á k [ N,ON+ABL,PL ] INS(okról) > $
@@ -987,7 +987,7 @@
 ^ < g á z p e d á l [ N,DAT,PL ] INS(oknak) > $
 ^ < t a p í r [ N,FRML,SG ] INS(ként) > $
 ^ < v i d e o j á t é k [ N,AT+ALL,PL ] INS(okhoz) > $
-^ < P a r k i n s o n - k ó r [ N,ACC,SG ] INS(t) > $
+^ < p a r k i n s o n - k ó r [ N,ACC,SG ] INS(t) > $
 ^ < m á s o d k ö z l é s [ N,ON+ALL,SG ] INS(re) > $
 ^ < d i n a m i k u s [ N,IN+ABL,PL ] INS(akból) > $
 ^ < e s e d é k e s [ N,DAT,SG ] INS(nek) > $
@@ -8082,7 +8082,7 @@
 ^ < v a d k a n [ N,DAT,SG ] INS(nak) > $
 ^ < u t á l a t o s [ N,DAT,SG ] INS(nak) > $
 ^ < s o r o l [ V,COND,PRS,DEF,1,SG ] INS(nám) > $
-^ < B i g _ M a c [ N,TRANS,PL ] INS(ekké) > $
+^ < b i g _ m a c [ N,TRANS,PL ] INS(ekké) > $
 ^ < v á r o s i a s í t [ V,NFIN ] INS(ani) > $
 ^ < ü v ö l t [ V,NFIN,3,PL ] INS(eniük) > $
 ^ < g o m b a f é l [ N,ON+ALL,PL ] INS(ékb) e > $
@@ -9261,7 +9261,7 @@
 ^ < n e v e d [ N,DAT,SG ] INS(nek) > $
 ^ < r é g e n s [ N,TERM,PL ] INS(ekig) > $
 ^ < m e g é r d e m e l [ V,NFIN,2,PL ] INS(netek) > $
-^ < B a j o r o r s z á g [ N,ON+ALL,SG ] INS(ba) > $
+^ < b a j o r o r s z á g [ N,ON+ALL,SG ] INS(ba) > $
 ^ < o s t o b [ N,IN+ABL,SG ] DEL(a) > $
 ^ < o s t o b a [ N,IN+ABL,SG ] INS(ából) > $
 ^ < ö z v e g y [ N,ON+ESS,PL ] INS(eken) > $
@@ -9428,7 +9428,7 @@
 ^ < m e g b í z h a t a t l [ N,IN+ESS,SG ] INS(anb) a n > $
 ^ < g é p k o c s i i p a r [ N,ON+ABL,SG ] INS(ról) > $
 ^ < m e g t e r m é k e n y í t é s [ N,IN+ABL,SG ] INS(ből) > $
-^ < L i n u x [ N,DAT,PL ] INS(oknak) > $
+^ < l i n u x [ N,DAT,PL ] INS(oknak) > $
 ^ < m e t s z [ V,COND,PRS,INDF,2,PL ] INS(enétek) > $
 ^ < l e p r [ N,AT+ESS,SG ] DEL(a) > $
 ^ < l e p r a [ N,AT+ESS,SG ] INS(ánál) > $
@@ -9807,7 +9807,7 @@
 ^ < d ó [ N,IN+ABL,SG ] INS(hoz) > $
 ^ < s z o m o r ú [ N,IN+ABL,PL ] INS(akból) > $
 ^ < i r o d a s z é k [ N,AT+ESS,PL ] INS(eknél) > $
-^ < E U - c s a t l a k o z á s [ N,DAT,PL ] INS(oknak) > $
+^ < e u - c s a t l a k o z á s [ N,DAT,PL ] INS(oknak) > $
 ^ < t o p o g r á f i [ N,ON+ESS,PL ] DEL(a) > $
 ^ < t o p o g r á f i a [ N,ON+ESS,PL ] INS(ákon) > $
 ^ < e z ü s t [ N,INST,SG ] INS(tel) > $

@@ -325,7 +325,7 @@
 ^ < h y d r o l o g [ N,DEF,NOM,PL ] INS(erne) > $
 ^ < m e g a l o m a n i [ N,DEF,NOM,SG ] INS(en) > $
 ^ < d r y p [ N,DEF,NOM,PL ] INS(pene) > $
-^ < D - m a r k [ N,DEF,NOM,PL ] INS(ene) > $
+^ < d - m a r k [ N,DEF,NOM,PL ] INS(ene) > $
 ^ < r e t s s a l [ N,DEF,NOM,PL ] INS(ene) > $
 ^ < f o r k ø l e l s [ N,DEF,NOM,PL ] INS(ern) e > $
 ^ < a f o r i s m e [ N,INDF,GEN,PL ] INS(rs) > $
@@ -673,7 +673,7 @@
 ^ < f i l i g r a n [ N,INDF,GEN,SG ] INS(s) > $
 ^ < f a g o t [ N,DEF,NOM,PL ] INS(terne) > $
 ^ < c i t a t [ N,INDF,NOM,PL ] INS(er) > $
-^ < T V - p r o g r a m [ N,DEF,NOM,SG ] INS(met) > $
+^ < t v - p r o g r a m [ N,DEF,NOM,SG ] INS(met) > $
 ^ < f ø l e l s e [ N,INDF,GEN,SG ] INS(s) > $
 ^ < m ø l l e r [ N,DEF,NOM,SG ] INS(en) > $
 ^ < i n d h ø s t e [ V.PTCP,PASS,PST ] INS(t) > $
@@ -1081,7 +1081,7 @@
 ^ < a l g o r i t m e [ N,INDF,GEN,PL ] INS(rs) > $
 ^ < k a p t a j n [ N,INDF,NOM,PL ] INS(er) > $
 ^ < f i s k e r b å d [ N,INDF,GEN,PL ] INS(es) > $
-^ < W i k i p e d i a b r u g e r s i d [ N,DEF,NOM,PL ] INS(ern) e > $
+^ < w i k i p e d i a b r u g e r s i d [ N,DEF,NOM,PL ] INS(ern) e > $
 ^ < p a n t e b r e v [ N,INDF,GEN,PL ] INS(es) > $
 ^ < d a n s k e r [ N,INDF,NOM,PL ] INS(e) > $
 ^ < d o d e k a e d e r [ N,DEF,NOM,SG ] INS(et) > $
@@ -2159,7 +2159,7 @@
 ^ < t o r s d a g [ N,INDF,GEN,SG ] INS(s) > $
 ^ < h a n k a t [ N,DEF,NOM,PL ] INS(tene) > $
 ^ < a b b e d i s s e [ N,INDF,GEN,PL ] INS(rs) > $
-^ < T V - s e r i e [ N,INDF,NOM,PL ] INS(r) > $
+^ < t v - s e r i e [ N,INDF,NOM,PL ] INS(r) > $
 ^ < h v e p s [ N,INDF,NOM,PL ] INS(e) > $
 ^ < g o l f e r [ N,INDF,GEN,PL ] INS(es) > $
 ^ < m a f i o s o [ N,INDF,NOM,PL ] INS(er) > $
@@ -2786,7 +2786,7 @@
 ^ < r a t [ N,DEF,NOM,PL ] INS(tene) > $
 ^ < k o m p a g n o n [ N,INDF,GEN,PL ] INS(ers) > $
 ^ < p e n [ N,DEF,NOM,PL ] INS(nene) > $
-^ < T V - s e r i [ N,DEF,NOM,PL ] INS(ern) e > $
+^ < t v - s e r i [ N,DEF,NOM,PL ] INS(ern) e > $
 ^ < r æ v e g r a v [ N,INDF,GEN,SG ] INS(s) > $
 ^ < r y t t e r [ N,INDF,NOM,PL ] INS(e) > $
 ^ < n i s s [ N,DEF,NOM,PL ] INS(ern) e > $
@@ -2894,7 +2894,7 @@
 ^ < f l a n k [ N,DEF,NOM,PL ] INS(ern) e > $
 ^ < t i e n d e d e l [ N,INDF,GEN,SG ] INS(s) > $
 ^ < c i g a r e t m æ r k e [ N,INDF,NOM,PL ] INS(r) > $
-^ < D - m a r k [ N,INDF,GEN,PL ] INS(s) > $
+^ < d - m a r k [ N,INDF,GEN,PL ] INS(s) > $
 ^ < v e r a n d a [ N,DEF,NOM,PL ] INS(erne) > $
 ^ < f o r h o l d s o r d [ N,INDF,GEN,SG ] INS(s) > $
 ^ < s i n e c u r e [ N,INDF,GEN,PL ] INS(rs) > $
@@ -3017,7 +3017,7 @@
 ^ < b ø f [ N,INDF,GEN,SG ] INS(s) > $
 ^ < k n a g e b r æ t [ N,INDF,GEN,SG ] INS(s) > $
 ^ < i n f o r m a t i o [ N,DEF,NOM,SG ] INS(ne) n > $
-^ < W i k i p e d i a b r u g e r s i d e [ N,DEF,NOM,SG ] INS(n) > $
+^ < w i k i p e d i a b r u g e r s i d e [ N,DEF,NOM,SG ] INS(n) > $
 ^ < p e n [ N,INDF,GEN,PL ] INS(nes) > $
 ^ < f i l e t e r [ V.PTCP,ACT,PRS ] INS(end) e > $
 ^ < a k k u s a t i v [ N,INDF,GEN,PL ] INS(ers) > $
@@ -4734,7 +4734,7 @@
 ^ < h å n d j e r n [ N,DEF,NOM,SG ] INS(et) > $
 ^ < u d f o r d r i n g [ N,INDF,GEN,SG ] INS(s) > $
 ^ < g e b y r [ N,INDF,GEN,SG ] INS(s) > $
-^ < T V - p r o g r a m [ N,INDF,GEN,PL ] INS(mers) > $
+^ < t v - p r o g r a m [ N,INDF,GEN,PL ] INS(mers) > $
 ^ < i s t a p [ N,INDF,GEN,PL ] INS(pers) > $
 ^ < m e t e r [ N,DEF,NOM,SG ] INS(en) > $
 ^ < ø k o l o g i [ N,DEF,NOM,SG ] INS(en) > $
@@ -5523,7 +5523,7 @@
 ^ < v æ g t f y l d e [ N,INDF,GEN,SG ] INS(s) > $
 ^ < t u r k i s [ N,DEF,NOM,SG ] INS(en) > $
 ^ < o r k a n [ N,DEF,NOM,PL ] INS(erne) > $
-^ < W i k i p e d i a b r u g e r s i d e [ N,INDF,GEN,SG ] INS(s) > $
+^ < w i k i p e d i a b r u g e r s i d e [ N,INDF,GEN,SG ] INS(s) > $
 ^ < a n a l f a b e t [ N,DEF,NOM,PL ] INS(erne) > $
 ^ < s p æ n d i n g s f o r s k e l [ N,INDF,GEN,PL ] INS(les) > $
 ^ < p s y k o s e [ N,INDF,GEN,SG ] INS(s) > $
@@ -6680,7 +6680,7 @@
 ^ < v a n d f a l d [ N,DEF,NOM,SG ] INS(et) > $
 ^ < p o l y g o [ N,DEF,NOM,SG ] INS(ne) n > $
 ^ < m y r e [ N,DEF,NOM,SG ] INS(n) > $
-^ < T V - p r o g r a m [ N,INDF,GEN,SG ] INS(s) > $
+^ < t v - p r o g r a m [ N,INDF,GEN,SG ] INS(s) > $
 ^ < h o l m [ N,INDF,NOM,PL ] INS(e) > $
 ^ < t æ p p e [ N,INDF,GEN,PL ] INS(rs) > $
 ^ < o p l y s n i n g [ N,DEF,NOM,SG ] INS(en) > $
@@ -7247,7 +7247,7 @@
 ^ < d ø d e l i g h e d [ N,DEF,NOM,SG ] INS(en) > $
 ^ < b e h o v [ N,INDF,GEN,PL ] INS(s) > $
 ^ < r e k v i r e r e [ V,PASS,IND,PST ] INS(des) > $
-^ < D - m a r k [ N,DEF,NOM,SG ] INS(en) > $
+^ < d - m a r k [ N,DEF,NOM,SG ] INS(en) > $
 ^ < e s k a d r i l l [ N,DEF,NOM,PL ] INS(ern) e > $
 ^ < l i e c h t e n s t e i n e r [ N,DEF,NOM,PL ] INS(ne) > $
 ^ < h i l s e n [ N,INDF,GEN,SG ] INS(s) > $

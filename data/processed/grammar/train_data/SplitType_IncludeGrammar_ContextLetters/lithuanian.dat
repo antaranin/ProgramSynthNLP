@@ -167,8 +167,8 @@
 ^ < v a r t o t i [ V,2,PL,PST,FREQ,IND ] INS(e) > $
 ^ < a k i v a i z d [ ADJ,GEN,PL,FEM,POS ] DEL(us) > $
 ^ < a k i v a i z d u s [ ADJ,GEN,PL,FEM,POS ] INS(žių) > $
-^ < K u p e r i o _ l i a u k [ N,GEN,SG ] DEL(a) > $
-^ < K u p e r i o _ l i a u k a [ N,GEN,SG ] INS(os) > $
+^ < k u p e r i o _ l i a u k [ N,GEN,SG ] DEL(a) > $
+^ < k u p e r i o _ l i a u k a [ N,GEN,SG ] INS(os) > $
 ^ < f a k t [ N,INST,SG ] DEL(as) > $
 ^ < f a k t a s [ N,INST,SG ] INS(ù) > $
 ^ < š v i [ N,LOC,SG ] DEL(e) s m e t i s > $
@@ -799,8 +799,8 @@
 ^ < g ė l ė [ N,NOM,PL ] INS(s) > $
 ^ < p a d o r [ ADJ,LOC,SG,MASC,SPRL ] INS(ia) u s > $
 ^ < p a d o r u s [ ADJ,LOC,SG,MASC,SPRL ] INS(iame) > $
-^ < K o s o v [ N,VOC,SG ] DEL(as) > $
-^ < K o s o v a s [ N,VOC,SG ] INS(e) > $
+^ < k o s o v [ N,VOC,SG ] DEL(as) > $
+^ < k o s o v a s [ N,VOC,SG ] INS(e) > $
 ^ < s m u l k m e n i š k [ ADJ,NOM,SG,MASC,CMPR ] DEL(a) s > $
 ^ < s m u l k m e n i š k a [ ADJ,NOM,SG,MASC,CMPR ] INS(esni) s > $
 ^ < k ė k š t a [ N,INST,PL ] INS(i) s > $
@@ -1762,7 +1762,7 @@
 ^ < a l a v a [ N,DAT,PL ] INS(ám) s > $
 ^ < p a t a r t [ V,2,SG,SBJV ] DEL(i) > $
 ^ < p a t a r t i [ V,2,SG,SBJV ] INS(um) > $
-^ < M e r g e l ė [ N,LOC,SG ] INS(je) > $
+^ < m e r g e l ė [ N,LOC,SG ] INS(je) > $
 ^ < t u r k i š k a [ ADJ,LOC,SG,MASC,POS ] DEL(s) > $
 ^ < t u r k i š k a s [ ADJ,LOC,SG,MASC,POS ] INS(me) > $
 ^ < g r a ž [ N,GEN,SG ] DEL(umas) > $
@@ -2006,8 +2006,8 @@
 ^ < n a u j i e n a [ N,INST,PL ] INS(omis) > $
 ^ < b r ę [ V,V.PTCP,ADV,LGSPEC2,ACT ] INS(sdama) s t i > $
 ^ < b r ę s [ V,V.PTCP,ADV,LGSPEC2,ACT ] DEL(ti) > $
-^ < K u p e r i o _ s k y [ N,INST,SG ] DEL(sti) s > $
-^ < K u p e r i o _ s k y s t i s [ N,INST,SG ] INS(čiu) > $
+^ < k u p e r i o _ s k y [ N,INST,SG ] DEL(sti) s > $
+^ < k u p e r i o _ s k y s t i s [ N,INST,SG ] INS(čiu) > $
 ^ < d ė ž [ N,GEN,PL ] DEL(ė) > $
 ^ < d ė ž ė [ N,GEN,PL ] INS(ių) > $
 ^ < e r e l i [ N,ACC,PL ] INS(ù) s > $
@@ -2394,8 +2394,8 @@
 ^ < n u g a l ė t i [ V,2,PL,PST,FREQ,IND ] INS(e) > $
 ^ < a t r a [ V,2,SG,PRS,IND ] DEL(st) i > $
 ^ < a t r a s t [ V,2,SG,PRS,IND ] INS(nd) i > $
-^ < M e r g e l [ N,ACC,PL ] DEL(ė) > $
-^ < M e r g e l ė [ N,ACC,PL ] INS(es) > $
+^ < m e r g e l [ N,ACC,PL ] DEL(ė) > $
+^ < m e r g e l ė [ N,ACC,PL ] INS(es) > $
 ^ < y p a t i n g [ ADJ,NOM,PL,FEM,POS ] DEL(a) s > $
 ^ < y p a t i n g a [ ADJ,NOM,PL,FEM,POS ] INS(o) s > $
 ^ < l [ N,GEN,PL ] DEL(a) t v i s > $
@@ -3101,8 +3101,8 @@
 ^ < [ V,3,SG,IMP ] INS(te) i š ž i ū r ė t i > $
 ^ < i š ž i ū r [ V,3,SG,IMP ] DEL(ėt) i > $
 ^ < m a l o n [ ADJ,GEN,SG,MASC,POS ] INS(a) u s > $
-^ < P o r t u g a l i j o s _ v a n d e n s _ š u [ N,ACC,SG ] DEL(o) > $
-^ < P o r t u g a l i j o s _ v a n d e n s _ š u o [ N,ACC,SG ] INS(nį) > $
+^ < p o r t u g a l i j o s _ v a n d e n s _ š u [ N,ACC,SG ] DEL(o) > $
+^ < p o r t u g a l i j o s _ v a n d e n s _ š u o [ N,ACC,SG ] INS(nį) > $
 ^ < n u k e l i a u [ V,V.PTCP,FUT,PASS ] DEL(t) i > $
 ^ < n u k e l i a u t [ V,V.PTCP,FUT,PASS ] INS(s) i > $
 ^ < n u k e l i a u t i [ V,V.PTCP,FUT,PASS ] INS(mas) > $
@@ -3227,8 +3227,8 @@
 ^ < a r k a n g e l a s [ N,ACC,SG ] INS(ą) > $
 ^ < s p a r n [ N,GEN,SG ] DEL(as) > $
 ^ < s p a r n a s [ N,GEN,SG ] INS(o) > $
-^ < S u p e r m e n [ N,INST,SG ] DEL(as) > $
-^ < S u p e r m e n a s [ N,INST,SG ] INS(u) > $
+^ < s u p e r m e n [ N,INST,SG ] DEL(as) > $
+^ < s u p e r m e n a s [ N,INST,SG ] INS(u) > $
 ^ < g a l a b [ V,3,SG,PRS,IND ] DEL(yt) i > $
 ^ < g a l a b y t i [ V,3,SG,PRS,IND ] INS(ja) > $
 ^ < l i e p i a m [ N,INST,SG ] DEL(oji) _ n u o s a k a > $
@@ -3875,8 +3875,8 @@
 ^ < p l u t a [ N,GEN,SG ] INS(õs) > $
 ^ < y d i n g [ ADJ,DAT,PL,MASC,CMPR ] DEL(a) s > $
 ^ < y d i n g a [ ADJ,DAT,PL,MASC,CMPR ] INS(esniem) s > $
-^ < M e r g e l [ N,VOC,SG ] DEL(ė) > $
-^ < M e r g e l ė [ N,VOC,SG ] INS(e) > $
+^ < m e r g e l [ N,VOC,SG ] DEL(ė) > $
+^ < m e r g e l ė [ N,VOC,SG ] INS(e) > $
 ^ < a f g a n [ N,INST,SG ] DEL(as) > $
 ^ < a f g a n a s [ N,INST,SG ] INS(u) > $
 ^ < n e t v a r k i n g [ ADJ,NOM,PL,MASC,CMPR ] DEL(a) s > $
@@ -4924,7 +4924,7 @@
 ^ < s i t u a [ N,LOC,SG ] INS(ã) c i j a > $
 ^ < s i t u a c i j [ N,LOC,SG ] DEL(a) > $
 ^ < s i t u a c i j a [ N,LOC,SG ] INS(oje) > $
-^ < K u p e r i o _ l i a u k a [ N,ACC,PL ] INS(s) > $
+^ < k u p e r i o _ l i a u k a [ N,ACC,PL ] INS(s) > $
 ^ < t v a r k i n g [ ADJ,GEN,SG,FEM,POS ] DEL(a) s > $
 ^ < t v a r k i n g a [ ADJ,GEN,SG,FEM,POS ] INS(o) s > $
 ^ < s u g l u m i n [ V,V.PTCP,ADV,PST,ACT ] DEL(ti) > $
@@ -8566,8 +8566,8 @@
 ^ < s u n k u [ ADJ,NOM,SG,MASC,POS ] INS(ù) s > $
 ^ < k o v a [ N,NOM,PL ] DEL(s) > $
 ^ < k o v a s [ N,NOM,PL ] INS(ĩ) > $
-^ < K u p e r i o _ l i a u k [ N,ACC,SG ] DEL(a) > $
-^ < K u p e r i o _ l i a u k a [ N,ACC,SG ] INS(ą) > $
+^ < k u p e r i o _ l i a u k [ N,ACC,SG ] DEL(a) > $
+^ < k u p e r i o _ l i a u k a [ N,ACC,SG ] INS(ą) > $
 ^ < k i m š [ V,1,SG,PST,IND ] DEL(ti) > $
 ^ < k i m š t i [ V,1,SG,PST,IND ] INS(aũ) > $
 ^ < g a l i n i [ N,NOM,PL ] DEL(n) k a s > $
@@ -9661,8 +9661,8 @@
 ^ < z o d i a k [ N,LOC,PL ] DEL(a) s > $
 ^ < z o d i a k a [ N,LOC,PL ] INS(uo) s > $
 ^ < z o d i a k a s [ N,LOC,PL ] INS(e) > $
-^ < S u p e r m e n [ N,GEN,SG ] DEL(as) > $
-^ < S u p e r m e n a s [ N,GEN,SG ] INS(o) > $
+^ < s u p e r m e n [ N,GEN,SG ] DEL(as) > $
+^ < s u p e r m e n a s [ N,GEN,SG ] INS(o) > $
 ^ < a n g l i š k [ ADJ,INST,SG,MASC,POS ] DEL(as) > $
 ^ < a n g l i š k a s [ ADJ,INST,SG,MASC,POS ] INS(u) > $
 ^ < b e n d r a [ ADJ,VOC,SG,FEM,POS ] DEL(s) > $
@@ -9733,8 +9733,8 @@
 ^ < u g n i n g a s [ ADJ,NOM,PL,MASC,CMPR ] INS(ni) > $
 ^ < a v ė t [ V,2,PL,SBJV ] DEL(i) > $
 ^ < a v ė t i [ V,2,PL,SBJV ] INS(e) > $
-^ < K u p e r i o _ l i a u k [ N,NOM,PL ] DEL(a) > $
-^ < K u p e r i o _ l i a u k a [ N,NOM,PL ] INS(os) > $
+^ < k u p e r i o _ l i a u k [ N,NOM,PL ] DEL(a) > $
+^ < k u p e r i o _ l i a u k a [ N,NOM,PL ] INS(os) > $
 ^ < j u r g [ N,VOC,PL ] INS(ìna) i n a s > $
 ^ < j u r g i [ N,VOC,PL ] DEL(nas) > $
 ^ < š i l t [ ADJ,GEN,PL,MASC,POS ] DEL(as) > $
@@ -11443,7 +11443,7 @@
 ^ < k u l t ū r a [ N,ACC,SG ] INS(ą) > $
 ^ < g [ V,3,PL,PST,FREQ,IND ] INS(óbdav) o b t i > $
 ^ < g o [ V,3,PL,PST,FREQ,IND ] DEL(bti) > $
-^ < M e r g e l ė [ N,GEN,SG ] INS(s) > $
+^ < m e r g e l ė [ N,GEN,SG ] INS(s) > $
 ^ < p i k t [ ADJ,NOM,PL,MASC,POS ] DEL(as) > $
 ^ < p i k t a s [ ADJ,NOM,PL,MASC,POS ] INS(ì) > $
 ^ < n e t v a r k i n g [ ADJ,NOM,PL,FEM,SPRL ] INS(i) a s > $
@@ -11573,8 +11573,8 @@
 ^ < š i k n a r a [ N,NOM,PL ] DEL(n) k ė > $
 ^ < š i k n a r a n [ N,NOM,PL ] INS(ñ) k ė > $
 ^ < š i k n a r a n k ė [ N,NOM,PL ] INS(s) > $
-^ < K u p e r i o _ l i a u k [ N,DAT,PL ] DEL(a) > $
-^ < K u p e r i o _ l i a u k a [ N,DAT,PL ] INS(oms) > $
+^ < k u p e r i o _ l i a u k [ N,DAT,PL ] DEL(a) > $
+^ < k u p e r i o _ l i a u k a [ N,DAT,PL ] INS(oms) > $
 ^ < p r i v a l g [ V,2,PL,PRS,IND ] DEL(yti) > $
 ^ < p r i v a l g y t i [ V,2,PL,PRS,IND ] INS(ote) > $
 ^ < d i e v i š k [ ADJ,NOM,PL,MASC,POS ] DEL(as) > $
@@ -11858,7 +11858,7 @@
 ^ < l a u k i [ ADJ,DAT,SG,MASC,POS ] INS(ì) n i s > $
 ^ < l a u k i n i [ ADJ,DAT,SG,MASC,POS ] DEL(s) > $
 ^ < l a u k i n i s [ ADJ,DAT,SG,MASC,POS ] INS(am) > $
-^ < S u p e r m e n a [ N,DAT,PL ] INS(m) s > $
+^ < s u p e r m e n a [ N,DAT,PL ] INS(m) s > $
 ^ < i š s [ V,3,PL,PST,IND ] DEL(iūt) i > $
 ^ < i š s i ū t i [ V,3,PL,PST,IND ] INS(uvo) > $
 ^ < m a l t i e t i š k [ ADJ,INST,SG,MASC,POS ] DEL(as) > $
@@ -13086,8 +13086,8 @@
 ^ < b a l n o t i [ V,1,SG,PRS,IND ] INS(ju) > $
 ^ < m i [ N,GEN,SG ] DEL(etas) > $
 ^ < m i e t a s [ N,GEN,SG ] INS(ẽto) > $
-^ < K u p e r i o _ l i a u k [ N,INST,PL ] DEL(a) > $
-^ < K u p e r i o _ l i a u k a [ N,INST,PL ] INS(omis) > $
+^ < k u p e r i o _ l i a u k [ N,INST,PL ] DEL(a) > $
+^ < k u p e r i o _ l i a u k a [ N,INST,PL ] INS(omis) > $
 ^ < j a p o n a [ N,INST,PL ] INS(i) s > $
 ^ < i š ž i ū r ė t i [ V,V.PTCP,LGSPEC1,PASS ] INS(nas) > $
 ^ < g a v i a l a [ N,DAT,PL ] INS(m) s > $
@@ -14883,7 +14883,7 @@
 ^ < m a [ N,ACC,PL ] INS(á) r š k i n i a i > $
 ^ < m a r š k i n [ N,ACC,PL ] DEL(ia) i > $
 ^ < m a r š k i n i a i [ N,ACC,PL ] INS(us) > $
-^ < M e r g e l ė [ N,DAT,PL ] INS(ms) > $
+^ < m e r g e l ė [ N,DAT,PL ] INS(ms) > $
 ^ < s k a l [ N,NOM,SG ] DEL(i) k a s > $
 ^ < s k a l i [ N,NOM,SG ] INS(ì) k a s > $
 ^ < m e n k [ ADJ,ACC,SG,MASC,SPRL ] INS(i) a s > $
@@ -16752,8 +16752,8 @@
 ^ < k a d a g y s [ N,GEN,SG ] INS(io) > $
 ^ < l a i ž [ V,3,PL,PST,IND ] DEL(yti) > $
 ^ < l a i ž y t i [ V,3,PL,PST,IND ] INS(ė) > $
-^ < M e r g e l [ N,ACC,SG ] DEL(ė) > $
-^ < M e r g e l ė [ N,ACC,SG ] INS(ę) > $
+^ < m e r g e l [ N,ACC,SG ] DEL(ė) > $
+^ < m e r g e l ė [ N,ACC,SG ] INS(ę) > $
 ^ < e r [ N,INST,SG ] DEL(e) k c i j a > $
 ^ < e r e [ N,INST,SG ] INS(è) k c i j a > $
 ^ < p j a u s t y [ V,1,SG,FUT,IND ] DEL(t) i > $
@@ -19626,8 +19626,8 @@
 ^ < v a r l i a [ N,GEN,PL ] INS(ã) g y v i s > $
 ^ < v a r l i a g y v i [ N,GEN,PL ] DEL(s) > $
 ^ < v a r l i a g y v i s [ N,GEN,PL ] INS(ų) > $
-^ < M e r g e l [ N,INST,SG ] DEL(ė) > $
-^ < M e r g e l ė [ N,INST,SG ] INS(e) > $
+^ < m e r g e l [ N,INST,SG ] DEL(ė) > $
+^ < m e r g e l ė [ N,INST,SG ] INS(e) > $
 ^ < š a l [ N,DAT,PL ] DEL(i) s > $
 ^ < š a l i [ N,DAT,PL ] INS(ìm) s > $
 ^ < k a l n [ N,GEN,PL ] DEL(as) > $
@@ -19665,8 +19665,8 @@
 ^ < p r a v a l g y t i [ V,3,SG,FUT,IND ] INS(s) > $
 ^ < a p m i r [ V,V.PTCP,ADV,PST,FREQ,ACT ] DEL(ti) > $
 ^ < a p m i r t i [ V,V.PTCP,ADV,PST,FREQ,ACT ] INS(davus) > $
-^ < P o r t u g a l i j o s _ v a n d e n s _ š [ N,INST,SG ] INS(uni) u o > $
-^ < P o r t u g a l i j o s _ v a n d e n s _ š u [ N,INST,SG ] DEL(o) > $
+^ < p o r t u g a l i j o s _ v a n d e n s _ š [ N,INST,SG ] INS(uni) u o > $
+^ < p o r t u g a l i j o s _ v a n d e n s _ š u [ N,INST,SG ] DEL(o) > $
 ^ < m a ž o [ N,GEN,SG ] DEL(j) i _ g u l b ė > $
 ^ < m a ž o j [ N,GEN,SG ] INS(s) i _ g u l b ė > $
 ^ < m a ž o j i [ N,GEN,SG ] INS(os) _ g u l b ė > $
@@ -20425,8 +20425,8 @@
 ^ < p r i e š i n ė _ l i a u k a [ N,GEN,SG ] INS(os) > $
 ^ < d i r g i n [ V,3,PL,PST,FREQ,IND ] DEL(ti) > $
 ^ < d i r g i n t i [ V,3,PL,PST,FREQ,IND ] INS(davo) > $
-^ < P o r t u g a l i j o s _ v a n d e n s _ š u [ N,ACC,PL ] DEL(o) > $
-^ < P o r t u g a l i j o s _ v a n d e n s _ š u o [ N,ACC,PL ] INS(nis) > $
+^ < p o r t u g a l i j o s _ v a n d e n s _ š u [ N,ACC,PL ] DEL(o) > $
+^ < p o r t u g a l i j o s _ v a n d e n s _ š u o [ N,ACC,PL ] INS(nis) > $
 ^ < a p n i ū k [ V,V.PTCP,ADV,PST,FREQ,ACT ] DEL(ti) > $
 ^ < a p n i ū k t i [ V,V.PTCP,ADV,PST,FREQ,ACT ] INS(davus) > $
 ^ < v a i z d i n [ ADJ,NOM,SG,FEM,POS ] DEL(is) > $
@@ -22404,8 +22404,8 @@
 ^ < i š b u č i u o [ V,V.PTCP,FUT,ACT ] DEL(t) i > $
 ^ < i š b u č i u o t [ V,V.PTCP,FUT,ACT ] INS(s) i > $
 ^ < i š b u č i u o t i [ V,V.PTCP,FUT,ACT ] INS(ąs) > $
-^ < S u p e r m e n [ N,VOC,SG ] DEL(as) > $
-^ < S u p e r m e n a s [ N,VOC,SG ] INS(e) > $
+^ < s u p e r m e n [ N,VOC,SG ] DEL(as) > $
+^ < s u p e r m e n a s [ N,VOC,SG ] INS(e) > $
 ^ < v [ N,NOM,SG ] DEL(a) r p u t ė > $
 ^ < v a [ N,NOM,SG ] INS(á) r p u t ė > $
 ^ < į v a i r [ ADJ,ACC,SG,MASC,POS ] DEL(us) > $

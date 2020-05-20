@@ -1504,8 +1504,8 @@ nezagt;<nez;>;DEL;agt;V,2,SG,IMP
 iztulkojums;<iztulkojum;s>;INS;o;N,LOC,PL
 raksturs;<rakstur;>;DEL;s;N,INST,SG
 raksturs;<raksturs;>;INS;u;N,INST,SG
-Šlemma kanāls;<Šlemma kanāl;>;DEL;s;N,DAT,SG
-Šlemma kanāls;<Šlemma kanāls;>;INS;am;N,DAT,SG
+šlemma kanāls;<šlemma kanāl;>;DEL;s;N,DAT,SG
+šlemma kanāls;<šlemma kanāls;>;INS;am;N,DAT,SG
 mākoņaināks;<mākoņaināk;s>;INS;a;ADJ,NOM,PL,FEM
 itāliskāks;<itāliskāk;>;DEL;s;ADJ,DAT,SG,FEM
 itāliskāks;<itāliskāks;>;INS;u;ADJ,DAT,SG,FEM
@@ -2094,7 +2094,7 @@ pārcepšana;<pārcepšana;>;INS;u;N,INST,SG
 melīgākais;<melīgāka;is>;INS;j;ADJ,DAT,PL,MASC
 melīgākais;<melīgākai;>;DEL;s;ADJ,DAT,PL,MASC
 melīgākais;<melīgākais;>;INS;em;ADJ,DAT,PL,MASC
-Japānas cauna;<Japānas cauna;>;INS;s;N,VOC,PL
+japānas cauna;<japānas cauna;>;INS;s;N,VOC,PL
 mazturīgais;<mazturīg;>;DEL;ais;ADJ,ACC,PL,MASC
 mazturīgais;<mazturīgais;>;INS;o;ADJ,ACC,PL,MASC
 ronis;<ro;>;DEL;nis;N,INST,PL
@@ -7050,8 +7050,8 @@ pūķis;<pūķis;>;INS;ī;N,LOC,SG
 slepkava;<slepkav;>;DEL;a;N,ACC,SG
 slepkava;<slepkava;>;INS;u;N,ACC,SG
 mala;<mala;>;INS;s;N,ACC,PL
-Japānas cauna;<Japānas caun;>;DEL;a;N,LOC,SG
-Japānas cauna;<Japānas cauna;>;INS;ā;N,LOC,SG
+japānas cauna;<japānas caun;>;DEL;a;N,LOC,SG
+japānas cauna;<japānas cauna;>;INS;ā;N,LOC,SG
 cepināt;<cepin;t>;DEL;ā;V,2,PL,IMP
 cepināt;<cepinā;t>;INS;ie;V,2,PL,IMP
 slims;<slim;>;DEL;s;ADJ,GEN,SG,FEM
@@ -8098,8 +8098,8 @@ plašāks;<plašāk;>;DEL;s;ADJ,DAT,SG,MASC
 plašāks;<plašāks;>;INS;u;ADJ,DAT,SG,MASC
 visaklākais;<visaklāk;>;DEL;ais;ADJ,DAT,SG,MASC
 visaklākais;<visaklākais;>;INS;o;ADJ,DAT,SG,MASC
-Sibīrijas cauna;<Sibīrijas caun;>;DEL;a;N,DAT,PL
-Sibīrijas cauna;<Sibīrijas cauna;>;INS;ām;N,DAT,PL
+sibīrijas cauna;<sibīrijas caun;>;DEL;a;N,DAT,PL
+sibīrijas cauna;<sibīrijas cauna;>;INS;ām;N,DAT,PL
 saltais;<salta;>;DEL;is;ADJ,INST,SG,FEM
 saltais;<saltais;>;INS;jā;ADJ,INST,SG,FEM
 neskābēt;<neskābē;>;DEL;t;V,1,PL,PST,IND
@@ -8879,7 +8879,7 @@ visbritiskākais;<visbritiskāk;>;DEL;ais;ADJ,LOC,SG,FEM
 visbritiskākais;<visbritiskākais;>;INS;ā;ADJ,LOC,SG,FEM
 baznice;<bazni;>;DEL;ce;N,GEN,PL
 baznice;<baznice;>;INS;ču;N,GEN,PL
-Vidzeme;<Vidzeme;>;INS;s;N,GEN,SG
+vidzeme;<vidzeme;>;INS;s;N,GEN,SG
 sekss;<sek;s>;DEL;s;N,VOC,PL
 sekss;<sekss;>;INS;i;N,VOC,PL
 taizemiskāks;<taizemiskāk;s>;INS;ā;ADJ,INST,PL,FEM
@@ -15594,7 +15594,7 @@ nebēdnīgais;<nebēdnīgais;>;INS;o;ADJ,DAT,SG,MASC
 puisītis;<puisī;is>;DEL;t;N,VOC,PL
 puisītis;<puisīt;is>;INS;š;N,VOC,PL
 puisītis;<puisīti;>;DEL;s;N,VOC,PL
-Šlemma kanāls;<Šlemma kanāl;s>;INS;o;N,LOC,PL
+šlemma kanāls;<šlemma kanāl;s>;INS;o;N,LOC,PL
 parast;<;parast>;INS;jā;V,LGSPEC2,LgSPEC8
 parast;<par;t>;DEL;as;V,LGSPEC2,LgSPEC8
 parast;<paras;t>;INS;odo;V,LGSPEC2,LgSPEC8

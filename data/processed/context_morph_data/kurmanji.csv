@@ -391,7 +391,7 @@ ta;<ta;>;INS;ek;INDF,N,NOM,SG
 hil-weþandin;<;hil-weþandin>;INS;bi;1,COND,POS,PST,SG,V
 hil-weþandin;<hil-weþandi;>;DEL;n;1,COND,POS,PST,SG,V
 hil-weþandin;<hil-weþandin;>;INS;ma;1,COND,POS,PST,SG,V
-Îþtar;<Îþtar;>;INS;ên;DEF,LGSPEC1,N,PL,VOC
+îþtar;<îþtar;>;INS;ên;DEF,LGSPEC1,N,PL,VOC
 zindanî;<zindanî;>;INS;a;DEF,LGSPEC1,N,SG
 jiyan;<jiya;>;DEL;n;2,3,IND,POS,PRF,PRS,SG,V
 jiyan;<jiyan;>;INS;ye;2,3,IND,POS,PRF,PRS,SG,V
@@ -787,7 +787,7 @@ ra-medandin;<;ra-medandin>;INS;bi;3,COND,POS,PST,SG,V
 ra-medandin;<ra-medandi;>;DEL;n;3,COND,POS,PST,SG,V
 ra-medandin;<ra-medandin;>;INS;a;3,COND,POS,PST,SG,V
 zîpik;<zîpik;>;INS;ên;DEF,LGSPEC1,N,PL,VOC
-Îsa;<Îsa;>;INS;ekî;INDF,LGSPEC1,N,SG,ACC
+îsa;<îsa;>;INS;ekî;INDF,LGSPEC1,N,SG,ACC
 masajvan;<masajv;an>;INS;an;DEF,N,PL,ACC,LGSPEC2
 mozelan;<mozela;n>;INS;nê;DEF,LGSPEC1,N,PL,VOC
 asinger;<asinger;>;INS;a;DEF,LGSPEC1,N,SG
@@ -865,7 +865,7 @@ kefik;<kefik;>;INS;eke;INDF,LGSPEC1,N,SG,ACC
 erkan;<erkan;>;INS;ekî;INDF,LGSPEC1,N,SG,ACC
 behîname;<behîname;>;INS;ên;DEF,LGSPEC1,N,PL,VOC
 dexs;<dexs;>;INS;eke;INDF,LGSPEC1,N,SG,ACC
-Îran;<Îran;>;INS;eke;INDF,LGSPEC1,N,SG,ACC
+îran;<îran;>;INS;eke;INDF,LGSPEC1,N,SG,ACC
 hejiyan;<;hejiyan>;INS;ne;2,COND,NEG,PRF,PST,SG,V
 hejiyan;<hejiya;>;DEL;n;2,COND,NEG,PRF,PST,SG,V
 hejiyan;<hejiyan;>;INS;ibayî;2,COND,NEG,PRF,PST,SG,V
@@ -1344,7 +1344,7 @@ demografî;<demografî;>;INS;ên;DEF,LGSPEC1,N,PL,VOC
 tesele;<tesele;>;INS;ên;DEF,LGSPEC1,N,PL,VOC
 tewere;<tewer;e>;INS;ein;INDF,LGSPEC1,N,PL
 dolmîþ;<dolmîþ;>;INS;ine;INDF,LGSPEC1,N,PL
-êþa Alzheimerî;<êþa Alzheimerî;>;INS;in;INDF,N,NOM,PL
+êþa alzheimerî;<êþa alzheimerî;>;INS;in;INDF,N,NOM,PL
 bêrok;<bêrok;>;INS;no;DEF,N,PL,VOC
 dîbek;<dîbek;>;INS;eke;INDF,LGSPEC1,N,SG,ACC
 otopsî;<otopsî;>;INS;a;DEF,LGSPEC1,N,SG
@@ -1621,7 +1621,7 @@ mêjû;<mêjû;>;INS;an;DEF,N,PL,ACC,LGSPEC2
 hijd;<hijd;>;INS;in;INDF,N,NOM,PL
 xêlek;<xêlek;>;INS;î;DEF,N,SG,LGSPEC2
 kundir;<kundir;>;INS;ekî;INDF,LGSPEC1,N,SG,ACC
-Çeto;<Çeto;>;INS;an;DEF,N,PL,ACC,LGSPEC2
+çeto;<çeto;>;INS;an;DEF,N,PL,ACC,LGSPEC2
 erz;<erz;>;INS;ine;INDF,LGSPEC1,N,PL
 rehm;<rehm;>;INS;an;DEF,N,PL,ACC,LGSPEC2
 kilît;<kilît;>;INS;ek;INDF,N,NOM,SG
@@ -2463,7 +2463,7 @@ domandin;<domandin;>;INS;a;DEF,LGSPEC1,N,SG
 kelemkot;<kelemkot;>;INS;an;DEF,N,PL,ACC,LGSPEC2
 bilbiz;<bilbiz;>;INS;eke;INDF,LGSPEC1,N,SG,ACC
 demançe;<demançe;>;INS;no;DEF,N,PL,VOC
-Çeto;<Çet;o>;INS;on;DEF,N,PL,VOC
+çeto;<çet;o>;INS;on;DEF,N,PL,VOC
 raketinxane;<raketinxane;>;INS;ê;DEF,N,SG,VOC,ACC,LGSPEC2
 qûm;<qûm;>;INS;ekî;INDF,LGSPEC1,N,SG,ACC
 xet;<xet;>;INS;ên;DEF,LGSPEC1,N,PL,VOC
@@ -3606,7 +3606,7 @@ belgihê derwêþiyê;<belgihê derwêþiyê;>;INS;ine;INDF,LGSPEC1,N,PL
 hubir;<hubir;>;INS;ê;DEF,LGSPEC1,N,SG,VOC,ACC,LGSPEC2
 sermedî;<sermedî;>;INS;î;DEF,N,SG,LGSPEC2
 heybet;<heybet;>;INS;î;DEF,N,SG,LGSPEC2
-Çarçira;<Çarçira;>;INS;ine;INDF,LGSPEC1,N,PL
+çarçira;<çarçira;>;INS;ine;INDF,LGSPEC1,N,PL
 lazimî;<lazimî;>;INS;ê;DEF,N,SG,VOC,ACC,LGSPEC2
 destve-înan;<;destve-înan>;INS;bi;1,COND,POS,PRF,PST,SG,V
 destve-înan;<destve-îna;>;DEL;n;1,COND,POS,PRF,PST,SG,V
@@ -3939,7 +3939,7 @@ têzav;<têzav;>;INS;eke;INDF,LGSPEC1,N,SG,ACC
 çarenûs;<çarenûs;>;INS;ine;INDF,LGSPEC1,N,PL
 anatî;<anatî;>;INS;a;DEF,LGSPEC1,N,SG
 gîsnê zêr;<gîsnê zêr;>;INS;no;DEF,N,PL,VOC
-Çeto;<Çeto;>;INS;ê;DEF,LGSPEC1,N,SG
+çeto;<çeto;>;INS;ê;DEF,LGSPEC1,N,SG
 der-xistin;<;der-xistin>;INS;bi;1,2,3,IMP,PL,POS,PRS,SBJV,V
 der-xistin;<der-x;in>;DEL;ist;1,2,3,IMP,PL,POS,PRS,SBJV,V
 wefat;<wefat;>;INS;eke;INDF,LGSPEC1,N,SG,ACC
@@ -4345,7 +4345,7 @@ bombardiman;<bombardiman;>;INS;ek;INDF,N,NOM,SG
 devera çiyayê bilind;<devera çiyayê bilind;>;INS;ek;INDF,N,NOM,SG
 rûxan;<rûxa;n>;INS;i;1,2,3,IND,PL,POS,PRF,PRS,V
 rûxan;<rûxan;>;INS;e;1,2,3,IND,PL,POS,PRF,PRS,V
-Îskenderûn;<Îskenderûn;>;INS;ê;DEF,N,SG,VOC,ACC,LGSPEC2
+îskenderûn;<îskenderûn;>;INS;ê;DEF,N,SG,VOC,ACC,LGSPEC2
 guharîn;<;guharîn>;INS;na;1,IND,NEG,PRS,SG,V,IPFV
 guharîn;<guhar;>;DEL;în;1,IND,NEG,PRS,SG,V,IPFV
 guharîn;<guharîn;>;INS;m;1,IND,NEG,PRS,SG,V,IPFV
@@ -4792,7 +4792,7 @@ zarrûzêç;<zarrûzêç;>;INS;an;DEF,N,PL,ACC,LGSPEC2
 lîman;<lîm;an>;INS;an;DEF,N,PL,ACC,LGSPEC2
 þewq;<þewq;>;INS;ek;INDF,N,NOM,SG
 derz;<derz;>;INS;in;INDF,N,NOM,PL
-Îmad;<Îmad;>;INS;ek;INDF,N,NOM,SG
+îmad;<îmad;>;INS;ek;INDF,N,NOM,SG
 self-determînasyon;<self-determînasyon;>;INS;ine;INDF,LGSPEC1,N,PL
 elban;<elban;>;INS;ine;INDF,LGSPEC1,N,PL
 astar;<astar;>;INS;ekî;INDF,LGSPEC1,N,SG,ACC
@@ -5458,7 +5458,7 @@ ve-maltin;<ve-maltin;>;INS;bûm;1,IND,NEG,PRF,PST,SG,V
 bonbon;<bonbo;n>;INS;nê;DEF,LGSPEC1,N,PL,VOC
 koçber;<koçber;>;INS;ek;INDF,N,NOM,SG
 çêlek;<çêlek;>;INS;eke;INDF,LGSPEC1,N,SG,ACC
-Îsmaîl;<Îsmaîl;>;INS;o;DEF,N,SG,VOC
+îsmaîl;<îsmaîl;>;INS;o;DEF,N,SG,VOC
 gulbijêrk;<gulbijêrk;>;INS;inan;INDF,N,PL,ACC
 dexl;<dexl;>;INS;an;DEF,N,PL,ACC,LGSPEC2
 emek;<emek;>;INS;an;DEF,N,PL,ACC,LGSPEC2
@@ -5896,7 +5896,7 @@ duk;<duk;>;INS;ine;INDF,LGSPEC1,N,PL
 mamostatî/etîatî/etîkirin;<;mamostatî/etîatî/etîkirin>;INS;bi;3,IMP,POS,PRS,SBJV,SG,V
 mamostatî/etîatî/etîkirin;<mamostatî/etîatî/etîk;>;DEL;irin;3,IMP,POS,PRS,SBJV,SG,V
 mamostatî/etîatî/etîkirin;<mamostatî/etîatî/etîkirin;>;INS;e;3,IMP,POS,PRS,SBJV,SG,V
-Îngilîstan;<Îngilîstan;>;INS;eke;INDF,LGSPEC1,N,SG,ACC
+îngilîstan;<îngilîstan;>;INS;eke;INDF,LGSPEC1,N,SG,ACC
 angaje;<angaje;>;INS;in;INDF,N,NOM,PL
 ji tevahiya wan re stûkurk tê gotin;<ji tevahiya wan re stûkurk tê gotin;>;INS;ek;INDF,N,NOM,SG
 tereziya avê;<tereziya avê;>;INS;an;DEF,N,PL,ACC,LGSPEC2
@@ -6184,7 +6184,7 @@ zîzandin;<zîzandi;n>;INS;nê;DEF,LGSPEC1,N,PL,VOC
 keleqend;<keleqend;>;INS;ê;DEF,LGSPEC1,N,SG,VOC,ACC,LGSPEC2
 dilreq;<dilreq;>;INS;ê;DEF,LGSPEC1,N,SG,VOC,ACC,LGSPEC2
 hormon;<hormon;>;INS;ê;DEF,N,SG,VOC,ACC,LGSPEC2
-Îran;<Îr;an>;INS;an;DEF,N,PL,ACC,LGSPEC2
+îran;<îr;an>;INS;an;DEF,N,PL,ACC,LGSPEC2
 tatî;<tatî;>;INS;inan;INDF,N,PL,ACC
 kaw;<kaw;>;INS;ekî;INDF,LGSPEC1,N,SG,ACC
 reþahî;<reþahî;>;INS;in;INDF,N,NOM,PL
@@ -6617,7 +6617,7 @@ azamet;<azamet;>;INS;ek;INDF,N,NOM,SG
 rohilat;<rohilat;>;INS;î;DEF,N,SG,LGSPEC2
 eçî;<eçî;>;INS;inan;INDF,N,PL,ACC
 legleg;<legleg;>;INS;inan;INDF,N,PL,ACC
-Îtalya;<Îtalya;>;INS;in;INDF,N,NOM,PL
+îtalya;<îtalya;>;INS;in;INDF,N,NOM,PL
 pîçî;<pîçî;>;INS;no;DEF,N,PL,VOC
 destheq;<destheq;>;INS;ine;INDF,LGSPEC1,N,PL
 traishon;<traisho;n>;INS;nê;DEF,LGSPEC1,N,PL,VOC
@@ -7799,7 +7799,7 @@ medyûm;<medyûm;>;INS;a;DEF,LGSPEC1,N,SG
 xistin;<;xistin>;INS;bi;2,3,COND,POS,PRF,PST,SG,V
 xistin;<xisti;>;DEL;n;2,3,COND,POS,PRF,PST,SG,V
 xistin;<xistin;>;INS;bûya;2,3,COND,POS,PRF,PST,SG,V
-Îzlenda;<Îzlenda;>;INS;in;INDF,N,NOM,PL
+îzlenda;<îzlenda;>;INS;in;INDF,N,NOM,PL
 razang;<razang;>;INS;an;DEF,N,PL,ACC,LGSPEC2
 portre;<portre;>;INS;o;DEF,N,SG,VOC
 kafe;<kafe;>;INS;o;DEF,N,SG,VOC
@@ -9906,7 +9906,7 @@ saremenî;<saremenî;>;INS;ê;DEF,N,SG,VOC,ACC,LGSPEC2
 kel û kût;<kel û kût;>;INS;ine;INDF,LGSPEC1,N,PL
 gihanek;<gihanek;>;INS;a;DEF,LGSPEC1,N,SG
 nescafé;<nescafé;>;INS;no;DEF,N,PL,VOC
-Îngilîstan;<Îngilîsta;n>;INS;nê;DEF,LGSPEC1,N,PL,VOC
+îngilîstan;<îngilîsta;n>;INS;nê;DEF,LGSPEC1,N,PL,VOC
 xepar;<xepar;>;INS;ek;INDF,N,NOM,SG
 wanî;<wanî;>;INS;ine;INDF,LGSPEC1,N,PL
 alane;<alane;>;INS;ê;DEF,N,SG,VOC,ACC,LGSPEC2
@@ -9951,7 +9951,7 @@ da-mezran;<da-mezran;>;INS;a;3,COND,POS,PST,SG,V
 þuxulandin;<þuxuland;>;DEL;in;2,IND,POS,PST,SG,V,PROG
 þuxulandin;<þuxulandin;>;INS;î;2,IND,POS,PST,SG,V,PROG
 tixûb;<tixûb;>;INS;ine;INDF,LGSPEC1,N,PL
-êþa Alzheimerî;<êþa Alzheimerî;>;INS;ek;INDF,N,NOM,SG
+êþa alzheimerî;<êþa alzheimerî;>;INS;ek;INDF,N,NOM,SG
 pêþgirk;<pêþgirk;>;INS;ê;DEF,N,SG,VOC,ACC,LGSPEC2
 flaþ;<flaþ;>;INS;inan;INDF,N,PL,ACC
 hengam;<hengam;>;INS;in;INDF,N,NOM,PL
@@ -10313,7 +10313,7 @@ werimîn;<werimîn;>;INS;a;2,3,COND,NEG,PL,PRF,PST,V
 gavik;<gavik;>;INS;eke;INDF,LGSPEC1,N,SG,ACC
 çewlîk;<çewlîk;>;INS;inan;INDF,N,PL,ACC
 ademîzad;<ademîzad;>;INS;an;DEF,N,PL,ACC,LGSPEC2
-Ûsiv;<Ûsiv;>;INS;inan;INDF,N,PL,ACC
+ûsiv;<ûsiv;>;INS;inan;INDF,N,PL,ACC
 pêncberane;<pêncberane;>;INS;a;DEF,LGSPEC1,N,SG
 etûd;<etûd;>;INS;eke;INDF,LGSPEC1,N,SG,ACC
 pind;<pind;>;INS;an;DEF,N,PL,ACC,LGSPEC2
