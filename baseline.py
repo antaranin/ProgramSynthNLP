@@ -2,7 +2,6 @@ import csv
 import os
 from statistics import mean, stdev
 from typing import List, Tuple, Collection
-import editdistance
 
 from precondition_interpreter import Prediction
 
@@ -35,6 +34,7 @@ def _read_lemma_and_inflection(lemma_inf_file: str, delimiter="\t") -> List[Tupl
 
 
 def calculate_and_save_cost_baseline(prediction_file: str, output_file: str):
+    import editdistance
     predictions_and_actual = _read_predictions_and_actual_words(prediction_file)
     words_and_cost = []
     for original, prediction, actual in predictions_and_actual:

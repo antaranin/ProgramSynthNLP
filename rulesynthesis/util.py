@@ -14,7 +14,6 @@ from rulesynthesis.interpret_grammar import Grammar, Rule
 from torch.multiprocessing import Queue, Process
 
 
-
 class UnfinishedError(Exception):
     pass
 
@@ -26,8 +25,9 @@ class REPLError(Exception):
 class TOKENError(Exception):
     pass
 
-#TODO check if changing will improve performance
-USE_CUDA = False #torch.cuda.is_available()
+
+# TODO check if changing will improve performance
+USE_CUDA = torch.cuda.is_available()
 
 cuda_a_dict = lambda d: {key: val for key, val in d.items()}
 
@@ -35,11 +35,17 @@ SOS_token = "SOS"
 EOS_token = "EOS"
 PAD_token = SOS_token
 
-
 # Training parameters
 num_episodes_val = 20  # number of episodes to use as validation throughout learning
 clip = 400.0  # clip gradients with larger magnitude than this
 max_try_novel = 100  # number of attempts to find a novel episode (not in tabu list) before throwing an error
+
+alphabet_path = None
+data_file_path = None
+grammar_path = None
+rule_count = 100
+support_set_count = 200
+query_set_count = 100
 
 
 def asMinutes(s):
@@ -100,7 +106,8 @@ def build_padded_var(list_seq, lang, max_length=None, add_eos=True, add_sos=Fals
         list_seq = new_list_seq
 
     n = len(list_seq)
-    if n == 0: return [], []
+    if n == 0:
+        return [], []
     z_eos = list_seq
     if add_sos:
         z_eos = [[SOS_token] + z for z in z_eos]
@@ -390,11 +397,9 @@ def get_episode_generator(episode_type, model_in_lang=None, model_out_lang=None,
     prog_lang = Lang(prog_symbols_list)
 
     if episode_type == "NLP":
-        alphabet_path = "../data/processed/alphabet/asturian.csv"
-        data_path = "../data/processed/context_morph_data/asturian.csv"
-        grammar_path = "../data/processed/grammar/adagram/both/asturian.csv"
         from rulesynthesis.nlp import NLPLanguage
-        lang = NLPLanguage(alphabet_path, data_path, grammar_path)
+        lang = NLPLanguage(alphabet_path, data_file_path, grammar_path, rule_count,
+                           support_set_count, query_set_count)
         return lang.get_episode_generator()
     elif episode_type == 'rules_gen':
 
@@ -562,10 +567,12 @@ def get_episode_generator(episode_type, model_in_lang=None, model_out_lang=None,
     elif episode_type in ['scan_simple_original', 'scan_jump_original',
                           'scan_around_right_original', 'scan_length_original']:
 
-        dic = {'scan_simple_original': 'simple',
-               'scan_jump_original': 'addprim_jump',
-               'scan_around_right_original': 'template_around_right',
-               'scan_length_original': 'length'}
+        dic = {
+            'scan_simple_original': 'simple',
+            'scan_jump_original': 'addprim_jump',
+            'scan_around_right_original': 'template_around_right',
+            'scan_length_original': 'length'
+        }
 
         scan_train = ge.load_scan_file(dic[episode_type], 'train')
         scan_test = ge.load_scan_file(dic[episode_type], 'test')

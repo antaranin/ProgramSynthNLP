@@ -9,10 +9,6 @@ from rulesynthesis.agent import Example, State, ParseError
 from rulesynthesis.util import Lang, make_hashable, build_sample, build_padded_var
 from rulesynthesis.model import Model
 
-RULE_COUNT = 50
-SUPPORT_COUNT = 50
-QUERY_COUNT = 25
-
 MAX_ATTEMPTS = 10
 LEFT = "L"
 RIGHT = "R"
@@ -269,10 +265,14 @@ class NLPLanguage:
     op_objects: Collection[str]
     morph_features: Collection[str]
     train_data: DataSampler
+    support_set_count: int
+    query_set_count: int
+    rule_count: int
 
     # test_data: DataSampler
 
-    def __init__(self, alphabet_file_path: str, data_file: str, train_grammar_path: str) -> None:
+    def __init__(self, alphabet_file_path: str, data_file: str, train_grammar_path: str,
+                 support_set_count: int, query_set_count: int, rule_count: int) -> None:
         super().__init__()
         self.alphabet = dr.load_alphabet(alphabet_file_path, include_end_start_symbols=True)
         data = dr.load_data_frame(data_file)
@@ -280,6 +280,12 @@ class NLPLanguage:
         self.op_objects = data.drop_duplicates(["OpObjects"])["OpObjects"].tolist()
         self.morph_features = data.drop_duplicates(["Grammar"])["Grammar"].tolist()
         self.train_data = DataSampler(train_grammar_path, self.alphabet)
+        self.support_set_count = support_set_count
+        self.query_set_count = query_set_count
+        self.rule_count = rule_count
+        print(f"Rule count: {rule_count}")
+        print(f"Support count: {support_set_count}")
+        print(f"Query count: {query_set_count}")
 
     def get_episode_generator(self):
         input_language = Lang(self._get_input_tokens())
@@ -288,9 +294,9 @@ class NLPLanguage:
         # TODO make this code less shit
         generate_episode_from_sampler = \
             lambda data_sampler, already_generated_episodes: data_sampler.generate_episode(
-                SUPPORT_COUNT,
-                QUERY_COUNT,
-                RULE_COUNT,
+                self.support_set_count,
+                self.query_set_count,
+                self.rule_count,
                 input_language,
                 output_language,
                 program_language,

@@ -18,6 +18,7 @@ import PyAdaGram.launch_train as adagram
 import grammar_train_file_generator as gram_train
 import grammar_file_generator as gram_gen
 import csv
+import rulesynthesis.synthTrain as synthTrain
 
 
 class PredType(Enum):
@@ -366,6 +367,30 @@ def run_adagram(language: str, split_type: SplitType, pred_type: PredType):
     _save_best_adagram_grammar(f"{output_dir}/{train_file_name}", output_grammar_path)
 
 
+def run_rule_synthesis(language: str):
+    # --fn_out_model nlp.p --type NLP --batchsize 128 --episode_type NLP --num_pretrain_episodes 100000
+    model_output_file = f"data/processed/models/{language}.p"
+    data_input_file = f"data/processed/context_morph_data/{language}.csv"
+    alphabet_file = f"data/processed/alphabet/{language}.csv"
+    grammar_file = f"data/processed/grammar/adagram/both/{language}.csv"
+
+    args = [
+        "--fn_out_model", model_output_file,
+        "--data_file_path", data_input_file,
+        "--alphabet_file_path", alphabet_file,
+        "--grammar_file_path", grammar_file,
+        "--type", "NLP",
+        "--episode_type", "NLP",
+        "--num_pretrain_episodes", "100000",
+        "--batchsize", "128",
+        "--rule_count", "100",
+        "--support_set_count", "200",
+        "--query_set_count", "100",
+    ]
+
+    synthTrain.main(args)
+
+
 def _save_best_adagram_grammar(input_dir: str, output_file_path: str):
     all_subdirs = [f"{input_dir}/{d}" for d in os.listdir(input_dir) if
                    os.path.isdir(f"{input_dir}/{d}")]
@@ -491,13 +516,12 @@ def make_adagrammar_for_languages():
             print(e)
     calculate_average_prediction_costs(pred_type)
 
+
 if __name__ == '__main__':
     # gram_path = "data/processed/grammar/adagram/both/asturian.grammar"
     # out_path = "data/processed/grammar/adagram/both/asturian.csv"
     # gram_extractor.save_grammar_file(gram_path, out_path)
-    make_adagrammar_for_languages()
+    # make_adagrammar_for_languages()
     # calculate_average_prediction_costs(PredType.AdaGramBoth)
     # calculate_average_prediction_costs(PredType.NoOperation)
-
-
-
+    run_rule_synthesis("asturian")
