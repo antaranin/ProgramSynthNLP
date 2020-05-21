@@ -159,7 +159,7 @@ címke;<címk;>;DEL;e;N,FRML,PL
 címke;<címke;>;INS;ékként;N,FRML,PL
 eljárás;<eljárás;>;INS;ért;N,TRANS,SG
 dühöng;<dühöng;>;INS;endő;V.PTCP,FUT
-EU-csatlakozás;<EU-csatlakozás;>;INS;sal;N,INST,SG
+eu-csatlakozás;<eu-csatlakozás;>;INS;sal;N,INST,SG
 szabályos;<szabályos;>;INS;tól;N,AT+ABL,SG
 belváros;<belváros;>;INS;hoz;N,AT+ALL,SG
 emészt;<emészt;>;INS;ő;V.PTCP,PRS
@@ -618,7 +618,7 @@ vértanú;<vértanú;>;INS;kra;N,ON+ALL,PL
 alvás;<alvás;>;INS;sá;N,TRANS,SG
 filtere;<filter;e>;INS;év;N,INST,SG
 filtere;<filtere;>;INS;l;N,INST,SG
-CD-lejátszó;<CD-lejátszó;>;INS;król;N,ON+ABL,PL
+cd-lejátszó;<cd-lejátszó;>;INS;król;N,ON+ABL,PL
 élőlény;<élőlény;>;INS;en;N,ON+ESS,SG
 vályú;<vályú;>;INS;kért;N,TRANS,PL
 csontrák;<csontrák;>;INS;okról;N,ON+ABL,PL
@@ -988,7 +988,7 @@ megjegyzés;<megjegyzés;>;INS;sel;N,INST,SG
 gázpedál;<gázpedál;>;INS;oknak;N,DAT,PL
 tapír;<tapír;>;INS;ként;N,FRML,SG
 videojáték;<videojáték;>;INS;okhoz;N,AT+ALL,PL
-Parkinson-kór;<Parkinson-kór;>;INS;t;N,ACC,SG
+parkinson-kór;<parkinson-kór;>;INS;t;N,ACC,SG
 másodközlés;<másodközlés;>;INS;re;N,ON+ALL,SG
 dinamikus;<dinamikus;>;INS;akból;N,IN+ABL,PL
 esedékes;<esedékes;>;INS;nek;N,DAT,SG
@@ -8083,7 +8083,7 @@ adaptáció;<adaptáció;>;INS;hoz;N,IN+ABL,SG
 vadkan;<vadkan;>;INS;nak;N,DAT,SG
 utálatos;<utálatos;>;INS;nak;N,DAT,SG
 sorol;<sorol;>;INS;nám;V,COND,PRS,DEF,1,SG
-Big Mac;<Big Mac;>;INS;ekké;N,TRANS,PL
+big mac;<big mac;>;INS;ekké;N,TRANS,PL
 városiasít;<városiasít;>;INS;ani;V,NFIN
 üvölt;<üvölt;>;INS;eniük;V,NFIN,3,PL
 gombaféle;<gombafél;e>;INS;ékb;N,ON+ALL,PL
@@ -9262,7 +9262,7 @@ kíváncsi;<kíváncsi;>;INS;akká;N,TRANS,PL
 neved;<neved;>;INS;nek;N,DAT,SG
 régens;<régens;>;INS;ekig;N,TERM,PL
 megérdemel;<megérdemel;>;INS;netek;V,NFIN,2,PL
-Bajorország;<Bajorország;>;INS;ba;N,ON+ALL,SG
+bajorország;<bajorország;>;INS;ba;N,ON+ALL,SG
 ostoba;<ostob;>;DEL;a;N,IN+ABL,SG
 ostoba;<ostoba;>;INS;ából;N,IN+ABL,SG
 özvegy;<özvegy;>;INS;eken;N,ON+ESS,PL
@@ -9429,7 +9429,7 @@ gyalogátkelőhely;<gyalogátkelőhely;>;INS;ektől;N,AT+ABL,PL
 megbízhatatlan;<megbízhatatl;an>;INS;anb;N,IN+ESS,SG
 gépkocsiipar;<gépkocsiipar;>;INS;ról;N,ON+ABL,SG
 megtermékenyítés;<megtermékenyítés;>;INS;ből;N,IN+ABL,SG
-Linux;<Linux;>;INS;oknak;N,DAT,PL
+linux;<linux;>;INS;oknak;N,DAT,PL
 metsz;<metsz;>;INS;enétek;V,COND,PRS,INDF,2,PL
 lepra;<lepr;>;DEL;a;N,AT+ESS,SG
 lepra;<lepra;>;INS;ánál;N,AT+ESS,SG
@@ -9808,7 +9808,7 @@ antiszeptikum;<antiszeptikum;>;INS;ból;N,IN+ABL,SG
 dó;<dó;>;INS;hoz;N,IN+ABL,SG
 szomorú;<szomorú;>;INS;akból;N,IN+ABL,PL
 irodaszék;<irodaszék;>;INS;eknél;N,AT+ESS,PL
-EU-csatlakozás;<EU-csatlakozás;>;INS;oknak;N,DAT,PL
+eu-csatlakozás;<eu-csatlakozás;>;INS;oknak;N,DAT,PL
 topográfia;<topográfi;>;DEL;a;N,ON+ESS,PL
 topográfia;<topográfia;>;INS;ákon;N,ON+ESS,PL
 ezüst;<ezüst;>;INS;tel;N,INST,SG

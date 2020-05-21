@@ -1503,8 +1503,8 @@
 ^ < i z t u l k o j u m [ N,LOC,PL ] INS(o) s > $
 ^ < r a k s t u r [ N,INST,SG ] DEL(s) > $
 ^ < r a k s t u r s [ N,INST,SG ] INS(u) > $
-^ < Š l e m m a _ k a n ā l [ N,DAT,SG ] DEL(s) > $
-^ < Š l e m m a _ k a n ā l s [ N,DAT,SG ] INS(am) > $
+^ < š l e m m a _ k a n ā l [ N,DAT,SG ] DEL(s) > $
+^ < š l e m m a _ k a n ā l s [ N,DAT,SG ] INS(am) > $
 ^ < m ā k o ņ a i n ā k [ ADJ,NOM,PL,FEM ] INS(a) s > $
 ^ < i t ā l i s k ā k [ ADJ,DAT,SG,FEM ] DEL(s) > $
 ^ < i t ā l i s k ā k s [ ADJ,DAT,SG,FEM ] INS(u) > $
@@ -2093,7 +2093,7 @@
 ^ < m e l ī g ā k a [ ADJ,DAT,PL,MASC ] INS(j) i s > $
 ^ < m e l ī g ā k a i [ ADJ,DAT,PL,MASC ] DEL(s) > $
 ^ < m e l ī g ā k a i s [ ADJ,DAT,PL,MASC ] INS(em) > $
-^ < J a p ā n a s _ c a u n a [ N,VOC,PL ] INS(s) > $
+^ < j a p ā n a s _ c a u n a [ N,VOC,PL ] INS(s) > $
 ^ < m a z t u r ī g [ ADJ,ACC,PL,MASC ] DEL(ais) > $
 ^ < m a z t u r ī g a i s [ ADJ,ACC,PL,MASC ] INS(o) > $
 ^ < r o [ N,INST,PL ] DEL(nis) > $
@@ -7049,8 +7049,8 @@
 ^ < s l e p k a v [ N,ACC,SG ] DEL(a) > $
 ^ < s l e p k a v a [ N,ACC,SG ] INS(u) > $
 ^ < m a l a [ N,ACC,PL ] INS(s) > $
-^ < J a p ā n a s _ c a u n [ N,LOC,SG ] DEL(a) > $
-^ < J a p ā n a s _ c a u n a [ N,LOC,SG ] INS(ā) > $
+^ < j a p ā n a s _ c a u n [ N,LOC,SG ] DEL(a) > $
+^ < j a p ā n a s _ c a u n a [ N,LOC,SG ] INS(ā) > $
 ^ < c e p i n [ V,2,PL,IMP ] DEL(ā) t > $
 ^ < c e p i n ā [ V,2,PL,IMP ] INS(ie) t > $
 ^ < s l i m [ ADJ,GEN,SG,FEM ] DEL(s) > $
@@ -8097,8 +8097,8 @@
 ^ < p l a š ā k s [ ADJ,DAT,SG,MASC ] INS(u) > $
 ^ < v i s a k l ā k [ ADJ,DAT,SG,MASC ] DEL(ais) > $
 ^ < v i s a k l ā k a i s [ ADJ,DAT,SG,MASC ] INS(o) > $
-^ < S i b ī r i j a s _ c a u n [ N,DAT,PL ] DEL(a) > $
-^ < S i b ī r i j a s _ c a u n a [ N,DAT,PL ] INS(ām) > $
+^ < s i b ī r i j a s _ c a u n [ N,DAT,PL ] DEL(a) > $
+^ < s i b ī r i j a s _ c a u n a [ N,DAT,PL ] INS(ām) > $
 ^ < s a l t a [ ADJ,INST,SG,FEM ] DEL(is) > $
 ^ < s a l t a i s [ ADJ,INST,SG,FEM ] INS(jā) > $
 ^ < n e s k ā b ē [ V,1,PL,PST,IND ] DEL(t) > $
@@ -8878,7 +8878,7 @@
 ^ < v i s b r i t i s k ā k a i s [ ADJ,LOC,SG,FEM ] INS(ā) > $
 ^ < b a z n i [ N,GEN,PL ] DEL(ce) > $
 ^ < b a z n i c e [ N,GEN,PL ] INS(ču) > $
-^ < V i d z e m e [ N,GEN,SG ] INS(s) > $
+^ < v i d z e m e [ N,GEN,SG ] INS(s) > $
 ^ < s e k [ N,VOC,PL ] DEL(s) s > $
 ^ < s e k s s [ N,VOC,PL ] INS(i) > $
 ^ < t a i z e m i s k ā k [ ADJ,INST,PL,FEM ] INS(ā) s > $
@@ -15593,7 +15593,7 @@
 ^ < p u i s ī [ N,VOC,PL ] DEL(t) i s > $
 ^ < p u i s ī t [ N,VOC,PL ] INS(š) i s > $
 ^ < p u i s ī t i [ N,VOC,PL ] DEL(s) > $
-^ < Š l e m m a _ k a n ā l [ N,LOC,PL ] INS(o) s > $
+^ < š l e m m a _ k a n ā l [ N,LOC,PL ] INS(o) s > $
 ^ < [ V,LGSPEC2,LgSPEC8 ] INS(jā) p a r a s t > $
 ^ < p a r [ V,LGSPEC2,LgSPEC8 ] DEL(as) t > $
 ^ < p a r a s [ V,LGSPEC2,LgSPEC8 ] INS(odo) t > $

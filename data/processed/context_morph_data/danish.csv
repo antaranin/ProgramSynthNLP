@@ -326,7 +326,7 @@ mandebøde;<mandebød;e>;INS;ern;N,DEF,NOM,PL
 hydrolog;<hydrolog;>;INS;erne;N,DEF,NOM,PL
 megalomani;<megalomani;>;INS;en;N,DEF,NOM,SG
 dryp;<dryp;>;INS;pene;N,DEF,NOM,PL
-D-mark;<D-mark;>;INS;ene;N,DEF,NOM,PL
+d-mark;<d-mark;>;INS;ene;N,DEF,NOM,PL
 retssal;<retssal;>;INS;ene;N,DEF,NOM,PL
 forkølelse;<forkølels;e>;INS;ern;N,DEF,NOM,PL
 aforisme;<aforisme;>;INS;rs;N,INDF,GEN,PL
@@ -674,7 +674,7 @@ palmeolie;<palmeolie;>;INS;n;N,DEF,NOM,SG
 filigran;<filigran;>;INS;s;N,INDF,GEN,SG
 fagot;<fagot;>;INS;terne;N,DEF,NOM,PL
 citat;<citat;>;INS;er;N,INDF,NOM,PL
-TV-program;<TV-program;>;INS;met;N,DEF,NOM,SG
+tv-program;<tv-program;>;INS;met;N,DEF,NOM,SG
 følelse;<følelse;>;INS;s;N,INDF,GEN,SG
 møller;<møller;>;INS;en;N,DEF,NOM,SG
 indhøste;<indhøste;>;INS;t;V.PTCP,PASS,PST
@@ -1082,7 +1082,7 @@ las;<las;>;INS;er;N,INDF,NOM,PL
 algoritme;<algoritme;>;INS;rs;N,INDF,GEN,PL
 kaptajn;<kaptajn;>;INS;er;N,INDF,NOM,PL
 fiskerbåd;<fiskerbåd;>;INS;es;N,INDF,GEN,PL
-Wikipediabrugerside;<Wikipediabrugersid;e>;INS;ern;N,DEF,NOM,PL
+wikipediabrugerside;<wikipediabrugersid;e>;INS;ern;N,DEF,NOM,PL
 pantebrev;<pantebrev;>;INS;es;N,INDF,GEN,PL
 dansker;<dansker;>;INS;e;N,INDF,NOM,PL
 dodekaeder;<dodekaeder;>;INS;et;N,DEF,NOM,SG
@@ -2160,7 +2160,7 @@ roman;<roman;>;INS;er;N,INDF,NOM,PL
 torsdag;<torsdag;>;INS;s;N,INDF,GEN,SG
 hankat;<hankat;>;INS;tene;N,DEF,NOM,PL
 abbedisse;<abbedisse;>;INS;rs;N,INDF,GEN,PL
-TV-serie;<TV-serie;>;INS;r;N,INDF,NOM,PL
+tv-serie;<tv-serie;>;INS;r;N,INDF,NOM,PL
 hveps;<hveps;>;INS;e;N,INDF,NOM,PL
 golfer;<golfer;>;INS;es;N,INDF,GEN,PL
 mafioso;<mafioso;>;INS;er;N,INDF,NOM,PL
@@ -2787,7 +2787,7 @@ parkeringsgarage;<parkeringsgarag;e>;INS;ern;N,DEF,NOM,PL
 rat;<rat;>;INS;tene;N,DEF,NOM,PL
 kompagnon;<kompagnon;>;INS;ers;N,INDF,GEN,PL
 pen;<pen;>;INS;nene;N,DEF,NOM,PL
-TV-serie;<TV-seri;e>;INS;ern;N,DEF,NOM,PL
+tv-serie;<tv-seri;e>;INS;ern;N,DEF,NOM,PL
 rævegrav;<rævegrav;>;INS;s;N,INDF,GEN,SG
 rytter;<rytter;>;INS;e;N,INDF,NOM,PL
 nisse;<niss;e>;INS;ern;N,DEF,NOM,PL
@@ -2895,7 +2895,7 @@ spørgsmål;<spørgsmål;>;INS;s;N,INDF,GEN,PL
 flanke;<flank;e>;INS;ern;N,DEF,NOM,PL
 tiendedel;<tiendedel;>;INS;s;N,INDF,GEN,SG
 cigaretmærke;<cigaretmærke;>;INS;r;N,INDF,NOM,PL
-D-mark;<D-mark;>;INS;s;N,INDF,GEN,PL
+d-mark;<d-mark;>;INS;s;N,INDF,GEN,PL
 veranda;<veranda;>;INS;erne;N,DEF,NOM,PL
 forholdsord;<forholdsord;>;INS;s;N,INDF,GEN,SG
 sinecure;<sinecure;>;INS;rs;N,INDF,GEN,PL
@@ -3018,7 +3018,7 @@ and;<and;>;INS;er;N,INDF,NOM,PL
 bøf;<bøf;>;INS;s;N,INDF,GEN,SG
 knagebræt;<knagebræt;>;INS;s;N,INDF,GEN,SG
 information;<informatio;n>;INS;ne;N,DEF,NOM,SG
-Wikipediabrugerside;<Wikipediabrugerside;>;INS;n;N,DEF,NOM,SG
+wikipediabrugerside;<wikipediabrugerside;>;INS;n;N,DEF,NOM,SG
 pen;<pen;>;INS;nes;N,INDF,GEN,PL
 filetere;<fileter;e>;INS;end;V.PTCP,ACT,PRS
 akkusativ;<akkusativ;>;INS;ers;N,INDF,GEN,PL
@@ -4735,7 +4735,7 @@ græs;<græ;s>;INS;sser;N,INDF,GEN,PL
 håndjern;<håndjern;>;INS;et;N,DEF,NOM,SG
 udfordring;<udfordring;>;INS;s;N,INDF,GEN,SG
 gebyr;<gebyr;>;INS;s;N,INDF,GEN,SG
-TV-program;<TV-program;>;INS;mers;N,INDF,GEN,PL
+tv-program;<tv-program;>;INS;mers;N,INDF,GEN,PL
 istap;<istap;>;INS;pers;N,INDF,GEN,PL
 meter;<meter;>;INS;en;N,DEF,NOM,SG
 økologi;<økologi;>;INS;en;N,DEF,NOM,SG
@@ -5524,7 +5524,7 @@ pølse;<pølse;>;INS;rs;N,INDF,GEN,PL
 vægtfylde;<vægtfylde;>;INS;s;N,INDF,GEN,SG
 turkis;<turkis;>;INS;en;N,DEF,NOM,SG
 orkan;<orkan;>;INS;erne;N,DEF,NOM,PL
-Wikipediabrugerside;<Wikipediabrugerside;>;INS;s;N,INDF,GEN,SG
+wikipediabrugerside;<wikipediabrugerside;>;INS;s;N,INDF,GEN,SG
 analfabet;<analfabet;>;INS;erne;N,DEF,NOM,PL
 spændingsforskel;<spændingsforskel;>;INS;les;N,INDF,GEN,PL
 psykose;<psykose;>;INS;s;N,INDF,GEN,SG
@@ -6681,7 +6681,7 @@ atomkerne;<atomk;erne>;INS;ern;N,DEF,NOM,PL
 vandfald;<vandfald;>;INS;et;N,DEF,NOM,SG
 polygon;<polygo;n>;INS;ne;N,DEF,NOM,SG
 myre;<myre;>;INS;n;N,DEF,NOM,SG
-TV-program;<TV-program;>;INS;s;N,INDF,GEN,SG
+tv-program;<tv-program;>;INS;s;N,INDF,GEN,SG
 holm;<holm;>;INS;e;N,INDF,NOM,PL
 tæppe;<tæppe;>;INS;rs;N,INDF,GEN,PL
 oplysning;<oplysning;>;INS;en;N,DEF,NOM,SG
@@ -7248,7 +7248,7 @@ erantis;<erantis;>;INS;sen;N,DEF,NOM,SG
 dødelighed;<dødelighed;>;INS;en;N,DEF,NOM,SG
 behov;<behov;>;INS;s;N,INDF,GEN,PL
 rekvirere;<rekvirere;>;INS;des;V,PASS,IND,PST
-D-mark;<D-mark;>;INS;en;N,DEF,NOM,SG
+d-mark;<d-mark;>;INS;en;N,DEF,NOM,SG
 eskadrille;<eskadrill;e>;INS;ern;N,DEF,NOM,PL
 liechtensteiner;<liechtensteiner;>;INS;ne;N,DEF,NOM,PL
 hilsen;<hilsen;>;INS;s;N,INDF,GEN,SG

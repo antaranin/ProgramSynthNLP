@@ -9,6 +9,10 @@ from rulesynthesis.agent import Example, State, ParseError
 from rulesynthesis.util import Lang, make_hashable, build_sample, build_padded_var
 from rulesynthesis.model import Model
 
+RULE_COUNT = 50
+SUPPORT_COUNT = 50
+QUERY_COUNT = 25
+
 MAX_ATTEMPTS = 10
 LEFT = "L"
 RIGHT = "R"
@@ -284,9 +288,9 @@ class NLPLanguage:
         # TODO make this code less shit
         generate_episode_from_sampler = \
             lambda data_sampler, already_generated_episodes: data_sampler.generate_episode(
-                200,
-                100,
-                100,
+                SUPPORT_COUNT,
+                QUERY_COUNT,
+                RULE_COUNT,
                 input_language,
                 output_language,
                 program_language,

@@ -168,8 +168,8 @@ vartoti;<vartot;>;DEL;i;V,2,PL,PST,FREQ,IND
 vartoti;<vartoti;>;INS;e;V,2,PL,PST,FREQ,IND
 akivaizdus;<akivaizd;>;DEL;us;ADJ,GEN,PL,FEM,POS
 akivaizdus;<akivaizdus;>;INS;žių;ADJ,GEN,PL,FEM,POS
-Kuperio liauka;<Kuperio liauk;>;DEL;a;N,GEN,SG
-Kuperio liauka;<Kuperio liauka;>;INS;os;N,GEN,SG
+kuperio liauka;<kuperio liauk;>;DEL;a;N,GEN,SG
+kuperio liauka;<kuperio liauka;>;INS;os;N,GEN,SG
 faktas;<fakt;>;DEL;as;N,INST,SG
 faktas;<faktas;>;INS;ù;N,INST,SG
 šviesmetis;<švi;smetis>;DEL;e;N,LOC,SG
@@ -800,8 +800,8 @@ aptarti;<aptarti;>;INS;ęs;V,V.PTCP,PST,ACT
 gėlė;<gėlė;>;INS;s;N,NOM,PL
 padorus;<pador;us>;INS;ia;ADJ,LOC,SG,MASC,SPRL
 padorus;<padorus;>;INS;iame;ADJ,LOC,SG,MASC,SPRL
-Kosovas;<Kosov;>;DEL;as;N,VOC,SG
-Kosovas;<Kosovas;>;INS;e;N,VOC,SG
+kosovas;<kosov;>;DEL;as;N,VOC,SG
+kosovas;<kosovas;>;INS;e;N,VOC,SG
 smulkmeniškas;<smulkmenišk;s>;DEL;a;ADJ,NOM,SG,MASC,CMPR
 smulkmeniškas;<smulkmeniška;s>;INS;esni;ADJ,NOM,SG,MASC,CMPR
 kėkštas;<kėkšta;s>;INS;i;N,INST,PL
@@ -1763,7 +1763,7 @@ alavas;<alav;s>;DEL;a;N,DAT,PL
 alavas;<alava;s>;INS;ám;N,DAT,PL
 patarti;<patart;>;DEL;i;V,2,SG,SBJV
 patarti;<patarti;>;INS;um;V,2,SG,SBJV
-Mergelė;<Mergelė;>;INS;je;N,LOC,SG
+mergelė;<mergelė;>;INS;je;N,LOC,SG
 turkiškas;<turkiška;>;DEL;s;ADJ,LOC,SG,MASC,POS
 turkiškas;<turkiškas;>;INS;me;ADJ,LOC,SG,MASC,POS
 gražumas;<graž;>;DEL;umas;N,GEN,SG
@@ -2007,8 +2007,8 @@ naujiena;<naujien;>;DEL;a;N,INST,PL
 naujiena;<naujiena;>;INS;omis;N,INST,PL
 bręsti;<brę;sti>;INS;sdama;V,V.PTCP,ADV,LGSPEC2,ACT
 bręsti;<bręs;>;DEL;ti;V,V.PTCP,ADV,LGSPEC2,ACT
-Kuperio skystis;<Kuperio sky;s>;DEL;sti;N,INST,SG
-Kuperio skystis;<Kuperio skystis;>;INS;čiu;N,INST,SG
+kuperio skystis;<kuperio sky;s>;DEL;sti;N,INST,SG
+kuperio skystis;<kuperio skystis;>;INS;čiu;N,INST,SG
 dėžė;<dėž;>;DEL;ė;N,GEN,PL
 dėžė;<dėžė;>;INS;ių;N,GEN,PL
 erelis;<ereli;s>;INS;ù;N,ACC,PL
@@ -2395,8 +2395,8 @@ nugalėti;<nugalėt;>;DEL;i;V,2,PL,PST,FREQ,IND
 nugalėti;<nugalėti;>;INS;e;V,2,PL,PST,FREQ,IND
 atrasti;<atra;i>;DEL;st;V,2,SG,PRS,IND
 atrasti;<atrast;i>;INS;nd;V,2,SG,PRS,IND
-Mergelė;<Mergel;>;DEL;ė;N,ACC,PL
-Mergelė;<Mergelė;>;INS;es;N,ACC,PL
+mergelė;<mergel;>;DEL;ė;N,ACC,PL
+mergelė;<mergelė;>;INS;es;N,ACC,PL
 ypatingas;<ypating;s>;DEL;a;ADJ,NOM,PL,FEM,POS
 ypatingas;<ypatinga;s>;INS;o;ADJ,NOM,PL,FEM,POS
 latvis;<l;tvis>;DEL;a;N,GEN,PL
@@ -3102,8 +3102,8 @@ drausti;<drausti;>;INS;ąs;V,V.PTCP,FUT,ACT
 išžiūrėti;<;išžiūrėti>;INS;te;V,3,SG,IMP
 išžiūrėti;<išžiūr;i>;DEL;ėt;V,3,SG,IMP
 malonus;<malon;us>;INS;a;ADJ,GEN,SG,MASC,POS
-Portugalijos vandens šuo;<Portugalijos vandens šu;>;DEL;o;N,ACC,SG
-Portugalijos vandens šuo;<Portugalijos vandens šuo;>;INS;nį;N,ACC,SG
+portugalijos vandens šuo;<portugalijos vandens šu;>;DEL;o;N,ACC,SG
+portugalijos vandens šuo;<portugalijos vandens šuo;>;INS;nį;N,ACC,SG
 nukeliauti;<nukeliau;i>;DEL;t;V,V.PTCP,FUT,PASS
 nukeliauti;<nukeliaut;i>;INS;s;V,V.PTCP,FUT,PASS
 nukeliauti;<nukeliauti;>;INS;mas;V,V.PTCP,FUT,PASS
@@ -3228,8 +3228,8 @@ arkangelas;<arkangel;>;DEL;as;N,ACC,SG
 arkangelas;<arkangelas;>;INS;ą;N,ACC,SG
 sparnas;<sparn;>;DEL;as;N,GEN,SG
 sparnas;<sparnas;>;INS;o;N,GEN,SG
-Supermenas;<Supermen;>;DEL;as;N,INST,SG
-Supermenas;<Supermenas;>;INS;u;N,INST,SG
+supermenas;<supermen;>;DEL;as;N,INST,SG
+supermenas;<supermenas;>;INS;u;N,INST,SG
 galabyti;<galab;i>;DEL;yt;V,3,SG,PRS,IND
 galabyti;<galabyti;>;INS;ja;V,3,SG,PRS,IND
 liepiamoji nuosaka;<liepiam; nuosaka>;DEL;oji;N,INST,SG
@@ -3876,8 +3876,8 @@ pluta;<plut;>;DEL;a;N,GEN,SG
 pluta;<pluta;>;INS;õs;N,GEN,SG
 ydingas;<yding;s>;DEL;a;ADJ,DAT,PL,MASC,CMPR
 ydingas;<ydinga;s>;INS;esniem;ADJ,DAT,PL,MASC,CMPR
-Mergelė;<Mergel;>;DEL;ė;N,VOC,SG
-Mergelė;<Mergelė;>;INS;e;N,VOC,SG
+mergelė;<mergel;>;DEL;ė;N,VOC,SG
+mergelė;<mergelė;>;INS;e;N,VOC,SG
 afganas;<afgan;>;DEL;as;N,INST,SG
 afganas;<afganas;>;INS;u;N,INST,SG
 netvarkingas;<netvarking;s>;DEL;a;ADJ,NOM,PL,MASC,CMPR
@@ -4925,7 +4925,7 @@ situacija;<situ;cija>;DEL;a;N,LOC,SG
 situacija;<situa;cija>;INS;ã;N,LOC,SG
 situacija;<situacij;>;DEL;a;N,LOC,SG
 situacija;<situacija;>;INS;oje;N,LOC,SG
-Kuperio liauka;<Kuperio liauka;>;INS;s;N,ACC,PL
+kuperio liauka;<kuperio liauka;>;INS;s;N,ACC,PL
 tvarkingas;<tvarking;s>;DEL;a;ADJ,GEN,SG,FEM,POS
 tvarkingas;<tvarkinga;s>;INS;o;ADJ,GEN,SG,FEM,POS
 sugluminti;<suglumin;>;DEL;ti;V,V.PTCP,ADV,PST,ACT
@@ -8567,8 +8567,8 @@ sunkus;<sunk;s>;DEL;u;ADJ,NOM,SG,MASC,POS
 sunkus;<sunku;s>;INS;ù;ADJ,NOM,SG,MASC,POS
 kovas;<kova;>;DEL;s;N,NOM,PL
 kovas;<kovas;>;INS;ĩ;N,NOM,PL
-Kuperio liauka;<Kuperio liauk;>;DEL;a;N,ACC,SG
-Kuperio liauka;<Kuperio liauka;>;INS;ą;N,ACC,SG
+kuperio liauka;<kuperio liauk;>;DEL;a;N,ACC,SG
+kuperio liauka;<kuperio liauka;>;INS;ą;N,ACC,SG
 kimšti;<kimš;>;DEL;ti;V,1,SG,PST,IND
 kimšti;<kimšti;>;INS;aũ;V,1,SG,PST,IND
 galininkas;<galini;kas>;DEL;n;N,NOM,PL
@@ -9662,8 +9662,8 @@ ašva;<ašva;>;INS;à;N,INST,SG
 zodiakas;<zodiak;s>;DEL;a;N,LOC,PL
 zodiakas;<zodiaka;s>;INS;uo;N,LOC,PL
 zodiakas;<zodiakas;>;INS;e;N,LOC,PL
-Supermenas;<Supermen;>;DEL;as;N,GEN,SG
-Supermenas;<Supermenas;>;INS;o;N,GEN,SG
+supermenas;<supermen;>;DEL;as;N,GEN,SG
+supermenas;<supermenas;>;INS;o;N,GEN,SG
 angliškas;<anglišk;>;DEL;as;ADJ,INST,SG,MASC,POS
 angliškas;<angliškas;>;INS;u;ADJ,INST,SG,MASC,POS
 bendras;<bendra;>;DEL;s;ADJ,VOC,SG,FEM,POS
@@ -9734,8 +9734,8 @@ ugningas;<ugninga;s>;INS;e;ADJ,NOM,PL,MASC,CMPR
 ugningas;<ugningas;>;INS;ni;ADJ,NOM,PL,MASC,CMPR
 avėti;<avėt;>;DEL;i;V,2,PL,SBJV
 avėti;<avėti;>;INS;e;V,2,PL,SBJV
-Kuperio liauka;<Kuperio liauk;>;DEL;a;N,NOM,PL
-Kuperio liauka;<Kuperio liauka;>;INS;os;N,NOM,PL
+kuperio liauka;<kuperio liauk;>;DEL;a;N,NOM,PL
+kuperio liauka;<kuperio liauka;>;INS;os;N,NOM,PL
 jurginas;<jurg;inas>;INS;ìna;N,VOC,PL
 jurginas;<jurgi;>;DEL;nas;N,VOC,PL
 šiltas;<šilt;>;DEL;as;ADJ,GEN,PL,MASC,POS
@@ -11444,7 +11444,7 @@ kultūra;<kultūr;>;DEL;a;N,ACC,SG
 kultūra;<kultūra;>;INS;ą;N,ACC,SG
 gobti;<g;obti>;INS;óbdav;V,3,PL,PST,FREQ,IND
 gobti;<go;>;DEL;bti;V,3,PL,PST,FREQ,IND
-Mergelė;<Mergelė;>;INS;s;N,GEN,SG
+mergelė;<mergelė;>;INS;s;N,GEN,SG
 piktas;<pikt;>;DEL;as;ADJ,NOM,PL,MASC,POS
 piktas;<piktas;>;INS;ì;ADJ,NOM,PL,MASC,POS
 netvarkingas;<netvarking;as>;INS;i;ADJ,NOM,PL,FEM,SPRL
@@ -11574,8 +11574,8 @@ pienas;<pienas;>;INS;ui;N,DAT,SG
 šiknarankė;<šiknara;kė>;DEL;n;N,NOM,PL
 šiknarankė;<šiknaran;kė>;INS;ñ;N,NOM,PL
 šiknarankė;<šiknarankė;>;INS;s;N,NOM,PL
-Kuperio liauka;<Kuperio liauk;>;DEL;a;N,DAT,PL
-Kuperio liauka;<Kuperio liauka;>;INS;oms;N,DAT,PL
+kuperio liauka;<kuperio liauk;>;DEL;a;N,DAT,PL
+kuperio liauka;<kuperio liauka;>;INS;oms;N,DAT,PL
 privalgyti;<privalg;>;DEL;yti;V,2,PL,PRS,IND
 privalgyti;<privalgyti;>;INS;ote;V,2,PL,PRS,IND
 dieviškas;<dievišk;>;DEL;as;ADJ,NOM,PL,MASC,POS
@@ -11859,7 +11859,7 @@ laukinis;<lauk;nis>;DEL;i;ADJ,DAT,SG,MASC,POS
 laukinis;<lauki;nis>;INS;ì;ADJ,DAT,SG,MASC,POS
 laukinis;<laukini;>;DEL;s;ADJ,DAT,SG,MASC,POS
 laukinis;<laukinis;>;INS;am;ADJ,DAT,SG,MASC,POS
-Supermenas;<Supermena;s>;INS;m;N,DAT,PL
+supermenas;<supermena;s>;INS;m;N,DAT,PL
 išsiūti;<išs;i>;DEL;iūt;V,3,PL,PST,IND
 išsiūti;<išsiūti;>;INS;uvo;V,3,PL,PST,IND
 maltietiškas;<maltietišk;>;DEL;as;ADJ,INST,SG,MASC,POS
@@ -13087,8 +13087,8 @@ balnoti;<balno;>;DEL;ti;V,1,SG,PRS,IND
 balnoti;<balnoti;>;INS;ju;V,1,SG,PRS,IND
 mietas;<mi;>;DEL;etas;N,GEN,SG
 mietas;<mietas;>;INS;ẽto;N,GEN,SG
-Kuperio liauka;<Kuperio liauk;>;DEL;a;N,INST,PL
-Kuperio liauka;<Kuperio liauka;>;INS;omis;N,INST,PL
+kuperio liauka;<kuperio liauk;>;DEL;a;N,INST,PL
+kuperio liauka;<kuperio liauka;>;INS;omis;N,INST,PL
 japonas;<japona;s>;INS;i;N,INST,PL
 išžiūrėti;<išžiūrėti;>;INS;nas;V,V.PTCP,LGSPEC1,PASS
 gavialas;<gaviala;s>;INS;m;N,DAT,PL
@@ -14884,7 +14884,7 @@ marškiniai;<m;rškiniai>;DEL;a;N,ACC,PL
 marškiniai;<ma;rškiniai>;INS;á;N,ACC,PL
 marškiniai;<marškin;i>;DEL;ia;N,ACC,PL
 marškiniai;<marškiniai;>;INS;us;N,ACC,PL
-Mergelė;<Mergelė;>;INS;ms;N,DAT,PL
+mergelė;<mergelė;>;INS;ms;N,DAT,PL
 skalikas;<skal;kas>;DEL;i;N,NOM,SG
 skalikas;<skali;kas>;INS;ì;N,NOM,SG
 menkas;<menk;as>;INS;i;ADJ,ACC,SG,MASC,SPRL
@@ -16753,8 +16753,8 @@ kadagys;<kadag;>;DEL;ys;N,GEN,SG
 kadagys;<kadagys;>;INS;io;N,GEN,SG
 laižyti;<laiž;>;DEL;yti;V,3,PL,PST,IND
 laižyti;<laižyti;>;INS;ė;V,3,PL,PST,IND
-Mergelė;<Mergel;>;DEL;ė;N,ACC,SG
-Mergelė;<Mergelė;>;INS;ę;N,ACC,SG
+mergelė;<mergel;>;DEL;ė;N,ACC,SG
+mergelė;<mergelė;>;INS;ę;N,ACC,SG
 erekcija;<er;kcija>;DEL;e;N,INST,SG
 erekcija;<ere;kcija>;INS;è;N,INST,SG
 pjaustyti;<pjausty;i>;DEL;t;V,1,SG,FUT,IND
@@ -19627,8 +19627,8 @@ varliagyvis;<varli;gyvis>;DEL;a;N,GEN,PL
 varliagyvis;<varlia;gyvis>;INS;ã;N,GEN,PL
 varliagyvis;<varliagyvi;>;DEL;s;N,GEN,PL
 varliagyvis;<varliagyvis;>;INS;ų;N,GEN,PL
-Mergelė;<Mergel;>;DEL;ė;N,INST,SG
-Mergelė;<Mergelė;>;INS;e;N,INST,SG
+mergelė;<mergel;>;DEL;ė;N,INST,SG
+mergelė;<mergelė;>;INS;e;N,INST,SG
 šalis;<šal;s>;DEL;i;N,DAT,PL
 šalis;<šali;s>;INS;ìm;N,DAT,PL
 kalnas;<kaln;>;DEL;as;N,GEN,PL
@@ -19666,8 +19666,8 @@ pravalgyti;<pravalgy;>;DEL;ti;V,3,SG,FUT,IND
 pravalgyti;<pravalgyti;>;INS;s;V,3,SG,FUT,IND
 apmirti;<apmir;>;DEL;ti;V,V.PTCP,ADV,PST,FREQ,ACT
 apmirti;<apmirti;>;INS;davus;V,V.PTCP,ADV,PST,FREQ,ACT
-Portugalijos vandens šuo;<Portugalijos vandens š;uo>;INS;uni;N,INST,SG
-Portugalijos vandens šuo;<Portugalijos vandens šu;>;DEL;o;N,INST,SG
+portugalijos vandens šuo;<portugalijos vandens š;uo>;INS;uni;N,INST,SG
+portugalijos vandens šuo;<portugalijos vandens šu;>;DEL;o;N,INST,SG
 mažoji gulbė;<mažo;i gulbė>;DEL;j;N,GEN,SG
 mažoji gulbė;<mažoj;i gulbė>;INS;s;N,GEN,SG
 mažoji gulbė;<mažoji; gulbė>;INS;os;N,GEN,SG
@@ -20426,8 +20426,8 @@ priešinė liauka;<priešinė liauk;>;DEL;a;N,GEN,SG
 priešinė liauka;<priešinė liauka;>;INS;os;N,GEN,SG
 dirginti;<dirgin;>;DEL;ti;V,3,PL,PST,FREQ,IND
 dirginti;<dirginti;>;INS;davo;V,3,PL,PST,FREQ,IND
-Portugalijos vandens šuo;<Portugalijos vandens šu;>;DEL;o;N,ACC,PL
-Portugalijos vandens šuo;<Portugalijos vandens šuo;>;INS;nis;N,ACC,PL
+portugalijos vandens šuo;<portugalijos vandens šu;>;DEL;o;N,ACC,PL
+portugalijos vandens šuo;<portugalijos vandens šuo;>;INS;nis;N,ACC,PL
 apniūkti;<apniūk;>;DEL;ti;V,V.PTCP,ADV,PST,FREQ,ACT
 apniūkti;<apniūkti;>;INS;davus;V,V.PTCP,ADV,PST,FREQ,ACT
 vaizdinis;<vaizdin;>;DEL;is;ADJ,NOM,SG,FEM,POS
@@ -22405,8 +22405,8 @@ kristadelfas;<kristadelfa;s>;INS;u;N,ACC,PL
 išbučiuoti;<išbučiuo;i>;DEL;t;V,V.PTCP,FUT,ACT
 išbučiuoti;<išbučiuot;i>;INS;s;V,V.PTCP,FUT,ACT
 išbučiuoti;<išbučiuoti;>;INS;ąs;V,V.PTCP,FUT,ACT
-Supermenas;<Supermen;>;DEL;as;N,VOC,SG
-Supermenas;<Supermenas;>;INS;e;N,VOC,SG
+supermenas;<supermen;>;DEL;as;N,VOC,SG
+supermenas;<supermenas;>;INS;e;N,VOC,SG
 varputė;<v;rputė>;DEL;a;N,NOM,SG
 varputė;<va;rputė>;INS;á;N,NOM,SG
 įvairus;<įvair;>;DEL;us;ADJ,ACC,SG,MASC,POS
