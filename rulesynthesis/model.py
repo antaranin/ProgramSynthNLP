@@ -101,9 +101,9 @@ class Model:
                                                    self.prog_size, nlayers, dropout_p,
                                                    fancy_attn=False)
 
-        # if self.USE_CUDA:
-        #     self.encoder = self.encoder.cuda()
-        #     self.decoder = self.decoder.cuda()
+        if self.USE_CUDA:
+            self.encoder = self.encoder.cuda()
+            self.decoder = self.decoder.cuda()
 
         print('  Set learning rate to ' + str(adam_learning_rate))
         self.encoder_optimizer = optim.Adam(self.encoder.parameters(), lr=adam_learning_rate)

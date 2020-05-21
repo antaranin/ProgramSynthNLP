@@ -490,7 +490,8 @@ if __name__ == '__main__':
     # gram_path = "data/processed/grammar/adagram/both/asturian.grammar"
     # out_path = "data/processed/grammar/adagram/both/asturian.csv"
     # gram_extractor.save_grammar_file(gram_path, out_path)
-    make_adagrammar_for_languages()
+    write_alphabets()
+    #make_adagrammar_for_languages()
     # calculate_average_prediction_costs(PredType.AdaGramBoth)
     # calculate_average_prediction_costs(PredType.NoOperation)
 

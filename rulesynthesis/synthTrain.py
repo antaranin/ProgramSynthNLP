@@ -6,7 +6,8 @@ import time
 
 from rulesynthesis.model import MiniscanRBBaseline, WordToNumber
 from rulesynthesis.nlp import NLPModel, NLPLanguage
-from rulesynthesis.util import get_episode_generator, timeSince, generate_batchsize_of_samples, GenData
+from rulesynthesis.util import get_episode_generator, timeSince, generate_batchsize_of_samples, \
+    GenData
 # from agent import
 from rulesynthesis.train import gen_samples, train_batched_step, eval_ll, batchtime
 
@@ -35,7 +36,8 @@ parser.add_argument('--parallel', type=int, default=None)
 parser.add_argument('--print_freq', type=int, default=5)
 parser.add_argument('--save_freq', type=int, default=50)
 args = parser.parse_args()
-args.use_cuda = False  # torch.cuda.is_available()
+print(f"Cuda avaialble => {torch.cuda.is_available()}")
+args.use_cuda = False#torch.cuda.is_available()
 args.positional = False
 if __name__ == '__main__':
     # args stuff
@@ -49,7 +51,7 @@ if __name__ == '__main__':
             model = MiniscanRBBaseline.load(path)
         elif args.type == 'WordToNumber':
             model = WordToNumber.load(path)
-        elif args.type =="NLP":
+        elif args.type == "NLP":
             model = NLPModel.load(path)
         else:
             assert False, "not implemented yet"
@@ -67,7 +69,7 @@ if __name__ == '__main__':
     if args.num_pretrain_episodes > model.num_pretrain_episodes:
         model.num_pretrain_episodes = args.num_pretrain_episodes
 
-    #get training sample generator
+    # get training sample generator
     generate_episode_train, _, _, _, _ = get_episode_generator(model.episode_type)
     samples_val = model.samples_val
 

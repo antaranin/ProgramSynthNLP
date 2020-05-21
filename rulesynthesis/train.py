@@ -84,10 +84,10 @@ def get_policy_loss(samples, model, eval_only=False):
 
     # print("max tgt len",max_target_length )
     all_decoder_outputs = torch.zeros(max_target_length, batch_size, model.decoder.output_size)
-    # if model.USE_CUDA:
-    #     decoder_input = decoder_input.cuda()
-    #     target_batches = target_batches.cuda()
-    #     all_decoder_outputs = all_decoder_outputs.cuda()
+    if model.USE_CUDA:
+        decoder_input = decoder_input.cuda()
+        target_batches = target_batches.cuda()
+        all_decoder_outputs = all_decoder_outputs.cuda()
 
     # Run through decoder one time step at a time
     # import pdb; pdb.set_trace()
@@ -128,6 +128,7 @@ def train_batched_step(batch_of_samples: List[Dict], model, eval_only=False):
             print("  Decoder norm: " + str(decoder_norm))
         model.encoder_optimizer.step()
         model.decoder_optimizer.step()
+    #TODO check if you can CUDA-ize the thing
     return loss.cpu().item()
 
 

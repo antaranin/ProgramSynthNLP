@@ -20,6 +20,7 @@ from rulesynthesis.interpret_grammar import Grammar
 from collections import namedtuple
 
 SearchResult = namedtuple("SearchResult", "hit solution stats")
+USE_CUDA = torch.cuda.is_available()
 
 
 def compute_val_ll(model, samples_val=None):
@@ -69,9 +70,11 @@ if __name__ == '__main__':
     parser.add_argument('--seperate_query', action='store_true')
     parser.add_argument('--human_miniscan', action='store_true')
     args = parser.parse_args()
-    # torch.cuda.set_device(args.gpu)
+    if USE_CUDA:
+        torch.cuda.set_device(args.gpu)
 
-    if args.val_ll_only: args.val_ll = True
+    if args.val_ll_only:
+        args.val_ll = True
     path = os.path.join(args.dir_model, args.fn_out_model)
     filename = args.savefile
 
@@ -124,7 +127,8 @@ if __name__ == '__main__':
         val_ll = compute_val_ll(model)
         print("val ll:", val_ll)
 
-    if args.val_ll_only: assert False
+    if args.val_ll_only:
+        assert False
 
     # print("batchsize:", args.batchsize)
     count = 0
@@ -165,8 +169,10 @@ if __name__ == '__main__':
                 print("SUCCESS!!!!!!!")
             print("found grammar:", flush=True)
             rules = solution.rules
-            for r in rules: print(' '.join(r) if 'scan' in args.type else r)
-            if hit: count += 1
+            for r in rules:
+                print(' '.join(r) if 'scan' in args.type else r)
+            if hit:
+                count += 1
 
         results.append((sample, SearchResult(hit, solution, stats)))
 

@@ -26,6 +26,8 @@ class REPLError(Exception):
 class TOKENError(Exception):
     pass
 
+#TODO check if changing will improve performance
+USE_CUDA = False #torch.cuda.is_available()
 
 cuda_a_dict = lambda d: {key: val for key, val in d.items()}
 
@@ -114,6 +116,8 @@ def build_padded_var(list_seq, lang, max_length=None, add_eos=True, add_sos=Fals
     z_padded = [pad_seq(z, max_len) for z in z_eos]
     z_padded = [lang.variableFromSymbols(z, add_eos=False).unsqueeze(0) for z in z_padded]
     z_padded = torch.cat(z_padded, dim=0)
+    if USE_CUDA:
+        z_padded = z_padded.cuda()
     return z_padded, z_lengths
 
 
@@ -146,6 +150,8 @@ class Lang:
             # pdb.set_trace()
             # assert 0, 'need trace'
         output = torch.LongTensor(indices)
+        if USE_CUDA:
+            output = output.cuda()
         return output
 
     def symbolsFromVector(self, v):
