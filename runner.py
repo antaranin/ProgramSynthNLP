@@ -19,6 +19,7 @@ import grammar_train_file_generator as gram_train
 import grammar_file_generator as gram_gen
 import csv
 import rulesynthesis.synthTrain as synthTrain
+import rulesynthesis.scan_search as scan_search
 
 
 class PredType(Enum):
@@ -367,6 +368,37 @@ def run_adagram(language: str, split_type: SplitType, pred_type: PredType):
     _save_best_adagram_grammar(f"{output_dir}/{train_file_name}", output_grammar_path)
 
 
+def run_rule_synthesis_search(language: str):
+    model_output_dir = "data/processed/models"
+    model_file = f"{language}_proper.p"
+    data_input_file = f"data/processed/context_morph_data/{language}.csv"
+    alphabet_file = f"data/processed/alphabet/{language}.csv"
+    grammar_file = f"data/processed/grammar/adagram/both/{language}.csv"
+    test_data_file = f"data/processed/first_step/{language}.csv"
+    result_file = f"data/processed/models/results/{language}.p"
+
+    args = [
+        "--dir_model", model_output_dir,
+        "--fn_out_model", model_file,
+        "--data_file_path", data_input_file,
+        "--test_data_file_path", test_data_file,
+        "--grammar_file_path", grammar_file,
+        "--alphabet_file_path", alphabet_file,
+        "--type", "NLP",
+        "--new_test_ep", "NLP",
+        "--timeout", "20",
+        "--episode_type", "NLP",
+        "--batchsize", "128",
+        "--rule_count", "100",
+        "--support_set_count", "200",
+        "--query_set_count", "100",
+        "--savefile", result_file,
+        "--n_runs", "5"
+    ]
+
+    scan_search.main(args)
+
+
 def run_rule_synthesis(language: str):
     # --fn_out_model nlp.p --type NLP --batchsize 128 --episode_type NLP --num_pretrain_episodes 100000
     model_output_dir = "data/processed/models"
@@ -527,4 +559,5 @@ if __name__ == '__main__':
     # make_adagrammar_for_languages()
     # calculate_average_prediction_costs(PredType.AdaGramBoth)
     # calculate_average_prediction_costs(PredType.NoOperation)
-    run_rule_synthesis("asturian")
+    # run_rule_synthesis("asturian")
+    run_rule_synthesis_search("asturian")

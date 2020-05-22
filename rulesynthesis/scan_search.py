@@ -13,7 +13,8 @@ import math
 import dill
 from scipy import stats as scistats
 
-from rulesynthesis.agent import Example
+from rulesynthesis import util
+from rulesynthesis.agent import Example, State
 from rulesynthesis.model import MiniscanRBBaseline, WordToNumber
 from rulesynthesis.nlp import NLPModel
 from rulesynthesis.util import get_episode_generator, timeSince, tabu_update, cuda_a_dict, \
@@ -29,7 +30,7 @@ SearchResult = namedtuple("SearchResult", "hit solution stats")
 
 
 # 50R
-def parse_args():
+def parse_args(args):
     parser = argparse.ArgumentParser()
     parser.add_argument('--max_length_eval', type=int, default=15,
                         help='maximum generated sequence length when evaluating the network')
@@ -60,7 +61,14 @@ def parse_args():
     parser.add_argument('--nosearch', action='store_true')
     parser.add_argument('--partial_credit', action='store_true', default=True)
     parser.add_argument('--n_runs', type=int, default=20)
-    res_args = parser.parse_args()
+    parser.add_argument('--alphabet_file_path', type=str)
+    parser.add_argument('--test_data_file_path', type=str)
+    parser.add_argument('--data_file_path', type=str)
+    parser.add_argument('--grammar_file_path', type=str)
+    parser.add_argument('--rule_count', type=int, default=100)
+    parser.add_argument('--support_set_count', type=int, default=200)
+    parser.add_argument('--query_set_count', type=int, default=100)
+    res_args = parser.parse_args(args)
     if res_args.val_ll_only:
         res_args.val_ll = True
     return res_args
@@ -68,7 +76,13 @@ def parse_args():
 
 def _search(args):
     path = os.path.join(args.dir_model, args.fn_out_model)
-    filename = args.savefile
+    util.alphabet_path = args.alphabet_file_path
+    util.data_file_path = args.data_file_path
+    util.grammar_path = args.grammar_file_path
+    util.test_data_file_path = args.test_data_file_path
+    util.rule_count = args.rule_count
+    util.support_set_count = args.support_set_count
+    util.query_set_count = args.query_set_count
 
     # load model
     if args.type == 'miniscanRBbase':
@@ -117,6 +131,7 @@ def compute_val_ll(model, n_test_new: int, samples_val=None):
 
 
 def run_search(model, args):
+    ex_queries = []
     if args.new_test_ep:
         print("generating new test examples")
         _, generate_episode_test, input_lang, output_lang, prog_lang = get_episode_generator(
@@ -124,27 +139,27 @@ def run_search(model, args):
             model_out_lang=model.output_lang,
             model_prog_lang=model.prog_lang)
         # model.tabu_episodes = set([])
-        #Rafal
+        # Rafal
+        model.samples_val = []
         if args.hack_gt_g:
-            model.samples_val = []
-            examples = None
-            query_examples = None
             for i in range(args.n_test):
                 sample = generate_episode_test(model.tabu_episodes)
                 if args.hack_gt_g:
-                    sample['grammar'] = Grammar(exact_perm_doubled_rules(), model.input_lang.symbols)
+                    sample['grammar'] = Grammar(exact_perm_doubled_rules(),
+                                                model.input_lang.symbols)
                 model.samples_val.append(sample)
                 if not args.duplicate_test:
                     model.tabu_episodes = tabu_update(model.tabu_episodes, sample['identifier'])
         else:
-            sample = generate_episode_test(model.tabu_episodes)
-            model.tabu_episodes = tabu_update(model.tabu_episodes, sample['identifier'])
-            inputs_and_outputs = zip(sample['xs'], sample['ys'])
-            examples = {Example(cur, tgt) for cur, tgt in inputs_and_outputs}
-            inputs_and_outputs_query = zip(sample['xq'], sample['yq'])
-            query_examples = {Example(cur, tgt) for cur, tgt in inputs_and_outputs_query}
-
-
+            for i in range(args.n_test):
+                sample = generate_episode_test(model.tabu_episodes)
+                model.tabu_episodes = tabu_update(model.tabu_episodes, sample['identifier'])
+                inputs_and_outputs = zip(sample['xs'], sample['ys'])
+                examples = {Example(cur, tgt) for cur, tgt in inputs_and_outputs}
+                inputs_and_outputs_query = zip(sample['xq'], sample['yq'])
+                query_examples = {Example(cur, tgt) for cur, tgt in inputs_and_outputs_query}
+                ex_queries.append((examples, query_examples))
+                model.samples_val.append(sample)
 
         model.input_lang = input_lang
         model.output_lang = output_lang
@@ -173,6 +188,7 @@ def run_search(model, args):
         print(f"Task {j + 1} out of {len(model.samples_val)}")
         print("ground truth grammar:")
         print(sample['identifier'])
+        examples, query_examples = ex_queries[j]
 
         hit, solution, stats = batched_test_with_sampling(sample, model,
                                                           examples=examples,
@@ -186,6 +202,7 @@ def run_search(model, args):
                                                           partial_credit=args.partial_credit,
                                                           max_rule_size=100 if 'RB' in args.type or 'Word' in args.type else 15)
 
+        _append_solution_to_file(args.savefile, solution)
         tot_time += time.time() - stats['start_time']
         tot_nodes += stats['nodes_expanded']
         for ex in sample['xs']:
@@ -199,6 +216,16 @@ def run_search(model, args):
         assert 0, "didn't hit after 20 examples, that's dumb!"
 
 
+def _append_solution_to_file(result_file_path: str, solution: State):
+    lines = ["".join(rule) + "\n" for rule in solution.rules]
+    with open(result_file_path, mode="a+") as file:
+        file.writelines(lines)
+
+
+def main(args=None):
+    parsed_args = parse_args(args)
+    _search(parsed_args)
+
+
 if __name__ == '__main__':
-    args = parse_args()
-    _search(args)
+    main()

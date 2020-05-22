@@ -159,7 +159,7 @@ class Model:
     def load(cls, path, use_cuda=False):
 
         print('Loading model: ' + path)
-        checkpoint = torch.load(path)
+        checkpoint = torch.load(path, map_location=torch.device("cpu"))
 
         episode_type = checkpoint['episode_type']
         emb_size = checkpoint['emb_size']

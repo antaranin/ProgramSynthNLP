@@ -42,6 +42,7 @@ max_try_novel = 100  # number of attempts to find a novel episode (not in tabu l
 
 alphabet_path = None
 data_file_path = None
+test_data_file_path = None
 grammar_path = None
 rule_count = 100
 support_set_count = 200
@@ -398,7 +399,8 @@ def get_episode_generator(episode_type, model_in_lang=None, model_out_lang=None,
 
     if episode_type == "NLP":
         from rulesynthesis.nlp import NLPLanguage
-        lang = NLPLanguage(alphabet_path, data_file_path, grammar_path, rule_count,
+        lang = NLPLanguage(alphabet_path, data_file_path, grammar_path, test_data_file_path,
+                           rule_count,
                            support_set_count, query_set_count)
         return lang.get_episode_generator()
     elif episode_type == 'rules_gen':

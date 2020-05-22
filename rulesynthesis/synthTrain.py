@@ -22,6 +22,7 @@ def run(args):
     util.alphabet_path = args.alphabet_file_path
     util.data_file_path = args.data_file_path
     util.grammar_path = args.grammar_file_path
+    util.test_data_file_path = args.test_data_file_path
     util.rule_count = args.rule_count
     util.support_set_count = args.support_set_count
     util.query_set_count = args.query_set_count
@@ -143,6 +144,7 @@ def parse_args(args=None):
     parser.add_argument('--print_freq', type=int, default=5)
     parser.add_argument('--save_freq', type=int, default=50)
     parser.add_argument('--alphabet_file_path', type=str)
+    parser.add_argument('--test_data_file_path', type=str)
     parser.add_argument('--data_file_path', type=str)
     parser.add_argument('--grammar_file_path', type=str)
     parser.add_argument('--rule_count', type=int, default=100)
