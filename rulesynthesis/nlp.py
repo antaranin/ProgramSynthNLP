@@ -283,9 +283,6 @@ class NLPLanguage:
         self.support_set_count = support_set_count
         self.query_set_count = query_set_count
         self.rule_count = rule_count
-        print(f"Rule count: {rule_count}")
-        print(f"Support count: {support_set_count}")
-        print(f"Query count: {query_set_count}")
 
     def get_episode_generator(self):
         input_language = Lang(self._get_input_tokens())

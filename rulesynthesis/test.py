@@ -111,7 +111,6 @@ def batched_test_with_sampling(sample, model, examples=None, query_examples=None
     }
     if examples and query_examples:
         initial_state = State.new(examples)
-
     else:
         if seperate_query:
             # print('hit sep query')

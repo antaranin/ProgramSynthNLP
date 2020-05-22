@@ -369,12 +369,14 @@ def run_adagram(language: str, split_type: SplitType, pred_type: PredType):
 
 def run_rule_synthesis(language: str):
     # --fn_out_model nlp.p --type NLP --batchsize 128 --episode_type NLP --num_pretrain_episodes 100000
-    model_output_file = f"data/processed/models/{language}.p"
+    model_output_dir = "data/processed/models"
+    model_output_file = f"{language}.p"
     data_input_file = f"data/processed/context_morph_data/{language}.csv"
     alphabet_file = f"data/processed/alphabet/{language}.csv"
     grammar_file = f"data/processed/grammar/adagram/both/{language}.csv"
 
     args = [
+        "--dir_model", model_output_dir,
         "--fn_out_model", model_output_file,
         "--data_file_path", data_input_file,
         "--alphabet_file_path", alphabet_file,
@@ -383,9 +385,10 @@ def run_rule_synthesis(language: str):
         "--episode_type", "NLP",
         "--num_pretrain_episodes", "100000",
         "--batchsize", "128",
-        "--rule_count", "100",
-        "--support_set_count", "200",
-        "--query_set_count", "100",
+        "--rule_count", "10",
+        "--support_set_count", "20",
+        "--query_set_count", "10",
+        "--save_freq", "20"
     ]
 
     synthTrain.main(args)
