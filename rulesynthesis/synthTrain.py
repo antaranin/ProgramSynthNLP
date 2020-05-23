@@ -15,7 +15,7 @@ from rulesynthesis.train import gen_samples, train_batched_step, eval_ll, batcht
 
 def run(args):
     print(f"Cuda avaialble => {torch.cuda.is_available()}")
-    args.use_cuda = False#torch.cuda.is_available()
+    args.use_cuda = torch.cuda.is_available()
     args.positional = False
 
     path = os.path.join(args.dir_model, args.fn_out_model)
