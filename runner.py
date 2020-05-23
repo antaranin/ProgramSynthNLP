@@ -20,6 +20,7 @@ import grammar_file_generator as gram_gen
 import csv
 import rulesynthesis.synthTrain as synthTrain
 import rulesynthesis.scan_search as scan_search
+import rule_parser
 
 
 class PredType(Enum):
@@ -27,6 +28,8 @@ class PredType(Enum):
     AdaGramLeft = 1
     AdaGramRight = 2
     AdaGramBoth = 3
+    RuleSynth = 4
+
 
 
 def _run_steps(directory_name: str, filename: str, generate_step_1: bool, generate_step_2: bool,
@@ -204,17 +207,22 @@ def calculate_average_prediction_costs(pred_type: PredType):
         PredType.AdaGramBoth: "adagram/both",
         PredType.AdaGramRight: "adagram/right",
         PredType.AdaGramLeft: "adagram/left",
-        PredType.NoOperation: "no_op"
+        PredType.NoOperation: "no_op",
+        PredType.RuleSynth: "rule_synth"
     }
     output_file_name_dict = {
         PredType.AdaGramBoth: "adagram_both",
         PredType.AdaGramRight: "adagram_right",
         PredType.AdaGramLeft: "adagram_left",
-        PredType.NoOperation: "no_op"
+        PredType.NoOperation: "no_op",
+        PredType.RuleSynth: "rule_synth"
     }
     output_file_path = f"{base_dir}/average_costs/{output_file_name_dict[pred_type]}.csv"
     languages_to_costs = _get_average_baseline_cost(f"{cost_file_name_dict[pred_type]}_cost")
     mean_and_stdev = _get_mean_and_standard_devs_for_languages()
+    output_dir = os.path.dirname(output_file_path)
+    if not os.path.exists(output_dir):
+        os.mkdir(output_dir)
     with open(output_file_path, mode="w+") as file:
         writer = csv.writer(file, delimiter=",")
         writer.writerow(["Language", "Average cost", "Mean", "Stddev"])
@@ -271,9 +279,14 @@ def predict_language(
         weighted_ops = gram_extractor.process_grammar_file(grammar_file)
         is_probabilistic = True
     elif pred_type == PredType.NoOperation:
+        pred_type_path_change = "no_op"
         weighted_ops = ()
         is_probabilistic = False
-        pred_type_path_change = "no_op"
+    elif pred_type == PredType.RuleSynth:
+        pred_type_path_change = "rule_synth"
+        rule_file = f"data/processed/models/results/{language}.p"
+        weighted_ops = rule_parser.parse_rules(rule_file)
+        is_probabilistic = True
     else:
         raise NotImplementedError
 
@@ -294,7 +307,8 @@ def calculate_grammar_cost_for_language(language: str, pred_type: PredType):
         PredType.AdaGramLeft: "adagram/left",
         PredType.AdaGramBoth: "adagram/both",
         PredType.AdaGramRight: "adagram/right",
-        PredType.NoOperation: "no_op"
+        PredType.NoOperation: "no_op",
+        PredType.RuleSynth: "rule_synth"
     }
     pred_file = pred_files[pred_type]
     baseline.calculate_and_save_cost_baseline(
@@ -370,7 +384,7 @@ def run_adagram(language: str, split_type: SplitType, pred_type: PredType):
 
 def run_rule_synthesis_search(language: str):
     model_output_dir = "data/processed/models"
-    model_file = f"{language}_proper.p"
+    model_file = f"{language}_proper_2.p"
     data_input_file = f"data/processed/context_morph_data/{language}.csv"
     alphabet_file = f"data/processed/alphabet/{language}.csv"
     grammar_file = f"data/processed/grammar/adagram/both/{language}.csv"
@@ -562,4 +576,7 @@ if __name__ == '__main__':
     # calculate_average_prediction_costs(PredType.AdaGramBoth)
     # calculate_average_prediction_costs(PredType.NoOperation)
     # run_rule_synthesis("asturian")
-    run_rule_synthesis_search("asturian")
+    # run_rule_synthesis_search("asturian")
+    predict_language("asturian", PredType.RuleSynth, Strictness.All)
+    calculate_grammar_cost_for_language("asturian", PredType.RuleSynth)
+    calculate_average_prediction_costs(PredType.RuleSynth)
