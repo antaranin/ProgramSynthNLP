@@ -1,5 +1,5 @@
 from copy import deepcopy
-from typing import Collection, Tuple, Set, List, Union
+from typing import Collection, Tuple, Set, List, Union, Optional
 import pandas as pd
 import regex as re
 import random as rand
@@ -20,6 +20,30 @@ L_PAREN = "["
 R_PAREN = "]"
 
 
+class NLPState:
+    examples: Set[Example]
+    partial_examples: Set[Example]
+    rules: List
+    score: int
+
+    @classmethod
+    def new(cls, examples: Collection[Example]):
+        rules = []
+        return cls(set(examples), set(), rules)
+
+    def __init__(self, examples: Set[Example], partial_examples: Set[Example], rules):
+        self.examples = examples
+        self.partial_examples = partial_examples
+        self.rules = rules
+        self.score = 0
+
+    def has_examples(self) -> bool:
+        return len(self.examples) + len(self.partial_examples) > 0
+
+    def all_examples(self) -> Set[Example]:
+        return self.examples.union(self.partial_examples)
+
+
 class NLPExample:
     input_tokens: Collection[str]
     output_operations: Collection[str]
@@ -28,6 +52,11 @@ class NLPExample:
         super().__init__()
         self.input_tokens = input_tokens
         self.output_operations = output_operations
+
+    def __str__(self) -> str:
+        merged_inputs = "".join(self.input_tokens)
+        merged_outputs = " ".join(self.output_operations)
+        return f"{merged_inputs} -> {merged_outputs}"
 
 
 class NLPRule:
@@ -65,33 +94,41 @@ class NLPRule:
         action.append(f"{self.operation}({self.object})")
         return action
 
+    @staticmethod
+    def can_parse_action_into_rule(action: List[str]):
+        general_rule_regex = r"(\[ (. )*\] ){2}\[ \S+ \] ->( ((INS)|(DEL))\([^\)]+\))+"
+        return bool(re.fullmatch(general_rule_regex, " ".join(action)))
+
     @classmethod
     def from_action(cls, action: List[str]):
-        end_left_index = action.index(R_PAREN)
-        left = action[1:end_left_index]
-        action = action[end_left_index + 1:]
-        end_right_index = action.index(R_PAREN)
-        right = action[1:end_right_index]
-        action = action[end_right_index + 1:]
-        morph_features = action[1].split(",")
-        op_object = action[len(action) - 1]
-        operation = op_object[:3]
-        object = op_object[4: -1]
-        return cls(left, right, morph_features, operation, object)
+        try:
+            end_left_index = action.index(R_PAREN)
+            left = action[1:end_left_index]
+            action = action[end_left_index + 1:]
+            end_right_index = action.index(R_PAREN)
+            right = action[1:end_right_index]
+            action = action[end_right_index + 1:]
+            morph_features = action[1].split(",")
+            op_object = action[len(action) - 1]
+            operation = op_object[:3]
+            object = op_object[4: -1]
+            return cls(left, right, morph_features, operation, object)
+        except Exception as e:
+            raise e
 
     def _create_rule_regex(self) -> str:
         left = " ".join(self.left_context)
         right = " ".join(self.right_context)
         morphs = ",".join(self.morph_features)
-        escaped_l_paren = rf"\{L_PAREN}"
-        escaped_r_paren = rf"\{R_PAREN}"
         if self.operation == INSERT:
-            return rf".*{left} {right}.* {escaped_l_paren} {morphs} {escaped_r_paren}"
-        if self.operation == DELETE:
+            result = rf".*{left} {right}.* {L_PAREN} {morphs} {R_PAREN}"
+        elif self.operation == DELETE:
             object = ' '.join(list(self.object))
-            return rf".*{left} {object} {right}.* {escaped_l_paren} {morphs} {escaped_r_paren}"
-
-        raise NotImplementedError(f"Only {INSERT} and {DELETE} operations supported")
+            result = rf".*{left} {object} {right}.* {L_PAREN} {morphs} {R_PAREN}"
+        else:
+            raise NotImplementedError(f"Only {INSERT} and {DELETE} operations supported")
+        result = result.replace("[", r"\[").replace("]", r"\]")
+        return result
 
     # TODO this might need to be re-written to follow the LHS and RHS style
     def __getstate__(self):
@@ -115,7 +152,11 @@ class NLPRule:
         # return True if the re-write rule applies to this input (string or collection of tokens)
         if isinstance(rule_input, Collection):
             rule_input = " ".join(rule_input)
-        return bool(re.fullmatch(self.lhs_regex, rule_input))
+        try:
+            return bool(re.fullmatch(self.lhs_regex, rule_input))
+        except Exception as e:
+            print(e)
+            raise e
 
     def apply(self, rule_input: Union[str, Collection[str]]):
         # apply rule to input (string, or collection of tokens)
@@ -127,6 +168,10 @@ class NLPRule:
         return f"{' '.join(self.left_context)} {' '.join(self.right_context)} " + \
                f"{L_PAREN} {','.join(self.morph_features)} {R_PAREN} -> " + \
                f"{self.operation}({self.object})"
+
+    @staticmethod
+    def attempt_fix_action(action) -> Optional[str]:
+        return None
 
 
 class NLPGrammar:
@@ -152,11 +197,88 @@ class NLPGrammar:
         # but that might be too complicated for the network to handle
         return result
 
+    def get_useful_rules(self, examples: Set[Example]) -> Collection[NLPRule]:
+        useful_rules = set()
+        for rule in self.rules:
+            applicable_examples = [ex for ex in examples if rule.applies(ex.current)]
+            if len(applicable_examples) == 0:
+                continue
+            score = 0
+            for ex in applicable_examples:
+                res = rule.apply(ex.current)
+                score += 1 if res in ex.target else -1
+            if score >= 0:
+                useful_rules.add(rule)
+
+        return useful_rules
+
     def __str__(self):
         s = ''
         for r in self.rules:
             s += str(r) + '\n'
         return s
+
+
+class TestDataSampler:
+    data: pd.DataFrame
+
+    def __init__(self, data_path: str) -> None:
+        super().__init__()
+        data = pd.read_csv(data_path, sep=";")
+        data["Operations"] = data["Combined"].apply(lambda x: TestDataSampler._combined_to_ops(x))
+        self.data = data[["Source", "Operations", "Grammar"]][data["Operations"] != ""]
+
+    @staticmethod
+    def _combined_to_ops(combined: str) -> str:
+        return ",".join(re.findall(r"[A-Z]{3}\(\w+\)", combined))
+
+    def generate_episode(
+            self,
+            support_set_size: int,
+            query_size: int,
+            input_language: Lang,
+            output_language: Lang,
+            program_language: Lang,
+            already_generated_episodes: Set[str]
+    ):
+        for attempt in range(MAX_ATTEMPTS):
+            sample_data: pd.DataFrame = self.data.sample(n=support_set_size + query_size, axis=0)
+            examples: List[NLPExample] = sample_data.apply(TestDataSampler._data_row_to_example,
+                                                           axis=1).tolist()
+            data_hash = TestDataSampler._make_example_hash(examples)
+            if data_hash in already_generated_episodes:
+                continue
+
+            x_total = [e.input_tokens for e in examples]
+            y_total = [e.output_operations for e in examples]
+            x_support = x_total[:support_set_size]
+            y_support = y_total[:support_set_size]
+            x_query = x_total
+            y_query = y_total
+            return build_sample(
+                x_support,
+                y_support,
+                x_query,
+                y_query,
+                input_language,
+                output_language,
+                program_language,
+                data_hash
+            )
+
+    @staticmethod
+    def _make_example_hash(examples: Collection[NLPExample]) -> str:
+        str_examples = [str(e) for e in examples]
+        str_examples = sorted(str_examples)
+        return "\n".join(str_examples)
+
+    @staticmethod
+    def _data_row_to_example(row) -> NLPExample:
+        word = list(row.Source)
+        morphs = [L_PAREN, row.Grammar, R_PAREN]
+        input_tokens = ["<"] + word + [">"] + morphs
+        output_operations = sorted(row.Operations.split(","))
+        return NLPExample(input_tokens, output_operations)
 
 
 class DataSampler:
@@ -265,6 +387,7 @@ class NLPLanguage:
     op_objects: Collection[str]
     morph_features: Collection[str]
     train_data: DataSampler
+    test_data: TestDataSampler
     support_set_count: int
     query_set_count: int
     rule_count: int
@@ -272,6 +395,7 @@ class NLPLanguage:
     # test_data: DataSampler
 
     def __init__(self, alphabet_file_path: str, data_file: str, train_grammar_path: str,
+                 test_data_path: str,
                  support_set_count: int, query_set_count: int, rule_count: int) -> None:
         super().__init__()
         self.alphabet = dr.load_alphabet(alphabet_file_path, include_end_start_symbols=True)
@@ -280,6 +404,7 @@ class NLPLanguage:
         self.op_objects = data.drop_duplicates(["OpObjects"])["OpObjects"].tolist()
         self.morph_features = data.drop_duplicates(["Grammar"])["Grammar"].tolist()
         self.train_data = DataSampler(train_grammar_path, self.alphabet)
+        self.test_data = TestDataSampler(test_data_path)
         self.support_set_count = support_set_count
         self.query_set_count = query_set_count
         self.rule_count = rule_count
@@ -304,11 +429,14 @@ class NLPLanguage:
             already_generated_episodes
         )
         # TODO make the test episode use dev data?
-        test_episode_gen = train_episode_gen
-        # test_episode_gen = lambda already_generated_episodes: generate_episode_from_sampler(
-        #     self.test_data,
-        #     already_generated_episodes
-        # )
+        test_episode_gen = lambda already_generated_episodes: self.test_data.generate_episode(
+            self.support_set_count,
+            self.query_set_count,
+            input_language,
+            output_language,
+            program_language,
+            already_generated_episodes
+        )
 
         return train_episode_gen, test_episode_gen, input_language, output_language, program_language
 
@@ -344,20 +472,38 @@ class NLPModel(Model):
         executed_actions = [rules_as_actions]
         return states, executed_actions
 
-    def REPL(self, state: State, action: Collection[str]):
-        if action is None:
-            rules = state.rules
+    def REPL(self, state: NLPState, action: Collection[str]) -> NLPState:
+        if action is not None:
+            new_rule_grammar = NLPModel._parse_grammar_from_actions(action)
+            useful_new_rules = new_rule_grammar.get_useful_rules(state.all_examples())
+            useful_new_action = [r.to_action() for r in useful_new_rules]
+            rules = state.rules + useful_new_action
         else:
-            rules = state.rules + action
+            rules = state.rules
         grammar = NLPModel._parse_grammar_from_actions(rules)
 
-        new_examples = []
+        new_examples = set()
+        partial_new_examples = set()
+        score = state.score
         for example in state.examples:
             grammar_output = grammar.apply(example.current)
-            if tuple(grammar_output) != example.target:
-                new_examples.append(example)
+            if tuple(grammar_output) == example.target:
+                score += 2
+            elif any(gram_out in example.target for gram_out in grammar_output):
+                score += 1
+                partial_new_examples.add(example)
+            else:
+                new_examples.add(example)
 
-        new_state = State(new_examples, rules)
+        for partial_example in state.partial_examples:
+            grammar_output = grammar.apply(partial_example.current)
+            if tuple(grammar_output) == partial_example.target:
+                score += 1
+            else:
+                partial_new_examples.add(partial_example)
+
+        new_state = NLPState(new_examples, partial_new_examples, rules)
+        new_state.score = score
         return new_state
 
     @staticmethod
@@ -424,9 +570,18 @@ class NLPModel(Model):
                 continue
             else:
                 rule.append(token)
-        if rule != []:
+        if len(rule) > 0:
             rules.append(rule)
-        return rules
+        final_rules = []
+        for rule in rules:
+            if NLPRule.can_parse_action_into_rule(rule):
+                final_rules.append(rule)
+            else:
+                fixed_rule = NLPRule.attempt_fix_action(rule)
+                if fixed_rule is not None:
+                    final_rules.append(fixed_rule)
+
+        return final_rules
 
     def GroundTruthModel(self, state, action):
         if action is None:
@@ -448,15 +603,19 @@ if __name__ == '__main__':
     # alphabet_file_path = "../data/processed/alphabet/asturian.csv"
     # data_file_path = "../data/processed/context_morph_data/asturian.csv"
     # train_data_file_path = "../data/processed/grammar/adagram/both/asturian.csv"
-    # nlp_lang = NLPLanguage(alphabet_file_path, data_file_path, train_data_file_path)
+    # test_data_file_path = "../data/processed/first_step/asturian.csv"
+    # sampler = TestDataSampler(test_data_file_path)
+    # nlp_lang = NLPLanguage(alphabet_file_path, data_file_path, train_data_file_path,
+    #                        test_data_file_path, 5, 2, 0)
     # train_gen, test_gen, input_lang, output_lang, prog_lang = nlp_lang.get_episode_generator()
+    # sample = test_gen(set())
     # sample = train_gen(set())
-    rule = NLPRule(7.6, ("a", "b", "c"), ("d", "e", "f"), ("P", "V", "SV"), "INS", "123")
-    action = rule.to_action()
-    print(action)
-    back_to_rule = NLPRule.from_action(action)
-    print(back_to_rule)
-    print(f"Done")
+    # rule = NLPRule(7.6, ("a", "b", "c"), ("d", "e", "f"), ("P", "V", "SV"), "INS", "123")
+    # action = rule.to_action()
+    # print(action)
+    # back_to_rule = NLPRule.from_action(action)
+    # print(back_to_rule)
+    # print(f"Done")
     # sampler = DataSampler("../data/processed/context_morph_data/asturian.csv")
     # sampler.generate_episode(30, 10, 10, None, None, None, set())
     pass

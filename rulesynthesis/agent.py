@@ -33,6 +33,7 @@ class Example:
 
 class State:
     examples: Set[Example]
+    rules: Collection[Collection[str]]
 
     @staticmethod
     def new(examples):
