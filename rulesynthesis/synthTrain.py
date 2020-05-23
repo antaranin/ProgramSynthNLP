@@ -15,13 +15,14 @@ from rulesynthesis.train import gen_samples, train_batched_step, eval_ll, batcht
 
 def run(args):
     print(f"Cuda avaialble => {torch.cuda.is_available()}")
-    args.use_cuda = torch.cuda.is_available()
+    args.use_cuda = False#torch.cuda.is_available()
     args.positional = False
 
     path = os.path.join(args.dir_model, args.fn_out_model)
     util.alphabet_path = args.alphabet_file_path
     util.data_file_path = args.data_file_path
     util.grammar_path = args.grammar_file_path
+    util.test_data_file_path = args.test_data_file_path
     util.rule_count = args.rule_count
     util.support_set_count = args.support_set_count
     util.query_set_count = args.query_set_count
@@ -143,6 +144,7 @@ def parse_args(args=None):
     parser.add_argument('--print_freq', type=int, default=5)
     parser.add_argument('--save_freq', type=int, default=50)
     parser.add_argument('--alphabet_file_path', type=str)
+    parser.add_argument('--test_data_file_path', type=str)
     parser.add_argument('--data_file_path', type=str)
     parser.add_argument('--grammar_file_path', type=str)
     parser.add_argument('--rule_count', type=int, default=100)
