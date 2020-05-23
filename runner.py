@@ -389,7 +389,7 @@ def run_rule_synthesis_search(language: str):
     alphabet_file = f"data/processed/alphabet/{language}.csv"
     grammar_file = f"data/processed/grammar/adagram/both/{language}.csv"
     test_data_file = f"data/processed/first_step/{language}.csv"
-    result_file = f"data/processed/models/results/{language}.p"
+    result_file = f"data/processed/models/results/{language}"
 
     args = [
         "--dir_model", model_output_dir,
@@ -576,7 +576,7 @@ if __name__ == '__main__':
     # calculate_average_prediction_costs(PredType.AdaGramBoth)
     # calculate_average_prediction_costs(PredType.NoOperation)
     # run_rule_synthesis("asturian")
-    # run_rule_synthesis_search("asturian")
-    predict_language("asturian", PredType.RuleSynth, Strictness.All)
-    calculate_grammar_cost_for_language("asturian", PredType.RuleSynth)
-    calculate_average_prediction_costs(PredType.RuleSynth)
+    run_rule_synthesis_search("asturian")
+    # predict_language("asturian", PredType.RuleSynth, Strictness.All)
+    # calculate_grammar_cost_for_language("asturian", PredType.RuleSynth)
+    # calculate_average_prediction_costs(PredType.RuleSynth)

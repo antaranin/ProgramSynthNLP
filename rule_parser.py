@@ -7,6 +7,9 @@ from mln_model import WeightedOperation, Operation, Context, OpObject
 
 def parse_rules(rule_file_path: str) -> Collection[WeightedOperation]:
     with open(rule_file_path, mode="r") as file:
+        #skip the stats
+        next(file)
+        next(file)
         return [_parse_line_to_rule(line) for line in file]
 
 def _parse_line_to_rule(text_line: str) -> WeightedOperation:

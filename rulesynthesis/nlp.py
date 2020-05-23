@@ -1,5 +1,5 @@
 from copy import deepcopy
-from typing import Collection, Tuple, Set, List, Union
+from typing import Collection, Tuple, Set, List, Union, Optional
 import pandas as pd
 import regex as re
 import random as rand
@@ -18,6 +18,30 @@ MORPH_FEATURE = "MORPH"
 IGNORE = "IGNORE"
 L_PAREN = "["
 R_PAREN = "]"
+
+
+class NLPState:
+    examples: Set[Example]
+    partial_examples: Set[Example]
+    rules: List
+    score: int
+
+    @classmethod
+    def new(cls, examples: Collection[Example]):
+        rules = []
+        return cls(set(examples), set(), rules)
+
+    def __init__(self, examples: Set[Example], partial_examples: Set[Example], rules):
+        self.examples = examples
+        self.partial_examples = partial_examples
+        self.rules = rules
+        self.score = 0
+
+    def has_examples(self) -> bool:
+        return len(self.examples) + len(self.partial_examples) > 0
+
+    def all_examples(self) -> Set[Example]:
+        return self.examples.union(self.partial_examples)
 
 
 class NLPExample:
@@ -145,6 +169,10 @@ class NLPRule:
                f"{L_PAREN} {','.join(self.morph_features)} {R_PAREN} -> " + \
                f"{self.operation}({self.object})"
 
+    @staticmethod
+    def attempt_fix_action(action) -> Optional[str]:
+        return None
+
 
 class NLPGrammar:
     rules: List[NLPRule]
@@ -168,6 +196,21 @@ class NLPGrammar:
         # A better way would be ordering them by order of appearance,
         # but that might be too complicated for the network to handle
         return result
+
+    def get_useful_rules(self, examples: Set[Example]) -> Collection[NLPRule]:
+        useful_rules = set()
+        for rule in self.rules:
+            applicable_examples = [ex for ex in examples if rule.applies(ex.current)]
+            if len(applicable_examples) == 0:
+                continue
+            score = 0
+            for ex in applicable_examples:
+                res = rule.apply(ex.current)
+                score += 1 if res in ex.target else -1
+            if score >= 0:
+                useful_rules.add(rule)
+
+        return useful_rules
 
     def __str__(self):
         s = ''
@@ -429,20 +472,38 @@ class NLPModel(Model):
         executed_actions = [rules_as_actions]
         return states, executed_actions
 
-    def REPL(self, state: State, action: Collection[str]):
-        if action is None:
-            rules = state.rules
+    def REPL(self, state: NLPState, action: Collection[str]) -> NLPState:
+        if action is not None:
+            new_rule_grammar = NLPModel._parse_grammar_from_actions(action)
+            useful_new_rules = new_rule_grammar.get_useful_rules(state.all_examples())
+            useful_new_action = [r.to_action() for r in useful_new_rules]
+            rules = state.rules + useful_new_action
         else:
-            rules = state.rules + action
+            rules = state.rules
         grammar = NLPModel._parse_grammar_from_actions(rules)
 
-        new_examples = []
+        new_examples = set()
+        partial_new_examples = set()
+        score = state.score
         for example in state.examples:
             grammar_output = grammar.apply(example.current)
-            if tuple(grammar_output) != example.target:
-                new_examples.append(example)
+            if tuple(grammar_output) == example.target:
+                score += 2
+            elif any(gram_out in example.target for gram_out in grammar_output):
+                score += 1
+                partial_new_examples.add(example)
+            else:
+                new_examples.add(example)
 
-        new_state = State(new_examples, rules)
+        for partial_example in state.partial_examples:
+            grammar_output = grammar.apply(partial_example.current)
+            if tuple(grammar_output) == partial_example.target:
+                score += 1
+            else:
+                partial_new_examples.add(partial_example)
+
+        new_state = NLPState(new_examples, partial_new_examples, rules)
+        new_state.score = score
         return new_state
 
     @staticmethod
@@ -504,15 +565,23 @@ class NLPModel(Model):
         rule = []
         for token in action:
             if token == '\n':
-                if NLPRule.can_parse_action_into_rule(rule):
-                    rules.append(rule)
+                rules.append(rule)
                 rule = []
                 continue
             else:
                 rule.append(token)
-        if len(rule) > 0 and NLPRule.can_parse_action_into_rule(rule):
+        if len(rule) > 0:
             rules.append(rule)
-        return rules
+        final_rules = []
+        for rule in rules:
+            if NLPRule.can_parse_action_into_rule(rule):
+                final_rules.append(rule)
+            else:
+                fixed_rule = NLPRule.attempt_fix_action(rule)
+                if fixed_rule is not None:
+                    final_rules.append(fixed_rule)
+
+        return final_rules
 
     def GroundTruthModel(self, state, action):
         if action is None:

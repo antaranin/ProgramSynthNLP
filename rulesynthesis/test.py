@@ -11,6 +11,7 @@ import copy
 from collections import namedtuple
 import math
 
+from rulesynthesis.nlp import NLPState
 from rulesynthesis.util import SOS_token, clip, UnfinishedError, REPLError, cuda_a_dict
 
 """
@@ -110,18 +111,23 @@ def batched_test_with_sampling(sample, model, examples=None, query_examples=None
         'start_time': start_time
     }
     assert examples is not None and query_examples is not None
-    initial_state = State.new(examples)
+    initial_state = NLPState.new(examples)
 
     initial_states = [copy.deepcopy(initial_state) for _ in range(batch_size)]
     # initial_past_rules_list = [ [] for _ in range(batch_size)]
 
-    best_state_n_ex = float('inf')
+    best_state_score = 0
+    best_new_state = None
     num_samples = 0
     while time.time() - start_time < timeout:
         num_samples += 1
         states = initial_states
 
         for i in range(max_len):
+            print(
+                f"Search run: {i}, best score: {best_state_score}, " +
+                f"rule count: {len(best_new_state.rules) if best_new_state is not None else 0}"
+            )
 
             actions = sample_rules_batched(states, model, max_length=max_rule_size,
                                            nosearch=nosearch)
@@ -132,10 +138,17 @@ def batched_test_with_sampling(sample, model, examples=None, query_examples=None
 
             new_states = []
             states_and_actions = zip(states, actions)
-            states_and_actions = [s_a for s_a in states_and_actions if len(s_a[1]) > 0]
+            # keep the failed states, in order to not run out
+            valid_state_actions = []
             for state, action in states_and_actions:
+                if len(action) > 0:
+                    valid_state_actions.append((state, action))
+                else:
+                    new_states.append(state)
+
+            for state, action in valid_state_actions:
                 try:
-                    new_state = model.REPL(state, action)
+                    new_state: NLPState = model.REPL(state, action)
                     # todo: if the state is too long then kill it maybe?? - oy vey
                     stats['nodes_expanded'] += 1
                 except (ParseError, UnfinishedError, REPLError):
@@ -143,11 +156,11 @@ def batched_test_with_sampling(sample, model, examples=None, query_examples=None
                     if max_nodes_expanded and stats['nodes_expanded'] >= max_nodes_expanded:
                         break
                     continue
-                if not new_state.examples and i + 1 >= min_len:
+                if not new_state.has_examples and i + 1 >= min_len:
                     # try on new query:
-                    test_state = State(query_examples, new_state.rules)
+                    test_state = NLPState(query_examples, set(), new_state.rules)
                     try:
-                        testout = model.REPL(test_state, None)
+                        testout: NLPState = model.REPL(test_state, None)
                     except (ParseError, UnfinishedError, REPLError):
                         if use_query_for_construction:
                             try:
@@ -196,11 +209,11 @@ def batched_test_with_sampling(sample, model, examples=None, query_examples=None
                         return hit, solution, stats
                 else:
                     if partial_credit:
-                        num_support_left = len(new_state.examples)
-                        if num_support_left <= best_state_n_ex:
+                        score = new_state.score
+                        if score > best_state_score:
                             best_state = state
                             best_new_state = new_state
-                            best_state_n_ex = num_support_left
+                            best_state_score = score
 
                 new_states.append(new_state)
                 if max_nodes_expanded and stats['nodes_expanded'] >= max_nodes_expanded:
@@ -214,14 +227,14 @@ def batched_test_with_sampling(sample, model, examples=None, query_examples=None
         if max_nodes_expanded and stats['nodes_expanded'] >= max_nodes_expanded:
             break
 
-    if partial_credit and best_state_n_ex < float('inf'):
+    if partial_credit and best_state_score > 0:
         new_state = best_new_state
-        test_state = State(query_examples, new_state.rules)
+        test_state = NLPState(query_examples, set(), new_state.rules)
         try:
             testout = model.REPL(test_state, None)
             solution = new_state
-            stats['fraction_query_hit'] = (len(test_state.examples) - len(testout.examples)) / len(
-                test_state.examples)
+            stats['score'] = new_state.score
+            stats['query_score'] = testout.score
         except (ParseError, UnfinishedError, REPLError):
             print("YOU ERRORED ON BEST GUESS")
             stats['fraction_query_hit'] = 0.0

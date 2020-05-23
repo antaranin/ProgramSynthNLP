@@ -193,17 +193,18 @@ def run_search(model, args):
         hit, solution, stats = batched_test_with_sampling(sample, model,
                                                           examples=examples,
                                                           query_examples=query_examples,
-                                                          max_len=100,
+                                                          max_len=10,
                                                           timeout=args.timeout,
                                                           verbose=True,
                                                           min_len=0,
                                                           batch_size=args.batchsize,
                                                           nosearch=args.nosearch,
                                                           partial_credit=args.partial_credit,
-                                                          max_rule_size=100 if 'RB' in args.type or 'Word' in args.type else 15)
+                                                          max_rule_size=200)
 
         print(stats)
-        _append_solution_to_file(args.savefile, solution)
+        result_path = f"{args.savefile}_{j + 1}"
+        _write_solution_to_file(result_path, solution, stats)
         tot_time += time.time() - stats['start_time']
         tot_nodes += stats['nodes_expanded']
         for ex in sample['xs']:
@@ -217,11 +218,13 @@ def run_search(model, args):
         assert 0, "didn't hit after 20 examples, that's dumb!"
 
 
-def _append_solution_to_file(result_file_path: str, solution: State):
-    print("Appending lines")
+def _write_solution_to_file(result_file_path: str, solution: State, stats: dict):
+    print("Writing lines")
     lines = ["".join(rule) + "\n" for rule in solution.rules]
     print(f"Lines: {lines}")
-    with open(result_file_path, mode="a+") as file:
+    with open(result_file_path, mode="w+") as file:
+        file.write(str(stats))
+        file.write("\n")
         file.writelines(lines)
 
 
