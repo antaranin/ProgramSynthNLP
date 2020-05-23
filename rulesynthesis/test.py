@@ -109,20 +109,8 @@ def batched_test_with_sampling(sample, model, examples=None, query_examples=None
         'value_gpu_runs': 0,
         'start_time': start_time
     }
-    if examples and query_examples:
-        initial_state = State.new(examples)
-    else:
-        if seperate_query:
-            # print('hit sep query')
-            query_examples = {Example(cur, tgt) for cur, tgt in zip(sample['xq'], sample['yq']) if
-                              cur not in sample['xs']}
-            # import pdb; pdb.set_trace()
-        else:
-            query_examples = {Example(cur, tgt) for cur, tgt in zip(sample['xq'], sample['yq'])}
-        examples = {Example(cur, tgt) for cur, tgt in zip(sample['xs'], sample['ys'])}
-
-        states, _ = model.sample_to_statelist(sample)
-        initial_state = states[0]
+    assert examples is not None and query_examples is not None
+    initial_state = State.new(examples)
 
     initial_states = [copy.deepcopy(initial_state) for _ in range(batch_size)]
     # initial_past_rules_list = [ [] for _ in range(batch_size)]
@@ -132,45 +120,29 @@ def batched_test_with_sampling(sample, model, examples=None, query_examples=None
     while time.time() - start_time < timeout:
         num_samples += 1
         states = initial_states
-        # past_rules_list = initial_past_rules_list
 
         for i in range(max_len):
-            # assert past_rules_list == [state.rules for state in states] #this assertion fails
 
             actions = sample_rules_batched(states, model, max_length=max_rule_size,
                                            nosearch=nosearch)
-            # for action in actions: print(action)
             actions = [model.detokenize_action(action) for action in actions]
-            # for action in actions:
-            #     for a in action:
-            #         print(a)
-            #     print()
-            #     print()
-            # # #print([len(s.examples) for s in states])
-            # import pdb; pdb.set_trace()
 
             stats['policy_runs'] += len(states)
             stats['policy_gpu_runs'] += 1
 
-            # if verbose: print("\t action:", action)
             new_states = []
-            # new_past_rules_list = []
-            for state, action in zip(states, actions):
-                # for r in action: print(r)
-                # import pdb; pdb.set_trace()
+            states_and_actions = zip(states, actions)
+            states_and_actions = [s_a for s_a in states_and_actions if len(s_a[1]) > 0]
+            for state, action in states_and_actions:
                 try:
                     new_state = model.REPL(state, action)
                     # todo: if the state is too long then kill it maybe?? - oy vey
                     stats['nodes_expanded'] += 1
                 except (ParseError, UnfinishedError, REPLError):
-                    # if verbose: print("parse or unfinished error")
                     stats['nodes_expanded'] += 1
                     if max_nodes_expanded and stats['nodes_expanded'] >= max_nodes_expanded:
                         break
                     continue
-                # print(" new_state examples: ")
-                # print(len(new_state.examples))
-                # for ex in new_state.examples: print(ex.current, ex.target)
                 if not new_state.examples and i + 1 >= min_len:
                     # try on new query:
                     test_state = State(query_examples, new_state.rules)
@@ -222,7 +194,6 @@ def batched_test_with_sampling(sample, model, examples=None, query_examples=None
                         stats['fraction_query_hit'] = (len(test_state.examples) - len(
                             testout.examples)) / len(test_state.examples)
                         return hit, solution, stats
-                        # return new_state.rules, False
                 else:
                     if partial_credit:
                         num_support_left = len(new_state.examples)

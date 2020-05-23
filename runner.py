@@ -390,10 +390,10 @@ def run_rule_synthesis_search(language: str):
         "--episode_type", "NLP",
         "--batchsize", "128",
         "--rule_count", "100",
-        "--support_set_count", "200",
+        "--support_set_count", "100",
         "--query_set_count", "100",
         "--savefile", result_file,
-        "--n_runs", "5"
+        "--n_runs", "5",
     ]
 
     scan_search.main(args)
@@ -406,12 +406,14 @@ def run_rule_synthesis(language: str):
     data_input_file = f"data/processed/context_morph_data/{language}.csv"
     alphabet_file = f"data/processed/alphabet/{language}.csv"
     grammar_file = f"data/processed/grammar/adagram/both/{language}.csv"
+    test_data_file = f"data/processed/first_step/{language}.csv"
 
     args = [
         "--dir_model", model_output_dir,
         "--fn_out_model", model_output_file,
         "--data_file_path", data_input_file,
         "--alphabet_file_path", alphabet_file,
+        "--test_data_file_path", test_data_file,
         "--grammar_file_path", grammar_file,
         "--type", "NLP",
         "--episode_type", "NLP",

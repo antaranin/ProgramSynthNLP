@@ -72,11 +72,8 @@ class NLPRule:
 
     @staticmethod
     def can_parse_action_into_rule(action: List[str]):
-        try:
-            NLPRule.from_action(action)
-            return True
-        except:
-            return False
+        general_rule_regex = r"(\[ (. )*\] ){2}\[ \S+ \] ->( ((INS)|(DEL))\([^\)]+\))+"
+        return bool(re.fullmatch(general_rule_regex, " ".join(action)))
 
     @classmethod
     def from_action(cls, action: List[str]):
@@ -534,15 +531,15 @@ class NLPModel(Model):
 
 
 if __name__ == '__main__':
-    alphabet_file_path = "../data/processed/alphabet/asturian.csv"
-    data_file_path = "../data/processed/context_morph_data/asturian.csv"
-    train_data_file_path = "../data/processed/grammar/adagram/both/asturian.csv"
-    test_data_file_path = "../data/processed/first_step/asturian.csv"
-    sampler = TestDataSampler(test_data_file_path)
-    nlp_lang = NLPLanguage(alphabet_file_path, data_file_path, train_data_file_path,
-                           test_data_file_path, 5, 2, 0)
-    train_gen, test_gen, input_lang, output_lang, prog_lang = nlp_lang.get_episode_generator()
-    sample = test_gen(set())
+    # alphabet_file_path = "../data/processed/alphabet/asturian.csv"
+    # data_file_path = "../data/processed/context_morph_data/asturian.csv"
+    # train_data_file_path = "../data/processed/grammar/adagram/both/asturian.csv"
+    # test_data_file_path = "../data/processed/first_step/asturian.csv"
+    # sampler = TestDataSampler(test_data_file_path)
+    # nlp_lang = NLPLanguage(alphabet_file_path, data_file_path, train_data_file_path,
+    #                        test_data_file_path, 5, 2, 0)
+    # train_gen, test_gen, input_lang, output_lang, prog_lang = nlp_lang.get_episode_generator()
+    # sample = test_gen(set())
     # sample = train_gen(set())
     # rule = NLPRule(7.6, ("a", "b", "c"), ("d", "e", "f"), ("P", "V", "SV"), "INS", "123")
     # action = rule.to_action()
