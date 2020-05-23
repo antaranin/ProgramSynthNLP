@@ -1,4 +1,4 @@
-from __future__ import annotations
+#from __future__ import annotations
 import csv
 from typing import Dict, Tuple, List, TypeVar, Generic, Type
 from uuid import uuid4
@@ -41,7 +41,7 @@ class KeyBinder():
                 writer.writerow([key, item.to_json()])
 
     @classmethod
-    def from_csv(cls, csv_file_path: str, deserialization_type: Type[JsonSerializable]) -> KeyBinder:
+    def from_csv(cls, csv_file_path: str, deserialization_type: Type[JsonSerializable]):
         with open(csv_file_path) as file:
             reader = csv.reader(file, delimiter=";", quotechar="&", quoting=csv.QUOTE_MINIMAL)
             next(reader)

@@ -14,7 +14,6 @@ import operation_revisor as rev
 import baseline
 import frequency_table_gen as freq
 import adagram_grammar_extractor as gram_extractor
-import PyAdaGram.launch_train as adagram
 import grammar_train_file_generator as gram_train
 import grammar_file_generator as gram_gen
 import csv
@@ -362,30 +361,34 @@ def run_adagram(language: str, split_type: SplitType, pred_type: PredType):
         "--number_of_documents", number_of_entries,
         "--batch_size", "10"
     ]
-    adagram.main(args)
+    #adagram.main(args)
     output_grammar_path = f"data/processed/grammar/adagram/{pred_type_name}/{language}.grammar"
     _save_best_adagram_grammar(f"{output_dir}/{train_file_name}", output_grammar_path)
 
 
 def run_rule_synthesis(language: str):
     # --fn_out_model nlp.p --type NLP --batchsize 128 --episode_type NLP --num_pretrain_episodes 100000
-    model_output_file = f"data/processed/models/{language}.p"
-    data_input_file = f"data/processed/context_morph_data/{language}.csv"
-    alphabet_file = f"data/processed/alphabet/{language}.csv"
-    grammar_file = f"data/processed/grammar/adagram/both/{language}.csv"
+    directory = f"/home/rafm/ProgramSynthNLP"
+    model_dir=f"{directory}/data/processed/models"
+    model_output_file = f"{language}_low_rule.p"
+    data_input_file = f"{directory}/data/processed/context_morph_data/{language}.csv"
+    alphabet_file = f"{directory}/data/processed/alphabet/{language}.csv"
+    grammar_file = f"{directory}/data/processed/grammar/adagram/both/{language}.csv"
 
     args = [
+	"--dir_model", model_dir,
         "--fn_out_model", model_output_file,
         "--data_file_path", data_input_file,
         "--alphabet_file_path", alphabet_file,
         "--grammar_file_path", grammar_file,
         "--type", "NLP",
         "--episode_type", "NLP",
-        "--num_pretrain_episodes", "100000",
+        "--num_pretrain_episodes", "20000",
         "--batchsize", "128",
-        "--rule_count", "100",
-        "--support_set_count", "200",
-        "--query_set_count", "100",
+        "--rule_count", "10",
+        "--support_set_count", "40",
+        "--query_set_count", "10",
+	"--save_freq", "100"
     ]
 
     synthTrain.main(args)

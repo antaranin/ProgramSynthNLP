@@ -1,4 +1,4 @@
-from __future__ import annotations
+#from __future__ import annotations
 
 import json
 from enum import Enum
@@ -369,7 +369,7 @@ class WordContext(JsonSerializable):
         right_start = word.find(right, left_start + len(left))
         return right_start != -1
 
-    def is_same_as(self, other: WordContext) -> bool:
+    def is_same_as(self, other) -> bool:
         if self is other:
             return True
 

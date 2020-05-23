@@ -22,7 +22,7 @@ class PositionalEncoder(nn.Module):
                 pe[pos, i] = math.sin(pos / (10000 ** ((2 * i) / d_model)))
                 pe[pos, i + 1] = math.cos(pos / (10000 ** ((2 * (i + 1)) / d_model)))
 
-        self.pe = torch.tensor(pe).float().cpu()  # .unsqueeze(0).cpu()
+        self.pe = torch.tensor(pe).float().cuda()  # .unsqueeze(0).cuda()
         self.pe /= math.sqrt(self.d_model)
         # 1 x max_seq_len x d_model
 
@@ -155,9 +155,9 @@ class BatchedRuleSynthEncoderRNN(nn.Module):
             # flat_context = flat_context.unsqueeze(1) #ns x 1 x embedding_dim
 
         if no_examples:
-            context = torch.zeros(batch_size, 1, self.embedding_dim).cpu()
+            context = torch.zeros(batch_size, 1, self.embedding_dim).cuda()
         else:
-            context = torch.zeros(batch_size, max_n_examples, self.embedding_dim).cpu()
+            context = torch.zeros(batch_size, max_n_examples, self.embedding_dim).cuda()
 
         # TODO: redo this line with pytorch
         current = 0
@@ -182,9 +182,9 @@ class BatchedRuleSynthEncoderRNN(nn.Module):
             # print(flat_embed_rs.shape)
 
         if no_rules:
-            embed_rs = torch.zeros(batch_size, 1, self.embedding_dim).cpu()
+            embed_rs = torch.zeros(batch_size, 1, self.embedding_dim).cuda()
         else:
-            embed_rs = torch.zeros(batch_size, max_n_rules, self.embedding_dim).cpu()
+            embed_rs = torch.zeros(batch_size, max_n_rules, self.embedding_dim).cuda()
 
         # TODO: redo this line with pytorch
         current = 0
@@ -277,7 +277,7 @@ class BatchedDoubleAttnDecoderRNN(nn.Module):
         batch_size = len(z_lengths)
         max_length = max(z_lengths)
         z_lengths = torch.LongTensor(z_lengths)
-        if z_embed.is_cuda: z_lengths = z_lengths.cpu()
+        if z_embed.is_cuda: z_lengths = z_lengths.cuda()
         z_lengths, perm_idx = torch.sort(z_lengths, descending=True)
         z_embed = z_embed[perm_idx]
         init_hidden = (init_hidden[0][:, perm_idx, :], init_hidden[1][:, perm_idx, :])

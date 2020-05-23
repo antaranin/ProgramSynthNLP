@@ -1,4 +1,4 @@
-from __future__ import annotations
+#from __future__ import annotations
 
 from typing import Union, Tuple, List, Iterator, Iterable, Collection, Callable, Optional
 import pandas as pd
@@ -21,9 +21,9 @@ from itertools import chain, combinations
 
 class ContextHierarchy:
     context: str
-    parents: List[ContextHierarchy]
-    left_parents: List[ContextHierarchy]
-    right_parents: List[ContextHierarchy]
+    parents: List
+    left_parents: List
+    right_parents: List
 
     def __init__(self, context: str) -> None:
         super().__init__()
@@ -62,7 +62,7 @@ class ContextHierarchy:
 
         return True
 
-    def get_direct_parents(self) -> Collection[ContextHierarchy]:
+    def get_direct_parents(self):
         return self.left_parents + self.right_parents
 
     def _add_direct_parent(self, parent: str):

@@ -156,7 +156,7 @@ class Model:
         self.decoder_optimizer = optim.Adam(self.decoder.parameters(), lr=self.adam_learning_rate)
 
     @classmethod
-    def load(cls, path, use_cuda=False):
+    def load(cls, path, use_cuda=True):
 
         print('Loading model: ' + path)
         checkpoint = torch.load(path)
