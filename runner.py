@@ -382,13 +382,14 @@ def run_adagram(language: str, split_type: SplitType, pred_type: PredType):
 
 
 def run_rule_synthesis_search(language: str):
-    model_output_dir = "data/processed/models"
-    model_file = f"{language}_proper_2.p"
-    data_input_file = f"data/processed/context_morph_data/{language}.csv"
-    alphabet_file = f"data/processed/alphabet/{language}.csv"
-    grammar_file = f"data/processed/grammar/adagram/both/{language}.csv"
-    test_data_file = f"data/processed/first_step/{language}.csv"
-    result_file = f"data/processed/models/results/{language}"
+    directory = f"/home/rafm/ProgramSynthNLP"
+    model_output_dir = f"{directory}/data/processed/models"
+    model_file = f"{language}.p_4000"
+    data_input_file = f"{directory}/data/processed/context_morph_data/{language}.csv"
+    alphabet_file = f"{directory}/data/processed/alphabet/{language}.csv"
+    grammar_file = f"{directory}/data/processed/grammar/adagram/both/{language}.csv"
+    test_data_file = f"{directory}/data/processed/first_step/{language}.csv"
+    result_file = f"{directory}/data/processed/models/results/{language}_medium_rule"
 
     args = [
         "--dir_model", model_output_dir,
@@ -403,7 +404,7 @@ def run_rule_synthesis_search(language: str):
         "--episode_type", "NLP",
         "--batchsize", "128",
         "--rule_count", "100",
-        "--support_set_count", "100",
+        "--support_set_count", "200",
         "--query_set_count", "100",
         "--savefile", result_file,
         "--n_runs", "5",
@@ -420,7 +421,7 @@ def run_rule_synthesis(language: str):
     data_input_file = f"{directory}/data/processed/context_morph_data/{language}.csv"
     alphabet_file = f"{directory}/data/processed/alphabet/{language}.csv"
     grammar_file = f"{directory}/data/processed/grammar/adagram/both/{language}.csv"
-    test_data_file = f"data/processed/first_step/{language}.csv"
+    test_data_file = f"{directory}/data/processed/first_step/{language}.csv"
 
     args = [
 	"--dir_model", model_dir,
@@ -431,7 +432,7 @@ def run_rule_synthesis(language: str):
         "--grammar_file_path", grammar_file,
         "--type", "NLP",
         "--episode_type", "NLP",
-        "--num_pretrain_episodes", "20000",
+        "--num_pretrain_episodes", "60000",
         "--batchsize", "128",
         "--rule_count", "10",
         "--support_set_count", "40",
@@ -575,8 +576,8 @@ if __name__ == '__main__':
     # make_adagrammar_for_languages()
     # calculate_average_prediction_costs(PredType.AdaGramBoth)
     # calculate_average_prediction_costs(PredType.NoOperation)
-    # run_rule_synthesis("asturian")
-    run_rule_synthesis_search("asturian")
+    run_rule_synthesis("asturian")
+    # run_rule_synthesis_search("asturian")
     # predict_language("asturian", PredType.RuleSynth, Strictness.All)
     # calculate_grammar_cost_for_language("asturian", PredType.RuleSynth)
     # calculate_average_prediction_costs(PredType.RuleSynth)

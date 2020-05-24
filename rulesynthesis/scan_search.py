@@ -193,14 +193,14 @@ def run_search(model, args):
         hit, solution, stats = batched_test_with_sampling(sample, model,
                                                           examples=examples,
                                                           query_examples=query_examples,
-                                                          max_len=10,
+                                                          max_len=50,
                                                           timeout=args.timeout,
                                                           verbose=True,
                                                           min_len=0,
                                                           batch_size=args.batchsize,
                                                           nosearch=args.nosearch,
                                                           partial_credit=args.partial_credit,
-                                                          max_rule_size=200)
+                                                          max_rule_size=400)
 
         print(stats)
         result_path = f"{args.savefile}_{j + 1}"
