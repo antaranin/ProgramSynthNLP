@@ -129,7 +129,7 @@ def train_batched_step(batch_of_samples: List[Dict], model, eval_only=False):
         model.encoder_optimizer.step()
         model.decoder_optimizer.step()
     #TODO check if you can CUDA-ize the thing
-    return loss.cpu().item()
+    return loss.cuda().item()
 
 
 def eval_ll(samples, model):

@@ -248,7 +248,7 @@ def evaluate(sample, encoder, decoder, input_lang, output_lang, max_length, accu
             assert False
         
         # Choose top symbol from output
-        topv, topi = decoder_output.cpu().data.topk(1)
+        topv, topi = decoder_output.cuda().data.topk(1)
         decoder_input = topi.view(-1)
         if USE_CUDA:
             decoder_input = decoder_input.cuda()
@@ -336,7 +336,7 @@ def train(sample, encoder, decoder, encoder_optimizer, decoder_optimizer, input_
         print("  Decoder norm: " + str(decoder_norm))
     encoder_optimizer.step()
     decoder_optimizer.step()
-    return loss.cpu().item()
+    return loss.cuda().item()
 
 def display_input_output(input_patterns,output_patterns,target_patterns):
     # Verbose analysis of performance on query items

@@ -76,7 +76,7 @@ def sample_rules_batched(states, model, max_length=20, nosearch=False):
         # import pdb; pdb.set_trace()
 
         decoder_input = topi  # TODO check if you can CUDAize it
-        all_decoder_outputs[:, t] = topi.cpu().numpy()
+        all_decoder_outputs[:, t] = topi.cuda().numpy()
 
     rules = []
     for i in range(batch_size):

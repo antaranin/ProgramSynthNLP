@@ -1,4 +1,4 @@
-from __future__ import annotations
+#from __future__ import annotations
 
 from typing import Collection, Iterable, List
 from mln_model import WeightedOperation, Operation, Context, OpObject
@@ -34,7 +34,7 @@ class AdaGram:
         self.operation_name = operation_name
 
     @classmethod
-    def load_from_text(cls, text_lines: Iterable[str]) -> AdaGram:
+    def load_from_text(cls, text_lines: Iterable[str]):
         rules = []
         for line in text_lines:
             if line.startswith("True"):
@@ -81,7 +81,7 @@ def _write_ops(file_path: str, operations: Collection[WeightedOperation]):
             writer.writerow([left, right, operation, object, morph_features, weight])
 
 
-def _load_grammar_file(grammar_file_path: str) -> AdaGram:
+def _load_grammar_file(grammar_file_path: str):
     with open(grammar_file_path, mode="r") as file:
         return AdaGram.load_from_text(file)
 
