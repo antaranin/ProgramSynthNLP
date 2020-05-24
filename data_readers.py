@@ -1,4 +1,5 @@
 import csv
+import os
 from typing import Collection
 import pandas as pd
 
@@ -21,6 +22,10 @@ def load_alphabet(
 
         return letters
 
+def mkdir_if_not_exists(file_name: str):
+    dir = os.path.dirname(file_name)
+    if not os.path.exists(dir):
+        os.mkdir(dir)
 
 def load_data_frame(data_file_path: str, separator=";") -> pd.DataFrame:
     return pd.read_csv(data_file_path, sep=separator)

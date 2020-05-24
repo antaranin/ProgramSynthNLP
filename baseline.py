@@ -1,5 +1,5 @@
 import csv
-import os
+import data_readers as dr
 from statistics import mean, stdev
 from typing import List, Tuple, Collection
 
@@ -7,6 +7,7 @@ from precondition_interpreter import Prediction
 
 
 def save_predictions(prediction_file_path: str, predictions: Collection[Prediction]):
+    dr.mkdir_if_not_exists(prediction_file_path)
     with open(prediction_file_path, mode="w+") as file:
         writer = csv.writer(file, delimiter=";")
         writer.writerow(["Base", "Prediction", "Actual"])
@@ -54,6 +55,7 @@ def format_and_save_sigmorphon_predictions(sigmorphon_file: str, data_file: str,
 
 
 def _save_predictions(predictions: List[Tuple[str, str, str]], output_file: str):
+    dr.mkdir_if_not_exists(output_file)
     with open(output_file, mode='w+') as file:
         writer = csv.writer(file, delimiter=';', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         writer.writerow(["Word", "Prediction", "Actual"])
@@ -72,14 +74,13 @@ def calculate_average_cost(word_cost_file: str) -> float:
 
 
 def _save_cost_baseline(words_and_cost: List[Tuple[str, str]], output_file: str):
-    dir = os.path.dirname(output_file)
-    if not os.path.exists(dir):
-        os.mkdir(dir)
+    dr.mkdir_if_not_exists(output_file)
     with open(output_file, mode='w+') as file:
         writer = csv.writer(file, delimiter=';', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         writer.writerow(["Word", "Cost"])
         for word_and_cost in words_and_cost:
             writer.writerow(word_and_cost)
+
 
 
 def get_means_and_stdev_for_language(data_file: str) -> Tuple[float, float]:
