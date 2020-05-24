@@ -1,25 +1,26 @@
+import csv
 import os
 from enum import Enum
-from typing import Callable, List, Tuple, Dict, Collection
-
 from functools import partial
-from context_matrix import create_and_save_context_matrix, load_context_matrix, \
+from typing import Callable, Tuple, Dict, Collection
+
+import console_arg_parser as arg_parser
+import adagram_grammar_extractor as gram_extractor
+import baseline
+import frequency_table_gen as freq
+import grammar_file_generator as gram_gen
+import grammar_train_file_generator as gram_train
+import operation_revisor as rev
+import rule_parser
+import rulesynthesis.scan_search as scan_search
+import rulesynthesis.synthTrain as synthTrain
+from context_matrix import create_and_save_context_matrix, \
     rewrite_context_matrix_to_concept_lib_format, \
     create_grammar_context_matrix_for_concept_lib_format
 from grammar_train_file_generator import SplitType
 from main import process_data_file, write_alphabet, read_base_expected_words_and_morph_features
-from precondition_interpreter import run_predictions, Prediction
-from mln_file_generator import read_mln_file, Strictness
-import operation_revisor as rev
-import baseline
-import frequency_table_gen as freq
-import adagram_grammar_extractor as gram_extractor
-import grammar_train_file_generator as gram_train
-import grammar_file_generator as gram_gen
-import csv
-import rulesynthesis.synthTrain as synthTrain
-import rulesynthesis.scan_search as scan_search
-import rule_parser
+from mln_file_generator import Strictness
+from precondition_interpreter import run_predictions
 
 
 class PredType(Enum):
@@ -27,8 +28,9 @@ class PredType(Enum):
     AdaGramLeft = 1
     AdaGramRight = 2
     AdaGramBoth = 3
-    RuleSynth = 4
-
+    RuleSynthHighCount = 4
+    RuleSynthMediumCount = 5
+    RuleSynthLowCount = 6
 
 
 def _run_steps(directory_name: str, filename: str, generate_step_1: bool, generate_step_2: bool,
@@ -207,14 +209,18 @@ def calculate_average_prediction_costs(pred_type: PredType):
         PredType.AdaGramRight: "adagram/right",
         PredType.AdaGramLeft: "adagram/left",
         PredType.NoOperation: "no_op",
-        PredType.RuleSynth: "rule_synth"
+        PredType.RuleSynthLowCount: "rule_synth_low",
+        PredType.RuleSynthMediumCount: "rule_synth_medium",
+        PredType.RuleSynthHighCount: "rule_synth_high"
     }
     output_file_name_dict = {
         PredType.AdaGramBoth: "adagram_both",
         PredType.AdaGramRight: "adagram_right",
         PredType.AdaGramLeft: "adagram_left",
         PredType.NoOperation: "no_op",
-        PredType.RuleSynth: "rule_synth"
+        PredType.RuleSynthLowCount: "rule_synth_low",
+        PredType.RuleSynthMediumCount: "rule_synth_medium",
+        PredType.RuleSynthHighCount: "rule_synth_high"
     }
     output_file_path = f"{base_dir}/average_costs/{output_file_name_dict[pred_type]}.csv"
     languages_to_costs = _get_average_baseline_cost(f"{cost_file_name_dict[pred_type]}_cost")
@@ -259,6 +265,7 @@ def predict_language(
         pred_type: PredType,
         morph_feature_comparison_strictness: Strictness
 ):
+    top_quality_perc = 0.6
     base_expected_and_morphs = read_base_expected_words_and_morph_features(
         f"data/latin_alphabet/{language}-test")
     grammar_dir = "data/processed/grammar"
@@ -281,10 +288,23 @@ def predict_language(
         pred_type_path_change = "no_op"
         weighted_ops = ()
         is_probabilistic = False
-    elif pred_type == PredType.RuleSynth:
-        pred_type_path_change = "rule_synth"
-        rule_file = f"data/processed/models/results/{language}.p"
-        weighted_ops = rule_parser.parse_rules(rule_file)
+    elif pred_type == PredType.RuleSynthLowCount:
+        pred_type_path_change = "rule_synth_low"
+        rule_file = f"{language}_low_rule"
+        rule_dir = f"data/processed/models/results"
+        weighted_ops = rule_parser.parse_combine_rules(rule_dir, rule_file, top_quality_perc)
+        is_probabilistic = True
+    elif pred_type == PredType.RuleSynthMediumCount:
+        pred_type_path_change = "rule_synth_medium"
+        rule_file = f"{language}_medium_rule"
+        rule_dir = f"data/processed/models/results"
+        weighted_ops = rule_parser.parse_combine_rules(rule_dir, rule_file, top_quality_perc)
+        is_probabilistic = True
+    elif pred_type == PredType.RuleSynthHighCount:
+        pred_type_path_change = "rule_synth_high"
+        rule_file = f"{language}"
+        rule_dir = f"data/processed/models/results"
+        weighted_ops = rule_parser.parse_combine_rules(rule_dir, rule_file, top_quality_perc)
         is_probabilistic = True
     else:
         raise NotImplementedError
@@ -307,7 +327,9 @@ def calculate_grammar_cost_for_language(language: str, pred_type: PredType):
         PredType.AdaGramBoth: "adagram/both",
         PredType.AdaGramRight: "adagram/right",
         PredType.NoOperation: "no_op",
-        PredType.RuleSynth: "rule_synth"
+        PredType.RuleSynthHighCount: "rule_synth_high",
+        PredType.RuleSynthMediumCount: "rule_synth_medium",
+        PredType.RuleSynthLowCount: "rule_synth_low"
     }
     pred_file = pred_files[pred_type]
     baseline.calculate_and_save_cost_baseline(
@@ -376,22 +398,23 @@ def run_adagram(language: str, split_type: SplitType, pred_type: PredType):
         "--number_of_documents", number_of_entries,
         "--batch_size", "10"
     ]
-    #adagram.main(args)
+    # adagram.main(args)
     output_grammar_path = f"data/processed/grammar/adagram/{pred_type_name}/{language}.grammar"
     _save_best_adagram_grammar(f"{output_dir}/{train_file_name}", output_grammar_path)
 
 
-def run_rule_synthesis_search(language: str):
+def run_rule_synthesis_search(args):
+    language = args.language
     directory = f"/home/rafm/ProgramSynthNLP"
     model_output_dir = f"{directory}/data/processed/models"
-    model_file = f"{language}.p_4000"
+    model_file = f"{language}{args.model_ending}"
     data_input_file = f"{directory}/data/processed/context_morph_data/{language}.csv"
     alphabet_file = f"{directory}/data/processed/alphabet/{language}.csv"
     grammar_file = f"{directory}/data/processed/grammar/adagram/both/{language}.csv"
     test_data_file = f"{directory}/data/processed/first_step/{language}.csv"
-    result_file = f"{directory}/data/processed/models/results/{language}_medium_rule"
+    result_file = f"{directory}/data/processed/models/results/{args.search_result_dir}/{language}"
 
-    args = [
+    input_args = [
         "--dir_model", model_output_dir,
         "--fn_out_model", model_file,
         "--data_file_path", data_input_file,
@@ -403,28 +426,31 @@ def run_rule_synthesis_search(language: str):
         "--timeout", "20",
         "--episode_type", "NLP",
         "--batchsize", "128",
-        "--rule_count", "100",
-        "--support_set_count", "200",
-        "--query_set_count", "100",
+        "--rule_count", str(args.rule_count),
+        "--support_set_count", str(args.support_set_count),
+        "--query_set_count", str(args.query_set_count),
         "--savefile", result_file,
-        "--n_runs", "5",
+        "--n_runs", str(args.search_sample_count),
+        "--max_decoder_output", str(args.max_decoder_output),
+        "--max_searches", str(args.max_searches)
     ]
 
-    scan_search.main(args)
+    scan_search.main(input_args)
 
 
-def run_rule_synthesis(language: str):
+def run_rule_synthesis(args):
     # --fn_out_model nlp.p --type NLP --batchsize 128 --episode_type NLP --num_pretrain_episodes 100000
+    language = args.language
     directory = f"/home/rafm/ProgramSynthNLP"
-    model_dir=f"{directory}/data/processed/models"
-    model_output_file = f"{language}_low_rule.p"
+    model_dir = f"{directory}/data/processed/models"
+    model_output_file = f"{language}{args.model_ending}.p"
     data_input_file = f"{directory}/data/processed/context_morph_data/{language}.csv"
     alphabet_file = f"{directory}/data/processed/alphabet/{language}.csv"
     grammar_file = f"{directory}/data/processed/grammar/adagram/both/{language}.csv"
     test_data_file = f"{directory}/data/processed/first_step/{language}.csv"
 
-    args = [
-	"--dir_model", model_dir,
+    input_args = [
+        "--dir_model", model_dir,
         "--fn_out_model", model_output_file,
         "--data_file_path", data_input_file,
         "--alphabet_file_path", alphabet_file,
@@ -432,15 +458,15 @@ def run_rule_synthesis(language: str):
         "--grammar_file_path", grammar_file,
         "--type", "NLP",
         "--episode_type", "NLP",
-        "--num_pretrain_episodes", "60000",
+        "--num_pretrain_episodes", str(args.train_count),
         "--batchsize", "128",
-        "--rule_count", "10",
-        "--support_set_count", "40",
-        "--query_set_count", "10",
-	"--save_freq", "100"
+        "--rule_count", str(args.rule_count),
+        "--support_set_count", str(args.support_set_count),
+        "--query_set_count", str(args.query_set_count),
+        "--save_freq", "5"
     ]
 
-    synthTrain.main(args)
+    synthTrain.main(input_args)
 
 
 def _save_best_adagram_grammar(input_dir: str, output_file_path: str):
@@ -569,6 +595,12 @@ def make_adagrammar_for_languages():
     calculate_average_prediction_costs(pred_type)
 
 
+def pred_language_and_calculate_cost(language: str, pred_type: PredType, strictness: Strictness):
+    predict_language(language, pred_type, strictness)
+    calculate_grammar_cost_for_language(language, pred_type)
+    calculate_average_prediction_costs(pred_type)
+
+
 if __name__ == '__main__':
     # gram_path = "data/processed/grammar/adagram/both/asturian.grammar"
     # out_path = "data/processed/grammar/adagram/both/asturian.csv"
@@ -576,8 +608,12 @@ if __name__ == '__main__':
     # make_adagrammar_for_languages()
     # calculate_average_prediction_costs(PredType.AdaGramBoth)
     # calculate_average_prediction_costs(PredType.NoOperation)
-    run_rule_synthesis("asturian")
-    # run_rule_synthesis_search("asturian")
-    # predict_language("asturian", PredType.RuleSynth, Strictness.All)
-    # calculate_grammar_cost_for_language("asturian", PredType.RuleSynth)
-    # calculate_average_prediction_costs(PredType.RuleSynth)
+    args = arg_parser.parse_args()
+    if args.search:
+        run_rule_synthesis_search(args)
+    else:
+        run_rule_synthesis(args)
+
+    # pred_language_and_calculate_cost(language, PredType.RuleSynthLowCount, Strictness.All)
+    # pred_language_and_calculate_cost(language, PredType.RuleSynthMediumCount, Strictness.All)
+    # pred_language_and_calculate_cost(language, PredType.RuleSynthHighCount, Strictness.All)

@@ -79,6 +79,7 @@ def _write_ops(file_path: str, operations: Collection[WeightedOperation]):
             weight = op.weight
             morph_features = ",".join(op.morph_features)
             writer.writerow([left, right, operation, object, morph_features, weight])
+    print(f"Wrote grammar to {file_path}")
 
 
 def _load_grammar_file(grammar_file_path: str):
@@ -121,5 +122,10 @@ def _unescape_spaces(string: str) -> str:
 
 
 if __name__ == '__main__':
-    operations = process_grammar_file("data/processed/grammar/adagram/both/asturian.grammar")
-    print(operations)
+    language = "livonian"
+    save_grammar_file(
+       f"data/processed/grammar/adagram/both/{language}.grammar",
+       f"data/processed/grammar/adagram/both/{language}.csv"
+    )
+    #operations = process_grammar_file("data/processed/grammar/adagram/both/asturian.grammar")
+    #print(operations)

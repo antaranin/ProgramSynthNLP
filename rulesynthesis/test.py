@@ -249,11 +249,3 @@ def batched_test_with_sampling(sample, model, examples=None, query_examples=None
     return False, solution, stats
 
 
-if __name__ == '__main__':
-    # arguments
-    results = test_agent(*args)
-
-    # save results
-    with open(filename, 'wb') as savefile:
-        dill.dump(results, savefile)
-        print("results file saved at", filename)
