@@ -11,7 +11,7 @@ def load_alphabet(
     with open(alphabet_file_path, mode='r') as file:
         reader = csv.reader(file, delimiter=";")
         next(reader)
-        letters =  [
+        letters = [
             line[1] if line[1] != " " else "_"
             for line in reader
             if line[1] != ''
@@ -22,10 +22,12 @@ def load_alphabet(
 
         return letters
 
+
 def mkdir_if_not_exists(file_name: str):
     dir = os.path.dirname(file_name)
     if not os.path.exists(dir):
         os.mkdir(dir)
+
 
 def load_data_frame(data_file_path: str, separator=";") -> pd.DataFrame:
     return pd.read_csv(data_file_path, sep=separator)
