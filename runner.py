@@ -284,7 +284,7 @@ def predict_language(
         is_probabilistic = False
     elif pred_type == PredType.RuleSynth:
         pred_type_path_change = "rule_synth"
-        rule_file = f"data/processed/models/results/{language}.p"
+        rule_file = f"data/processed/models/results/{language}_1"
         weighted_ops = rule_parser.parse_rules(rule_file)
         is_probabilistic = True
     else:
@@ -576,7 +576,7 @@ if __name__ == '__main__':
     # calculate_average_prediction_costs(PredType.AdaGramBoth)
     # calculate_average_prediction_costs(PredType.NoOperation)
     # run_rule_synthesis("asturian")
-    run_rule_synthesis_search("asturian")
-    # predict_language("asturian", PredType.RuleSynth, Strictness.All)
-    # calculate_grammar_cost_for_language("asturian", PredType.RuleSynth)
-    # calculate_average_prediction_costs(PredType.RuleSynth)
+    # run_rule_synthesis_search("asturian")
+    predict_language("asturian", PredType.RuleSynth, Strictness.All)
+    calculate_grammar_cost_for_language("asturian", PredType.RuleSynth)
+    calculate_average_prediction_costs(PredType.RuleSynth)

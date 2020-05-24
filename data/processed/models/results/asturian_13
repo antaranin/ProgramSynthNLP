@@ -1,0 +1,9 @@
+{'nodes_expanded': 1280, 'policy_runs': 1280, 'policy_gpu_runs': 10, 'value_runs': 0, 'value_gpu_runs': 0, 'start_time': 1590255902.770509, 'score': 23, 'query_score': 31, 'end_time': 1590256091.667138}
+[r][>][V,3,SG,SBJV,PST,IPFV,LGSPEC2]->INS(a)
+[r][>][V,1,PL,COND,LGSPEC2]->INS(íamos)
+[ar][>][V,2,PL,SBJV,PST,IPFV,LGSPEC2]->INS(ais)
+[r][>][V.PTCP,PST,FEM,PL]->INS(es)
+[ayer][>][V,2,SG,IND,FUT,LGSPEC1]->INS(ás)
+[r][>][V,IND,PST,1,PL,IPFV,LGSPEC2]->INS(mos)
+[er][>][V,2,SG,SBJV,PRS]->INS(ás)
+[ar][>][V,IND,PST,1,PL,PFV]->INS(emos)
