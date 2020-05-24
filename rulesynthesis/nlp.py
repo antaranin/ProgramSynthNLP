@@ -230,7 +230,7 @@ class TestDataSampler:
 
     @staticmethod
     def _combined_to_ops(combined: str) -> str:
-        return ",".join(re.findall(r"[A-Z]{3}\(\w+\)", combined))
+        return ",".join(re.findall(r"[A-Z]{3}\([^\)]+\)", combined))
 
     def generate_episode(
             self,
@@ -274,10 +274,10 @@ class TestDataSampler:
 
     @staticmethod
     def _data_row_to_example(row) -> NLPExample:
-        word = list(row.Source)
+        word = list(row.Source.replace(" ", "_"))
         morphs = [L_PAREN, row.Grammar, R_PAREN]
         input_tokens = ["<"] + word + [">"] + morphs
-        output_operations = sorted(row.Operations.split(","))
+        output_operations = sorted(row.Operations.replace(" ", "_").split(","))
         return NLPExample(input_tokens, output_operations)
 
 
@@ -374,10 +374,10 @@ class DataSampler:
 
     @staticmethod
     def _data_row_to_grammar_rule(row) -> NLPRule:
-        left = list(row.Left)
-        right = list(row.Right)
+        left = list(row.Left.replace(" ", "_"))
+        right = list(row.Right.replace(" ", "_"))
         operation = row.Operation
-        object = row.Object
+        object = row.Object.replace(" ", "_")
         morph_features = row.MorphFeatures.split(",")
         return NLPRule(left, right, morph_features, operation, object)
 
@@ -401,7 +401,8 @@ class NLPLanguage:
         self.alphabet = dr.load_alphabet(alphabet_file_path, include_end_start_symbols=True)
         data = dr.load_data_frame(data_file)
         data["OpObjects"] = data["Operation"] + "(" + data["Object"] + ")"
-        self.op_objects = data.drop_duplicates(["OpObjects"])["OpObjects"].tolist()
+        op_objects = data.drop_duplicates(["OpObjects"])["OpObjects"].tolist()
+        self.op_objects = [op_object.replace(" ", "_") for op_object in op_objects]
         self.morph_features = data.drop_duplicates(["Grammar"])["Grammar"].tolist()
         self.train_data = DataSampler(train_grammar_path, self.alphabet)
         self.test_data = TestDataSampler(test_data_path)

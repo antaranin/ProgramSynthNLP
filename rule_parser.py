@@ -20,7 +20,8 @@ def parse_combine_rules(
         base_file_name: str,
         top_quality_perc: Optional[float] = None
 ) -> Set[WeightedOperation]:
-    files = [file for file in os.listdir(rule_dir) if bool(re.fullmatch(rf"{base_file_name}_\d+", file))]
+    files = [file for file in os.listdir(rule_dir) if
+             bool(re.fullmatch(rf"{base_file_name}_\d+", file))]
     scores_and_rules: List[Tuple[int, Collection[WeightedOperation]]] = []
     for file in files:
         file_stats, file_rules = parse_rules(os.path.join(rule_dir, file))
@@ -36,6 +37,7 @@ def parse_combine_rules(
 
 
 def _parse_line_to_rule(text_line: str) -> WeightedOperation:
+    text_line = text_line.replace("_", " ")
     groups = tuple(re.findall(r"\[[^\]]*\]", text_line))
     assert len(groups) == 3, f"Expected 3 groups, but was {groups}"
     left, right, morph_features = groups
