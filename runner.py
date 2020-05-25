@@ -443,7 +443,7 @@ def run_rule_synthesis(args):
     language = args.language
     directory = f"/home/rafm/ProgramSynthNLP"
     model_dir = f"{directory}/data/processed/models"
-    model_output_file = f"{language}{args.model_ending}.p"
+    model_output_file = f"{language}{args.model_ending}"
     data_input_file = f"{directory}/data/processed/context_morph_data/{language}.csv"
     alphabet_file = f"{directory}/data/processed/alphabet/{language}.csv"
     grammar_file = f"{directory}/data/processed/grammar/adagram/both/{language}.csv"

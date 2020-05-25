@@ -86,6 +86,7 @@ def _search(args):
     util.rule_count = args.rule_count
     util.support_set_count = args.support_set_count
     util.query_set_count = args.query_set_count
+    util.train_only = False
 
     # load model
     if args.type == 'miniscanRBbase':

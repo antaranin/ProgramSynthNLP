@@ -26,6 +26,7 @@ def run(args):
     util.rule_count = args.rule_count
     util.support_set_count = args.support_set_count
     util.query_set_count = args.query_set_count
+    util.train_only = True
 
     # Make model
     print(f"Args type => {args.type}")

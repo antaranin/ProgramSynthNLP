@@ -47,6 +47,7 @@ grammar_path = None
 rule_count = 100
 support_set_count = 200
 query_set_count = 100
+train_only = True
 
 
 def asMinutes(s):
@@ -401,7 +402,7 @@ def get_episode_generator(episode_type, model_in_lang=None, model_out_lang=None,
         from rulesynthesis.nlp import NLPLanguage
         lang = NLPLanguage(alphabet_path, data_file_path, grammar_path, test_data_file_path,
                            rule_count,
-                           support_set_count, query_set_count)
+                           support_set_count, query_set_count, train_only)
         return lang.get_episode_generator()
     elif episode_type == 'rules_gen':
 

@@ -127,7 +127,7 @@ class NLPRule:
             result = rf".*{left} {object} {right}.* {L_PAREN} {morphs} {R_PAREN}"
         else:
             raise NotImplementedError(f"Only {INSERT} and {DELETE} operations supported")
-        result = result.replace("[", r"\[").replace("]", r"\]")
+        result = result.replace("[", r"\[").replace("]", r"\]").replace("+", "\+")
         return result
 
     # TODO this might need to be re-written to follow the LHS and RHS style
@@ -230,7 +230,7 @@ class TestDataSampler:
 
     @staticmethod
     def _combined_to_ops(combined: str) -> str:
-        return ",".join(re.findall(r"[A-Z]{3}\([^\)]+\)", combined))
+        return ",".join(re.findall(r"[A-Z]{3}\(\w+\)", combined))
 
     def generate_episode(
             self,
@@ -274,7 +274,7 @@ class TestDataSampler:
 
     @staticmethod
     def _data_row_to_example(row) -> NLPExample:
-        word = list(row.Source.replace(" ", "_"))
+        word = list(row.Source.replace(" ", "_").lower())
         morphs = [L_PAREN, row.Grammar, R_PAREN]
         input_tokens = ["<"] + word + [">"] + morphs
         output_operations = sorted(row.Operations.replace(" ", "_").split(","))
@@ -369,7 +369,7 @@ class DataSampler:
         else:
             raise NotImplementedError("This operation is not implemented")
 
-        assert rule.applies(result), f"Generated input {result} cannot be used by rule: {rule}"
+        assert rule.applies(result), f"Generated input {result} cannot be used by rule: {rule}, lhs {rule.lhs_regex}"
         return result
 
     @staticmethod
@@ -391,12 +391,13 @@ class NLPLanguage:
     support_set_count: int
     query_set_count: int
     rule_count: int
+    train_only: bool
 
     # test_data: DataSampler
 
     def __init__(self, alphabet_file_path: str, data_file: str, train_grammar_path: str,
                  test_data_path: str,
-                 support_set_count: int, query_set_count: int, rule_count: int) -> None:
+                 support_set_count: int, query_set_count: int, rule_count: int, train_only = True) -> None:
         super().__init__()
         self.alphabet = dr.load_alphabet(alphabet_file_path, include_end_start_symbols=True)
         data = dr.load_data_frame(data_file)
@@ -409,6 +410,7 @@ class NLPLanguage:
         self.support_set_count = support_set_count
         self.query_set_count = query_set_count
         self.rule_count = rule_count
+        self.train_only = train_only
 
     def get_episode_generator(self):
         input_language = Lang(self._get_input_tokens())
@@ -438,6 +440,8 @@ class NLPLanguage:
             program_language,
             already_generated_episodes
         )
+        if self.train_only:
+           test_episode_gen = train_episode_gen
 
         return train_episode_gen, test_episode_gen, input_language, output_language, program_language
 
