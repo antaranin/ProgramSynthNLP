@@ -1,4 +1,5 @@
-{'nodes_expanded': 5120, 'policy_runs': 5120, 'policy_gpu_runs': 40, 'value_runs': 0, 'value_gpu_runs': 0, 'start_time': 1590516024.7218285, 'score': 6, 'query_score': 6, 'end_time': 1590516061.2454753}
-[ar][>][V,2,PL,COND,LGSPEC2]->INS(íais)
-[ar][>][V,2,PL,SBJV,PST,IPFV,LGSPEC1]->INS(eis)
-[r][>][V,1,PL,IND,FUT]->INS(emos)
+{'nodes_expanded': 5120, 'policy_runs': 5120, 'policy_gpu_runs': 40, 'value_runs': 0, 'value_gpu_runs': 0, 'start_time': 1590519015.8294523, 'score': 7, 'query_score': 14, 'end_time': 1590519054.3949518}
+[r][>][V,1,SG,IND,PST,PRF,LGSPEC1]->INS(e)
+[ar][>][V,IND,PST,1,PL,IPFV,LGSPEC1]->INS(ábemos)
+[r][>][V,1,SG,IND,PST,PRF,LGSPEC2]->INS(a)
+[r][>][V,1,PL,COND,LGSPEC2]->INS(íamos)

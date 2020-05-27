@@ -1,0 +1,6 @@
+{'nodes_expanded': 5119, 'policy_runs': 5120, 'policy_gpu_runs': 40, 'value_runs': 0, 'value_gpu_runs': 0, 'start_time': 1590524071.52995, 'score': 6, 'query_score': 9, 'end_time': 1590524107.04278}
+[c][ar>][V,IND,PST,1,SG,IPFV]->INS(ab)
+[er][>][V,2,PL,IMP]->INS(éi)
+[a][>][V.CVB,PRS]->DEL(r)
+[e][>][V,IND,PRS,2,SG]->DEL(r)
+[a][>][V,IND,PRS,3,SG]->DEL(r)

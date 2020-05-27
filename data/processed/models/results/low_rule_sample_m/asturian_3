@@ -1,0 +1,5 @@
+{'nodes_expanded': 5120, 'policy_runs': 5120, 'policy_gpu_runs': 40, 'value_runs': 0, 'value_gpu_runs': 0, 'start_time': 1590523648.3836863, 'score': 7, 'query_score': 7, 'end_time': 1590523684.0666986}
+[ar][>][V,3,PL,SBJV,PST,IPFV,LGSPEC2]->INS(an)
+[ar][>][V,2,PL,COND,LGSPEC1]->INS(íeis)
+[ar][>][V,2,PL,COND,LGSPEC2]->INS(íais)
+[ar][>][V,1,PL,SBJV,PRS]->INS(uemos)
