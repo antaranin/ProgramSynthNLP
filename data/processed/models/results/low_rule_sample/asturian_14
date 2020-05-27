@@ -1,5 +1,5 @@
-{'nodes_expanded': 5120, 'policy_runs': 5120, 'policy_gpu_runs': 40, 'value_runs': 0, 'value_gpu_runs': 0, 'start_time': 1590516352.617236, 'score': 7, 'query_score': 9, 'end_time': 1590516389.0653546}
-[ar][>][V,2,PL,IND,FUT]->INS(éis)
-[a][r>][V,1,PL,SBJV,PST,IPFV,LGSPEC1]->INS(á)
-[r][>][V,1,SG,IND,FUT]->INS(é)
-[r][>][V,3,SG,COND]->INS(ía)
+{'nodes_expanded': 5120, 'policy_runs': 5120, 'policy_gpu_runs': 40, 'value_runs': 0, 'value_gpu_runs': 0, 'start_time': 1590519361.5518749, 'score': 8, 'query_score': 10, 'end_time': 1590519399.7492263}
+[ar][>][V,IND,PST,3,PL,PFV]->INS(on)
+[ar][>][V.PTCP,PST,MASC,PL]->INS(os)
+[ar][>][V,1,SG,SBJV,PST,IPFV,LGSPEC1]->INS(e)
+[a][>][V.PTCP,PST,MASC,PL]->DEL(r)

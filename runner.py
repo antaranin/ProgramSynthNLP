@@ -440,7 +440,8 @@ def run_rule_synthesis_search(args):
         "--support_set_count", str(args.support_set_count),
         "--query_set_count", str(args.query_set_count),
         "--savefile", result_file,
-        "--n_runs", str(args.search_sample_count),
+        "--n_test", str(args.search_sample_count),
+        "--n_runs", "1",
         "--max_decoder_output", str(args.max_decoder_output),
         "--max_searches", str(args.max_searches)
     ]
