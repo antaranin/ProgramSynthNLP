@@ -31,6 +31,7 @@ class PredType(Enum):
     RuleSynthHighCount = 4
     RuleSynthMediumCount = 5
     RuleSynthLowCount = 6
+    RuleSynthLowCountSample = 7
 
 
 def _run_steps(directory_name: str, filename: str, generate_step_1: bool, generate_step_2: bool,
@@ -210,6 +211,7 @@ def calculate_average_prediction_costs(pred_type: PredType):
         PredType.AdaGramLeft: "adagram/left",
         PredType.NoOperation: "no_op",
         PredType.RuleSynthLowCount: "rule_synth_low",
+        PredType.RuleSynthLowCountSample: "rule_synth_low_sample",
         PredType.RuleSynthMediumCount: "rule_synth_medium",
         PredType.RuleSynthHighCount: "rule_synth_high"
     }
@@ -219,6 +221,7 @@ def calculate_average_prediction_costs(pred_type: PredType):
         PredType.AdaGramLeft: "adagram_left",
         PredType.NoOperation: "no_op",
         PredType.RuleSynthLowCount: "rule_synth_low",
+        PredType.RuleSynthLowCountSample: "rule_synth_low_sample",
         PredType.RuleSynthMediumCount: "rule_synth_medium",
         PredType.RuleSynthHighCount: "rule_synth_high"
     }
@@ -290,20 +293,26 @@ def predict_language(
         is_probabilistic = False
     elif pred_type == PredType.RuleSynthLowCount:
         pred_type_path_change = "rule_synth_low"
-        rule_file = f"{language}_low_rule"
-        rule_dir = f"data/processed/models/results"
+        rule_file = f"{language}"
+        rule_dir = f"data/processed/models/results/low_rule"
+        weighted_ops = rule_parser.parse_combine_rules(rule_dir, rule_file, top_quality_perc)
+        is_probabilistic = True
+    elif pred_type == PredType.RuleSynthLowCountSample:
+        pred_type_path_change = "rule_synth_low_sample"
+        rule_file = f"{language}"
+        rule_dir = f"data/processed/models/results/low_rule_sample"
         weighted_ops = rule_parser.parse_combine_rules(rule_dir, rule_file, top_quality_perc)
         is_probabilistic = True
     elif pred_type == PredType.RuleSynthMediumCount:
         pred_type_path_change = "rule_synth_medium"
-        rule_file = f"{language}_medium_rule"
-        rule_dir = f"data/processed/models/results"
+        rule_file = f"{language}"
+        rule_dir = f"data/processed/models/results/medium_rule"
         weighted_ops = rule_parser.parse_combine_rules(rule_dir, rule_file, top_quality_perc)
         is_probabilistic = True
     elif pred_type == PredType.RuleSynthHighCount:
         pred_type_path_change = "rule_synth_high"
         rule_file = f"{language}"
-        rule_dir = f"data/processed/models/results"
+        rule_dir = f"data/processed/models/results/high_rule"
         weighted_ops = rule_parser.parse_combine_rules(rule_dir, rule_file, top_quality_perc)
         is_probabilistic = True
     else:
@@ -329,7 +338,8 @@ def calculate_grammar_cost_for_language(language: str, pred_type: PredType):
         PredType.NoOperation: "no_op",
         PredType.RuleSynthHighCount: "rule_synth_high",
         PredType.RuleSynthMediumCount: "rule_synth_medium",
-        PredType.RuleSynthLowCount: "rule_synth_low"
+        PredType.RuleSynthLowCount: "rule_synth_low",
+        PredType.RuleSynthLowCountSample: "rule_synth_low_sample"
     }
     pred_file = pred_files[pred_type]
     baseline.calculate_and_save_cost_baseline(
@@ -608,12 +618,12 @@ if __name__ == '__main__':
     # make_adagrammar_for_languages()
     # calculate_average_prediction_costs(PredType.AdaGramBoth)
     # calculate_average_prediction_costs(PredType.NoOperation)
-    args = arg_parser.parse_args()
-    if args.search:
-        run_rule_synthesis_search(args)
-    else:
-        run_rule_synthesis(args)
+    # args = arg_parser.parse_args()
+    # if args.search:
+    #     run_rule_synthesis_search(args)
+    # else:
+    #     run_rule_synthesis(args)
 
     # pred_language_and_calculate_cost(language, PredType.RuleSynthLowCount, Strictness.All)
     # pred_language_and_calculate_cost(language, PredType.RuleSynthMediumCount, Strictness.All)
-    # pred_language_and_calculate_cost(language, PredType.RuleSynthHighCount, Strictness.All)
+    pred_language_and_calculate_cost("asturian", PredType.RuleSynthLowCountSample, Strictness.All)
