@@ -1,0 +1,5 @@
+{'nodes_expanded': 2560, 'policy_runs': 2560, 'policy_gpu_runs': 20, 'value_runs': 0, 'value_gpu_runs': 0, 'start_time': 1590571558.3955426, 'score': 5, 'query_score': 6, 'end_time': 1590571578.6256933}
+[ar][>][V,1,SG,SBJV,PRS]->INS(e)
+[][r>][V,1,PL,SBJV,PST,IPFV,LGSPEC2]->DEL(a)
+[no][r>][V,1,SG,SBJV,PRS]->DEL(ra)
+[ar][>][V,3,PL,IND,FUT]->INS(án)

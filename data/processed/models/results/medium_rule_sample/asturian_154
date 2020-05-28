@@ -1,0 +1,6 @@
+{'nodes_expanded': 2560, 'policy_runs': 2560, 'policy_gpu_runs': 20, 'value_runs': 0, 'value_gpu_runs': 0, 'start_time': 1590570813.189864, 'score': 9, 'query_score': 9, 'end_time': 1590570833.5382102}
+[ameyo][r>][V,IND,PST,1,PL,PFV]->DEL(ra)
+[ar][>][V,3,PL,SBJV,PST,IPFV,LGSPEC2]->INS(an)
+[r][>][V,IND,PST,3,PL,IPFV]->INS(ben)
+[ar][>][V,IND,PRS,1,SG]->INS(o)
+[ar][>][V,2,SG,IND,PST,PRF,LGSPEC1]->INS(es)

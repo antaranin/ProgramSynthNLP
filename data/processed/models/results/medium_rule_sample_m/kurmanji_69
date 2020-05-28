@@ -1,0 +1,6 @@
+{'nodes_expanded': 2560, 'policy_runs': 2560, 'policy_gpu_runs': 20, 'value_runs': 0, 'value_gpu_runs': 0, 'start_time': 1590616080.8394654, 'score': 7, 'query_score': 7, 'end_time': 1590616101.490628}
+[ri][>][1,IND,NEG,PRF,PRS,SG,V]->DEL(n)
+[iq][>][INDF,LGSPEC1,N,SG,ACC]->INS(eke)
+[n][>][2,COND,NEG,PST,SG,V]->INS(ayî)
+[e][>][DEF,N,SG,VOC,ACC,LGSPEC2]->INS(ê)
+[iya][>][2,COND,NEG,PRF,PST,SG,V]->DEL(n)

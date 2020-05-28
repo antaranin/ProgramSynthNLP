@@ -127,7 +127,7 @@ class NLPRule:
             result = rf".*{left} {object} {right}.* {L_PAREN} {morphs} {R_PAREN}"
         else:
             raise NotImplementedError(f"Only {INSERT} and {DELETE} operations supported")
-        result = result.replace("[", r"\[").replace("]", r"\]").replace("+", "\+")
+        result = result.replace("[", r"\[").replace("]", r"\]").replace("+", "\+").replace(")", "\)").replace("(", "\(")
         return result
 
     # TODO this might need to be re-written to follow the LHS and RHS style

@@ -1,0 +1,6 @@
+{'nodes_expanded': 5120, 'policy_runs': 5120, 'policy_gpu_runs': 40, 'value_runs': 0, 'value_gpu_runs': 0, 'start_time': 1590578533.5166626, 'score': 6, 'query_score': 6, 'end_time': 1590578572.8478243}
+[kim][dõz>][ADJ,SG,IN+ALL]->INS(dõn)
+[nda][>][V,ACT,FIN,DEB,POS,PRS,SG,1]->INS(nmõst)
+[ǟ][>][V,ACT,FIN,IND,NEG,PRS,SG,2]->DEL(dõ)
+[ǟd][õ>][V,ACT,FIN,COND,NEG,PRS,PL,2]->INS(kst)
+[õ][>][ADJ,SG,IN+ALL]->DEL(z)

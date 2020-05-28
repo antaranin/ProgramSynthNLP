@@ -1,0 +1,11 @@
+{'nodes_expanded': 5111, 'policy_runs': 5120, 'policy_gpu_runs': 40, 'value_runs': 0, 'value_gpu_runs': 0, 'start_time': 1590615675.9647405, 'score': 18, 'query_score': 20, 'end_time': 1590615701.62749}
+[k][>][DEF,LGSPEC1,N,PL,VOC]->INS(ên)
+[ji_10-11_neferan_pêk_tê.][>][INDF,N,PL,ACC]->INS(inan)
+[<îj][>][DEF,N,PL,VOC]->INS(no)
+[<xiþik][>][1,NEG,PRS,SBJV,SG,V]->DEL(în)
+[raf][>][DEF,LGSPEC1,N,SG]->INS(a)
+[k][>][DEF,N,SG,LGSPEC2]->INS(î)
+[r][>][DEF,N,SG,VOC]->INS(o)
+[e][>][INDF,N,NOM,PL]->INS(in)
+[<ser-þuþ][in>][1,2,3,IND,PL,POS,PRS,V,IPFV]->DEL(t)
+[s][k>][INDF,N,NOM,SG]->INS(ke)

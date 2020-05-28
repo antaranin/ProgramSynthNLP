@@ -1,0 +1,6 @@
+{'nodes_expanded': 5120, 'policy_runs': 5120, 'policy_gpu_runs': 40, 'value_runs': 0, 'value_gpu_runs': 0, 'start_time': 1590591858.1974447, 'score': 7, 'query_score': 7, 'end_time': 1590591893.0717475}
+[llõ][>][V,ACT,FIN,IND,POS,PST,SG,3]->INS(īz)
+[ij][>][N,PL,IN+ESS]->INS(ši)
+[jel][>][V,ACT,FIN,IND,POS,PST,SG,3]->DEL(lõ)
+[õ][>][V,ACT,FIN,COND,POS,PRS,SG,1]->INS(ks)
+[jel][>][V,ACT,FIN,QUOT,POS,PRS,PL,2]->DEL(lõ)

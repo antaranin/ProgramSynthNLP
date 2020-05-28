@@ -1,0 +1,5 @@
+{'nodes_expanded': 5119, 'policy_runs': 5120, 'policy_gpu_runs': 40, 'value_runs': 0, 'value_gpu_runs': 0, 'start_time': 1590567864.549288, 'score': 7, 'query_score': 7, 'end_time': 1590567903.1114166}
+[īv][>][N,SG,IN+ALL]->INS(õ)
+[nā][>][N,SG,IN+ALL]->INS(nõ)
+[naš][>][ADJ,PL,NOM]->INS(īd)
+[r][>][N,SG,IN+ALL]->INS(õ)

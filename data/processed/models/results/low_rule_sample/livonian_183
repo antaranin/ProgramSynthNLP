@@ -1,0 +1,4 @@
+{'nodes_expanded': 5120, 'policy_runs': 5120, 'policy_gpu_runs': 40, 'value_runs': 0, 'value_gpu_runs': 0, 'start_time': 1590573508.7122684, 'score': 4, 'query_score': 4, 'end_time': 1590573547.5060747}
+[va][>][N,SG,IN+ABL]->INS(st)
+[z][>][ADJ,PL,INS]->INS(ndõdõks)
+[õ][>][ADJ,SG,DAT]->DEL(z)

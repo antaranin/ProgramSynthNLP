@@ -435,6 +435,8 @@ def run_rule_synthesis_search(args):
         "--max_decoder_output", str(args.max_decoder_output),
         "--max_searches", str(args.max_searches)
     ]
+    if args.simple_search:
+        input_args.append("--nosearch")
 
     scan_search.main(input_args)
 

@@ -1,0 +1,4 @@
+{'nodes_expanded': 2560, 'policy_runs': 2560, 'policy_gpu_runs': 20, 'value_runs': 0, 'value_gpu_runs': 0, 'start_time': 1590615738.140904, 'score': 4, 'query_score': 4, 'end_time': 1590615758.6372511}
+[tūlda][>][V,ACT,FIN,QUOT,POS,PRS,SG,1]->INS(uļļi)
+[<k][>][N,SG,IN+ESS]->DEL(ež)
+[kū][>][N,PL,IN+ABL]->INS(šti)

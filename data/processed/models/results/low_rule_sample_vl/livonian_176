@@ -1,0 +1,4 @@
+{'nodes_expanded': 5120, 'policy_runs': 5120, 'policy_gpu_runs': 40, 'value_runs': 0, 'value_gpu_runs': 0, 'start_time': 1590591962.5767043, 'score': 5, 'query_score': 6, 'end_time': 1590591997.698435}
+[oistõnz][>][ADJ,SG,GEN]->INS(d)
+[z][>][ADJ,SG,INS]->INS(ndõks)
+[janvār][>][N,PL,GEN]->INS(õd)
