@@ -32,6 +32,7 @@ class PredType(Enum):
     RuleSynthMediumCount = 5
     RuleSynthLowCount = 6
     RuleSynthLowCountSample = 7
+    RuleSynthLowCountSampleM = 8
 
 
 def _run_steps(directory_name: str, filename: str, generate_step_1: bool, generate_step_2: bool,
@@ -212,6 +213,7 @@ def calculate_average_prediction_costs(pred_type: PredType):
         PredType.NoOperation: "no_op",
         PredType.RuleSynthLowCount: "rule_synth_low",
         PredType.RuleSynthLowCountSample: "rule_synth_low_sample",
+        PredType.RuleSynthLowCountSampleM: "rule_synth_low_sample_m",
         PredType.RuleSynthMediumCount: "rule_synth_medium",
         PredType.RuleSynthHighCount: "rule_synth_high"
     }
@@ -222,6 +224,7 @@ def calculate_average_prediction_costs(pred_type: PredType):
         PredType.NoOperation: "no_op",
         PredType.RuleSynthLowCount: "rule_synth_low",
         PredType.RuleSynthLowCountSample: "rule_synth_low_sample",
+        PredType.RuleSynthLowCountSampleM: "rule_synth_low_sample_m",
         PredType.RuleSynthMediumCount: "rule_synth_medium",
         PredType.RuleSynthHighCount: "rule_synth_high"
     }
@@ -268,7 +271,7 @@ def predict_language(
         pred_type: PredType,
         morph_feature_comparison_strictness: Strictness
 ):
-    top_quality_perc = 0.6
+    top_quality_perc = 0.4
     base_expected_and_morphs = read_base_expected_words_and_morph_features(
         f"data/latin_alphabet/{language}-test")
     grammar_dir = "data/processed/grammar"
@@ -301,6 +304,12 @@ def predict_language(
         pred_type_path_change = "rule_synth_low_sample"
         rule_file = f"{language}"
         rule_dir = f"data/processed/models/results/low_rule_sample"
+        weighted_ops = rule_parser.parse_combine_rules(rule_dir, rule_file, top_quality_perc)
+        is_probabilistic = True
+    elif pred_type == PredType.RuleSynthLowCountSampleM:
+        pred_type_path_change = "rule_synth_low_sample_m"
+        rule_file = f"{language}"
+        rule_dir = f"data/processed/models/results/low_rule_sample_m"
         weighted_ops = rule_parser.parse_combine_rules(rule_dir, rule_file, top_quality_perc)
         is_probabilistic = True
     elif pred_type == PredType.RuleSynthMediumCount:
@@ -339,7 +348,8 @@ def calculate_grammar_cost_for_language(language: str, pred_type: PredType):
         PredType.RuleSynthHighCount: "rule_synth_high",
         PredType.RuleSynthMediumCount: "rule_synth_medium",
         PredType.RuleSynthLowCount: "rule_synth_low",
-        PredType.RuleSynthLowCountSample: "rule_synth_low_sample"
+        PredType.RuleSynthLowCountSample: "rule_synth_low_sample",
+        PredType.RuleSynthLowCountSampleM: "rule_synth_low_sample_m"
     }
     pred_file = pred_files[pred_type]
     baseline.calculate_and_save_cost_baseline(
@@ -625,6 +635,8 @@ if __name__ == '__main__':
     # else:
     #     run_rule_synthesis(args)
 
-    # pred_language_and_calculate_cost(language, PredType.RuleSynthLowCount, Strictness.All)
-    # pred_language_and_calculate_cost(language, PredType.RuleSynthMediumCount, Strictness.All)
+    # for language in ["livonian", "asturian", "kurmanji"]:
+    #     pred_language_and_calculate_cost(language, PredType.RuleSynthLowCount, Strictness.All)
+    #     pred_language_and_calculate_cost(language, PredType.RuleSynthMediumCount, Strictness.All)
     pred_language_and_calculate_cost("asturian", PredType.RuleSynthLowCountSample, Strictness.All)
+    pred_language_and_calculate_cost("asturian", PredType.RuleSynthLowCountSampleM, Strictness.All)

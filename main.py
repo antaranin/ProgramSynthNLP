@@ -31,7 +31,7 @@ def read_base_expected_words_and_morph_features(
     data["Grammar"] = data["Grammar"].str.split(";")
     data_tuples = data[["Source", "Target", "Grammar"]].values.tolist()
 
-    return tuple((source, target, tuple(grammar)) for source, target, grammar in data_tuples)
+    return tuple((source, target, tuple(grammar)) for source, target, grammar in data_tuples if " " not in source and " " not in target)
 
 
 def read_file_data(file_name: str) -> List[Transformation]:
