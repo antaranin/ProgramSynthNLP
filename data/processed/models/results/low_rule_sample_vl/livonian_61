@@ -1,0 +1,4 @@
+{'nodes_expanded': 5120, 'policy_runs': 5120, 'policy_gpu_runs': 40, 'value_runs': 0, 'value_gpu_runs': 0, 'start_time': 1590587972.4470284, 'score': 5, 'query_score': 5, 'end_time': 1590588006.7952778}
+[t][>][N,PL,IN+ALL]->INS(iž)
+[õnā][>][N,PL,IN+ALL]->INS(ņži)
+[kū][>][N,PL,IN+ABL]->INS(šti)

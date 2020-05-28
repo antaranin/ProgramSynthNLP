@@ -1,0 +1,4 @@
+{'nodes_expanded': 2560, 'policy_runs': 2560, 'policy_gpu_runs': 20, 'value_runs': 0, 'value_gpu_runs': 0, 'start_time': 1590571561.7241216, 'score': 5, 'query_score': 8, 'end_time': 1590571582.0200038}
+[ar][>][V,2,SG,IND,FUT]->INS(ás)
+[ar][>][V,2,PL,IND,FUT]->INS(éis)
+[er][>][V.PTCP,PST]->INS(chu)

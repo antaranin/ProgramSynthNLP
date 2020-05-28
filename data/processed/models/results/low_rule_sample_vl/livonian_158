@@ -1,0 +1,9 @@
+{'nodes_expanded': 5120, 'policy_runs': 5120, 'policy_gpu_runs': 40, 'value_runs': 0, 'value_gpu_runs': 0, 'start_time': 1590591338.289829, 'score': 7, 'query_score': 7, 'end_time': 1590591372.8645666}
+[ka][>][N,PL,IN+ALL]->DEL(nā)
+[a][>][N,PL,PRT]->INS(äuvḑi)
+[īmkū][>][N,PL,IN+ALL]->INS(ži)
+[īepǟva][>][N,PL,PRT]->INS(äuvḑi)
+[tīepǟva][>][N,PL,PRT]->INS(äuvḑi)
+[r][>][N,SG,IN+ABL,LGSPEC6]->INS(st)
+[va][>][N,PL,PRT]->INS(äuvḑi)
+[sõ][>][N,PL,IN+ALL]->DEL(nā)

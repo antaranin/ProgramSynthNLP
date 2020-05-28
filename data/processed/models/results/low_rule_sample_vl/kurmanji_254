@@ -1,0 +1,8 @@
+{'nodes_expanded': 5120, 'policy_runs': 5120, 'policy_gpu_runs': 40, 'value_runs': 0, 'value_gpu_runs': 0, 'start_time': 1590607870.604438, 'score': 12, 'query_score': 14, 'end_time': 1590607904.5849936}
+[î][>][INDF,N,PL,ACC]->INS(inan)
+[î][>][DEF,N,SG,LGSPEC2]->INS(î)
+[k][>][DEF,N,SG,VOC,ACC,LGSPEC2]->INS(ê)
+[e][>][DEF,N,SG,VOC,ACC,LGSPEC2]->INS(ê)
+[a][>][INDF,N,NOM,SG]->INS(ek)
+[<][çêrîn>][2,3,IND,NEG,PFV,PRS,PST,SBJV,SG,V,V.PTCP]->INS(ne)
+[<][þepîn>][2,IND,NEG,PRS,SG,V,IPFV]->INS(na)

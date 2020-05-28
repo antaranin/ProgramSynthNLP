@@ -1,0 +1,6 @@
+{'nodes_expanded': 2560, 'policy_runs': 2560, 'policy_gpu_runs': 20, 'value_runs': 0, 'value_gpu_runs': 0, 'start_time': 1590570153.7773438, 'score': 9, 'query_score': 11, 'end_time': 1590570174.2620275}
+[r][>][INDF,N,NOM,PL]->INS(in)
+[î][>][DEF,N,PL,VOC]->INS(no)
+[n][>][1,IND,POS,PRF,PRS,SG,V]->INS(ime)
+[n][>][INDF,N,NOM,SG]->INS(ek)
+[_3-4_tofan_pêk_tê][>][DEF,N,SG,VOC]->INS(o)

@@ -1,0 +1,6 @@
+{'nodes_expanded': 2560, 'policy_runs': 2560, 'policy_gpu_runs': 20, 'value_runs': 0, 'value_gpu_runs': 0, 'start_time': 1590568419.5683172, 'score': 7, 'query_score': 9, 'end_time': 1590568440.2555888}
+[ar][>][V,3,PL,SBJV,PST,IPFV,LGSPEC1]->INS(en)
+[ar][>][V.PTCP,PST,MASC,PL]->INS(os)
+[ar][>][V,2,SG,COND]->INS(íes)
+[r][>][V,3,SG,IND,PST,PRF,LGSPEC1]->INS(e)
+[ar][>][V,1,PL,IND,PST,PRF,LGSPEC2]->INS(amos)

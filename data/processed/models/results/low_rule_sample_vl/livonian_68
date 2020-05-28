@@ -1,0 +1,5 @@
+{'nodes_expanded': 5120, 'policy_runs': 5120, 'policy_gpu_runs': 40, 'value_runs': 0, 'value_gpu_runs': 0, 'start_time': 1590588215.2569602, 'score': 7, 'query_score': 7, 'end_time': 1590588249.6495202}
+[t][>][V,ACT,FIN,DEB,POS,PRS,PL,3]->DEL(ūlda)
+[r][>][N,PL,IN+ALL]->INS(iž)
+[ț][>][N,PL,IN+ABL]->INS(īst)
+[adā][>][ADJ,PL,IN+ESS]->DEL(z)

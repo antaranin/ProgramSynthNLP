@@ -1,0 +1,5 @@
+{'nodes_expanded': 2558, 'policy_runs': 2560, 'policy_gpu_runs': 20, 'value_runs': 0, 'value_gpu_runs': 0, 'start_time': 1590573533.5131428, 'score': 7, 'query_score': 7, 'end_time': 1590573555.1954088}
+[r][>][N,SG,PRT]->INS(t)
+[b][>][N,PL,IN+ESS]->INS(ši)
+[oistõnz][>][ADJ,SG,GEN]->INS(d)
+[õ][>][V,ACT,FIN,IND,POS,FUT,PRF,SG,2]->INS(n)

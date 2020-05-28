@@ -4,6 +4,7 @@ import argparse
 def parse_args(args=None):
     parser = argparse.ArgumentParser()
     parser.add_argument("--search", action='store_true')
+    parser.add_argument("--simple_search", action='store_true')
     parser.add_argument('--train_count', type=int, default=100000,
                         help='number of episodes for training')
     parser.add_argument('--model_ending', type=str, default='',

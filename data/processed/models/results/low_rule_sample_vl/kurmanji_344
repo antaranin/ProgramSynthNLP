@@ -1,0 +1,10 @@
+{'nodes_expanded': 5120, 'policy_runs': 5120, 'policy_gpu_runs': 40, 'value_runs': 0, 'value_gpu_runs': 0, 'start_time': 1590610756.1308742, 'score': 16, 'query_score': 18, 'end_time': 1590610785.675894}
+[<vekirin][>][2,NEG,PRS,SBJV,SG,V]->INS(î)
+[î][>][INDF,N,NOM,PL]->INS(in)
+[o][>][INDF,LGSPEC1,N,PL]->INS(ine)
+[l][>][DEF,LGSPEC1,N,SG]->INS(a)
+[d][>][DEF,N,PL,VOC]->INS(no)
+[nd][>][INDF,LGSPEC1,N,PL]->INS(ine)
+[þ][>][DEF,LGSPEC1,N,PL,VOC]->INS(ên)
+[e][>][DEF,N,SG,LGSPEC2]->INS(î)
+[da-çikandi][>][2,3,COND,NEG,PRF,PST,SG,V]->DEL(n)

@@ -1,0 +1,7 @@
+{'nodes_expanded': 2560, 'policy_runs': 2560, 'policy_gpu_runs': 20, 'value_runs': 0, 'value_gpu_runs': 0, 'start_time': 1590582913.9564571, 'score': 8, 'query_score': 10, 'end_time': 1590582935.295391}
+[da-mezra][>][2,COND,POS,PRF,PST,SG,V]->DEL(n)
+[î][>][INDF,N,NOM,SG]->INS(ek)
+[zra][>][2,COND,POS,PRF,PST,SG,V]->DEL(n)
+[d][>][DEF,N,PL,VOC]->INS(no)
+[î][>][DEF,LGSPEC1,N,PL,VOC]->INS(ên)
+[n][>][3,IND,POS,PRS,SG,V,IPFV]->INS(e)

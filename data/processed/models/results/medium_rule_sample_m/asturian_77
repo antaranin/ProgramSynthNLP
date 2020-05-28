@@ -1,0 +1,5 @@
+{'nodes_expanded': 2560, 'policy_runs': 2560, 'policy_gpu_runs': 20, 'value_runs': 0, 'value_gpu_runs': 0, 'start_time': 1590615723.8597906, 'score': 6, 'query_score': 6, 'end_time': 1590615746.2491596}
+[ar][>][V,3,PL,IND,PST,PRF,LGSPEC1]->INS(en)
+[vit][ar>][V,IND,PST,3,SG,IPFV]->INS(ab)
+[rayer][>][V,IND,PST,1,PL,PFV,LGSPEC2]->INS(xemos)
+[r][>][V,2,SG,IND,PST,PRF,LGSPEC1]->INS(es)

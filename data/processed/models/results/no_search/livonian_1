@@ -1,0 +1,9 @@
+{'nodes_expanded': 383, 'policy_runs': 384, 'policy_gpu_runs': 3, 'value_runs': 0, 'value_gpu_runs': 0, 'start_time': 1590612590.9279757, 'score': 15, 'query_score': 16, 'end_time': 1590612618.4574397}
+[iņ][>][N,PL,IN+ABL]->INS(īst)
+[jellõ][>][V,ACT,FIN,QUOT,POS,PRS,PL,3]->INS(ājid)
+[õ][>][V,ACT,FIN,IND,POS,FUT,PRF,PL,1]->INS(nd)
+[tuoistõnz][>][ADJ,PL,IN+ESS]->INS(dis)
+[ški][>][N,PL,IN+ALL]->INS(žiz)
+[az][>][N,SG,IN+ABL]->INS(õst)
+[õ][>][V,ACT,FIN,COND,POS,PRS,SG,1]->INS(ks)
+[õ][>][ADJ,SG,IN+ESS]->DEL(z)

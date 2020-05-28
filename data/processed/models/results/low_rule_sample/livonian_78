@@ -1,0 +1,4 @@
+{'nodes_expanded': 5120, 'policy_runs': 5120, 'policy_gpu_runs': 40, 'value_runs': 0, 'value_gpu_runs': 0, 'start_time': 1590569473.943083, 'score': 6, 'query_score': 8, 'end_time': 1590569511.7011473}
+[līz][>][N,PL,PRT]->INS(idi)
+[za][>][ADJ,SG,INS]->INS(ks)
+[z][>][N,SG,INS]->INS(õks)
