@@ -24,7 +24,10 @@ def load_alphabet(
 
 
 def mkdir_if_not_exists(file_name: str):
-    dir = os.path.dirname(file_name)
+    if os.path.isdir(file_name):
+        dir = file_name
+    else:
+        dir = os.path.dirname(file_name)
     if not os.path.exists(dir):
         os.mkdir(dir)
 

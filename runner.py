@@ -1,10 +1,13 @@
 import csv
 import os
+from collections import defaultdict
 from enum import Enum
 from functools import partial
 from typing import Callable, Tuple, Dict, Collection
+import numpy as np
 
 import console_arg_parser as arg_parser
+import data_readers as dr
 import adagram_grammar_extractor as gram_extractor
 import baseline
 import frequency_table_gen as freq
@@ -264,6 +267,139 @@ def compare_baselines(baseline_1_name: str, baseline_2_name: str):
 #     predictions = run_predictions(base_and_expected, weighted_preconditions)
 #     baseline.save_predictions(f"data/processed/predictions/mln_no_grammar/{language}.csv",
 #                               predictions)
+def calculate_average_costs_across_rule_counts_by_lang():
+    pred_dir = "data/processed/prediction_costs"
+    for item in os.listdir(pred_dir):
+        cost_folder = os.path.join(pred_dir, item)
+        if not os.path.isdir(cost_folder):
+            continue
+        output_file = f"data/processed/average_pred_costs/{item}.csv"
+        _calculate_average_cost_across_rule_counts_folder(cost_folder, output_file)
+
+
+def calculate_average_costs_across_rule_counts_combined():
+    data = []
+    header = []
+    dir = "data/processed/average_pred_costs"
+    for item in os.listdir(dir):
+        if item == "combined.csv":
+            continue
+        with open(os.path.join(dir, item), mode="r") as file:
+            reader = csv.reader(file)
+            header = next(reader)
+            for line in reader:
+                line[0] = f"{line[0]}_{item[:-4]}"
+                data.append(line)
+    with open(os.path.join(dir, "combined.csv"), mode="w+") as file:
+        writer = csv.writer(file)
+        writer.writerow(header)
+        writer.writerows(data)
+
+
+def _calculate_average_cost_across_rule_counts_folder(cost_folder: str, output_file: str):
+    languagecounts = defaultdict(lambda: defaultdict(lambda: 0.0))
+    counts = set()
+    for item in os.listdir(cost_folder):
+        language, rule_count = item.split("_")
+        rule_count = float(rule_count[:-4])
+        counts.add(rule_count)
+        item_path = os.path.join(cost_folder, item)
+        cost = baseline.calculate_average_cost(item_path)
+        languagecounts[language][str(rule_count)] = cost
+
+    with open(output_file, mode="w+")as file:
+        writer = csv.writer(file)
+        ordered_counts = [str(c) for c in sorted(counts)]
+        writer.writerow(["language"] + ordered_counts)
+        for language in languagecounts:
+            row = [language]
+            for i in ordered_counts:
+                row.append(languagecounts[language][i])
+            writer.writerow(row)
+
+
+def calculate_combined_average_cost():
+    pass
+
+
+# def calculate_average_costs():
+#     output_file_path = f"{base_dir}/average_costs/{output_file_name_dict[pred_type]}.csv"
+#     languages_to_costs = _get_average_baseline_cost(f"{cost_file_name_dict[pred_type]}_cost")
+#     mean_and_stdev = _get_mean_and_standard_devs_for_languages()
+#     output_dir = os.path.dirname(output_file_path)
+#     if not os.path.exists(output_dir):
+#         os.mkdir(output_dir)
+#     with open(output_file_path, mode="w+") as file:
+#         writer = csv.writer(file, delimiter=",")
+#         writer.writerow(["Language", "Average cost", "Mean", "Stddev"])
+#         for language in languages_to_costs:
+#             mean, stddev = mean_and_stdev[language]
+#             writer.writerow([language, languages_to_costs[language], mean, stddev])
+
+
+def calculate_costs():
+    dir = "data/processed/predictions"
+    for pred_folder in os.listdir(dir):
+        pred_folder_path = os.path.join(dir, pred_folder)
+        if not os.path.isdir(pred_folder_path):
+            continue
+        for file in os.listdir(pred_folder_path):
+            input_path = os.path.join(pred_folder_path, file)
+            output_path = f"data/processed/prediction_costs/{pred_folder}/{file}"
+            baseline.calculate_and_save_cost_baseline(input_path, output_path)
+
+
+def predict_rulesynth_results(
+        top_quality_perc: float, morph_feature_comparison_strictness: Strictness
+):
+    dir = "data/processed/models/results"
+    for item in os.listdir(dir):
+        item_path = os.path.join(dir, item)
+        if not os.path.isdir(item_path):
+            continue
+        output_dir = f"data/processed/predictions/{item}"
+        print(f"Predicting {item}")
+        _predict_rulesynth_folder(top_quality_perc, morph_feature_comparison_strictness, item_path,
+                                  output_dir)
+
+
+def _predict_rulesynth_folder(
+        top_quality_perc: float,
+        morph_feature_comparison_strictness: Strictness,
+        input_dir: str,
+        output_dir: str
+):
+    dr.mkdir_if_not_exists(output_dir)
+    languages = set()
+    for file in os.listdir(input_dir):
+        language, _ = file.split("_")
+        languages.add(language)
+    for language in languages:
+        _predict_rule_synth_language(
+            top_quality_perc,
+            morph_feature_comparison_strictness,
+            language,
+            input_dir,
+            output_dir
+        )
+
+
+def _predict_rule_synth_language(
+        top_quality_perc: float,
+        morph_feature_comparison_strictness: Strictness,
+        language: str,
+        input_dir,
+        output_dir: str
+):
+    base_expected_and_morphs = read_base_expected_words_and_morph_features(
+        f"data/latin_alphabet/{language}-test"
+    )
+    weighted_ops = rule_parser.parse_combine_rules(input_dir, language, top_quality_perc)
+    is_probabilistic = True
+    predictions = run_predictions(base_expected_and_morphs, weighted_ops, is_probabilistic,
+                                  morph_feature_comparison_strictness)
+    baseline.save_predictions(os.path.join(output_dir, f"{language}_{top_quality_perc}.csv"),
+                              predictions)
 
 
 def predict_language(
@@ -625,6 +761,7 @@ def pred_language_and_calculate_cost(language: str, pred_type: PredType, strictn
 
 
 if __name__ == '__main__':
+    pass
     # gram_path = "data/processed/grammar/adagram/both/asturian.grammar"
     # out_path = "data/processed/grammar/adagram/both/asturian.csv"
     # gram_extractor.save_grammar_file(gram_path, out_path)
@@ -640,5 +777,22 @@ if __name__ == '__main__':
     # for language in ["livonian", "asturian", "kurmanji"]:
     #     pred_language_and_calculate_cost(language, PredType.RuleSynthLowCount, Strictness.All)
     #     pred_language_and_calculate_cost(language, PredType.RuleSynthMediumCount, Strictness.All)
-    pred_language_and_calculate_cost("asturian", PredType.RuleSynthLowCountSample, Strictness.All)
-    pred_language_and_calculate_cost("asturian", PredType.RuleSynthLowCountSampleM, Strictness.All)
+    # pred_language_and_calculate_cost("asturian", PredType.RuleSynthLowCountSample, Strictness.All)
+    # pred_language_and_calculate_cost("asturian", PredType.RuleSynthLowCountSampleM, Strictness.All)
+    # predict_rulesynth_results(0.5, Strictness.All)
+    # for i in range(0, 11):
+    #     predict_rulesynth_results(i / 10, Strictness.All)
+    # calculate_costs()
+    # calculate_average_costs_across_rule_counts_by_lang()
+    # calculate_average_costs_across_rule_counts_combined()
+    # reformat_sigmorphon_predictions()
+    # write_sigmorphon_baseline_cost()
+    # dir = "sigmorphon_cost"
+    # l_m_s = _get_mean_and_standard_devs_for_languages()
+    # sig_costs = _get_average_baseline_cost(dir)
+    # out = "data/other_costs/sigmorphon.csv"
+    # with open(out, mode="w+") as file:
+    #     writer = csv.writer(file)
+    #     writer.writerow(["Language", "Sigmorphon"])
+    #     for language in sig_costs:
+    #         writer.writerow([language, sig_costs[language]])

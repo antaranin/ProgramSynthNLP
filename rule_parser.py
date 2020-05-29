@@ -60,5 +60,17 @@ if __name__ == "__main__":
     # print(stats)
     # for r in res_rules:
     #     print(f"{r}")
-    ops = parse_combine_rules("data/processed/models/results", "asturian", 1)
-    print(ops)
+    languages = ["asturian", "kurmanji", "livonian"]
+    dirs = ["high_rule", "medium_rule", "low_rule"]
+    for dir in dirs:
+        rule_dir = f"data/processed/models/results/{dir}"
+        for language in languages:
+            files = [file for file in os.listdir(rule_dir) if
+                     bool(re.fullmatch(rf"{language}_\d+", file))]
+            support_query_scores = []
+            for file in files:
+                file_stats, file_rules = parse_rules(os.path.join(rule_dir, file))
+                support_query_scores.append((file_stats["score"], file_stats["query_score"]))
+            best = max(support_query_scores, key=lambda pair: pair[1])
+            print(f"Dir: {dir}, Language: {language}")
+            print(f"Support: {best[0]}, Query: {best[1] - best[0]}")
