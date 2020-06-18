@@ -1,5 +1,5 @@
 Base;Prediction;Actual
-llantar;llantar;llantáis
+llantar;llantaáisr;llantáis
 rutiar;rutiaeisr;rutiareis
 dir;dir;foron
 desendolcar;desendolcaeisr;desendolcareis
@@ -15,7 +15,7 @@ acompañar;acompañaeisr;acompañareis
 inspirar;inspirar;inspira
 aceutar;aceutaor;aceutao
 podar;podáaemosr;podáremos
-vaciar;vaciar;vaciáis
+vaciar;vaciaáisr;vaciáis
 zarrar;zarrar;zarrábemos
 dexar;dexamosr;dexamos
 forzar;forzaanr;forzaran
@@ -78,7 +78,7 @@ poder;poder;pudiere
 insultar;insultaesr;insultes
 aidar;aidaenr;aidaren
 ximir;ximiesr;ximieres
-portar;portar;portáis
+portar;portaáisr;portáis
 atrapar;atrapar;atrapábemos
 entrugar;entrugaor;entrugao
 dexar;dexar;dexaba
@@ -108,7 +108,7 @@ inaugurar;inauguraanr;inauguraran
 activar;activabenr;activaben
 amenorgar;ameánorgaemosr;amenorgáremos
 fartucar;fartucar;fartuquen
-quemar;quemaer;queme
+quemar;quemaár;queme
 llimpiar;llimpiaár;llimpiará
 xiringar;xiringaesr;xiringues
 entrevistar;entrevistaer;entrevistare
@@ -165,7 +165,7 @@ traer;traer;trayeríais
 ensugar;ensugar;ensuchu
 cuspir;cuspienr;cuspieren
 afilar;afilaemosr;afilaremos
-aceptar;aceptar;aceptasti
+aceptar;aceptastir;aceptasti
 enantar;enantaíesr;enantaríes
 alendar;alendaíesr;alendaríes
 aflacar;aflacaíaisr;aflacaríais
@@ -251,7 +251,7 @@ secar;secar;seca
 xulgar;xulgabenr;xulgaben
 copiar;copiaíamosr;copiaríamos
 mercar;mercaíamosr;mercaríamos
-destacar;destacar;destacasti
+destacar;destacastir;destacasti
 baillar;baillar;bailléis
 plegar;plegaer;plegare
 saliar;saliar;saliaría
@@ -292,7 +292,7 @@ dañar;dañaanr;dañaran
 clonar;clonar;clonáremos
 firir;firir;firiría
 entrevistar;entrevistar;entrevistábemos
-treslladar;treslladar;treslladáis
+treslladar;treslladaáisr;treslladáis
 trabayar;trabayamosr;trabayamos
 tornar;tornaor;torno
 petrificar;petrificaíaisr;petrificaríais
@@ -313,7 +313,7 @@ fartucar;fartucaor;fartucao
 casar;casastisr;casastis
 esmordigañar;esmordigañaeisr;esmordigañareis
 esaminar;esaminaenr;esaminaren
-coleicionar;coleicionaár;coleicione
+coleicionar;coleicionaer;coleicione
 ñiciar;ñiciaonr;ñiciaron
 cambiar;cambiaer;cambiare
 funcionar;funácionaemosr;funcionáremos
@@ -448,10 +448,10 @@ conxelar;conxelaonr;conxelaron
 escuchar;escuchaáur;escucháu
 doblar;doblaanr;doblaran
 esperar;esperaór;esperó
-atar;atar;atasti
+atar;atastir;atasti
 apoyar;apoáyaemosr;apoyáremos
 estropiar;estropiar;estropia
-lluchar;lluchar;lluchasti
+lluchar;lluchastir;lluchasti
 eliminar;eliminaemosr;eliminemos
 odiar;odiaemosr;odiaremos
 votar;votaár;votará
@@ -462,7 +462,7 @@ comprar;compraesr;compres
 semar;semaér;semaré
 estazar;estazaenr;estazaren
 inflar;inflar;infléis
-allumar;allumar;allumasti
+allumar;allumastir;allumasti
 preñar;preñaar;preñara
 inorar;inoraér;inoraré
 aspirar;aspiranr;aspiran
@@ -488,7 +488,7 @@ fartucar;fartucaár;fartucará
 copiar;copiaíenr;copiaríen
 embotellar;embotellar;embotelláramos
 amedranar;amedranar;amedranabais
-xintar;xintar;xintáis
+xintar;xintaáisr;xintáis
 meyorar;meyoraosr;meyoraos
 pescar;pescaéisr;pescaréis
 amasuñar;amasuñaíemosr;amasuñaríemos
@@ -521,7 +521,7 @@ combinar;combinar;combinaba
 alimentar;alimentanr;alimentan
 robar;robaer;robare
 resfregar;resfregaor;resfrego
-empeorar;empeorar;empeorasti
+empeorar;empeorastir;empeorasti
 aguardar;aguardar;aguardábemos
 abolir;abolionr;abolieron
 remediar;remediaor;remedio
@@ -545,7 +545,7 @@ maxinar;maxinar;maxinaría
 crear;creaíenr;crearíen
 imitar;imitaáir;imitái
 amenorgar;amenorgar;amenorgaba
-tar;taár;tea
+tar;taer;tea
 añiciar;añiciar;añicia
 torturar;torturaáur;torturáu
 dañar;dañabeisr;dañabeis
@@ -632,7 +632,7 @@ escribir;escribir;escribieran
 orinar;orinar;orináremos
 bautizar;bautizaor;bautizao
 robar;robar;roben
-colocar;colocar;colocáis
+colocar;colocaáisr;colocáis
 mercar;mercaanr;mercaran
 poner;ponebenr;poníen
 fartucar;fartucaestir;fartuquesti
@@ -658,13 +658,13 @@ usar;usaáir;usái
 conxelar;conxelaar;conxelara
 atragantar;atragantaer;atragantare
 parar;paraíesr;pararíes
-existir;existir;existiesti
+existir;exististir;existiesti
 alendar;alendar;alendáremos
 recoyer;recoyear;recoyere
 escaecer;escaecer;escaeciere
 esfregar;esfregaesr;esfregares
 pesllar;pesllaestisr;pesllestis
-podar;podar;podáis
+podar;podaáisr;podáis
 atragantar;atragantaeisr;atragantareis
 omitir;omitir;omitiere
 escuchar;escuchaer;escuchare
@@ -727,7 +727,7 @@ catar;cataesr;cates
 añiciar;añiciar;añicien
 acollechar;acollechaaisr;acollecharais
 aforrar;aforraesr;aforres
-andorgar;andorgaer;andorgue
+andorgar;andorgaár;andorgue
 entrenar;entrenaesr;entrenes
 acompangar;acompangaór;acompangó
 producir;producir;produciestis
@@ -756,7 +756,7 @@ xugar;xugaánr;xugarán
 esclucar;esclucar;escluquen
 finar;finaenr;finaren
 allistar;allistaer;allistare
-tresportar;tresportaár;tresporte
+tresportar;tresportaer;tresporte
 estazar;estazar;estazáramos
 ñamorar;ñamoraáir;ñamorái
 llorar;lloraemosr;lloremos
@@ -774,11 +774,11 @@ colocar;colocaar;colocara
 conxelar;conxelaemosr;conxelaremos
 encaxar;encaxaenr;encaxaren
 petrificar;petrificaíar;petrificaría
-humildar;humildaer;humilde
+humildar;humildaár;humilde
 planchar;planchaemosr;plancharemos
 endolcar;endolcaenr;endolcaren
 afaitar;afaitaar;afaitara
-audar;audar;audasti
+audar;audastir;audasti
 aspirar;aspiraemosr;aspiraremos
 cazar;cazar;cazábemos
 decidir;decidibenr;decidíen
@@ -867,7 +867,7 @@ ganar;ganaer;ganare
 enantar;enantaosr;enantaos
 aniciar;aniciaar;aniciara
 saliar;saliaaisr;saliarais
-brillar;brillar;brillasti
+brillar;brillastir;brillasti
 circular;circular;circulen
 zarrar;zarraestir;zarresti
 dañar;dañaesr;dañares
@@ -875,7 +875,7 @@ encaxar;encaxaor;encaxo
 idolatrar;idolatraer;idolatrare
 allixerar;allixeraór;allixeró
 afalucar;afalucabesr;afalucabes
-derivar;derivar;deriváis
+derivar;derivaáisr;deriváis
 existir;existiemosr;existiremos
 aguantar;aguantar;aguante
 moyar;moyaíemosr;moyaríemos
@@ -907,7 +907,7 @@ lladrar;lladraosr;lladraos
 xiringar;xiringaesr;xiringares
 esñalar;esñalaer;esñalare
 nombrar;nombrastisr;nombrastis
-axuntar;axuntar;axuntasti
+axuntar;axuntastir;axuntasti
 significar;significaer;significare
 algamar;algamaer;algamare
 duldar;duldaer;dulde
@@ -955,14 +955,14 @@ estazar;estazaanr;estazaran
 acabar;acabar;acaben
 retar;retaesr;retaes
 enfilar;enfilaemosr;enfilemos
-goliquiar;goliquiar;goliquiáis
+goliquiar;goliquiaáisr;goliquiáis
 podar;podar;poden
 afitar;afitaíaisr;afitaríais
 petrificar;petrificar;petrificaría
 andorgar;andorgaar;andorgara
 apoyar;apoyaár;apoyáramos
 vacunar;vacunaásr;vacunarás
-estazar;estazar;estazáis
+estazar;estazaáisr;estazáis
 planchar;planchaesr;planchares
 truñar;truñaer;truñare
 dibuxar;dibuxaaisr;dibuxarais

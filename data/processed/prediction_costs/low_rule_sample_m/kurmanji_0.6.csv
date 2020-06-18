@@ -22,7 +22,7 @@ padîgan;0
 tercuman;2
 qurnet;2
 waswas;1
-peyvname;2
+peyvname;0
 martaq;1
 gîrfan;2
 mircan;2
@@ -38,7 +38,7 @@ honrawe;2
 medeniyet;2
 dabaþ;2
 tixtor;2
-pîçî;3
+pîçî;2
 hebûn;4
 çay;2
 pêþnivêj;1
@@ -84,7 +84,7 @@ karelî;2
 xebitîn;3
 tê-ketin;1
 neqîn;0
-afirandin;1
+afirandin;3
 nivîsîn;1
 ra-xistin;3
 melek;2
@@ -141,7 +141,7 @@ oksîjen;2
 mange;2
 xanî;2
 berhemdarî;2
-hafize;2
+hafize;0
 hûrek;2
 dawe;2
 fotoroman;2
@@ -150,7 +150,7 @@ kerese;2
 rawes;2
 qêxe;0
 mezreke;2
-qîtar;2
+qîtar;3
 federasyon;2
 mezin;2
 serder;2
@@ -199,7 +199,7 @@ histirîbirk;2
 arêkerdox;2
 gwînîkurk;2
 der-xistin;5
-oponent;3
+oponent;2
 bakêþ;1
 île;2
 çilwilîn;1
@@ -266,7 +266,7 @@ meyxanevan;4
 tar;2
 gevizîn;5
 nivîsîn;4
-hevrê;2
+hevrê;3
 kafê;0
 balkêþî;2
 nazokî;0
@@ -280,7 +280,7 @@ serdozgerî;2
 çilwilîn;3
 rikeberî;2
 qed;1
-heyber;3
+heyber;2
 pûçker;2
 evîn;0
 çirg;2
@@ -338,8 +338,8 @@ gulbend;2
 qerargeh;2
 pîpo;2
 qetlîam;2
-angaþtin;3
-çirisandin;3
+angaþtin;2
+çirisandin;2
 ve-jenîn;4
 xatirat;2
 bertîlgirî;2
@@ -419,7 +419,7 @@ dîlan;2
 ebyat;2
 pornografî;2
 bûz;3
-cûce;2
+cûce;0
 sefalet;2
 rûxan;5
 hevberî;2
@@ -440,7 +440,7 @@ dublor;2
 rakirin;6
 aþûrî;2
 teq;2
-semon;2
+semon;3
 mîmar;2
 perawêz;2
 qirnap;1
@@ -464,7 +464,7 @@ bîberiye;2
 sope;2
 emperyalîzm;4
 porteqal;0
-girsî;2
+girsî;3
 ewraq;2
 hekê;0
 qermît;2
@@ -473,7 +473,7 @@ fisildûman;2
 geþker;2
 camî;2
 keramet;2
-teber;2
+teber;3
 çande;2
 mader;2
 melek;2
@@ -497,7 +497,7 @@ da-kutan;3
 peyivîn;1
 tê-xistin;6
 qediyan;0
-payton;3
+payton;2
 gevizîn;2
 barandin;0
 þel;1
@@ -570,10 +570,10 @@ têvelî;2
 klîp;2
 pesn;2
 tê-ketin;4
-nebî;2
+nebî;3
 guhîj;2
 kewtîn;5
-rojîn;3
+rojîn;2
 pidok;2
 kolera;1
 kebar;0
@@ -599,7 +599,7 @@ giriyan;3
 bizûz;2
 mesele;3
 samahán;2
-sement;3
+sement;2
 cedel;1
 rêhesin;0
 werar;0
@@ -653,7 +653,7 @@ gavan;2
 komando;2
 dîtane;2
 teþt;2
-giregir;2
+giregir;3
 çargoþe;2
 pêwîstî;2
 oxim;0
@@ -663,7 +663,7 @@ dîrok;2
 nok;2
 epok;2
 incûr;2
-milyarder;3
+milyarder;2
 amedî;2
 merre;2
 berfîn;2
@@ -691,7 +691,7 @@ merîd;2
 pelik;2
 fulahî;2
 zarîn;4
-daxwazname;0
+daxwazname;2
 anten;2
 ra-pelikîn;3
 bantûyî;2
@@ -716,7 +716,7 @@ komgirav;1
 þewitandin;5
 þehitandin;0
 qasid;1
-nêm;3
+nêm;2
 arþûjin;2
 teþkîl;1
 qelîþtek;2
@@ -824,7 +824,7 @@ serpêçî;2
 qutî;2
 herrikîn;2
 xêrxwaz;0
-bêsewadî;3
+bêsewadî;2
 ateþkede;2
 lazî;2
 dirozin;1
@@ -905,7 +905,7 @@ dirav;1
 kuskusandin;4
 zemitandin;2
 hêlane;2
-berêkane;0
+berêkane;2
 kenîn;7
 komî;2
 beyt;2

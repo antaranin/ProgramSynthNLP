@@ -88,7 +88,7 @@ atar;5
 emprestar;2
 estornudar;2
 goliquiar;2
-derivar;2
+derivar;3
 inorar;2
 atragantar;2
 heredar;0
@@ -143,7 +143,7 @@ tomar;1
 audar;2
 cegar;2
 enantar;2
-tornar;2
+tornar;3
 puxar;2
 dunviar;1
 nombrar;2
@@ -176,7 +176,7 @@ exiliar;2
 usar;2
 mirar;4
 dunviar;2
-afitar;2
+afitar;3
 dibuxar;5
 eliminar;4
 trabayar;2
@@ -236,7 +236,7 @@ desplicar;4
 ameyorar;0
 añiciar;2
 vaciar;3
-esplorar;4
+esplorar;2
 ordenar;1
 afalagar;2
 asoleyar;2
@@ -304,7 +304,7 @@ aflacar;2
 inorar;5
 combinar;2
 esperar;2
-xelar;2
+xelar;3
 atar;3
 derivar;4
 aceptar;2
@@ -337,7 +337,7 @@ alboriar;2
 apenzar;2
 quemar;4
 cristianizar;2
-secar;1
+secar;2
 divorciar;2
 espeyar;2
 empeorar;3
@@ -369,7 +369,7 @@ acollechar;2
 acoyer;2
 entrenar;1
 marchar;2
-castigar;2
+castigar;3
 blincar;3
 idolatrar;4
 paecer;2
@@ -417,7 +417,7 @@ decidir;2
 abolir;3
 escoyer;5
 dir;4
-baillar;2
+baillar;3
 dunviar;2
 camudar;2
 formar;2
@@ -436,7 +436,7 @@ espirriar;2
 endolcar;2
 funcionar;1
 acompañar;4
-torturar;8
+torturar;5
 planchar;4
 acompañar;4
 escuchar;2
@@ -489,7 +489,7 @@ copiar;2
 embotellar;4
 amedranar;4
 xintar;2
-meyorar;1
+meyorar;2
 pescar;2
 amasuñar;2
 planchar;2
@@ -554,7 +554,7 @@ averar;2
 rebaxar;2
 esfregar;2
 aniciar;2
-esfregar;2
+esfregar;3
 afilar;1
 axuntar;5
 parar;2
@@ -687,7 +687,7 @@ sudar;2
 circular;2
 obsoletu;0
 sacrificar;3
-medrar;1
+medrar;2
 averar;2
 ferrar;5
 árabe;1
@@ -701,7 +701,7 @@ peñar;2
 lladrar;3
 arder;3
 allargar;2
-acoyer;3
+acoyer;2
 axuntar;2
 nadar;2
 besar;2
@@ -709,7 +709,7 @@ secar;6
 esplorar;2
 xubilar;2
 eliminar;2
-xiblar;2
+xiblar;3
 inorar;1
 asediar;6
 afitar;2
@@ -739,7 +739,7 @@ desplicar;1
 despesllar;2
 evitar;2
 afamiar;5
-ordenar;1
+ordenar;2
 numberar;2
 facer;4
 entrenar;2
@@ -761,7 +761,7 @@ estazar;4
 ñamorar;2
 llorar;2
 coleicionar;0
-circular;1
+circular;2
 deburar;5
 golar;2
 bautizar;1
@@ -800,7 +800,7 @@ acutar;2
 escoyer;2
 bautizar;2
 atragantar;6
-buscar;1
+buscar;2
 acusar;2
 viaxar;3
 ordenar;4
@@ -813,11 +813,11 @@ catar;1
 acusar;4
 veraniar;2
 facer;4
-entrugar;2
+entrugar;3
 vaciar;6
 emprestar;2
 usar;2
-sorrir;1
+sorrir;2
 tresformar;2
 tresportar;3
 frotar;2
@@ -833,7 +833,7 @@ conxugar;1
 afalagar;2
 recordar;3
 emocionar;2
-aflacar;3
+aflacar;4
 exiliar;2
 dañar;2
 tomar;3
@@ -842,7 +842,7 @@ sudar;2
 crear;1
 ensugar;6
 entrenar;2
-tirar;1
+tirar;2
 faer;5
 amedranar;2
 guetar;2
@@ -851,9 +851,9 @@ axudar;2
 entrar;2
 ferrar;3
 festexar;3
-agarrar;2
+agarrar;4
 afamiar;2
-escaecer;4
+escaecer;3
 castigar;2
 inflar;2
 trayer;1
@@ -864,9 +864,9 @@ brincar;3
 remolcar;2
 desafiar;5
 ganar;2
-enantar;1
+enantar;2
 aniciar;2
-saliar;2
+saliar;3
 brillar;1
 circular;2
 zarrar;2
@@ -876,14 +876,14 @@ idolatrar;2
 allixerar;2
 afalucar;3
 derivar;2
-existir;2
+existir;4
 aguantar;2
 moyar;2
 sonrir;2
 mancar;2
 aguardar;2
 trabayar;3
-resfregar;2
+resfregar;3
 esñalar;3
 ablucar;2
 deburar;3
@@ -903,7 +903,7 @@ ayunar;2
 brillar;2
 averar;2
 dir;4
-lladrar;1
+lladrar;2
 xiringar;2
 esñalar;2
 nombrar;1
@@ -934,7 +934,7 @@ sacrificar;3
 crear;2
 allistar;2
 ablucar;3
-querer;3
+querer;2
 colocar;3
 saliar;2
 asar;2
@@ -965,7 +965,7 @@ vacunar;2
 estazar;2
 planchar;2
 truñar;2
-dibuxar;2
+dibuxar;3
 robar;2
 xiringar;3
 trayer;4

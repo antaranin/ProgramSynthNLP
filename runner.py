@@ -761,6 +761,7 @@ def pred_language_and_calculate_cost(language: str, pred_type: PredType, strictn
 
 
 if __name__ == '__main__':
+    make_adagrammar_for_languages()
     pass
     # gram_path = "data/processed/grammar/adagram/both/asturian.grammar"
     # out_path = "data/processed/grammar/adagram/both/asturian.csv"
@@ -782,9 +783,9 @@ if __name__ == '__main__':
     # predict_rulesynth_results(0.5, Strictness.All)
     # for i in range(0, 11):
     #     predict_rulesynth_results(i / 10, Strictness.All)
-    # calculate_costs()
-    # calculate_average_costs_across_rule_counts_by_lang()
-    # calculate_average_costs_across_rule_counts_combined()
+    calculate_costs()
+    calculate_average_costs_across_rule_counts_by_lang()
+    calculate_average_costs_across_rule_counts_combined()
     # reformat_sigmorphon_predictions()
     # write_sigmorphon_baseline_cost()
     # dir = "sigmorphon_cost"

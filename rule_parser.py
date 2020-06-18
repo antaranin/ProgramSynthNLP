@@ -30,7 +30,11 @@ def parse_combine_rules(
         return {rule for _, rules in scores_and_rules for rule in rules}
 
     scores_and_rules = sorted(scores_and_rules, key=lambda r_s: r_s[0], reverse=True)
+    if top_quality_perc == 0:
+        return set(scores_and_rules[0][1])
     print([score for score, _ in scores_and_rules])
+    length = len(scores_and_rules)
+    return {rule for score, rules in scores_and_rules[:int(length * top_quality_perc)] for rule in rules}
     high_score = scores_and_rules[0][0]
     min_score = high_score * top_quality_perc
     return {rule for score, rules in scores_and_rules if score >= min_score for rule in rules}

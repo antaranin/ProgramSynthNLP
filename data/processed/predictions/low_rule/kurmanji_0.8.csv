@@ -16,7 +16,7 @@ polîtbîro;polîtbîro;polîtbîroin
 qehirîn;qehirîn;qehirîî
 hibrî;hibrekeî;hibrîeke
 dermal;dermaal;dermala
-dranfîq;dranfîêq;dranfîqê
+dranfîq;dranfîq;dranfîqê
 awar;awainr;awarin
 padîgan;padîgan;padîgan
 tercuman;tercumaekn;tercumanek
@@ -26,7 +26,7 @@ peyvname;peyvnamekîe;peyvnameeke
 martaq;martaîq;martaqî
 gîrfan;gîrfaan;gîrfana
 mircan;mircaon;mircano
-tirotik;tkeirotiekk;tirotikek
+tirotik;tekirotikek;tirotikek
 nivistin;nivistin;nenivistine
 fed-kirin;fed-kirin;nefed-kiribûm
 qise;qisane;qisean
@@ -76,10 +76,10 @@ germok;germoîk;germokî
 vaþ;vaaþ;vaþa
 polatî;polatinî;polatîin
 rojavabûn;rojavabûinn;rojavabûnin
-aparteîd;aparteîeked;aparteîdeke
+aparteîd;aparteîekîd;aparteîdeke
 tomerî;tomerineî;tomerîine
 raveker;ravekeênr;ravekerên
-xinzirandin;xinzirandieken;xinzirandineke
+xinzirandin;xinzirandiekîn;xinzirandineke
 karelî;karelineî;karelîine
 xebitîn;xebitîn;dixebitî
 tê-ketin;tê-ketin;tê-ketibû
@@ -98,7 +98,7 @@ dûxan;dnêûxaênn;dûxanên
 gewr;gewinr;gewrin
 þevþevok;þevþevonok;þevþevokno
 ritbe;ritbe;ritbe
-þah;þainanh;þahinan
+þah;þah;þahinan
 konkurens;konkurens;konkurens
 gurpik;gurpiinek;gurpikine
 hedar;hedainanr;hedarinan
@@ -129,7 +129,7 @@ semyan;sniemyainn;semyanin
 qeft;qeft;qeft
 tomerî;tomeranî;tomerîan
 komekî;komekineî;komekîine
-jinbira;jinbirinana;jinbirainan
+jinbira;jinbira;jinbirainan
 kepez;kepez;kepezeke
 cînayet;cînayenot;cînayetno
 ser-þuþtin;ser-þuþtin;neser-þuþtibûm
@@ -147,7 +147,7 @@ dawe;dawinane;daweinan
 fotoroman;fotoromaan;fotoromana
 muhtewa;muhtewinea;muhtewaine
 kerese;keresêe;kereseê
-rawes;raweekîs;rawesekî
+rawes;raweekes;rawesekî
 qêxe;qêxe;qêxe
 mezreke;mezrekane;mezrekean
 qîtar;qîtaekîr;qîtareke
@@ -158,7 +158,7 @@ ajans;ajanêns;ajansên
 resûl;resûinanl;resûlinan
 awirdû;awirdû;awirdûên
 çandin;çandinon;çandinno
-od;oand;odan
+od;od;odan
 avantûr;avantûênr;avantûrên
 siyasetnasî;siyasetnasêî;siyasetnasîê
 ximêrî;ximêrekeî;ximêrîeke
@@ -167,7 +167,7 @@ payetî;payetnoî;payetîno
 provensalî;provensalineî;provensalîine
 biliyan;biliyan;nebiliyama
 faule;fauleke;fauleek
-þayes;þayeekîs;þayeseke
+þayes;þayeekes;þayeseke
 bilindahî;bilindahî;bilindahî
 berfanbar;berfanbaênr;berfanbarên
 mêwîj;mêwîj;mêwîjan
@@ -193,8 +193,8 @@ pêþewatî;pêþewatnoî;pêþewatîno
 xeta;xeteka;xetaek
 kirîn;kirîn;nekirîbûya
 tilûr;tilûinanr;tilûrinan
-dimik;dimiekîk;dimikekî
-fîtik;fkeîtiekk;fîtikek
+dimik;dimiekek;dimikekî
+fîtik;fekîtikek;fîtikek
 histirîbirk;hekistirîbirkek;histirîbirkek
 arêkerdox;arêkerdox;arêkerdoxan
 gwînîkurk;gekwînîkurkek;gwînîkurkek
@@ -284,7 +284,7 @@ heyber;heybeekîr;heyberekî
 pûçker;pûçkeiner;pûçkerine
 evîn;evîn;evîn
 çirg;çirg;çirgan
-birinc;birinênc;birincên
+birinc;birinc;birincên
 karton;kartonon;kartonno
 bêþikî;bêþikinanî;bêþikîinan
 angaþtin;aênngaþtinên;angaþtinên
@@ -296,7 +296,7 @@ gunhêl;gunhêinl;gunhêlin
 tedexul;tedexunol;tedexulno
 revîn;erevîin;revîne
 îlokanoyî;îlokanoyêî;îlokanoyîê
-meymûn;meymûekîn;meymûnekî
+meymûn;meymûeken;meymûnekî
 gir-girtin;gir-girtin;gir-girtin
 sera;seraa;seraa
 çamoroyî;çamoroyekeî;çamoroyîeke
@@ -318,7 +318,7 @@ fêrber;fêrbeinr;fêrberin
 fer;fenor;ferno
 pengizîn;pengizîn;nedipengizîim
 ziman;ziman;ziman
-îlokano;îlokanekeo;îlokanoekî
+îlokano;îlokanekîo;îlokanoekî
 farisî;farisineî;farisîine
 þikêr;þikêor;þikêro
 rebeqe;rebeqekîe;rebeqeeke
@@ -335,7 +335,7 @@ mêjîn;mêjîn;nemêjîme
 beytar;beytanor;beytarno
 çûn;çûn;naçe
 gulbend;gulbenênd;gulbendên
-qerargeh;qerargeinanh;qerargehinan
+qerargeh;qerargeh;qerargehinan
 pîpo;pîpano;pîpoan
 qetlîam;qetlîaekm;qetlîamek
 angaþtin;angaþtiekîn;angaþtineke
@@ -400,7 +400,7 @@ birin;biriinn;birinin
 binyat;binyanot;binyatno
 cesaret;cesareekt;cesaretek
 kêþmekêþî;kêþmekêþinanî;kêþmekêþîinan
-kef;keanf;kefan
+kef;kef;kefan
 hesiyan/hesîn;ehesiyan/hesîin;hesiyan/hesîne
 kotin;kotinon;kotinno
 mewqif;mewqiinanf;mewqifinan
@@ -430,7 +430,7 @@ kokaîn;kinokaînin;kokaînin
 neqandin;neqandin;neqandi
 lavlavk;lavlavnok;lavlavkno
 cemxane;cemxane;cemxane
-þehmû;þehminanû;þehmûinan
+þehmû;þehmû;þehmûinan
 miamer;miameor;miamero
 rêzan;rêzan;rêzan
 xilte;xiltane;xiltean
@@ -439,8 +439,8 @@ desthilatdar;desthilatdaar;desthilatdara
 dublor;dubloiner;dublorine
 rakirin;rakirin;birakiribayî
 aþûrî;aþûrineî;aþûrîine
-teq;teineq;teqine
-semon;semoekîn;semoneke
+teq;teq;teqine
+semon;semoeken;semoneke
 mîmar;mîmaor;mîmaro
 perawêz;perawêaz;perawêza
 qirnap;qirnaap;qirnapa
@@ -468,7 +468,7 @@ girsî;girsekeî;girsîeke
 ewraq;ewraq;ewraqan
 hekê;hekêê;hekêê
 qermît;qermînot;qermîtno
-quran;quraekîn;quraneke
+quran;quraeken;quraneke
 fisildûman;fisildûmainen;fisildûmanine
 geþker;geþkeinanr;geþkerinan
 camî;camekeî;camîeke
@@ -479,7 +479,7 @@ mader;madeinanr;maderinan
 melek;meleîk;melekî
 arû;aranû;arûan
 dîndarî;dîndarî;dîndarî
-rojhilatin;rojhilatieken;rojhilatineke
+rojhilatin;rojhilatiekîn;rojhilatineke
 kelîk;kelînok;kelîkno
 pewere;pewereine;pewereine
 þevrevînk;þevrevînk;þevrevînk
@@ -497,12 +497,12 @@ da-kutan;da-kutan;dida-kutam
 peyivîn;peyivîn;peyivîî
 tê-xistin;tê-xistin;ditê-xn
 qediyan;qediyan;qediyan
-payton;paytoekîn;paytoneke
+payton;paytoeken;paytoneke
 gevizîn;gevizîn;negevizîbûn
 barandin;barandin;barandin
 þel;þeal;þelê
 mereqdarî;mereqdarî;mereqdarî
-gênc;gênênc;gêncên
+gênc;gênc;gêncên
 dîkil;dîkiinl;dîkilin
 taw;tanow;tawno
 jehr;jehanr;jehran
@@ -563,7 +563,7 @@ qurane;qurannoe;quraneno
 isim;isiom;isimo
 danhevok;danhevoinek;danhevokine
 hevser;hevseîr;hevserî
-grafîk;grafîekek;grafîkeke
+grafîk;grafîekîk;grafîkeke
 piþtevanî;piþtevanênî;piþtevanîên
 berbend;berbenand;berbendan
 têvelî;têvelaî;têvelîa
@@ -631,7 +631,7 @@ mane;manae;manea
 kirêdar;kirêdaekr;kirêdarek
 rawir;rawiinanr;rawirinan
 xwendevan;xnêwendevaênn;xwendevanên
-êfrbûn;êênfrbûnên;êfrbûnên
+êfrbûn;ênêfrbûênn;êfrbûnên
 zalî;zalekeî;zalîeke
 kûlî;kûlineî;kûlîine
 zen;zenon;zenno
@@ -645,7 +645,7 @@ cotmeh;cotmeh;cotmeh
 dûrebîn;dûrebîn;dûrebîn
 hirîþo;hirîþineo;hirîþoine
 nivîsandin;nivîsandin;dinivîsînim
-rêveçûn;rênêveçûnên;rêveçûnên
+rêveçûn;rnêêveçûênn;rêveçûnên
 moto;motîo;motoî
 binavahî;binavahinanî;binavahîinan
 metafor;metafoar;metafora
@@ -663,7 +663,7 @@ dîrok;dîronok;dîrokno
 nok;nekokek;nokek
 epok;epoak;epoka
 incûr;incûênr;incûrên
-milyarder;milyardeeker;milyardereke
+milyarder;milyardeekîr;milyardereke
 amedî;amedêî;amedîê
 merre;merreke;merreek
 berfîn;berfîan;berfîna
@@ -723,7 +723,7 @@ qelîþtek;qelîþteîk;qelîþtekî
 mezûm;mezûênm;mezûmên
 binkask;binkasink;binkaskin
 meyxane;meyxanêe;meyxaneê
-kefilandin;kefilandiekîn;kefilandineke
+kefilandin;kefilandieken;kefilandineke
 jêrçav;jêrçaov;jêrçavo
 nifþ;nifekþ;nifþek
 masor;masonor;masorno
@@ -748,7 +748,7 @@ okyanos;okyanoins;okyanosin
 strû;strnoû;strûno
 çîm;çîinem;çîmine
 pîvazterk;pîvazterink;pîvazterkin
-tû;tinanû;tûinan
+tû;tû;tûinan
 fîlantropî;fîlantropêî;fîlantropîê
 qehirîn;qehirîn;neqehirîna
 zolik;zoliinek;zolikine
@@ -782,7 +782,7 @@ mikurhatin;manikurhatinan;mikurhatinan
 weþan;weþainen;weþanine
 dolmîþ;dolmîanþ;dolmîþan
 þewibîn;þanewibînan;þewibînan
-zîfaf;zîfaanf;zîfafan
+zîfaf;zîfaf;zîfafan
 qirêj;qirêênj;qirêjên
 gilîhlê;gilîhlê;gilîhlê
 pêncik;pêncik;pêncik
@@ -835,7 +835,7 @@ borîn;borîan;neborîana
 sindis;sindiinans;sindisinan
 çarenûs;çarenûêns;çarenûsên
 keman;kemaeken;kemaneke
-ked;keêd;kedê
+ked;ked;kedê
 qirþûqal;qirþûqaol;qirþûqalo
 sêdare;sêdarekîe;sêdareeke
 firne;firnêne;firneên
